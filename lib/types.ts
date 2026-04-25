@@ -50,6 +50,13 @@ export type CompanyTimelineEntry = {
   note?: string;
 };
 
+export type Source = {
+  title: string;
+  publisher?: string;
+  url: string;
+  accessedDate?: string;
+};
+
 export type Company = {
   id: string;
   name: string;
@@ -66,6 +73,7 @@ export type Company = {
   today?: CompanyTodaySnapshot;
   timeline?: CompanyTimelineEntry[];
   milestones?: { year: number; label: string }[];
+  sources?: Source[];
 };
 
 export type Reform = {
