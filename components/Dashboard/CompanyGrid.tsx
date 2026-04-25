@@ -26,7 +26,7 @@ const CATEGORY_ORDER: CompanyCategory[] = [
 const companies = companiesData as Company[];
 
 const CATEGORY_LABEL: Record<CompanyCategory, string> = {
-  pharma: "Pharma",
+  pharma: "Chinese pharma",
   mnc_pharma: "MNC pharma",
   platform: "Platform",
   investor: "Investor",
