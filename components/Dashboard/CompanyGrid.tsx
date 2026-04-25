@@ -45,7 +45,7 @@ export default function CompanyGrid() {
     <section className="space-y-2">
       <header className="flex items-baseline justify-between">
         <h3 className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[--color-muted]">
-          Companies on the board
+          Major players
         </h3>
         <span className="num text-xs text-[--color-muted]">
           {activeIds.length} / {companies.length}
