@@ -1,15 +1,8 @@
 export type CompanyCategory =
-  | "innovator"
-  | "cro_cdmo"
-  | "vaccines"
-  | "genomics"
-  | "traditional"
-  | "adc"
-  | "cell_gene"
-  | "mrna"
-  | "ai_bio"
-  | "investor"
+  | "pharma"
   | "mnc_pharma"
+  | "platform"
+  | "investor"
   | "academic"
   | "hospital"
   | "exchange";

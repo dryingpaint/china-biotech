@@ -6,7 +6,7 @@
     "founded": 1970,
     "headquarters": "Lianyungang · Shanghai",
     "founders": "Sun Piaoyang",
-    "category": "traditional",
+    "category": "pharma",
     "shortDescription": "State-origin generics maker that pivoted to oncology innovation and is now China's largest pharma by market cap",
     "signature": "Camrelizumab (PD-1)",
     "narrativeHook": "Hengrui is the bridge between two eras of Chinese pharma: a 1970s state factory in Lianyungang that turned itself into the country's largest innovator, then proved the model works abroad with a $14B+ in announced license-out value to Merck KGaA, GSK, and IDEAYA in 2024-2025.",
@@ -176,6 +176,11 @@
       "targetedonc-fda-receives-resubmitted-nda-for-camreli",
       "companiesmarketcap-jiangsu-hengrui-medicine",
       "fiercepharma-hengruis-sun-piaoyang-chinas-richest-pha"
+    ],
+    "modalities": [
+      "smallMol",
+      "novelMab",
+      "adc"
     ]
   },
   {
@@ -185,7 +190,7 @@
     "founded": 1993,
     "headquarters": "Shenyang",
     "founders": "Lou Dan, Lou Jing",
-    "category": "innovator",
+    "category": "pharma",
     "shortDescription": "Shenyang-based biologics pioneer behind China's dominant EPO and TPO franchises; vaulted into global headlines with the 2025 Pfizer PD-1/VEGF bispecific deal",
     "signature": "EPIAO erythropoietin, TPIAO thrombopoietin",
     "narrativeHook": "Founded as Shenyang Sunshine in 1993 to make recombinant biologics affordable, 3SBio spent two decades quietly leading China's EPO and TPO markets — then in May 2025 turned its in-house PD-1/VEGF bispecific (SSGJ-707) into a $1.25B-upfront, up-to-$6B Pfizer deal, the largest single-asset license-out by a Chinese biotech to that point.",
@@ -306,6 +311,10 @@
       "hkex-annual-results-announcement-for-the-year",
       "fiercepharma-chinas-3sbio-returns-to-market-and-pulls",
       "3sbio-ir-3sbio-corporate-governance"
+    ],
+    "modalities": [
+      "recombinant",
+      "biosimilar"
     ]
   },
   {
@@ -315,7 +324,7 @@
     "founded": 1999,
     "headquarters": "Shenzhen",
     "founders": "Wang Jian, Yang Huanming, Liu Siqi, Yu Jun",
-    "category": "genomics",
+    "category": "platform",
     "shortDescription": "China's flagship genomics platform — sequencing infrastructure, NIPT, and the DNBSEQ instrument line — split across BGI Genomics (services) and MGI Tech (instruments), and a recurring named target in US biosecurity legislation",
     "signature": "DNBSEQ sequencers, MGI",
     "narrativeHook": "Founded in 1999 to put China inside the Human Genome Project, BGI grew into the only non-Western company building its own clinical sequencing instruments at scale — and became the first Chinese genomics name written by name into US biosecurity law.",
@@ -468,7 +477,7 @@
     "founded": 2000,
     "headquarters": "Shanghai",
     "founders": "Ge Li (Li Ge), Ning Zhao",
-    "category": "cro_cdmo",
+    "category": "platform",
     "shortDescription": "Backbone of China's pharma services outsourcing — the end-to-end CRDMO that quietly underwrites a large share of global early-stage drug discovery.",
     "signature": "End-to-end CRDMO",
     "narrativeHook": "If China's innovator generation has a foundry, it is WuXi AppTec — a Shanghai-built outsourcing engine so embedded in U.S. drug pipelines that Congress wrote a law specifically to pry it loose.",
@@ -568,6 +577,10 @@
       "cen-c-en-profiles-wuxi-apptec-chinese-contra",
       "companiesmarketcap-wuxi-apptec",
       "cen-house-passes-act-aimed-at-5-chinese-drug"
+    ],
+    "modalities": [
+      "smallMol",
+      "novelMab"
     ]
   },
   {
@@ -577,7 +590,7 @@
     "founded": 2001,
     "headquarters": "Beijing",
     "founders": "Yin Weidong, Pan Aihua",
-    "category": "vaccines",
+    "category": "pharma",
     "shortDescription": "Vaccines, scaled massively during COVID",
     "signature": "CoronaVac",
     "narrativeHook": "CoronaVac became the workhorse of the developing world's COVID response — more than 2.9 billion doses shipped to over 60 countries — but the cash it generated has been frozen for years inside a U.S.-listed shell whose shares haven't traded since 2019, the longest-running governance dispute in Chinese biotech.",
@@ -716,6 +729,9 @@
       "businesswire-sinovac-reports-unaudited-first-half-of",
       "nasdaq-nasdaq-halts-sinovac-biotech-ltd",
       "hvi-pmc-profile"
+    ],
+    "modalities": [
+      "vaccine"
     ]
   },
   {
@@ -725,7 +741,7 @@
     "founded": 2008,
     "headquarters": "Yantai, Shandong",
     "founders": "Wang Weidong, Jianmin Fang",
-    "category": "adc",
+    "category": "pharma",
     "shortDescription": "Yantai-based dual A+H biotech that pioneered China's first homegrown ADC and a B-cell autoimmune fusion protein, anchoring two record license-outs to Seagen/Pfizer and Vor Bio",
     "signature": "Disitamab vedotin (RC48, HER2 ADC)",
     "narrativeHook": "Disitamab vedotin was the first China-discovered ADC to be out-licensed to a Western developer in a megadeal (Seagen, $2.6B in 2021), and telitacicept's 2025 NEJM Phase 3 lupus result — paired with a $4.1B Vor Bio license — turned RemeGen into a two-platform proof point that Chinese biology can sit at the global frontier in both oncology and autoimmunity.",
@@ -840,6 +856,10 @@
       "globeandmail-remegen-boosts-2025-revenue-as-telitacic",
       "neurologylive-remegens-telitacicept-approved-for-treat",
       "remegen-jianmin-fang"
+    ],
+    "modalities": [
+      "adc",
+      "novelMab"
     ]
   },
   {
@@ -849,7 +869,7 @@
     "founded": 2009,
     "headquarters": "Tianjin",
     "founders": "Xuefeng Yu, Tao Zhu, Dongxu Qiu, Helen Huihua Mao",
-    "category": "vaccines",
+    "category": "pharma",
     "shortDescription": "Tianjin-based vaccine innovator built by Sanofi Pasteur returnees; first to commercialize a Chinese-developed Ebola vaccine, the world's first inhaled COVID-19 vaccine, and China's first domestic MCV4 meningococcal conjugate vaccine",
     "signature": "Convidecia (Ad5-nCoV) inhalable COVID vaccine",
     "narrativeHook": "CanSino is the canonical 'haigui' vaccine play — four Sanofi Pasteur veterans returning to Tianjin in 2009, the first 'A+H' dual-listed vaccine company, and the platform that delivered the world's first inhaled COVID-19 vaccine before the post-pandemic revenue cliff forced it to rebuild around routine immunization.",
@@ -980,6 +1000,9 @@
       "bambooworks-cansino-looks-for-next-growth-shot-in-li",
       "fiercepharma-astrazeneca-pursues-mrna-signs-vaccine-m",
       "pharmaboardroom-four-things-to-know-about-cansino-biolog"
+    ],
+    "modalities": [
+      "vaccine"
     ]
   },
   {
@@ -989,7 +1012,47 @@
     "founded": 2010,
     "headquarters": "Basel · Beijing · Cambridge MA",
     "founders": "John V. Oyler, Xiaodong Wang",
-    "category": "innovator",
+    "category": "pharma",
+    "modalities": [
+      "smallMol",
+      "novelMab"
+    ],
+    "therapeuticAreas": [
+      "Oncology — hematology",
+      "Oncology — solid tumors"
+    ],
+    "productClasses": [
+      {
+        "name": "BTK inhibitor",
+        "modality": "smallMol",
+        "status": "approved"
+      },
+      {
+        "name": "PD-1 inhibitor",
+        "modality": "novelMab",
+        "status": "approved"
+      },
+      {
+        "name": "BCL2 inhibitor",
+        "modality": "smallMol",
+        "status": "phase3"
+      },
+      {
+        "name": "BTK protein degrader",
+        "modality": "smallMol",
+        "status": "phase3"
+      },
+      {
+        "name": "B7-H4 ADC",
+        "modality": "adc",
+        "status": "phase1"
+      },
+      {
+        "name": "CDK2 inhibitor",
+        "modality": "smallMol",
+        "status": "phase1"
+      }
+    ],
     "shortDescription": "First China-founded oncology biotech to reach global commercial scale; rebranded BeOne Medicines and redomiciled to Switzerland in May 2025",
     "signature": "Brukinsa (zanubrutinib)",
     "narrativeHook": "Brukinsa was the first cancer drug discovered in China to win FDA approval (Nov 2019) and the first to beat a Western standard of care head-to-head (vs Imbruvica in ALPINE) — the moment China's innovation era became unignorable to global pharma.",
@@ -1005,10 +1068,6 @@
         "NASDAQ: ONC",
         "HKEX: 06160",
         "STAR: 688235"
-      ],
-      "modalities": [
-        "small molecule",
-        "monoclonal antibody"
       ],
       "leadAsset": {
         "name": "Brukinsa (zanubrutinib)",
@@ -1119,7 +1178,7 @@
     "founded": 2011,
     "headquarters": "Suzhou",
     "founders": "Michael Yu (Yu Dechao)",
-    "category": "innovator",
+    "category": "pharma",
     "shortDescription": "Suzhou-based PD-1 pioneer that built the template for China-MNC co-development through Eli Lilly, then pivoted to global out-licensing with the Takeda mega-deal and NMPA approval of the world's first GCG/GLP-1 dual agonist mazdutide",
     "signature": "Tyvyt (sintilimab)",
     "narrativeHook": "Innovent's Tyvyt was the only PD-1 admitted to China's NRDL in 2019 (at a 64% price cut) and the FDA's Feb 2022 rejection of its Lilly-partnered BLA — on the basis that an all-China trial couldn't represent a US population — became the cautionary case study that reshaped how Chinese biotechs design global pivotals.",
@@ -1262,6 +1321,10 @@
       "innovent-innovent-enters-into-exclusive-global-li",
       "innovent-chinas-first-domestic-anti-ctla-4-monocl",
       "innovent-biologics-wikipedia"
+    ],
+    "modalities": [
+      "novelMab",
+      "bispecific"
     ]
   },
   {
@@ -1271,7 +1334,7 @@
     "founded": 2012,
     "headquarters": "Shanghai",
     "founders": "Xiong Jun, Li Ning, Zhang Zhuobing",
-    "category": "innovator",
+    "category": "pharma",
     "shortDescription": "First China-discovered PD-1 approved by NMPA",
     "signature": "Toripalimab",
     "narrativeHook": "Toripalimab — the first homegrown Chinese PD-1 — and the first FDA-approved Chinese-developed checkpoint inhibitor, validating that domestic R&D could clear US regulatory bars on its own clinical evidence.",
@@ -1391,6 +1454,9 @@
       "junshi-hkex-ipo-2018",
       "chinaknowledge-junshi-star-ipo-2020",
       "junshi-about-us"
+    ],
+    "modalities": [
+      "novelMab"
     ]
   },
   {
@@ -1400,7 +1466,7 @@
     "founded": 2012,
     "headquarters": "Zhongshan, Guangdong, China",
     "founders": "Yu (Michelle) Xia, Baiyong Li",
-    "category": "innovator",
+    "category": "pharma",
     "shortDescription": "Bispecific antibody pioneer; developer of ivonescimab, the first PD-1/VEGF bispecific to beat Keytruda head-to-head.",
     "signature": "Ivonescimab (PD-1/VEGF bispecific)",
     "narrativeHook": "When ivonescimab outperformed pembrolizumab in HARMONi-2, a Zhongshan-headquartered company built by a Newcastle PhD became the first to suggest the global immuno-oncology standard could be reset from China.",
@@ -1516,6 +1582,10 @@
       "lancet-harmoni2-2025",
       "akeso-michelle-xia-wikipedia",
       "akeso-wsj-xia-profile-2025"
+    ],
+    "modalities": [
+      "bispecific",
+      "novelMab"
     ]
   },
   {
@@ -1525,7 +1595,7 @@
     "founded": 2014,
     "headquarters": "Shanghai · Cambridge MA",
     "founders": "Samantha Du (Du Ying)",
-    "category": "innovator",
+    "category": "pharma",
     "shortDescription": "Defined the license-in business model; pivoting to in-house global pipeline",
     "signature": "Zejula (China rights) · VYVGART · ZL-1310 (DLL3 ADC)",
     "narrativeHook": "Samantha Du built Zai Lab into the template for China's license-in era — Zejula, Optune, VYVGART — and is now trying to graduate the company into a homegrown ADC and CNS innovator.",
@@ -1668,6 +1738,10 @@
       "zailab-q3-2025-results",
       "zailab-10k-2024-cayman",
       "companiesmarketcap-zailab"
+    ],
+    "modalities": [
+      "novelMab",
+      "smallMol"
     ]
   },
   {
@@ -1677,7 +1751,7 @@
     "founded": 2014,
     "headquarters": "Somerset NJ · Nanjing",
     "founders": "Frank Zhang (Zhang Fangliang)",
-    "category": "cell_gene",
+    "category": "pharma",
     "shortDescription": "GenScript-spun cell therapy company that co-developed Carvykti (cilta-cel) — the world's deepest-responding BCMA CAR-T — with Janssen, becoming the first China-discovered cell therapy to reach blockbuster scale on the global market",
     "signature": "Carvykti (cilta-cel)",
     "narrativeHook": "Legend's $350M-upfront deal with Janssen in December 2017 — struck on the back of an investigator-initiated trial in Xi'an showing 100% response in r/r myeloma — was the moment a Chinese-discovered cell therapy first commanded MNC big-pharma terms; Carvykti's $1.9B in 2025 net trade sales is the validation.",
@@ -1807,6 +1881,9 @@
       "biospace-legend-zhang-arrest",
       "legend-locations-page",
       "biospace-cartitude-4-phase3-win"
+    ],
+    "modalities": [
+      "cellTherapy"
     ]
   },
   {
@@ -1816,7 +1893,7 @@
     "founded": 2015,
     "headquarters": "Wuxi · Shanghai · Hong Kong",
     "founders": "Ge Li, Chris Chen",
-    "category": "cro_cdmo",
+    "category": "platform",
     "shortDescription": "Global biologics CRDMO spun out of WuXi AppTec; the world's second-largest biologics contract developer and the most-watched name on the BIOSECURE Act target list.",
     "signature": "Mab/ADC manufacturing",
     "narrativeHook": "When BIOSECURE named WuXi Biologics in 2024, every Western biotech with a Chinese manufacturing tail had to decide whether China-built CMC was a strategic asset or a political liability — and Chris Chen's answer was to break ground in Singapore.",
@@ -1948,6 +2025,11 @@
       "wuxibio-locations-facilities",
       "wuxibio-wikipedia",
       "fiercepharma-wuxibio-bio-2024-withdraw"
+    ],
+    "modalities": [
+      "novelMab",
+      "adc",
+      "bispecific"
     ]
   },
   {
@@ -1957,7 +2039,7 @@
     "founded": 2015,
     "headquarters": "Suzhou",
     "founders": "Frank Ningjun Jiang",
-    "category": "innovator",
+    "category": "pharma",
     "shortDescription": "Suzhou-based precision oncology innovator known for sugemalimab (Cejemly) and an in-licensed precision-oncology portfolio commercialised in China",
     "signature": "Sugemalimab (PD-L1)",
     "narrativeHook": "CStone built its early business by stitching together world-class licensing partnerships — Blueprint, Pfizer, Agios, Pfizer again — and using them to learn how to run global trials. Sugemalimab's 2024 EMA approval made it the first Chinese-discovered anti-PD-L1 antibody to clear a Western regulator, even as the EQRx implosion and FDA's China-only data stance closed the U.S. door.",
@@ -2097,6 +2179,9 @@
       "cstone-ec-stage-iii-nsclc-2025",
       "cstone-cs5001-ror1-adc-asco-2024",
       "cstone-share-placing-2026"
+    ],
+    "modalities": [
+      "novelMab"
     ]
   },
   {
@@ -2106,7 +2191,7 @@
     "founded": 2016,
     "headquarters": "Rockville MD · Short Hills NJ",
     "founders": "Jingwu Zang",
-    "category": "innovator",
+    "category": "pharma",
     "shortDescription": "Differentiated immuno-oncology biologics innovator that divested its China business in 2024 and rebranded as NovaBridge Biosciences in October 2025",
     "signature": "Givastomig (Claudin 18.2 × 4-1BB bispecific)",
     "narrativeHook": "Born from a 2016 merger of two China biotechs and listed on NASDAQ in 2020, I-Mab became one of the cleanest test cases of a US-China biotech decoupling — divesting its entire China operation in 2024 and rebranding as a US-only platform.",
@@ -2215,6 +2300,9 @@
       "imab-ceo-sean-fu-2024",
       "nature-imab-going-global-2020",
       "endpoints-imab-divest-china-2024"
+    ],
+    "modalities": [
+      "novelMab"
     ]
   },
   {
@@ -2224,7 +2312,7 @@
     "founded": 2017,
     "headquarters": "Shanghai",
     "founders": "Wei Fu (CBC Group), Kerry Blanchard",
-    "category": "innovator",
+    "category": "pharma",
     "shortDescription": "CBC-incubated Asia-Pacific specialty platform pivoting from license-in to in-house mRNA cancer vaccines.",
     "signature": "Nefecon (IgA nephropathy)",
     "narrativeHook": "Built as C-Bridge Capital's license-in vehicle for Greater China, Everest leveraged HK 18A capital to import a wave of foreign assets — Nefecon, Xerava, etrasimod — then in 2024 pivoted toward an in-house, AI-powered mRNA cancer vaccine pipeline.",
@@ -2327,6 +2415,10 @@
       "everest-etrasimod-fda-approval-2023",
       "everest-rogers-luo-ceo-2022",
       "everest-2030-strategy-2025"
+    ],
+    "modalities": [
+      "smallMol",
+      "novelMab"
     ]
   },
   {
@@ -2336,7 +2428,7 @@
     "founded": 2019,
     "headquarters": "Suzhou",
     "founders": "Bo Ying",
-    "category": "mrna",
+    "category": "pharma",
     "shortDescription": "China's flagship mRNA platform; co-developer of ARCoV/AWcorna, China's first homegrown mRNA COVID-19 vaccine.",
     "signature": "ARCoV / AWcorna COVID mRNA vaccine",
     "narrativeHook": "Founded in January 2019 by ex-Moderna scientist Bo Ying, Abogen went from a Suzhou startup to a unicorn in two years and set a Chinese biotech fundraising record with a $700M Series C in August 2021 — proof that China could field a credible mRNA platform of its own.",
@@ -2422,6 +2514,10 @@
       "abogen-nmpa-ind-abo2102-2025",
       "clinicaltrials-abo2011-nct06088004",
       "caba-bo-ying-bio"
+    ],
+    "modalities": [
+      "nucleicAcid",
+      "vaccine"
     ]
   },
   {
@@ -2431,7 +2527,7 @@
     "founded": 2020,
     "headquarters": "Shanghai",
     "founders": "John Zhu",
-    "category": "adc",
+    "category": "pharma",
     "shortDescription": "Shanghai ADC specialist whose BioNTech and GSK out-licensing deals helped define the 2023-2024 China ADC license-out wave.",
     "signature": "DB-1303 / BNT323 (HER2 ADC, trastuzumab pamirtecan)",
     "narrativeHook": "Founded in January 2020 by VC-turned-operator John Zhu, DualityBio rode its DITAC linker-payload platform to a $1.7B BioNTech partnership in 2023 and a $1B GSK option in 2024 — then capped the run with the largest HKEX 18A IPO in four years.",
@@ -2517,6 +2613,9 @@
       "pharmaboardroom-john-zhu-interview",
       "bambooworks-dualitybio-rockstar-founder",
       "stockanalysis-dualitybio-9606-financials"
+    ],
+    "modalities": [
+      "adc"
     ]
   },
   {
@@ -2526,7 +2625,7 @@
     "founded": 2016,
     "headquarters": "Chengdu",
     "founders": "Liu Ge-xin (parent Sichuan Kelun); Ge Junyou (CEO)",
-    "category": "adc",
+    "category": "pharma",
     "shortDescription": "Sichuan Kelun's biologics arm; ADC powerhouse behind the Merck/MSD multi-billion-dollar collaboration.",
     "signature": "Sacituzumab tirumotecan (TROP2 ADC)",
     "narrativeHook": "A Chengdu antibiotics conglomerate's R&D spinoff turned itself into the most lucrative China ADC story of the cycle: $9.3B in biobucks from Merck for seven preclinical candidates, and the first domestically discovered ADC fully approved by the NMPA.",
@@ -2640,6 +2739,10 @@
       "kelun-biotech-about-us",
       "prnewswire-kelun-biotech-b-marker-removed",
       "fiercebiotech-merck-kelun-93b-third-deal"
+    ],
+    "modalities": [
+      "adc",
+      "smallMol"
     ]
   },
   {
@@ -2649,7 +2752,7 @@
     "founded": 2019,
     "headquarters": "Shanghai",
     "founders": "Crystal Qin (Qin Jiangping)",
-    "category": "innovator",
+    "category": "pharma",
     "shortDescription": "Shanghai antibody/ADC innovator behind the Merck-licensed PD-1/VEGF bispecific LM-299; acquired by Sino Biopharm in 2025.",
     "signature": "LM-299 (PD-1xVEGF bispecific licensed to Merck)",
     "narrativeHook": "A six-year-old Shanghai biotech sold its anti-PD-1/VEGF bispecific to Merck for $588M upfront and up to $2.7B in milestones — a deal that signaled Big Pharma's scramble to answer Akeso/Summit's ivonescimab and helped trigger a $951M takeout by Sino Biopharm.",
@@ -2730,6 +2833,9 @@
       "fiercebiotech-sino-lanova-951m-2025",
       "biopharmadive-lanova-sino-2025",
       "lanova-about-us"
+    ],
+    "modalities": [
+      "bispecific"
     ]
   },
   {
@@ -2739,7 +2845,7 @@
     "founded": 1995,
     "headquarters": "Lianyungang, Jiangsu",
     "founders": "Zhong Huijuan",
-    "category": "innovator",
+    "category": "pharma",
     "shortDescription": "Family-controlled Lianyungang innovator; deep oncology, CNS and metabolic pipelines, sister firm to Hengrui.",
     "signature": "Aumolertinib (3rd-gen EGFR) + GSK ADC mega-deals",
     "narrativeHook": "Founded by ex-chemistry teacher Zhong Huijuan and tied through marriage to Hengrui's Sun Piaoyang, Hansoh became the headline-grabbing license-out shop of the 2023-24 China ADC boom — twice signing GSK and once signing Merck for deals topping $1.7B each.",
@@ -2769,7 +2875,7 @@
         "partner": "Merck (MSD)",
         "type": "license-out",
         "year": 2024,
-        "valueBillions": 2.0
+        "valueBillions": 2
       }
     },
     "timeline": [
@@ -2862,6 +2968,10 @@
       "fiercepharma-hansoh-hengrui-family",
       "hansoh-aumolertinib-eu-approval",
       "hansoh-pegmolesatide-nmpa-approval"
+    ],
+    "modalities": [
+      "smallMol",
+      "novelMab"
     ]
   },
   {
@@ -2870,7 +2980,7 @@
     "nameZh": "国药集团 / 中国生物",
     "founded": 1998,
     "headquarters": "Beijing",
-    "category": "vaccines",
+    "category": "pharma",
     "shortDescription": "Central state-owned pharmaceutical group whose CNBG vaccine arm produced BBIBP-CorV, the first non-Western COVID-19 vaccine on the WHO Emergency Use Listing.",
     "signature": "BBIBP-CorV (inactivated COVID-19 vaccine)",
     "narrativeHook": "When WHO greenlit BBIBP-CorV in May 2021, a Beijing state vaccine plant became the supply backbone of COVAX outside the West — proof that China's century-old biologics infrastructure could move at pandemic speed.",
@@ -2957,6 +3067,9 @@
       "sinopharm-fortune-global-500-2025",
       "wikipedia-sinopharm-company",
       "sinopharm-sibp-mrna-2025"
+    ],
+    "modalities": [
+      "vaccine"
     ]
   },
   {
@@ -2966,7 +3079,7 @@
     "founded": 2001,
     "headquarters": "Kunming, Yunnan",
     "founders": "Li Yunchun (Yunchun Li)",
-    "category": "vaccines",
+    "category": "pharma",
     "shortDescription": "Yunnan-based domestic vaccine maker; second-to-market PCV13 in China and partner on China's first mRNA COVID vaccine.",
     "signature": "PCV13 (WEUPHORIA) and ARCoV/AWcorna mRNA COVID-19 vaccine",
     "narrativeHook": "From Hib and meningococcal conjugates to PCV13 and an mRNA platform with Abogen and the PLA Academy of Military Sciences — Walvax embodies the path from import-substitution vaccine maker to mRNA-era player on China's western frontier.",
@@ -3099,6 +3212,9 @@
       "walvax-arcov-indonesia-eua-2022",
       "globaldata-walvax-profile-2024",
       "walvax-mrna-pipeline-2025"
+    ],
+    "modalities": [
+      "vaccine"
     ]
   },
   {
@@ -3108,7 +3224,7 @@
     "founded": 2010,
     "headquarters": "Shanghai",
     "founders": "Scott Liu (Liu Shikao), Wenjie Zhang; co-founded with Fosun Pharma",
-    "category": "innovator",
+    "category": "pharma",
     "shortDescription": "Fosun Pharma-backed biologics company that delivered China's first homegrown monoclonal-antibody biosimilar (Hanlikang/rituximab, 2019) and the first China-developed biosimilar approved in the EU and the US (Hanquyou/Hercessi, trastuzumab), and is now globalizing its in-house anti-PD-1 serplulimab",
     "signature": "Hanlikang (HLX01, rituximab biosimilar)",
     "narrativeHook": "Henlius proved that a Chinese biotech could write the biosimilar playbook for itself: HLX01 was the first mAb biosimilar approved under NMPA's 2015 guideline, and HLX02 (Zercepac/Hercessi) became the first Chinese-developed monoclonal antibody to clear both EMA and FDA — a quiet but decisive answer to the question of whether China could ship cGMP biologics into Western markets.",
@@ -3256,6 +3372,10 @@
       "organon-henlius-pertuzumab-denosumab-license",
       "scmp-henlius-scott-liu-mission",
       "nature-henlius-integrated-platform-2020"
+    ],
+    "modalities": [
+      "biosimilar",
+      "novelMab"
     ]
   },
   {
@@ -3265,7 +3385,7 @@
     "founded": 2014,
     "headquarters": "Shenzhen",
     "founders": "Shuhao Wen, Lipeng Lai, Jian Ma",
-    "category": "ai_bio",
+    "category": "platform",
     "shortDescription": "Quantum-physics + AI drug discovery; first HKEX 18C listing",
     "signature": "DoveTree multi-billion deal",
     "narrativeHook": "Three MIT physics postdocs who turned a quantum crystal-structure prediction tool into Hong Kong's first Chapter 18C listing — and a $6B AI drug-discovery contract.",
@@ -3273,7 +3393,7 @@
     "lastVerified": "2026-04-25",
     "today": {
       "asOf": "2026-04",
-      "marketCapBillions": 5.0,
+      "marketCapBillions": 5,
       "revenueBillions": 0.037,
       "revenueYear": 2024,
       "approvedDrugCount": 0,
@@ -3363,6 +3483,9 @@
       "xtalpi-pfizer-expand-2025",
       "xtalpi-lilly-250m-2023",
       "xtalpi-wikipedia"
+    ],
+    "modalities": [
+      "smallMol"
     ]
   },
   {
@@ -3372,7 +3495,7 @@
     "founded": 2014,
     "headquarters": "Boston · Hong Kong · New York · Suzhou · Shanghai",
     "founders": "Alex Zhavoronkov",
-    "category": "ai_bio",
+    "category": "pharma",
     "shortDescription": "Generative-AI drug discovery platform; first AI-discovered + AI-designed small molecule to clear a Phase IIa readout.",
     "signature": "Rentosertib (TNIK inhibitor for IPF)",
     "narrativeHook": "Founded at Johns Hopkins in 2014 and rebuilt around Hong Kong and Suzhou after 2019, Insilico became the proof point that a generative-AI pipeline could carry a wholly novel target through Nature Medicine — and listed under HKEX Chapter 8.05 in December 2025 as the first profitable AI biotech to clear that bar.",
@@ -3493,6 +3616,9 @@
       "insilico-tnik-ipf-phase2a-topline",
       "nasdaq-insilico-chapter-805",
       "insilico-wikipedia"
+    ],
+    "modalities": [
+      "smallMol"
     ]
   },
   {
@@ -3502,7 +3628,7 @@
     "founded": 2016,
     "headquarters": "Shanghai",
     "founders": "James Li (co-founder, chairman/CEO 2016–2024); founded as a 50/50 joint venture between Juno Therapeutics (a Bristol Myers Squibb company) and WuXi AppTec",
-    "category": "cell_gene",
+    "category": "pharma",
     "shortDescription": "First NMPA-approved domestic CAR-T",
     "signature": "Carteyva (relma-cel)",
     "narrativeHook": "A Juno–WuXi joint venture that put China's first homegrown CAR-T on the market — Carteyva (relma-cel) cleared the NMPA in September 2021 as the country's first Category 1 cell therapy and the sixth CAR-T product approved anywhere in the world.",
@@ -3620,6 +3746,9 @@
       "jw-slvv-juno-license-2025",
       "jw-pipeline-page",
       "jw-jwcar239-first-infusion-2025"
+    ],
+    "modalities": [
+      "cellTherapy"
     ]
   },
   {
@@ -3628,19 +3757,229 @@
     "nameZh": "泰格医药",
     "founded": 2004,
     "headquarters": "Hangzhou",
-    "category": "cro_cdmo",
+    "founders": "Ye Xiaoping, Cao Xiaochun",
+    "category": "platform",
     "shortDescription": "China's largest clinical CRO; multinational trial support",
-    "signature": "HKEX 03347 + Shenzhen 300347"
+    "signature": "HKEX 03347 + Shenzhen 300347",
+    "narrativeHook": "Tigermed is the Hangzhou-built clinical-trial backbone of China's innovator generation — the only Chinese CRO inside the global top ten, running BeiGene's Brukinsa registrational program and the in-country trials of nearly every multinational sponsor.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "today": {
+      "asOf": "2026-04",
+      "revenueBillions": 0.95,
+      "revenueYear": 2025,
+      "approvedDrugCount": 0,
+      "listings": [
+        "SZSE: 300347",
+        "HKEX: 03347"
+      ],
+      "modalities": []
+    },
+    "timeline": [
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "Founded in Hangzhou by Ye Xiaoping and Cao Xiaochun",
+        "note": "Ye, a former Shanghai Roche medical director with an Oxford PhD, teams with ex-Jiuyuan Gene executive Cao Xiaochun to launch a domestic clinical CRO at the moment China is harmonising with ICH-style trial standards."
+      },
+      {
+        "chapterId": "innovator-generation",
+        "status": "ChiNext IPO (SZSE: 300347)",
+        "listings": [
+          "SZSE: 300347"
+        ],
+        "note": "August 17 2012 listing on Shenzhen ChiNext at RMB 37.88, raising ~RMB 508M. Becomes the public-market vehicle through which Chinese biotechs (BeiGene, Innovent, Junshi, Akeso) buy clinical-trial capacity."
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Spins off U.S. preclinical arm Frontage Holdings (HKEX: 1521)",
+        "note": "May 30 2019 — Pennsylvania-based Frontage lists on HKEX; Tigermed retains majority control. Cements a U.S./China bioanalytical and DMPK footprint as Chinese sponsors begin filing FDA INDs in volume."
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Hong Kong dual listing (HKEX: 03347)",
+        "listings": [
+          "SZSE: 300347",
+          "HKEX: 03347"
+        ],
+        "note": "August 7 2020 — prices at HK$100, raises ~US$1.38B in Asia's largest healthcare listing of the year. Davis Polk advises on the HK$10.7B offering."
+      },
+      {
+        "chapterId": "going-global",
+        "status": "China clinical-CRO market leader; FY2024 revenue RMB 6.60B (-10.6%)",
+        "note": "Holds 12.8% of China's clinical CRO market in 2023 — the only Chinese CRO in the global top ten (1.4% global share). FY2024 revenue RMB 6,603M (-10.6%); adjusted net profit RMB 855M (-42.1%); net new bookings RMB 8.42B (+7.3%); backlog RMB 15.78B. Supports 28 Class I new drug + 6 innovative device approvals in 2024."
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "FY2025 recovery; Japan and Shanghai bolt-on M&A",
+        "note": "FY2025 revenue RMB 6.83B (+3.5%); net profit attributable to parent RMB 888M (+119%). Net new contract value RMB 10.16B (+20.7%); backlog RMB 18.20B (+15.3%). Acquires Japanese CRO Micron and Shanghai Bioquick; opens new Hangzhou global HQ; awarded MSCI ESG AAA. BIOSECURE Act enacted via FY2026 NDAA (Dec 18 2025) does not name Tigermed, but the law reshapes the China-CRO competitive landscape."
+      }
+    ],
+    "milestones": [
+      {
+        "year": 2004,
+        "label": "Founded in Hangzhou by Ye Xiaoping and Cao Xiaochun"
+      },
+      {
+        "year": 2012,
+        "label": "ChiNext IPO on Shenzhen Stock Exchange (300347), raising ~RMB 508M"
+      },
+      {
+        "year": 2019,
+        "label": "U.S. preclinical subsidiary Frontage Holdings IPOs on HKEX (1521.HK)"
+      },
+      {
+        "year": 2020,
+        "label": "HKEX secondary listing (03347) prices at HK$100, raising ~US$1.38B"
+      },
+      {
+        "year": 2024,
+        "label": "FY2024 revenue RMB 6.60B; 12.8% China clinical-CRO market share"
+      },
+      {
+        "year": 2025,
+        "label": "FY2025 revenue RMB 6.83B; acquires Japanese CRO Micron and Shanghai Bioquick"
+      }
+    ],
+    "sources": [
+      "tigermed-prnewswire-2025-annual-results",
+      "tigermed-prnewswire-2024-full-year-results",
+      "tigermed-biospace-2025-annual-results",
+      "tigermed-leadership-page",
+      "tigermed-qiming-chinext-ipo-2012",
+      "tigermed-capitalwatch-hkex-debut-2020",
+      "davispolk-tigermed-hk-ipo-2020",
+      "frontage-hkex-prospectus-2019",
+      "tigermed-equalocean-clinical-cro-profile",
+      "tigermed-jpm-2025-presentation",
+      "ropesgray-biosecure-act-enacted-2"
+    ]
   },
   {
     "id": "pharmaron",
     "name": "Pharmaron",
     "nameZh": "康龙化成",
-    "founded": 2003,
+    "founded": 2004,
     "headquarters": "Beijing",
-    "category": "cro_cdmo",
-    "shortDescription": "Drug discovery and development services from chemistry through manufacturing",
-    "signature": "HKEX 03759 + Shenzhen 300759"
+    "founders": "Boliang (Larry) Lou",
+    "category": "platform",
+    "shortDescription": "Full-service CRO/CDMO spanning discovery chemistry, biology, CMC and commercial manufacturing across China, the UK and the US",
+    "signature": "Shenzhen 300759 (Jan 2018) + HKEX 03759 (Nov 2019)",
+    "narrativeHook": "The other Chinese R&D engine after WuXi — Boliang Lou built Pharmaron from a 20-person Beijing chemistry shop in 2004 into a globally distributed, dual-listed CRO/CDMO with major UK biologics and gene-therapy capacity in Hoddesdon and Liverpool, positioning it as the most-watched alternative if BIOSECURE expands beyond the WuXi names.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "today": {
+      "asOf": "2026-04",
+      "revenueBillions": 1.7,
+      "revenueYear": 2024,
+      "approvedDrugCount": 0,
+      "listings": [
+        "SZSE: 300759",
+        "HKEX: 03759"
+      ],
+      "modalities": [
+        "small molecule",
+        "gene therapy",
+        "CAR-T"
+      ],
+      "leadAsset": {
+        "name": "Integrated CRO/CDMO platform",
+        "mechanism": "Discovery-through-commercial drug R&D services",
+        "indication": "All therapeutic areas (small molecule + biologics + cell & gene therapy)",
+        "status": "FY2024 revenue RMB 12,275.8M (~US$1.70B), +6.4% YoY; H1 2025 revenue RMB 6,441.0M, +14.9% YoY"
+      }
+    },
+    "timeline": [
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "Founded 2004 in the Beijing Economic-Technological Development Area by Boliang Lou after his return from the US; opened first chemistry lab with ~20 staff",
+        "approvedDrugCount": 0
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "Acquired MSD's Hoddesdon UK process R&D site (2017), establishing the UK chemistry footprint; listed on Shenzhen ChiNext as 300759 in Jan 2018",
+        "listings": [
+          "SZSE: 300759"
+        ]
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Listed H-shares on HKEX as 03759 on 28 Nov 2019, becoming a dual-listed CRO/CDMO; expanded UK and US footprints via tuck-in acquisitions",
+        "listings": [
+          "SZSE: 300759",
+          "HKEX: 03759"
+        ]
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "Acquired AbbVie's Liverpool biologics plant (2021) — anchor of Pharmaron Biologics gene-therapy CDMO; bought Absorption Systems (US) for US$137.5M, adding San Diego/Boston/Philadelphia labs",
+        "pipelineStage": "Building biologics + cell & gene therapy CDMO arm"
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Announced £151M expansion of Liverpool gene-therapy CDMO facility; capacity expected to roughly quadruple — positioned as a non-WuXi global CDMO option as BIOSECURE debate intensifies",
+        "pipelineStage": "Gene/cell therapy CDMO scale-up"
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "FY2024 revenue RMB 12,275.8M (+6.4%), profit RMB 1,793.4M (+12%); H1 2025 revenue +14.9%; Pharmaron not named in the Dec 2025 BIOSECURE Act but watchlisted by analysts as a potential future addition",
+        "approvedDrugCount": 0,
+        "listings": [
+          "SZSE: 300759",
+          "HKEX: 03759"
+        ]
+      }
+    ],
+    "milestones": [
+      {
+        "year": 2004,
+        "label": "Founded in Beijing by Boliang Lou; first chemistry lab opens with ~20 staff"
+      },
+      {
+        "year": 2017,
+        "label": "Acquires MSD's Hoddesdon UK process R&D site — first major UK foothold"
+      },
+      {
+        "year": 2018,
+        "label": "Lists on Shenzhen ChiNext (300759) in January"
+      },
+      {
+        "year": 2019,
+        "label": "Lists H-shares on HKEX (03759) on 28 November"
+      },
+      {
+        "year": 2021,
+        "label": "Acquires AbbVie's Liverpool biologics plant; closes Absorption Systems acquisition (US$137.5M) for US labs in San Diego, Boston and Philadelphia"
+      },
+      {
+        "year": 2023,
+        "label": "Announces £151M expansion of Liverpool gene-therapy CDMO facility"
+      },
+      {
+        "year": 2024,
+        "label": "FY2024 revenue RMB 12.28B (+6.4%); BIOSECURE Act spotlight elevates demand for non-WuXi CRO/CDMO capacity"
+      },
+      {
+        "year": 2025,
+        "label": "H1 2025 revenue RMB 6.44B, +14.9%; Pharmaron omitted from final BIOSECURE Act enacted Dec 2025"
+      }
+    ],
+    "sources": [
+      "pharmaron-fy2024-results-presentation",
+      "pharmaron-fy2024-tipranks",
+      "pharmaron-h1-2025-tipranks",
+      "pharmaron-hkex-listing-2019",
+      "pharmaron-szse-listing-2018",
+      "pharmaron-msd-hoddesdon-2016",
+      "pharmaron-abbvie-liverpool-2021",
+      "pharmaron-absorption-systems-cen",
+      "pharmaron-liverpool-151m-expansion",
+      "pharmaron-locations-page",
+      "pharmaron-boliang-lou-bio",
+      "lw-biosecure-becomes-law-2025"
+    ],
+    "modalities": [
+      "smallMol"
+    ]
   },
   {
     "id": "asymchem",
@@ -3648,9 +3987,120 @@
     "nameZh": "凯莱英",
     "founded": 1998,
     "headquarters": "Tianjin",
-    "category": "cro_cdmo",
-    "shortDescription": "Small-molecule CDMO; major continuous-flow manufacturing player",
-    "signature": "STAR + HKEX dual-listed"
+    "founders": "Hao Hong",
+    "category": "platform",
+    "shortDescription": "Tianjin-based small-molecule API/CDMO; pioneer of continuous-flow chemistry and a leading GLP-1 peptide manufacturer; A+H dual-listed (SZSE 002821 / HKEX 6821).",
+    "signature": "A+H dual-listed CDMO; Pfizer Paxlovid supplier",
+    "narrativeHook": "Founded by US-returnee chemist Hao Hong, Asymchem rode the Paxlovid surge of 2022 to become one of China's most globally embedded small-molecule CDMOs — and one of the few to take over a Pfizer plant on Western soil.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "today": {
+      "asOf": "2026-04",
+      "revenueBillions": 0.81,
+      "revenueYear": 2024,
+      "approvedDrugCount": 0,
+      "listings": [
+        "SZSE: 002821",
+        "HKEX: 6821"
+      ],
+      "modalities": [
+        "small molecule",
+        "oligonucleotide"
+      ],
+      "biggestDeal": {
+        "partner": "Pfizer",
+        "type": "collaboration",
+        "year": 2022,
+        "valueBillions": 0.5
+      }
+    },
+    "timeline": [
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "Founded in TEDA Tianjin by Hao Hong after returning from his US-incorporated Asymchem (1995, Research Triangle Park, NC); positioned as a small-molecule custom-synthesis CMO for Western pharma.",
+        "approvedDrugCount": 0,
+        "note": "Tianjin entity established 1998; corporate documents also cite 1999 as the formal founding year."
+      },
+      {
+        "chapterId": "bi-jingquan-bigbang",
+        "status": "Listed A-shares on Shenzhen (SME Board) on 18 November 2016 under code 002821 at RMB 30.53/share — among the first wave of CRO/CDMO IPOs after Bi Jingquan's 722 reform.",
+        "approvedDrugCount": 0,
+        "listings": [
+          "SZSE: 002821"
+        ]
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Scaled continuous-flow / green-chemistry capacity, becoming a strategic supplier to Pfizer, Merck, and Eli Lilly for late-stage and commercial small-molecule APIs.",
+        "approvedDrugCount": 0
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "Closed an A+H dual listing on 10 December 2021 (HKEX: 6821) raising HK$7.15B — the largest healthcare IPO in Hong Kong that year. In Feb 2022, subsidiary Jilin Asymchem signed Paxlovid-related supply contracts worth ~RMB 3.54B with Pfizer; Jilin Asymchem is named on Paxlovid's FDA DailyMed label as a manufacturer.",
+        "approvedDrugCount": 0,
+        "listings": [
+          "SZSE: 002821",
+          "HKEX: 6821"
+        ],
+        "note": "FY2022 revenue surged on Paxlovid demand to RMB 10.3B before normalising."
+      },
+      {
+        "chapterId": "going-global",
+        "status": "FY2024 revenue declined to RMB 5.80B (-25% YoY) as the COVID-era Paxlovid contract wound down; net profit RMB 949M. Pivoted aggressively to GLP-1 peptide CDMO and oligonucleotide capacity.",
+        "approvedDrugCount": 0,
+        "note": "August 2024: inaugurated first European site at Discovery Park, Sandwich, Kent — taking over a former Pfizer small-molecule API pilot plant and R&D labs."
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "Operating as a globally distributed CDMO across Tianjin, Jilin, Liaoning, the US, and the UK; flagged in BIOSECURE Act discourse but not named in the bill, unlike WuXi peers.",
+        "approvedDrugCount": 0,
+        "listings": [
+          "SZSE: 002821",
+          "HKEX: 6821"
+        ]
+      }
+    ],
+    "milestones": [
+      {
+        "year": 1995,
+        "label": "Asymchem Inc. founded in Research Triangle Park, NC by Hao Hong"
+      },
+      {
+        "year": 1998,
+        "label": "Tianjin operations established in TEDA"
+      },
+      {
+        "year": 2016,
+        "label": "SZSE A-share IPO (002821) on 18 November"
+      },
+      {
+        "year": 2021,
+        "label": "HKEX H-share IPO (6821) on 10 December — A+H dual listing complete; HK$7.15B raised"
+      },
+      {
+        "year": 2022,
+        "label": "Jilin Asymchem signs ~RMB 3.54B Paxlovid supply contracts with Pfizer"
+      },
+      {
+        "year": 2024,
+        "label": "Inaugurates Sandwich, UK site (former Pfizer API plant); FY2024 revenue RMB 5.80B"
+      }
+    ],
+    "sources": [
+      "asymchem-hk-listing-prnewswire-2021",
+      "cooley-asymchem-hk-ipo-2021",
+      "asymchem-szse-ipo-prnewswire-2016",
+      "asymchem-2024-annual-results",
+      "fda-paxlovid-dailymed-jilin-asymchem",
+      "fiercepharma-asymchem-pfizer-uk-sandwich-2024",
+      "echemi-asymchem-paxlovid-3-5b-2022",
+      "businesswire-asymchem-peptide-automation-2024",
+      "asymchem-leadership-bio-hao-hong",
+      "junhe-asymchem-ah-listing"
+    ],
+    "modalities": [
+      "smallMol"
+    ]
   },
   {
     "id": "hillhouse",
