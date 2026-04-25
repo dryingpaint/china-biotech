@@ -14,6 +14,7 @@ type RungSpec = {
 type Modality = {
   key: ModalityKey;
   label: string;
+  shortLabel?: string;
   blurb: string;
   rungs: [RungSpec, RungSpec, RungSpec, RungSpec, RungSpec];
 };
@@ -21,7 +22,8 @@ type Modality = {
 const MODALITIES: Modality[] = [
   {
     key: "smallMol",
-    label: "Small mol",
+    label: "Small molecules",
+    shortLabel: "Small mol",
     blurb: "Synthetic-chemistry NCEs and generics",
     rungs: [
       { label: "Capability", marker: "Pharmaceutical chemistry; novel small-molecule discovery infrastructure" },
@@ -33,7 +35,8 @@ const MODALITIES: Modality[] = [
   },
   {
     key: "peptide",
-    label: "Peptide",
+    label: "Peptide therapeutics",
+    shortLabel: "Peptide",
     blurb: "Solid-phase synthesis; GLP-1, insulin analogs",
     rungs: [
       { label: "Capability", marker: "Solid-phase peptide synthesis and pegylation chemistry" },
@@ -45,7 +48,8 @@ const MODALITIES: Modality[] = [
   },
   {
     key: "recombinant",
-    label: "Recombinant",
+    label: "Recombinant proteins",
+    shortLabel: "Recombinant",
     blurb: "Non-antibody biologics: EPO, growth factors, fusion proteins",
     rungs: [
       { label: "Capability", marker: "Bovine insulin total synthesis (1965)[[cite:bcas-insulin-2024]]" },
@@ -57,7 +61,7 @@ const MODALITIES: Modality[] = [
   },
   {
     key: "biosimilar",
-    label: "Biosimilar",
+    label: "Biosimilars",
     blurb: "Off-patent biologic equivalents",
     rungs: [
       { label: "Capability", marker: "Henlius founded (2010); biosimilar development underway" },
@@ -69,7 +73,8 @@ const MODALITIES: Modality[] = [
   },
   {
     key: "novelMab",
-    label: "mAb",
+    label: "Monoclonal antibodies",
+    shortLabel: "mAb",
     blurb: "Novel mAbs incl. checkpoint inhibitors",
     rungs: [
       { label: "Capability", marker: "BeiGene (2010), Innovent (2011) — innovator-mAb firms forming" },
@@ -81,7 +86,8 @@ const MODALITIES: Modality[] = [
   },
   {
     key: "bispecific",
-    label: "Bispecific",
+    label: "Bispecific antibodies",
+    shortLabel: "Bispecific",
     blurb: "Multi-target antibody architectures",
     rungs: [
       { label: "Capability", marker: "Multi-target antibody engineering capability builds out (mid-2010s)" },
@@ -93,7 +99,8 @@ const MODALITIES: Modality[] = [
   },
   {
     key: "adc",
-    label: "ADC",
+    label: "Antibody–drug conjugates",
+    shortLabel: "ADC",
     blurb: "Antibody + linker + cytotoxic payload",
     rungs: [
       { label: "Capability", marker: "RemeGen founded (2008); disitamab vedotin development" },
@@ -105,7 +112,8 @@ const MODALITIES: Modality[] = [
   },
   {
     key: "vaccine",
-    label: "Vaccine",
+    label: "Vaccines (non-mRNA)",
+    shortLabel: "Vaccine",
     blurb: "Inactivated, subunit, viral-vector platforms",
     rungs: [
       { label: "Capability", marker: "PRC vaccine production established from the 1950s" },
@@ -129,7 +137,8 @@ const MODALITIES: Modality[] = [
   },
   {
     key: "nucleicAcid",
-    label: "Nucleic acid",
+    label: "mRNA & nucleic acid",
+    shortLabel: "Nucleic acid",
     blurb: "mRNA, siRNA, ASO, LNP delivery",
     rungs: [
       { label: "Capability", marker: "Walvax–Abogen ARCoV mRNA reaches Phase III in Mexico/Indonesia[[cite:scmp-arcov-phase3-mexico-indonesia]]" },
@@ -153,7 +162,8 @@ const MODALITIES: Modality[] = [
   },
   {
     key: "radiopharm",
-    label: "Radiopharm",
+    label: "Radiopharmaceuticals",
+    shortLabel: "Radiopharm",
     blurb: "Targeted radioligand therapies",
     rungs: [
       { label: "Capability", marker: "Domestic radioligand programs emerging (Sinotau, Newland)" },
@@ -191,27 +201,28 @@ export default function CapabilityGrid() {
           {presentCount} / {MODALITIES.length}
         </span>
       </header>
-      <div>
+      <div className="grid grid-cols-2 gap-x-3 gap-y-1.5">
         {MODALITIES.map((m) => {
           const state = progress[m.key] ?? { rung: 0 };
           const reached = state.rung > 0;
           return (
-            <div
-              key={m.key}
-              className="grid grid-cols-[5.5rem_1.5rem_1fr] items-center gap-x-1.5 py-px"
-            >
-              <span
-                className="truncate text-[9px] font-medium uppercase tracking-wider leading-none"
-                style={{
-                  color: reached ? "var(--color-accent)" : "var(--color-muted)",
-                }}
-                title={m.label}
-              >
-                {m.label}
-              </span>
-              <span className="num text-right text-[9px] leading-none text-[--color-muted]">
-                {state.rung}/5
-              </span>
+            <div key={m.key} className="space-y-1">
+              <div className="flex items-baseline justify-between gap-2">
+                <span
+                  className="truncate text-[10px] font-medium uppercase tracking-wider leading-none"
+                  style={{
+                    color: reached
+                      ? "var(--color-accent)"
+                      : "var(--color-muted)",
+                  }}
+                  title={m.label}
+                >
+                  {m.label}
+                </span>
+                <span className="num text-[9px] leading-none text-[--color-muted]">
+                  {state.rung}/5
+                </span>
+              </div>
               <div className="flex items-center gap-[3px]">
                 {[1, 2, 3, 4, 5].map((r) => {
                   const tileReached = state.rung >= r;

@@ -119,16 +119,16 @@ export default function CompanyGrid() {
           return (
             <div
               key={cat}
-              className="grid grid-cols-[5.5rem_1.5rem_1fr] items-center gap-x-1.5 py-px"
+              className="grid grid-cols-[5.5rem_1.5rem_1fr] items-center gap-x-1.5 py-0.5"
             >
               <span
-                className="truncate text-[9px] font-medium uppercase tracking-wider leading-none"
+                className="truncate text-[10px] font-medium uppercase tracking-wider leading-none"
                 style={{ color: CATEGORY_COLOR[cat] }}
                 title={CATEGORY_LABEL[cat]}
               >
                 {CATEGORY_LABEL[cat]}
               </span>
-              <span className="num text-right text-[9px] leading-none text-[--color-muted]">
+              <span className="num text-right text-[10px] leading-none text-[--color-muted]">
                 {activeInCat}/{list.length}
               </span>
               <div className="flex flex-wrap gap-[3px]">
