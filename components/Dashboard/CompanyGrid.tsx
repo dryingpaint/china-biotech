@@ -111,7 +111,7 @@ export default function CompanyGrid() {
           {activeIds.length} / {companies.length}
         </span>
       </header>
-      <div className="space-y-1">
+      <div>
         {CATEGORY_ORDER.map((cat) => {
           const list = byCategory.get(cat);
           if (!list || list.length === 0) return null;
@@ -119,19 +119,19 @@ export default function CompanyGrid() {
           return (
             <div
               key={cat}
-              className="grid grid-cols-[6.5rem_1.75rem_1fr] items-center gap-x-2"
+              className="grid grid-cols-[5.5rem_1.5rem_1fr] items-center gap-x-1.5 py-px"
             >
               <span
-                className="truncate text-[10px] font-medium uppercase tracking-wider"
+                className="truncate text-[9px] font-medium uppercase tracking-wider leading-none"
                 style={{ color: CATEGORY_COLOR[cat] }}
                 title={CATEGORY_LABEL[cat]}
               >
                 {CATEGORY_LABEL[cat]}
               </span>
-              <span className="num text-right text-[10px] text-[--color-muted]">
+              <span className="num text-right text-[9px] leading-none text-[--color-muted]">
                 {activeInCat}/{list.length}
               </span>
-              <div className="flex flex-wrap gap-1">
+              <div className="flex flex-wrap gap-[3px]">
                 {list.map((c) => {
                   const isActive = activeSet.has(c.id);
                   const isHighlighted = hovered?.company.id === c.id;
@@ -151,7 +151,7 @@ export default function CompanyGrid() {
                         });
                       }}
                       onMouseLeave={scheduleHide}
-                      className="h-3 w-3 rounded-[2px] transition-shadow"
+                      className="h-2.5 w-2.5 rounded-[2px] transition-shadow"
                       style={{
                         backgroundColor: isActive ? color : "transparent",
                         border: `1px solid ${
