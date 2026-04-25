@@ -346,13 +346,7 @@ function DealBlock({
 }
 
 function VerificationFooter({ company }: { company: Company }) {
-  if (company.verified === true && company.lastVerified) {
-    return (
-      <div className="border-t border-[--color-rule] pt-1.5 text-[9px] uppercase tracking-wider text-[--color-muted]">
-        Verified · {company.lastVerified}
-      </div>
-    );
-  }
+  if (company.verified === true) return null;
   return (
     <div className="border-t border-[--color-rule] pt-1.5 text-[9px] uppercase tracking-wider text-[--color-accent]">
       Unverified — research pending
