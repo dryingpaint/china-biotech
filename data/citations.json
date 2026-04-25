@@ -830,5 +830,85 @@
     "publisher": "BioPharma Dive",
     "year": 2025,
     "url": "https://www.biopharmadive.com/news/china-biotech-drug-licensing-deals-pipeline/758283/"
+  },
+  {
+    "id": "amgen-beigene-collab-2019",
+    "authors": "Amgen, Inc.",
+    "title": "Amgen Enters Into Strategic Collaboration With BeiGene To Expand Oncology Presence In China",
+    "publisher": "Amgen press release",
+    "year": 2019,
+    "url": "https://www.amgen.com/newsroom/press-releases/2019/10/amgen-enters-into-strategic-collaboration-with-beigene-to-expand-oncology-presence-in-china"
+  },
+  {
+    "id": "beigene-hk-ipo-closing-2018",
+    "authors": "BeiGene Ltd.",
+    "title": "BeiGene Announces Closing of Its HK$7.08 billion (US$903 million) Hong Kong Initial Public Offering and Global Offering",
+    "publisher": "BeiGene IR / GlobeNewswire",
+    "year": 2018,
+    "url": "https://hkexir.beigene.com/news/beigene-announces-closing-of-its-hk-7-08-billion-us-903-million-hong-kong-initial-public-offering-and/6c6378f7-7a8b-4d18-b0ff-d93180a6f4a6/"
+  },
+  {
+    "id": "beigene-star-ipo-closing-2021",
+    "authors": "BeiGene Ltd.",
+    "title": "BeiGene Announces Closing of Its RMB22.2 Billion (US$3.5 Billion) Initial Public Offering on the STAR Market of the Shanghai Stock Exchange",
+    "publisher": "BeiGene IR",
+    "year": 2021,
+    "url": "https://ir.beigene.com/news/beigene-announces-closing-of-its-rmb22-2-billion-us-3-5-billion-initial-public-offering-on-the-star/5c078534-a007-4d0b-8d42-bacb7c643f86"
+  },
+  {
+    "id": "beigene-q1-2025-results",
+    "authors": "BeiGene Ltd.",
+    "title": "BeiGene Announces First Quarter 2025 Financial Results and Business Updates",
+    "publisher": "Business Wire",
+    "year": 2025,
+    "url": "https://www.businesswire.com/news/home/20250507583971/en/BeiGene-Announces-First-Quarter-2025-Financial-Results-and-Business-Updates"
+  },
+  {
+    "id": "beigene-fy2024-results",
+    "authors": "BeiGene Ltd.",
+    "title": "BeiGene Announces Fourth Quarter and Full Year 2024 Financial Results and Business Updates",
+    "publisher": "BeiGene IR / Business Wire",
+    "year": 2025,
+    "url": "https://ir.beonemedicines.com/news/beigene-announces-fourth-quarter-and-full-year-2024-financial-results-and-business-updates/ae4b526f-e135-4ce7-84fe-e9a8ba557406"
+  },
+  {
+    "id": "companiesmarketcap-beone-onc",
+    "authors": "Companies Market Cap",
+    "title": "BeOne Medicines (ONC) — Market capitalization",
+    "publisher": "companiesmarketcap.com",
+    "year": 2026,
+    "url": "https://companiesmarketcap.com/beigene/marketcap/"
+  },
+  {
+    "id": "targeted-onc-zanubrutinib-tablet-2024",
+    "authors": "Targeted Oncology",
+    "title": "FDA Approves Zanubrutinib Tablet for All Indications",
+    "publisher": "Targeted Oncology",
+    "year": 2024,
+    "url": "https://www.targetedonc.com/view/fda-approves-zanubrutinib-tablet-for-all-indications"
+  },
+  {
+    "id": "drugs-com-brukinsa-history",
+    "authors": "Drugs.com",
+    "title": "Brukinsa (zanubrutinib) FDA Approval History",
+    "publisher": "Drugs.com",
+    "year": 2025,
+    "url": "https://www.drugs.com/history/brukinsa.html"
+  },
+  {
+    "id": "pharmaboardroom-oyler-profile",
+    "authors": "PharmaBoardroom",
+    "title": "In Profile: BeiGene's John Oyler",
+    "publisher": "PharmaBoardroom",
+    "year": 2018,
+    "url": "https://pharmaboardroom.com/articles/ceo-profile-beigenes-john-oyler/"
+  },
+  {
+    "id": "crunchbase-xiaodong-wang",
+    "authors": "Crunchbase",
+    "title": "Xiaodong Wang — Founder & Chairman & Scientific Advisory Board, BeiGene",
+    "publisher": "Crunchbase",
+    "year": 2024,
+    "url": "https://www.crunchbase.com/person/xiaodong-wang-2"
   }
 ]
