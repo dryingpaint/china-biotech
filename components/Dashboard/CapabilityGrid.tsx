@@ -189,40 +189,36 @@ export default function CapabilityGrid() {
 
   if (!progress) return null;
 
-  const presentCount = MODALITIES.filter((m) => (progress[m.key]?.rung ?? 0) > 0).length;
-
   return (
     <section className="space-y-2">
-      <header className="flex items-baseline justify-between">
+      <header>
         <h3 className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[--color-muted]">
           Therapeutic modalities
         </h3>
-        <span className="num text-xs text-[--color-muted]">
-          {presentCount} / {MODALITIES.length}
-        </span>
       </header>
-      <div className="grid grid-cols-2 gap-x-3 gap-y-1.5">
+      <div>
         {MODALITIES.map((m) => {
           const state = progress[m.key] ?? { rung: 0 };
           const reached = state.rung > 0;
           return (
-            <div key={m.key} className="space-y-1">
-              <div className="flex items-baseline justify-between gap-2">
-                <span
-                  className="truncate text-[10px] font-medium uppercase tracking-wider leading-none"
-                  style={{
-                    color: reached
-                      ? "var(--color-accent)"
-                      : "var(--color-muted)",
-                  }}
-                  title={m.label}
-                >
-                  {m.label}
-                </span>
-                <span className="num text-[9px] leading-none text-[--color-muted]">
-                  {state.rung}/5
-                </span>
-              </div>
+            <div
+              key={m.key}
+              className="grid grid-cols-[10rem_1.5rem_1fr] items-center gap-x-1.5 py-0.5"
+            >
+              <span
+                className="truncate text-[10px] font-medium uppercase tracking-wider leading-none"
+                style={{
+                  color: reached
+                    ? "var(--color-accent)"
+                    : "var(--color-muted)",
+                }}
+                title={m.label}
+              >
+                {m.label}
+              </span>
+              <span className="num text-right text-[10px] leading-none text-[--color-muted]">
+                {state.rung}/5
+              </span>
               <div className="flex items-center gap-[3px]">
                 {[1, 2, 3, 4, 5].map((r) => {
                   const tileReached = state.rung >= r;
