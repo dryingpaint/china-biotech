@@ -112,7 +112,6 @@ export default function ReformTimeline() {
           );
         })}
       </div>
-      <CategoryLegend />
       <Tooltip
         show={!!hovered}
         anchorRect={hovered?.rect ?? null}
@@ -318,29 +317,6 @@ function VerificationFooter({ reform }: { reform: Reform }) {
   return (
     <div className="border-t border-[--color-rule] pt-1.5 text-[9px] uppercase tracking-wider text-[--color-accent]">
       Unverified — research pending
-    </div>
-  );
-}
-
-function CategoryLegend() {
-  const cats: ReformCategory[] = [
-    "approval",
-    "market_access",
-    "capital_markets",
-    "geopolitical",
-  ];
-  return (
-    <div className="flex flex-wrap gap-x-3 gap-y-1 pt-1 text-[10px] text-[--color-muted]">
-      {cats.map((c) => (
-        <span key={c} className="inline-flex items-center gap-1.5">
-          <span
-            aria-hidden
-            className="inline-block h-2 w-2 rounded-[2px]"
-            style={{ backgroundColor: CATEGORY_COLOR[c] }}
-          />
-          {CATEGORY_LABEL[c]}
-        </span>
-      ))}
     </div>
   );
 }
