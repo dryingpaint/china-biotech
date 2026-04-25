@@ -4742,5 +4742,45 @@
     "publisher": "Xinhua / english.www.gov.cn",
     "year": 2025,
     "url": "https://english.www.gov.cn/policies/latestreleases/202501/03/content_WS6777c872c6d0868f4e8ee7cd.html"
+  },
+  {
+    "id": "nsf-skti-24-2022",
+    "authors": "National Science Board",
+    "title": "Science and Engineering Indicators 2022, Supplemental Table SKTI-24: Total biotechnology venture capital raised, by selected country and region: 2000–20",
+    "publisher": "National Science Foundation, NCSES",
+    "year": 2022,
+    "url": "https://ncses.nsf.gov/pubs/nsb20226/assets/supplemental-tables/nsb20226-supplemental-tables.pdf"
+  },
+  {
+    "id": "itif-china-biotech-2024",
+    "authors": "Atkinson, R.",
+    "title": "How Innovative Is China in Biotechnology?",
+    "publisher": "Information Technology and Innovation Foundation (ITIF)",
+    "year": 2024,
+    "url": "https://itif.org/publications/2024/07/30/how-innovative-is-china-in-biotechnology/"
+  },
+  {
+    "id": "biocentury-europe-2024-vc",
+    "authors": "BioCentury Editors",
+    "title": "European biotechs raised $6B in venture in 2024",
+    "publisher": "BioCentury",
+    "year": 2025,
+    "url": "https://www.biocentury.com/article/654961/european-biotechs-raised-6b-in-venture-in-2024"
+  },
+  {
+    "id": "stat-china-biotech-foreign-pullback-2024",
+    "authors": "Joseph, A.",
+    "title": "U.S. and other foreign venture firms pull back from China's biotech sector",
+    "publisher": "STAT News (republished by University City Science Center)",
+    "year": 2024,
+    "url": "https://sciencecenter.org/news/u-s-and-other-foreign-venture-firms-pull-back-from-chinas-biotech-sector"
+  },
+  {
+    "id": "nature-china-licensing-2025",
+    "authors": "Lim, R., et al.",
+    "title": "Analysis of China-to-West pharmaceutical licensing deals in 2024",
+    "publisher": "Nature Reviews Drug Discovery",
+    "year": 2025,
+    "url": "https://www.nature.com/articles/d41573-025-00068-0"
   }
 ]
