@@ -11,7 +11,7 @@ export default function SplitPanel({ narrative, dashboard }: Props) {
       <div className="min-w-0">{narrative}</div>
       <aside className="hidden lg:block">
         <div className="sticky top-0 flex h-screen items-center">
-          <div className="dashboard w-full max-h-[92vh] overflow-hidden rounded-xl border border-[--color-rule] bg-[--color-card] p-6 shadow-sm">
+          <div className="dashboard w-full max-h-[92vh] overflow-hidden p-6">
             {dashboard}
           </div>
         </div>
