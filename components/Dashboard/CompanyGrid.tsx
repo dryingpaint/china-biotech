@@ -1,8 +1,10 @@
 "use client";
 
+import { useState } from "react";
 import { useNarrative } from "@/lib/narrativeStore";
 import companiesData from "@/data/companies.json";
 import type { Company, CompanyCategory } from "@/lib/types";
+import Tooltip from "@/components/Tooltip";
 
 const companies = companiesData as Company[];
 
@@ -30,11 +32,14 @@ const CATEGORY_COLOR: Record<CompanyCategory, string> = {
   ai_bio: "#8c4a6b",
 };
 
+type Hovered = { rect: DOMRect; company: Company };
+
 export default function CompanyGrid() {
   const activeIds = useNarrative(
     (s) => s.chapters[s.currentIndex].activeCompanyIds,
   );
   const activeSet = new Set(activeIds);
+  const [hovered, setHovered] = useState<Hovered | null>(null);
 
   return (
     <section className="space-y-2">
@@ -53,22 +58,71 @@ export default function CompanyGrid() {
           return (
             <div
               key={c.id}
-              title={`${c.name} (${c.founded}) — ${c.shortDescription}`}
-              className="group relative h-3 w-3 rounded-[2px] transition-all"
+              onMouseEnter={(e) =>
+                setHovered({
+                  rect: e.currentTarget.getBoundingClientRect(),
+                  company: c,
+                })
+              }
+              onMouseLeave={() => setHovered(null)}
+              className="h-3 w-3 rounded-[2px] transition-all"
               style={{
                 backgroundColor: isActive ? color : "transparent",
                 border: `1px solid ${isActive ? color : "var(--color-rule)"}`,
               }}
-            >
-              <span className="pointer-events-none absolute -top-1 left-1/2 z-10 hidden -translate-x-1/2 -translate-y-full whitespace-nowrap rounded bg-[--color-fg] px-1.5 py-0.5 text-[10px] text-[--color-bg] group-hover:block">
-                {c.name}
-              </span>
-            </div>
+            />
           );
         })}
       </div>
       <CategoryLegend />
+      <Tooltip show={!!hovered} anchorRect={hovered?.rect ?? null}>
+        {hovered ? (
+          <CompanyTooltip
+            company={hovered.company}
+            isActive={activeSet.has(hovered.company.id)}
+          />
+        ) : null}
+      </Tooltip>
     </section>
+  );
+}
+
+function CompanyTooltip({
+  company,
+  isActive,
+}: {
+  company: Company;
+  isActive: boolean;
+}) {
+  return (
+    <div className="space-y-1">
+      <div className="flex items-baseline justify-between gap-2">
+        <span className="font-semibold text-[--color-fg]">{company.name}</span>
+        <span className="num text-[10px] text-[--color-muted]">
+          founded {company.founded}
+        </span>
+      </div>
+      <div className="flex items-center gap-1.5 text-[10px] uppercase tracking-wider text-[--color-muted]">
+        <span
+          aria-hidden
+          className="inline-block h-2 w-2 rounded-[2px]"
+          style={{ backgroundColor: CATEGORY_COLOR[company.category] }}
+        />
+        {CATEGORY_LABEL[company.category]}
+        {!isActive ? (
+          <span className="ml-1 italic">— not yet on the board</span>
+        ) : null}
+      </div>
+      <div className="text-[--color-fg]">{company.shortDescription}</div>
+      {company.signature ? (
+        <div className="text-[--color-muted]">
+          <span className="text-[10px] uppercase tracking-wider">
+            Signature:
+          </span>{" "}
+          {company.signature}
+        </div>
+      ) : null}
+    </div>
   );
 }
 

@@ -1,8 +1,10 @@
 "use client";
 
+import { useState } from "react";
 import { useNarrative } from "@/lib/narrativeStore";
 import reformsData from "@/data/reforms.json";
 import type { Reform, ReformCategory } from "@/lib/types";
+import Tooltip from "@/components/Tooltip";
 
 const reforms = reformsData as Reform[];
 
@@ -20,11 +22,14 @@ const CATEGORY_LABEL: Record<ReformCategory, string> = {
   geopolitical: "Geopolitical",
 };
 
+type Hovered = { rect: DOMRect; reform: Reform };
+
 export default function ReformTimeline() {
   const activeIds = useNarrative(
     (s) => s.chapters[s.currentIndex].activeReformIds,
   );
   const activeSet = new Set(activeIds);
+  const [hovered, setHovered] = useState<Hovered | null>(null);
 
   const sorted = [...reforms].sort((a, b) => a.date.localeCompare(b.date));
   const minYear = 1985;
@@ -55,9 +60,15 @@ export default function ReformTimeline() {
           return (
             <div
               key={r.id}
-              className="group absolute top-1/2 -translate-x-1/2 -translate-y-1/2"
+              className="absolute top-1/2 -translate-x-1/2 -translate-y-1/2"
               style={{ left: `${left}%` }}
-              title={`${r.name} (${r.date}) — ${r.impact}`}
+              onMouseEnter={(e) =>
+                setHovered({
+                  rect: e.currentTarget.getBoundingClientRect(),
+                  reform: r,
+                })
+              }
+              onMouseLeave={() => setHovered(null)}
             >
               <div
                 className="h-3 w-3 rounded-sm border-2 transition-all"
@@ -70,9 +81,6 @@ export default function ReformTimeline() {
                     : "transparent",
                 }}
               />
-              <div className="pointer-events-none absolute left-1/2 top-full z-10 mt-1 hidden -translate-x-1/2 whitespace-nowrap rounded bg-[--color-fg] px-2 py-1 text-[10px] text-[--color-bg] group-hover:block">
-                {r.name}
-              </div>
             </div>
           );
         })}
@@ -95,6 +103,51 @@ export default function ReformTimeline() {
           </span>
         ))}
       </div>
+      <Tooltip show={!!hovered} anchorRect={hovered?.rect ?? null}>
+        {hovered ? (
+          <ReformTooltip
+            reform={hovered.reform}
+            isActive={activeSet.has(hovered.reform.id)}
+          />
+        ) : null}
+      </Tooltip>
     </section>
+  );
+}
+
+function ReformTooltip({
+  reform,
+  isActive,
+}: {
+  reform: Reform;
+  isActive: boolean;
+}) {
+  return (
+    <div className="space-y-1">
+      <div className="flex items-baseline justify-between gap-2">
+        <span className="font-semibold text-[--color-fg]">{reform.name}</span>
+        <span className="num text-[10px] text-[--color-muted]">
+          {reform.date}
+        </span>
+      </div>
+      <div className="flex items-center gap-1.5 text-[10px] uppercase tracking-wider text-[--color-muted]">
+        <span
+          aria-hidden
+          className="inline-block h-2 w-2 rounded-sm"
+          style={{ backgroundColor: CATEGORY_COLOR[reform.category] }}
+        />
+        {CATEGORY_LABEL[reform.category]}
+        {!isActive ? (
+          <span className="ml-1 italic">— not yet enacted</span>
+        ) : null}
+      </div>
+      <div className="text-[--color-fg]">{reform.shortDescription}</div>
+      {reform.impact ? (
+        <div className="text-[--color-muted]">
+          <span className="text-[10px] uppercase tracking-wider">Impact:</span>{" "}
+          {reform.impact}
+        </div>
+      ) : null}
+    </div>
   );
 }
