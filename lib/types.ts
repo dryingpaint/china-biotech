@@ -42,8 +42,13 @@ export type CompanyTodaySnapshot = {
   approvedDrugCount?: number;
   listings?: string[];
   leadAsset?: LeadAsset;
-  modalities?: string[];
   biggestDeal?: CompanyDeal;
+};
+
+export type ProductClass = {
+  name: string;
+  modality?: ModalityKey;
+  status?: "approved" | "phase3" | "phase2" | "phase1" | "preclinical";
 };
 
 export type CompanyTimelineEntry = {
@@ -63,6 +68,9 @@ export type Company = {
   headquarters?: string;
   founders?: string;
   category: CompanyCategory;
+  modalities?: ModalityKey[];
+  productClasses?: ProductClass[];
+  therapeuticAreas?: string[];
   shortDescription: string;
   signature: string;
   narrativeHook?: string;

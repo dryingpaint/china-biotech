@@ -243,6 +243,12 @@ function CompanyTooltip({
         </Section>
       )}
 
+      {(company.modalities?.length || company.productClasses?.length || company.therapeuticAreas?.length) && (
+        <Section label="What they make">
+          <PlatformBlock company={company} />
+        </Section>
+      )}
+
       {t?.biggestDeal && (
         <Section label="Largest deal">
           <DealBlock deal={t.biggestDeal} />
@@ -387,13 +393,6 @@ function TodayBlock({ today }: { today: NonNullable<Company["today"]> }) {
       {today.listings && today.listings.length > 0 && (
         <Stat label="Listed" value={today.listings.join(" · ")} />
       )}
-      {today.modalities && today.modalities.length > 0 && (
-        <Stat
-          label="Modalities"
-          value={today.modalities.join(", ")}
-          full
-        />
-      )}
     </div>
   );
 }
@@ -413,6 +412,71 @@ function Stat({
         {label}
       </div>
       <div className="num text-[--color-fg]">{value}</div>
+    </div>
+  );
+}
+
+const MODALITY_LABEL: Record<string, string> = {
+  smallMol: "Small molecule",
+  peptide: "Peptide",
+  recombinant: "Recombinant protein",
+  biosimilar: "Biosimilar",
+  novelMab: "Monoclonal antibody",
+  bispecific: "Bispecific antibody",
+  adc: "ADC",
+  vaccine: "Vaccine",
+  cellTherapy: "Cell therapy",
+  nucleicAcid: "Nucleic acid (mRNA/oligonucleotide)",
+  geneTherapy: "Gene therapy",
+  radiopharm: "Radiopharmaceutical",
+};
+
+const STATUS_LABEL: Record<string, string> = {
+  approved: "approved",
+  phase3: "Ph3",
+  phase2: "Ph2",
+  phase1: "Ph1",
+  preclinical: "preclin",
+};
+
+function PlatformBlock({ company }: { company: Company }) {
+  return (
+    <div className="space-y-1">
+      {company.modalities && company.modalities.length > 0 && (
+        <div className="flex flex-wrap gap-1">
+          {company.modalities.map((m) => (
+            <span
+              key={m}
+              className="rounded-sm border border-[--color-rule] px-1.5 py-0.5 text-[10px] text-[--color-fg]"
+            >
+              {MODALITY_LABEL[m] ?? m}
+            </span>
+          ))}
+        </div>
+      )}
+      {company.therapeuticAreas && company.therapeuticAreas.length > 0 && (
+        <div className="text-[10px] text-[--color-muted]">
+          <span className="uppercase tracking-wider">TA:</span>{" "}
+          {company.therapeuticAreas.join(" · ")}
+        </div>
+      )}
+      {company.productClasses && company.productClasses.length > 0 && (
+        <ul className="space-y-0.5 text-[10px]">
+          {company.productClasses.map((p, i) => (
+            <li
+              key={`${p.name}-${i}`}
+              className="flex items-baseline justify-between gap-2"
+            >
+              <span className="text-[--color-fg]">{p.name}</span>
+              {p.status && (
+                <span className="num text-[--color-muted]">
+                  {STATUS_LABEL[p.status] ?? p.status}
+                </span>
+              )}
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   );
 }
