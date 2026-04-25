@@ -75,7 +75,7 @@ export default function ReformTimeline() {
         <div className="absolute left-0 right-0 top-1/2 h-px -translate-y-1/2 bg-[--color-rule]" />
         {sorted.map((r) => {
           const isActive = activeSet.has(r.id);
-          const isProseHighlighted = proseHighlightedId === r.id;
+          const isHighlighted = hovered?.reform.id === r.id;
           const left = positionFor(r.date);
           return (
             <div
@@ -85,10 +85,7 @@ export default function ReformTimeline() {
                 else tileRefs.current.delete(r.id);
               }}
               className="absolute top-1/2 -translate-x-1/2 -translate-y-1/2"
-              style={{
-                left: `${left}%`,
-                zIndex: isProseHighlighted ? 5 : undefined,
-              }}
+              style={{ left: `${left}%` }}
               onMouseEnter={(e) =>
                 setHovered({
                   rect: e.currentTarget.getBoundingClientRect(),
@@ -98,7 +95,7 @@ export default function ReformTimeline() {
               onMouseLeave={() => setHovered(null)}
             >
               <div
-                className="h-3 w-3 rounded-sm border-2 transition-all"
+                className="h-3 w-3 rounded-sm border-2 transition-shadow"
                 style={{
                   borderColor: isActive
                     ? CATEGORY_COLOR[r.category]
@@ -106,9 +103,8 @@ export default function ReformTimeline() {
                   backgroundColor: isActive
                     ? CATEGORY_COLOR[r.category]
                     : "transparent",
-                  transform: isProseHighlighted ? "scale(1.8)" : undefined,
-                  boxShadow: isProseHighlighted
-                    ? `0 0 0 2px var(--color-bg), 0 0 0 3px ${CATEGORY_COLOR[r.category]}`
+                  boxShadow: isHighlighted
+                    ? `0 0 6px 2px ${CATEGORY_COLOR[r.category]}`
                     : undefined,
                 }}
               />

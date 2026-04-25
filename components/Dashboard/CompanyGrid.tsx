@@ -80,7 +80,7 @@ export default function CompanyGrid() {
       <div className="flex flex-wrap gap-1">
         {companies.map((c) => {
           const isActive = activeSet.has(c.id);
-          const isProseHighlighted = proseHighlightedId === c.id;
+          const isHighlighted = hovered?.company.id === c.id;
           const color = CATEGORY_COLOR[c.category];
           return (
             <div
@@ -96,16 +96,13 @@ export default function CompanyGrid() {
                 })
               }
               onMouseLeave={() => setHovered(null)}
-              className="h-3 w-3 rounded-[2px] transition-all"
+              className="h-3 w-3 rounded-[2px] transition-shadow"
               style={{
                 backgroundColor: isActive ? color : "transparent",
                 border: `1px solid ${isActive ? color : "var(--color-rule)"}`,
-                transform: isProseHighlighted ? "scale(1.8)" : undefined,
-                boxShadow: isProseHighlighted
-                  ? `0 0 0 2px var(--color-bg), 0 0 0 3px ${color}`
+                boxShadow: isHighlighted
+                  ? `0 0 6px 2px ${color}`
                   : undefined,
-                position: isProseHighlighted ? "relative" : undefined,
-                zIndex: isProseHighlighted ? 5 : undefined,
               }}
             />
           );
