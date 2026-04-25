@@ -17,15 +17,15 @@ const CATEGORY_LABEL: Record<CompanyCategory, string> = {
   mrna: "mRNA",
 };
 
-const CATEGORY_GLYPH: Record<CompanyCategory, string> = {
-  innovator: "◆",
-  cro_cdmo: "▣",
-  vaccines: "◉",
-  genomics: "≋",
-  traditional: "◐",
-  adc: "✦",
-  cell_gene: "✚",
-  mrna: "◌",
+const CATEGORY_COLOR: Record<CompanyCategory, string> = {
+  innovator: "var(--color-accent)",
+  cro_cdmo: "#2c5d3f",
+  adc: "var(--color-gold)",
+  vaccines: "#4b3a8c",
+  mrna: "#7a5a3a",
+  cell_gene: "#1f5f7a",
+  genomics: "#5a4b8c",
+  traditional: "#6b6b6b",
 };
 
 export default function CompanyGrid() {
@@ -44,22 +44,21 @@ export default function CompanyGrid() {
           {activeIds.length} / {companies.length}
         </span>
       </header>
-      <div className="grid grid-cols-7 gap-1.5">
+      <div className="flex flex-wrap gap-1">
         {companies.map((c) => {
           const isActive = activeSet.has(c.id);
+          const color = CATEGORY_COLOR[c.category];
           return (
             <div
               key={c.id}
               title={`${c.name} (${c.founded}) — ${c.shortDescription}`}
-              className={[
-                "group relative flex aspect-square items-center justify-center rounded-md border text-base transition-all",
-                isActive
-                  ? "border-[--color-accent] bg-[--color-accent] text-[--color-bg]"
-                  : "border-[--color-rule] bg-transparent text-[--color-rule]",
-              ].join(" ")}
+              className="group relative h-3 w-3 rounded-[2px] transition-all"
+              style={{
+                backgroundColor: isActive ? color : "transparent",
+                border: `1px solid ${isActive ? color : "var(--color-rule)"}`,
+              }}
             >
-              <span aria-hidden>{CATEGORY_GLYPH[c.category]}</span>
-              <span className="pointer-events-none absolute -bottom-0.5 left-1/2 hidden -translate-x-1/2 translate-y-full whitespace-nowrap rounded bg-[--color-fg] px-2 py-1 text-[10px] text-[--color-bg] group-hover:block">
+              <span className="pointer-events-none absolute -top-1 left-1/2 z-10 hidden -translate-x-1/2 -translate-y-full whitespace-nowrap rounded bg-[--color-fg] px-1.5 py-0.5 text-[10px] text-[--color-bg] group-hover:block">
                 {c.name}
               </span>
             </div>
@@ -85,8 +84,12 @@ function CategoryLegend() {
   return (
     <div className="flex flex-wrap gap-x-3 gap-y-1 pt-1 text-[10px] text-[--color-muted]">
       {cats.map((c) => (
-        <span key={c} className="inline-flex items-center gap-1">
-          <span aria-hidden>{CATEGORY_GLYPH[c]}</span>
+        <span key={c} className="inline-flex items-center gap-1.5">
+          <span
+            aria-hidden
+            className="inline-block h-2 w-2 rounded-[2px]"
+            style={{ backgroundColor: CATEGORY_COLOR[c] }}
+          />
           {CATEGORY_LABEL[c]}
         </span>
       ))}
