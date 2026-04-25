@@ -9,6 +9,11 @@
   --color-accent-soft: #c47a7a;
   --color-gold: #b8860b;
   --color-card: #f3ede0;
+  --color-slice-1: #4a4a4a;
+  --color-slice-2: #7a7a7a;
+  --color-slice-3: #a8a8a8;
+  --color-slice-4: #c8c8c8;
+  --color-track: #e8e2d4;
 }
 
 @theme inline {
