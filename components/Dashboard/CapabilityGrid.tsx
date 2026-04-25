@@ -10,14 +10,15 @@ type Capability = {
 
 const CAPABILITIES: Capability[] = [
   { id: "generics", label: "Generics", unlockChapterIndex: 0 },
-  { id: "biosimilars", label: "Biosimilars", unlockChapterIndex: 2 },
-  { id: "pd1", label: "PD-1 / PD-L1", unlockChapterIndex: 4 },
-  { id: "adc", label: "ADCs", unlockChapterIndex: 5 },
-  { id: "bispecifics", label: "Bispecifics", unlockChapterIndex: 5 },
-  { id: "cart", label: "CAR-T", unlockChapterIndex: 6 },
-  { id: "mrna", label: "mRNA", unlockChapterIndex: 6 },
-  { id: "first-in-class", label: "First-in-class", unlockChapterIndex: 7 },
-  { id: "global-pivotal", label: "Global pivotal", unlockChapterIndex: 8 },
+  { id: "biosimilars", label: "Biosimilars", unlockChapterIndex: 3 },
+  { id: "pd1", label: "PD-1 / PD-L1", unlockChapterIndex: 5 },
+  { id: "adc", label: "ADCs", unlockChapterIndex: 6 },
+  { id: "bispecifics", label: "Bispecifics", unlockChapterIndex: 6 },
+  { id: "cart", label: "CAR-T", unlockChapterIndex: 7 },
+  { id: "mrna", label: "mRNA", unlockChapterIndex: 7 },
+  { id: "first-in-class", label: "First-in-class", unlockChapterIndex: 8 },
+  { id: "global-pivotal", label: "Global pivotal", unlockChapterIndex: 9 },
+  { id: "ai-bio", label: "AI-discovered", unlockChapterIndex: 9 },
 ];
 
 export default function CapabilityGrid() {

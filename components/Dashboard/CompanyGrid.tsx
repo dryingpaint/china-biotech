@@ -15,6 +15,7 @@ const CATEGORY_LABEL: Record<CompanyCategory, string> = {
   adc: "ADC",
   cell_gene: "Cell & Gene",
   mrna: "mRNA",
+  ai_bio: "AI bio",
 };
 
 const CATEGORY_COLOR: Record<CompanyCategory, string> = {
@@ -26,6 +27,7 @@ const CATEGORY_COLOR: Record<CompanyCategory, string> = {
   cell_gene: "#1f5f7a",
   genomics: "#5a4b8c",
   traditional: "#6b6b6b",
+  ai_bio: "#8c4a6b",
 };
 
 export default function CompanyGrid() {
@@ -79,6 +81,7 @@ function CategoryLegend() {
     "mrna",
     "cell_gene",
     "genomics",
+    "ai_bio",
     "traditional",
   ];
   return (

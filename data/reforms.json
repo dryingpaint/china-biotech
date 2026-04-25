@@ -1,11 +1,51 @@
 [
   {
+    "id": "863-program",
+    "name": "863 Program & NSFC Launch",
+    "date": "1986-03",
+    "category": "approval",
+    "shortDescription": "Deng-approved State High-Tech R&D Program; NSFC founded one month earlier",
+    "impact": "First sustained national funding for biotechnology; seeded BGI's HGP entry"
+  },
+  {
+    "id": "973-program",
+    "name": "973 Basic Research Program",
+    "date": "1997-06",
+    "category": "approval",
+    "shortDescription": "Mission-driven funding for strategic basic science",
+    "impact": "Built academic capacity that returnees would later commercialize"
+  },
+  {
+    "id": "hgr-interim",
+    "name": "Interim HGR Measures",
+    "date": "1998-06",
+    "category": "geopolitical",
+    "shortDescription": "First rules controlling foreign access to Chinese genetic samples",
+    "impact": "Established the data-sovereignty principle later codified in 2019 and 2022"
+  },
+  {
+    "id": "major-new-drug-project",
+    "name": "Major New Drug Creation Project",
+    "date": "2008-01",
+    "category": "approval",
+    "shortDescription": "National translational R&D subsidy for indigenous drug development",
+    "impact": "Funded the first wave of innovator platforms and clinical infrastructure"
+  },
+  {
     "id": "sfda-scandal",
     "name": "SFDA Director Executed",
     "date": "2007-07",
     "category": "approval",
     "shortDescription": "Zheng Xiaoyu executed for corruption; symbol of regulatory rot",
     "impact": "Exposed approval system as broken; set stage for later overhaul"
+  },
+  {
+    "id": "mic-2025",
+    "name": "Made in China 2025",
+    "date": "2015-05",
+    "category": "approval",
+    "shortDescription": "Biopharma named one of ten priority manufacturing sectors",
+    "impact": "Locked biotech into national industrial strategy; later weaponized by US trade policy"
   },
   {
     "id": "order-117",
@@ -72,6 +112,22 @@
     "impact": "Concentrated bargaining power; enabled VBP at national scale"
   },
   {
+    "id": "changsheng-scandal",
+    "name": "Changsheng Vaccine Scandal",
+    "date": "2018-07",
+    "category": "approval",
+    "shortDescription": "Rabies-vaccine fraud at Changchun Changsheng; ~9.1B RMB in fines",
+    "impact": "Forced the Vaccine Administration Law and whole-process accountability"
+  },
+  {
+    "id": "he-jiankui",
+    "name": "He Jiankui Embryo-Editing Case",
+    "date": "2018-11",
+    "category": "geopolitical",
+    "shortDescription": "First germline-edited human births announced in Shenzhen",
+    "impact": "Triggered criminal-law amendments and a national bioethics regime"
+  },
+  {
     "id": "vbp",
     "name": "Volume-Based Procurement",
     "date": "2018-12",
@@ -88,12 +144,36 @@
     "impact": "Signaled completion of the 2015–2018 reform package"
   },
   {
+    "id": "vaccine-admin-law",
+    "name": "Vaccine Administration Law",
+    "date": "2019-06",
+    "category": "approval",
+    "shortDescription": "Whole-process responsibility over vaccine R&D, manufacture, distribution",
+    "impact": "Lifted the bar for Chinese WHO prequalification"
+  },
+  {
+    "id": "hgr-2019",
+    "name": "HGR Regulation Codified",
+    "date": "2019-07",
+    "category": "geopolitical",
+    "shortDescription": "1998 interim measures elevated to formal State Council regulation",
+    "impact": "Hardened controls on cross-border samples and joint clinical research"
+  },
+  {
     "id": "star-market",
     "name": "STAR Market Launches",
     "date": "2019-07",
     "category": "capital_markets",
     "shortDescription": "Shanghai exchange opens to pre-revenue tech and biotech",
     "impact": "Second IPO venue; reduced reliance on HK and US listings"
+  },
+  {
+    "id": "biosecurity-law",
+    "name": "Biosecurity Law",
+    "date": "2020-10",
+    "category": "geopolitical",
+    "shortDescription": "Unified biosafety, pathogen control, and bioresource security",
+    "impact": "Elevated biotechnology to national-security status"
   },
   {
     "id": "drug-reg-overhaul",
@@ -120,11 +200,35 @@
     "impact": "Complicated multinational trials and academic collaborations"
   },
   {
+    "id": "fyp14-bioeconomy",
+    "name": "14th Five-Year Bioeconomy Plan",
+    "date": "2022-05",
+    "category": "approval",
+    "shortDescription": "First top-level national bioeconomy strategy",
+    "impact": "Folded medicine, agriculture, biosafety, and manufacturing into one frame"
+  },
+  {
     "id": "biosecure",
     "name": "BIOSECURE Act Introduced",
     "date": "2024-01",
     "category": "geopolitical",
     "shortDescription": "US bill targeting WuXi AppTec, WuXi Biologics, BGI, MGI, Complete Genomics",
     "impact": "Existential threat to China CRO/CDMO revenue from US clients"
+  },
+  {
+    "id": "biosecure-enacted",
+    "name": "BIOSECURE Enacted",
+    "date": "2025-12",
+    "category": "geopolitical",
+    "shortDescription": "Signed into law as Section 851 of the FY2026 NDAA",
+    "impact": "Triggered WuXi divestitures and BeiGene → BeOne redomicile to Switzerland"
+  },
+  {
+    "id": "state-council-2025",
+    "name": "State Council 2025 Reform Guideline",
+    "date": "2025-12",
+    "category": "approval",
+    "shortDescription": "Roadmap to make China a pharma powerhouse by 2027 / 2035",
+    "impact": "Doubles down on innovation despite financing slump and decoupling"
   }
 ]

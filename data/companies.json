@@ -166,5 +166,61 @@
     "category": "innovator",
     "shortDescription": "PD-1/VEGF bispecific licensed to Merck for $3.3B",
     "signature": "LM-299 (PD-1xVEGF)"
+  },
+  {
+    "id": "hansoh",
+    "name": "Hansoh Pharmaceutical",
+    "founded": 1995,
+    "category": "innovator",
+    "shortDescription": "Family-controlled innovator; deep oncology and CNS pipelines",
+    "signature": "Aumolertinib (3rd-gen EGFR)"
+  },
+  {
+    "id": "sinopharm",
+    "name": "Sinopharm / CNBG",
+    "founded": 1998,
+    "category": "vaccines",
+    "shortDescription": "State vaccine group; WHO-EUL inactivated COVID vaccine",
+    "signature": "BBIBP-CorV"
+  },
+  {
+    "id": "walvax",
+    "name": "Walvax Biotechnology",
+    "founded": 2001,
+    "category": "vaccines",
+    "shortDescription": "Domestic HPV and conjugate-vaccine maker",
+    "signature": "Cecolin (first WHO-PQ Chinese HPV)"
+  },
+  {
+    "id": "henlius",
+    "name": "Shanghai Henlius",
+    "founded": 2010,
+    "category": "innovator",
+    "shortDescription": "Fosun spinout; first NMPA-approved biosimilar",
+    "signature": "Hanlikang (rituximab biosimilar)"
+  },
+  {
+    "id": "xtalpi",
+    "name": "XtalPi",
+    "founded": 2014,
+    "category": "ai_bio",
+    "shortDescription": "Quantum-physics + AI drug discovery; first HKEX 18C listing",
+    "signature": "DoveTree multi-billion deal"
+  },
+  {
+    "id": "insilico",
+    "name": "Insilico Medicine",
+    "founded": 2014,
+    "category": "ai_bio",
+    "shortDescription": "Generative drug discovery; first AI-designed Phase II readout",
+    "signature": "Rentosertib (TNIK, IPF)"
+  },
+  {
+    "id": "jw-therapeutics",
+    "name": "JW Therapeutics",
+    "founded": 2016,
+    "category": "cell_gene",
+    "shortDescription": "First NMPA-approved domestic CAR-T",
+    "signature": "Carteyva (relma-cel)"
   }
 ]

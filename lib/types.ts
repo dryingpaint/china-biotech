@@ -6,7 +6,8 @@ export type CompanyCategory =
   | "traditional"
   | "adc"
   | "cell_gene"
-  | "mrna";
+  | "mrna"
+  | "ai_bio";
 
 export type ReformCategory =
   | "approval"

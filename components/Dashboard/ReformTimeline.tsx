@@ -27,7 +27,7 @@ export default function ReformTimeline() {
   const activeSet = new Set(activeIds);
 
   const sorted = [...reforms].sort((a, b) => a.date.localeCompare(b.date));
-  const minYear = 2007;
+  const minYear = 1985;
   const maxYear = 2026;
   const span = maxYear - minYear;
 
