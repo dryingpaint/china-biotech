@@ -5,6 +5,7 @@ export type CompanyCategory =
   | "investor"
   | "academic"
   | "hospital"
+  | "regulator"
   | "exchange";
 
 export type ReformCategory =
@@ -61,6 +62,7 @@ export type Company = {
   headquarters?: string;
   founders?: string;
   category: CompanyCategory;
+  subcategory?: string;
   modalities?: ModalityKey[];
   productClasses?: ProductClass[];
   therapeuticAreas?: string[];
@@ -94,14 +96,18 @@ export type Reform = {
   lastVerified?: string;
 };
 
+export type TrialStartsShare = {
+  china: number;
+  us: number;
+  eu: number;
+  japan: number;
+  row: number;
+};
+
 export type ChapterMetrics = {
-  novelDrugApprovals: number;
-  licenseInDeals: number;
-  licenseOutDeals: number;
-  apiGlobalShare: number;
-  biotechIPOs: number;
-  rdSpendBillions: number;
-  globalClinicalTrialShare: number;
+  pipelineSharePct: number;
+  inLicensingSharePct: number;
+  trialStartsShare: TrialStartsShare;
 };
 
 export type ModalityKey =
@@ -120,7 +126,6 @@ export type ModalityKey =
 
 export type ModalityRungState = {
   rung: 0 | 1 | 2 | 3 | 4 | 5;
-  marker?: string;
   frontier?: boolean;
 };
 

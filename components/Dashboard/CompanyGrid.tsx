@@ -20,6 +20,7 @@ const CATEGORY_ORDER: CompanyCategory[] = [
   "investor",
   "academic",
   "hospital",
+  "regulator",
   "exchange",
 ];
 
@@ -32,6 +33,7 @@ const CATEGORY_LABEL: Record<CompanyCategory, string> = {
   investor: "Investor",
   academic: "Academic",
   hospital: "Hospital",
+  regulator: "Regulator",
   exchange: "Exchange",
 };
 
@@ -42,6 +44,7 @@ const CATEGORY_COLOR: Record<CompanyCategory, string> = {
   investor: "#b08530",
   academic: "#a4543a",
   hospital: "#4a7a7a",
+  regulator: "#6b3a5a",
   exchange: "#4a525a",
 };
 
