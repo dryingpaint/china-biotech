@@ -98,10 +98,38 @@
   {
     "id": "hk-18a",
     "name": "HKEX Chapter 18A",
+    "nameZh": "香港主板上市规则第十八A章",
     "date": "2018-04",
+    "effectiveDate": "2018-04-30",
+    "agency": "Hong Kong Exchanges and Clearing Limited",
+    "documentRef": "Main Board Listing Rules, Chapter 18A — Biotech Companies",
     "category": "capital_markets",
-    "shortDescription": "Pre-revenue biotechs allowed to IPO in Hong Kong",
-    "impact": "Unlocked tens of billions in biotech funding overnight"
+    "shortDescription": "Pre-revenue biotech listing pathway on the HKEX Main Board",
+    "impact": "Solved the valley-of-death financing problem for pre-revenue Chinese biotech; by end-2023, 63 biotechs had listed under the regime, peaking at 20 IPOs in 2021.",
+    "keyProvisions": [
+      "At least one Core Product past the concept stage with regulatory milestones met",
+      "Expected market capitalisation ≥ HK$1.5 billion at listing",
+      "≥125% working capital for the next 12 months",
+      "Meaningful pre-IPO investment from a 'Sophisticated Investor'"
+    ],
+    "narrativeHook": "Designed to compete with NASDAQ for 'China's new generation of biotech companies' — by 2021 the 18A regime had become Asia's largest biotech fundraising hub.",
+    "affectedCompanyIds": [
+      "innovent",
+      "junshi",
+      "henlius",
+      "beigene",
+      "akeso",
+      "everest",
+      "jw-therapeutics",
+      "imab"
+    ],
+    "sources": [
+      "charltons-chapter-18a",
+      "pharmaboardroom-hk-2021-record",
+      "pharmaboardroom-hk-biotech-2022"
+    ],
+    "verified": true,
+    "lastVerified": "2026-04-25"
   },
   {
     "id": "nhsa",

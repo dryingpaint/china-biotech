@@ -3,10 +3,18 @@
 import { useEffect, useRef, useState } from "react";
 import { useNarrative } from "@/lib/narrativeStore";
 import reformsData from "@/data/reforms.json";
-import type { Reform, ReformCategory } from "@/lib/types";
+import companiesData from "@/data/companies.json";
+import type { Company, Reform, ReformCategory } from "@/lib/types";
 import Tooltip from "@/components/Tooltip";
+import { getCitation } from "@/lib/citations";
+
+const HOVER_GRACE_MS = 200;
 
 const reforms = reformsData as Reform[];
+const companies = companiesData as Company[];
+const companyById = new Map(companies.map((c) => [c.id, c]));
+
+const sortedReforms = [...reforms].sort((a, b) => a.date.localeCompare(b.date));
 
 const CATEGORY_COLOR: Record<ReformCategory, string> = {
   approval: "var(--color-accent)",
@@ -28,12 +36,27 @@ export default function ReformTimeline() {
   const activeIds = useNarrative(
     (s) => s.chapters[s.currentIndex].activeReformIds,
   );
+  const currentChapter = useNarrative(
+    (s) => s.chapters[s.currentIndex],
+  );
   const highlightedEntity = useNarrative((s) => s.highlightedEntity);
   const proseHighlightedId =
     highlightedEntity?.type === "reform" ? highlightedEntity.id : null;
   const activeSet = new Set(activeIds);
   const [hovered, setHovered] = useState<Hovered | null>(null);
   const tileRefs = useRef<Map<string, HTMLDivElement>>(new Map());
+  const hideTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const cancelHide = () => {
+    if (hideTimer.current) {
+      clearTimeout(hideTimer.current);
+      hideTimer.current = null;
+    }
+  };
+  const scheduleHide = () => {
+    cancelHide();
+    hideTimer.current = setTimeout(() => setHovered(null), HOVER_GRACE_MS);
+  };
 
   useEffect(() => {
     if (!proseHighlightedId) {
@@ -43,23 +66,13 @@ export default function ReformTimeline() {
     const el = tileRefs.current.get(proseHighlightedId);
     const reform = reforms.find((r) => r.id === proseHighlightedId);
     if (!el || !reform) return;
+    cancelHide();
     setHovered({
       rect: el.getBoundingClientRect(),
       reform,
       fromProse: true,
     });
   }, [proseHighlightedId]);
-
-  const sorted = [...reforms].sort((a, b) => a.date.localeCompare(b.date));
-  const minYear = 1985;
-  const maxYear = 2026;
-  const span = maxYear - minYear;
-
-  const positionFor = (date: string) => {
-    const [y, m] = date.split("-").map(Number);
-    const t = y + (m - 1) / 12;
-    return ((t - minYear) / span) * 100;
-  };
 
   return (
     <section className="space-y-2">
@@ -71,12 +84,11 @@ export default function ReformTimeline() {
           {activeIds.length} / {reforms.length}
         </span>
       </header>
-      <div className="relative h-12">
-        <div className="absolute left-0 right-0 top-1/2 h-px -translate-y-1/2 bg-[--color-rule]" />
-        {sorted.map((r) => {
+      <div className="flex flex-wrap gap-1">
+        {sortedReforms.map((r) => {
           const isActive = activeSet.has(r.id);
           const isHighlighted = hovered?.reform.id === r.id;
-          const left = positionFor(r.date);
+          const color = CATEGORY_COLOR[r.category];
           return (
             <div
               key={r.id}
@@ -84,57 +96,38 @@ export default function ReformTimeline() {
                 if (el) tileRefs.current.set(r.id, el);
                 else tileRefs.current.delete(r.id);
               }}
-              className="absolute top-1/2 -translate-x-1/2 -translate-y-1/2"
-              style={{ left: `${left}%` }}
-              onMouseEnter={(e) =>
+              onMouseEnter={(e) => {
+                cancelHide();
                 setHovered({
                   rect: e.currentTarget.getBoundingClientRect(),
                   reform: r,
-                })
-              }
-              onMouseLeave={() => setHovered(null)}
-            >
-              <div
-                className="h-3 w-3 rounded-sm border-2 transition-shadow"
-                style={{
-                  borderColor: isActive
-                    ? CATEGORY_COLOR[r.category]
-                    : "var(--color-rule)",
-                  backgroundColor: isActive
-                    ? CATEGORY_COLOR[r.category]
-                    : "transparent",
-                  boxShadow: isHighlighted
-                    ? `0 0 6px 2px ${CATEGORY_COLOR[r.category]}`
-                    : undefined,
-                }}
-              />
-            </div>
+                });
+              }}
+              onMouseLeave={scheduleHide}
+              className="h-3 w-3 rounded-[2px] transition-shadow"
+              style={{
+                backgroundColor: isActive ? color : "transparent",
+                border: `1px solid ${isActive ? color : "var(--color-rule)"}`,
+                boxShadow: isHighlighted
+                  ? `0 0 6px 2px ${color}`
+                  : undefined,
+              }}
+            />
           );
         })}
-        <div className="num absolute bottom-0 left-0 text-[10px] text-[--color-muted]">
-          {minYear}
-        </div>
-        <div className="num absolute bottom-0 right-0 text-[10px] text-[--color-muted]">
-          {maxYear}
-        </div>
       </div>
-      <div className="flex flex-wrap gap-x-3 gap-y-1 text-[10px] text-[--color-muted]">
-        {(Object.keys(CATEGORY_LABEL) as ReformCategory[]).map((c) => (
-          <span key={c} className="inline-flex items-center gap-1">
-            <span
-              aria-hidden
-              className="inline-block h-2 w-2 rounded-sm"
-              style={{ backgroundColor: CATEGORY_COLOR[c] }}
-            />
-            {CATEGORY_LABEL[c]}
-          </span>
-        ))}
-      </div>
-      <Tooltip show={!!hovered} anchorRect={hovered?.rect ?? null}>
+      <CategoryLegend />
+      <Tooltip
+        show={!!hovered}
+        anchorRect={hovered?.rect ?? null}
+        onMouseEnter={cancelHide}
+        onMouseLeave={scheduleHide}
+      >
         {hovered ? (
           <ReformTooltip
             reform={hovered.reform}
             isActive={activeSet.has(hovered.reform.id)}
+            chapterDate={currentChapter.date}
           />
         ) : null}
       </Tooltip>
@@ -145,36 +138,261 @@ export default function ReformTimeline() {
 function ReformTooltip({
   reform,
   isActive,
+  chapterDate,
 }: {
   reform: Reform;
   isActive: boolean;
+  chapterDate: string;
 }) {
   return (
-    <div className="space-y-1">
+    <div className="space-y-2">
+      <Identity reform={reform} />
+      <CategoryRow reform={reform} isActive={isActive} chapterDate={chapterDate} />
+
+      {(reform.agency || reform.documentRef) && (
+        <Section label="Issued by">
+          <AgencyBlock reform={reform} />
+        </Section>
+      )}
+
+      <Section label="What it does">
+        <div>{reform.shortDescription}</div>
+      </Section>
+
+      {reform.keyProvisions && reform.keyProvisions.length > 0 && (
+        <Section label="Key provisions">
+          <ul className="list-disc space-y-0.5 pl-4">
+            {reform.keyProvisions.map((p, i) => (
+              <li key={i}>{p}</li>
+            ))}
+          </ul>
+        </Section>
+      )}
+
+      {reform.impact && (
+        <Section label="Why it mattered">
+          <div>{reform.impact}</div>
+        </Section>
+      )}
+
+      {reform.narrativeHook && (
+        <p className="border-l-2 border-[--color-accent] pl-2 italic text-[--color-fg]">
+          {reform.narrativeHook}
+        </p>
+      )}
+
+      {reform.affectedCompanyIds && reform.affectedCompanyIds.length > 0 && (
+        <Section label={`Affected (${reform.affectedCompanyIds.length})`}>
+          <CompanyChipList ids={reform.affectedCompanyIds} />
+        </Section>
+      )}
+
+      {reform.sources && reform.sources.length > 0 && (
+        <Section label={`Sources (${reform.sources.length})`}>
+          <SourceList ids={reform.sources} />
+        </Section>
+      )}
+
+      <VerificationFooter reform={reform} />
+    </div>
+  );
+}
+
+function Identity({ reform }: { reform: Reform }) {
+  return (
+    <div className="space-y-0.5">
       <div className="flex items-baseline justify-between gap-2">
-        <span className="font-semibold text-[--color-fg]">{reform.name}</span>
+        <span className="font-semibold text-[--color-fg]">
+          {reform.name}
+          {reform.nameZh ? (
+            <span className="ml-1.5 text-[--color-muted]">{reform.nameZh}</span>
+          ) : null}
+        </span>
         <span className="num text-[10px] text-[--color-muted]">
-          {reform.date}
+          {formatDate(reform.date)}
         </span>
       </div>
-      <div className="flex items-center gap-1.5 text-[10px] uppercase tracking-wider text-[--color-muted]">
-        <span
-          aria-hidden
-          className="inline-block h-2 w-2 rounded-sm"
-          style={{ backgroundColor: CATEGORY_COLOR[reform.category] }}
-        />
-        {CATEGORY_LABEL[reform.category]}
-        {!isActive ? (
-          <span className="ml-1 italic">— not yet enacted</span>
-        ) : null}
-      </div>
-      <div className="text-[--color-fg]">{reform.shortDescription}</div>
-      {reform.impact ? (
-        <div className="text-[--color-muted]">
-          <span className="text-[10px] uppercase tracking-wider">Impact:</span>{" "}
-          {reform.impact}
+      {reform.effectiveDate && reform.effectiveDate !== reform.date && (
+        <div className="text-[10px] text-[--color-muted]">
+          effective {formatDate(reform.effectiveDate)}
         </div>
-      ) : null}
+      )}
+    </div>
+  );
+}
+
+function CategoryRow({
+  reform,
+  isActive,
+  chapterDate,
+}: {
+  reform: Reform;
+  isActive: boolean;
+  chapterDate: string;
+}) {
+  const status = reformStatus(reform, isActive, chapterDate);
+  return (
+    <div className="flex items-center gap-1.5 text-[10px] uppercase tracking-wider text-[--color-muted]">
+      <span
+        aria-hidden
+        className="inline-block h-2 w-2 rounded-sm"
+        style={{ backgroundColor: CATEGORY_COLOR[reform.category] }}
+      />
+      {CATEGORY_LABEL[reform.category]}
+      {status && <span className="ml-1 italic">— {status}</span>}
+    </div>
+  );
+}
+
+function reformStatus(
+  reform: Reform,
+  isActive: boolean,
+  chapterDate: string,
+): string | null {
+  if (isActive) return "in force";
+  const ref = reform.effectiveDate ?? reform.date;
+  const chapterEnd = chapterEndDate(chapterDate);
+  if (ref && chapterEnd && ref <= chapterEnd) return "issued — pending";
+  return "not yet enacted";
+}
+
+function chapterEndDate(chapterDate: string): string | null {
+  const m = chapterDate.match(/(\d{4})\s*[–-]\s*(\d{4})/);
+  if (!m) return null;
+  return `${m[2]}-12`;
+}
+
+function formatDate(d: string): string {
+  const m = d.match(/^(\d{4})-(\d{2})(?:-(\d{2}))?$/);
+  if (!m) return d;
+  const months = [
+    "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+    "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
+  ];
+  const month = months[parseInt(m[2], 10) - 1] ?? m[2];
+  return m[3] ? `${month} ${parseInt(m[3], 10)}, ${m[1]}` : `${month} ${m[1]}`;
+}
+
+function AgencyBlock({ reform }: { reform: Reform }) {
+  return (
+    <div className="space-y-0.5">
+      {reform.agency && <div>{reform.agency}</div>}
+      {reform.documentRef && (
+        <div className="text-[10px] italic text-[--color-muted]">
+          {reform.documentRef}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function Section({
+  label,
+  children,
+}: {
+  label: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <div className="space-y-0.5 border-t border-[--color-rule] pt-1.5">
+      <div className="text-[9px] font-semibold uppercase tracking-[0.16em] text-[--color-muted]">
+        {label}
+      </div>
+      <div className="text-[--color-fg]">{children}</div>
+    </div>
+  );
+}
+
+function CompanyChipList({ ids }: { ids: string[] }) {
+  return (
+    <div className="flex flex-wrap gap-1">
+      {ids.map((id) => {
+        const c = companyById.get(id);
+        if (!c) {
+          return (
+            <span
+              key={id}
+              className="rounded border border-[--color-rule] px-1.5 py-0.5 text-[10px] text-[--color-muted]"
+              title={`Unknown company: ${id}`}
+            >
+              {id}
+            </span>
+          );
+        }
+        return (
+          <a
+            key={id}
+            href={`#${id}`}
+            className="rounded border border-[--color-rule] px-1.5 py-0.5 text-[10px] text-[--color-fg] no-underline hover:border-[--color-accent] hover:text-[--color-accent]"
+          >
+            {c.name}
+          </a>
+        );
+      })}
+    </div>
+  );
+}
+
+function SourceList({ ids }: { ids: string[] }) {
+  return (
+    <div className="flex flex-wrap gap-x-2 gap-y-0.5 text-[11px] leading-tight">
+      {ids.map((id) => {
+        const found = getCitation(id);
+        if (!found) {
+          return (
+            <span
+              key={id}
+              className="num text-[--color-accent]"
+              title={`Missing citation: ${id}`}
+            >
+              [?]
+            </span>
+          );
+        }
+        const { citation, index } = found;
+        return (
+          <a
+            key={id}
+            href={`#cite-${citation.id}`}
+            title={`${citation.authors}, "${citation.title}" (${citation.year})`}
+            className="num font-medium text-[--color-accent] no-underline hover:underline"
+          >
+            [{index + 1}]
+          </a>
+        );
+      })}
+    </div>
+  );
+}
+
+function VerificationFooter({ reform }: { reform: Reform }) {
+  if (reform.verified === true) return null;
+  return (
+    <div className="border-t border-[--color-rule] pt-1.5 text-[9px] uppercase tracking-wider text-[--color-accent]">
+      Unverified — research pending
+    </div>
+  );
+}
+
+function CategoryLegend() {
+  const cats: ReformCategory[] = [
+    "approval",
+    "market_access",
+    "capital_markets",
+    "geopolitical",
+  ];
+  return (
+    <div className="flex flex-wrap gap-x-3 gap-y-1 pt-1 text-[10px] text-[--color-muted]">
+      {cats.map((c) => (
+        <span key={c} className="inline-flex items-center gap-1.5">
+          <span
+            aria-hidden
+            className="inline-block h-2 w-2 rounded-[2px]"
+            style={{ backgroundColor: CATEGORY_COLOR[c] }}
+          />
+          {CATEGORY_LABEL[c]}
+        </span>
+      ))}
     </div>
   );
 }

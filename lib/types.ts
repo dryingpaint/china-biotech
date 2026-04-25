@@ -72,10 +72,20 @@ export type Company = {
 export type Reform = {
   id: string;
   name: string;
+  nameZh?: string;
   date: string;
+  effectiveDate?: string;
+  agency?: string;
+  documentRef?: string;
   category: ReformCategory;
   shortDescription: string;
   impact: string;
+  keyProvisions?: string[];
+  narrativeHook?: string;
+  affectedCompanyIds?: string[];
+  sources?: string[];
+  verified?: boolean;
+  lastVerified?: string;
 };
 
 export type ChapterMetrics = {
