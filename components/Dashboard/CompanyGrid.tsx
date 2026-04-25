@@ -2,18 +2,18 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useNarrative } from "@/lib/narrativeStore";
-import companiesData from "@/data/companies.json";
+import { entities } from "@/lib/entities";
 import type {
-  Company,
-  CompanyCategory,
-  CompanyTimelineEntry,
+  Entity,
+  EntityCategory,
+  EntityTimelineEntry,
 } from "@/lib/types";
 import Tooltip from "@/components/Tooltip";
 import { getCitation } from "@/lib/citations";
 
 const HOVER_GRACE_MS = 200;
 
-const CATEGORY_ORDER: CompanyCategory[] = [
+const CATEGORY_ORDER: EntityCategory[] = [
   "pharma",
   "mnc_pharma",
   "platform",
@@ -24,9 +24,7 @@ const CATEGORY_ORDER: CompanyCategory[] = [
   "exchange",
 ];
 
-const companies = companiesData as Company[];
-
-const CATEGORY_LABEL: Record<CompanyCategory, string> = {
+const CATEGORY_LABEL: Record<EntityCategory, string> = {
   pharma: "Chinese pharma",
   mnc_pharma: "MNC pharma",
   platform: "Platform",
@@ -37,7 +35,7 @@ const CATEGORY_LABEL: Record<CompanyCategory, string> = {
   exchange: "Exchange",
 };
 
-const CATEGORY_COLOR: Record<CompanyCategory, string> = {
+const CATEGORY_COLOR: Record<EntityCategory, string> = {
   pharma: "var(--color-accent)",
   mnc_pharma: "#2a4868",
   platform: "#2c5d3f",
@@ -48,18 +46,18 @@ const CATEGORY_COLOR: Record<CompanyCategory, string> = {
   exchange: "#4a525a",
 };
 
-type Hovered = { rect: DOMRect; company: Company; fromProse?: boolean };
+type Hovered = { rect: DOMRect; entity: Entity; fromProse?: boolean };
 
 export default function CompanyGrid() {
   const activeIds = useNarrative(
-    (s) => s.chapters[s.currentIndex].activeCompanyIds,
+    (s) => s.chapters[s.currentIndex].activeEntityIds,
   );
   const currentChapter = useNarrative(
     (s) => s.chapters[s.currentIndex],
   );
   const highlightedEntity = useNarrative((s) => s.highlightedEntity);
   const proseHighlightedId =
-    highlightedEntity?.type === "company" ? highlightedEntity.id : null;
+    highlightedEntity?.type === "entity" ? highlightedEntity.id : null;
   const activeSet = new Set(activeIds);
   const [hovered, setHovered] = useState<Hovered | null>(null);
   const tileRefs = useRef<Map<string, HTMLDivElement>>(new Map());
@@ -82,72 +80,65 @@ export default function CompanyGrid() {
       return;
     }
     const el = tileRefs.current.get(proseHighlightedId);
-    const company = companies.find((c) => c.id === proseHighlightedId);
-    if (!el || !company) return;
+    const entity = entities.find((e) => e.id === proseHighlightedId);
+    if (!el || !entity) return;
     cancelHide();
     setHovered({
       rect: el.getBoundingClientRect(),
-      company,
+      entity,
       fromProse: true,
     });
   }, [proseHighlightedId]);
 
   const byCategory = useMemo(() => {
-    const map = new Map<CompanyCategory, Company[]>();
-    for (const c of companies) {
-      if (!map.has(c.category)) map.set(c.category, []);
-      map.get(c.category)!.push(c);
+    const map = new Map<EntityCategory, Entity[]>();
+    for (const e of entities) {
+      if (!map.has(e.category)) map.set(e.category, []);
+      map.get(e.category)!.push(e);
     }
     return map;
   }, []);
 
   return (
     <section className="space-y-2">
-      <header className="flex items-baseline justify-between">
+      <header>
         <h3 className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[--color-muted]">
           Major players
         </h3>
-        <span className="num text-xs text-[--color-muted]">
-          {activeIds.length} / {companies.length}
-        </span>
       </header>
       <div>
         {CATEGORY_ORDER.map((cat) => {
           const list = byCategory.get(cat);
           if (!list || list.length === 0) return null;
-          const activeInCat = list.filter((c) => activeSet.has(c.id)).length;
           return (
             <div
               key={cat}
-              className="grid grid-cols-[5.5rem_1.5rem_1fr] items-center gap-x-1.5 py-0.5"
+              className="grid grid-cols-[7rem_1fr] items-center gap-x-2 py-0.5"
             >
               <span
-                className="truncate text-[10px] font-medium uppercase tracking-wider leading-none"
+                className="text-[10px] font-medium uppercase tracking-wider leading-none"
                 style={{ color: CATEGORY_COLOR[cat] }}
                 title={CATEGORY_LABEL[cat]}
               >
                 {CATEGORY_LABEL[cat]}
               </span>
-              <span className="num text-right text-[10px] leading-none text-[--color-muted]">
-                {activeInCat}/{list.length}
-              </span>
               <div className="flex flex-wrap gap-[3px]">
-                {list.map((c) => {
-                  const isActive = activeSet.has(c.id);
-                  const isHighlighted = hovered?.company.id === c.id;
-                  const color = CATEGORY_COLOR[c.category];
+                {list.map((e) => {
+                  const isActive = activeSet.has(e.id);
+                  const isHighlighted = hovered?.entity.id === e.id;
+                  const color = CATEGORY_COLOR[e.category];
                   return (
                     <div
-                      key={c.id}
+                      key={e.id}
                       ref={(el) => {
-                        if (el) tileRefs.current.set(c.id, el);
-                        else tileRefs.current.delete(c.id);
+                        if (el) tileRefs.current.set(e.id, el);
+                        else tileRefs.current.delete(e.id);
                       }}
-                      onMouseEnter={(e) => {
+                      onMouseEnter={(ev) => {
                         cancelHide();
                         setHovered({
-                          rect: e.currentTarget.getBoundingClientRect(),
-                          company: c,
+                          rect: ev.currentTarget.getBoundingClientRect(),
+                          entity: e,
                         });
                       }}
                       onMouseLeave={scheduleHide}
@@ -176,9 +167,9 @@ export default function CompanyGrid() {
         onMouseLeave={scheduleHide}
       >
         {hovered ? (
-          <CompanyTooltip
-            company={hovered.company}
-            isActive={activeSet.has(hovered.company.id)}
+          <EntityTooltip
+            entity={hovered.entity}
+            isActive={activeSet.has(hovered.entity.id)}
             chapterId={currentChapter.id}
             chapterDate={currentChapter.date}
           />
@@ -188,24 +179,24 @@ export default function CompanyGrid() {
   );
 }
 
-function CompanyTooltip({
-  company,
+function EntityTooltip({
+  entity,
   isActive,
   chapterId,
   chapterDate,
 }: {
-  company: Company;
+  entity: Entity;
   isActive: boolean;
   chapterId: string;
   chapterDate: string;
 }) {
-  const t = company.today;
-  const timelineEntry = company.timeline?.find((e) => e.chapterId === chapterId);
+  const t = entity.today;
+  const timelineEntry = entity.timeline?.find((e) => e.chapterId === chapterId);
 
   return (
     <div className="space-y-2">
-      <Identity company={company} />
-      <CategoryRow company={company} />
+      <Identity entity={entity} />
+      <CategoryRow entity={entity} />
 
       {isActive && timelineEntry && (
         <Section label={`As of ${chapterDate}`}>
@@ -225,9 +216,9 @@ function CompanyTooltip({
         </Section>
       )}
 
-      {(company.modalities?.length || company.productClasses?.length || company.therapeuticAreas?.length) && (
+      {(entity.modalities?.length || entity.productClasses?.length || entity.therapeuticAreas?.length) && (
         <Section label="What they make">
-          <PlatformBlock company={company} />
+          <PlatformBlock entity={entity} />
         </Section>
       )}
 
@@ -237,75 +228,77 @@ function CompanyTooltip({
         </Section>
       )}
 
-      {!company.today && (
-        <div className="text-[--color-fg]">{company.shortDescription}</div>
+      {!entity.today && (
+        <div className="text-[--color-fg]">{entity.shortDescription}</div>
       )}
-      {!company.today && company.signature && (
+      {!entity.today && entity.signature && (
         <div className="text-[--color-muted]">
           <span className="text-[10px] uppercase tracking-wider">
             Signature:
           </span>{" "}
-          {company.signature}
+          {entity.signature}
         </div>
       )}
 
-      {company.narrativeHook && (
+      {entity.narrativeHook && (
         <p className="border-l-2 border-[--color-accent] pl-2 italic text-[--color-fg]">
-          {company.narrativeHook}
+          {entity.narrativeHook}
         </p>
       )}
 
-      {company.sources && company.sources.length > 0 && (
-        <Section label={`Sources (${company.sources.length})`}>
-          <SourceList ids={company.sources} />
+      {entity.sources && entity.sources.length > 0 && (
+        <Section label={`Sources (${entity.sources.length})`}>
+          <SourceList ids={entity.sources} />
         </Section>
       )}
 
-      <VerificationFooter company={company} />
+      <VerificationFooter entity={entity} />
     </div>
   );
 }
 
-function Identity({ company }: { company: Company }) {
+function Identity({ entity }: { entity: Entity }) {
   return (
     <div className="space-y-0.5">
       <div className="flex items-baseline justify-between gap-2">
         <span className="font-semibold text-[--color-fg]">
-          {company.name}
-          {company.nameZh ? (
+          {entity.name}
+          {entity.nameZh ? (
             <span className="ml-1.5 text-[--color-muted]">
-              {company.nameZh}
+              {entity.nameZh}
             </span>
           ) : null}
         </span>
-        <span className="num text-[10px] text-[--color-muted]">
-          founded {company.founded}
-        </span>
+        {entity.founded !== undefined && (
+          <span className="num text-[10px] text-[--color-muted]">
+            founded {entity.founded}
+          </span>
+        )}
       </div>
-      {(company.headquarters || company.founders) && (
+      {(entity.headquarters || entity.founders) && (
         <div className="text-[10px] text-[--color-muted]">
-          {company.headquarters && <>{company.headquarters}</>}
-          {company.headquarters && company.founders && <> · </>}
-          {company.founders && <>by {company.founders}</>}
+          {entity.headquarters && <>{entity.headquarters}</>}
+          {entity.headquarters && entity.founders && <> · </>}
+          {entity.founders && <>by {entity.founders}</>}
         </div>
       )}
     </div>
   );
 }
 
-function CategoryRow({ company }: { company: Company }) {
+function CategoryRow({ entity }: { entity: Entity }) {
   return (
     <div className="flex items-center gap-1.5 text-[10px] uppercase tracking-wider text-[--color-muted]">
       <span
         aria-hidden
         className="inline-block h-2 w-2 rounded-[2px]"
-        style={{ backgroundColor: CATEGORY_COLOR[company.category] }}
+        style={{ backgroundColor: CATEGORY_COLOR[entity.category] }}
       />
-      {CATEGORY_LABEL[company.category]}
-      {company.subcategory && (
+      {CATEGORY_LABEL[entity.category]}
+      {entity.subcategory && (
         <>
           <span aria-hidden className="text-[--color-rule]">·</span>
-          <span className="text-[--color-fg]">{company.subcategory}</span>
+          <span className="text-[--color-fg]">{entity.subcategory}</span>
         </>
       )}
     </div>
@@ -332,7 +325,7 @@ function Section({
 function TimelineBlock({
   entry,
 }: {
-  entry: CompanyTimelineEntry | undefined;
+  entry: EntityTimelineEntry | undefined;
 }) {
   if (!entry) {
     return <span className="italic text-[--color-muted]">No data yet.</span>;
@@ -363,7 +356,7 @@ function TimelineBlock({
   );
 }
 
-function TodayBlock({ today }: { today: NonNullable<Company["today"]> }) {
+function TodayBlock({ today }: { today: NonNullable<Entity["today"]> }) {
   return (
     <div className="grid grid-cols-2 gap-x-3 gap-y-0.5 text-[10px]">
       {today.marketCapBillions !== undefined && (
@@ -427,12 +420,12 @@ const STATUS_LABEL: Record<string, string> = {
   preclinical: "preclin",
 };
 
-function PlatformBlock({ company }: { company: Company }) {
+function PlatformBlock({ entity }: { entity: Entity }) {
   return (
     <div className="space-y-1">
-      {company.modalities && company.modalities.length > 0 && (
+      {entity.modalities && entity.modalities.length > 0 && (
         <div className="flex flex-wrap gap-1">
-          {company.modalities.map((m) => (
+          {entity.modalities.map((m) => (
             <span
               key={m}
               className="rounded-sm border border-[--color-rule] px-1.5 py-0.5 text-[10px] text-[--color-fg]"
@@ -442,15 +435,15 @@ function PlatformBlock({ company }: { company: Company }) {
           ))}
         </div>
       )}
-      {company.therapeuticAreas && company.therapeuticAreas.length > 0 && (
+      {entity.therapeuticAreas && entity.therapeuticAreas.length > 0 && (
         <div className="text-[10px] text-[--color-muted]">
           <span className="uppercase tracking-wider">TA:</span>{" "}
-          {company.therapeuticAreas.join(" · ")}
+          {entity.therapeuticAreas.join(" · ")}
         </div>
       )}
-      {company.productClasses && company.productClasses.length > 0 && (
+      {entity.productClasses && entity.productClasses.length > 0 && (
         <ul className="space-y-0.5 text-[10px]">
-          {company.productClasses.map((p, i) => (
+          {entity.productClasses.map((p, i) => (
             <li
               key={`${p.name}-${i}`}
               className="flex items-baseline justify-between gap-2"
@@ -472,7 +465,7 @@ function PlatformBlock({ company }: { company: Company }) {
 function LeadAssetBlock({
   asset,
 }: {
-  asset: NonNullable<NonNullable<Company["today"]>["leadAsset"]>;
+  asset: NonNullable<NonNullable<Entity["today"]>["leadAsset"]>;
 }) {
   return (
     <div className="space-y-0.5">
@@ -495,7 +488,7 @@ function LeadAssetBlock({
 function DealBlock({
   deal,
 }: {
-  deal: NonNullable<NonNullable<Company["today"]>["biggestDeal"]>;
+  deal: NonNullable<NonNullable<Entity["today"]>["biggestDeal"]>;
 }) {
   return (
     <div className="text-[10px]">
@@ -545,12 +538,11 @@ function SourceList({ ids }: { ids: string[] }) {
   );
 }
 
-function VerificationFooter({ company }: { company: Company }) {
-  if (company.verified === true) return null;
+function VerificationFooter({ entity }: { entity: Entity }) {
+  if (entity.verified === true) return null;
   return (
     <div className="border-t border-[--color-rule] pt-1.5 text-[9px] uppercase tracking-wider text-[--color-accent]">
       Unverified — research pending
     </div>
   );
 }
-
