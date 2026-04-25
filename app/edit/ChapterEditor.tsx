@@ -19,7 +19,7 @@ export default function ChapterEditor({ chapter, onChange, onFocus }: Props) {
     (v) => onChange({ date: v }),
   );
   const bodyProps = useEditable<HTMLDivElement>(
-    chapter.body ?? "",
+    chapter.body,
     (v) => onChange({ body: v }),
     /* isHtml */ true,
   );
