@@ -1,14 +1,59 @@
 import type { ReactNode } from "react";
+import DraftTag from "@/components/DraftTag";
 
 export type Section = { id: string; body: ReactNode };
 
+function SectionHeader({ title, date }: { title: string; date: string }) {
+  return (
+    <>
+      <h2 className="mb-2 font-serif text-3xl font-semibold">{title}</h2>
+      <div className="flex flex-wrap items-center gap-3">
+        <p className="text-[--color-muted]">{date}</p>
+        <DraftTag />
+      </div>
+    </>
+  );
+}
+
 export const sections: Section[] = [
+  {
+    id: "prelude",
+    body: (
+      <>
+        <SectionHeader title="Reform & Opening" date="1978 — 1998" />
+        <p>
+          Modern Chinese biotech does not begin with a startup. It begins with
+          Deng Xiaoping&apos;s 1978 National Science Conference and the
+          deliberate rebuilding of a research base the Cultural Revolution had
+          nearly extinguished — the Chinese Academy of Sciences budget had
+          fallen to less than one-sixth of its 1965 level, with hundreds of
+          scientists killed or driven to suicide.
+        </p>
+        <p>
+          The funding architecture came in sequence. <em>NSFC</em> was
+          established in February 1986 as China&apos;s peer-reviewed basic
+          research funder. Weeks later, four senior physicists wrote to Deng,
+          and the <em>863 Program</em> was approved within two days, naming
+          biotechnology one of seven national high-tech priorities. The{" "}
+          <em>Torch Program</em> followed in 1988 to industrialize the output,
+          and the <em>973 Program</em> in 1997 funded strategic basic science.
+        </p>
+        <p>
+          The other quiet revolution was human capital. From the early 1990s,
+          the state began offering returnees — the <em>haigui</em>, &ldquo;sea
+          turtles&rdquo; — labs, budgets, and faculty positions to come home.
+          By 1999, when BGI was founded to claim China&apos;s 1% share of the
+          Human Genome Project, the institutional ground had been quietly
+          prepared.
+        </p>
+      </>
+    ),
+  },
   {
     id: "foundations",
     body: (
       <>
-        <h2 className="mb-2 font-serif text-3xl font-semibold">Foundations</h2>
-        <p className="text-[--color-muted]">1999 — 2010</p>
+        <SectionHeader title="Foundations" date="1999 — 2010" />
         <p>
           For most of the late twentieth century, China&apos;s pharmaceutical
           industry was a generics business. Domestic firms competed on cost, not
@@ -32,10 +77,7 @@ export const sections: Section[] = [
     id: "scandal",
     body: (
       <>
-        <h2 className="mb-2 font-serif text-3xl font-semibold">
-          The SFDA Scandal
-        </h2>
-        <p className="text-[--color-muted]">2007</p>
+        <SectionHeader title="The SFDA Scandal" date="2007" />
         <p>
           In July 2007, China executed Zheng Xiaoyu, the former director of the
           State Food and Drug Administration, for accepting bribes to approve
@@ -55,10 +97,7 @@ export const sections: Section[] = [
     id: "innovator-generation",
     body: (
       <>
-        <h2 className="mb-2 font-serif text-3xl font-semibold">
-          The Innovator Generation
-        </h2>
-        <p className="text-[--color-muted]">2010 — 2014</p>
+        <SectionHeader title="The Innovator Generation" date="2010 — 2014" />
         <p>
           Between 2010 and 2014, a generation of true biotechs was founded —
           most by returnees from American or European pharma. <em>BeiGene</em>{" "}
@@ -79,10 +118,7 @@ export const sections: Section[] = [
     id: "bi-jingquan-bigbang",
     body: (
       <>
-        <h2 className="mb-2 font-serif text-3xl font-semibold">
-          Bi Jingquan&apos;s Big Bang
-        </h2>
-        <p className="text-[--color-muted]">2015 — 2016</p>
+        <SectionHeader title="Bi Jingquan's Big Bang" date="2015 — 2016" />
         <p>
           In July 2015, the CFDA issued <em>Order 117</em> — the so-called 722
           self-inspection. Sponsors were given a window to withdraw clinical
@@ -105,10 +141,7 @@ export const sections: Section[] = [
     id: "ich-and-18a",
     body: (
       <>
-        <h2 className="mb-2 font-serif text-3xl font-semibold">
-          ICH and the 18A Boom
-        </h2>
-        <p className="text-[--color-muted]">2017 — 2018</p>
+        <SectionHeader title="ICH and the 18A Boom" date="2017 — 2018" />
         <p>
           In June 2017, China joined the <em>International Council for
           Harmonisation</em> — the body that sets pharmaceutical standards in
@@ -135,10 +168,7 @@ export const sections: Section[] = [
     id: "license-in-era",
     body: (
       <>
-        <h2 className="mb-2 font-serif text-3xl font-semibold">
-          The License-In Era
-        </h2>
-        <p className="text-[--color-muted]">2019 — 2020</p>
+        <SectionHeader title="The License-In Era" date="2019 — 2020" />
         <p>
           For three years, the easiest way to build a Chinese biotech was to buy
           rights to Western assets. Zai Lab pioneered the model; dozens of
@@ -159,10 +189,10 @@ export const sections: Section[] = [
     id: "vbp-and-value",
     body: (
       <>
-        <h2 className="mb-2 font-serif text-3xl font-semibold">
-          VBP Pressure and the Value Turn
-        </h2>
-        <p className="text-[--color-muted]">2021 — 2022</p>
+        <SectionHeader
+          title="VBP Pressure and the Value Turn"
+          date="2021 — 2022"
+        />
         <p>
           By 2021, VBP had expanded to biologics. The PD-1 class — flooded with
           domestic me-toos — was being negotiated down by the NHSA to a small
@@ -183,8 +213,7 @@ export const sections: Section[] = [
     id: "going-global",
     body: (
       <>
-        <h2 className="mb-2 font-serif text-3xl font-semibold">Going Global</h2>
-        <p className="text-[--color-muted]">2023 — 2024</p>
+        <SectionHeader title="Going Global" date="2023 — 2024" />
         <p>
           The flow reversed. License-out deals — Chinese companies selling
           rights to Western pharma — overtook license-in for the first time.
@@ -200,6 +229,45 @@ export const sections: Section[] = [
           stack that had built the industry was suddenly a geopolitical
           liability. The story that opens in 2026 is no longer about whether
           China can innovate. It is about whether the world will let it.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: "frontier-era",
+    body: (
+      <>
+        <SectionHeader title="The Frontier Era" date="2025 — 2026" />
+        <p>
+          The licensing-out story compounded faster than anyone in 2023 had
+          forecast. China&apos;s outbound deals in 2025 reached a record 157
+          transactions worth roughly <em>$135.7 billion</em> — more than
+          double 2024 — with US drugmakers signing 14 China-asset deals worth
+          $18.3 billion in the first half alone. Roughly a third of all
+          big-pharma licensing spending in 2025 sourced from China.
+        </p>
+        <p>
+          Akeso&apos;s <em>ivonescimab</em> beat Keytruda head-to-head in
+          HARMONi-2 — the first time a Chinese-discovered molecule
+          outperformed Merck&apos;s $30B-a-year flagship — and the next signal
+          came from somewhere unexpected. Insilico Medicine published positive
+          Phase II data for <em>rentosertib</em>, the first AI-discovered,
+          AI-designed drug to clear that bar; XtalPi listed under Hong
+          Kong&apos;s new Chapter 18C and signed a deal with Gregory
+          Verdine&apos;s DoveTree reportedly worth as much as $10 billion.
+          The DeepSeek-era frontier-LLM ecosystem began feeding domestic
+          protein and genomic foundation models.
+        </p>
+        <p>
+          Decoupling moved in the other direction. The <em>BIOSECURE Act</em>{" "}
+          was signed into law on December 17, 2025 as Section 851 of the
+          FY2026 NDAA. WuXi divested its US cell-and-gene-therapy and
+          device-testing businesses; BeiGene rebranded as{" "}
+          <em>BeOne Medicines</em> and redomiciled from the Caymans to Basel.
+          The company that had been the canonical American-Chinese hybrid
+          biotech was actively distancing itself from China as a corporate
+          identity — even as it remained, by every operating metric, the same
+          firm.
         </p>
       </>
     ),

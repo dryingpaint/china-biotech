@@ -1,11 +1,13 @@
 import SplitPanel from "@/components/Layout/SplitPanel";
 import Dashboard from "@/components/Dashboard/Dashboard";
 import Scroller from "@/components/Narrative/Scroller";
+import DraftTag from "@/components/DraftTag";
 import { sections } from "@/content/sections";
 
 export default function Home() {
   return (
     <main>
+      <DraftBanner />
       <Hero />
       <SplitPanel
         narrative={<Scroller sections={sections} />}
@@ -13,6 +15,14 @@ export default function Home() {
       />
       <Footer />
     </main>
+  );
+}
+
+function DraftBanner() {
+  return (
+    <div className="dashboard sticky top-0 z-40 border-b border-[--color-accent]/40 bg-[--color-accent]/10 px-4 py-1.5 text-center text-[11px] uppercase tracking-[0.2em] text-[--color-accent]">
+      Draft — all content and figures may be inaccurate
+    </div>
   );
 }
 
@@ -26,6 +36,9 @@ function Hero() {
         From a generics-only industry crippled by fraud, to a pipeline now
         feeding global pharma deals — one regulatory reform at a time.
       </p>
+      <div className="mt-8 flex justify-center">
+        <DraftTag size="md" />
+      </div>
       <div className="dashboard mt-10 text-xs uppercase tracking-[0.25em] text-[--color-muted]">
         Melissa Du
       </div>
