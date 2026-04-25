@@ -13,12 +13,21 @@ type Props = {
   show: boolean;
   anchorRect: DOMRect | null;
   children: ReactNode;
+  onMouseEnter?: () => void;
+  onMouseLeave?: () => void;
 };
 
 const TOOLTIP_W = 320;
 const MARGIN = 8;
 
-export default function Tooltip({ show, anchorRect, children }: Props) {
+export default function Tooltip({
+  show,
+  anchorRect,
+  children,
+  onMouseEnter,
+  onMouseLeave,
+}: Props) {
+  const interactive = !!(onMouseEnter || onMouseLeave);
   const [mounted, setMounted] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
   const [pos, setPos] = useState<{
@@ -64,7 +73,11 @@ export default function Tooltip({ show, anchorRect, children }: Props) {
     <div
       ref={ref}
       role="tooltip"
-      className="dashboard pointer-events-none fixed z-50 -translate-x-1/2 -translate-y-full overflow-y-auto rounded-md border border-[--color-rule] px-3 py-2 text-xs leading-snug text-[--color-fg] shadow-lg"
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
+      className={`dashboard fixed z-50 -translate-x-1/2 -translate-y-full overflow-y-auto rounded-md border border-[--color-rule] px-3 py-2 text-xs leading-snug text-[--color-fg] shadow-lg ${
+        interactive ? "pointer-events-auto" : "pointer-events-none"
+      }`}
       style={{
         top: pos?.top ?? -9999,
         left: pos?.left ?? -9999,

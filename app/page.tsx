@@ -1,6 +1,7 @@
 import SplitPanel from "@/components/Layout/SplitPanel";
 import Dashboard from "@/components/Dashboard/Dashboard";
 import Scroller from "@/components/Narrative/Scroller";
+import Bibliography from "@/components/Bibliography";
 import chapters from "@/data/chapters.json";
 import site from "@/data/site.json";
 import type { Chapter, SiteContent } from "@/lib/types";
@@ -13,6 +14,7 @@ export default function Home() {
         narrative={<Scroller chapters={chapters as Chapter[]} />}
         dashboard={<Dashboard />}
       />
+      <Bibliography />
     </main>
   );
 }

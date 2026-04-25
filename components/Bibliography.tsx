@@ -1,22 +1,20 @@
 import { citations } from "@/lib/citations";
-import DraftTag from "./DraftTag";
 
 export default function Bibliography() {
   return (
     <section
       id="bibliography"
-      className="mx-auto max-w-3xl px-6 py-20"
+      className="mx-auto max-w-3xl scroll-mt-12 px-6 py-20"
     >
-      <header className="mb-6 flex items-baseline justify-between border-b border-[--color-rule] pb-3">
+      <header className="mb-6 border-b border-[--color-rule] pb-3">
         <h2 className="font-serif text-2xl font-semibold">References</h2>
-        <DraftTag />
       </header>
       <ol className="dashboard space-y-3 text-sm">
         {citations.map((c, i) => (
           <li
             key={c.id}
             id={`cite-${c.id}`}
-            className="grid grid-cols-[2.5rem_1fr] gap-x-2 leading-snug text-[--color-fg] target:bg-[--color-accent]/10"
+            className="grid scroll-mt-12 grid-cols-[2.5rem_1fr] gap-x-2 leading-snug text-[--color-fg] target:bg-[--color-accent]/10"
           >
             <span className="num text-[--color-muted]">[{i + 1}]</span>
             <span>

@@ -9,6 +9,9 @@ import type {
   CompanyTimelineEntry,
 } from "@/lib/types";
 import Tooltip from "@/components/Tooltip";
+import Cite from "@/components/Cite";
+
+const HOVER_GRACE_MS = 200;
 
 const companies = companiesData as Company[];
 
@@ -51,6 +54,18 @@ export default function CompanyGrid() {
   const activeSet = new Set(activeIds);
   const [hovered, setHovered] = useState<Hovered | null>(null);
   const tileRefs = useRef<Map<string, HTMLDivElement>>(new Map());
+  const hideTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const cancelHide = () => {
+    if (hideTimer.current) {
+      clearTimeout(hideTimer.current);
+      hideTimer.current = null;
+    }
+  };
+  const scheduleHide = () => {
+    cancelHide();
+    hideTimer.current = setTimeout(() => setHovered(null), HOVER_GRACE_MS);
+  };
 
   useEffect(() => {
     if (!proseHighlightedId) {
@@ -60,6 +75,7 @@ export default function CompanyGrid() {
     const el = tileRefs.current.get(proseHighlightedId);
     const company = companies.find((c) => c.id === proseHighlightedId);
     if (!el || !company) return;
+    cancelHide();
     setHovered({
       rect: el.getBoundingClientRect(),
       company,
@@ -89,13 +105,14 @@ export default function CompanyGrid() {
                 if (el) tileRefs.current.set(c.id, el);
                 else tileRefs.current.delete(c.id);
               }}
-              onMouseEnter={(e) =>
+              onMouseEnter={(e) => {
+                cancelHide();
                 setHovered({
                   rect: e.currentTarget.getBoundingClientRect(),
                   company: c,
-                })
-              }
-              onMouseLeave={() => setHovered(null)}
+                });
+              }}
+              onMouseLeave={scheduleHide}
               className="h-3 w-3 rounded-[2px] transition-shadow"
               style={{
                 backgroundColor: isActive ? color : "transparent",
@@ -109,7 +126,12 @@ export default function CompanyGrid() {
         })}
       </div>
       <CategoryLegend />
-      <Tooltip show={!!hovered} anchorRect={hovered?.rect ?? null}>
+      <Tooltip
+        show={!!hovered}
+        anchorRect={hovered?.rect ?? null}
+        onMouseEnter={cancelHide}
+        onMouseLeave={scheduleHide}
+      >
         {hovered ? (
           <CompanyTooltip
             company={hovered.company}
@@ -182,6 +204,16 @@ function CompanyTooltip({
         <p className="border-l-2 border-[--color-accent] pl-2 italic text-[--color-fg]">
           {company.narrativeHook}
         </p>
+      )}
+
+      {company.sources && company.sources.length > 0 && (
+        <Section label={`Sources (${company.sources.length})`}>
+          <div className="flex flex-wrap gap-x-1.5 gap-y-1">
+            {company.sources.map((id) => (
+              <Cite key={id} id={id} />
+            ))}
+          </div>
+        </Section>
       )}
 
       <VerificationFooter company={company} />
