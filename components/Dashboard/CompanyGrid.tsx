@@ -9,7 +9,7 @@ import type {
   CompanyTimelineEntry,
 } from "@/lib/types";
 import Tooltip from "@/components/Tooltip";
-import Cite from "@/components/Cite";
+import { getCitation } from "@/lib/citations";
 
 const HOVER_GRACE_MS = 200;
 
@@ -208,11 +208,7 @@ function CompanyTooltip({
 
       {company.sources && company.sources.length > 0 && (
         <Section label={`Sources (${company.sources.length})`}>
-          <div className="flex flex-wrap gap-x-1.5 gap-y-1">
-            {company.sources.map((id) => (
-              <Cite key={id} id={id} />
-            ))}
-          </div>
+          <SourceList ids={company.sources} />
         </Section>
       )}
 
@@ -400,6 +396,38 @@ function DealBlock({
           · ${deal.valueBillions}B
         </span>
       )}
+    </div>
+  );
+}
+
+function SourceList({ ids }: { ids: string[] }) {
+  return (
+    <div className="flex flex-wrap gap-x-2 gap-y-0.5 text-[11px] leading-tight">
+      {ids.map((id) => {
+        const found = getCitation(id);
+        if (!found) {
+          return (
+            <span
+              key={id}
+              className="num text-[--color-accent]"
+              title={`Missing citation: ${id}`}
+            >
+              [?]
+            </span>
+          );
+        }
+        const { citation, index } = found;
+        return (
+          <a
+            key={id}
+            href={`#cite-${citation.id}`}
+            title={`${citation.authors}, "${citation.title}" (${citation.year})`}
+            className="num font-medium text-[--color-accent] no-underline hover:underline"
+          >
+            [{index + 1}]
+          </a>
+        );
+      })}
     </div>
   );
 }
