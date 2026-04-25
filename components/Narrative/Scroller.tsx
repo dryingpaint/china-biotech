@@ -1,15 +1,10 @@
 "use client";
 
 import { Scrollama, Step } from "react-scrollama";
-import type { ReactNode } from "react";
 import { useNarrative } from "@/lib/narrativeStore";
+import type { Chapter } from "@/lib/types";
 
-type Section = {
-  id: string;
-  body: ReactNode;
-};
-
-export default function Scroller({ sections }: { sections: Section[] }) {
+export default function Scroller({ chapters }: { chapters: Chapter[] }) {
   const setIndex = useNarrative((s) => s.setCurrentIndex);
 
   return (
@@ -19,18 +14,29 @@ export default function Scroller({ sections }: { sections: Section[] }) {
         if (typeof data === "number") setIndex(data);
       }}
     >
-      {sections.map((section, i) => (
-        <Step key={section.id} data={i}>
+      {chapters.map((chapter, i) => (
+        <Step key={chapter.id} data={i}>
           <section
-            id={section.id}
+            id={chapter.id}
             className="mx-auto max-w-2xl py-[40vh] first:pt-[20vh] last:pb-[40vh]"
           >
-            <div className="prose-narrative space-y-5 text-[18px] leading-[1.7]">
-              {section.body}
-            </div>
+            <ChapterBody chapter={chapter} />
           </section>
         </Step>
       ))}
     </Scrollama>
+  );
+}
+
+export function ChapterBody({ chapter }: { chapter: Chapter }) {
+  return (
+    <div className="prose-narrative space-y-5 text-[18px] leading-[1.7]">
+      <h2 className="mb-2 font-serif text-3xl font-semibold">{chapter.title}</h2>
+      <p className="text-[--color-muted]">{chapter.date}</p>
+      <div
+        className="space-y-5"
+        dangerouslySetInnerHTML={{ __html: chapter.body }}
+      />
+    </div>
   );
 }

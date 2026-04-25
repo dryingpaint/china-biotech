@@ -57,30 +57,30 @@
   },
   {
     "id": "beigene",
-    "name": "BeiGene",
+    "name": "BeiGene / BeOne Medicines",
     "nameZh": "百济神州",
     "founded": 2010,
-    "headquarters": "Beijing",
-    "founders": "John Oyler, Xiaodong Wang",
+    "headquarters": "Basel · Beijing · Cambridge MA",
+    "founders": "John V. Oyler, Xiaodong Wang",
     "category": "innovator",
-    "shortDescription": "First Chinese biotech to genuinely compete head-to-head globally",
+    "shortDescription": "First China-founded oncology biotech to reach global commercial scale; rebranded BeOne Medicines and redomiciled to Switzerland in May 2025",
     "signature": "Brukinsa (zanubrutinib)",
-    "narrativeHook": "Brukinsa was the first China-discovered drug to win FDA approval (2019), and later beat Imbruvica head-to-head — the moment China's innovation era became unignorable to global pharma.",
-    "verified": false,
-    "lastVerified": null,
+    "narrativeHook": "Brukinsa was the first cancer drug discovered in China to win FDA approval (Nov 2019) and the first to beat a Western standard of care head-to-head (vs Imbruvica in ALPINE) — the moment China's innovation era became unignorable to global pharma.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
     "today": {
       "asOf": "2026-04",
-      "marketCapBillions": 36,
+      "marketCapBillions": 35,
       "revenueBillions": 3.8,
-      "revenueYear": 2025,
-      "approvedDrugCount": 5,
-      "listings": ["NASDAQ", "HKEX", "STAR"],
+      "revenueYear": 2024,
+      "approvedDrugCount": 2,
+      "listings": ["NASDAQ: ONC", "HKEX: 06160", "STAR: 688235"],
       "modalities": ["small molecule", "monoclonal antibody"],
       "leadAsset": {
         "name": "Brukinsa (zanubrutinib)",
         "mechanism": "BTK inhibitor",
-        "indication": "B-cell malignancies (CLL, MCL, WM, MZL, FL)",
-        "status": "Approved (FDA, EMA, NMPA, 70+ markets)"
+        "indication": "B-cell malignancies (CLL, WM, MCL, MZL, FL+obinutuzumab)",
+        "status": "Approved in 75 markets; $2.6B FY2024 revenue (105% YoY)"
       },
       "biggestDeal": {
         "partner": "Amgen",
@@ -92,50 +92,53 @@
     "timeline": [
       {
         "chapterId": "innovator-generation",
-        "status": "Founded by Oyler and Wang in Beijing",
+        "status": "Founded in Beijing by Oyler (entrepreneur) and Wang (HHMI investigator at NIBS Beijing)",
         "approvedDrugCount": 0,
-        "pipelineStage": "Preclinical"
+        "pipelineStage": "Preclinical",
+        "note": "Early Merck $20M investment; built around running global-standard trials inside China"
       },
       {
         "chapterId": "bi-jingquan-bigbang",
-        "status": "NASDAQ IPO at $24/sh, ~$182M raised",
+        "status": "NASDAQ IPO Feb 3, 2016 at $24/ADS (BGNE)",
         "approvedDrugCount": 0,
         "pipelineStage": "Phase 1/2",
         "listings": ["NASDAQ"]
       },
       {
         "chapterId": "harmonisation-and-hong-kong",
-        "status": "First HKEX 18A listing for a US-listed biotech",
+        "status": "Hong Kong dual listing Aug 8, 2018 at HK$108/share — first Chapter 18A IPO by a US-listed biotech (US$903M raised)",
         "approvedDrugCount": 0,
         "pipelineStage": "Phase 3",
-        "listings": ["NASDAQ", "HKEX"],
-        "note": "Amgen partnership signed: $2.7B for 20-drug oncology platform"
+        "listings": ["NASDAQ", "HKEX: 06160"],
+        "note": "Oct 2019: Amgen takes 20.5% stake at $174.85/ADS for $2.7B; joint development of 20 oncology assets in China"
       },
       {
         "chapterId": "first-american-approvals",
-        "status": "Brukinsa wins FDA accelerated approval (Nov 2019)",
+        "status": "Brukinsa wins FDA accelerated approval Nov 14, 2019 for mantle cell lymphoma — first cancer drug discovered in China to clear FDA",
         "approvedDrugCount": 1,
         "pipelineStage": "Marketed + Phase 3",
-        "listings": ["NASDAQ", "HKEX"]
+        "listings": ["NASDAQ", "HKEX: 06160"]
       },
       {
         "chapterId": "procurement-and-value",
-        "status": "STAR Market dual listing; tislelizumab approved",
-        "approvedDrugCount": 3,
-        "listings": ["NASDAQ", "HKEX", "STAR"]
+        "status": "STAR Market triple listing Dec 15, 2021 (688235), RMB22.2B (US$3.5B) raised — first triple-listed biotech globally",
+        "approvedDrugCount": 2,
+        "listings": ["NASDAQ", "HKEX: 06160", "STAR: 688235"],
+        "note": "Tislelizumab (later Tevimbra) approved by NMPA; multiple CLL/WM label expansions for Brukinsa"
       },
       {
         "chapterId": "going-global",
-        "status": "Brukinsa beats Imbruvica head-to-head in ALPINE",
-        "approvedDrugCount": 4,
-        "listings": ["NASDAQ", "HKEX", "STAR"]
+        "status": "ALPINE trial: Brukinsa beats ibrutinib head-to-head in R/R CLL — first China-discovered drug to defeat a Western standard of care",
+        "approvedDrugCount": 2,
+        "listings": ["NASDAQ", "HKEX: 06160", "STAR: 688235"],
+        "note": "Recoups Tevimbra rights from Novartis"
       },
       {
         "chapterId": "frontier-era",
-        "status": "Rebranded BeOne Medicines; redomiciled Cayman → Switzerland",
-        "approvedDrugCount": 5,
-        "listings": ["NASDAQ", "HKEX", "STAR"],
-        "note": "Distancing the corporate identity from China while keeping the operations"
+        "status": "Renamed BeOne Medicines and redomiciled Cayman → Switzerland (effective May 27, 2025); ticker NASDAQ:BGNE → ONC; first GAAP-profitable quarter Q1 2025; FY2025 revenue guide $4.9–5.3B",
+        "approvedDrugCount": 2,
+        "listings": ["NASDAQ: ONC", "HKEX: 06160", "STAR: 688235"],
+        "note": "Brukinsa now in 75 markets (US$2.6B FY2024); Tevimbra in 46 markets with new FDA esophageal SCC indication"
       }
     ]
   },
