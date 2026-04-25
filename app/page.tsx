@@ -22,7 +22,7 @@ export default function Home() {
 
 function DraftBanner() {
   return (
-    <div className="dashboard sticky top-0 z-40 border-b border-[--color-accent]/40 bg-[--color-accent]/10 px-4 py-1.5 text-center text-[11px] uppercase tracking-[0.2em] text-[--color-accent]">
+    <div className="dashboard sticky top-0 z-40 border-b border-[--color-accent]/40 bg-[--color-bg] px-4 py-1.5 text-center text-[11px] uppercase tracking-[0.2em] text-[--color-accent]">
       Draft — all content and figures may be inaccurate
     </div>
   );
