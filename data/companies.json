@@ -1,0 +1,170 @@
+[
+  {
+    "id": "hengrui",
+    "name": "Hengrui Medicine",
+    "founded": 1970,
+    "category": "traditional",
+    "shortDescription": "State-origin generics maker that pivoted to oncology innovation",
+    "signature": "Camrelizumab (PD-1)"
+  },
+  {
+    "id": "3sbio",
+    "name": "3SBio",
+    "founded": 1993,
+    "category": "innovator",
+    "shortDescription": "Early biologics, EPO franchise",
+    "signature": "EPIAO erythropoietin"
+  },
+  {
+    "id": "bgi",
+    "name": "BGI Group",
+    "founded": 1999,
+    "category": "genomics",
+    "shortDescription": "Sequencing infrastructure, later flagged under BIOSECURE",
+    "signature": "DNBSEQ sequencers, MGI"
+  },
+  {
+    "id": "wuxi-apptec",
+    "name": "WuXi AppTec",
+    "founded": 2000,
+    "category": "cro_cdmo",
+    "shortDescription": "Backbone of China's pharma services outsourcing",
+    "signature": "End-to-end CRDMO"
+  },
+  {
+    "id": "sinovac",
+    "name": "Sinovac Biotech",
+    "founded": 2001,
+    "category": "vaccines",
+    "shortDescription": "Vaccines, scaled massively during COVID",
+    "signature": "CoronaVac"
+  },
+  {
+    "id": "remegen",
+    "name": "RemeGen",
+    "founded": 2008,
+    "category": "adc",
+    "shortDescription": "Early ADC and autoimmune biologics player",
+    "signature": "Disitamab vedotin (HER2 ADC)"
+  },
+  {
+    "id": "cansino",
+    "name": "CanSino Biologics",
+    "founded": 2009,
+    "category": "vaccines",
+    "shortDescription": "Adenovirus-vectored vaccines",
+    "signature": "Convidecia COVID vaccine"
+  },
+  {
+    "id": "beigene",
+    "name": "BeiGene",
+    "founded": 2010,
+    "category": "innovator",
+    "shortDescription": "First Chinese biotech to genuinely compete head-to-head globally",
+    "signature": "Brukinsa (zanubrutinib)"
+  },
+  {
+    "id": "innovent",
+    "name": "Innovent Biologics",
+    "founded": 2011,
+    "category": "innovator",
+    "shortDescription": "Lilly partnership template; broad oncology pipeline",
+    "signature": "Tyvyt (sintilimab)"
+  },
+  {
+    "id": "junshi",
+    "name": "Junshi Biosciences",
+    "founded": 2012,
+    "category": "innovator",
+    "shortDescription": "First China-discovered PD-1 approved by NMPA",
+    "signature": "Toripalimab"
+  },
+  {
+    "id": "akeso",
+    "name": "Akeso",
+    "founded": 2012,
+    "category": "innovator",
+    "shortDescription": "Bispecific antibody pioneer",
+    "signature": "Ivonescimab (PD-1/VEGF bispecific)"
+  },
+  {
+    "id": "zailab",
+    "name": "Zai Lab",
+    "founded": 2014,
+    "category": "innovator",
+    "shortDescription": "Defined the license-in business model",
+    "signature": "Zejula (China rights)"
+  },
+  {
+    "id": "legend",
+    "name": "Legend Biotech",
+    "founded": 2014,
+    "category": "cell_gene",
+    "shortDescription": "CAR-T innovator, J&J partnership",
+    "signature": "Carvykti (cilta-cel)"
+  },
+  {
+    "id": "wuxi-bio",
+    "name": "WuXi Biologics",
+    "founded": 2015,
+    "category": "cro_cdmo",
+    "shortDescription": "Spinoff dedicated to biologics CDMO",
+    "signature": "Mab/ADC manufacturing"
+  },
+  {
+    "id": "cstone",
+    "name": "CStone Pharmaceuticals",
+    "founded": 2015,
+    "category": "innovator",
+    "shortDescription": "Precision oncology, Pfizer partnership",
+    "signature": "Sugemalimab (PD-L1)"
+  },
+  {
+    "id": "imab",
+    "name": "I-Mab",
+    "founded": 2016,
+    "category": "innovator",
+    "shortDescription": "Differentiated immuno-oncology biologics",
+    "signature": "Lemzoparlimab (CD47)"
+  },
+  {
+    "id": "everest",
+    "name": "Everest Medicines",
+    "founded": 2017,
+    "category": "innovator",
+    "shortDescription": "Asia-Pacific licensing platform",
+    "signature": "Nefecon (IgA nephropathy)"
+  },
+  {
+    "id": "abogen",
+    "name": "Abogen Biosciences",
+    "founded": 2019,
+    "category": "mrna",
+    "shortDescription": "China's flagship mRNA platform",
+    "signature": "ARCoV COVID mRNA vaccine"
+  },
+  {
+    "id": "duality",
+    "name": "Duality Biologics",
+    "founded": 2018,
+    "category": "adc",
+    "shortDescription": "ADC platform; major BioNTech deal",
+    "signature": "DB-1303 (HER2 ADC)"
+  },
+  {
+    "id": "kelun-bio",
+    "name": "Kelun Biotech",
+    "founded": 2016,
+    "category": "adc",
+    "shortDescription": "Multi-billion-dollar Merck ADC partnership",
+    "signature": "Sac-TMT (TROP2 ADC)"
+  },
+  {
+    "id": "lanova",
+    "name": "LaNova Medicines",
+    "founded": 2019,
+    "category": "innovator",
+    "shortDescription": "PD-1/VEGF bispecific licensed to Merck for $3.3B",
+    "signature": "LM-299 (PD-1xVEGF)"
+  }
+]

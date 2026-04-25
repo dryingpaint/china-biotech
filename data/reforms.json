@@ -1,0 +1,130 @@
+[
+  {
+    "id": "sfda-scandal",
+    "name": "SFDA Director Executed",
+    "date": "2007-07",
+    "category": "approval",
+    "shortDescription": "Zheng Xiaoyu executed for corruption; symbol of regulatory rot",
+    "impact": "Exposed approval system as broken; set stage for later overhaul"
+  },
+  {
+    "id": "order-117",
+    "name": "Order 117 / 722 Self-Inspection",
+    "date": "2015-07",
+    "category": "approval",
+    "shortDescription": "Mass self-audit of clinical trial data",
+    "impact": "~80% of pending applications withdrawn due to fraud — brutal cleansing"
+  },
+  {
+    "id": "priority-review",
+    "name": "Priority Review Pathway",
+    "date": "2015-11",
+    "category": "approval",
+    "shortDescription": "Fast-track for innovative drugs and unmet need",
+    "impact": "First substantive break from generics-first regime"
+  },
+  {
+    "id": "mah",
+    "name": "Marketing Authorization Holder Pilot",
+    "date": "2016-06",
+    "category": "approval",
+    "shortDescription": "Decoupled drug ownership from manufacturing",
+    "impact": "Made it possible for asset-light biotechs to own approved drugs"
+  },
+  {
+    "id": "ich-join",
+    "name": "China Joins ICH",
+    "date": "2017-06",
+    "category": "approval",
+    "shortDescription": "Harmonized regulatory standards with US/EU/Japan",
+    "impact": "Foreign trial data accepted; bridging trials enabled global pipelines"
+  },
+  {
+    "id": "conditional-approval",
+    "name": "Conditional Approval Pathway",
+    "date": "2017-10",
+    "category": "approval",
+    "shortDescription": "Early access for breakthrough therapies",
+    "impact": "Years shaved off oncology and rare-disease approvals"
+  },
+  {
+    "id": "nrdl-resume",
+    "name": "NRDL Annual Negotiations Resume",
+    "date": "2017-07",
+    "category": "market_access",
+    "shortDescription": "National reimbursement list updates after 8-year freeze",
+    "impact": "Created regular path to mass market — at the price of steep discounts"
+  },
+  {
+    "id": "hk-18a",
+    "name": "HKEX Chapter 18A",
+    "date": "2018-04",
+    "category": "capital_markets",
+    "shortDescription": "Pre-revenue biotechs allowed to IPO in Hong Kong",
+    "impact": "Unlocked tens of billions in biotech funding overnight"
+  },
+  {
+    "id": "nhsa",
+    "name": "NHSA Established",
+    "date": "2018-05",
+    "category": "market_access",
+    "shortDescription": "Single national healthcare payer created",
+    "impact": "Concentrated bargaining power; enabled VBP at national scale"
+  },
+  {
+    "id": "vbp",
+    "name": "Volume-Based Procurement",
+    "date": "2018-12",
+    "category": "market_access",
+    "shortDescription": "4+7 city pilot, then nationwide expansion",
+    "impact": "Crushed generic margins; forced industry toward true innovation"
+  },
+  {
+    "id": "nmpa-rename",
+    "name": "CFDA Renamed NMPA",
+    "date": "2018-09",
+    "category": "approval",
+    "shortDescription": "Restructured under State Administration for Market Regulation",
+    "impact": "Signaled completion of the 2015–2018 reform package"
+  },
+  {
+    "id": "star-market",
+    "name": "STAR Market Launches",
+    "date": "2019-07",
+    "category": "capital_markets",
+    "shortDescription": "Shanghai exchange opens to pre-revenue tech and biotech",
+    "impact": "Second IPO venue; reduced reliance on HK and US listings"
+  },
+  {
+    "id": "drug-reg-overhaul",
+    "name": "New Drug Registration Regulation",
+    "date": "2020-07",
+    "category": "approval",
+    "shortDescription": "Comprehensive overhaul codifying the reform decade",
+    "impact": "Locked in conditional approval, breakthrough designation, real-world evidence"
+  },
+  {
+    "id": "value-oriented-onc",
+    "name": "Value-Oriented Oncology Guideline",
+    "date": "2021-07",
+    "category": "approval",
+    "shortDescription": "NMPA explicitly discourages me-too oncology drugs",
+    "impact": "Demanded head-to-head vs standard of care; killed PD-1 me-too rush"
+  },
+  {
+    "id": "hgr-tightening",
+    "name": "Human Genetic Resources Tightening",
+    "date": "2022-03",
+    "category": "geopolitical",
+    "shortDescription": "Restrictions on cross-border genetic data and samples",
+    "impact": "Complicated multinational trials and academic collaborations"
+  },
+  {
+    "id": "biosecure",
+    "name": "BIOSECURE Act Introduced",
+    "date": "2024-01",
+    "category": "geopolitical",
+    "shortDescription": "US bill targeting WuXi AppTec, WuXi Biologics, BGI, MGI, Complete Genomics",
+    "impact": "Existential threat to China CRO/CDMO revenue from US clients"
+  }
+]
