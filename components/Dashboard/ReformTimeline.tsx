@@ -71,7 +71,7 @@ export default function ReformTimeline() {
   }, [proseHighlightedId]);
 
   return (
-    <section className="min-h-[220px] space-y-2">
+    <section className="space-y-2">
       <header className="flex items-baseline justify-between">
         <h3 className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[--color-muted]">
           Regulatory reforms
