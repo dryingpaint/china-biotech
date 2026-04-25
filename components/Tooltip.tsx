@@ -24,8 +24,13 @@ export default function Tooltip({ show, anchorRect, children }: Props) {
   return createPortal(
     <div
       role="tooltip"
-      className="dashboard pointer-events-none fixed z-50 w-[280px] -translate-x-1/2 -translate-y-full rounded-md border border-[--color-rule] bg-[--color-bg] px-3 py-2 text-xs leading-snug text-[--color-fg] shadow-lg"
-      style={{ top, left }}
+      className="dashboard pointer-events-none fixed z-50 w-[280px] -translate-x-1/2 -translate-y-full rounded-md border border-[--color-rule] px-3 py-2 text-xs leading-snug text-[--color-fg] shadow-lg"
+      style={{
+        top,
+        left,
+        backgroundColor: "var(--color-bg)",
+        opacity: 1,
+      }}
     >
       {children}
     </div>,
