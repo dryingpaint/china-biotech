@@ -21,7 +21,7 @@ type Modality = {
 const MODALITIES: Modality[] = [
   {
     key: "smallMol",
-    label: "Small molecules",
+    label: "Small mol",
     blurb: "Synthetic-chemistry NCEs and generics",
     rungs: [
       { label: "Capability", marker: "Pharmaceutical chemistry; novel small-molecule discovery infrastructure" },
@@ -33,7 +33,7 @@ const MODALITIES: Modality[] = [
   },
   {
     key: "peptide",
-    label: "Peptide therapeutics",
+    label: "Peptide",
     blurb: "Solid-phase synthesis; GLP-1, insulin analogs",
     rungs: [
       { label: "Capability", marker: "Solid-phase peptide synthesis and pegylation chemistry" },
@@ -45,7 +45,7 @@ const MODALITIES: Modality[] = [
   },
   {
     key: "recombinant",
-    label: "Recombinant proteins",
+    label: "Recombinant",
     blurb: "Non-antibody biologics: EPO, growth factors, fusion proteins",
     rungs: [
       { label: "Capability", marker: "Bovine insulin total synthesis (1965)[[cite:bcas-insulin-2024]]" },
@@ -57,7 +57,7 @@ const MODALITIES: Modality[] = [
   },
   {
     key: "biosimilar",
-    label: "Biosimilars",
+    label: "Biosimilar",
     blurb: "Off-patent biologic equivalents",
     rungs: [
       { label: "Capability", marker: "Henlius founded (2010); biosimilar development underway" },
@@ -69,7 +69,7 @@ const MODALITIES: Modality[] = [
   },
   {
     key: "novelMab",
-    label: "Monoclonal antibodies",
+    label: "mAb",
     blurb: "Novel mAbs incl. checkpoint inhibitors",
     rungs: [
       { label: "Capability", marker: "BeiGene (2010), Innovent (2011) — innovator-mAb firms forming" },
@@ -81,7 +81,7 @@ const MODALITIES: Modality[] = [
   },
   {
     key: "bispecific",
-    label: "Bispecific antibodies",
+    label: "Bispecific",
     blurb: "Multi-target antibody architectures",
     rungs: [
       { label: "Capability", marker: "Multi-target antibody engineering capability builds out (mid-2010s)" },
@@ -93,7 +93,7 @@ const MODALITIES: Modality[] = [
   },
   {
     key: "adc",
-    label: "Antibody–drug conjugates",
+    label: "ADC",
     blurb: "Antibody + linker + cytotoxic payload",
     rungs: [
       { label: "Capability", marker: "RemeGen founded (2008); disitamab vedotin development" },
@@ -105,7 +105,7 @@ const MODALITIES: Modality[] = [
   },
   {
     key: "vaccine",
-    label: "Vaccines (non-mRNA)",
+    label: "Vaccine",
     blurb: "Inactivated, subunit, viral-vector platforms",
     rungs: [
       { label: "Capability", marker: "PRC vaccine production established from the 1950s" },
@@ -129,7 +129,7 @@ const MODALITIES: Modality[] = [
   },
   {
     key: "nucleicAcid",
-    label: "mRNA & nucleic acid",
+    label: "Nucleic acid",
     blurb: "mRNA, siRNA, ASO, LNP delivery",
     rungs: [
       { label: "Capability", marker: "Walvax–Abogen ARCoV mRNA reaches Phase III in Mexico/Indonesia[[cite:scmp-arcov-phase3-mexico-indonesia]]" },
@@ -153,7 +153,7 @@ const MODALITIES: Modality[] = [
   },
   {
     key: "radiopharm",
-    label: "Radiopharmaceuticals",
+    label: "Radiopharm",
     blurb: "Targeted radioligand therapies",
     rungs: [
       { label: "Capability", marker: "Domestic radioligand programs emerging (Sinotau, Newland)" },
@@ -194,17 +194,27 @@ export default function CapabilityGrid() {
       <div>
         {MODALITIES.map((m) => {
           const state = progress[m.key] ?? { rung: 0 };
+          const reached = state.rung > 0;
           return (
             <div
               key={m.key}
-              className="flex items-center justify-between gap-2 py-px"
+              className="grid grid-cols-[5.5rem_1.5rem_1fr] items-center gap-x-1.5 py-px"
             >
-              <span className="text-[10px] leading-none text-[--color-fg]">
+              <span
+                className="truncate text-[9px] font-medium uppercase tracking-wider leading-none"
+                style={{
+                  color: reached ? "var(--color-accent)" : "var(--color-muted)",
+                }}
+                title={m.label}
+              >
                 {m.label}
+              </span>
+              <span className="num text-right text-[9px] leading-none text-[--color-muted]">
+                {state.rung}/5
               </span>
               <div className="flex items-center gap-[3px]">
                 {[1, 2, 3, 4, 5].map((r) => {
-                  const reached = state.rung >= r;
+                  const tileReached = state.rung >= r;
                   const frontierHere = !!state.frontier && state.rung === r;
                   return (
                     <button
@@ -216,7 +226,7 @@ export default function CapabilityGrid() {
                           rect: e.currentTarget.getBoundingClientRect(),
                           modality: m,
                           rungIndex: r,
-                          reached,
+                          reached: tileReached,
                           frontierHere,
                         })
                       }
@@ -226,15 +236,15 @@ export default function CapabilityGrid() {
                           rect: e.currentTarget.getBoundingClientRect(),
                           modality: m,
                           rungIndex: r,
-                          reached,
+                          reached: tileReached,
                           frontierHere,
                         })
                       }
                       onBlur={() => setHovered(null)}
-                      className="h-2 w-2 rounded-[1px] transition-colors hover:ring-1 hover:ring-[--color-accent] focus:outline-none focus:ring-1 focus:ring-[--color-accent]"
+                      className="h-2.5 w-2.5 rounded-[2px] transition-colors hover:ring-1 hover:ring-[--color-accent] focus:outline-none focus:ring-1 focus:ring-[--color-accent]"
                       style={{
-                        backgroundColor: reached ? "var(--color-accent)" : "transparent",
-                        border: `1px solid ${reached ? "var(--color-accent)" : "var(--color-rule)"}`,
+                        backgroundColor: tileReached ? "var(--color-accent)" : "transparent",
+                        border: `1px solid ${tileReached ? "var(--color-accent)" : "var(--color-rule)"}`,
                       }}
                     />
                   );
