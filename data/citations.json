@@ -1,1 +1,834 @@
-[]
+[
+  {
+    "id": "rockarch-pumc-history",
+    "authors": "Rockefeller Archive Center",
+    "title": "Early 20th Century Reforms of Medical Education Worldwide",
+    "publisher": "Rockefeller Archive Center",
+    "year": 2019,
+    "url": "https://resource.rockarch.org/story/early-20th-century-reforms-of-medical-education-worldwide/"
+  },
+  {
+    "id": "pmc-cams-pumc-2020",
+    "authors": "Wang, K. et al.",
+    "title": "A key player in biomedical sciences and clinical service in China: Chinese Academy of Medical Sciences and Peking Union Medical College",
+    "publisher": "Global Health & Medicine (PMC)",
+    "year": 2020,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7080012/"
+  },
+  {
+    "id": "pumc-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "Peking Union Medical College",
+    "publisher": "Wikipedia",
+    "year": 2024,
+    "url": "https://en.wikipedia.org/wiki/Peking_Union_Medical_College"
+  },
+  {
+    "id": "infezmed-manchurian-plague",
+    "authors": "Lai, S.-J., Yu, L.-J., Wang, J., Zhou, X.-N., Yang, W.-Z.",
+    "title": "The Manchurian pandemic of pneumonic plague (1910–1911)",
+    "publisher": "Le Infezioni in Medicina (PMC)",
+    "year": 2022,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9448316/"
+  },
+  {
+    "id": "wu-lien-teh-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "Wu Lien-teh",
+    "publisher": "Wikipedia",
+    "year": 2024,
+    "url": "https://en.wikipedia.org/wiki/Wu_Lien-teh"
+  },
+  {
+    "id": "wang-yinglai-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "Wang Yinglai",
+    "publisher": "Wikipedia",
+    "year": 2024,
+    "url": "https://en.wikipedia.org/wiki/Wang_Yinglai"
+  },
+  {
+    "id": "tang-feifan-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "Tang Feifan",
+    "publisher": "Wikipedia",
+    "year": 2024,
+    "url": "https://en.wikipedia.org/wiki/Tang_Feifan"
+  },
+  {
+    "id": "cas-history-soviet-model",
+    "authors": "Wikipedia contributors",
+    "title": "History of science and technology in the People's Republic of China",
+    "publisher": "Wikipedia",
+    "year": 2024,
+    "url": "https://en.wikipedia.org/wiki/History_of_science_and_technology_in_the_People%27s_Republic_of_China"
+  },
+  {
+    "id": "lysenkoism-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "Lysenkoism",
+    "publisher": "Wikipedia",
+    "year": 2024,
+    "url": "https://en.wikipedia.org/wiki/Lysenkoism"
+  },
+  {
+    "id": "alphahistory-lysenko-china",
+    "authors": "Thompson, S.",
+    "title": "Trofim Lysenko",
+    "publisher": "Alpha History — Chinese Revolution",
+    "year": 2019,
+    "url": "https://alphahistory.com/chineserevolution/trofim-lysenko/"
+  },
+  {
+    "id": "bcas-insulin-2024",
+    "authors": "Bulletin of the Chinese Academy of Sciences",
+    "title": "The Legacy of Synthetic Bovine Insulin: A Journey of Dedication, Collaboration and Innovation",
+    "publisher": "Bulletin of the Chinese Academy of Sciences",
+    "year": 2024,
+    "url": "https://bcas.edpsciences.org/articles/bcas/full_html/2024/01/bcas2024006/bcas2024006.html"
+  },
+  {
+    "id": "synthetic-insulin-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "Synthetic crystalline bovine insulin",
+    "publisher": "Wikipedia",
+    "year": 2024,
+    "url": "https://en.wikipedia.org/wiki/Synthetic_crystalline_bovine_insulin"
+  },
+  {
+    "id": "lasker-artemisinin-2011",
+    "authors": "Miller, L. H. & Su, X.",
+    "title": "Artemisinin: discovery from the Chinese herbal garden",
+    "publisher": "Cell (PMC)",
+    "year": 2011,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3195493/"
+  },
+  {
+    "id": "tu-youyou-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "Tu Youyou",
+    "publisher": "Wikipedia",
+    "year": 2024,
+    "url": "https://en.wikipedia.org/wiki/Tu_Youyou"
+  },
+  {
+    "id": "cas-at-70-nature",
+    "authors": "Mallapaty, S.",
+    "title": "The Chinese Academy of Sciences at 70",
+    "publisher": "Nature",
+    "year": 2019,
+    "url": "https://www.nature.com/articles/d41586-019-02950-5"
+  },
+  {
+    "id": "uchicago-cultural-revolution-college",
+    "authors": "Chen, Y., Fan, Z., Gu, X., Zhou, L.-A.",
+    "title": "The Scarring Effects of College Education Deprivation during China's Cultural Revolution",
+    "publisher": "Economic Development and Cultural Change",
+    "year": 2022,
+    "url": "https://www.journals.uchicago.edu/doi/10.1086/713935"
+  },
+  {
+    "id": "national-science-conference-1978",
+    "authors": "China Daily",
+    "title": "March 18-31, 1978: The national science conference is held in Beijing",
+    "publisher": "China Daily",
+    "year": 2011,
+    "url": "https://www.chinadaily.com.cn/china/19thcpcnationalcongress/2011-03/18/content_29715461.htm"
+  },
+  {
+    "id": "nsfc-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "National Natural Science Foundation of China",
+    "publisher": "Wikipedia",
+    "year": 2024,
+    "url": "https://en.wikipedia.org/wiki/National_Natural_Science_Foundation_of_China"
+  },
+  {
+    "id": "863-program-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "863 Program",
+    "publisher": "Wikipedia",
+    "year": 2024,
+    "url": "https://en.wikipedia.org/wiki/863_Program"
+  },
+  {
+    "id": "chinadaily-863-program",
+    "authors": "China Daily",
+    "title": "March 3, 1986: The '863 program' is proposed",
+    "publisher": "China Daily",
+    "year": 2011,
+    "url": "http://www.chinadaily.com.cn/china/19thcpcnationalcongress/2011-03/03/content_29715053.htm"
+  },
+  {
+    "id": "torch-program-china",
+    "authors": "China Internet Information Center",
+    "title": "Torch Program Contributes to Chinese Economy",
+    "publisher": "China.org.cn",
+    "year": 2002,
+    "url": "http://www.china.org.cn/english/2002/Aug/39823.htm"
+  },
+  {
+    "id": "973-program-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "Program 973",
+    "publisher": "Wikipedia",
+    "year": 2024,
+    "url": "https://en.wikipedia.org/wiki/Program_973"
+  },
+  {
+    "id": "innovation-china-haigui-1994",
+    "authors": "Greeven, M., Yu, H., Yip, G.",
+    "title": "Innovation and China's Global Emergence (Chapter 5)",
+    "publisher": "NUS Press",
+    "year": 2021,
+    "url": "https://epress.nus.edu.sg/innovationandchina/chapterfive/"
+  },
+  {
+    "id": "bgi-history-genomics-cn",
+    "authors": "BGI Group",
+    "title": "BGI History",
+    "publisher": "BGI Group",
+    "year": 2024,
+    "url": "https://en.genomics.cn/en-history.html"
+  },
+  {
+    "id": "chgc-hgp-china-protein-cell",
+    "authors": "Yang, H. et al. (Chinese Human Genome Consortium)",
+    "title": "The international Human Genome Project (HGP) and China's contribution",
+    "publisher": "Protein & Cell (PMC)",
+    "year": 2018,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5876186/"
+  },
+  {
+    "id": "wuxi-apptec-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "WuXi AppTec",
+    "publisher": "Wikipedia",
+    "year": 2025,
+    "url": "https://en.wikipedia.org/wiki/WuXi_AppTec"
+  },
+  {
+    "id": "ge-li-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "Ge Li",
+    "publisher": "Wikipedia",
+    "year": 2025,
+    "url": "https://en.wikipedia.org/wiki/Ge_Li"
+  },
+  {
+    "id": "biobay-suzhou-baike",
+    "authors": "Suzhou Industrial Park",
+    "title": "BioBAY — Suzhou Industrial Park",
+    "publisher": "Baidu Baike (English)",
+    "year": 2023,
+    "url": "https://baike.baidu.com/en/item/BioBAY/72797"
+  },
+  {
+    "id": "bgi-shenzhen-nature-sequence-factory",
+    "authors": "Cyranoski, D.",
+    "title": "Chinese bioscience: The sequence factory",
+    "publisher": "Nature (PMC)",
+    "year": 2010,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7095434/"
+  },
+  {
+    "id": "illumina-bgi-128-hiseq",
+    "authors": "Illumina, Inc.",
+    "title": "BGI Purchases 128 Illumina HiSeq 2000 Sequencing Systems",
+    "publisher": "Illumina press release",
+    "year": 2010,
+    "url": "https://emea.illumina.com/company/news-center/press-releases/2010/1374343.html"
+  },
+  {
+    "id": "beigene-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "BeOne Medicines (formerly BeiGene)",
+    "publisher": "Wikipedia",
+    "year": 2025,
+    "url": "https://en.wikipedia.org/wiki/BeiGene"
+  },
+  {
+    "id": "innovent-adimab-asianscientist",
+    "authors": "Asian Scientist Newsroom",
+    "title": "Adimab Partners Innovent on Monoclonal Antibody Drug Research",
+    "publisher": "Asian Scientist Magazine",
+    "year": 2013,
+    "url": "https://www.asianscientist.com/2013/08/pharma/adimab-innovent-monoclonal-antibody-drug-2013/"
+  },
+  {
+    "id": "innovent-biologics-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "Innovent Biologics",
+    "publisher": "Wikipedia",
+    "year": 2025,
+    "url": "https://en.wikipedia.org/wiki/Innovent_Biologics"
+  },
+  {
+    "id": "hengrui-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "Jiangsu Hengrui",
+    "publisher": "Wikipedia",
+    "year": 2025,
+    "url": "https://en.wikipedia.org/wiki/Jiangsu_Hengrui"
+  },
+  {
+    "id": "bgi-complete-genomics-asianscientist",
+    "authors": "Asian Scientist Newsroom",
+    "title": "BGI-Shenzhen Acquires US-Based Complete Genomics For $117M",
+    "publisher": "Asian Scientist Magazine",
+    "year": 2013,
+    "url": "https://www.asianscientist.com/2013/03/pharma/bgi-shenzhen-acquires-us-based-complete-genomics-117m/"
+  },
+  {
+    "id": "bi-jingquan-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "Bi Jingquan",
+    "publisher": "Wikipedia",
+    "year": 2025,
+    "url": "https://en.wikipedia.org/wiki/Bi_Jingquan"
+  },
+  {
+    "id": "ropesgray-china-state-council-44",
+    "authors": "Ropes & Gray LLP",
+    "title": "China's State Council Announces Reform on the Drug and Device Approval System",
+    "publisher": "Ropes & Gray Insights",
+    "year": 2015,
+    "url": "https://www.ropesgray.com/en/insights/alerts/2015/08/chinas-state-council-announces-reform-on-the-drug-and-device-approval-system"
+  },
+  {
+    "id": "wang-2019-new-era-drug-innovation-china",
+    "authors": "Wang, X. et al.",
+    "title": "New era of drug innovation in China",
+    "publisher": "Acta Pharmaceutica Sinica B (PMC)",
+    "year": 2019,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6804446/"
+  },
+  {
+    "id": "liang-2015-crispr-tripronuclear",
+    "authors": "Liang, P., Xu, Y., Zhang, X., Ding, C., … Huang, J.",
+    "title": "CRISPR/Cas9-mediated gene editing in human tripronuclear zygotes",
+    "publisher": "Protein & Cell (PubMed)",
+    "year": 2015,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25894090/"
+  },
+  {
+    "id": "intl-summit-gene-editing-2015",
+    "authors": "Olson, S. (rapporteur), Organizing Committee",
+    "title": "International Summit on Human Gene Editing: A Global Discussion",
+    "publisher": "National Academies Press (PMC)",
+    "year": 2016,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5010811/"
+  },
+  {
+    "id": "cyranoski-2016-first-crispr-human",
+    "authors": "Cyranoski, D.",
+    "title": "CRISPR gene-editing tested in a person for the first time",
+    "publisher": "Nature News",
+    "year": 2016,
+    "url": "https://www.nature.com/articles/nature.2016.20988"
+  },
+  {
+    "id": "made-in-china-2025-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "Made in China 2025",
+    "publisher": "Wikipedia",
+    "year": 2025,
+    "url": "https://en.wikipedia.org/wiki/Made_in_China_2025"
+  },
+  {
+    "id": "china-daily-bi-investigation",
+    "authors": "China Daily / Xinhua",
+    "title": "Senior CPPCC official under investigation for suspected violations",
+    "publisher": "China Daily",
+    "year": 2025,
+    "url": "https://global.chinadaily.com.cn/a/202505/29/WS6838678ea310a04af22c24f9.html"
+  },
+  {
+    "id": "fda-cfda-ich-membership",
+    "authors": "People's Daily Online",
+    "title": "CFDA admitted as ICH regulatory member",
+    "publisher": "People's Daily Online",
+    "year": 2017,
+    "url": "http://en.people.cn/n3/2017/0620/c90000-9230855.html"
+  },
+  {
+    "id": "nmpa-2018-rename",
+    "authors": "Wikipedia contributors",
+    "title": "National Medical Products Administration",
+    "publisher": "Wikipedia",
+    "year": 2018,
+    "url": "https://en.wikipedia.org/wiki/National_Medical_Products_Administration"
+  },
+  {
+    "id": "charltons-chapter-18a",
+    "authors": "Charltons Solicitors",
+    "title": "New Listing Rules — Biotech (Chapter 18A)",
+    "publisher": "Charltons (Hong Kong)",
+    "year": 2018,
+    "url": "https://www.charltonslaw.com/hong-kong-law/new-listing-rules-biotech/"
+  },
+  {
+    "id": "pharmaboardroom-hk-2021-record",
+    "authors": "PharmaBoardroom",
+    "title": "Hong Kong Remained Asia's Largest Biotech Fundraising Hub in 2021",
+    "publisher": "PharmaBoardroom",
+    "year": 2022,
+    "url": "https://pharmaboardroom.com/articles/hkex-remains-asias-largest-biotech-fundraising-hub-in-2021/"
+  },
+  {
+    "id": "xinhua-star-market-launch",
+    "authors": "Xinhua News Agency",
+    "title": "China's sci-tech innovation board starts trading",
+    "publisher": "Xinhua",
+    "year": 2019,
+    "url": "http://www.xinhuanet.com/english/2019-07/22/c_138246999.htm"
+  },
+  {
+    "id": "frontiers-toripalimab-first-domestic-pd1",
+    "authors": "Keam, S. J. et al.",
+    "title": "Toripalimab: the First Domestic Anti-Tumor PD-1 Antibody in China",
+    "publisher": "Frontiers in Immunology",
+    "year": 2021,
+    "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2021.730666/full"
+  },
+  {
+    "id": "innovent-lilly-tyvyt-press",
+    "authors": "Innovent Biologics / Eli Lilly",
+    "title": "Innovent and Lilly Jointly Announce the China NMPA Approval of TYVYT (sintilimab injection)",
+    "publisher": "PR Newswire",
+    "year": 2018,
+    "url": "https://www.prnewswire.com/news-releases/innovent-and-lilly-jointly-announce-the-china-nmpa-approval-of-tyvyt-sintilimab-injection-301304894.html"
+  },
+  {
+    "id": "wikipedia-he-jiankui-affair",
+    "authors": "Wikipedia contributors",
+    "title": "He Jiankui affair",
+    "publisher": "Wikipedia",
+    "year": 2019,
+    "url": "https://en.wikipedia.org/wiki/He_Jiankui_affair"
+  },
+  {
+    "id": "chinadaily-changsheng-fine",
+    "authors": "China Daily / Xinhua",
+    "title": "Vaccine maker Changsheng fined 9.1 billion yuan in safety scandal",
+    "publisher": "China Daily",
+    "year": 2018,
+    "url": "https://www.chinadaily.com.cn/a/201810/17/WS5bc639eea310eff303282ba3.html"
+  },
+  {
+    "id": "henlius-hlx01-approval-press",
+    "authors": "Shanghai Henlius Biotech",
+    "title": "Henlius Receives NMPA Approval for HLX01 — The Beginning of a New Era for Biosimilar",
+    "publisher": "Henlius press release",
+    "year": 2019,
+    "url": "https://www.henlius.com/en/NewsDetails-1867-26.html"
+  },
+  {
+    "id": "fiercepharma-brukinsa-fda-approval",
+    "authors": "Liu, A.",
+    "title": "BeiGene nabs landmark FDA nod for Brukinsa",
+    "publisher": "Fierce Pharma",
+    "year": 2019,
+    "url": "https://www.fiercepharma.com/marketing/beigene-nabs-landmark-fda-nod-for-brukinsa-kicking-off-challenge-against-blockbuster"
+  },
+  {
+    "id": "camrelizumab-first-approval-springer",
+    "authors": "Markham, A. & Keam, S. J.",
+    "title": "Camrelizumab: First Global Approval",
+    "publisher": "Drugs (Springer)",
+    "year": 2019,
+    "url": "https://link.springer.com/article/10.1007/s40265-019-01167-0"
+  },
+  {
+    "id": "beigene-tislelizumab-press-2019",
+    "authors": "BeiGene Ltd.",
+    "title": "China NMPA Approves BeiGene's Tislelizumab for Patients with Classical Hodgkin's Lymphoma",
+    "publisher": "GlobeNewswire",
+    "year": 2019,
+    "url": "https://www.globenewswire.com/news-release/2019/12/28/1964740/0/en/China-National-Medical-Products-Administration-Approves-BeiGene-s-Tislelizumab-for-Patients-with-Classical-Hodgkin-s-Lymphoma-Who-Have-Received-at-Least-Two-Prior-Therapies.html"
+  },
+  {
+    "id": "statnews-he-jiankui-sentenced",
+    "authors": "Joseph, A. & Begley, S.",
+    "title": "He Jiankui, who created world's first CRISPR'd babies, sentenced to three years in prison",
+    "publisher": "STAT News",
+    "year": 2019,
+    "url": "https://www.statnews.com/2019/12/30/he-jiankui-who-created-worlds-first-crisprd-babies-sentenced-to-three-years-in-prison-for-illegal-medical-practice/"
+  },
+  {
+    "id": "covington-hgr-regulation",
+    "authors": "Covington & Burling LLP",
+    "title": "Key Takeaways from China's Regulation on the Administration of Human Genetic Resources",
+    "publisher": "Covington & Burling LLP",
+    "year": 2019,
+    "url": "https://www.cov.com/en/news-and-insights/insights/2019/06/key-takeaways-from-chinas-regulation-on-the-administration-of-human-genetic-resources"
+  },
+  {
+    "id": "china-org-civil-code-1009",
+    "authors": "China.org.cn",
+    "title": "China's Civil Code introduces regulations on human gene editing",
+    "publisher": "China.org.cn",
+    "year": 2021,
+    "url": "http://www.china.org.cn/china/2021-02/18/content_77223470.htm"
+  },
+  {
+    "id": "covington-biosecurity-law",
+    "authors": "Covington & Burling LLP",
+    "title": "China Enacts Biosecurity Law",
+    "publisher": "Covington & Burling LLP",
+    "year": 2020,
+    "url": "https://www.cov.com/en/news-and-insights/insights/2020/12/china-enacts-biosecurity-law"
+  },
+  {
+    "id": "loc-criminal-law-amendment-11",
+    "authors": "Zhang, L. (Library of Congress)",
+    "title": "China: Multiple Areas of Criminal Law Changing under New Amendment",
+    "publisher": "Library of Congress, Global Legal Monitor",
+    "year": 2021,
+    "url": "https://www.loc.gov/item/global-legal-monitor/2021-02-26/china-multiple-areas-of-criminal-law-changing-under-new-amendment/"
+  },
+  {
+    "id": "nmpa-vaccine-administration-law",
+    "authors": "Xinhua / NMPA",
+    "title": "China adopts tough law to ensure vaccine safety",
+    "publisher": "National Medical Products Administration",
+    "year": 2019,
+    "url": "https://english.nmpa.gov.cn/2019-06/29/c_387725.htm"
+  },
+  {
+    "id": "who-sinovac-eul",
+    "authors": "World Health Organization",
+    "title": "WHO validates Sinovac COVID-19 vaccine for emergency use",
+    "publisher": "WHO News",
+    "year": 2021,
+    "url": "https://www.who.int/news/item/01-06-2021-who-validates-sinovac-covid-19-vaccine-for-emergency-use-and-issues-interim-policy-recommendations"
+  },
+  {
+    "id": "who-sinopharm-eul",
+    "authors": "World Health Organization",
+    "title": "WHO lists additional COVID-19 vaccine for emergency use (Sinopharm)",
+    "publisher": "WHO News",
+    "year": 2021,
+    "url": "https://www.who.int/news/item/07-05-2021-who-lists-additional-covid-19-vaccine-for-emergency-use-and-issues-interim-policy-recommendations"
+  },
+  {
+    "id": "scmp-arcov-phase3-mexico-indonesia",
+    "authors": "Mai, J.",
+    "title": "Indonesia, Mexico approve phase 3 trials of Chinese mRNA vaccine hopeful",
+    "publisher": "South China Morning Post",
+    "year": 2021,
+    "url": "https://www.scmp.com/news/china/science/article/3147168/coronavirus-indonesia-mexico-approve-late-stage-trials-chinese"
+  },
+  {
+    "id": "nature-biotech-financing-2020",
+    "authors": "Senior, M.",
+    "title": "Financing breaks all records in 2020",
+    "publisher": "Nature Biotechnology",
+    "year": 2021,
+    "url": "https://www.nature.com/articles/s41587-021-00817-7"
+  },
+  {
+    "id": "eversana-pd1-nrdl-2020",
+    "authors": "EVERSANA",
+    "title": "China Publishes Final PD-1 Agreed Prices as NRDL Takes Effect",
+    "publisher": "EVERSANA",
+    "year": 2021,
+    "url": "https://www.eversana.com/2021/03/03/china-publishes-final-pd-1-agreed-prices-as-nrdl-takes-effect/"
+  },
+  {
+    "id": "pharmadj-cde-clinical-value-guidelines",
+    "authors": "PharmaDJ",
+    "title": "New CDE Guidelines Spur a Market Panic (Clinical Value-Oriented Oncology Drug Development)",
+    "publisher": "PharmaDJ",
+    "year": 2021,
+    "url": "https://www.pharmadj.com/share/en/abd3b0e9e84a11ebb98afa163e42049a.html"
+  },
+  {
+    "id": "kite-fosun-first-cart-china",
+    "authors": "Kite Pharma",
+    "title": "Kite Joint Venture Fosun Kite Gains the First CAR T-cell Therapy Approval in China",
+    "publisher": "Kite Pharma press release",
+    "year": 2021,
+    "url": "https://www.kitepharma.com/news/press-releases/2021/6/kite-joint-venture---fosun-kite---gains-the-first-car-t-cell-therapy-approval-in-china"
+  },
+  {
+    "id": "jw-relma-cel-press",
+    "authors": "JW Therapeutics",
+    "title": "JW Therapeutics Announces NMPA Approval of Relmacabtagene Autoleucel Injection in China",
+    "publisher": "JW Therapeutics press release",
+    "year": 2021,
+    "url": "https://www.jwtherapeutics.com/en/media/press-release/jw-therapeutics-announces-nmpa-approval-of-relmacabtagene-autoleucel-injection-in-china/"
+  },
+  {
+    "id": "pharma-tech-cart-china-superpower",
+    "authors": "Crister, A.",
+    "title": "Tracking the rise of CAR-Ts in China: the dawn of an immunotherapy superpower?",
+    "publisher": "Pharmaceutical Technology",
+    "year": 2022,
+    "url": "https://www.pharmaceutical-technology.com/features/tracking-the-rise-of-car-ts-in-china-the-dawn-of-an-immunotherapy-superpower/"
+  },
+  {
+    "id": "chinadaily-bioeconomy-plan",
+    "authors": "China Daily / NDRC",
+    "title": "China unveils five-year plan for bioeconomy",
+    "publisher": "China Daily",
+    "year": 2022,
+    "url": "https://global.chinadaily.com.cn/a/202205/10/WS6279f455a310fd2b29e5bbac.html"
+  },
+  {
+    "id": "merck-kelun-adc-deal-press",
+    "authors": "Merck & Co. / Kelun-Biotech",
+    "title": "Merck and Kelun-Biotech Announce Exclusive License Agreement for Seven Investigational Antibody-drug Conjugate Candidates",
+    "publisher": "Merck press release",
+    "year": 2022,
+    "url": "https://www.merck.com/news/merck-and-kelun-biotech-announce-exclusive-license-and-collaboration-agreement-for-seven-investigational-antibody-drug-conjugate-candidates-for-the-treatment-of-cancer/"
+  },
+  {
+    "id": "globaldata-china-licensing-2024",
+    "authors": "Gomes, B. (GlobalData)",
+    "title": "Large pharma drug licensing from China hits high at 28% in 2024",
+    "publisher": "Pharmaceutical Technology",
+    "year": 2025,
+    "url": "https://www.pharmaceutical-technology.com/analyst-comment/large-pharma-drug-licensing-china-2024/"
+  },
+  {
+    "id": "scmp-china-out-licensing-2025",
+    "authors": "South China Morning Post",
+    "title": "Chinese drug makers strike a record US$136 billion in out-licensing deals in 2025",
+    "publisher": "South China Morning Post",
+    "year": 2026,
+    "url": "https://www.scmp.com/business/china-business/article/3339011/chinese-drug-makers-strike-record-us136-billion-out-licensing-deals-2025"
+  },
+  {
+    "id": "akeso-harmoni2-wclc-2024",
+    "authors": "Akeso, Inc.",
+    "title": "Akeso's Ivonescimab Head-to-Head Phase III Data Against Pembrolizumab Unveiled at WCLC 2024",
+    "publisher": "Akeso press release",
+    "year": 2024,
+    "url": "https://www.akesobio.com/en/media/akeso-news/240908/"
+  },
+  {
+    "id": "iaslc-harmoni2-2024",
+    "authors": "International Association for the Study of Lung Cancer",
+    "title": "Ivonescimab Outperforms Pembrolizumab in Phase 3 Study for First-Line Treatment of PD-L1-Positive Advanced NSCLC",
+    "publisher": "IASLC",
+    "year": 2024,
+    "url": "https://www.iaslc.org/iaslc-news/press-release/ivonescimab-outperforms-pembrolizumab-phase-3-study-first-line-treatment"
+  },
+  {
+    "id": "summit-akeso-2022",
+    "authors": "Summit Therapeutics, Inc.",
+    "title": "Summit Therapeutics Partners with Akeso Inc. in Deal for Up to $5 Billion to In-License Bispecific Antibody",
+    "publisher": "GlobeNewswire / Summit Therapeutics",
+    "year": 2022,
+    "url": "https://www.globenewswire.com/en/news-release/2022/12/06/2568185/0/en/summit-therapeutics-partners-with-akeso-inc-in-deal-for-up-to-5-billion-to-in-license-breakthrough-innovative-bispecific-antibody.html"
+  },
+  {
+    "id": "merck-lanova-2024",
+    "authors": "Merck & Co., Inc.",
+    "title": "Merck Enters into Exclusive Global License for LM-299, an Anti-PD-1/VEGF Bispecific from LaNova Medicines",
+    "publisher": "Merck press release",
+    "year": 2024,
+    "url": "https://www.merck.com/news/merck-enters-into-exclusive-global-license-for-lm-299-an-investigational-anti-pd-1-vegf-bispecific-antibody-from-lanova-medicines-ltd/"
+  },
+  {
+    "id": "ropesgray-biosecure-house-2024",
+    "authors": "Ropes & Gray LLP",
+    "title": "BIOSECURE Act Passed in the House of Representatives with a 306-81 Vote",
+    "publisher": "Ropes & Gray Insights",
+    "year": 2024,
+    "url": "https://www.ropesgray.com/en/insights/alerts/2024/09/biosecure-act-passed-in-the-house-of-representatives-with-a-306-81-vote"
+  },
+  {
+    "id": "mwc-biosecure-house-2024",
+    "authors": "McGuireWoods Consulting",
+    "title": "BIOSECURE Act: U.S. House of Representatives Passes Bill to Ban Business with Chinese Biotech Firms",
+    "publisher": "McGuireWoods Consulting",
+    "year": 2024,
+    "url": "https://mwcllc.com/2024/09/10/house-passes-the-biosecure-act/"
+  },
+  {
+    "id": "foley-biosecure-2024",
+    "authors": "Foley & Lardner LLP",
+    "title": "BIOSECURE Act: Anticipated Movement, Key Provisions, and Likely Impact",
+    "publisher": "Foley & Lardner Insights",
+    "year": 2024,
+    "url": "https://www.foley.com/insights/publications/2024/09/biosecure-act-anticipated-movement-key-provisions-impact/"
+  },
+  {
+    "id": "wuxi-namsa-2025",
+    "authors": "WuXi AppTec",
+    "title": "WuXi AppTec Signs Definitive Agreement to Sell U.S. Medical Device Testing Operations to NAMSA",
+    "publisher": "WuXi AppTec",
+    "year": 2025,
+    "url": "https://www.wuxiapptec.com/news/wuxi-news/6019"
+  },
+  {
+    "id": "wuxi-altaris-atu-2024",
+    "authors": "WuXi AppTec",
+    "title": "WuXi AppTec Signs Definitive Agreement to Sell WuXi Advanced Therapies to Altaris, LLC",
+    "publisher": "WuXi AppTec",
+    "year": 2024,
+    "url": "https://www.wuxiapptec.com/news/wuxi-news/6008"
+  },
+  {
+    "id": "yicai-wuxi-altaris-2024",
+    "authors": "Yicai Global",
+    "title": "China's WuXi AppTec to Sell US, UK Cell, Gene Therapy Units to Altaris",
+    "publisher": "Yicai Global",
+    "year": 2024,
+    "url": "https://www.yicaiglobal.com/news/chinas-wuxi-apptec-to-sell-cell-gene-therapy-units-to-altaris"
+  },
+  {
+    "id": "nmpa-82-innovative-2024",
+    "authors": "National Medical Products Administration",
+    "title": "China's quantity and quality of innovative drugs joins global lead",
+    "publisher": "NMPA (English)",
+    "year": 2024,
+    "url": "https://english.nmpa.gov.cn/2024-06/19/c_997349.htm"
+  },
+  {
+    "id": "gabi-h1-2025-china-deals",
+    "authors": "GaBI Online",
+    "title": "More China licence deals for US drug companies",
+    "publisher": "GaBI Online",
+    "year": 2025,
+    "url": "https://www.gabionline.net/reports/more-china-licence-deals-for-us-drug-companies"
+  },
+  {
+    "id": "insilico-rentosertib-press-2025",
+    "authors": "Insilico Medicine",
+    "title": "Insilico Announces Nature Medicine Publication of Phase IIa Results of Rentosertib",
+    "publisher": "Insilico Medicine",
+    "year": 2025,
+    "url": "https://insilico.com/news/tnrecuxsc1-insilico-announces-nature-medicine-publi"
+  },
+  {
+    "id": "nature-medicine-tnik-rentosertib-2025",
+    "authors": "Insilico Medicine et al.",
+    "title": "A generative AI-discovered TNIK inhibitor for idiopathic pulmonary fibrosis: a randomized phase 2a trial",
+    "publisher": "Nature Medicine",
+    "year": 2025,
+    "url": "https://www.nature.com/articles/s41591-025-03743-2"
+  },
+  {
+    "id": "xtalpi-18c-listing-2024",
+    "authors": "XtalPi (QuantumPharm)",
+    "title": "XtalPi Debuts on HKEX Main Board as First 18C Listing",
+    "publisher": "XtalPi",
+    "year": 2024,
+    "url": "https://en.xtalpi.com/xtalpi-debuts-on-hkex-main-board-as-first-18c-listing-pioneering-ai-robotics-innovation/"
+  },
+  {
+    "id": "xtalpi-dovetree-final-2025",
+    "authors": "XtalPi",
+    "title": "XtalPi and DoveTree Announce Landmark $6 Billion AI Drug Discovery Collaboration",
+    "publisher": "XtalPi",
+    "year": 2025,
+    "url": "https://en.xtalpi.com/xtalpi-and-dovetree-announce-landmark-6-billion-ai-drug-discovery-collaboration/"
+  },
+  {
+    "id": "xtalpi-dovetree-loi-2025",
+    "authors": "XtalPi",
+    "title": "XtalPi Announces Strategic Collaboration with Harvard Professor Gregory Verdine's DoveTree LLC",
+    "publisher": "PR Newswire APAC",
+    "year": 2025,
+    "url": "https://www.prnewswire.com/apac/news-releases/xtalpi-announces-strategic-collaboration-with-harvard-professor-gregory-verdines-dovetree-llc-to-advance-novel-therapeutics-using-airobotics-drug-discovery-platform-302487822.html"
+  },
+  {
+    "id": "deepseek-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "DeepSeek",
+    "publisher": "Wikipedia",
+    "year": 2026,
+    "url": "https://en.wikipedia.org/wiki/DeepSeek"
+  },
+  {
+    "id": "lw-biosecure-becomes-law-2025",
+    "authors": "Latham & Watkins LLP",
+    "title": "BIOSECURE Act Becomes Law Limiting Grants With Biotechnology Companies of Concern",
+    "publisher": "Latham & Watkins Insights",
+    "year": 2025,
+    "url": "https://www.lw.com/en/insights/biosecure-act-becomes-law-limiting-grants-with-biotechnology-companies-of-concern"
+  },
+  {
+    "id": "arnold-porter-biosecure-law-2025",
+    "authors": "Arnold & Porter",
+    "title": "The BIOSECURE Act Becomes Law in the United States",
+    "publisher": "Arnold & Porter Advisories",
+    "year": 2025,
+    "url": "https://www.arnoldporter.com/en/perspectives/advisories/2025/12/the-biosecure-act-becomes-law-in-the-united-states"
+  },
+  {
+    "id": "beone-launch-bw-2025",
+    "authors": "BeOne Medicines Ltd.",
+    "title": "BeOne Medicines Launches Following Redomiciliation to Switzerland",
+    "publisher": "Business Wire",
+    "year": 2025,
+    "url": "https://www.businesswire.com/news/home/20250526273239/en/BeOne-Medicines-Launches-Following-Redomiciliation-to-Switzerland-Marking-a-New-Chapter-in-Global-Oncology"
+  },
+  {
+    "id": "beone-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "BeOne Medicines",
+    "publisher": "Wikipedia",
+    "year": 2025,
+    "url": "https://en.wikipedia.org/wiki/BeOne_Medicines"
+  },
+  {
+    "id": "cen-wuxi-li-words-2016",
+    "authors": "Tremblay, J.-F.",
+    "title": "In Li's words",
+    "publisher": "Chemical & Engineering News",
+    "year": 2016,
+    "url": "https://cen.acs.org/articles/94/i11/Lis-words.html"
+  },
+  {
+    "id": "ckgsb-bgi-gene-dreams",
+    "authors": "CKGSB Knowledge",
+    "title": "BGI's Gene Dreams",
+    "publisher": "Cheung Kong Graduate School of Business",
+    "year": 2014,
+    "url": "https://english.ckgsb.edu.cn/knowledge/article/bgis-gene-dreams/"
+  },
+  {
+    "id": "globaldata-china-pd1-trials-2020",
+    "authors": "GlobalData",
+    "title": "China pulls ahead in immuno-oncology with highest PD-1/PD-L1 combination clinical trials growth",
+    "publisher": "GlobalData",
+    "year": 2021,
+    "url": "https://www.globaldata.com/media/pharma/china-pulls-ahead-immuno-oncology-highest-pd-1-pd-l1-combination-clinical-trials-growth-reveals-globaldata/"
+  },
+  {
+    "id": "cset-nkrp-launch-2016",
+    "authors": "Center for Security and Emerging Technology (CSET)",
+    "title": "Press Conference on the Launch and Implementation of the National Key R&D Program",
+    "publisher": "CSET, Georgetown University",
+    "year": 2020,
+    "url": "https://cset.georgetown.edu/publication/press-conference-on-the-launch-and-implementation-of-the-national-key-rd-program-summary-transcript/"
+  },
+  {
+    "id": "pharmaboardroom-hk-biotech-2022",
+    "authors": "PharmaBoardroom",
+    "title": "Hong Kong Biotech Listings in 2022 (Chapter 18A)",
+    "publisher": "PharmaBoardroom",
+    "year": 2023,
+    "url": "https://pharmaboardroom.com/articles/2022-hong-kong-listed-biotech-companies"
+  },
+  {
+    "id": "biopharmaapac-china-h1-2025",
+    "authors": "BioPharma APAC / PharmaDJ",
+    "title": "China's Biopharma Dealmaking Surges in H1 2025, Driven by Record Licensing and Oncology Focus",
+    "publisher": "BioPharma APAC",
+    "year": 2025,
+    "url": "https://biopharmaapac.com/report/60/6738/chinas-biopharma-dealmaking-surges-in-h1-2025-driven-by-record-licensing-and-oncology-focus.html"
+  },
+  {
+    "id": "biopharmadive-china-licensing-tracker-2025",
+    "authors": "Gilbert, B. and BioPharma Dive staff",
+    "title": "Drugs from China are reshaping biotech. Track the licensing deals here.",
+    "publisher": "BioPharma Dive",
+    "year": 2025,
+    "url": "https://www.biopharmadive.com/news/china-biotech-drug-licensing-deals-pipeline/758283/"
+  }
+]
