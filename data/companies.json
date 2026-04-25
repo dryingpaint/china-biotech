@@ -142,78 +142,20 @@
       }
     ],
     "sources": [
-      {
-        "title": "Amgen Enters Into Strategic Collaboration With BeiGene To Expand Oncology Presence In China",
-        "publisher": "Amgen",
-        "url": "https://www.amgen.com/newsroom/press-releases/2019/10/amgen-enters-into-strategic-collaboration-with-beigene-to-expand-oncology-presence-in-china",
-        "accessedDate": "2026-04-25"
-      },
-      {
-        "title": "BeiGene Announces Closing of HK$7.08B (US$903M) Hong Kong IPO",
-        "publisher": "BeiGene IR / GlobeNewswire",
-        "url": "https://hkexir.beigene.com/news/beigene-announces-closing-of-its-hk-7-08-billion-us-903-million-hong-kong-initial-public-offering-and/6c6378f7-7a8b-4d18-b0ff-d93180a6f4a6/",
-        "accessedDate": "2026-04-25"
-      },
-      {
-        "title": "BeiGene Announces Closing of RMB22.2B (US$3.5B) STAR Market IPO",
-        "publisher": "BeiGene IR",
-        "url": "https://ir.beigene.com/news/beigene-announces-closing-of-its-rmb22-2-billion-us-3-5-billion-initial-public-offering-on-the-star/5c078534-a007-4d0b-8d42-bacb7c643f86",
-        "accessedDate": "2026-04-25"
-      },
-      {
-        "title": "BeOne Medicines Launches Following Redomiciliation to Switzerland",
-        "publisher": "BusinessWire",
-        "url": "https://www.businesswire.com/news/home/20250526273239/en/BeOne-Medicines-Launches-Following-Redomiciliation-to-Switzerland-Marking-a-New-Chapter-in-Global-Oncology",
-        "accessedDate": "2026-04-25"
-      },
-      {
-        "title": "BeiGene Announces First Quarter 2025 Financial Results and Business Updates",
-        "publisher": "BusinessWire",
-        "url": "https://www.businesswire.com/news/home/20250507583971/en/BeiGene-Announces-First-Quarter-2025-Financial-Results-and-Business-Updates",
-        "accessedDate": "2026-04-25"
-      },
-      {
-        "title": "BeiGene Announces Fourth Quarter and Full Year 2024 Financial Results",
-        "publisher": "BeiGene IR / BusinessWire",
-        "url": "https://ir.beonemedicines.com/news/beigene-announces-fourth-quarter-and-full-year-2024-financial-results-and-business-updates/ae4b526f-e135-4ce7-84fe-e9a8ba557406",
-        "accessedDate": "2026-04-25"
-      },
-      {
-        "title": "BeOne Medicines (ONC) Market Capitalization",
-        "publisher": "companiesmarketcap.com",
-        "url": "https://companiesmarketcap.com/beigene/marketcap/",
-        "accessedDate": "2026-04-25"
-      },
-      {
-        "title": "FDA Approves Zanubrutinib Tablet for All Indications",
-        "publisher": "Targeted Oncology",
-        "url": "https://www.targetedonc.com/view/fda-approves-zanubrutinib-tablet-for-all-indications",
-        "accessedDate": "2026-04-25"
-      },
-      {
-        "title": "Brukinsa (zanubrutinib) FDA Approval History",
-        "publisher": "Drugs.com",
-        "url": "https://www.drugs.com/history/brukinsa.html",
-        "accessedDate": "2026-04-25"
-      },
-      {
-        "title": "In Profile: BeiGene's John Oyler",
-        "publisher": "Pharma Boardroom",
-        "url": "https://pharmaboardroom.com/articles/ceo-profile-beigenes-john-oyler/",
-        "accessedDate": "2026-04-25"
-      },
-      {
-        "title": "Xiaodong Wang — Founder & Chairman & Scientific Advisory Board, BeiGene",
-        "publisher": "Crunchbase",
-        "url": "https://www.crunchbase.com/person/xiaodong-wang-2",
-        "accessedDate": "2026-04-25"
-      },
-      {
-        "title": "BeOne Medicines",
-        "publisher": "Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/BeOne_Medicines",
-        "accessedDate": "2026-04-25"
-      }
+      "amgen-beigene-collab-2019",
+      "beigene-hk-ipo-closing-2018",
+      "beigene-star-ipo-closing-2021",
+      "beone-launch-bw-2025",
+      "beigene-q1-2025-results",
+      "beigene-fy2024-results",
+      "companiesmarketcap-beone-onc",
+      "targeted-onc-zanubrutinib-tablet-2024",
+      "drugs-com-brukinsa-history",
+      "fiercepharma-brukinsa-fda-approval",
+      "beigene-tislelizumab-press-2019",
+      "pharmaboardroom-oyler-profile",
+      "crunchbase-xiaodong-wang",
+      "beone-wikipedia"
     ]
   },
   {

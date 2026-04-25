@@ -92,29 +92,38 @@ Common mappings (current chapter IDs as of 2026-04):
 
 A company doesn't need a timeline entry for every chapter — only the chapters where something noteworthy happened to it.
 
-### 6. Collect sources
+### 6. Collect sources via the central registry
 
-Build a `sources` array of every URL you actually used as evidence (not every URL that came up in search). Each entry:
+Citations live in `data/citations.json` as a single global registry, shared between company tooltips and narrative `[[cite:id]]` markers. Companies do **not** store source metadata inline — they store an array of citation ids.
+
+For each source you actually used as evidence:
+
+1. **Look it up in `data/citations.json` first.** Many sources will already be there (the registry currently has ~95 entries spanning the full essay). Reuse the existing id if a match exists.
+2. **If the URL isn't in the registry, append a new entry.** Schema (matches `Citation` in `lib/citations.ts`):
 
 ```json
 {
-  "title": "Page title — short version",
-  "publisher": "Publisher / domain",
-  "url": "https://...",
-  "accessedDate": "YYYY-MM-DD"
+  "id": "stable-kebab-case-id",
+  "authors": "Last, F. M. or Publisher Name",
+  "title": "Page title",
+  "publisher": "Publisher / outlet",
+  "year": 2025,
+  "url": "https://..."
 }
 ```
 
-Order sources by relevance (most-cited first). Aim for 6–12 sources per Tier 1 entry, 3–5 for Tier 2/3.
+Id conventions: lead with the publisher's slug or a topic anchor — e.g. `amgen-beigene-collab-2019`, `fiercepharma-brukinsa-fda-approval`, `beigene-q1-2025-results`. Keep ids stable; once an id is referenced from elsewhere, don't rename it.
 
-Prefer:
+3. **On the company entry, set `sources: string[]`** — an array of citation ids ordered by relevance (most-cited first). Aim for 8–14 ids per Tier 1 company, 3–5 for Tier 2/3.
+
+Prefer (highest trust first):
 - Company press releases and IR filings (BusinessWire, GlobeNewswire, company IR pages)
 - Regulator pages (FDA, EMA, NMPA)
 - SEC and HKEX filings
 - Reputable trade press (Endpoints News, FiercePharma, BioPharma Dive, BioSpace, Reuters)
 
 Avoid as primary citations:
-- Wikipedia (use as a sanity check only)
+- Wikipedia (use as a sanity check only — fine to cite once, but never as the only source for a non-trivial claim)
 - Anonymous blog posts
 - LinkedIn profiles
 - Press-release wire services without an identified primary source

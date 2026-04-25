@@ -50,13 +50,6 @@ export type CompanyTimelineEntry = {
   note?: string;
 };
 
-export type Source = {
-  title: string;
-  publisher?: string;
-  url: string;
-  accessedDate?: string;
-};
-
 export type Company = {
   id: string;
   name: string;
@@ -73,7 +66,7 @@ export type Company = {
   today?: CompanyTodaySnapshot;
   timeline?: CompanyTimelineEntry[];
   milestones?: { year: number; label: string }[];
-  sources?: Source[];
+  sources?: string[];
 };
 
 export type Reform = {
@@ -95,6 +88,28 @@ export type ChapterMetrics = {
   globalClinicalTrialShare: number;
 };
 
+export type ModalityKey =
+  | "smallMol"
+  | "peptide"
+  | "recombinant"
+  | "biosimilar"
+  | "novelMab"
+  | "bispecific"
+  | "adc"
+  | "vaccine"
+  | "cellTherapy"
+  | "nucleicAcid"
+  | "geneTherapy"
+  | "radiopharm";
+
+export type ModalityRungState = {
+  rung: 0 | 1 | 2 | 3 | 4 | 5;
+  marker?: string;
+  frontier?: boolean;
+};
+
+export type ModalityProgress = Record<ModalityKey, ModalityRungState>;
+
 export type Chapter = {
   id: string;
   title: string;
@@ -103,6 +118,7 @@ export type Chapter = {
   metrics: ChapterMetrics;
   activeCompanyIds: string[];
   activeReformIds: string[];
+  modalityProgress?: ModalityProgress;
   featureChart?: string;
 };
 
