@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useNarrative } from "@/lib/narrativeStore";
 import reformsData from "@/data/reforms.json";
 import type { Reform, ReformCategory } from "@/lib/types";
@@ -22,7 +22,7 @@ const CATEGORY_LABEL: Record<ReformCategory, string> = {
   geopolitical: "Geopolitical",
 };
 
-type Hovered = { rect: DOMRect; reform: Reform };
+type Hovered = { rect: DOMRect; reform: Reform; fromProse?: boolean };
 
 export default function ReformTimeline() {
   const activeIds = useNarrative(
@@ -33,6 +33,22 @@ export default function ReformTimeline() {
     highlightedEntity?.type === "reform" ? highlightedEntity.id : null;
   const activeSet = new Set(activeIds);
   const [hovered, setHovered] = useState<Hovered | null>(null);
+  const tileRefs = useRef<Map<string, HTMLDivElement>>(new Map());
+
+  useEffect(() => {
+    if (!proseHighlightedId) {
+      setHovered((prev) => (prev?.fromProse ? null : prev));
+      return;
+    }
+    const el = tileRefs.current.get(proseHighlightedId);
+    const reform = reforms.find((r) => r.id === proseHighlightedId);
+    if (!el || !reform) return;
+    setHovered({
+      rect: el.getBoundingClientRect(),
+      reform,
+      fromProse: true,
+    });
+  }, [proseHighlightedId]);
 
   const sorted = [...reforms].sort((a, b) => a.date.localeCompare(b.date));
   const minYear = 1985;
@@ -64,6 +80,10 @@ export default function ReformTimeline() {
           return (
             <div
               key={r.id}
+              ref={(el) => {
+                if (el) tileRefs.current.set(r.id, el);
+                else tileRefs.current.delete(r.id);
+              }}
               className="absolute top-1/2 -translate-x-1/2 -translate-y-1/2"
               style={{
                 left: `${left}%`,

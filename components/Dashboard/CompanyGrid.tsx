@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useNarrative } from "@/lib/narrativeStore";
 import companiesData from "@/data/companies.json";
 import type {
@@ -36,7 +36,7 @@ const CATEGORY_COLOR: Record<CompanyCategory, string> = {
   ai_bio: "#8c4a6b",
 };
 
-type Hovered = { rect: DOMRect; company: Company };
+type Hovered = { rect: DOMRect; company: Company; fromProse?: boolean };
 
 export default function CompanyGrid() {
   const activeIds = useNarrative(
@@ -50,6 +50,22 @@ export default function CompanyGrid() {
     highlightedEntity?.type === "company" ? highlightedEntity.id : null;
   const activeSet = new Set(activeIds);
   const [hovered, setHovered] = useState<Hovered | null>(null);
+  const tileRefs = useRef<Map<string, HTMLDivElement>>(new Map());
+
+  useEffect(() => {
+    if (!proseHighlightedId) {
+      setHovered((prev) => (prev?.fromProse ? null : prev));
+      return;
+    }
+    const el = tileRefs.current.get(proseHighlightedId);
+    const company = companies.find((c) => c.id === proseHighlightedId);
+    if (!el || !company) return;
+    setHovered({
+      rect: el.getBoundingClientRect(),
+      company,
+      fromProse: true,
+    });
+  }, [proseHighlightedId]);
 
   return (
     <section className="space-y-2">
@@ -69,6 +85,10 @@ export default function CompanyGrid() {
           return (
             <div
               key={c.id}
+              ref={(el) => {
+                if (el) tileRefs.current.set(c.id, el);
+                else tileRefs.current.delete(c.id);
+              }}
               onMouseEnter={(e) =>
                 setHovered({
                   rect: e.currentTarget.getBoundingClientRect(),
