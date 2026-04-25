@@ -36,9 +36,6 @@ export default function ReformTimeline() {
   const activeIds = useNarrative(
     (s) => s.chapters[s.currentIndex].activeReformIds,
   );
-  const currentChapter = useNarrative(
-    (s) => s.chapters[s.currentIndex],
-  );
   const highlightedEntity = useNarrative((s) => s.highlightedEntity);
   const proseHighlightedId =
     highlightedEntity?.type === "reform" ? highlightedEntity.id : null;
@@ -123,31 +120,17 @@ export default function ReformTimeline() {
         onMouseEnter={cancelHide}
         onMouseLeave={scheduleHide}
       >
-        {hovered ? (
-          <ReformTooltip
-            reform={hovered.reform}
-            isActive={activeSet.has(hovered.reform.id)}
-            chapterDate={currentChapter.date}
-          />
-        ) : null}
+        {hovered ? <ReformTooltip reform={hovered.reform} /> : null}
       </Tooltip>
     </section>
   );
 }
 
-function ReformTooltip({
-  reform,
-  isActive,
-  chapterDate,
-}: {
-  reform: Reform;
-  isActive: boolean;
-  chapterDate: string;
-}) {
+function ReformTooltip({ reform }: { reform: Reform }) {
   return (
     <div className="space-y-2">
       <Identity reform={reform} />
-      <CategoryRow reform={reform} isActive={isActive} chapterDate={chapterDate} />
+      <CategoryRow reform={reform} />
 
       {(reform.agency || reform.documentRef) && (
         <Section label="Issued by">
@@ -221,16 +204,7 @@ function Identity({ reform }: { reform: Reform }) {
   );
 }
 
-function CategoryRow({
-  reform,
-  isActive,
-  chapterDate,
-}: {
-  reform: Reform;
-  isActive: boolean;
-  chapterDate: string;
-}) {
-  const status = reformStatus(reform, isActive, chapterDate);
+function CategoryRow({ reform }: { reform: Reform }) {
   return (
     <div className="flex items-center gap-1.5 text-[10px] uppercase tracking-wider text-[--color-muted]">
       <span
@@ -239,27 +213,8 @@ function CategoryRow({
         style={{ backgroundColor: CATEGORY_COLOR[reform.category] }}
       />
       {CATEGORY_LABEL[reform.category]}
-      {status && <span className="ml-1 italic">— {status}</span>}
     </div>
   );
-}
-
-function reformStatus(
-  reform: Reform,
-  isActive: boolean,
-  chapterDate: string,
-): string | null {
-  if (isActive) return "in force";
-  const ref = reform.effectiveDate ?? reform.date;
-  const chapterEnd = chapterEndDate(chapterDate);
-  if (ref && chapterEnd && ref <= chapterEnd) return "issued — pending";
-  return "not yet enacted";
-}
-
-function chapterEndDate(chapterDate: string): string | null {
-  const m = chapterDate.match(/(\d{4})\s*[–-]\s*(\d{4})/);
-  if (!m) return null;
-  return `${m[2]}-12`;
 }
 
 function formatDate(d: string): string {

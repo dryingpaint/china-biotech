@@ -17,7 +17,7 @@ type Props = {
   onMouseLeave?: () => void;
 };
 
-const TOOLTIP_W = 320;
+const TOOLTIP_W = 420;
 const MARGIN = 8;
 
 export default function Tooltip({
