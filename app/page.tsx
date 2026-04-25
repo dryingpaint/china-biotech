@@ -11,7 +11,7 @@ export default function Home() {
     <main>
       <Hero site={site as SiteContent} />
       <SplitPanel
-        narrative={<Scroller chapters={chapters as Chapter[]} />}
+        narrative={<Scroller chapters={chapters as unknown as Chapter[]} />}
         dashboard={<Dashboard />}
       />
       <Bibliography />

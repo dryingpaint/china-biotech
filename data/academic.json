@@ -1,0 +1,62 @@
+[
+  {
+    "id": "nibs-beijing",
+    "name": "NIBS Beijing",
+    "nameZh": "北京生命科学研究所",
+    "founded": 2003,
+    "headquarters": "Beijing",
+    "category": "academic",
+    "shortDescription": "National Institute of Biological Sciences; Wang Xiaodong's home institute; outsized share of Chinese-discovered drug targets",
+    "signature": "Foundational research engine"
+  },
+  {
+    "id": "tsinghua",
+    "name": "Tsinghua University School of Medicine",
+    "nameZh": "清华大学医学院",
+    "founded": 2001,
+    "headquarters": "Beijing",
+    "category": "academic",
+    "shortDescription": "Major source of biotech founders and senior scientific talent",
+    "signature": "Talent pipeline"
+  },
+  {
+    "id": "peking-university",
+    "name": "Peking University",
+    "nameZh": "北京大学",
+    "founded": 1898,
+    "headquarters": "Beijing",
+    "category": "academic",
+    "shortDescription": "Top life-sciences research university; PUMC affiliation; major founder pipeline",
+    "signature": "Research + talent"
+  },
+  {
+    "id": "fudan-university",
+    "name": "Fudan University",
+    "nameZh": "复旦大学",
+    "founded": 1905,
+    "headquarters": "Shanghai",
+    "category": "academic",
+    "shortDescription": "Major Shanghai-area research engine; affiliated with Fudan University Cancer Hospital",
+    "signature": "Shanghai research cluster"
+  },
+  {
+    "id": "shanghaitech",
+    "name": "ShanghaiTech University",
+    "nameZh": "上海科技大学",
+    "founded": 2013,
+    "headquarters": "Shanghai",
+    "category": "academic",
+    "shortDescription": "Newer research-intensive university; iHuman Institute drives drug-discovery research",
+    "signature": "iHuman Institute"
+  },
+  {
+    "id": "cas",
+    "name": "Chinese Academy of Sciences",
+    "nameZh": "中国科学院",
+    "founded": 1949,
+    "headquarters": "Beijing (HQ); national network",
+    "category": "academic",
+    "shortDescription": "Largest research network in China; Shanghai Institutes of Biological Sciences (SIBS) anchor biotech research",
+    "signature": "National research network"
+  }
+]

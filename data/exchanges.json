@@ -1,0 +1,22 @@
+[
+  {
+    "id": "hkex",
+    "name": "Hong Kong Stock Exchange",
+    "nameZh": "香港交易所",
+    "founded": 2000,
+    "headquarters": "Hong Kong",
+    "category": "exchange",
+    "shortDescription": "Chapter 18A (2018) opened HKEX to pre-revenue biotechs — became Asia's largest biotech IPO venue",
+    "signature": "Chapter 18A regime"
+  },
+  {
+    "id": "star-market",
+    "name": "STAR Market",
+    "nameZh": "科创板",
+    "founded": 2019,
+    "headquarters": "Shanghai",
+    "category": "exchange",
+    "shortDescription": "Shanghai Stock Exchange's Sci-Tech Innovation Board; pre-revenue tech and biotech IPOs domestically",
+    "signature": "Sci-Tech Innovation Board"
+  }
+]

@@ -43,7 +43,7 @@ export function ChapterBody({ chapter }: { chapter: Chapter }) {
       if (!el) return null;
       const type = el.getAttribute("data-entity-type");
       const id = el.getAttribute("data-entity-id");
-      if ((type !== "company" && type !== "reform") || !id) return null;
+      if ((type !== "entity" && type !== "reform") || !id) return null;
       return { type, id };
     };
     const handleOver = (e: Event) => {

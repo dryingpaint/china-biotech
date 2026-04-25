@@ -30,7 +30,7 @@ function escapeAttr(s: string): string {
 export function renderBodyWithCitations(html: string): string {
   return html
     .replace(
-      /\[\[(company|reform):([a-z0-9-]+)\|([^\]]+)\]\]/g,
+      /\[\[(entity|reform):([a-z0-9-]+)\|([^\]]+)\]\]/g,
       (_, type, id, text) => {
         return `<span class="entity-ref" data-entity-type="${type}" data-entity-id="${escapeAttr(id)}">${text}</span>`;
       },

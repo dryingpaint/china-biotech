@@ -1,0 +1,22 @@
+[
+  {
+    "id": "pumc-hospital",
+    "name": "Peking Union Medical College Hospital",
+    "nameZh": "北京协和医院",
+    "founded": 1921,
+    "headquarters": "Beijing",
+    "category": "hospital",
+    "shortDescription": "Top-ranked clinical hospital; major academic trial site; ground zero for the Republican-era medical tradition",
+    "signature": "Top trial site"
+  },
+  {
+    "id": "fudan-cancer-hospital",
+    "name": "Fudan University Cancer Hospital",
+    "nameZh": "复旦大学附属肿瘤医院",
+    "founded": 1931,
+    "headquarters": "Shanghai",
+    "category": "hospital",
+    "shortDescription": "Largest Shanghai oncology hospital; primary trial site for many domestic PD-1, ADC, and bispecific programs",
+    "signature": "Oncology trial flagship"
+  }
+]

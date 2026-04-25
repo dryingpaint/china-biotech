@@ -1,0 +1,46 @@
+[
+  {
+    "id": "hillhouse",
+    "name": "Hillhouse Capital",
+    "nameZh": "高瓴资本",
+    "founded": 2005,
+    "headquarters": "Hong Kong / Singapore / Beijing",
+    "founders": "Lei Zhang",
+    "category": "investor",
+    "shortDescription": "Largest China-focused PE/growth investor in healthcare; transformative checks across BeiGene, Innovent, Junshi, Akeso",
+    "signature": "Hillhouse Healthcare Fund"
+  },
+  {
+    "id": "qiming",
+    "name": "Qiming Venture Partners",
+    "nameZh": "启明创投",
+    "founded": 2006,
+    "headquarters": "Shanghai",
+    "founders": "Gary Rieschel, Duane Kuang",
+    "category": "investor",
+    "shortDescription": "Early-stage VC with deep healthcare practice; backed Innovent, Zai Lab, GenScript, Brii",
+    "signature": "Cross-border venture capital"
+  },
+  {
+    "id": "lilly-asia-ventures",
+    "name": "Lilly Asia Ventures",
+    "nameZh": "礼来亚洲基金",
+    "founded": 2008,
+    "headquarters": "Shanghai",
+    "founders": "Yi Shi (Managing Partner)",
+    "category": "investor",
+    "shortDescription": "Eli Lilly's spinout China-focused biotech VC; portfolio includes BeiGene, Innovent, Junshi, Tigermed, Zai Lab",
+    "signature": "Strategic biotech VC"
+  },
+  {
+    "id": "hongshan",
+    "name": "HongShan (formerly Sequoia China)",
+    "nameZh": "红杉中国",
+    "founded": 2005,
+    "headquarters": "Hong Kong",
+    "founders": "Neil Shen",
+    "category": "investor",
+    "shortDescription": "Split from Sequoia in 2023 and rebranded HongShan; healthcare is one of three core practices",
+    "signature": "Cross-stage VC"
+  }
+]

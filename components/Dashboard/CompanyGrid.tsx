@@ -100,7 +100,7 @@ export default function CompanyGrid() {
   }, []);
 
   return (
-    <section className="space-y-2">
+    <section className="min-h-[220px] space-y-2">
       <header>
         <h3 className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[--color-muted]">
           Major players

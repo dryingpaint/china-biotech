@@ -1,0 +1,118 @@
+[
+  {
+    "id": "nmpa",
+    "name": "NMPA (National Medical Products Administration)",
+    "nameZh": "国家药品监督管理局",
+    "founded": 2018,
+    "headquarters": "Beijing",
+    "category": "regulator",
+    "subcategory": "Drug authority",
+    "shortDescription": "China's central drug regulator (renamed from CFDA in 2018, originally SFDA in 2003); approves drugs, devices, vaccines",
+    "signature": "Owns the post-2015 approval reform program (Order 117/722, ICH membership, conditional approval, value-oriented oncology guideline)"
+  },
+  {
+    "id": "nhsa",
+    "name": "NHSA (National Healthcare Security Administration)",
+    "nameZh": "国家医疗保障局",
+    "founded": 2018,
+    "headquarters": "Beijing",
+    "category": "regulator",
+    "subcategory": "Payer / reimbursement",
+    "shortDescription": "Single national payer; runs NRDL annual price negotiations and Volume-Based Procurement",
+    "signature": "VBP price compression"
+  },
+  {
+    "id": "ndrc",
+    "name": "NDRC (National Development and Reform Commission)",
+    "nameZh": "国家发展和改革委员会",
+    "founded": 2003,
+    "headquarters": "Beijing",
+    "category": "regulator",
+    "subcategory": "Industrial policy",
+    "shortDescription": "Industrial planning and macroeconomic policy; sets biotech as strategic emerging industry",
+    "signature": "5-year plans for bioeconomy"
+  },
+  {
+    "id": "most",
+    "name": "MoST (Ministry of Science and Technology)",
+    "nameZh": "中华人民共和国科学技术部",
+    "founded": 1998,
+    "headquarters": "Beijing",
+    "category": "regulator",
+    "subcategory": "R&D funding",
+    "shortDescription": "Science policy and major R&D funding programs (863, 973, Major New Drug Project)",
+    "signature": "863 Program / Major New Drug Creation"
+  },
+  {
+    "id": "cde",
+    "name": "CDE (Center for Drug Evaluation)",
+    "nameZh": "国家药品监督管理局药品审评中心",
+    "founded": 1985,
+    "headquarters": "Beijing",
+    "category": "regulator",
+    "subcategory": "Drug review",
+    "shortDescription": "NMPA's technical review arm; performs the substantive science assessments behind approval decisions",
+    "signature": "Value-Oriented Oncology Drug Development Guideline (2021)"
+  },
+  {
+    "id": "nhc",
+    "name": "NHC (National Health Commission)",
+    "nameZh": "国家卫生健康委员会",
+    "founded": 2018,
+    "headquarters": "Beijing",
+    "category": "regulator",
+    "subcategory": "Public health",
+    "shortDescription": "National health authority; pandemic response, public health policy, hospital regulation",
+    "signature": "COVID-19 response coordination"
+  },
+  {
+    "id": "fda",
+    "name": "FDA (US Food and Drug Administration)",
+    "founded": 1906,
+    "headquarters": "Silver Spring, MD",
+    "category": "regulator",
+    "subcategory": "Drug authority (US)",
+    "shortDescription": "US drug regulator; approves Chinese-discovered drugs that go global (Brukinsa, Carvykti, etc.)",
+    "signature": "Brukinsa accelerated approval (Nov 2019) — first Chinese-discovered drug FDA approval"
+  },
+  {
+    "id": "ema",
+    "name": "EMA (European Medicines Agency)",
+    "founded": 1995,
+    "headquarters": "Amsterdam",
+    "category": "regulator",
+    "subcategory": "Drug authority (EU)",
+    "shortDescription": "EU drug regulator; approves Chinese-discovered drugs for European market",
+    "signature": "Brukinsa and Tevimbra approvals"
+  },
+  {
+    "id": "ich",
+    "name": "ICH (International Council for Harmonisation)",
+    "founded": 1990,
+    "headquarters": "Geneva",
+    "category": "regulator",
+    "subcategory": "Standards body",
+    "shortDescription": "Harmonizes pharmaceutical standards across US, EU, Japan, China; China joined as Regulatory Member June 2017",
+    "signature": "China membership unlocked bridging trials and global pipeline alignment"
+  },
+  {
+    "id": "us-congress",
+    "name": "US Congress",
+    "founded": 1789,
+    "headquarters": "Washington, DC",
+    "category": "regulator",
+    "subcategory": "Legislative",
+    "shortDescription": "Passes laws affecting US-China biotech relations including BIOSECURE Act",
+    "signature": "BIOSECURE Act enacted Dec 2025 as Section 851 of FY2026 NDAA"
+  },
+  {
+    "id": "who",
+    "name": "WHO (World Health Organization)",
+    "founded": 1948,
+    "headquarters": "Geneva",
+    "category": "regulator",
+    "subcategory": "Public health (multilateral)",
+    "shortDescription": "UN health agency; vaccine prequalification gates Chinese vaccine exports to LMICs",
+    "signature": "Sinovac and Sinopharm Emergency Use Listings (2021)"
+  }
+]

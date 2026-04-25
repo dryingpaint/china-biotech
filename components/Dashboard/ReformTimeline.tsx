@@ -3,16 +3,15 @@
 import { useEffect, useRef, useState } from "react";
 import { useNarrative } from "@/lib/narrativeStore";
 import reformsData from "@/data/reforms.json";
-import companiesData from "@/data/companies.json";
-import type { Company, Reform, ReformCategory } from "@/lib/types";
+import { entities } from "@/lib/entities";
+import type { Reform, ReformCategory } from "@/lib/types";
 import Tooltip from "@/components/Tooltip";
 import { getCitation } from "@/lib/citations";
 
 const HOVER_GRACE_MS = 200;
 
 const reforms = reformsData as Reform[];
-const companies = companiesData as Company[];
-const companyById = new Map(companies.map((c) => [c.id, c]));
+const entityById = new Map(entities.map((e) => [e.id, e]));
 
 const sortedReforms = [...reforms].sort((a, b) => a.date.localeCompare(b.date));
 
@@ -72,7 +71,7 @@ export default function ReformTimeline() {
   }, [proseHighlightedId]);
 
   return (
-    <section className="space-y-2">
+    <section className="min-h-[220px] space-y-2">
       <header className="flex items-baseline justify-between">
         <h3 className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[--color-muted]">
           Regulatory reforms
@@ -158,9 +157,9 @@ function ReformTooltip({ reform }: { reform: Reform }) {
         </Section>
       )}
 
-      {reform.affectedCompanyIds && reform.affectedCompanyIds.length > 0 && (
-        <Section label={`Affected (${reform.affectedCompanyIds.length})`}>
-          <CompanyChipList ids={reform.affectedCompanyIds} />
+      {reform.affectedEntityIds && reform.affectedEntityIds.length > 0 && (
+        <Section label={`Affected (${reform.affectedEntityIds.length})`}>
+          <EntityChipList ids={reform.affectedEntityIds} />
         </Section>
       )}
 
@@ -252,17 +251,17 @@ function Section({
   );
 }
 
-function CompanyChipList({ ids }: { ids: string[] }) {
+function EntityChipList({ ids }: { ids: string[] }) {
   return (
     <div className="flex flex-wrap gap-1">
       {ids.map((id) => {
-        const c = companyById.get(id);
-        if (!c) {
+        const e = entityById.get(id);
+        if (!e) {
           return (
             <span
               key={id}
               className="rounded border border-[--color-rule] px-1.5 py-0.5 text-[10px] text-[--color-muted]"
-              title={`Unknown company: ${id}`}
+              title={`Unknown entity: ${id}`}
             >
               {id}
             </span>
@@ -274,7 +273,7 @@ function CompanyChipList({ ids }: { ids: string[] }) {
             href={`#${id}`}
             className="rounded border border-[--color-rule] px-1.5 py-0.5 text-[10px] text-[--color-fg] no-underline hover:border-[--color-accent] hover:text-[--color-accent]"
           >
-            {c.name}
+            {e.name}
           </a>
         );
       })}

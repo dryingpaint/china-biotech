@@ -1,0 +1,65 @@
+[
+  {
+    "id": "amgen",
+    "name": "Amgen",
+    "founded": 1980,
+    "headquarters": "Thousand Oaks, California",
+    "category": "mnc_pharma",
+    "shortDescription": "Took 20.5% stake in BeiGene for $2.7B (2019) plus joint development of 20 oncology assets",
+    "signature": "BeiGene strategic alliance (2019)"
+  },
+  {
+    "id": "merck-co",
+    "name": "Merck & Co.",
+    "founded": 1891,
+    "headquarters": "Rahway, NJ",
+    "category": "mnc_pharma",
+    "shortDescription": "Multi-billion ADC partnership with Kelun; PD-1/VEGF bispecific deal with LaNova for $3.3B (2024)",
+    "signature": "Kelun ADC + LaNova bispecific"
+  },
+  {
+    "id": "eli-lilly",
+    "name": "Eli Lilly",
+    "founded": 1876,
+    "headquarters": "Indianapolis",
+    "category": "mnc_pharma",
+    "shortDescription": "Innovent partnership template — co-developed Tyvyt (sintilimab) for China commercialization",
+    "signature": "Innovent strategic alliance"
+  },
+  {
+    "id": "astrazeneca",
+    "name": "AstraZeneca",
+    "founded": 1999,
+    "headquarters": "Cambridge, UK",
+    "category": "mnc_pharma",
+    "shortDescription": "Largest MNC China presence; major deals across innovator biotechs; manufacturing in Wuxi and Taizhou",
+    "signature": "Multi-decade China platform"
+  },
+  {
+    "id": "biontech",
+    "name": "BioNTech",
+    "founded": 2008,
+    "headquarters": "Mainz, Germany",
+    "category": "mnc_pharma",
+    "shortDescription": "ADC-focused China deals: Duality Biologics 2023 ($1.5B+); Fosun mRNA partnership for COVID",
+    "signature": "Duality ADC + Fosun mRNA"
+  },
+  {
+    "id": "johnson-johnson",
+    "name": "Johnson & Johnson",
+    "founded": 1886,
+    "headquarters": "New Brunswick, NJ",
+    "category": "mnc_pharma",
+    "shortDescription": "Legend Biotech CAR-T partner — co-developed Carvykti (cilta-cel)",
+    "signature": "Legend / Carvykti"
+  },
+  {
+    "id": "pfizer",
+    "name": "Pfizer",
+    "founded": 1849,
+    "headquarters": "New York City",
+    "category": "mnc_pharma",
+    "shortDescription": "CStone Pharmaceuticals partnership for ex-China sugemalimab development",
+    "signature": "CStone alliance"
+  }
+]

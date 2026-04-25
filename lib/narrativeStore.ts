@@ -4,10 +4,10 @@ import { create } from "zustand";
 import type { Chapter } from "./types";
 import chaptersData from "@/data/chapters.json";
 
-const chapters = chaptersData as Chapter[];
+const chapters = chaptersData as unknown as Chapter[];
 
 export type EntityRef = {
-  type: "company" | "reform";
+  type: "entity" | "reform";
   id: string;
 };
 
