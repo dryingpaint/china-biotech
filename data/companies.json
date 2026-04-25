@@ -468,7 +468,8 @@
       "foleyhoag-congress-passes-biosecure-act",
       "xinhua-chinese-foundation-donates-two-covid-19",
       "bgi-history-genomics-cn"
-    ]
+    ],
+    "subcategory": "Genomics infrastructure"
   },
   {
     "id": "wuxi-apptec",
@@ -581,7 +582,8 @@
     "modalities": [
       "smallMol",
       "novelMab"
-    ]
+    ],
+    "subcategory": "Full-stack CRDMO"
   },
   {
     "id": "sinovac",
@@ -2030,7 +2032,8 @@
       "novelMab",
       "adc",
       "bispecific"
-    ]
+    ],
+    "subcategory": "Biologics CDMO"
   },
   {
     "id": "cstone",
@@ -3486,7 +3489,8 @@
     ],
     "modalities": [
       "smallMol"
-    ]
+    ],
+    "subcategory": "AI drug discovery platform"
   },
   {
     "id": "insilico",
@@ -3852,7 +3856,8 @@
       "tigermed-equalocean-clinical-cro-profile",
       "tigermed-jpm-2025-presentation",
       "ropesgray-biosecure-act-enacted-2"
-    ]
+    ],
+    "subcategory": "Clinical CRO"
   },
   {
     "id": "pharmaron",
@@ -3979,7 +3984,8 @@
     ],
     "modalities": [
       "smallMol"
-    ]
+    ],
+    "subcategory": "Discovery services"
   },
   {
     "id": "asymchem",
@@ -4100,7 +4106,8 @@
     ],
     "modalities": [
       "smallMol"
-    ]
+    ],
+    "subcategory": "Small-molecule CDMO"
   },
   {
     "id": "hillhouse",

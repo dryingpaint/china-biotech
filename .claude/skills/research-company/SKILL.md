@@ -69,6 +69,14 @@ Fill the `Company` object exactly per `lib/types.ts`. Conventions:
 - **narrativeHook**: one or two sentences for *why this company matters* — pulled out as a quote-style line in the tooltip. Earn it.
 - **today**: snapshot dated in `asOf` (YYYY-MM). Numbers should be from the most recent reported full year (use `revenueYear` to disambiguate from `asOf`). `approvedDrugCount` should count internally-discovered approved drugs, not in-licensed commercial products.
 - **listings**: format as `EXCHANGE: TICKER` (e.g. `NASDAQ: ONC`).
+- **subcategory**: optional free-form short label that distinguishes the company within its category. Use it to add a more specific role label to the tooltip. Recommended values per category:
+  - `pharma` — usually leave blank; use `modalities` and `productClasses` instead
+  - `mnc_pharma` — usually leave blank
+  - `platform` — `Full-stack CRDMO` | `Biologics CDMO` | `Small-molecule CDMO` | `Clinical CRO` | `Discovery services` | `Genomics infrastructure` | `AI drug discovery platform`
+  - `investor` — `VC` | `Growth/PE` | `Strategic VC`
+  - `academic` — `University` | `Research institute`
+  - `hospital` — `General academic medical center` | `Specialty cancer center`
+  - `exchange` — usually leave blank
 - **modalities**: array of `ModalityKey` values (see `lib/types.ts`). Pick from {`smallMol`, `peptide`, `recombinant`, `biosimilar`, `novelMab`, `bispecific`, `adc`, `vaccine`, `cellTherapy`, `nucleicAcid`, `geneTherapy`, `radiopharm`}. Stored at the company root, not under `today`.
 - **therapeuticAreas**: free-form labels like `"Oncology — hematology"`, `"Immunology"`, `"Rare disease"`. Use the most specific labels that apply.
 - **productClasses**: array of objects `{name, modality?, status?}`. Lists the company's drug classes / mechanisms (e.g. `BTK inhibitor`, `PD-1/VEGF bispecific`, `Trop2 ADC`). `status` ∈ `approved | phase3 | phase2 | phase1 | preclinical`. Include marketed products + late-stage assets; skip discovery-stage unless they're strategically central.

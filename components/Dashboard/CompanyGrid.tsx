@@ -299,6 +299,12 @@ function CategoryRow({ company }: { company: Company }) {
         style={{ backgroundColor: CATEGORY_COLOR[company.category] }}
       />
       {CATEGORY_LABEL[company.category]}
+      {company.subcategory && (
+        <>
+          <span aria-hidden className="text-[--color-rule]">·</span>
+          <span className="text-[--color-fg]">{company.subcategory}</span>
+        </>
+      )}
     </div>
   );
 }
