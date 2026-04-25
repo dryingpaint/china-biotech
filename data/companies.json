@@ -58,10 +58,86 @@
   {
     "id": "beigene",
     "name": "BeiGene",
+    "nameZh": "百济神州",
     "founded": 2010,
+    "headquarters": "Beijing",
+    "founders": "John Oyler, Xiaodong Wang",
     "category": "innovator",
     "shortDescription": "First Chinese biotech to genuinely compete head-to-head globally",
-    "signature": "Brukinsa (zanubrutinib)"
+    "signature": "Brukinsa (zanubrutinib)",
+    "narrativeHook": "Brukinsa was the first China-discovered drug to win FDA approval (2019), and later beat Imbruvica head-to-head — the moment China's innovation era became unignorable to global pharma.",
+    "verified": false,
+    "lastVerified": null,
+    "today": {
+      "asOf": "2026-04",
+      "marketCapBillions": 36,
+      "revenueBillions": 3.8,
+      "revenueYear": 2025,
+      "approvedDrugCount": 5,
+      "listings": ["NASDAQ", "HKEX", "STAR"],
+      "modalities": ["small molecule", "monoclonal antibody"],
+      "leadAsset": {
+        "name": "Brukinsa (zanubrutinib)",
+        "mechanism": "BTK inhibitor",
+        "indication": "B-cell malignancies (CLL, MCL, WM, MZL, FL)",
+        "status": "Approved (FDA, EMA, NMPA, 70+ markets)"
+      },
+      "biggestDeal": {
+        "partner": "Amgen",
+        "type": "collaboration",
+        "year": 2019,
+        "valueBillions": 2.7
+      }
+    },
+    "timeline": [
+      {
+        "chapterId": "innovator-generation",
+        "status": "Founded by Oyler and Wang in Beijing",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Preclinical"
+      },
+      {
+        "chapterId": "bi-jingquan-bigbang",
+        "status": "NASDAQ IPO at $24/sh, ~$182M raised",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Phase 1/2",
+        "listings": ["NASDAQ"]
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "First HKEX 18A listing for a US-listed biotech",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Phase 3",
+        "listings": ["NASDAQ", "HKEX"],
+        "note": "Amgen partnership signed: $2.7B for 20-drug oncology platform"
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Brukinsa wins FDA accelerated approval (Nov 2019)",
+        "approvedDrugCount": 1,
+        "pipelineStage": "Marketed + Phase 3",
+        "listings": ["NASDAQ", "HKEX"]
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "STAR Market dual listing; tislelizumab approved",
+        "approvedDrugCount": 3,
+        "listings": ["NASDAQ", "HKEX", "STAR"]
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Brukinsa beats Imbruvica head-to-head in ALPINE",
+        "approvedDrugCount": 4,
+        "listings": ["NASDAQ", "HKEX", "STAR"]
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "Rebranded BeOne Medicines; redomiciled Cayman → Switzerland",
+        "approvedDrugCount": 5,
+        "listings": ["NASDAQ", "HKEX", "STAR"],
+        "note": "Distancing the corporate identity from China while keeping the operations"
+      }
+    ]
   },
   {
     "id": "innovent",

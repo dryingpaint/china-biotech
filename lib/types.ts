@@ -15,13 +15,56 @@ export type ReformCategory =
   | "capital_markets"
   | "geopolitical";
 
+export type LeadAsset = {
+  name: string;
+  mechanism?: string;
+  indication?: string;
+  status?: string;
+};
+
+export type CompanyDeal = {
+  partner: string;
+  type: "license-in" | "license-out" | "acquisition" | "collaboration";
+  year: number;
+  valueBillions?: number;
+};
+
+export type CompanyTodaySnapshot = {
+  asOf: string;
+  marketCapBillions?: number;
+  revenueBillions?: number;
+  revenueYear?: number;
+  approvedDrugCount?: number;
+  listings?: string[];
+  leadAsset?: LeadAsset;
+  modalities?: string[];
+  biggestDeal?: CompanyDeal;
+};
+
+export type CompanyTimelineEntry = {
+  chapterId: string;
+  status?: string;
+  approvedDrugCount?: number;
+  pipelineStage?: string;
+  listings?: string[];
+  note?: string;
+};
+
 export type Company = {
   id: string;
   name: string;
+  nameZh?: string;
   founded: number;
+  headquarters?: string;
+  founders?: string;
   category: CompanyCategory;
   shortDescription: string;
   signature: string;
+  narrativeHook?: string;
+  verified?: boolean;
+  lastVerified?: string;
+  today?: CompanyTodaySnapshot;
+  timeline?: CompanyTimelineEntry[];
   milestones?: { year: number; label: string }[];
 };
 
@@ -48,8 +91,15 @@ export type Chapter = {
   id: string;
   title: string;
   date: string;
+  body: string;
   metrics: ChapterMetrics;
   activeCompanyIds: string[];
   activeReformIds: string[];
   featureChart?: string;
+};
+
+export type SiteContent = {
+  heroTitle: string;
+  heroSubtitle: string;
+  heroByline: string;
 };
