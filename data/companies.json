@@ -2,58 +2,985 @@
   {
     "id": "hengrui",
     "name": "Hengrui Medicine",
+    "nameZh": "江苏恒瑞医药",
     "founded": 1970,
+    "headquarters": "Lianyungang · Shanghai",
+    "founders": "Sun Piaoyang",
     "category": "traditional",
-    "shortDescription": "State-origin generics maker that pivoted to oncology innovation",
-    "signature": "Camrelizumab (PD-1)"
+    "shortDescription": "State-origin generics maker that pivoted to oncology innovation and is now China's largest pharma by market cap",
+    "signature": "Camrelizumab (PD-1)",
+    "narrativeHook": "Hengrui is the bridge between two eras of Chinese pharma: a 1970s state factory in Lianyungang that turned itself into the country's largest innovator, then proved the model works abroad with a $14B+ in announced license-out value to Merck KGaA, GSK, and IDEAYA in 2024-2025.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "today": {
+      "asOf": "2026-04",
+      "marketCapBillions": 55.6,
+      "revenueBillions": 4.4,
+      "revenueYear": 2025,
+      "approvedDrugCount": 23,
+      "listings": [
+        "SSE: 600276",
+        "HKEX: 1276"
+      ],
+      "modalities": [
+        "small molecule",
+        "monoclonal antibody",
+        "ADC",
+        "bispecific"
+      ],
+      "leadAsset": {
+        "name": "Camrelizumab (AiRuiKa)",
+        "mechanism": "Anti-PD-1 monoclonal antibody",
+        "indication": "Hepatocellular carcinoma, NSCLC, esophageal SCC, nasopharyngeal carcinoma, classical Hodgkin's lymphoma",
+        "status": "Approved in China across 8 indications; FDA NDA (with rivoceranib) under review with PDUFA target July 23, 2026 after two CRLs"
+      },
+      "biggestDeal": {
+        "partner": "GSK",
+        "type": "license-out",
+        "year": 2025,
+        "valueBillions": 12.5
+      }
+    },
+    "timeline": [
+      {
+        "chapterId": "insulin-and-artemisinin",
+        "status": "Founded 1970 as the state-owned Lianyungang Pharmaceutical Factory in Jiangsu",
+        "approvedDrugCount": 0,
+        "note": "Origin as a small state factory making basic medicines"
+      },
+      {
+        "chapterId": "reform-and-opening",
+        "status": "Sun Piaoyang takes over as director in 1990; pivots to oncology generics, factory restructured as Jiangsu Hengrui Pharmaceuticals in 1997",
+        "approvedDrugCount": 0,
+        "note": "Revenue passes RMB100M in 1996 on strength of cancer drug portfolio"
+      },
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "Shanghai Stock Exchange IPO Oct 18, 2000 (ticker 600276); becomes a leading domestic generics and oncology player through the 2000s",
+        "approvedDrugCount": 0,
+        "listings": [
+          "SSE: 600276"
+        ]
+      },
+      {
+        "chapterId": "innovator-generation",
+        "status": "Apatinib (Aitan, VEGFR2 TKI) — Hengrui's first internally-discovered novel drug — approved by NMPA in 2014 for advanced gastric cancer",
+        "approvedDrugCount": 1,
+        "listings": [
+          "SSE: 600276"
+        ],
+        "note": "Marks transition from generics-led to innovator pipeline"
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "Pyrotinib (HER2 TKI) approved 2018; ramps R&D spend ahead of NMPA reforms and ICH harmonisation",
+        "approvedDrugCount": 2,
+        "listings": [
+          "SSE: 600276"
+        ]
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Camrelizumab (PD-1) approved by NMPA May 2019 — third domestic PD-1 to clear the China market — for relapsed/refractory classical Hodgkin's lymphoma",
+        "approvedDrugCount": 3,
+        "listings": [
+          "SSE: 600276"
+        ],
+        "note": "Becomes Hengrui's flagship asset and template for combination regimens"
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "Centralised volume-based procurement crushes Hengrui's generics business; revenue and profit fall in 2021-2022 as the company doubles down on innovative drugs",
+        "approvedDrugCount": 12,
+        "listings": [
+          "SSE: 600276"
+        ],
+        "note": "Sun Piaoyang steps down as chair in Jan 2020; daughter Sun Yuanhua and CEO Dai Hongbin lead the innovation pivot"
+      },
+      {
+        "chapterId": "going-global",
+        "status": "FY2024 revenue RMB27.99B (+22.6%) and net profit RMB6.34B (+47.3%); R&D RMB8.23B (29.4% of sales); IDEAYA in-licenses DLL3 ADC SHR-4849 for up to $1.045B (Dec 2024)",
+        "approvedDrugCount": 18,
+        "listings": [
+          "SSE: 600276"
+        ],
+        "note": "Camrelizumab + rivoceranib first-line HCC NDA under FDA review (initial CRL May 2024)"
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "HKEX dual listing May 23, 2025 (ticker 1276) — HK$11.4B raised, largest HK pharma IPO in 5 years; Merck KGaA licenses HRS-5346 Lp(a) inhibitor (Mar 2025, $200M upfront / up to $1.97B); GSK $500M-upfront / up-to-$12B 12-program deal (Jul 2025); FY2025 revenue RMB31.63B (+13%), net profit RMB7.72B (+21.8%)",
+        "approvedDrugCount": 23,
+        "listings": [
+          "SSE: 600276",
+          "HKEX: 1276"
+        ],
+        "note": "Innovative-drug sales reach 58% of drug revenue in FY2025; market cap ~$55B; second FDA CRL on camrelizumab/rivoceranib Mar 2025; resubmitted with PDUFA July 23, 2026"
+      }
+    ],
+    "milestones": [
+      {
+        "year": 1970,
+        "label": "Founded as Lianyungang Pharmaceutical Factory"
+      },
+      {
+        "year": 1990,
+        "label": "Sun Piaoyang appointed director"
+      },
+      {
+        "year": 1997,
+        "label": "Restructured as Jiangsu Hengrui Pharmaceuticals"
+      },
+      {
+        "year": 2000,
+        "label": "Shanghai Stock Exchange IPO (600276)"
+      },
+      {
+        "year": 2014,
+        "label": "Apatinib (first novel drug) approved by NMPA"
+      },
+      {
+        "year": 2019,
+        "label": "Camrelizumab (PD-1) approved by NMPA"
+      },
+      {
+        "year": 2020,
+        "label": "Sun Piaoyang steps down as chair"
+      },
+      {
+        "year": 2024,
+        "label": "IDEAYA in-licenses DLL3 ADC SHR-4849 (up to $1.045B)"
+      },
+      {
+        "year": 2025,
+        "label": "Hong Kong dual listing (HKEX: 1276) raises HK$11.4B"
+      },
+      {
+        "year": 2025,
+        "label": "Merck KGaA licenses HRS-5346 Lp(a) inhibitor (up to ~$2B)"
+      },
+      {
+        "year": 2025,
+        "label": "GSK 12-program deal: $500M upfront, up to $12B in milestones"
+      }
+    ],
+    "sources": [
+      "biospace-hengrui-pharma-announces-strong-2025-ann",
+      "cbonds-hengrui-medicine-2024-profit-up-47-reven",
+      "hkex-2025-interim-report",
+      "merck-bw-merck-enters-exclusive-license-agreement",
+      "gsk-gsk-and-hengrui-pharma-enter-agreements",
+      "ideaya-ideaya-biosciences-enters-exclusive-lice",
+      "scmp-jiangsu-hengrui-makes-solid-hong-kong-tr",
+      "pillsbury-pillsbury-advises-jiangsu-hengrui-on-hk",
+      "cancernetwork-fda-issues-second-camrelizumab-rivoceran",
+      "targetedonc-fda-receives-resubmitted-nda-for-camreli",
+      "companiesmarketcap-jiangsu-hengrui-medicine",
+      "fiercepharma-hengruis-sun-piaoyang-chinas-richest-pha"
+    ]
   },
   {
     "id": "3sbio",
     "name": "3SBio",
+    "nameZh": "三生制药",
     "founded": 1993,
+    "headquarters": "Shenyang",
+    "founders": "Lou Dan, Lou Jing",
     "category": "innovator",
-    "shortDescription": "Early biologics, EPO franchise",
-    "signature": "EPIAO erythropoietin"
+    "shortDescription": "Shenyang-based biologics pioneer behind China's dominant EPO and TPO franchises; vaulted into global headlines with the 2025 Pfizer PD-1/VEGF bispecific deal",
+    "signature": "EPIAO erythropoietin, TPIAO thrombopoietin",
+    "narrativeHook": "Founded as Shenyang Sunshine in 1993 to make recombinant biologics affordable, 3SBio spent two decades quietly leading China's EPO and TPO markets — then in May 2025 turned its in-house PD-1/VEGF bispecific (SSGJ-707) into a $1.25B-upfront, up-to-$6B Pfizer deal, the largest single-asset license-out by a Chinese biotech to that point.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "today": {
+      "asOf": "2026-04",
+      "marketCapBillions": 8.1,
+      "revenueBillions": 1.27,
+      "revenueYear": 2024,
+      "approvedDrugCount": 6,
+      "listings": [
+        "HKEX: 1530"
+      ],
+      "modalities": [
+        "monoclonal antibody",
+        "bispecific"
+      ],
+      "leadAsset": {
+        "name": "TPIAO (rhTPO)",
+        "mechanism": "Recombinant human thrombopoietin",
+        "indication": "Chemotherapy-induced thrombocytopenia, ITP",
+        "status": "World's only commercial rhTPO; RMB 5.06B FY2024 revenue (+20.4% YoY)"
+      },
+      "biggestDeal": {
+        "partner": "Pfizer",
+        "type": "license-out",
+        "year": 2025,
+        "valueBillions": 6.05
+      }
+    },
+    "timeline": [
+      {
+        "chapterId": "reform-and-opening",
+        "status": "Founded as Shenyang Sunshine Pharmaceutical by Major General Lou Dan in 1993",
+        "approvedDrugCount": 0,
+        "note": "Built around making interferon and other recombinant proteins affordable in China"
+      },
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "Launched EPIAO (1998) and TPIAO (2006); NASDAQ IPO Feb 2007 as 'SSRX'",
+        "approvedDrugCount": 2,
+        "listings": [
+          "NASDAQ: SSRX"
+        ],
+        "note": "Co-founder Lou Jing joined as R&D director in 1995; became chairman in 2012"
+      },
+      {
+        "chapterId": "innovator-generation",
+        "status": "Taken private from NASDAQ in 2013 by Lou Jing and CITIC PE for ~$370M",
+        "approvedDrugCount": 3
+      },
+      {
+        "chapterId": "bi-jingquan-bigbang",
+        "status": "Hong Kong IPO June 11, 2015 at HK$9.10/share, raising ~$710.7M (HKEX: 1530)",
+        "approvedDrugCount": 4,
+        "listings": [
+          "HKEX: 1530"
+        ]
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Inetetamab (Cipterbin), in-house anti-HER2 mAb, NMPA-approved June 2020",
+        "approvedDrugCount": 5,
+        "pipelineStage": "Phase 1-3"
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Pipeline expansion to ~30 candidates; SSGJ-707 (PD-1/VEGF bispecific) advances on CLF2 platform",
+        "approvedDrugCount": 5,
+        "pipelineStage": "Phase 2/3"
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "Pfizer license-out for SSGJ-707 announced May 2025, completed July 24, 2025: $1.25B upfront + up to $4.8B milestones + $100M equity; Phase 3 begins in China and US",
+        "approvedDrugCount": 6,
+        "pipelineStage": "Phase 3"
+      }
+    ],
+    "milestones": [
+      {
+        "year": 1993,
+        "label": "Founded as Shenyang Sunshine Pharmaceutical"
+      },
+      {
+        "year": 1998,
+        "label": "EPIAO (rhEPO) approved in China"
+      },
+      {
+        "year": 2006,
+        "label": "TPIAO (rhTPO) approved — world's first commercial rhTPO"
+      },
+      {
+        "year": 2007,
+        "label": "NASDAQ IPO under ticker SSRX"
+      },
+      {
+        "year": 2013,
+        "label": "Taken private from NASDAQ for ~$370M"
+      },
+      {
+        "year": 2015,
+        "label": "Hong Kong IPO (HKEX: 1530), raising ~$710.7M"
+      },
+      {
+        "year": 2020,
+        "label": "Inetetamab (Cipterbin), self-developed anti-HER2 mAb, NMPA-approved"
+      },
+      {
+        "year": 2025,
+        "label": "Pfizer SSGJ-707 deal: $1.25B upfront, up to $6B total"
+      }
+    ],
+    "sources": [
+      "pfizer-pfizer-completes-licensing-agreement-wit",
+      "fiercebiotech-pfizer-pays-3sbio-1-25b-for-pd-1xvegf-bi",
+      "3sbio-3sbio-unveils-2024-annual-results",
+      "hkex-annual-results-announcement-for-the-year",
+      "fiercepharma-chinas-3sbio-returns-to-market-and-pulls",
+      "3sbio-ir-3sbio-corporate-governance"
+    ]
   },
   {
     "id": "bgi",
     "name": "BGI Group",
+    "nameZh": "华大基因",
     "founded": 1999,
+    "headquarters": "Shenzhen",
+    "founders": "Wang Jian, Yang Huanming, Liu Siqi, Yu Jun",
     "category": "genomics",
-    "shortDescription": "Sequencing infrastructure, later flagged under BIOSECURE",
-    "signature": "DNBSEQ sequencers, MGI"
+    "shortDescription": "China's flagship genomics platform — sequencing infrastructure, NIPT, and the DNBSEQ instrument line — split across BGI Genomics (services) and MGI Tech (instruments), and a recurring named target in US biosecurity legislation",
+    "signature": "DNBSEQ sequencers, MGI",
+    "narrativeHook": "Founded in 1999 to put China inside the Human Genome Project, BGI grew into the only non-Western company building its own clinical sequencing instruments at scale — and became the first Chinese genomics name written by name into US biosecurity law.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "today": {
+      "asOf": "2026-04",
+      "revenueBillions": 0.95,
+      "revenueYear": 2024,
+      "listings": [
+        "SZSE: 300676",
+        "SSE STAR: 688114"
+      ],
+      "modalities": [],
+      "leadAsset": {
+        "name": "DNBSEQ sequencer line (MGI Tech)",
+        "mechanism": "DNA nanoball (DNB) sequencing-by-synthesis",
+        "indication": "Clinical and research genomics; NIFTY NIPT; oncology and reproductive testing",
+        "status": "1,270 new sequencers installed in 2024 (+49% YoY); ~55% share of China sequencer tenders in 9M 2024"
+      },
+      "biggestDeal": {
+        "partner": "Complete Genomics",
+        "type": "acquisition",
+        "year": 2013,
+        "valueBillions": 0.118
+      }
+    },
+    "timeline": [
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "Founded September 1999 in Beijing as the Beijing Genomics Institute by Wang Jian, Yang Huanming, Liu Siqi and Yu Jun to deliver China's 1% share of the Human Genome Project; relocated headquarters to Shenzhen in 2007",
+        "approvedDrugCount": 0,
+        "note": "Operates as a non-governmental research institute backed in part by Wang Jian's prior venture Jubilee Biotechnology"
+      },
+      {
+        "chapterId": "innovator-generation",
+        "status": "Bought 128 Illumina HiSeq 2000 instruments (2010) to anchor the world's largest sequencing center; launched NIFTY NIPT clinically in 2011; opened BGI Americas (Cambridge MA) and BGI Europe (Copenhagen)",
+        "approvedDrugCount": 0,
+        "note": "Established the global services scale that justified building proprietary instruments"
+      },
+      {
+        "chapterId": "bi-jingquan-bigbang",
+        "status": "Acquired Complete Genomics (Mountain View, CA) for US$117.6M in March 2013 after CFIUS clearance, gaining the DNB nanoball sequencing IP that became the DNBSEQ line; spun out MGI Tech as a sequencing-instrument subsidiary in 2016",
+        "approvedDrugCount": 0,
+        "note": "First Chinese acquisition of a US sequencing-technology company"
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "BGI Genomics services arm IPO'd on Shenzhen ChiNext July 14, 2017 (300676), raising RMB ~547M (~US$81M); jumped 44% on debut",
+        "approvedDrugCount": 0,
+        "listings": [
+          "SZSE: 300676"
+        ]
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Mammoth Foundation (BGI-sponsored Shenzhen non-profit) deployed COVID-19 testing labs and donated kits across Europe, the Middle East and Africa; BGI Genomics revenue spiked on global PCR/sequencing demand",
+        "approvedDrugCount": 0,
+        "listings": [
+          "SZSE: 300676"
+        ]
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "MGI Tech IPO'd on Shanghai STAR Market September 2022 (688114), raising RMB ~3.6B (~US$510M) to scale DNBSEQ instrument manufacturing and overseas sales after a 2019 patent settlement opened markets outside China",
+        "approvedDrugCount": 0,
+        "listings": [
+          "SZSE: 300676",
+          "SSE STAR: 688114"
+        ]
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Named alongside MGI and Complete Genomics in the BIOSECURE Act (H.R.7085), which passed the US House 306–81 on Sept 9, 2024 but failed to make the FY2025 NDAA",
+        "approvedDrugCount": 0,
+        "listings": [
+          "SZSE: 300676",
+          "SSE STAR: 688114"
+        ],
+        "note": "MGI's 9M 2024 share of China sequencer tenders reached ~55%, displacing Illumina in the home market"
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "BIOSECURE Act enacted as Section 851 of the FY2026 NDAA, signed Dec 18, 2025; BGI Genomics FY2024 revenue RMB 3.87B (~US$531M, -11% YoY) with a RMB 902.7M net loss; MGI Tech FY2024 revenue RMB 3.01B (~US$414M, +3% YoY) with 1,270 new sequencer installs",
+        "approvedDrugCount": 0,
+        "listings": [
+          "SZSE: 300676",
+          "SSE STAR: 688114"
+        ],
+        "note": "Final law no longer names specific entities; OMB has up to 12 months to publish the official Biotechnology Companies of Concern list — BGI Group, BGI Genomics, MGI Tech and Forensic Genomics International remain on the underlying 1260H list"
+      }
+    ],
+    "milestones": [
+      {
+        "year": 1999,
+        "label": "Founded as Beijing Genomics Institute to join the Human Genome Project"
+      },
+      {
+        "year": 2007,
+        "label": "Relocated headquarters to Shenzhen"
+      },
+      {
+        "year": 2011,
+        "label": "NIFTY NIPT launched clinically"
+      },
+      {
+        "year": 2013,
+        "label": "Acquired Complete Genomics for US$117.6M"
+      },
+      {
+        "year": 2016,
+        "label": "MGI Tech spun out as sequencing-instrument subsidiary"
+      },
+      {
+        "year": 2017,
+        "label": "BGI Genomics IPO on Shenzhen ChiNext (300676), ~US$81M raised"
+      },
+      {
+        "year": 2022,
+        "label": "MGI Tech IPO on Shanghai STAR Market (688114), ~US$510M raised"
+      },
+      {
+        "year": 2024,
+        "label": "Named in BIOSECURE Act; bill passes US House 306–81 but stalls in Senate"
+      },
+      {
+        "year": 2025,
+        "label": "BIOSECURE Act enacted as Section 851 of FY2026 NDAA"
+      }
+    ],
+    "sources": [
+      "genomeweb-bgi-genomics-2024-revenues-drop-11-perce",
+      "genomeweb-mgi-tech-2024-revenues-up-3-percent-whil",
+      "genomeweb-mgi-tech-planning-to-go-public-in-366m-c",
+      "marketscreener-mgi-tech-co-ltd-has-completed-an-ipo-in",
+      "cmn-venture-backed-bgi-genomics-completes-25",
+      "prnewswire-bgi-shenzhen-completes-acquisition-of-co",
+      "congress-h-r-7085",
+      "cen-house-passes-act-aimed-at-5-chinese-drug",
+      "arnold-porter-biosecure-law-2025",
+      "foleyhoag-congress-passes-biosecure-act",
+      "xinhua-chinese-foundation-donates-two-covid-19",
+      "bgi-history-genomics-cn"
+    ]
   },
   {
     "id": "wuxi-apptec",
     "name": "WuXi AppTec",
+    "nameZh": "无锡药明康德新药开发股份有限公司",
     "founded": 2000,
+    "headquarters": "Shanghai",
+    "founders": "Ge Li (Li Ge), Ning Zhao",
     "category": "cro_cdmo",
-    "shortDescription": "Backbone of China's pharma services outsourcing",
-    "signature": "End-to-end CRDMO"
+    "shortDescription": "Backbone of China's pharma services outsourcing — the end-to-end CRDMO that quietly underwrites a large share of global early-stage drug discovery.",
+    "signature": "End-to-end CRDMO",
+    "narrativeHook": "If China's innovator generation has a foundry, it is WuXi AppTec — a Shanghai-built outsourcing engine so embedded in U.S. drug pipelines that Congress wrote a law specifically to pry it loose.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "today": {
+      "asOf": "2026-04",
+      "marketCapBillions": 48.8,
+      "revenueBillions": 6.3,
+      "revenueYear": 2025,
+      "approvedDrugCount": 0,
+      "listings": [
+        "SSE: 603259",
+        "HKEX: 02359"
+      ],
+      "modalities": [
+        "small molecule",
+        "oligonucleotide",
+        "ADC"
+      ],
+      "biggestDeal": {
+        "partner": "Altaris LLC",
+        "type": "acquisition",
+        "year": 2025
+      }
+    },
+    "timeline": [
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "Founded as WuXi PharmaTech in Shanghai's Waigaoqiao Free Trade Zone",
+        "note": "Ge Li and Ning Zhao launch a contract-research foundry serving Western pharma — the template for China's outsourcing buildout."
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "NYSE: WX (2007–2015) → STAR + HKEX dual-listed",
+        "listings": [
+          "SSE: 603259",
+          "HKEX: 02359"
+        ],
+        "note": "After a 2015 take-private from NYSE, WuXi spun off WuXi Biologics (HK 2017), re-listed on Shanghai's A-share market in May 2018 and on HKEX in December 2018."
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Global CRDMO scale; BIOSECURE Act lobbying fight begins",
+        "note": "FY2024 revenue RMB 39.24B; backlog RMB 49.3B (+47% YoY). U.S. House passes BIOSECURE Act naming WuXi AppTec; company publicly rejects PLA/CCP allegations and notes it has no human-genomics business."
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "Divests U.S./U.K. cell-and-gene-therapy unit; record FY2025",
+        "note": "March 2025 closes sale of WuXi ATU (U.S. + U.K., incl. Oxford Genetics) to Altaris. FY2025 revenue RMB 45.46B (+15.8%); continuing-ops revenue RMB 43.42B (+21.4%); adjusted non-IFRS net profit RMB 14.96B. BIOSECURE Act signed into law via FY2026 NDAA on Dec 18 2025 — WuXi not named, but pending 1260H referral."
+      }
+    ],
+    "milestones": [
+      {
+        "year": 2000,
+        "label": "Founded by Ge Li in Shanghai's Waigaoqiao FTZ as WuXi PharmaTech"
+      },
+      {
+        "year": 2007,
+        "label": "IPO on NYSE under ticker WX"
+      },
+      {
+        "year": 2015,
+        "label": "Take-private from NYSE at ~$3.3B"
+      },
+      {
+        "year": 2017,
+        "label": "WuXi Biologics spun off and listed in Hong Kong"
+      },
+      {
+        "year": 2018,
+        "label": "Shanghai STAR/A-share IPO (603259) raises >$900M; HKEX H-share listing (02359) at HK$68"
+      },
+      {
+        "year": 2024,
+        "label": "U.S. House passes BIOSECURE Act explicitly targeting WuXi AppTec"
+      },
+      {
+        "year": 2025,
+        "label": "Sells WuXi ATU U.S./U.K. cell-and-gene-therapy operations to Altaris"
+      },
+      {
+        "year": 2025,
+        "label": "Record FY2025 revenue of RMB 45.46B; BIOSECURE Act enacted via FY2026 NDAA"
+      }
+    ],
+    "sources": [
+      "wuxi-prnews-wuxi-apptec-beat-full-year-guidance-and",
+      "wuxi-ir-wuxi-apptec-2024-annual-results-presenta",
+      "hkex-announcement-of-the-annual-results-for-t",
+      "wuxi-altaris-atu-2024",
+      "altaris-altaris-to-acquire-u-s-and-u-k-cell-ther",
+      "biocentury-wuxi-how-wuxi-apptec-is-battling-the-biosecur",
+      "ropesgray-biosecure-act-enacted",
+      "statnews-biosecure-act-aimed-at-chinese-drug-manu",
+      "wuxi-prnews-wuxi-apptec-lists-h-shares-on-the-hong-k",
+      "cen-c-en-profiles-wuxi-apptec-chinese-contra",
+      "companiesmarketcap-wuxi-apptec",
+      "cen-house-passes-act-aimed-at-5-chinese-drug"
+    ]
   },
   {
     "id": "sinovac",
     "name": "Sinovac Biotech",
+    "nameZh": "科兴控股生物技术",
     "founded": 2001,
+    "headquarters": "Beijing",
+    "founders": "Yin Weidong, Pan Aihua",
     "category": "vaccines",
     "shortDescription": "Vaccines, scaled massively during COVID",
-    "signature": "CoronaVac"
+    "signature": "CoronaVac",
+    "narrativeHook": "CoronaVac became the workhorse of the developing world's COVID response — more than 2.9 billion doses shipped to over 60 countries — but the cash it generated has been frozen for years inside a U.S.-listed shell whose shares haven't traded since 2019, the longest-running governance dispute in Chinese biotech.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "today": {
+      "asOf": "2026-04",
+      "revenueBillions": 0.43,
+      "revenueYear": 2023,
+      "approvedDrugCount": 6,
+      "listings": [
+        "NASDAQ: SVA (trading halted since Feb 2019; delisting determination Nov 2025, under appeal)"
+      ],
+      "modalities": [
+        "vaccines"
+      ],
+      "leadAsset": {
+        "name": "CoronaVac",
+        "mechanism": "Inactivated whole-virus SARS-CoV-2 vaccine",
+        "indication": "COVID-19 prevention",
+        "status": "WHO EUL granted Jun 1, 2021; >2.9B doses shipped to 60+ countries by 2023; production discontinued Jan 2024"
+      }
+    },
+    "timeline": [
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "Founded in Beijing 2001 by Yin Weidong and Pan Aihua; Healive (China's first proprietary inactivated hepatitis A vaccine) approved 1999/launched commercially after founding",
+        "approvedDrugCount": 1,
+        "pipelineStage": "Commercial",
+        "note": "Listed on AMEX in 2004; uplisted to NASDAQ Global Market in 2009 as SVA"
+      },
+      {
+        "chapterId": "innovator-generation",
+        "status": "First H1N1 pandemic-flu vaccine (Panflu.1) approved in China 2009 — first globally to win a regulatory nod for the 2009 strain",
+        "approvedDrugCount": 2,
+        "pipelineStage": "Commercial",
+        "listings": [
+          "NASDAQ: SVA"
+        ]
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "EV71 vaccine (Inlive) for hand-foot-mouth disease commercialised in China 2016; failed go-private bid by Yin/SAIF consortium at $7/share opens decade-long boardroom war with Vivo Capital / Advantech / Prime Success",
+        "approvedDrugCount": 3,
+        "pipelineStage": "Commercial",
+        "listings": [
+          "NASDAQ: SVA"
+        ],
+        "note": "July 2018 Vivo-controlled board issues 11.8M dilutive PIPE shares; triggers shareholder-rights poison pill"
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Trading on NASDAQ halted Feb 22, 2019 over disputed PIPE issuance; CoronaVac Phase 3 launches across Brazil, Indonesia, Turkey, Chile in 2020",
+        "approvedDrugCount": 3,
+        "pipelineStage": "Phase 3 (CoronaVac)",
+        "listings": [
+          "NASDAQ: SVA (halted)"
+        ],
+        "note": "CoronaVac China conditional approval Feb 2021"
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "WHO EUL for CoronaVac granted Jun 1, 2021 — second Chinese vaccine to win it; 2021 revenue exceeds $19B as global doses scale to ~2.7B; varicella vaccine WHO-prequalified Nov 2022",
+        "approvedDrugCount": 5,
+        "pipelineStage": "Commercial",
+        "listings": [
+          "NASDAQ: SVA (halted)"
+        ]
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Post-COVID demand collapse — H1 2023 revenue $140M vs $1.2B prior-year H1; CoronaVac production discontinued Jan 2024; pivot back to routine vaccines (HepA Healive, sIPV, varicella, EV71, influenza)",
+        "approvedDrugCount": 6,
+        "pipelineStage": "Commercial",
+        "listings": [
+          "NASDAQ: SVA (halted)"
+        ]
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "Feb 2025 Privy Council judgment installs new board (Chiang Li chair); $55/share special cash dividend declared April 2025, paid July 7 2025 after multiple Vivo/Advantech legal challenges defeated; Nasdaq delisting determination Nov 12 2025, under appeal",
+        "approvedDrugCount": 6,
+        "pipelineStage": "Commercial",
+        "listings": [
+          "NASDAQ: SVA (delisting under appeal)"
+        ],
+        "note": "Privatization never completed; corporate war between Yin/SAIF camp and Vivo/Advantech/Prime Success continues into 2026"
+      }
+    ],
+    "milestones": [
+      {
+        "year": 2001,
+        "label": "Founded in Beijing by Yin Weidong and Pan Aihua"
+      },
+      {
+        "year": 2004,
+        "label": "Listed on American Stock Exchange"
+      },
+      {
+        "year": 2009,
+        "label": "Uplisted to NASDAQ (SVA); Panflu.1 H1N1 vaccine approved"
+      },
+      {
+        "year": 2016,
+        "label": "Yin/SAIF consortium proposes $6.18/share go-private; Inlive (EV71) launched"
+      },
+      {
+        "year": 2018,
+        "label": "Vivo-controlled board issues dilutive PIPE shares; poison pill triggered"
+      },
+      {
+        "year": 2019,
+        "label": "NASDAQ halts SVA trading on Feb 22 over disputed share issuance"
+      },
+      {
+        "year": 2021,
+        "label": "WHO EUL for CoronaVac (Jun 1); global rollout to 60+ countries"
+      },
+      {
+        "year": 2024,
+        "label": "CoronaVac production discontinued"
+      },
+      {
+        "year": 2025,
+        "label": "Privy Council installs new board; $55/share special dividend paid; Nasdaq delisting determination issued"
+      }
+    ],
+    "sources": [
+      "wikipedia-sinovac-biotech",
+      "who-sinovac-eul",
+      "caixin-sinovacs-covid-fortune-fuels-bitter-boar",
+      "sinovac-bw-sinovac-announces-record-and-distributio",
+      "businesswire-federal-court-in-massachusetts-denies-vi",
+      "businesswire-sinovac-announces-new-board-pursuant-to",
+      "sinovac-sinovac-announces-receipt-of-nasdaq-noti",
+      "businesswire-sinovac-reports-unaudited-first-half-of",
+      "nasdaq-nasdaq-halts-sinovac-biotech-ltd",
+      "hvi-pmc-profile"
+    ]
   },
   {
     "id": "remegen",
     "name": "RemeGen",
+    "nameZh": "荣昌生物",
     "founded": 2008,
+    "headquarters": "Yantai, Shandong",
+    "founders": "Wang Weidong, Jianmin Fang",
     "category": "adc",
-    "shortDescription": "Early ADC and autoimmune biologics player",
-    "signature": "Disitamab vedotin (HER2 ADC)"
+    "shortDescription": "Yantai-based dual A+H biotech that pioneered China's first homegrown ADC and a B-cell autoimmune fusion protein, anchoring two record license-outs to Seagen/Pfizer and Vor Bio",
+    "signature": "Disitamab vedotin (RC48, HER2 ADC)",
+    "narrativeHook": "Disitamab vedotin was the first China-discovered ADC to be out-licensed to a Western developer in a megadeal (Seagen, $2.6B in 2021), and telitacicept's 2025 NEJM Phase 3 lupus result — paired with a $4.1B Vor Bio license — turned RemeGen into a two-platform proof point that Chinese biology can sit at the global frontier in both oncology and autoimmunity.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "today": {
+      "asOf": "2026-04",
+      "revenueBillions": 0.46,
+      "revenueYear": 2025,
+      "approvedDrugCount": 2,
+      "listings": [
+        "HKEX: 09995",
+        "STAR: 688331"
+      ],
+      "modalities": [
+        "ADC",
+        "monoclonal antibody"
+      ],
+      "leadAsset": {
+        "name": "Disitamab vedotin (Aidixi / RC48)",
+        "mechanism": "HER2-targeted antibody-drug conjugate (MMAE payload)",
+        "indication": "HER2-expressing urothelial and breast cancers",
+        "status": "Approved in China across four indications (incl. HER2-low breast cancer w/ liver mets, Mar 2026); Phase 3 RC48-C016 first-line urothelial met both PFS and OS endpoints (May 2025); FDA Breakthrough Therapy designation for 2L urothelial since 2020"
+      },
+      "biggestDeal": {
+        "partner": "Vor Bio",
+        "type": "license-out",
+        "year": 2025,
+        "valueBillions": 4.23
+      }
+    },
+    "timeline": [
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "Founded 2008 in Yantai by Rongchang Pharma chairman Wang Weidong and returnee scientist Jianmin Fang (Dalhousie/Harvard Medical postdoc) to build a domestic ADC and fusion-protein platform",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Preclinical"
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "FDA grants Breakthrough Therapy designation to disitamab vedotin (Sep 2020) for 2L HER2-positive urothelial cancer; HKEX 18A IPO Nov 9, 2020 (09995.HK), raising ~US$590M with Fidelity, BlackRock, OrbiMed, Hillhouse and Lilly Asia Ventures as cornerstones",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Phase 2/3",
+        "listings": [
+          "HKEX: 09995"
+        ]
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "Telitacicept (RC18) wins NMPA conditional approval for SLE (Mar 2021) — first China-discovered BlyS/APRIL dual-target fusion protein; disitamab vedotin (Aidixi) wins NMPA approval for HER2+ gastric cancer (Jun 2021) — first homegrown Chinese ADC; Seagen exclusive worldwide license-out announced Aug 9, 2021 ($200M upfront, up to $2.4B milestones, total $2.6B headline) — then China's largest-ever oncology out-license; STAR Market A-share IPO Mar 31, 2022 (688331.SH), raising ~RMB2.6B (US$412M)",
+        "approvedDrugCount": 2,
+        "listings": [
+          "HKEX: 09995",
+          "STAR: 688331"
+        ],
+        "note": "Disitamab vedotin gains second NMPA indication (urothelial, Dec 2021)"
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Pfizer closes Seagen acquisition (Dec 2023), assuming the disitamab vedotin partnership; telitacicept wins NMPA approval for rheumatoid arthritis (Nov 2023); Phase 3 readouts advance in generalized myasthenia gravis and IgA nephropathy",
+        "approvedDrugCount": 2,
+        "listings": [
+          "HKEX: 09995",
+          "STAR: 688331"
+        ]
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "Telitacicept wins NMPA approval for generalized myasthenia gravis (early 2025) and the China lupus Phase 3 is published in NEJM (Oct 2025); Vor Bio ex-China license-out announced Jun 25, 2025 — $125M initial ($45M cash + $80M warrants) plus up to $4.105B milestones; disitamab vedotin first-line urothelial Phase 3 hits PFS+OS (May 2025) and wins a fourth NMPA indication in HER2-low breast cancer (Mar 2026); FY2025 revenue RMB3.25B (+89% YoY) with first net profit of RMB708.5M",
+        "approvedDrugCount": 2,
+        "listings": [
+          "HKEX: 09995",
+          "STAR: 688331"
+        ],
+        "note": "Global Phase 3 of telitacicept enrolling in US/EU/South America with readout expected H1 2027; FDA approval of disitamab vedotin still pending"
+      }
+    ],
+    "milestones": [
+      {
+        "year": 2008,
+        "label": "RemeGen founded in Yantai by Wang Weidong and Jianmin Fang"
+      },
+      {
+        "year": 2020,
+        "label": "FDA Breakthrough Therapy for disitamab vedotin; HKEX 18A IPO (09995)"
+      },
+      {
+        "year": 2021,
+        "label": "Telitacicept NMPA approval for SLE; disitamab vedotin NMPA approval for HER2+ gastric; Seagen $2.6B global license-out"
+      },
+      {
+        "year": 2022,
+        "label": "STAR Market A-share IPO (688331), ~RMB2.6B raised"
+      },
+      {
+        "year": 2025,
+        "label": "Vor Bio ex-China license-out for telitacicept (up to $4.23B); NEJM lupus Phase 3 publication; first profitable year (RMB708.5M)"
+      },
+      {
+        "year": 2026,
+        "label": "Disitamab vedotin wins fourth NMPA indication (HER2-low breast cancer with liver mets)"
+      }
+    ],
+    "sources": [
+      "businesswire-seagen-and-remegen-announce-exclusive-wo",
+      "vorbio-vor-bio-enters-into-exclusive-global-lic",
+      "omelveny-omelveny-represents-remegen-in-its-a-sha",
+      "davispolk-remegen-hk-4-billion-hong-kong-ipo",
+      "allsci-pfizer-partner-remegen-takes-4th-china-i",
+      "remegen-phase-3-disitamab-vedotin-first-line-uro",
+      "vorbio-vor-bio-announces-publication-of-china-p",
+      "globeandmail-remegen-boosts-2025-revenue-as-telitacic",
+      "neurologylive-remegens-telitacicept-approved-for-treat",
+      "remegen-jianmin-fang"
+    ]
   },
   {
     "id": "cansino",
     "name": "CanSino Biologics",
+    "nameZh": "康希诺生物",
     "founded": 2009,
+    "headquarters": "Tianjin",
+    "founders": "Xuefeng Yu, Tao Zhu, Dongxu Qiu, Helen Huihua Mao",
     "category": "vaccines",
-    "shortDescription": "Adenovirus-vectored vaccines",
-    "signature": "Convidecia COVID vaccine"
+    "shortDescription": "Tianjin-based vaccine innovator built by Sanofi Pasteur returnees; first to commercialize a Chinese-developed Ebola vaccine, the world's first inhaled COVID-19 vaccine, and China's first domestic MCV4 meningococcal conjugate vaccine",
+    "signature": "Convidecia (Ad5-nCoV) inhalable COVID vaccine",
+    "narrativeHook": "CanSino is the canonical 'haigui' vaccine play — four Sanofi Pasteur veterans returning to Tianjin in 2009, the first 'A+H' dual-listed vaccine company, and the platform that delivered the world's first inhaled COVID-19 vaccine before the post-pandemic revenue cliff forced it to rebuild around routine immunization.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "today": {
+      "asOf": "2026-04",
+      "revenueBillions": 0.12,
+      "revenueYear": 2024,
+      "approvedDrugCount": 4,
+      "listings": [
+        "HKEX: 06185",
+        "STAR: 688185"
+      ],
+      "modalities": [
+        "mRNA"
+      ],
+      "leadAsset": {
+        "name": "Menhycia (MCV4)",
+        "mechanism": "Quadrivalent meningococcal conjugate vaccine (serogroups A/C/W135/Y conjugated to CRM197)",
+        "indication": "Meningococcal disease prevention in children 3 months to 3 years",
+        "status": "First MCV4 approved in China (Dec 2021); Menhycia + Menphecia generated nearly RMB800M in 2024 sales (>40% YoY)"
+      },
+      "biggestDeal": {
+        "partner": "AstraZeneca",
+        "type": "collaboration",
+        "year": 2022
+      }
+    },
+    "timeline": [
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "Founded 2009 in Tianjin by four returnees from Sanofi Pasteur, AstraZeneca, Wyeth and CNBG (Yu Xuefeng, Zhu Tao, Qiu Dongxu, Helen Mao Huihua)",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Preclinical",
+        "note": "Built around adenovirus-vector and conjugate-vaccine platforms; early backing from Qiming Venture Partners"
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "HKEX 18A IPO Mar 28, 2019 (06185) — first day pop of 59%, the largest first-day gain in Hong Kong since 2017",
+        "approvedDrugCount": 1,
+        "pipelineStage": "Phase 3",
+        "listings": [
+          "HKEX: 06185"
+        ],
+        "note": "Ad5-EBOV (Ebola) approved by CFDA Oct 19, 2017 for emergency use and national stockpiling — China's first domestic Ebola vaccine, second country worldwide to license one"
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Ad5-nCoV (Convidecia) authorized by NMPA Feb 25, 2021 as a single-dose COVID-19 vaccine; STAR Market dual-listing Aug 13, 2020 (688185), raising ~RMB5.2B (US$743M) — first 'A+H' vaccine company",
+        "approvedDrugCount": 2,
+        "listings": [
+          "HKEX: 06185",
+          "STAR: 688185"
+        ],
+        "note": "Single-dose efficacy 57.5% vs symptomatic, 91.7% vs severe disease"
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "Convidecia Air (inhalable Ad5-nCoV) approved Sep 4, 2022 as a booster — world's first inhaled COVID-19 vaccine; Menhycia (MCV4) approved by NMPA Dec 2021 — first quadrivalent meningococcal conjugate vaccine in China",
+        "approvedDrugCount": 4,
+        "listings": [
+          "HKEX: 06185",
+          "STAR: 688185"
+        ],
+        "note": "WHO EUL granted to Convidecia May 19, 2022; AstraZeneca mRNA manufacturing partnership signed 2022; CanSinoBIO Switzerland subsidiary opened for European/supranational sales"
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Post-COVID revenue cliff: FY2023 revenue RMB357M (down 65% YoY) with net loss RMB1.45B; pivoting to MCV4 + pipeline",
+        "approvedDrugCount": 4,
+        "listings": [
+          "HKEX: 06185",
+          "STAR: 688185"
+        ],
+        "note": "Menhycia exports begin to Indonesia, Middle East, South America; Halal certification granted"
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "FY2024 revenue RMB846M (+137% YoY); narrowed net loss to ~RMB335–385M; CEO Yu Xuefeng targets 2025 breakeven",
+        "approvedDrugCount": 4,
+        "listings": [
+          "HKEX: 06185",
+          "STAR: 688185"
+        ],
+        "note": "PCV13i pneumococcal vaccine pre-market inspection completed (approval expected 2025); DTcP-Hib-MCV4 combination cleared for clinical trials Feb 2025; mRNA, VLP, and adenoviral-vector platforms across 10+ disease targets"
+      }
+    ],
+    "milestones": [
+      {
+        "year": 2009,
+        "label": "Founded in Tianjin by four Sanofi Pasteur / AstraZeneca / Wyeth / CNBG returnees"
+      },
+      {
+        "year": 2017,
+        "label": "Ad5-EBOV Ebola vaccine approved by CFDA — China's first domestic Ebola vaccine"
+      },
+      {
+        "year": 2019,
+        "label": "HKEX 18A IPO (06185) on Mar 28 — 59% first-day pop"
+      },
+      {
+        "year": 2020,
+        "label": "STAR Market dual-listing (688185) — first 'A+H' vaccine company"
+      },
+      {
+        "year": 2021,
+        "label": "Convidecia (Ad5-nCoV) single-dose COVID vaccine approved by NMPA; Menhycia (MCV4) approved"
+      },
+      {
+        "year": 2022,
+        "label": "Convidecia Air approved Sep 4 — world's first inhaled COVID-19 vaccine; WHO EUL"
+      },
+      {
+        "year": 2024,
+        "label": "FY revenue RMB846M (+137% YoY) as Menhycia franchise scales post-COVID"
+      }
+    ],
+    "sources": [
+      "wikipedia-cansino-biologics",
+      "wikipedia-convidecia",
+      "euronews-china-approves-the-worlds-first-inhaled",
+      "who-interim-recommendations-for-use-of-the-c",
+      "prnewswire-cansinobio-announces-approval-for-its-mc",
+      "fiercepharma-china-approves-domestic-ebola-vaccine-de",
+      "qiming-qimings-portfolio-company-cansino-biolog",
+      "acn-cansinobio-revenue-soars-with-137-year-on-year-grow",
+      "bambooworks-cansino-looks-for-next-growth-shot-in-li",
+      "fiercepharma-astrazeneca-pursues-mrna-signs-vaccine-m",
+      "pharmaboardroom-four-things-to-know-about-cansino-biolog"
+    ]
   },
   {
     "id": "beigene",
@@ -74,8 +1001,15 @@
       "revenueBillions": 3.8,
       "revenueYear": 2024,
       "approvedDrugCount": 2,
-      "listings": ["NASDAQ: ONC", "HKEX: 06160", "STAR: 688235"],
-      "modalities": ["small molecule", "monoclonal antibody"],
+      "listings": [
+        "NASDAQ: ONC",
+        "HKEX: 06160",
+        "STAR: 688235"
+      ],
+      "modalities": [
+        "small molecule",
+        "monoclonal antibody"
+      ],
       "leadAsset": {
         "name": "Brukinsa (zanubrutinib)",
         "mechanism": "BTK inhibitor",
@@ -102,14 +1036,19 @@
         "status": "NASDAQ IPO Feb 3, 2016 at $24/ADS (BGNE)",
         "approvedDrugCount": 0,
         "pipelineStage": "Phase 1/2",
-        "listings": ["NASDAQ"]
+        "listings": [
+          "NASDAQ"
+        ]
       },
       {
         "chapterId": "harmonisation-and-hong-kong",
         "status": "Hong Kong dual listing Aug 8, 2018 at HK$108/share — first Chapter 18A IPO by a US-listed biotech (US$903M raised)",
         "approvedDrugCount": 0,
         "pipelineStage": "Phase 3",
-        "listings": ["NASDAQ", "HKEX: 06160"],
+        "listings": [
+          "NASDAQ",
+          "HKEX: 06160"
+        ],
         "note": "Oct 2019: Amgen takes 20.5% stake at $174.85/ADS for $2.7B; joint development of 20 oncology assets in China"
       },
       {
@@ -117,27 +1056,42 @@
         "status": "Brukinsa wins FDA accelerated approval Nov 14, 2019 for mantle cell lymphoma — first cancer drug discovered in China to clear FDA",
         "approvedDrugCount": 1,
         "pipelineStage": "Marketed + Phase 3",
-        "listings": ["NASDAQ", "HKEX: 06160"]
+        "listings": [
+          "NASDAQ",
+          "HKEX: 06160"
+        ]
       },
       {
         "chapterId": "procurement-and-value",
         "status": "STAR Market triple listing Dec 15, 2021 (688235), RMB22.2B (US$3.5B) raised — first triple-listed biotech globally",
         "approvedDrugCount": 2,
-        "listings": ["NASDAQ", "HKEX: 06160", "STAR: 688235"],
+        "listings": [
+          "NASDAQ",
+          "HKEX: 06160",
+          "STAR: 688235"
+        ],
         "note": "Tislelizumab (later Tevimbra) approved by NMPA; multiple CLL/WM label expansions for Brukinsa"
       },
       {
         "chapterId": "going-global",
         "status": "ALPINE trial: Brukinsa beats ibrutinib head-to-head in R/R CLL — first China-discovered drug to defeat a Western standard of care",
         "approvedDrugCount": 2,
-        "listings": ["NASDAQ", "HKEX: 06160", "STAR: 688235"],
+        "listings": [
+          "NASDAQ",
+          "HKEX: 06160",
+          "STAR: 688235"
+        ],
         "note": "Recoups Tevimbra rights from Novartis"
       },
       {
         "chapterId": "frontier-era",
         "status": "Renamed BeOne Medicines and redomiciled Cayman → Switzerland (effective May 27, 2025); ticker NASDAQ:BGNE → ONC; first GAAP-profitable quarter Q1 2025; FY2025 revenue guide $4.9–5.3B",
         "approvedDrugCount": 2,
-        "listings": ["NASDAQ: ONC", "HKEX: 06160", "STAR: 688235"],
+        "listings": [
+          "NASDAQ: ONC",
+          "HKEX: 06160",
+          "STAR: 688235"
+        ],
         "note": "Brukinsa now in 75 markets (US$2.6B FY2024); Tevimbra in 46 markets with new FDA esophageal SCC indication"
       }
     ],
@@ -161,161 +1115,2748 @@
   {
     "id": "innovent",
     "name": "Innovent Biologics",
+    "nameZh": "信达生物",
     "founded": 2011,
+    "headquarters": "Suzhou",
+    "founders": "Michael Yu (Yu Dechao)",
     "category": "innovator",
-    "shortDescription": "Lilly partnership template; broad oncology pipeline",
-    "signature": "Tyvyt (sintilimab)"
+    "shortDescription": "Suzhou-based PD-1 pioneer that built the template for China-MNC co-development through Eli Lilly, then pivoted to global out-licensing with the Takeda mega-deal and NMPA approval of the world's first GCG/GLP-1 dual agonist mazdutide",
+    "signature": "Tyvyt (sintilimab)",
+    "narrativeHook": "Innovent's Tyvyt was the only PD-1 admitted to China's NRDL in 2019 (at a 64% price cut) and the FDA's Feb 2022 rejection of its Lilly-partnered BLA — on the basis that an all-China trial couldn't represent a US population — became the cautionary case study that reshaped how Chinese biotechs design global pivotals.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "today": {
+      "asOf": "2026-04",
+      "marketCapBillions": 19.5,
+      "revenueBillions": 1.81,
+      "revenueYear": 2025,
+      "approvedDrugCount": 18,
+      "listings": [
+        "HKEX: 01801"
+      ],
+      "modalities": [
+        "monoclonal antibody",
+        "bispecific",
+        "ADC",
+        "small molecule"
+      ],
+      "leadAsset": {
+        "name": "Tyvyt (sintilimab)",
+        "mechanism": "Anti-PD-1 monoclonal antibody",
+        "indication": "Hodgkin lymphoma, NSCLC (squamous and nonsquamous), HCC, gastric/GEJ, esophageal SCC",
+        "status": "Approved in China (Dec 2018); only PD-1 in NRDL since 2019; FDA CRL Feb 2022, Lilly returned ex-China rights Oct 2022"
+      },
+      "biggestDeal": {
+        "partner": "Takeda",
+        "type": "license-out",
+        "year": 2025,
+        "valueBillions": 11.4
+      }
+    },
+    "timeline": [
+      {
+        "chapterId": "innovator-generation",
+        "status": "Founded by Michael Yu (Yu Dechao) at BioBay in Suzhou Industrial Park (Aug 24, 2011); Cayman parent incorporated April 28, 2011",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Preclinical",
+        "note": "Founder was a US-trained molecular geneticist (CAS PhD, UCSF post-doc) who returned to build a biologics platform aimed at affordable mAbs for the Chinese market"
+      },
+      {
+        "chapterId": "bi-jingquan-bigbang",
+        "status": "Strategic alliance with Eli Lilly signed March 2015 — $56M upfront plus up to ~$400M in milestones to co-develop three antibodies; expanded October 2015 to add three more oncology assets, totaling potential value north of $1B",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Phase 1/2",
+        "note": "First major MNC-Chinese-biotech co-development deal in oncology; became the template for the China-out licensing model that followed"
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "HKEX 18A listing on October 31, 2018 (ticker 01801) raising HK$3.8B (~US$485M); sintilimab approved by NMPA on December 27, 2018 for relapsed/refractory classical Hodgkin lymphoma",
+        "approvedDrugCount": 1,
+        "pipelineStage": "Phase 3 + first launch",
+        "listings": [
+          "HKEX: 01801"
+        ],
+        "note": "IFR Asia-Pacific IPO of the Year 2018; stock jumped 19% on debut"
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Tyvyt admitted to China's NRDL November 2019 — first PD-1 on the list, at a 64% price cut; rapid label expansion through 2020–2021 across NSCLC, HCC, gastric and esophageal cancers",
+        "approvedDrugCount": 1,
+        "pipelineStage": "Marketed + Phase 3",
+        "listings": [
+          "HKEX: 01801"
+        ],
+        "note": "Lilly paid Innovent $200M upfront + up to $825M in milestones (Aug 2020) for ex-China rights to sintilimab — meant to be the first China-discovered cancer drug to reach Western markets"
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "FDA Complete Response Letter for sintilimab + chemo in 1L nonsquamous NSCLC issued February 24, 2022 — ODAC voted 14–1 against, citing the all-China ORIENT-11 trial's lack of US-applicability; Lilly terminated ex-China license October 2022 and returned rights",
+        "approvedDrugCount": 4,
+        "pipelineStage": "Marketed + multiple Phase 3",
+        "listings": [
+          "HKEX: 01801"
+        ],
+        "note": "Inflection point that forced China biotechs to embrace multi-regional clinical trial design; FDA later issued draft guidance on oncology MRCTs as a direct consequence"
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Roche signs exclusive global license for IBI3009 (DLL3 ADC) in December 2024 with potential value above $1B; product portfolio expands to ~16 commercialized assets across oncology, ophthalmology, autoimmune, and cardiometabolic disease",
+        "approvedDrugCount": 14,
+        "pipelineStage": "Marketed + late-stage",
+        "listings": [
+          "HKEX: 01801"
+        ],
+        "note": "Pivots from PD-1 dependence to a diversified pipeline anchored in bispecifics (PD-1/IL-2, VEGF/ANG2) and ADCs (CLDN18.2, DLL3)"
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "Mazdutide (GCG/GLP-1 dual agonist licensed from Lilly) wins NMPA approval June 27, 2025 for chronic weight management — world's first dual-agonist GLP-1 approved for obesity; Sept 2025 second approval for T2D glycemic control. Takeda licenses IBI363 (PD-1/IL-2α-bias bispecific) and IBI343 (CLDN18.2 ADC) for ex-Greater China rights on October 21, 2025: US$1.2B upfront (incl. $100M equity) and up to ~$11.4B total. FY2025 revenue RMB 13.0B (+38.4%), product revenue RMB 11.9B (+44.6%); first full year of GAAP profitability (RMB 814M IFRS net income). 18 commercialized products as of year-end 2025; TABOSUN (ipilimumab N01) — China's first domestic anti-CTLA-4 — approved December 25, 2025",
+        "approvedDrugCount": 18,
+        "pipelineStage": "Marketed + Phase 3 readouts",
+        "listings": [
+          "HKEX: 01801"
+        ],
+        "note": "New Lilly oncology/immunology pact (Feb 2026) with potential milestones up to ~$8.9B further deepens the founding partnership"
+      }
+    ],
+    "milestones": [
+      {
+        "year": 2011,
+        "label": "Founded in Suzhou by Michael Yu (Yu Dechao)"
+      },
+      {
+        "year": 2015,
+        "label": "Eli Lilly oncology co-development alliance — $56M upfront, template for China-MNC deals"
+      },
+      {
+        "year": 2018,
+        "label": "HKEX 18A IPO (01801) raises ~US$485M; first sintilimab NMPA approval"
+      },
+      {
+        "year": 2019,
+        "label": "Tyvyt added to NRDL at 64% price cut — only PD-1 on the list"
+      },
+      {
+        "year": 2022,
+        "label": "FDA CRL for sintilimab in NSCLC; Lilly returns ex-China rights"
+      },
+      {
+        "year": 2025,
+        "label": "Mazdutide NMPA approval (world-first GCG/GLP-1 dual); Takeda $11.4B license-out deal"
+      },
+      {
+        "year": 2025,
+        "label": "First full year of GAAP profitability — RMB 13B revenue, RMB 814M net income"
+      }
+    ],
+    "sources": [
+      "innovent-innovent-announces-2025-annual-results-a",
+      "lilly-ir-lilly-announces-complete-response-letter",
+      "innovent-innovent-announces-mazdutide-first-dual",
+      "fiercebiotech-takeda-pays-innovent-1-2b-upfront-offers",
+      "fiercepharma-eli-lilly-innovent-hit-with-fda-rejectio",
+      "bioworld-innovent-out-licenses-ex-china-rights-fo",
+      "innovent-innovent-receives-ifr-asia-pacific-ipo-o",
+      "biospace-chinas-nmpa-approves-innovents-anti-pd-1",
+      "innovent-tyvyt-sintilimab-injection-included-in-t",
+      "innovent-innovent-enters-into-exclusive-global-li",
+      "innovent-chinas-first-domestic-anti-ctla-4-monocl",
+      "innovent-biologics-wikipedia"
+    ]
   },
   {
     "id": "junshi",
     "name": "Junshi Biosciences",
+    "nameZh": "君实生物",
     "founded": 2012,
+    "headquarters": "Shanghai",
+    "founders": "Xiong Jun, Li Ning, Zhang Zhuobing",
     "category": "innovator",
     "shortDescription": "First China-discovered PD-1 approved by NMPA",
-    "signature": "Toripalimab"
+    "signature": "Toripalimab",
+    "narrativeHook": "Toripalimab — the first homegrown Chinese PD-1 — and the first FDA-approved Chinese-developed checkpoint inhibitor, validating that domestic R&D could clear US regulatory bars on its own clinical evidence.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "today": {
+      "asOf": "2026-03",
+      "revenueBillions": 0.35,
+      "revenueYear": 2025,
+      "approvedDrugCount": 4,
+      "listings": [
+        "HKEX: 1877",
+        "SSE STAR: 688180"
+      ],
+      "leadAsset": {
+        "name": "Toripalimab (Tuoyi / Loqtorzi)",
+        "mechanism": "Anti-PD-1 monoclonal antibody",
+        "indication": "Nasopharyngeal carcinoma; melanoma; NSCLC; renal cell, urothelial, esophageal, TNBC, SCLC and other solid tumors",
+        "status": "Approved in 40+ markets; 12 indications in China; FDA-approved Oct 2023; toripalimab domestic sales RMB 2.07B in FY2025"
+      },
+      "modalities": [
+        "monoclonal antibody",
+        "bispecific",
+        "ADC",
+        "small molecule"
+      ],
+      "biggestDeal": {
+        "partner": "Coherus BioSciences",
+        "type": "license-out",
+        "year": 2021,
+        "valueBillions": 1.11
+      }
+    },
+    "timeline": [
+      {
+        "chapterId": "innovator-generation",
+        "status": "Founded December 2012 in Shanghai by Xiong Jun, Li Ning, and Zhang Zhuobing as an innovation-driven biopharma; toripalimab program initiated.",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Preclinical / early discovery"
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "Listed on HKEX (01877) on 24 Dec 2018 under Chapter 18A, raising ~HK$3.08B; toripalimab (Tuoyi) became the first China-developed anti-PD-1 approved by NMPA on 17 Dec 2018 for second-line melanoma.",
+        "approvedDrugCount": 1,
+        "listings": [
+          "HKEX: 1877"
+        ]
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Listed on Shanghai STAR Market (688180) 15 Jul 2020, raising ~RMB 4.84B; toripalimab added to NRDL and expanded to multiple indications.",
+        "approvedDrugCount": 1,
+        "listings": [
+          "HKEX: 1877",
+          "SSE STAR: 688180"
+        ]
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "Feb 2021 out-licensed toripalimab US/Canada rights to Coherus for $150M upfront + 20% royalty + up to $1.11B total; portfolio expanded with adalimumab biosimilar and VV116 (deuremidevir) COVID antiviral.",
+        "approvedDrugCount": 3,
+        "pipelineStage": "PD-1 + biosimilar + small-molecule antiviral commercial"
+      },
+      {
+        "chapterId": "going-global",
+        "status": "FDA approved Loqtorzi (toripalimab-tpzi) on 27 Oct 2023 — first FDA-approved Chinese-developed PD-1 inhibitor and first US-approved therapy for nasopharyngeal carcinoma; ongericimab (PCSK9) approved in China.",
+        "approvedDrugCount": 4,
+        "pipelineStage": "First FDA approval; PD-1/VEGF and bispecific ADC programs advancing"
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "FY2024 revenue RMB 1.95B (+30%) with toripalimab China sales RMB 1.50B (+66%); FY2025 revenue RMB 2.50B (+28%), toripalimab RMB 2.07B (+38%); JS207 PD-1/VEGF bispecific in 11 Phase 2 trials and JS212 EGFR/HER3 bispecific ADC entered FIH globally.",
+        "approvedDrugCount": 4,
+        "listings": [
+          "HKEX: 1877",
+          "SSE STAR: 688180"
+        ]
+      }
+    ],
+    "milestones": [
+      {
+        "year": 2012,
+        "label": "Founded in Shanghai"
+      },
+      {
+        "year": 2018,
+        "label": "NMPA approval of toripalimab (Tuoyi) — first China-developed PD-1"
+      },
+      {
+        "year": 2018,
+        "label": "HKEX 18A IPO (01877)"
+      },
+      {
+        "year": 2020,
+        "label": "Shanghai STAR Market listing (688180)"
+      },
+      {
+        "year": 2021,
+        "label": "Coherus license-out for US/Canada toripalimab rights (up to $1.11B)"
+      },
+      {
+        "year": 2023,
+        "label": "FDA approval of Loqtorzi for nasopharyngeal carcinoma"
+      },
+      {
+        "year": 2025,
+        "label": "FY2025 revenue RMB 2.50B; JS212 bispecific ADC FIH dosing"
+      }
+    ],
+    "sources": [
+      "frontiers-toripalimab-first-domestic-pd1",
+      "junshi-2024-fy-results",
+      "junshi-2025-fy-results",
+      "fda-loqtorzi-npc-approval-2023",
+      "coherus-loqtorzi-fda-approval-press-2023",
+      "coherus-junshi-license-2021",
+      "junshi-hkex-ipo-2018",
+      "chinaknowledge-junshi-star-ipo-2020",
+      "junshi-about-us"
+    ]
   },
   {
     "id": "akeso",
     "name": "Akeso",
+    "nameZh": "康方生物",
     "founded": 2012,
+    "headquarters": "Zhongshan, Guangdong, China",
+    "founders": "Yu (Michelle) Xia, Baiyong Li",
     "category": "innovator",
-    "shortDescription": "Bispecific antibody pioneer",
-    "signature": "Ivonescimab (PD-1/VEGF bispecific)"
+    "shortDescription": "Bispecific antibody pioneer; developer of ivonescimab, the first PD-1/VEGF bispecific to beat Keytruda head-to-head.",
+    "signature": "Ivonescimab (PD-1/VEGF bispecific)",
+    "narrativeHook": "When ivonescimab outperformed pembrolizumab in HARMONi-2, a Zhongshan-headquartered company built by a Newcastle PhD became the first to suggest the global immuno-oncology standard could be reset from China.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "today": {
+      "asOf": "2026-04",
+      "marketCapBillions": 14.5,
+      "revenueBillions": 0.42,
+      "revenueYear": 2025,
+      "approvedDrugCount": 7,
+      "listings": [
+        "HKEX: 09926"
+      ],
+      "leadAsset": {
+        "name": "Ivonescimab (AK112 / SMT112)",
+        "mechanism": "PD-1/VEGF bispecific antibody",
+        "indication": "1L PD-L1+ NSCLC; 2L+ EGFR-mutant NSCLC (China approved); FDA BLA accepted with PDUFA 14 Nov 2026",
+        "status": "World's first approved PD-1/VEGF bispecific; ~70,000 patients treated in China; 15 active Phase III trials"
+      },
+      "modalities": [
+        "monoclonal antibody",
+        "bispecific"
+      ],
+      "biggestDeal": {
+        "partner": "Summit Therapeutics",
+        "type": "license-out",
+        "year": 2022,
+        "valueBillions": 5
+      }
+    },
+    "timeline": [
+      {
+        "chapterId": "innovator-generation",
+        "status": "Founded in Zhongshan by Yu (Michelle) Xia and three returnee co-founders with under US$3M in seed VC.",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Platform build-out (Tetrabody bispecific platform)"
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "Filed first IND for AK104 (cadonilimab) and AK112 (ivonescimab); positioned as bispecific specialist heading into HK 18A window.",
+        "pipelineStage": "Phase I bispecifics"
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "April 2020 HKEX 18A IPO at HK$16.18; first-day close +50% with 692x retail oversubscription.",
+        "listings": [
+          "HKEX: 09926"
+        ],
+        "note": "Among the two 18A listings completed during the early COVID window."
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "June 2022 NMPA approval of cadonilimab (AK104) — the world's first commercialized bispecific IO drug. December 2022 Summit Therapeutics out-license of ivonescimab: US$500M upfront, up to US$5B total.",
+        "approvedDrugCount": 2,
+        "pipelineStage": "First bispecific commercialization + global partnership"
+      },
+      {
+        "chapterId": "going-global",
+        "status": "May 2024 NMPA approval of ivonescimab (2L EGFR-mutant NSCLC); September 2024 HARMONi-2 readout at WCLC — ivonescimab beat pembrolizumab on PFS (HR 0.51) in 1L PD-L1+ NSCLC. FY2024 revenue RMB 3.06B (+43.9% YoY).",
+        "approvedDrugCount": 5,
+        "pipelineStage": "Phase 3 head-to-head wins; first PD-1/L1 H2H victory by a Chinese drug"
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "April 2025 NMPA approval of ivonescimab monotherapy in 1L PD-L1+ NSCLC; April 2025 FDA approval of penpulimab in NPC (first Akeso-discovered drug approved in the US). FY2025 commercial sales RMB 3.03B (+51%). January 2026 FDA accepted Summit's ivonescimab BLA in EGFRm NSCLC, PDUFA 14 Nov 2026.",
+        "approvedDrugCount": 7,
+        "pipelineStage": "15 Phase III trials; 7 head-to-head studies vs PD-1/L1"
+      }
+    ],
+    "milestones": [
+      {
+        "year": 2012,
+        "label": "Founded in Zhongshan by Yu (Michelle) Xia"
+      },
+      {
+        "year": 2020,
+        "label": "HKEX 18A IPO (09926) at HK$16.18; first-day +50%"
+      },
+      {
+        "year": 2022,
+        "label": "Cadonilimab approved by NMPA — world's first commercialized bispecific IO drug"
+      },
+      {
+        "year": 2022,
+        "label": "Summit Therapeutics out-license of ivonescimab: $500M upfront, up to $5B"
+      },
+      {
+        "year": 2024,
+        "label": "Ivonescimab approved in China (May); HARMONi-2 PFS win vs Keytruda at WCLC (Sept)"
+      },
+      {
+        "year": 2025,
+        "label": "Ivonescimab 1L PD-L1+ NSCLC approval (April); penpulimab FDA approval (April)"
+      },
+      {
+        "year": 2026,
+        "label": "FDA accepts Summit's ivonescimab BLA, PDUFA Nov 14, 2026"
+      }
+    ],
+    "sources": [
+      "summit-akeso-2022",
+      "akeso-harmoni2-wclc-2024",
+      "iaslc-harmoni2-2024",
+      "akeso-fy2024-results",
+      "akeso-fy2025-results",
+      "akeso-ipo-newsletter-2020",
+      "akeso-ivonescimab-nmpa-egfr-2024",
+      "akeso-ivonescimab-1l-pdl1-2025",
+      "akeso-cadonilimab-cervical-2025",
+      "akeso-penpulimab-fda-2025",
+      "summit-ivonescimab-bla-2026",
+      "lancet-harmoni2-2025",
+      "akeso-michelle-xia-wikipedia",
+      "akeso-wsj-xia-profile-2025"
+    ]
   },
   {
     "id": "zailab",
     "name": "Zai Lab",
+    "nameZh": "再鼎医药",
     "founded": 2014,
+    "headquarters": "Shanghai · Cambridge MA",
+    "founders": "Samantha Du (Du Ying)",
     "category": "innovator",
-    "shortDescription": "Defined the license-in business model",
-    "signature": "Zejula (China rights)"
+    "shortDescription": "Defined the license-in business model; pivoting to in-house global pipeline",
+    "signature": "Zejula (China rights) · VYVGART · ZL-1310 (DLL3 ADC)",
+    "narrativeHook": "Samantha Du built Zai Lab into the template for China's license-in era — Zejula, Optune, VYVGART — and is now trying to graduate the company into a homegrown ADC and CNS innovator.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "today": {
+      "asOf": "2026-04",
+      "marketCapBillions": 2.5,
+      "revenueBillions": 0.46,
+      "revenueYear": 2025,
+      "approvedDrugCount": 0,
+      "listings": [
+        "NASDAQ: ZLAB",
+        "HKEX: 9688"
+      ],
+      "leadAsset": {
+        "name": "Zejula (niraparib)",
+        "mechanism": "PARP1/2 inhibitor",
+        "indication": "Ovarian cancer (China)",
+        "status": "Approved in China (2019); $42.4M Q3 2025 revenue, declining vs PARPi competition"
+      },
+      "modalities": [
+        "small molecule",
+        "monoclonal antibody",
+        "ADC"
+      ],
+      "biggestDeal": {
+        "partner": "TESARO / GSK",
+        "type": "license-in",
+        "year": 2016
+      }
+    },
+    "timeline": [
+      {
+        "chapterId": "innovator-generation",
+        "status": "Founded by Samantha Du in Shanghai; raised early VC from Sequoia, Qiming",
+        "approvedDrugCount": 0,
+        "note": "Built pure license-in model targeting China rights to Western oncology assets"
+      },
+      {
+        "chapterId": "bi-jingquan-bigbang",
+        "status": "Signed landmark in-licensing deals — Tesaro (niraparib, 2016), Novocure (Optune, 2018)",
+        "approvedDrugCount": 0,
+        "note": "$10.9M upfront for niraparib became the canonical China-rights template"
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "NASDAQ IPO Sep 2017 (ZLAB); first innovative biotech to IPO post-722",
+        "approvedDrugCount": 0,
+        "listings": [
+          "NASDAQ: ZLAB"
+        ],
+        "note": "Raised ~$150M; CDE reform let Tesaro and Novocure deals reach Chinese patients faster"
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Zejula China approval (Dec 2019); Optune approved (May 2020); HKEX secondary listing 9688 (Sep 2020)",
+        "approvedDrugCount": 0,
+        "listings": [
+          "NASDAQ: ZLAB",
+          "HKEX: 9688"
+        ],
+        "note": "First firm to use HKEX 18A for a US-listed Chinese biotech secondary listing"
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "Zejula NRDL (Dec 2020); HKEX dual-primary listing (Jun 2022); opens Cambridge MA hub",
+        "approvedDrugCount": 0,
+        "note": "First firm to convert HK secondary to dual-primary, unlocking Stock Connect inflows"
+      },
+      {
+        "chapterId": "going-global",
+        "status": "VYVGART approved China (Jun 2023); Augtyro/repotrectinib NMPA approved (May 2024); ZL-1310 DLL3 ADC in-licensed from MediLink",
+        "approvedDrugCount": 0,
+        "note": "FY2024 revenue $399M (+50% YoY); VYVGART franchise hit $93.6M in first full year"
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "FY2025 revenue $460M (+15% YoY); KarXT/Cobenfy NMPA approved Dec 2025; ZL-1310 advancing 3 registrational SCLC studies",
+        "approvedDrugCount": 0,
+        "listings": [
+          "NASDAQ: ZLAB",
+          "HKEX: 9688"
+        ],
+        "note": "Profitability target slipped past Q4 2025; cash $789.6M; net loss narrowed to $175.5M"
+      }
+    ],
+    "milestones": [
+      {
+        "year": 2014,
+        "label": "Founded by Samantha Du in Shanghai"
+      },
+      {
+        "year": 2016,
+        "label": "Tesaro deal: $10.9M upfront for niraparib China rights"
+      },
+      {
+        "year": 2017,
+        "label": "NASDAQ IPO (ZLAB)"
+      },
+      {
+        "year": 2019,
+        "label": "Zejula approved in China"
+      },
+      {
+        "year": 2020,
+        "label": "HKEX secondary listing (9688); Zejula on NRDL"
+      },
+      {
+        "year": 2022,
+        "label": "HKEX converts to dual-primary listing"
+      },
+      {
+        "year": 2023,
+        "label": "VYVGART (efgartigimod) approved in China"
+      },
+      {
+        "year": 2024,
+        "label": "Augtyro NMPA approval; FY revenue $399M (+50%)"
+      },
+      {
+        "year": 2025,
+        "label": "KarXT/Cobenfy NMPA approval; FY revenue $460M"
+      }
+    ],
+    "sources": [
+      "zailab-fy2025-results-bw",
+      "zailab-fy2024-results-bw",
+      "zailab-hk-primary-listing-2022",
+      "zailab-hk-secondary-listing-closing-2020",
+      "tesaro-zailab-niraparib-2016",
+      "zailab-augtyro-nmpa-2024",
+      "zailab-karxt-nda-accepted-2025",
+      "fiercepharma-karxt-china-trial-win",
+      "zailab-zl1310-orphan-fda",
+      "zailab-samantha-du-bio",
+      "cen-samantha-du-profile-2020",
+      "zailab-about-us-2025",
+      "zailab-cambridge-expansion-2021",
+      "zailab-q3-2025-results",
+      "zailab-10k-2024-cayman",
+      "companiesmarketcap-zailab"
+    ]
   },
   {
     "id": "legend",
     "name": "Legend Biotech",
+    "nameZh": "传奇生物",
     "founded": 2014,
+    "headquarters": "Somerset NJ · Nanjing",
+    "founders": "Frank Zhang (Zhang Fangliang)",
     "category": "cell_gene",
-    "shortDescription": "CAR-T innovator, J&J partnership",
-    "signature": "Carvykti (cilta-cel)"
+    "shortDescription": "GenScript-spun cell therapy company that co-developed Carvykti (cilta-cel) — the world's deepest-responding BCMA CAR-T — with Janssen, becoming the first China-discovered cell therapy to reach blockbuster scale on the global market",
+    "signature": "Carvykti (cilta-cel)",
+    "narrativeHook": "Legend's $350M-upfront deal with Janssen in December 2017 — struck on the back of an investigator-initiated trial in Xi'an showing 100% response in r/r myeloma — was the moment a Chinese-discovered cell therapy first commanded MNC big-pharma terms; Carvykti's $1.9B in 2025 net trade sales is the validation.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "today": {
+      "asOf": "2026-04",
+      "marketCapBillions": 4.6,
+      "revenueBillions": 1.03,
+      "revenueYear": 2025,
+      "approvedDrugCount": 1,
+      "listings": [
+        "NASDAQ: LEGN"
+      ],
+      "modalities": [
+        "CAR-T",
+        "cell therapy"
+      ],
+      "leadAsset": {
+        "name": "Carvykti (ciltacabtagene autoleucel)",
+        "mechanism": "BCMA-directed autologous CAR-T cell therapy with dual VHH binding domains",
+        "indication": "Relapsed or refractory multiple myeloma (2L+ since April 2024)",
+        "status": "Approved in 14 markets across 294 treatment sites; $1.9B FY2025 net trade sales (50/50 P&L split with J&J); franchise reached profitability in 2025"
+      },
+      "biggestDeal": {
+        "partner": "Janssen (Johnson & Johnson)",
+        "type": "collaboration",
+        "year": 2017,
+        "valueBillions": 0.35
+      }
+    },
+    "timeline": [
+      {
+        "chapterId": "innovator-generation",
+        "status": "Founded in 2014 as a subsidiary of Nanjing-based GenScript Biotech (founded 2002 in New Jersey by Frank Zhang) to commercialize cell-therapy research; initial focus on TCR and CAR-T platforms",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Preclinical",
+        "note": "Legend's lead BCMA CAR-T construct (LCAR-B38M, later cilta-cel) was designed by a research team led by Fan Xiaohu in Nanjing; uses two BCMA-binding camelid VHH domains to drive higher avidity than competing single-domain BCMA CAR-Ts"
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "Investigator-initiated LEGEND-2 trial at Xi'an Jiaotong's Second Affiliated Hospital reports 100% ORR in r/r multiple myeloma at ASCO 2017 — the dataset that triggered the Janssen deal; exclusive worldwide license & collaboration agreement with Janssen Biotech (J&J) signed December 2017 with $350M upfront plus development, regulatory, and sales milestones; co-development shifts to Phase 1b/2 CARTITUDE-1 in the US",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Phase 1/2",
+        "note": "Largest upfront ever paid to a Chinese biotech for a single asset at the time; structured as 50/50 cost and profit share ex-Greater China, 30/70 (Legend/Janssen) inside Greater China"
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "NASDAQ IPO on June 5, 2020 (ticker LEGN) at $23.00 per ADS; with full greenshoe exercised, Legend issued 21,188,750 ADSs for total gross proceeds of $487.3M, the largest US biotech IPO of 2020 to that point; concurrent $25M private placement from parent GenScript",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Phase 2 / BLA prep",
+        "listings": [
+          "NASDAQ: LEGN"
+        ],
+        "note": "Cayman-domiciled holdco; GenScript retained majority ownership post-IPO. CARTITUDE-1 primary readout (ORR 97.9%) anchored a rolling BLA submission with FDA in late 2020"
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "FDA approval of Carvykti (ciltacabtagene autoleucel) on February 28, 2022 for r/r multiple myeloma after 4+ prior lines — making it the second BCMA CAR-T after Bristol/2seventy's Abecma and the first cell therapy fully co-developed with a Chinese partner; EU conditional marketing authorization granted by European Commission on May 25, 2022; Japan MHLW approval September 2022",
+        "approvedDrugCount": 1,
+        "pipelineStage": "Marketed (4L+) + Phase 3 CARTITUDE-4",
+        "listings": [
+          "NASDAQ: LEGN"
+        ],
+        "note": "Manufacturing initially throttled by viral-vector and capacity bottlenecks at the Raritan, NJ launch site; a problem that defined the franchise's first 18 months"
+      },
+      {
+        "chapterId": "going-global",
+        "status": "FDA expanded Carvykti's label to 2L+ on April 5, 2024 based on CARTITUDE-4 (59% reduction in risk of disease progression or death vs standard of care); EC matched on April 23, 2024. Manufacturing scale-up: Ghent (Obelisc) site begins commercial production Q3 2024; J&J/Legend commit additional ~$150M to second Ghent facility; FY2024 Carvykti net trade sales $963M (+93% YoY), with $482.6M in collaboration revenue booked by Legend",
+        "approvedDrugCount": 1,
+        "pipelineStage": "Marketed (2L+) + earlier-line studies",
+        "listings": [
+          "NASDAQ: LEGN"
+        ],
+        "note": "First and only BCMA CAR-T approved as second-line therapy in MM; scale-out into community treatment sites accelerates patient access"
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "FY2025 results (reported March 10, 2026): Carvykti net trade sales $1.9B (+97% YoY), Q4 alone $555M; total Legend revenue $1,028.9M; net loss $296.8M; cash and time deposits ~$949M. Franchise reaches profitability for the first time. >10,000 cumulative patients treated; product available at 294 sites across 14 markets. Raritan expansion completed — now the largest cell-therapy manufacturing site in the US, capable of supporting up to 10,000 patients/year. First in-human readout for LUCAR-G39D (allogeneic CAR-T); first dosing of in vivo CAR-T candidates; 31,000 sq-ft R&D facility opens in Philadelphia. Persistent J&J takeover speculation through 2025–26",
+        "approvedDrugCount": 1,
+        "pipelineStage": "Marketed + Phase 1 (allogeneic, in vivo, solid tumor)",
+        "listings": [
+          "NASDAQ: LEGN"
+        ],
+        "note": "Solid-tumor CAR-Ts LB1908 (Claudin 18.2) and LB2102 (DLL3, licensed to Novartis Nov 2023) advance through dose-escalation"
+      }
+    ],
+    "milestones": [
+      {
+        "year": 2014,
+        "label": "Founded in Nanjing as a GenScript subsidiary by Frank Zhang"
+      },
+      {
+        "year": 2017,
+        "label": "$350M upfront Janssen/J&J cilta-cel collaboration — largest-ever upfront for a Chinese biotech asset at the time"
+      },
+      {
+        "year": 2020,
+        "label": "NASDAQ IPO (LEGN) raises $487M in gross proceeds at $23/ADS"
+      },
+      {
+        "year": 2022,
+        "label": "Carvykti FDA approval (Feb 28) for r/r multiple myeloma; EC conditional MA (May 25)"
+      },
+      {
+        "year": 2024,
+        "label": "FDA & EC expand Carvykti label to 2L+ on CARTITUDE-4 OS data; FY net trade sales reach $963M"
+      },
+      {
+        "year": 2025,
+        "label": "Carvykti franchise hits profitability with $1.9B net trade sales; >10,000 patients treated; Raritan expansion completed"
+      }
+    ],
+    "sources": [
+      "legend-fy2025-results",
+      "legend-fy2024-results",
+      "fda-carvykti-approval-2022",
+      "legend-carvykti-2l-approval-2024",
+      "jnj-carvykti-fda-approval-2022",
+      "legend-ipo-pricing-2020",
+      "legend-ipo-closing-2020",
+      "legend-janssen-collaboration-milestone",
+      "fiercepharma-jj-legend-carvykti-fda-2022",
+      "ec-carvykti-conditional-approval-2022",
+      "pharmamfg-legend-double-carvykti-capacity-2025",
+      "fiercepharma-jj-legend-150m-belgium",
+      "biospace-legend-zhang-arrest",
+      "legend-locations-page",
+      "biospace-cartitude-4-phase3-win"
+    ]
   },
   {
     "id": "wuxi-bio",
     "name": "WuXi Biologics",
+    "nameZh": "药明生物",
     "founded": 2015,
+    "headquarters": "Wuxi · Shanghai · Hong Kong",
+    "founders": "Ge Li, Chris Chen",
     "category": "cro_cdmo",
-    "shortDescription": "Spinoff dedicated to biologics CDMO",
-    "signature": "Mab/ADC manufacturing"
+    "shortDescription": "Global biologics CRDMO spun out of WuXi AppTec; the world's second-largest biologics contract developer and the most-watched name on the BIOSECURE Act target list.",
+    "signature": "Mab/ADC manufacturing",
+    "narrativeHook": "When BIOSECURE named WuXi Biologics in 2024, every Western biotech with a Chinese manufacturing tail had to decide whether China-built CMC was a strategic asset or a political liability — and Chris Chen's answer was to break ground in Singapore.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "today": {
+      "asOf": "2026-04",
+      "marketCapBillions": 18.6,
+      "revenueBillions": 2.6,
+      "revenueYear": 2024,
+      "listings": [
+        "HKEX: 2269"
+      ],
+      "modalities": [
+        "monoclonal antibody",
+        "bispecific",
+        "ADC"
+      ],
+      "biggestDeal": {
+        "partner": "WuXi XDC (spinoff)",
+        "type": "acquisition",
+        "year": 2023
+      }
+    },
+    "timeline": [
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "Internal biologics unit built inside WuXi AppTec from 2010, formally incorporated as WuXi Biologics (Cayman) in 2014.",
+        "note": "Origin: a small mAb services group within Ge Li's WuXi PharmaTech, run by Chris Chen after he joined from Celgene Biopharmaceuticals in 2011."
+      },
+      {
+        "chapterId": "bi-jingquan-bigbang",
+        "status": "Carved out as a standalone entity in 2015 alongside WuXi PharmaTech's NYSE take-private; positioned as a pure-play biologics CRDMO.",
+        "note": "Spinoff timed with the parent's restructuring after the $3.3B NYSE take-private led by Ge Li."
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "IPO on HKEX (2269) on 13 June 2017, raising ~HK$4.0B (~US$510M) at HK$20.60/share — the largest Hong Kong listing of 2017 at the time.",
+        "listings": [
+          "HKEX: 2269"
+        ],
+        "note": "Listed before the 18A chapter formally opened, but became the template for the HK biotech IPO wave."
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Joined the Hang Seng Index in August 2020; opened Hangzhou site (acquired from Pfizer) and the Dundalk, Ireland mega-facility under construction.",
+        "note": "Pandemic-era CDMO surge: signed COVID antibody and vaccine MSAs with Eli Lilly, Vir/GSK, and others."
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "Dundalk Ireland (~€325M / 2.79M sq ft) and Worcester MA sites came online; integrated project count crossed 700.",
+        "note": "Built out the 'Global Dual Sourcing' footprint — China + ex-China for the same molecule — partly to hedge regulatory risk."
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Spun off WuXi XDC on HKEX (2268) on 17 Nov 2023, raising ~HK$4.07B (~US$520M); broke ground on a $1.4B Singapore CRDMO campus in Tuas Biomedical Park.",
+        "listings": [
+          "HKEX: 2269"
+        ],
+        "note": "Singapore announcement came weeks after BIOSECURE's draft text was reported in early 2024 — a pre-emptive de-risking move under the 'Global Dual Sourcing' banner."
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "FY2024 revenue RMB 18.68B (+9.6% YoY); 817 integrated projects, 66 in Phase III, 21 non-COVID commercial. Sold WuXi Vaccines' Dundalk Ireland facility to MSD for ~$500M (Jan 2025) and exited the Hang Seng Index.",
+        "approvedDrugCount": 0,
+        "note": "Named in 2024 House and Senate BIOSECURE drafts; dropped from the final NDAA-attached version that became law in Dec 2025, but reputational drag persists."
+      }
+    ],
+    "milestones": [
+      {
+        "year": 2010,
+        "label": "Biologics services group formed inside WuXi PharmaTech"
+      },
+      {
+        "year": 2011,
+        "label": "Chris Chen joins from Celgene as head of biologics"
+      },
+      {
+        "year": 2015,
+        "label": "Carved out as standalone WuXi Biologics during parent's NYSE take-private"
+      },
+      {
+        "year": 2017,
+        "label": "HKEX IPO (2269) raises ~US$510M — biggest HK listing of the year"
+      },
+      {
+        "year": 2018,
+        "label": "Acquires Bayer's Wuppertal site; begins building Dundalk, Ireland"
+      },
+      {
+        "year": 2020,
+        "label": "Joins Hang Seng Index; acquires Pfizer's Hangzhou plant"
+      },
+      {
+        "year": 2022,
+        "label": "Dundalk and Worcester MA sites come online"
+      },
+      {
+        "year": 2023,
+        "label": "WuXi XDC IPO on HKEX (2268), Nov 17 — second-largest ADC CDMO globally"
+      },
+      {
+        "year": 2024,
+        "label": "Named in BIOSECURE Act drafts; breaks ground on $1.4B Singapore campus"
+      },
+      {
+        "year": 2024,
+        "label": "Acquires remaining 30% of WuXi Vaccines from Hile Bio for ~US$110M"
+      },
+      {
+        "year": 2025,
+        "label": "Sells WuXi Vaccines' Dundalk Ireland site to MSD for ~US$500M"
+      }
+    ],
+    "sources": [
+      "wuxibio-fy2024-prnewswire",
+      "wuxibio-fy2024-deck",
+      "wuxibio-hkex-ipo-2017",
+      "wsgr-wuxibio-ipo-2017",
+      "wuxibio-leadership-page",
+      "biopharmadive-biosecure-house",
+      "fiercepharma-biosecure-2032-decoupling",
+      "fiercepharma-wuxibio-singapore-1-4b",
+      "wuxibio-singapore-crdmo-pr",
+      "wuxixdc-listing-pr-2023",
+      "wsgr-wuxixdc-ipo-2023",
+      "pharmtech-dundalk-facility",
+      "pharmtech-wuxivaccines-msd-ireland",
+      "wuxibio-locations-facilities",
+      "wuxibio-wikipedia",
+      "fiercepharma-wuxibio-bio-2024-withdraw"
+    ]
   },
   {
     "id": "cstone",
     "name": "CStone Pharmaceuticals",
+    "nameZh": "基石药业",
     "founded": 2015,
+    "headquarters": "Suzhou",
+    "founders": "Frank Ningjun Jiang",
     "category": "innovator",
-    "shortDescription": "Precision oncology, Pfizer partnership",
-    "signature": "Sugemalimab (PD-L1)"
+    "shortDescription": "Suzhou-based precision oncology innovator known for sugemalimab (Cejemly) and an in-licensed precision-oncology portfolio commercialised in China",
+    "signature": "Sugemalimab (PD-L1)",
+    "narrativeHook": "CStone built its early business by stitching together world-class licensing partnerships — Blueprint, Pfizer, Agios, Pfizer again — and using them to learn how to run global trials. Sugemalimab's 2024 EMA approval made it the first Chinese-discovered anti-PD-L1 antibody to clear a Western regulator, even as the EQRx implosion and FDA's China-only data stance closed the U.S. door.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "today": {
+      "asOf": "2026-04",
+      "marketCapBillions": 1.8,
+      "revenueBillions": 0.038,
+      "revenueYear": 2025,
+      "approvedDrugCount": 1,
+      "listings": [
+        "HKEX: 2616"
+      ],
+      "modalities": [
+        "monoclonal antibody",
+        "small molecule",
+        "ADC",
+        "bispecific"
+      ],
+      "leadAsset": {
+        "name": "Sugemalimab (Cejemly / 擇捷美)",
+        "mechanism": "Anti-PD-L1 monoclonal antibody",
+        "indication": "Stage III & metastatic NSCLC, gastric, esophageal, R/R extranodal NK/T-cell lymphoma",
+        "status": "Approved in China across 5 indications; EU approvals for first-line metastatic NSCLC (Jul 2024) and unresectable stage III NSCLC (Nov 2025) — first Chinese-discovered PD-L1 mAb cleared by EMA"
+      },
+      "biggestDeal": {
+        "partner": "Pfizer",
+        "type": "collaboration",
+        "year": 2020,
+        "valueBillions": 0.48
+      }
+    },
+    "timeline": [
+      {
+        "chapterId": "bi-jingquan-bigbang",
+        "status": "Founded late 2015 in Suzhou by Frank Ningjun Jiang as an innovation-driven oncology biotech, riding the post-722 self-inspection clean-slate moment",
+        "approvedDrugCount": 0,
+        "note": "Builds initial pipeline by in-licensing precision-oncology assets from Blueprint Medicines (avapritinib, pralsetinib), Agios (ivosidenib) and Pfizer (lorlatinib)"
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "Feb 26, 2019 HKEX 18A IPO (ticker 2616) raises HK$2.2B (~US$285M) at HK$12.00/share, valuing CStone at ~US$1.5B",
+        "approvedDrugCount": 0,
+        "listings": [
+          "HKEX: 2616"
+        ],
+        "pipelineStage": "Lead asset CS1001/sugemalimab in pivotal Phase 3 GEMSTONE trials"
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Sep 2020 strategic deal with Pfizer: $200M equity investment (9.9% stake at US$1.725/share) plus up to $280M milestones, granting Pfizer mainland-China commercialisation rights to sugemalimab; Oct 2020 EQRx out-licensing for ex-Greater China rights to sugemalimab and CS1003 ($150M upfront + up to $1.15B milestones)",
+        "approvedDrugCount": 0,
+        "listings": [
+          "HKEX: 2616"
+        ],
+        "note": "First NMPA approval — avapritinib (Ayvakit) for PDGFRA-mutant GIST — March 2021"
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "Sugemalimab wins NMPA approvals starting Dec 2021 (3L NSCLC) through 2022 (Stage III NSCLC, R/R ENKTL), making it the first PD-L1 in the world approved for stage III unresectable NSCLC",
+        "approvedDrugCount": 2,
+        "listings": [
+          "HKEX: 2616"
+        ],
+        "note": "Co-founder/CEO Frank Jiang departs in 2022 amid restructuring; company explores strategic alternatives as cash burn rises"
+      },
+      {
+        "chapterId": "going-global",
+        "status": "May 2023 EQRx terminates licence and returns ex-Greater China rights to sugemalimab and nofazinlimab after FDA signals it will not accept China-only data; Revolution Medicines acquires the EQRx shell for its cash in Nov 2023",
+        "approvedDrugCount": 2,
+        "listings": [
+          "HKEX: 2616"
+        ],
+        "note": "Avapritinib (Ayvakit) added to China NRDL effective Jan 1, 2024; FY2023 revenue RMB463.8M"
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "Jul 26, 2024 European Commission approves sugemalimab (Cejemly) + chemo for first-line metastatic NSCLC; Nov 25, 2025 EC approves stage III NSCLC indication. CStone advances 'Pipeline 2.0' multispecifics/ADCs led by CS5001 (ROR1 ADC, ex-LegoChem) and CS2009 (PD-1/VEGF/CTLA-4 trispecific)",
+        "approvedDrugCount": 1,
+        "listings": [
+          "HKEX: 2616"
+        ],
+        "pipelineStage": "CS5001 in global multicentre Phase 1b; CS2009 Phase 1/2 enrolling",
+        "note": "FY2025 revenue RMB269.6M; HK$1.05B share placing closed Apr 2026 to fund Pipeline 2.0; cash and time deposits RMB918.7M as of Dec 31 2025"
+      }
+    ],
+    "milestones": [
+      {
+        "year": 2015,
+        "label": "Founded in Suzhou by Frank Ningjun Jiang"
+      },
+      {
+        "year": 2019,
+        "label": "HKEX 18A IPO (ticker 2616) raises ~US$285M"
+      },
+      {
+        "year": 2020,
+        "label": "Pfizer $200M equity stake + sugemalimab China deal; EQRx ex-Greater China deal"
+      },
+      {
+        "year": 2021,
+        "label": "First NMPA approval — avapritinib (Ayvakit) for GIST"
+      },
+      {
+        "year": 2021,
+        "label": "Sugemalimab first NMPA approval (3L NSCLC, Dec 2021)"
+      },
+      {
+        "year": 2023,
+        "label": "EQRx terminates ex-Greater China licence; rights revert to CStone"
+      },
+      {
+        "year": 2024,
+        "label": "European Commission approval of sugemalimab (Cejemly) for 1L metastatic NSCLC"
+      },
+      {
+        "year": 2025,
+        "label": "EC approves sugemalimab for unresectable stage III NSCLC"
+      },
+      {
+        "year": 2026,
+        "label": "HK$1.05B share placement to fund Pipeline 2.0 (CS5001, CS2009)"
+      }
+    ],
+    "sources": [
+      "cstone-2024-annual-results",
+      "cstone-2025-annual-results",
+      "cstone-hkex-ipo-listing-2019",
+      "biocentury-cstone-285m-ipo",
+      "cstone-pfizer-strategic-collab-2020",
+      "fiercebiotech-pfizer-200m-cstone",
+      "cstone-eqrx-out-license-2020",
+      "fiercebiotech-eqrx-cstone-150m",
+      "fiercebiotech-eqrx-revolution-acquisition",
+      "onclive-sugemalimab-eu-1l-nsclc-2024",
+      "cstone-ec-stage-iii-nsclc-2025",
+      "cstone-cs5001-ror1-adc-asco-2024",
+      "cstone-share-placing-2026"
+    ]
   },
   {
     "id": "imab",
-    "name": "I-Mab",
+    "name": "I-Mab / NovaBridge Biosciences",
+    "nameZh": "天境生物",
     "founded": 2016,
+    "headquarters": "Rockville MD · Short Hills NJ",
+    "founders": "Jingwu Zang",
     "category": "innovator",
-    "shortDescription": "Differentiated immuno-oncology biologics",
-    "signature": "Lemzoparlimab (CD47)"
+    "shortDescription": "Differentiated immuno-oncology biologics innovator that divested its China business in 2024 and rebranded as NovaBridge Biosciences in October 2025",
+    "signature": "Givastomig (Claudin 18.2 × 4-1BB bispecific)",
+    "narrativeHook": "Born from a 2016 merger of two China biotechs and listed on NASDAQ in 2020, I-Mab became one of the cleanest test cases of a US-China biotech decoupling — divesting its entire China operation in 2024 and rebranding as a US-only platform.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "today": {
+      "asOf": "2025-10",
+      "marketCapBillions": 0.53,
+      "approvedDrugCount": 0,
+      "listings": [
+        "NASDAQ: NBP"
+      ],
+      "leadAsset": {
+        "name": "Givastomig (TJ033721 / ABL111)",
+        "mechanism": "Claudin 18.2 × 4-1BB bispecific antibody",
+        "indication": "1L gastric / gastroesophageal cancers",
+        "status": "Phase 1b dose-expansion enrollment completed Aug 2025; topline data expected Q1 2026; co-developed with ABL Bio"
+      },
+      "modalities": [
+        "monoclonal antibody",
+        "bispecific"
+      ],
+      "biggestDeal": {
+        "partner": "AbbVie",
+        "type": "license-out",
+        "year": 2020,
+        "valueBillions": 1.94
+      }
+    },
+    "timeline": [
+      {
+        "chapterId": "bi-jingquan-bigbang",
+        "status": "Founded in 2016 via merger/consolidation of Third Venture Biotech and Tasgen Bio, backed by C-Bridge Capital and Tasly Pharma; positioned as a differentiated immuno-oncology innovator",
+        "approvedDrugCount": 0
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "Closed one of China's largest biotech private rounds (Series C ~US$220M, 2018) building out its CD47, CD73 and 4-1BB bispecific portfolio",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Phase 1/2"
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Listed on NASDAQ as IMAB on January 17, 2020 at $14/ADS, raising ~US$104M; signed AbbVie global ex-China deal for CD47 antibody lemzoparlimab in September 2020 worth up to ~US$1.94B (US$180M upfront + up to US$1.74B milestones)",
+        "approvedDrugCount": 0,
+        "listings": [
+          "NASDAQ: IMAB"
+        ],
+        "note": "AbbVie deal was the largest license-out by a Chinese biotech to a US pharma at the time"
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "Pipeline expansion across uliledlimab (CD73), eftansomatropin (long-acting GH) and bispecific platform; AbbVie reduces CD47 program scope in 2022 amid the broader CD47 field collapse",
+        "approvedDrugCount": 0
+      },
+      {
+        "chapterId": "going-global",
+        "status": "AbbVie terminated CD47 collaboration effective November 20, 2023, returning lemzoparlimab rights; in February 2024 I-Mab announced agreement to divest its entire China business to Tianjing Biopharma (Hangzhou), closing April 2, 2024 for up to US$80M contingent consideration",
+        "approvedDrugCount": 0
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "Now a US-only company focused on givastomig (Claudin 18.2 × 4-1BB, co-developed with ABL Bio); rebranded from I-Mab to NovaBridge Biosciences with ticker change IMAB → NBP effective October 30, 2025; CEO Sean Fu (since November 2024); dual Nasdaq/HKEX listing planned",
+        "approvedDrugCount": 0,
+        "listings": [
+          "NASDAQ: NBP"
+        ]
+      }
+    ],
+    "milestones": [
+      {
+        "year": 2016,
+        "label": "Founded via merger of Third Venture Biotech and Tasgen Bio (C-Bridge Capital + Tasly)"
+      },
+      {
+        "year": 2020,
+        "label": "NASDAQ IPO (IMAB) at $14/ADS raising ~US$104M"
+      },
+      {
+        "year": 2020,
+        "label": "AbbVie ex-China deal for lemzoparlimab (CD47) up to ~US$1.94B"
+      },
+      {
+        "year": 2023,
+        "label": "AbbVie terminates CD47 collaboration; lemzoparlimab rights returned"
+      },
+      {
+        "year": 2024,
+        "label": "Divests entire China business to Tianjing Biopharma; becomes US-only company"
+      },
+      {
+        "year": 2025,
+        "label": "Rebrands to NovaBridge Biosciences; ticker changes IMAB → NBP on Oct 30"
+      }
+    ],
+    "sources": [
+      "imab-novabridge-rebrand-2025",
+      "imab-china-divestiture-closing-2024",
+      "imab-china-divestiture-agreement-2024",
+      "fiercebiotech-abbvie-imab-cd47-terminated-2023",
+      "abbvie-imab-cd47-partnership-2020",
+      "fiercebiotech-imab-nasdaq-ipo-2020",
+      "imab-ipo-pricing-2020",
+      "imab-givastomig-phase1b-enrollment-2025",
+      "imab-givastomig-esmo-gi-2025",
+      "imab-ceo-sean-fu-2024",
+      "nature-imab-going-global-2020",
+      "endpoints-imab-divest-china-2024"
+    ]
   },
   {
     "id": "everest",
     "name": "Everest Medicines",
+    "nameZh": "云顶新耀",
     "founded": 2017,
+    "headquarters": "Shanghai",
+    "founders": "Wei Fu (CBC Group), Kerry Blanchard",
     "category": "innovator",
-    "shortDescription": "Asia-Pacific licensing platform",
-    "signature": "Nefecon (IgA nephropathy)"
+    "shortDescription": "CBC-incubated Asia-Pacific specialty platform pivoting from license-in to in-house mRNA cancer vaccines.",
+    "signature": "Nefecon (IgA nephropathy)",
+    "narrativeHook": "Built as C-Bridge Capital's license-in vehicle for Greater China, Everest leveraged HK 18A capital to import a wave of foreign assets — Nefecon, Xerava, etrasimod — then in 2024 pivoted toward an in-house, AI-powered mRNA cancer vaccine pipeline.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "today": {
+      "asOf": "2026-04",
+      "marketCapBillions": 2.05,
+      "revenueBillions": 0.097,
+      "revenueYear": 2024,
+      "approvedDrugCount": 0,
+      "listings": [
+        "HKEX: 1952"
+      ],
+      "leadAsset": {
+        "name": "Nefecon (budesonide delayed-release)",
+        "mechanism": "Targeted-release glucocorticoid",
+        "indication": "Primary IgA nephropathy",
+        "status": "NMPA approved Nov 2023 (first IgAN therapy in China); RMB353M FY2024 revenue; NRDL listed 2025"
+      },
+      "modalities": [
+        "small molecule",
+        "monoclonal antibody",
+        "mRNA"
+      ],
+      "biggestDeal": {
+        "partner": "Calliditas Therapeutics",
+        "type": "license-in",
+        "year": 2019
+      }
+    },
+    "timeline": [
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "Founded by CBC Group (Wei Fu) as a Greater China license-in platform",
+        "approvedDrugCount": 0,
+        "note": "Inked early in-licensing deals with Arena (etrasimod) and Tetraphase (eravacycline) in 2017–2018"
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "HKEX 18A IPO (Oct 2020)",
+        "approvedDrugCount": 0,
+        "listings": [
+          "HKEX: 1952"
+        ],
+        "note": "Listed at HK$55/share, raising HK$3.495B (~US$451M); CBC cornerstone"
+      },
+      {
+        "chapterId": "going-global",
+        "status": "First commercial launches; strategic pivot to in-house R&D",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Nefecon and Xerava commercial in China",
+        "note": "Nefecon NMPA approval Nov 2023 (first IgAN therapy in China); Xerava launched in China; CEO Rogers Yongqing Luo unveils dual-engine strategy adding proprietary mRNA platform"
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "Commercial-level profitability; in-house mRNA programs in clinic",
+        "approvedDrugCount": 0,
+        "pipelineStage": "EVM14 FDA IND cleared (Mar 2025); EVM16 first patient dosed (Mar 2025); EVER001 (BTKi) Phase 1b/2a; cefepime-taniborbactam NDA planned",
+        "note": "FY2024 revenue RMB706.7M (+461% YoY); positive EVM16 first-in-human data at AACR 2026"
+      }
+    ],
+    "milestones": [
+      {
+        "year": 2017,
+        "label": "Founded by CBC Group (Wei Fu) as Greater China license-in platform"
+      },
+      {
+        "year": 2019,
+        "label": "In-licenses Nefecon from Calliditas for Greater China and Singapore"
+      },
+      {
+        "year": 2020,
+        "label": "HKEX 18A IPO (1952.HK), raises HK$3.495B"
+      },
+      {
+        "year": 2023,
+        "label": "Xerava (eravacycline) NMPA approval for cIAI"
+      },
+      {
+        "year": 2023,
+        "label": "Nefecon NMPA approval — first IgA nephropathy therapy in China"
+      },
+      {
+        "year": 2024,
+        "label": "Pivots to dual-engine model with proprietary AI-powered mRNA platform"
+      },
+      {
+        "year": 2025,
+        "label": "EVM14 receives FDA IND clearance; EVM16 doses first patient"
+      }
+    ],
+    "sources": [
+      "everest-cbc-hkex-listing-2020",
+      "everest-fy2024-results",
+      "everest-nefecon-nmpa-approval-2023",
+      "everest-xerava-china-approval-2023",
+      "everest-evm16-first-patient-2025",
+      "everest-evm14-fda-ind-2025",
+      "everest-etrasimod-fda-approval-2023",
+      "everest-rogers-luo-ceo-2022",
+      "everest-2030-strategy-2025"
+    ]
   },
   {
     "id": "abogen",
     "name": "Abogen Biosciences",
+    "nameZh": "艾博生物",
     "founded": 2019,
+    "headquarters": "Suzhou",
+    "founders": "Bo Ying",
     "category": "mrna",
-    "shortDescription": "China's flagship mRNA platform",
-    "signature": "ARCoV COVID mRNA vaccine"
+    "shortDescription": "China's flagship mRNA platform; co-developer of ARCoV/AWcorna, China's first homegrown mRNA COVID-19 vaccine.",
+    "signature": "ARCoV / AWcorna COVID mRNA vaccine",
+    "narrativeHook": "Founded in January 2019 by ex-Moderna scientist Bo Ying, Abogen went from a Suzhou startup to a unicorn in two years and set a Chinese biotech fundraising record with a $700M Series C in August 2021 — proof that China could field a credible mRNA platform of its own.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "today": {
+      "asOf": "2026-04",
+      "modalities": [
+        "mRNA"
+      ],
+      "leadAsset": {
+        "name": "ARCoV / AWcorna",
+        "mechanism": "LNP-encapsulated mRNA encoding SARS-CoV-2 RBD",
+        "indication": "COVID-19",
+        "status": "EUA in Indonesia (Sep 2022); not approved in mainland China"
+      },
+      "approvedDrugCount": 0
+    },
+    "timeline": [
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Founded January 2019 in Suzhou by Bo Ying (ex-Moderna, ex-Dicerna). ARCoV mRNA COVID-19 vaccine — co-developed with Walvax Biotechnology and the PLA Academy of Military Sciences (AMMS) — became the first mRNA vaccine approved for clinical trials in China.",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Preclinical to Phase 1"
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "Raised >$700M Series C in August 2021 (Temasek, Invesco, LVC, GL Ventures, Yunfeng, Lilly Asia Ventures, Boyu) — the largest equity round ever for a China-based biopharma at the time — followed by a $300M Series C+ in November 2021 led by SoftBank Vision Fund and 5Y Capital. Phase 3 trials for ARCoV launched in Mexico, Indonesia, and Nepal. AWcorna received Indonesia BPOM emergency use authorization on 30 September 2022 — the first China-made mRNA vaccine authorized anywhere — but never won NMPA approval at home.",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Phase 3 (COVID); preclinical oncology/rare disease",
+        "note": "Cumulative funding >$1.13B across five rounds."
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Pivoted from COVID-only to a diversified mRNA pipeline spanning oncology, infectious disease, and rare disease. Lead oncology asset ABO2011 (IL-12 mRNA) entered a Phase 1/2 trial as monotherapy or in combination with toripalimab in advanced solid tumors (NCT06088004); recruitment expanded through 2023–2024.",
+        "pipelineStage": "Phase 1/2"
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "Received FDA IND clearance (May 2025) and NMPA CDE IND clearance (August 2025) for ABO2102, a KRAS multi-mutation therapeutic cancer vaccine — described as China's first therapeutic cancer vaccine targeting five common KRAS mutations. NMPA also cleared INDs for lyophilized mRNA shingles and RSV vaccine candidates in early 2025.",
+        "pipelineStage": "Phase 1/2 (oncology); IND-stage (rare disease, vaccines)"
+      }
+    ],
+    "milestones": [
+      {
+        "year": 2019,
+        "label": "Founded in Suzhou by Bo Ying"
+      },
+      {
+        "year": 2020,
+        "label": "ARCoV becomes first mRNA vaccine approved for clinical trials in China (with Walvax & AMMS)"
+      },
+      {
+        "year": 2021,
+        "label": "Series C of >$700M (Aug) and Series C+ of $300M (Nov); becomes a unicorn"
+      },
+      {
+        "year": 2022,
+        "label": "AWcorna granted EUA in Indonesia — first China-made mRNA vaccine authorized overseas"
+      },
+      {
+        "year": 2023,
+        "label": "ABO2011 (IL-12 mRNA) enters Phase 1/2 in advanced solid tumors"
+      },
+      {
+        "year": 2025,
+        "label": "FDA and NMPA clear INDs for ABO2102 KRAS mRNA cancer vaccine"
+      }
+    ],
+    "sources": [
+      "fiercebiotech-abogen-700m-series-c",
+      "endpoints-abogen-700m-series-c",
+      "yicai-abogen-700m-pre-ipo",
+      "abogen-series-c-press-release",
+      "abogen-series-c-plus-press-release",
+      "dealstreetasia-abogen-300m-series-c-plus",
+      "xinhua-indonesia-awcorna-eua-2022",
+      "abogen-awcorna-indonesia-eua",
+      "lancet-microbe-arcov-phase1",
+      "scmp-arcov-phase3-mexico-indonesia",
+      "wikipedia-walvax-covid-vaccine",
+      "abogen-fda-ind-abo2102-2025",
+      "abogen-nmpa-ind-abo2102-2025",
+      "clinicaltrials-abo2011-nct06088004",
+      "caba-bo-ying-bio"
+    ]
   },
   {
     "id": "duality",
-    "name": "Duality Biologics",
-    "founded": 2018,
+    "name": "Duality Biologics / Duality Biotherapeutics",
+    "nameZh": "映恩生物",
+    "founded": 2020,
+    "headquarters": "Shanghai",
+    "founders": "John Zhu",
     "category": "adc",
-    "shortDescription": "ADC platform; major BioNTech deal",
-    "signature": "DB-1303 (HER2 ADC)"
+    "shortDescription": "Shanghai ADC specialist whose BioNTech and GSK out-licensing deals helped define the 2023-2024 China ADC license-out wave.",
+    "signature": "DB-1303 / BNT323 (HER2 ADC, trastuzumab pamirtecan)",
+    "narrativeHook": "Founded in January 2020 by VC-turned-operator John Zhu, DualityBio rode its DITAC linker-payload platform to a $1.7B BioNTech partnership in 2023 and a $1B GSK option in 2024 — then capped the run with the largest HKEX 18A IPO in four years.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "today": {
+      "asOf": "2026-04",
+      "revenueBillions": 0.27,
+      "revenueYear": 2024,
+      "approvedDrugCount": 0,
+      "listings": [
+        "HKEX: 9606"
+      ],
+      "leadAsset": {
+        "name": "Trastuzumab pamirtecan (DB-1303 / BNT323)",
+        "mechanism": "HER2-directed topoisomerase-1 inhibitor ADC (DITAC platform)",
+        "indication": "HER2-positive metastatic breast cancer (2L)",
+        "status": "China NMPA BLA accepted Apr 2026; Phase 3 met PFS primary endpoint; global Phase 3 (DYNASTY-Breast02) ongoing in HR+/HER2-low"
+      },
+      "modalities": [
+        "ADC"
+      ],
+      "biggestDeal": {
+        "partner": "BioNTech",
+        "type": "license-out",
+        "year": 2023,
+        "valueBillions": 1.67
+      }
+    },
+    "timeline": [
+      {
+        "chapterId": "going-global",
+        "status": "License-out era takeoff",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Phase 1-3 ADCs",
+        "note": "April 2023: BioNTech global partnership for DB-1303 (HER2) and DB-1311 (B7-H3), $170M upfront + >$1.5B milestones. August 2023: deal expanded to add DB-1305 (TROP2). October 2024: World ADC 'Best New Drug Developer' award. December 2024: GSK exclusive option on DB-1324 GI-cancer ADC, $30M upfront + up to $975M milestones."
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "Public ADC champion",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Phase 3 readouts; first BLA",
+        "listings": [
+          "HKEX: 9606"
+        ],
+        "note": "Sept 2024: BNT323/DB-1303 Phase 3 in HER2+ metastatic breast cancer met PFS primary endpoint vs T-DM1. Apr 15 2025: Hong Kong IPO (Chapter 18A) raised HK$1.64B (~US$211M; up to $243M with greenshoe) — largest 18A biotech IPO in four years; cornerstone investors led by BioNTech. April 2026: NMPA accepted BLA for trastuzumab pamirtecan, putting it on track to be among the first China-developed ADCs to win local approval."
+      }
+    ],
+    "milestones": [
+      {
+        "year": 2020,
+        "label": "Founded in Shanghai by John Zhu (Jan 2020)"
+      },
+      {
+        "year": 2023,
+        "label": "BioNTech global ADC partnership ($170M upfront, >$1.5B milestones)"
+      },
+      {
+        "year": 2024,
+        "label": "GSK exclusive option for DB-1324 (up to ~$1B); BNT323 Phase 3 hits PFS endpoint"
+      },
+      {
+        "year": 2025,
+        "label": "HKEX 18A IPO (9606.HK), raised ~$211M"
+      },
+      {
+        "year": 2026,
+        "label": "China NMPA accepts BLA for trastuzumab pamirtecan (DB-1303)"
+      }
+    ],
+    "sources": [
+      "biontech-dualitybio-global-partnership-2023",
+      "biopharmadive-biontech-duality-adc-2023",
+      "dualitybio-biontech-third-adc-db1305-2023",
+      "biontech-db1305-fda-fast-track-2024",
+      "dualitybio-gsk-db1324-option-2024",
+      "fiercebiotech-gsk-dualitybio-db1324-2024",
+      "fiercebiotech-dualitybio-hkex-ipo-2025",
+      "kirkland-dualitybio-hk-ipo-2025",
+      "bioworld-dualitybio-211m-hk-ipo-2025",
+      "biontech-db1303-phase3-pfs-2024",
+      "dualitybio-nmpa-bla-trastuzumab-pamirtecan-2026",
+      "pharmaboardroom-john-zhu-interview",
+      "bambooworks-dualitybio-rockstar-founder",
+      "stockanalysis-dualitybio-9606-financials"
+    ]
   },
   {
     "id": "kelun-bio",
-    "name": "Kelun Biotech",
+    "name": "Kelun-Biotech",
+    "nameZh": "科伦博泰",
     "founded": 2016,
+    "headquarters": "Chengdu",
+    "founders": "Liu Ge-xin (parent Sichuan Kelun); Ge Junyou (CEO)",
     "category": "adc",
-    "shortDescription": "Multi-billion-dollar Merck ADC partnership",
-    "signature": "Sac-TMT (TROP2 ADC)"
+    "shortDescription": "Sichuan Kelun's biologics arm; ADC powerhouse behind the Merck/MSD multi-billion-dollar collaboration.",
+    "signature": "Sacituzumab tirumotecan (TROP2 ADC)",
+    "narrativeHook": "A Chengdu antibiotics conglomerate's R&D spinoff turned itself into the most lucrative China ADC story of the cycle: $9.3B in biobucks from Merck for seven preclinical candidates, and the first domestically discovered ADC fully approved by the NMPA.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "today": {
+      "asOf": "2026-04",
+      "marketCapBillions": 14.4,
+      "revenueBillions": 0.27,
+      "revenueYear": 2024,
+      "approvedDrugCount": 3,
+      "listings": [
+        "HKEX: 6990"
+      ],
+      "leadAsset": {
+        "name": "Sacituzumab tirumotecan (sac-TMT, SKB264)",
+        "mechanism": "TROP2-directed antibody-drug conjugate",
+        "indication": "TNBC, EGFR-mutant NSCLC, NPC, HR+/HER2- breast cancer",
+        "status": "Four NMPA approvals (2024 TNBC; 2025 EGFRm NSCLC; 2026 HR+/HER2- BC); Phase 3 first-line PD-L1+ NSCLC met primary endpoint with KEYTRUDA; ex-China rights with Merck (MK-2870)"
+      },
+      "modalities": [
+        "ADC",
+        "monoclonal antibody",
+        "bispecific",
+        "small molecule"
+      ],
+      "biggestDeal": {
+        "partner": "Merck (MSD)",
+        "type": "license-out",
+        "year": 2022,
+        "valueBillions": 9.3
+      }
+    },
+    "timeline": [
+      {
+        "chapterId": "bi-jingquan-bigbang",
+        "status": "Founded as Sichuan Kelun's biologics arm",
+        "approvedDrugCount": 0,
+        "note": "Spun out of Sichuan Kelun Pharmaceutical (SZSE: 002422) in 2016 to build a dedicated innovative biologics and ADC pipeline."
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "Merck/MSD ADC franchise built",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Phase 1-3 ADC pipeline scaling",
+        "note": "May 2022: ex-China license to Merck on SKB264 (TROP2 ADC) for $47M upfront and up to ~$1.36B in milestones. July 2022: second ADC out-licensed to Merck for $35M upfront and up to ~$901M in milestones. December 2022: landmark seven-ADC collaboration with Merck announced — $175M upfront and up to $9.3B in milestones."
+      },
+      {
+        "chapterId": "going-global",
+        "status": "HKEX 18A IPO; first NMPA-approved domestic ADC",
+        "approvedDrugCount": 1,
+        "pipelineStage": "First commercial launches",
+        "listings": [
+          "HKEX: 6990"
+        ],
+        "note": "July 11, 2023: HKEX 18A IPO at HK$60.60 with HK~$1.36B (US~$174M) raised; opening market cap ~HK$13.6B. November 2024: NMPA approved sacituzumab tirumotecan for 3L+ TNBC — the first domestically developed and fully approved ADC in China."
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "Multi-indication ADC commercialization; pipeline take-off",
+        "approvedDrugCount": 3,
+        "pipelineStage": "Phase 3 readouts; B-marker removed",
+        "listings": [
+          "HKEX: 6990"
+        ],
+        "note": "January 2025: tagitanlimab (PD-L1 mAb) NMPA approval for first-line NPC. March 2025: sac-TMT approved for 2L+ EGFR-mutant NSCLC. October 2025: trastuzumab botidotin (HER2 ADC) NMPA approval — first domestically developed HER2 ADC. February 2026: sac-TMT approved for HR+/HER2- breast cancer (4th indication). April 2026: HKEX removed 18A 'B' marker; market cap ~US$14B."
+      }
+    ],
+    "milestones": [
+      {
+        "year": 2016,
+        "label": "Kelun-Biotech founded as Sichuan Kelun's biologics R&D arm in Chengdu"
+      },
+      {
+        "year": 2022,
+        "label": "Merck deal: $47M upfront for SKB264 (TROP2 ADC) ex-China rights (May)"
+      },
+      {
+        "year": 2022,
+        "label": "Merck seven-ADC mega-deal: $175M upfront, up to $9.3B in milestones (December)"
+      },
+      {
+        "year": 2023,
+        "label": "HKEX 18A IPO under ticker 6990; HK~$1.36B raised (July 11)"
+      },
+      {
+        "year": 2024,
+        "label": "Sacituzumab tirumotecan first NMPA approval — first domestically developed ADC in China (November)"
+      },
+      {
+        "year": 2025,
+        "label": "Tagitanlimab approved (Jan); sac-TMT 2L+ EGFRm NSCLC (Mar); trastuzumab botidotin HER2 ADC approval (Oct)"
+      },
+      {
+        "year": 2026,
+        "label": "Sac-TMT approved for HR+/HER2- BC (Feb); HKEX removes 18A 'B' marker (Apr)"
+      }
+    ],
+    "sources": [
+      "merck-kelun-adc-deal-press",
+      "kelun-biotech-hkex-listing-news",
+      "equalocean-kelun-biotech-ipo-debut",
+      "bioworld-kelun-biotech-ipo-174m",
+      "kelun-biotech-2024-annual-results",
+      "fiercepharma-kelun-trop2-first-china-approval",
+      "prnewswire-sac-tmt-tnbc-nmpa-approval",
+      "prnewswire-sac-tmt-egfrm-nsclc-approval",
+      "prnewswire-sac-tmt-hr-her2-approval",
+      "fiercebiotech-merck-kelun-second-adc-deal",
+      "kelun-biotech-2025-annual-results",
+      "kelun-biotech-about-us",
+      "prnewswire-kelun-biotech-b-marker-removed",
+      "fiercebiotech-merck-kelun-93b-third-deal"
+    ]
   },
   {
     "id": "lanova",
     "name": "LaNova Medicines",
+    "nameZh": "礼新医药",
     "founded": 2019,
+    "headquarters": "Shanghai",
+    "founders": "Crystal Qin (Qin Jiangping)",
     "category": "innovator",
-    "shortDescription": "PD-1/VEGF bispecific licensed to Merck for $3.3B",
-    "signature": "LM-299 (PD-1xVEGF)"
+    "shortDescription": "Shanghai antibody/ADC innovator behind the Merck-licensed PD-1/VEGF bispecific LM-299; acquired by Sino Biopharm in 2025.",
+    "signature": "LM-299 (PD-1xVEGF bispecific licensed to Merck)",
+    "narrativeHook": "A six-year-old Shanghai biotech sold its anti-PD-1/VEGF bispecific to Merck for $588M upfront and up to $2.7B in milestones — a deal that signaled Big Pharma's scramble to answer Akeso/Summit's ivonescimab and helped trigger a $951M takeout by Sino Biopharm.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "today": {
+      "asOf": "2026-04",
+      "approvedDrugCount": 0,
+      "leadAsset": {
+        "name": "LM-299",
+        "mechanism": "PD-1 x VEGF bispecific antibody",
+        "indication": "Advanced solid tumors",
+        "status": "Phase 1 enrolling in China; licensed to Merck globally (Nov 2024 close)"
+      },
+      "modalities": [
+        "bispecific",
+        "ADC",
+        "monoclonal antibody"
+      ],
+      "biggestDeal": {
+        "partner": "Merck (MSD)",
+        "type": "license-out",
+        "year": 2024,
+        "valueBillions": 3.3
+      }
+    },
+    "timeline": [
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Founded September 2019 in Shanghai by Crystal Qin (Qin Jiangping); built antibody discovery platforms targeting GPCRs and multi-transmembrane proteins.",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Preclinical"
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Out-licensed LM-305 (GPRC5D ADC) to AstraZeneca in May 2023 for up to $600M; LM-302 (CLDN18.2 ADC) advanced into Phase 3 in China; landmark $3.3B Merck license for LM-299 in November 2024.",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Phase 1–3",
+        "note": "Merck deal: $588M upfront + up to $2.7B milestones (incl. $300M tech-transfer); AstraZeneca deal: $55M upfront/near-term + $545M milestones."
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "Closed Merck LM-299 license; Sino Biopharm agreed in July 2025 to buy the remaining ~95% of LaNova for up to $950.9M (net ~$500M after cash), making it a wholly owned subsidiary.",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Phase 1–3"
+      }
+    ],
+    "milestones": [
+      {
+        "year": 2019,
+        "label": "Founded in Shanghai by Crystal Qin (Qin Jiangping)"
+      },
+      {
+        "year": 2023,
+        "label": "AstraZeneca license for LM-305 (GPRC5D ADC), up to $600M"
+      },
+      {
+        "year": 2024,
+        "label": "$42M Series C1 led by Sino Biopharm; LM-299 Phase 1 initiated"
+      },
+      {
+        "year": 2024,
+        "label": "Merck (MSD) global license for LM-299: $588M upfront, up to $2.7B milestones"
+      },
+      {
+        "year": 2025,
+        "label": "Sino Biopharm agrees to acquire remaining 95.09% of LaNova for up to $951M"
+      }
+    ],
+    "sources": [
+      "merck-lanova-2024",
+      "merck-lanova-closing-2025",
+      "biopharmadive-merck-lanova-2024",
+      "biospace-merck-lanova-3b-2024",
+      "lanova-astrazeneca-lm305-2023",
+      "biospace-astrazeneca-lanova-600m-2023",
+      "lanova-series-c1-lm299-phase1-2024",
+      "fiercebiotech-sino-lanova-951m-2025",
+      "biopharmadive-lanova-sino-2025",
+      "lanova-about-us"
+    ]
   },
   {
     "id": "hansoh",
     "name": "Hansoh Pharmaceutical",
+    "nameZh": "翰森製藥",
     "founded": 1995,
+    "headquarters": "Lianyungang, Jiangsu",
+    "founders": "Zhong Huijuan",
     "category": "innovator",
-    "shortDescription": "Family-controlled innovator; deep oncology and CNS pipelines",
-    "signature": "Aumolertinib (3rd-gen EGFR)"
+    "shortDescription": "Family-controlled Lianyungang innovator; deep oncology, CNS and metabolic pipelines, sister firm to Hengrui.",
+    "signature": "Aumolertinib (3rd-gen EGFR) + GSK ADC mega-deals",
+    "narrativeHook": "Founded by ex-chemistry teacher Zhong Huijuan and tied through marriage to Hengrui's Sun Piaoyang, Hansoh became the headline-grabbing license-out shop of the 2023-24 China ADC boom — twice signing GSK and once signing Merck for deals topping $1.7B each.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "today": {
+      "asOf": "2026-04",
+      "marketCapBillions": 30.6,
+      "revenueBillions": 1.7,
+      "revenueYear": 2024,
+      "approvedDrugCount": 7,
+      "listings": [
+        "HKEX: 3692"
+      ],
+      "leadAsset": {
+        "name": "Aumolertinib (Ameile / Aumseqa)",
+        "mechanism": "3rd-generation EGFR-TKI",
+        "indication": "EGFR-mutant NSCLC (multiple lines)",
+        "status": "Approved in China for 5 NSCLC indications; first overseas launch via UK MHRA, EU approval Feb 2026"
+      },
+      "modalities": [
+        "small molecule",
+        "monoclonal antibody",
+        "ADC"
+      ],
+      "biggestDeal": {
+        "partner": "Merck (MSD)",
+        "type": "license-out",
+        "year": 2024,
+        "valueBillions": 2.0
+      }
+    },
+    "timeline": [
+      {
+        "chapterId": "reform-and-opening",
+        "status": "Founded 1995 in Lianyungang as Jiangsu Hansoh by chemistry teacher Zhong Huijuan; initially a generics and psychotropics maker."
+      },
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "Built China's largest psychotropic-drug franchise and seeded oncology / anti-infective generics that bankroll later innovation."
+      },
+      {
+        "chapterId": "innovator-generation",
+        "status": "Pivots toward in-house novel-drug R&D, with aumolertinib (3rd-gen EGFR-TKI) entering the clinic alongside Hengrui's parallel program."
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "approvedDrugCount": 1,
+        "listings": [
+          "HKEX: 3692"
+        ],
+        "status": "Hong Kong main-board IPO 14 Jun 2019 raises ~US$1B at HK$14.26; aumolertinib (Ameile) wins NMPA approval in 2020 as China's first home-grown 3rd-gen EGFR-TKI."
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "approvedDrugCount": 4,
+        "status": "Aumolertinib added to NRDL; pegmolesatide (long-acting EPO mimetic peptide) approved by NMPA in Jun 2023 as a world-first."
+      },
+      {
+        "chapterId": "going-global",
+        "approvedDrugCount": 6,
+        "pipelineStage": "ADC and GLP-1 assets in global Phase I-III",
+        "status": "Two back-to-back GSK ADC license-outs in 2023 (HS-20089 B7-H4 ADC, $85M up + up to $1.485B; HS-20093 B7-H3 ADC, $185M up + up to $1.525B) and a Dec 2024 Merck deal for oral GLP-1 HS-10535 ($112M up + up to $1.9B)."
+      },
+      {
+        "chapterId": "frontier-era",
+        "approvedDrugCount": 7,
+        "pipelineStage": "First overseas approval; ADCs in Phase III",
+        "listings": [
+          "HKEX: 3692"
+        ],
+        "status": "Jun 2025 Regeneron in-licenses GLP-1/GIP HS-20094 (Phase 3 in China; $80M up + up to $1.93B). Aumolertinib approved in EU 12 Feb 2026 — first China-developed EGFR-TKI launched overseas."
+      }
+    ],
+    "milestones": [
+      {
+        "year": 1995,
+        "label": "Founded in Lianyungang by Zhong Huijuan"
+      },
+      {
+        "year": 2019,
+        "label": "HKEX IPO (3692) raises ~US$1B"
+      },
+      {
+        "year": 2020,
+        "label": "Aumolertinib (Ameile) NMPA-approved for 2L EGFR T790M NSCLC"
+      },
+      {
+        "year": 2022,
+        "label": "Added to Hang Seng Index"
+      },
+      {
+        "year": 2023,
+        "label": "Pegmolesatide approved (NMPA, Jun 2023); GSK signs HS-20089 (Oct) and HS-20093 (Dec) ADC license-outs"
+      },
+      {
+        "year": 2024,
+        "label": "Merck licenses oral GLP-1 HS-10535 (Dec 2024) — up to $2B; FY2024 revenue RMB 12.26B (+21%)"
+      },
+      {
+        "year": 2025,
+        "label": "Regeneron licenses HS-20094 GLP-1/GIP agonist (Jun 2025)"
+      },
+      {
+        "year": 2026,
+        "label": "Aumolertinib approved by EU EMA — Hansoh's first overseas innovative-drug launch"
+      }
+    ],
+    "sources": [
+      "gsk-hansoh-hs20093",
+      "gsk-hansoh-hs20089",
+      "merck-hansoh-hs10535-glp1",
+      "biospace-merck-hansoh-2b-glp1",
+      "regeneron-hansoh-hs20094",
+      "fiercebiotech-regeneron-hansoh-2b",
+      "hansoh-2024-annual-report",
+      "stockanalysis-hansoh-3692-revenue",
+      "wikipedia-hansoh-pharmaceutical",
+      "scmp-zhong-huijuan-hansoh-ipo",
+      "fiercepharma-hansoh-hengrui-family",
+      "hansoh-aumolertinib-eu-approval",
+      "hansoh-pegmolesatide-nmpa-approval"
+    ]
   },
   {
     "id": "sinopharm",
     "name": "Sinopharm / CNBG",
+    "nameZh": "国药集团 / 中国生物",
     "founded": 1998,
+    "headquarters": "Beijing",
     "category": "vaccines",
-    "shortDescription": "State vaccine group; WHO-EUL inactivated COVID vaccine",
-    "signature": "BBIBP-CorV"
+    "shortDescription": "Central state-owned pharmaceutical group whose CNBG vaccine arm produced BBIBP-CorV, the first non-Western COVID-19 vaccine on the WHO Emergency Use Listing.",
+    "signature": "BBIBP-CorV (inactivated COVID-19 vaccine)",
+    "narrativeHook": "When WHO greenlit BBIBP-CorV in May 2021, a Beijing state vaccine plant became the supply backbone of COVAX outside the West — proof that China's century-old biologics infrastructure could move at pandemic speed.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "today": {
+      "asOf": "2026-04",
+      "revenueBillions": 80.1,
+      "revenueYear": 2024,
+      "listings": [
+        "HKEX: 1099",
+        "SSE: 600161",
+        "SSE: 600511"
+      ],
+      "leadAsset": {
+        "name": "BBIBP-CorV (Covilo)",
+        "mechanism": "Inactivated whole-virus SARS-CoV-2 vaccine (Vero cell)",
+        "indication": "COVID-19 prevention",
+        "status": "WHO EUL May 2021; >400M doses distributed in 40+ countries via COVAX/bilateral supply"
+      },
+      "modalities": [
+        "vaccine",
+        "recombinant",
+        "small molecule"
+      ]
+    },
+    "timeline": [
+      {
+        "chapterId": "reform-and-opening",
+        "status": "Formed Nov 1998 as China National Pharmaceutical Group Corp (CNPGC) by State Council merger of four central pharma SOEs.",
+        "note": "Roots trace to the 1950 China National Pharmaceutical (Group) Corporation; CNBG vaccine institutes (Beijing, Wuhan, Shanghai, Lanzhou, Chengdu, Changchun) date to the 1910s-1950s."
+      },
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "Sinopharm Group Co. Ltd. (51% CNPGC / 49% Fosun) listed H-shares on HKEX as 1099 in 2009; absorbed CNBG the same year.",
+        "listings": [
+          "HKEX: 1099"
+        ]
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "CNBG's Beijing Institute (BIBP) and Wuhan Institute (WIBP) developed inactivated COVID-19 vaccines BBIBP-CorV and WIBP-CorV; both received China conditional approval in late 2020.",
+        "pipelineStage": "BBIBP-CorV approved (China, UAE, others); WIBP-CorV approved (China)"
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "WHO Emergency Use Listing for BBIBP-CorV on 7 May 2021 — first non-Western COVID-19 vaccine on the EUL; Gavi/COVAX deal for up to 170M doses.",
+        "note": "Tiantan Biological (SSE: 600161) restructured as CNBG vaccine listing vehicle in 2021."
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "FY2024 revenue RMB 584.5B (~USD 80B); ranked 119 on 2025 Fortune Global 500. Shanghai Institute (SIBP) launched first mRNA vaccine clinical trial (herpes zoster) in April 2025.",
+        "note": "Net profit attributable to shareholders fell ~60% YoY in 2024 amid VBP and anti-corruption pressure."
+      }
+    ],
+    "milestones": [
+      {
+        "year": 1998,
+        "label": "CNPGC formed by central-SOE merger"
+      },
+      {
+        "year": 2009,
+        "label": "Sinopharm Group HKEX IPO (1099); CNBG absorbed"
+      },
+      {
+        "year": 2020,
+        "label": "BBIBP-CorV and WIBP-CorV approved in China"
+      },
+      {
+        "year": 2021,
+        "label": "WHO EUL for BBIBP-CorV — first non-Western COVID vaccine listed"
+      },
+      {
+        "year": 2025,
+        "label": "First mRNA vaccine (herpes zoster) cleared for trials at SIBP"
+      }
+    ],
+    "sources": [
+      "who-sinopharm-eul",
+      "who-bibp-background-2021",
+      "gavi-sinopharm-covax-2021",
+      "unicef-sinopharm-supply-2021",
+      "sinopharm-2024-annual-results",
+      "sinopharm-fortune-global-500-2025",
+      "wikipedia-sinopharm-company",
+      "sinopharm-sibp-mrna-2025"
+    ]
   },
   {
     "id": "walvax",
     "name": "Walvax Biotechnology",
+    "nameZh": "沃森生物",
     "founded": 2001,
+    "headquarters": "Kunming, Yunnan",
+    "founders": "Li Yunchun (Yunchun Li)",
     "category": "vaccines",
-    "shortDescription": "Domestic HPV and conjugate-vaccine maker",
-    "signature": "Cecolin (first WHO-PQ Chinese HPV)"
+    "shortDescription": "Yunnan-based domestic vaccine maker; second-to-market PCV13 in China and partner on China's first mRNA COVID vaccine.",
+    "signature": "PCV13 (WEUPHORIA) and ARCoV/AWcorna mRNA COVID-19 vaccine",
+    "narrativeHook": "From Hib and meningococcal conjugates to PCV13 and an mRNA platform with Abogen and the PLA Academy of Military Sciences — Walvax embodies the path from import-substitution vaccine maker to mRNA-era player on China's western frontier.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "today": {
+      "asOf": "2026-04",
+      "revenueBillions": 0.39,
+      "revenueYear": 2024,
+      "listings": [
+        "SZSE: 300142"
+      ],
+      "leadAsset": {
+        "name": "PCV13 (13-valent pneumococcal conjugate vaccine, WEUPHORIA)",
+        "mechanism": "13-serotype pneumococcal polysaccharide conjugated to tetanus toxoid carrier",
+        "indication": "Invasive pneumococcal disease prevention in infants and toddlers",
+        "status": "NMPA-approved 2020; second PCV13 globally after Pfizer's Prevnar 13"
+      },
+      "modalities": [
+        "recombinant",
+        "vaccine",
+        "mRNA"
+      ],
+      "biggestDeal": {
+        "partner": "Suzhou Abogen Biosciences + PLA Academy of Military Sciences",
+        "type": "collaboration",
+        "year": 2020
+      }
+    },
+    "timeline": [
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "Founded 2001 in Kunming; built Yuxi manufacturing base (2004); launched first in-house vaccine (Hib conjugate, 2007); listed on SZSE ChiNext (300142) in 2010.",
+        "approvedDrugCount": 1,
+        "listings": [
+          "SZSE: 300142"
+        ],
+        "note": "Republican-era pivot from imports — first independently developed Hib conjugate vaccine, exported to the Philippines by 2012."
+      },
+      {
+        "chapterId": "innovator-generation",
+        "status": "Built out conjugate-vaccine portfolio — meningococcal A/C and ACYW135 conjugates; exports to Indonesia and Egypt; Gates Foundation partnership (2015) to support HPV9 development.",
+        "approvedDrugCount": 3,
+        "listings": [
+          "SZSE: 300142"
+        ]
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "PCV13 (WEUPHORIA) approved by NMPA in early 2020 — second PCV13 worldwide and first domestic Chinese PCV13, breaking Pfizer Prevnar's monopoly. Began two SARS-CoV-2 vaccine platforms during COVID outbreak.",
+        "approvedDrugCount": 4,
+        "listings": [
+          "SZSE: 300142"
+        ],
+        "note": "PCV13 launched commercially May 2020; ARCoV mRNA collaboration with Abogen and AMMS announced."
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "ARCoV mRNA COVID vaccine entered global Phase 3 in 2021 (China, Mexico, Indonesia, Nepal); ~28,000-participant trial recruited by early 2022. Bivalent HPV-2 vaccine launched 2022.",
+        "approvedDrugCount": 5,
+        "pipelineStage": "ARCoV Phase 3 / Indonesian EUA September 2022",
+        "listings": [
+          "SZSE: 300142"
+        ]
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Bivalent HPV-2 vaccine (Walrinvax, via Yuxi Zerun) received WHO prequalification in August 2024 — third bivalent HPV vaccine globally to clear WHO PQ. FY2024 revenue $392.6M (down 31% YoY post-COVID); international revenue +98% YoY.",
+        "approvedDrugCount": 6,
+        "listings": [
+          "SZSE: 300142"
+        ]
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "23-valent pneumococcal vaccine first export to Latin America (El Salvador) and bivalent HPV approved in Indonesia in 2025; mRNA pipeline expanded with NMPA IND clearances for herpes zoster mRNA (Dec 2025) and RSV mRNA (Oct 2025, with Fudan University and Shanghai Lanchen).",
+        "approvedDrugCount": 6,
+        "pipelineStage": "Multiple mRNA INDs cleared 2025",
+        "listings": [
+          "SZSE: 300142"
+        ]
+      }
+    ],
+    "milestones": [
+      {
+        "year": 2001,
+        "label": "Founded in Kunming, Yunnan by Li Yunchun"
+      },
+      {
+        "year": 2007,
+        "label": "First in-house vaccine: Hib conjugate launched"
+      },
+      {
+        "year": 2010,
+        "label": "Listed on SZSE ChiNext (300142)"
+      },
+      {
+        "year": 2015,
+        "label": "Bill & Melinda Gates Foundation partnership"
+      },
+      {
+        "year": 2020,
+        "label": "PCV13 (WEUPHORIA) NMPA-approved — second PCV13 worldwide"
+      },
+      {
+        "year": 2021,
+        "label": "ARCoV mRNA COVID vaccine enters multi-country Phase 3 with Abogen and AMMS"
+      },
+      {
+        "year": 2022,
+        "label": "Indonesia EUA for ARCoV/AWcorna mRNA vaccine; HPV-2 launched in China"
+      },
+      {
+        "year": 2024,
+        "label": "Walrinvax (HPV-2, Yuxi Zerun) receives WHO prequalification"
+      },
+      {
+        "year": 2025,
+        "label": "Herpes zoster mRNA and RSV mRNA INDs cleared by NMPA"
+      }
+    ],
+    "sources": [
+      "walvax-our-journey",
+      "walvax-leadership-li-yunchun",
+      "wikipedia-walvax-covid-vaccine",
+      "scmp-arcov-phase3-mexico-indonesia",
+      "reuters-walvax-mrna-28000-participants",
+      "walvax-pcv13-frontiers-microbiology",
+      "path-walrinvax-who-prequalification-2024",
+      "walvax-arcov-indonesia-eua-2022",
+      "globaldata-walvax-profile-2024",
+      "walvax-mrna-pipeline-2025"
+    ]
   },
   {
     "id": "henlius",
-    "name": "Shanghai Henlius",
+    "name": "Shanghai Henlius Biotech",
+    "nameZh": "上海复宏汉霖生物技术",
     "founded": 2010,
+    "headquarters": "Shanghai",
+    "founders": "Scott Liu (Liu Shikao), Wenjie Zhang; co-founded with Fosun Pharma",
     "category": "innovator",
-    "shortDescription": "Fosun spinout; first NMPA-approved biosimilar",
-    "signature": "Hanlikang (rituximab biosimilar)"
+    "shortDescription": "Fosun Pharma-backed biologics company that delivered China's first homegrown monoclonal-antibody biosimilar (Hanlikang/rituximab, 2019) and the first China-developed biosimilar approved in the EU and the US (Hanquyou/Hercessi, trastuzumab), and is now globalizing its in-house anti-PD-1 serplulimab",
+    "signature": "Hanlikang (HLX01, rituximab biosimilar)",
+    "narrativeHook": "Henlius proved that a Chinese biotech could write the biosimilar playbook for itself: HLX01 was the first mAb biosimilar approved under NMPA's 2015 guideline, and HLX02 (Zercepac/Hercessi) became the first Chinese-developed monoclonal antibody to clear both EMA and FDA — a quiet but decisive answer to the question of whether China could ship cGMP biologics into Western markets.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "today": {
+      "asOf": "2026-04",
+      "marketCapBillions": 5.6,
+      "revenueBillions": 0.93,
+      "revenueYear": 2025,
+      "approvedDrugCount": 7,
+      "listings": [
+        "HKEX: 02696"
+      ],
+      "modalities": [
+        "monoclonal antibody",
+        "ADC",
+        "bispecific",
+        "small molecule"
+      ],
+      "leadAsset": {
+        "name": "Hansizhuang (serplulimab)",
+        "mechanism": "Anti-PD-1 monoclonal antibody",
+        "indication": "MSI-H solid tumors, sqNSCLC, nsNSCLC, ES-SCLC, ESCC",
+        "status": "Approved in China since March 2022 across five indications; world's first anti-PD-1 approved for 1L ES-SCLC; EU approval (Hetronifly) Feb 4, 2025 — first anti-PD-1 EU-approved for ES-SCLC; out-licensed to Organon, Intas, KGBio and Eisai (Japan, 2026)"
+      },
+      "biggestDeal": {
+        "partner": "Organon",
+        "type": "license-out",
+        "year": 2022,
+        "valueBillions": 0.541
+      }
+    },
+    "timeline": [
+      {
+        "chapterId": "innovator-generation",
+        "status": "Founded February 2010 in Shanghai by Dr. Scott Liu (a former Amgen director who returned to China after his father's liver-cancer death) together with Fosun Pharma; mission framed as making expensive biologics affordable for Chinese patients",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Preclinical / platform build-out",
+        "note": "Liu took the 'Han' in 'Henlius' (汉霖) from his father's given name; Fosun Pharma anchored the venture with capital and infrastructure from day one"
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "Pre-IPO build-out: head-to-head Phase 3 of HLX02 (trastuzumab) launched globally; commercial Xuhui facility (24,000L) achieved China and EU GMP; HLX01 NDA filed 2017",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Phase 3 / first NDA filings",
+        "note": "Positioned to be the first mover under NMPA's Feb 2015 Technical Guidelines for Biosimilars"
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "HLX01 (Hanlikang, rituximab biosimilar) approved by NMPA on Feb 22, 2019 — China's first NMPA-approved homegrown monoclonal-antibody biosimilar; HKEX 18A IPO completed Sep 25, 2019 (ticker 02696) at HK$49.60/share, raising ~US$410M, the largest HK biotech IPO of the year",
+        "approvedDrugCount": 1,
+        "pipelineStage": "First launch + Phase 3",
+        "listings": [
+          "HKEX: 02696"
+        ],
+        "note": "Joint sponsors CICC, Bank of America, CMB International, Fosun Hani Securities and Citi; ~40% of proceeds earmarked for Core Product clinical development"
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "HLX02 (Hanquyou / Zercepac, trastuzumab biosimilar) received European Commission approval Jul 27, 2020 — first China-developed monoclonal antibody approved in the EU — followed by NMPA approval in August 2020",
+        "approvedDrugCount": 2,
+        "pipelineStage": "Marketed + Phase 3",
+        "listings": [
+          "HKEX: 02696"
+        ],
+        "note": "Commercialized in Europe with partner Accord Healthcare; broke open the western biosimilar market for Chinese mAb manufacturers"
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "HANSIZHUANG (serplulimab), Henlius' first in-house innovative mAb, approved by NMPA Mar 2022 for MSI-H solid tumors — its first tissue-agnostic PD-1 indication in China; Organon global license for HLX11 (pertuzumab) and HLX14 (denosumab) biosimilars signed June 2022 — up to US$541M including US$73M upfront",
+        "approvedDrugCount": 4,
+        "pipelineStage": "Marketed + Phase 3",
+        "listings": [
+          "HKEX: 02696"
+        ],
+        "note": "Pivot from biosimilar specialist to integrated biopharma underway; Hanbeitai (bevacizumab) and Handayuan (adalimumab) added to commercial portfolio"
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Serplulimab approved by NMPA for ES-SCLC (Mar 2023) — world's first anti-PD-1 mAb approved for first-line ES-SCLC, based on the international ASTRUM-005 trial; HLX02 (HERCESSI / trastuzumab-strf) FDA-approved Apr 26, 2024 with Accord BioPharma — first Henlius product on the US market and first Chinese-developed biosimilar to clear both EMA and FDA; Fosun Pharma announced a HK$5.407B (US$692M / HK$24.60 per H share) take-private offer for the ~40.4% it did not own on June 24, 2024",
+        "approvedDrugCount": 6,
+        "pipelineStage": "Marketed + Phase 3 readouts",
+        "listings": [
+          "HKEX: 02696"
+        ],
+        "note": "FY2024 revenue RMB 5.7244B (+6.1% YoY); net profit RMB 820.5M (+50.3% YoY) — second consecutive profitable year"
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "Privatization rejected at H-share class meeting Jan 22, 2025 (opposition >10% threshold) — Henlius remains HKEX-listed, Fosun Pharma stays controlling shareholder at ~59.6%. Hetronifly (serplulimab) granted EU marketing authorisation Feb 4, 2025 — first anti-PD-1 approved in the EU for ES-SCLC, launched in 12 EU countries within a year. HLX11 (pertuzumab biosimilar) FDA-approved as POHERDY in 2H 2025 — first US-approved pertuzumab biosimilar; HLX14 (denosumab) approved in US/EU/UK/Canada (BILDYOS / BILPREVDA). Pipeline includes ~20 clinical and ~40 preclinical molecules across PD-L1 ADC (HLX43), HER2 mAb (HLX22), tri-/tetra-specific T-cell engagers and a CDK4/6 inhibitor (FUTUONING). FY2025 revenue RMB 6.6666B (+16.5% YoY), net profit RMB 827M; R&D RMB 2.49B (+35.4%)",
+        "approvedDrugCount": 7,
+        "pipelineStage": "Marketed + Phase 3",
+        "listings": [
+          "HKEX: 02696"
+        ],
+        "note": "Eisai signed exclusive Japan license for serplulimab in 2026; HK$43.5B market cap as of late April 2026 (~US$5.6B) reflects re-rating around innovative pipeline"
+      }
+    ],
+    "milestones": [
+      {
+        "year": 2010,
+        "label": "Founded in Shanghai by Scott Liu and Fosun Pharma"
+      },
+      {
+        "year": 2019,
+        "label": "Hanlikang (HLX01, rituximab) NMPA approval — China's first homegrown mAb biosimilar"
+      },
+      {
+        "year": 2019,
+        "label": "HKEX 18A IPO (02696) raises ~US$410M"
+      },
+      {
+        "year": 2020,
+        "label": "Hanquyou (HLX02, trastuzumab) EC/EMA approval — first Chinese-developed mAb biosimilar in the EU"
+      },
+      {
+        "year": 2022,
+        "label": "Hansizhuang (serplulimab) NMPA approval — first in-house innovative mAb; Organon $541M biosimilar license"
+      },
+      {
+        "year": 2024,
+        "label": "HERCESSI FDA approval (first Chinese-developed mAb biosimilar in the US); Fosun Pharma launches HK$24.60/share take-private offer"
+      },
+      {
+        "year": 2025,
+        "label": "Privatization vote rejected; Hetronifly (serplulimab) wins EU approval for 1L ES-SCLC"
+      }
+    ],
+    "sources": [
+      "henlius-2025-annual-results-press",
+      "henlius-2024-annual-results-press",
+      "henlius-hkex-prospectus-2019",
+      "fiercebiotech-henlius-410m-hkex-ipo",
+      "henlius-hlx01-approval-press",
+      "henlius-hanquyou-ec-ema-approval",
+      "henlius-hercessi-fda-approval-press",
+      "henlius-hansizhuang-first-nmpa-approval",
+      "henlius-hansizhuang-es-sclc-nmpa",
+      "ema-hetronifly-epar",
+      "henlius-hetronifly-eu-approval-press",
+      "fosun-pharma-henlius-privatisation-announcement",
+      "caixin-fosun-henlius-692m-privatize",
+      "fiercepharma-henlius-buyout-rejected",
+      "organon-henlius-pertuzumab-denosumab-license",
+      "scmp-henlius-scott-liu-mission",
+      "nature-henlius-integrated-platform-2020"
+    ]
   },
   {
     "id": "xtalpi",
     "name": "XtalPi",
+    "nameZh": "晶泰科技",
     "founded": 2014,
+    "headquarters": "Shenzhen",
+    "founders": "Shuhao Wen, Lipeng Lai, Jian Ma",
     "category": "ai_bio",
     "shortDescription": "Quantum-physics + AI drug discovery; first HKEX 18C listing",
-    "signature": "DoveTree multi-billion deal"
+    "signature": "DoveTree multi-billion deal",
+    "narrativeHook": "Three MIT physics postdocs who turned a quantum crystal-structure prediction tool into Hong Kong's first Chapter 18C listing — and a $6B AI drug-discovery contract.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "today": {
+      "asOf": "2026-04",
+      "marketCapBillions": 5.0,
+      "revenueBillions": 0.037,
+      "revenueYear": 2024,
+      "approvedDrugCount": 0,
+      "listings": [
+        "HKEX: 02228"
+      ],
+      "leadAsset": {
+        "name": "ID4 platform",
+        "mechanism": "Quantum-physics + AI + automated robotics drug-discovery platform",
+        "indication": "Cross-modality (small molecule, biologics, materials)",
+        "status": "Service / collaboration model; no internal approved drugs"
+      },
+      "modalities": [
+        "small molecule"
+      ],
+      "biggestDeal": {
+        "partner": "DoveTree (Gregory Verdine)",
+        "type": "collaboration",
+        "year": 2025,
+        "valueBillions": 5.99
+      }
+    },
+    "timeline": [
+      {
+        "chapterId": "innovator-generation",
+        "status": "Founded by three MIT physics postdocs (Wen, Lai, Ma); registered in Shenzhen in 2015 around quantum crystal-structure prediction.",
+        "approvedDrugCount": 0
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "Won 10-year Pfizer crystal-form partnership after 2018 blind test; raised Tencent / Sequoia rounds.",
+        "approvedDrugCount": 0
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "Pivoted from crystal forms to full AI + robotics ID4 platform; signed Janssen (J&J) collaboration.",
+        "approvedDrugCount": 0
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Inked $250M Eli Lilly AI drug-discovery deal (2023); revenue RMB174M FY2023.",
+        "approvedDrugCount": 0
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "First-ever HKEX Chapter 18C Specialist Technology IPO Jun 2024 (HK$989M raised); FY2024 revenue RMB266M (+52.8%); $5.99B DoveTree deal Aug 2025; expanded Pfizer collab Jun 2025.",
+        "approvedDrugCount": 0,
+        "listings": [
+          "HKEX: 02228"
+        ]
+      }
+    ],
+    "milestones": [
+      {
+        "year": 2014,
+        "label": "Founded at MIT by Shuhao Wen, Lipeng Lai, Jian Ma"
+      },
+      {
+        "year": 2015,
+        "label": "Registered Shenzhen entity"
+      },
+      {
+        "year": 2018,
+        "label": "10-year Pfizer crystal-form partnership"
+      },
+      {
+        "year": 2023,
+        "label": "$250M Eli Lilly AI drug-discovery deal"
+      },
+      {
+        "year": 2024,
+        "label": "First HKEX Chapter 18C listing (02228), HK$989M raised"
+      },
+      {
+        "year": 2025,
+        "label": "$5.99B DoveTree collaboration; expanded Pfizer molecular-modeling deal"
+      }
+    ],
+    "sources": [
+      "xtalpi-18c-listing-2024",
+      "xtalpi-dovetree-final-2025",
+      "xtalpi-dovetree-loi-2025",
+      "xtalpi-2024-annual-results",
+      "xtalpi-financeasia-ipo-2024",
+      "xtalpi-sidley-18c-2024",
+      "xtalpi-scmp-quantumpharm-ipo-2024",
+      "xtalpi-pfizer-expand-2025",
+      "xtalpi-lilly-250m-2023",
+      "xtalpi-wikipedia"
+    ]
   },
   {
     "id": "insilico",
     "name": "Insilico Medicine",
+    "nameZh": "英矽智能",
     "founded": 2014,
+    "headquarters": "Boston · Hong Kong · New York · Suzhou · Shanghai",
+    "founders": "Alex Zhavoronkov",
     "category": "ai_bio",
-    "shortDescription": "Generative drug discovery; first AI-designed Phase II readout",
-    "signature": "Rentosertib (TNIK, IPF)"
+    "shortDescription": "Generative-AI drug discovery platform; first AI-discovered + AI-designed small molecule to clear a Phase IIa readout.",
+    "signature": "Rentosertib (TNIK inhibitor for IPF)",
+    "narrativeHook": "Founded at Johns Hopkins in 2014 and rebuilt around Hong Kong and Suzhou after 2019, Insilico became the proof point that a generative-AI pipeline could carry a wholly novel target through Nature Medicine — and listed under HKEX Chapter 8.05 in December 2025 as the first profitable AI biotech to clear that bar.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "today": {
+      "asOf": "2026-04",
+      "marketCapBillions": 2.5,
+      "revenueBillions": 0.056,
+      "revenueYear": 2025,
+      "approvedDrugCount": 0,
+      "listings": [
+        "HKEX: 3696"
+      ],
+      "leadAsset": {
+        "name": "Rentosertib (INS018_055 / ISM001-055)",
+        "mechanism": "TNIK inhibitor (small molecule)",
+        "indication": "Idiopathic pulmonary fibrosis (IPF)",
+        "status": "First AI-discovered + AI-designed drug with a Phase IIa readout; +98.4 mL FVC change at 60 mg QD vs -20.3 mL placebo; published in Nature Medicine June 2025; Phase IIb/III planned 1H 2026"
+      },
+      "modalities": [
+        "small molecule"
+      ],
+      "biggestDeal": {
+        "partner": "Sanofi",
+        "type": "collaboration",
+        "year": 2022,
+        "valueBillions": 1.2
+      }
+    },
+    "timeline": [
+      {
+        "chapterId": "innovator-generation",
+        "status": "Founded by Alex Zhavoronkov at the Johns Hopkins Emerging Technology Centers in Baltimore as an AI alternative to animal-model drug discovery.",
+        "approvedDrugCount": 0,
+        "pipelineStage": "AI platform R&D (target discovery + generative chemistry)"
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "Series A and B financings; Pharma.AI components (PandaOmics, Chemistry42) productized; first commercial software contracts with global pharma.",
+        "pipelineStage": "Pre-clinical, software-only revenue"
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Relocated headquarters to Hong Kong Science Park (Pak Shek Kok) and built out the Suzhou wet-lab campus; nominated INS018_055 (TNIK / IPF) as the first lead from the Pharma.AI stack.",
+        "pipelineStage": "Pre-clinical → IND-enabling"
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "Feb 2022 first patient dosed with INS018_055 in Phase I — the first wholly AI-discovered + AI-designed drug in clinic. Nov 2022 Sanofi multi-target collaboration: $21.5M upfront and target nomination, up to $1.2B total in milestones plus tiered royalties.",
+        "pipelineStage": "Phase I lead asset; first global big-pharma deal"
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Sept 2023 Exelixis license of ISM3091 (USP1 inhibitor): $80M upfront + milestones and royalties. June 2024 Phase IIa GENESIS-IPF readout (71 patients, 22 China sites). Dec 2024 Menarini second license deal: $20M upfront, $550M+ in total milestones for a preclinical oncology asset.",
+        "pipelineStage": "Phase IIa positive readout; multiple global out-licensing deals"
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "Mar 2025 $110M Series E (Value Partners). June 2025 Nature Medicine publication of rentosertib Phase IIa — industry's first AI-driven proof-of-concept. Dec 30 2025 HKEX Main Board listing under Chapter 8.05 (first AI biotech to use the profit test, not 18A): HK$2.277B / ~US$293M raised at HK$24.05 per share, oversubscribed ~1,427x by retail; opened at HK$35. FY2025 revenue US$56.24M; cash US$393.3M; cumulative deal value ~US$4.6B across 10+ partnerships in 2025 alone (US$1.3B).",
+        "approvedDrugCount": 0,
+        "pipelineStage": "10 clinical programs, 28 preclinical candidates; lead heading to Phase IIb/III",
+        "listings": [
+          "HKEX: 3696"
+        ]
+      }
+    ],
+    "milestones": [
+      {
+        "year": 2014,
+        "label": "Founded by Alex Zhavoronkov at Johns Hopkins ETC, Baltimore"
+      },
+      {
+        "year": 2019,
+        "label": "Headquarters move to Hong Kong Science Park; Suzhou R&D build-out"
+      },
+      {
+        "year": 2022,
+        "label": "First patient dosed with INS018_055 — first AI-discovered + AI-designed drug in clinic"
+      },
+      {
+        "year": 2022,
+        "label": "Sanofi multi-target collaboration: $21.5M upfront, up to $1.2B"
+      },
+      {
+        "year": 2023,
+        "label": "Exelixis license of ISM3091 (USP1): $80M upfront"
+      },
+      {
+        "year": 2024,
+        "label": "Phase IIa positive topline readout for rentosertib in IPF"
+      },
+      {
+        "year": 2024,
+        "label": "Menarini second deal: $20M upfront, $550M+ total"
+      },
+      {
+        "year": 2025,
+        "label": "Nature Medicine publishes rentosertib Phase IIa (June)"
+      },
+      {
+        "year": 2025,
+        "label": "HKEX Main Board Chapter 8.05 IPO (3696.HK), HK$2.277B raised, Dec 30"
+      }
+    ],
+    "sources": [
+      "insilico-hkex-listing-2025",
+      "insilico-fy2025-results",
+      "insilico-rentosertib-press-2025",
+      "nature-medicine-tnik-rentosertib-2025",
+      "insilico-sanofi-collab-2022",
+      "exelixis-insilico-ism3091-2023",
+      "menarini-insilico-second-deal-2024",
+      "fiercebiotech-insilico-hk-ipo-2025",
+      "pharmaphorum-insilico-ipo-2025",
+      "ddw-insilico-hk-ipo-2025",
+      "insilico-series-e-2025",
+      "insilico-tnik-ipf-phase2a-topline",
+      "nasdaq-insilico-chapter-805",
+      "insilico-wikipedia"
+    ]
   },
   {
     "id": "jw-therapeutics",
     "name": "JW Therapeutics",
+    "nameZh": "药明巨诺",
     "founded": 2016,
+    "headquarters": "Shanghai",
+    "founders": "James Li (co-founder, chairman/CEO 2016–2024); founded as a 50/50 joint venture between Juno Therapeutics (a Bristol Myers Squibb company) and WuXi AppTec",
     "category": "cell_gene",
     "shortDescription": "First NMPA-approved domestic CAR-T",
-    "signature": "Carteyva (relma-cel)"
+    "signature": "Carteyva (relma-cel)",
+    "narrativeHook": "A Juno–WuXi joint venture that put China's first homegrown CAR-T on the market — Carteyva (relma-cel) cleared the NMPA in September 2021 as the country's first Category 1 cell therapy and the sixth CAR-T product approved anywhere in the world.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "today": {
+      "asOf": "2026-04",
+      "revenueBillions": 0.022,
+      "revenueYear": 2024,
+      "approvedDrugCount": 1,
+      "listings": [
+        "HKEX: 2126"
+      ],
+      "leadAsset": {
+        "name": "Carteyva (relmacabtagene autoleucel; relma-cel; JWCAR029)",
+        "mechanism": "Autologous anti-CD19 CAR-T cell therapy (built on Juno's lisocabtagene maraleucel construct)",
+        "indication": "Relapsed or refractory large B-cell lymphoma (3L+); follicular lymphoma; mantle cell lymphoma",
+        "status": "NMPA-approved Sep 2021 for r/r LBCL (3L+), Sep 2022 sNDA for r/r FL, sBLA for r/r MCL accepted Jan 2024; Breakthrough Therapy Designation for 2L LBCL granted Jan 2025; FY2024 revenue RMB 158.22M (Carteyva is sole commercial product)"
+      },
+      "modalities": [
+        "CAR-T"
+      ],
+      "biggestDeal": {
+        "partner": "Juno Therapeutics (Bristol Myers Squibb)",
+        "type": "license-out",
+        "year": 2025
+      }
+    },
+    "timeline": [
+      {
+        "chapterId": "bi-jingquan-bigbang",
+        "status": "Founded February 2016 in Shanghai as JW Biotechnology Solutions, an equal joint venture between Juno Therapeutics and WuXi AppTec, with co-founder James Li as chairman/CEO; GMP manufacturing facility commissioned later that year.",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Preclinical / technology transfer from Juno"
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "Closed $90M Series A in 2018 led by Sequoia and Yunfeng; established Suzhou R&D and manufacturing operations; advanced JWCAR029 (relma-cel, based on Juno's liso-cel construct) into clinical trials.",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Phase 1/2 (relma-cel in r/r B-cell lymphoma)"
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Listed on HKEX Main Board (02126) on 3 November 2020 under Chapter 18A, raising ~US$300M (HK$2.325B) by floating 97.7M shares at HK$23.80; commercial-scale CAR-T manufacturing facility completed.",
+        "approvedDrugCount": 0,
+        "listings": [
+          "HKEX: 2126"
+        ],
+        "pipelineStage": "Pre-commercial; relma-cel BLA under NMPA review"
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "On 6 Sep 2021 the NMPA approved Carteyva (relma-cel) for r/r LBCL after two or more lines of therapy — China's first Category 1 cell therapy and the sixth CAR-T approved globally; in Sep 2022 NMPA approved a supplemental NDA for r/r follicular lymphoma.",
+        "approvedDrugCount": 1,
+        "listings": [
+          "HKEX: 2126"
+        ],
+        "pipelineStage": "Commercial CAR-T launch + label expansion"
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Carteyva commercialization scaled across China hospitals; sBLA for r/r mantle cell lymphoma accepted by NMPA Jan 2024; FY2023 revenue RMB 173.86M; co-founder James Li transitioned to non-executive director with Min Liu appointed CEO in July 2024.",
+        "approvedDrugCount": 1,
+        "listings": [
+          "HKEX: 2126"
+        ]
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "FY2024 revenue RMB 158.22M with net loss RMB 590.62M (narrowed from RMB 768M in 2023, after RMB 222.6M licensed-pipeline impairment); 2L LBCL granted Breakthrough Therapy Designation Jan 2025; in April 2025 JW out-licensed its sLVV (stable lentiviral vector) manufacturing process to Juno/BMS for 15 years; first patient dosed in JWCAR239 (next-gen CD19 CAR-T) Sep 2025; allogeneic JWATM214 advancing under Lyell technology.",
+        "approvedDrugCount": 1,
+        "listings": [
+          "HKEX: 2126"
+        ]
+      }
+    ],
+    "milestones": [
+      {
+        "year": 2016,
+        "label": "Founded in Shanghai as Juno Therapeutics + WuXi AppTec joint venture"
+      },
+      {
+        "year": 2018,
+        "label": "$90M Series A; Suzhou operations established"
+      },
+      {
+        "year": 2020,
+        "label": "HKEX 18A IPO (02126) — raised ~$300M on 3 Nov 2020"
+      },
+      {
+        "year": 2021,
+        "label": "NMPA approval of Carteyva (relma-cel) — China's first Category 1 CAR-T"
+      },
+      {
+        "year": 2022,
+        "label": "Carteyva sNDA approved for r/r follicular lymphoma"
+      },
+      {
+        "year": 2024,
+        "label": "Min Liu appointed CEO; sBLA for r/r MCL accepted"
+      },
+      {
+        "year": 2025,
+        "label": "Breakthrough Therapy Designation for 2L LBCL; sLVV process out-licensed to Juno/BMS"
+      }
+    ],
+    "sources": [
+      "jw-relma-cel-press",
+      "jw-hkex-listing-2020",
+      "fierce-jw-300m-ipo-2020",
+      "jw-fy2024-results-marketscreener",
+      "fierce-juno-wuxi-jv-2016",
+      "jw-history-page",
+      "jw-min-liu-ceo-2024",
+      "jw-slvv-juno-license-2025",
+      "jw-pipeline-page",
+      "jw-jwcar239-first-infusion-2025"
+    ]
+  },
+  {
+    "id": "tigermed",
+    "name": "Tigermed",
+    "nameZh": "泰格医药",
+    "founded": 2004,
+    "headquarters": "Hangzhou",
+    "category": "cro_cdmo",
+    "shortDescription": "China's largest clinical CRO; multinational trial support",
+    "signature": "HKEX 03347 + Shenzhen 300347"
+  },
+  {
+    "id": "pharmaron",
+    "name": "Pharmaron",
+    "nameZh": "康龙化成",
+    "founded": 2003,
+    "headquarters": "Beijing",
+    "category": "cro_cdmo",
+    "shortDescription": "Drug discovery and development services from chemistry through manufacturing",
+    "signature": "HKEX 03759 + Shenzhen 300759"
+  },
+  {
+    "id": "asymchem",
+    "name": "Asymchem",
+    "nameZh": "凯莱英",
+    "founded": 1998,
+    "headquarters": "Tianjin",
+    "category": "cro_cdmo",
+    "shortDescription": "Small-molecule CDMO; major continuous-flow manufacturing player",
+    "signature": "STAR + HKEX dual-listed"
+  },
+  {
+    "id": "hillhouse",
+    "name": "Hillhouse Capital",
+    "nameZh": "高瓴资本",
+    "founded": 2005,
+    "headquarters": "Hong Kong / Singapore / Beijing",
+    "founders": "Lei Zhang",
+    "category": "investor",
+    "shortDescription": "Largest China-focused PE/growth investor in healthcare; transformative checks across BeiGene, Innovent, Junshi, Akeso",
+    "signature": "Hillhouse Healthcare Fund"
+  },
+  {
+    "id": "qiming",
+    "name": "Qiming Venture Partners",
+    "nameZh": "启明创投",
+    "founded": 2006,
+    "headquarters": "Shanghai",
+    "founders": "Gary Rieschel, Duane Kuang",
+    "category": "investor",
+    "shortDescription": "Early-stage VC with deep healthcare practice; backed Innovent, Zai Lab, GenScript, Brii",
+    "signature": "Cross-border venture capital"
+  },
+  {
+    "id": "lilly-asia-ventures",
+    "name": "Lilly Asia Ventures",
+    "nameZh": "礼来亚洲基金",
+    "founded": 2008,
+    "headquarters": "Shanghai",
+    "founders": "Yi Shi (Managing Partner)",
+    "category": "investor",
+    "shortDescription": "Eli Lilly's spinout China-focused biotech VC; portfolio includes BeiGene, Innovent, Junshi, Tigermed, Zai Lab",
+    "signature": "Strategic biotech VC"
+  },
+  {
+    "id": "hongshan",
+    "name": "HongShan (formerly Sequoia China)",
+    "nameZh": "红杉中国",
+    "founded": 2005,
+    "headquarters": "Hong Kong",
+    "founders": "Neil Shen",
+    "category": "investor",
+    "shortDescription": "Split from Sequoia in 2023 and rebranded HongShan; healthcare is one of three core practices",
+    "signature": "Cross-stage VC"
+  },
+  {
+    "id": "amgen",
+    "name": "Amgen",
+    "founded": 1980,
+    "headquarters": "Thousand Oaks, California",
+    "category": "mnc_pharma",
+    "shortDescription": "Took 20.5% stake in BeiGene for $2.7B (2019) plus joint development of 20 oncology assets",
+    "signature": "BeiGene strategic alliance (2019)"
+  },
+  {
+    "id": "merck-co",
+    "name": "Merck & Co.",
+    "founded": 1891,
+    "headquarters": "Rahway, NJ",
+    "category": "mnc_pharma",
+    "shortDescription": "Multi-billion ADC partnership with Kelun; PD-1/VEGF bispecific deal with LaNova for $3.3B (2024)",
+    "signature": "Kelun ADC + LaNova bispecific"
+  },
+  {
+    "id": "eli-lilly",
+    "name": "Eli Lilly",
+    "founded": 1876,
+    "headquarters": "Indianapolis",
+    "category": "mnc_pharma",
+    "shortDescription": "Innovent partnership template — co-developed Tyvyt (sintilimab) for China commercialization",
+    "signature": "Innovent strategic alliance"
+  },
+  {
+    "id": "astrazeneca",
+    "name": "AstraZeneca",
+    "founded": 1999,
+    "headquarters": "Cambridge, UK",
+    "category": "mnc_pharma",
+    "shortDescription": "Largest MNC China presence; major deals across innovator biotechs; manufacturing in Wuxi and Taizhou",
+    "signature": "Multi-decade China platform"
+  },
+  {
+    "id": "biontech",
+    "name": "BioNTech",
+    "founded": 2008,
+    "headquarters": "Mainz, Germany",
+    "category": "mnc_pharma",
+    "shortDescription": "ADC-focused China deals: Duality Biologics 2023 ($1.5B+); Fosun mRNA partnership for COVID",
+    "signature": "Duality ADC + Fosun mRNA"
+  },
+  {
+    "id": "johnson-johnson",
+    "name": "Johnson & Johnson",
+    "founded": 1886,
+    "headquarters": "New Brunswick, NJ",
+    "category": "mnc_pharma",
+    "shortDescription": "Legend Biotech CAR-T partner — co-developed Carvykti (cilta-cel)",
+    "signature": "Legend / Carvykti"
+  },
+  {
+    "id": "pfizer",
+    "name": "Pfizer",
+    "founded": 1849,
+    "headquarters": "New York City",
+    "category": "mnc_pharma",
+    "shortDescription": "CStone Pharmaceuticals partnership for ex-China sugemalimab development",
+    "signature": "CStone alliance"
+  },
+  {
+    "id": "nibs-beijing",
+    "name": "NIBS Beijing",
+    "nameZh": "北京生命科学研究所",
+    "founded": 2003,
+    "headquarters": "Beijing",
+    "category": "academic",
+    "shortDescription": "National Institute of Biological Sciences; Wang Xiaodong's home institute; outsized share of Chinese-discovered drug targets",
+    "signature": "Foundational research engine"
+  },
+  {
+    "id": "tsinghua",
+    "name": "Tsinghua University School of Medicine",
+    "nameZh": "清华大学医学院",
+    "founded": 2001,
+    "headquarters": "Beijing",
+    "category": "academic",
+    "shortDescription": "Major source of biotech founders and senior scientific talent",
+    "signature": "Talent pipeline"
+  },
+  {
+    "id": "peking-university",
+    "name": "Peking University",
+    "nameZh": "北京大学",
+    "founded": 1898,
+    "headquarters": "Beijing",
+    "category": "academic",
+    "shortDescription": "Top life-sciences research university; PUMC affiliation; major founder pipeline",
+    "signature": "Research + talent"
+  },
+  {
+    "id": "fudan-university",
+    "name": "Fudan University",
+    "nameZh": "复旦大学",
+    "founded": 1905,
+    "headquarters": "Shanghai",
+    "category": "academic",
+    "shortDescription": "Major Shanghai-area research engine; affiliated with Fudan University Cancer Hospital",
+    "signature": "Shanghai research cluster"
+  },
+  {
+    "id": "shanghaitech",
+    "name": "ShanghaiTech University",
+    "nameZh": "上海科技大学",
+    "founded": 2013,
+    "headquarters": "Shanghai",
+    "category": "academic",
+    "shortDescription": "Newer research-intensive university; iHuman Institute drives drug-discovery research",
+    "signature": "iHuman Institute"
+  },
+  {
+    "id": "cas",
+    "name": "Chinese Academy of Sciences",
+    "nameZh": "中国科学院",
+    "founded": 1949,
+    "headquarters": "Beijing (HQ); national network",
+    "category": "academic",
+    "shortDescription": "Largest research network in China; Shanghai Institutes of Biological Sciences (SIBS) anchor biotech research",
+    "signature": "National research network"
+  },
+  {
+    "id": "pumc-hospital",
+    "name": "Peking Union Medical College Hospital",
+    "nameZh": "北京协和医院",
+    "founded": 1921,
+    "headquarters": "Beijing",
+    "category": "hospital",
+    "shortDescription": "Top-ranked clinical hospital; major academic trial site; ground zero for the Republican-era medical tradition",
+    "signature": "Top trial site"
+  },
+  {
+    "id": "fudan-cancer-hospital",
+    "name": "Fudan University Cancer Hospital",
+    "nameZh": "复旦大学附属肿瘤医院",
+    "founded": 1931,
+    "headquarters": "Shanghai",
+    "category": "hospital",
+    "shortDescription": "Largest Shanghai oncology hospital; primary trial site for many domestic PD-1, ADC, and bispecific programs",
+    "signature": "Oncology trial flagship"
+  },
+  {
+    "id": "hkex",
+    "name": "Hong Kong Stock Exchange",
+    "nameZh": "香港交易所",
+    "founded": 2000,
+    "headquarters": "Hong Kong",
+    "category": "exchange",
+    "shortDescription": "Chapter 18A (2018) opened HKEX to pre-revenue biotechs — became Asia's largest biotech IPO venue",
+    "signature": "Chapter 18A regime"
+  },
+  {
+    "id": "star-market",
+    "name": "STAR Market",
+    "nameZh": "科创板",
+    "founded": 2019,
+    "headquarters": "Shanghai",
+    "category": "exchange",
+    "shortDescription": "Shanghai Stock Exchange's Sci-Tech Innovation Board; pre-revenue tech and biotech IPOs domestically",
+    "signature": "Sci-Tech Innovation Board"
   }
 ]

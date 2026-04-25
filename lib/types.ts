@@ -7,7 +7,12 @@ export type CompanyCategory =
   | "adc"
   | "cell_gene"
   | "mrna"
-  | "ai_bio";
+  | "ai_bio"
+  | "investor"
+  | "mnc_pharma"
+  | "academic"
+  | "hospital"
+  | "exchange";
 
 export type ReformCategory =
   | "approval"

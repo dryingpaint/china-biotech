@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useNarrative } from "@/lib/narrativeStore";
 import companiesData from "@/data/companies.json";
 import type {
@@ -12,6 +12,23 @@ import Tooltip from "@/components/Tooltip";
 import { getCitation } from "@/lib/citations";
 
 const HOVER_GRACE_MS = 200;
+
+const CATEGORY_ORDER: CompanyCategory[] = [
+  "innovator",
+  "traditional",
+  "vaccines",
+  "adc",
+  "cell_gene",
+  "mrna",
+  "cro_cdmo",
+  "genomics",
+  "ai_bio",
+  "investor",
+  "mnc_pharma",
+  "academic",
+  "hospital",
+  "exchange",
+];
 
 const companies = companiesData as Company[];
 
@@ -25,6 +42,11 @@ const CATEGORY_LABEL: Record<CompanyCategory, string> = {
   cell_gene: "Cell & Gene",
   mrna: "mRNA",
   ai_bio: "AI bio",
+  investor: "Investor",
+  mnc_pharma: "MNC pharma",
+  academic: "Academic",
+  hospital: "Hospital",
+  exchange: "Exchange",
 };
 
 const CATEGORY_COLOR: Record<CompanyCategory, string> = {
@@ -37,6 +59,11 @@ const CATEGORY_COLOR: Record<CompanyCategory, string> = {
   genomics: "#5a4b8c",
   traditional: "#6b6b6b",
   ai_bio: "#8c4a6b",
+  investor: "#b08530",
+  mnc_pharma: "#2a4868",
+  academic: "#a4543a",
+  hospital: "#4a7a7a",
+  exchange: "#4a525a",
 };
 
 type Hovered = { rect: DOMRect; company: Company; fromProse?: boolean };
@@ -83,6 +110,15 @@ export default function CompanyGrid() {
     });
   }, [proseHighlightedId]);
 
+  const byCategory = useMemo(() => {
+    const map = new Map<CompanyCategory, Company[]>();
+    for (const c of companies) {
+      if (!map.has(c.category)) map.set(c.category, []);
+      map.get(c.category)!.push(c);
+    }
+    return map;
+  }, []);
+
   return (
     <section className="space-y-2">
       <header className="flex items-baseline justify-between">
@@ -93,39 +129,64 @@ export default function CompanyGrid() {
           {activeIds.length} / {companies.length}
         </span>
       </header>
-      <div className="flex flex-wrap gap-1">
-        {companies.map((c) => {
-          const isActive = activeSet.has(c.id);
-          const isHighlighted = hovered?.company.id === c.id;
-          const color = CATEGORY_COLOR[c.category];
+      <div className="space-y-1">
+        {CATEGORY_ORDER.map((cat) => {
+          const list = byCategory.get(cat);
+          if (!list || list.length === 0) return null;
+          const activeInCat = list.filter((c) => activeSet.has(c.id)).length;
           return (
             <div
-              key={c.id}
-              ref={(el) => {
-                if (el) tileRefs.current.set(c.id, el);
-                else tileRefs.current.delete(c.id);
-              }}
-              onMouseEnter={(e) => {
-                cancelHide();
-                setHovered({
-                  rect: e.currentTarget.getBoundingClientRect(),
-                  company: c,
-                });
-              }}
-              onMouseLeave={scheduleHide}
-              className="h-3 w-3 rounded-[2px] transition-shadow"
-              style={{
-                backgroundColor: isActive ? color : "transparent",
-                border: `1px solid ${isActive ? color : "var(--color-rule)"}`,
-                boxShadow: isHighlighted
-                  ? `0 0 6px 2px ${color}`
-                  : undefined,
-              }}
-            />
+              key={cat}
+              className="grid grid-cols-[6.5rem_1.75rem_1fr] items-center gap-x-2"
+            >
+              <span
+                className="truncate text-[10px] font-medium uppercase tracking-wider"
+                style={{ color: CATEGORY_COLOR[cat] }}
+                title={CATEGORY_LABEL[cat]}
+              >
+                {CATEGORY_LABEL[cat]}
+              </span>
+              <span className="num text-right text-[10px] text-[--color-muted]">
+                {activeInCat}/{list.length}
+              </span>
+              <div className="flex flex-wrap gap-1">
+                {list.map((c) => {
+                  const isActive = activeSet.has(c.id);
+                  const isHighlighted = hovered?.company.id === c.id;
+                  const color = CATEGORY_COLOR[c.category];
+                  return (
+                    <div
+                      key={c.id}
+                      ref={(el) => {
+                        if (el) tileRefs.current.set(c.id, el);
+                        else tileRefs.current.delete(c.id);
+                      }}
+                      onMouseEnter={(e) => {
+                        cancelHide();
+                        setHovered({
+                          rect: e.currentTarget.getBoundingClientRect(),
+                          company: c,
+                        });
+                      }}
+                      onMouseLeave={scheduleHide}
+                      className="h-3 w-3 rounded-[2px] transition-shadow"
+                      style={{
+                        backgroundColor: isActive ? color : "transparent",
+                        border: `1px solid ${
+                          isActive ? color : "var(--color-rule)"
+                        }`,
+                        boxShadow: isHighlighted
+                          ? `0 0 6px 2px ${color}`
+                          : undefined,
+                      }}
+                    />
+                  );
+                })}
+              </div>
+            </div>
           );
         })}
       </div>
-      <CategoryLegend />
       <Tooltip
         show={!!hovered}
         anchorRect={hovered?.rect ?? null}
@@ -441,30 +502,3 @@ function VerificationFooter({ company }: { company: Company }) {
   );
 }
 
-function CategoryLegend() {
-  const cats: CompanyCategory[] = [
-    "innovator",
-    "cro_cdmo",
-    "adc",
-    "vaccines",
-    "mrna",
-    "cell_gene",
-    "genomics",
-    "ai_bio",
-    "traditional",
-  ];
-  return (
-    <div className="flex flex-wrap gap-x-3 gap-y-1 pt-1 text-[10px] text-[--color-muted]">
-      {cats.map((c) => (
-        <span key={c} className="inline-flex items-center gap-1.5">
-          <span
-            aria-hidden
-            className="inline-block h-2 w-2 rounded-[2px]"
-            style={{ backgroundColor: CATEGORY_COLOR[c] }}
-          />
-          {CATEGORY_LABEL[c]}
-        </span>
-      ))}
-    </div>
-  );
-}
