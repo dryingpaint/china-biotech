@@ -28,6 +28,9 @@ export default function ReformTimeline() {
   const activeIds = useNarrative(
     (s) => s.chapters[s.currentIndex].activeReformIds,
   );
+  const highlightedEntity = useNarrative((s) => s.highlightedEntity);
+  const proseHighlightedId =
+    highlightedEntity?.type === "reform" ? highlightedEntity.id : null;
   const activeSet = new Set(activeIds);
   const [hovered, setHovered] = useState<Hovered | null>(null);
 
@@ -56,12 +59,16 @@ export default function ReformTimeline() {
         <div className="absolute left-0 right-0 top-1/2 h-px -translate-y-1/2 bg-[--color-rule]" />
         {sorted.map((r) => {
           const isActive = activeSet.has(r.id);
+          const isProseHighlighted = proseHighlightedId === r.id;
           const left = positionFor(r.date);
           return (
             <div
               key={r.id}
               className="absolute top-1/2 -translate-x-1/2 -translate-y-1/2"
-              style={{ left: `${left}%` }}
+              style={{
+                left: `${left}%`,
+                zIndex: isProseHighlighted ? 5 : undefined,
+              }}
               onMouseEnter={(e) =>
                 setHovered({
                   rect: e.currentTarget.getBoundingClientRect(),
@@ -79,6 +86,10 @@ export default function ReformTimeline() {
                   backgroundColor: isActive
                     ? CATEGORY_COLOR[r.category]
                     : "transparent",
+                  transform: isProseHighlighted ? "scale(1.8)" : undefined,
+                  boxShadow: isProseHighlighted
+                    ? `0 0 0 2px var(--color-bg), 0 0 0 3px ${CATEGORY_COLOR[r.category]}`
+                    : undefined,
                 }}
               />
             </div>

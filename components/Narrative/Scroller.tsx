@@ -1,7 +1,9 @@
 "use client";
 
 import { Scrollama, Step } from "react-scrollama";
-import { useNarrative } from "@/lib/narrativeStore";
+import { useEffect, useRef } from "react";
+import { useNarrative, type EntityRef } from "@/lib/narrativeStore";
+import { renderBodyWithCitations } from "@/lib/citations";
 import type { Chapter } from "@/lib/types";
 
 export default function Scroller({ chapters }: { chapters: Chapter[] }) {
@@ -29,13 +31,47 @@ export default function Scroller({ chapters }: { chapters: Chapter[] }) {
 }
 
 export function ChapterBody({ chapter }: { chapter: Chapter }) {
+  const setHighlight = useNarrative((s) => s.setHighlightedEntity);
+  const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const root = ref.current;
+    if (!root) return;
+    const findEntity = (target: EventTarget | null): EntityRef | null => {
+      if (!(target instanceof Element)) return null;
+      const el = target.closest<HTMLElement>("[data-entity-type]");
+      if (!el) return null;
+      const type = el.getAttribute("data-entity-type");
+      const id = el.getAttribute("data-entity-id");
+      if ((type !== "company" && type !== "reform") || !id) return null;
+      return { type, id };
+    };
+    const handleOver = (e: Event) => {
+      const entity = findEntity(e.target);
+      if (entity) setHighlight(entity);
+    };
+    const handleOut = (e: Event) => {
+      const entity = findEntity(e.target);
+      if (entity) setHighlight(null);
+    };
+    root.addEventListener("mouseover", handleOver);
+    root.addEventListener("mouseout", handleOut);
+    return () => {
+      root.removeEventListener("mouseover", handleOver);
+      root.removeEventListener("mouseout", handleOut);
+    };
+  }, [setHighlight]);
+
   return (
     <div className="prose-narrative space-y-5 text-[18px] leading-[1.7]">
       <h2 className="mb-2 font-serif text-3xl font-semibold">{chapter.title}</h2>
       <p className="text-[--color-muted]">{chapter.date}</p>
       <div
+        ref={ref}
         className="space-y-5"
-        dangerouslySetInnerHTML={{ __html: chapter.body }}
+        dangerouslySetInnerHTML={{
+          __html: renderBodyWithCitations(chapter.body),
+        }}
       />
     </div>
   );

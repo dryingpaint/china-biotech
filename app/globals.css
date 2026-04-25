@@ -33,3 +33,19 @@ body {
   font-family: var(--font-mono), ui-monospace, monospace;
   font-variant-numeric: tabular-nums;
 }
+
+.entity-ref {
+  border-bottom: 1px dotted var(--color-rule);
+  cursor: help;
+  transition: color 0.15s ease, border-bottom-color 0.15s ease;
+}
+
+.entity-ref:hover {
+  color: var(--color-accent);
+  border-bottom-color: var(--color-accent);
+}
+
+.entity-ref[data-entity-type="reform"]:hover {
+  color: var(--color-gold);
+  border-bottom-color: var(--color-gold);
+}
