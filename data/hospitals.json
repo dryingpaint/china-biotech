@@ -6,17 +6,70 @@
     "founded": 1921,
     "headquarters": "Beijing",
     "category": "hospital",
-    "shortDescription": "Top-ranked clinical hospital; major academic trial site; ground zero for the Republican-era medical tradition",
-    "signature": "Top trial site"
+    "shortDescription": "Top-ranked Chinese teaching hospital; flagship of the Republican-era American medical tradition and a major academic trial site.",
+    "signature": "Top trial site",
+    "narrativeHook": "Built with Rockefeller Foundation money in 1917 to be 'a medical school and hospital comparable with that of the leading institutions of Western civilization,' PUMC remains the most-cited teaching hospital in China and the canonical lineage point for the country's first generation of internationally trained physicians.",
+    "verified": false,
+    "hospitalContext": {
+      "affiliation": "Chinese Academy of Medical Sciences / Peking Union Medical College",
+      "hookFact": "Has ranked #1 on the Fudan University Hospital Management Institute's Chinese Hospital Rankings continuously since the index began in 2009."
+    },
+    "timeline": [
+      {
+        "chapterId": "republican-foundations",
+        "status": "Established 1917 with Rockefeller China Medical Board funding; small graduating classes (30–50) produced China's first internationally-trained physician cohort.",
+        "note": "Original campus on the site of a former Qing royal palace in Beijing."
+      },
+      {
+        "chapterId": "insulin-and-artemisinin",
+        "status": "Became part of CAMS-PUMC system; preserved as a teaching hospital through the Cultural Revolution period."
+      },
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "Major academic trial site as China entered the GCP era."
+      }
+    ],
+    "sources": [
+      "rockarch-pumc-history",
+      "pmc-cams-pumc-2020",
+      "pumc-wikipedia"
+    ]
   },
   {
     "id": "fudan-cancer-hospital",
-    "name": "Fudan University Cancer Hospital",
+    "name": "Fudan University Shanghai Cancer Center",
     "nameZh": "复旦大学附属肿瘤医院",
     "founded": 1931,
     "headquarters": "Shanghai",
     "category": "hospital",
-    "shortDescription": "Largest Shanghai oncology hospital; primary trial site for many domestic PD-1, ADC, and bispecific programs",
-    "signature": "Oncology trial flagship"
+    "shortDescription": "Largest Shanghai oncology hospital; a primary trial site for domestic PD-1, ADC, and bispecific programs.",
+    "signature": "Oncology trial flagship",
+    "narrativeHook": "By the 2020s Fudan Cancer Center was hosting the China leg of the registration trials that would carry domestically-discovered checkpoint inhibitors and ADCs into NMPA approval — including PIs and trial sites for camrelizumab, sintilimab, disitamab vedotin, and ivonescimab programs.",
+    "verified": false,
+    "hospitalContext": {
+      "affiliation": "Fudan University",
+      "hookFact": "Fudan University Shanghai Cancer Center has consistently ranked in the top 3 oncology hospitals on the Fudan University Hospital Management Institute index since 2010."
+    },
+    "timeline": [
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "Operating as Shanghai Cancer Hospital under Shanghai Medical College (later Fudan University)."
+      },
+      {
+        "chapterId": "innovator-generation",
+        "status": "Site for the first generation of China-led oncology Phase 2/3 trials."
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Leading PI sites for the PD-1 / PD-L1 wave (camrelizumab, sintilimab, toripalimab)."
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Site for ADC, bispecific, and CDK-program registration trials."
+      }
+    ],
+    "sources": [
+      "fudan-cancer-hospital-wikipedia"
+    ]
   }
 ]

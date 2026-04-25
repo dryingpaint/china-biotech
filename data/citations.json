@@ -4782,5 +4782,869 @@
     "publisher": "Nature Reviews Drug Discovery",
     "year": 2025,
     "url": "https://www.nature.com/articles/d41573-025-00068-0"
+  },
+  {
+    "id": "amgen-china-10-years-2022",
+    "authors": "Amgen Inc.",
+    "title": "Amgen China Marks Ten Years of Serving Patients",
+    "publisher": "Amgen newsroom",
+    "year": 2022,
+    "url": "https://www.amgen.com/stories/2022/09/09-20-amgen-china-marks-ten-years-of-serving-patients"
+  },
+  {
+    "id": "amgen-asia-rd-center-shanghaitech-2014",
+    "authors": "Amgen China",
+    "title": "Amgen Opens Asia Research and Development Center and Establishes Integrated Research and Development Capacity in China",
+    "publisher": "Amgen China newsroom",
+    "year": 2014,
+    "url": "https://www.amgen.cn/en/media/amgen_asia_reserach_development_center.html"
+  },
+  {
+    "id": "amgen-simcere-biosimilars-2017",
+    "authors": "Amgen Inc.",
+    "title": "Amgen And Simcere Announce Strategic Collaboration To Co-Develop And Commercialize Biosimilars In China",
+    "publisher": "Amgen press release",
+    "year": 2017,
+    "url": "https://www.amgen.com/newsroom/press-releases/2017/09/amgen-and-simcere-announce-strategic-collaboration-to-co-develop-and-commercialize-biosimilars-in-china"
+  },
+  {
+    "id": "amgen-five-prime-acquisition-2021",
+    "authors": "Amgen Inc.",
+    "title": "Amgen To Acquire Five Prime Therapeutics For $1.9 Billion in Cash",
+    "publisher": "Amgen IR",
+    "year": 2021,
+    "url": "https://investors.amgen.com/news-releases/news-release-details/amgen-acquire-five-prime-therapeutics-19-billion-cash"
+  },
+  {
+    "id": "fosun-amgen-otezla-parsabiv-2022",
+    "authors": "Shanghai Fosun Pharmaceutical (Group) Co.",
+    "title": "Fosun Pharma and Amgen Announce Collaboration to Accelerate Two Innovative Medicines Benefitting Chinese Patients",
+    "publisher": "Fosun Pharma press release",
+    "year": 2022,
+    "url": "https://www.fosunpharma.com/en/content/details37_11653.html"
+  },
+  {
+    "id": "amgen-repatha-nmpa-2019",
+    "authors": "Amgen Inc.",
+    "title": "Amgen Receives NMPA Approval For Repatha (evolocumab) In China To Reduce The Risk Of Cardiovascular Events",
+    "publisher": "Amgen press release",
+    "year": 2019,
+    "url": "https://www.amgen.com/newsroom/press-releases/2019/01/amgen-receives-nmpa-approval-for-repatha-evolocumab-in-china-to-reduce-the-risk-of-cardiovascular-events"
+  },
+  {
+    "id": "fiercepharma-beigene-amgen-cancer-china-2020",
+    "authors": "Angus Liu",
+    "title": "With cancer kickoff, Amgen bets on BeiGene's fast-growing Chinese sales force",
+    "publisher": "Fierce Pharma",
+    "year": 2020,
+    "url": "https://www.fiercepharma.com/pharma-asia/amgen-officially-launching-its-beigene-alliance-betting-a-growing-oncology-force-china"
+  },
+  {
+    "id": "biopharmadive-amgen-beigene-china-ambitions-2019",
+    "authors": "Jonathan Gardner",
+    "title": "Amgen's China ambitions become clear with BeiGene deal",
+    "publisher": "BioPharma Dive",
+    "year": 2019,
+    "url": "https://www.biopharmadive.com/news/amgens-china-ambitions-become-clear-with-beigene-deal/566441/"
+  },
+  {
+    "id": "biopharmadive-royalty-beone-imdelltra-2025",
+    "authors": "Ned Pagliarulo",
+    "title": "Royalty Pharma buys BeOne stake in Amgen lung cancer drug sales",
+    "publisher": "BioPharma Dive",
+    "year": 2025,
+    "url": "https://www.biopharmadive.com/news/royalty-beone-imdelltra-rights-drug-sales/758501/"
+  },
+  {
+    "id": "fiercepharma-beone-royalty-imdelltra-2025",
+    "authors": "Kevin Dunleavy",
+    "title": "BeOne bags $885M upfront in Royalty deal on Amgen's lung cancer drug Imdelltra",
+    "publisher": "Fierce Pharma",
+    "year": 2025,
+    "url": "https://www.fiercepharma.com/pharma/beone-bags-885m-royalty-deal-amgen-lung-cancer-drug-imdelltra"
+  },
+  {
+    "id": "biopharmadive-merck-kelun-adc",
+    "authors": "BioPharma Dive",
+    "title": "Merck builds out cancer drug pipeline with Kelun-Biotech deal",
+    "publisher": "BioPharma Dive",
+    "year": 2022,
+    "url": "https://www.biopharmadive.com/news/merck-kelun-adc-antibody-drug-conjugate-cancer/639402/"
+  },
+  {
+    "id": "pharmaphorum-merck-kelun-skb264-2022",
+    "authors": "Pharmaphorum",
+    "title": "Merck snaps up cancer drug from China's Kelun in $1.4bn deal",
+    "publisher": "Pharmaphorum",
+    "year": 2022,
+    "url": "https://pharmaphorum.com/news/merck-snaps-up-cancer-drug-from-chinas-kelun-in-1-4bn-deal"
+  },
+  {
+    "id": "biopharmadive-merck-hengrui-lpa-2025",
+    "authors": "BioPharma Dive",
+    "title": "Merck bets $200M on a new type of heart pill",
+    "publisher": "BioPharma Dive",
+    "year": 2025,
+    "url": "https://www.biopharmadive.com/news/merck-jiangsu-hengrui-lpa-heart-drug-deal/743428/"
+  },
+  {
+    "id": "merck-2024-fy-results",
+    "authors": "Merck & Co., Inc.",
+    "title": "Merck Announces Fourth-Quarter and Full-Year 2024 Financial Results",
+    "publisher": "Merck press release",
+    "year": 2025,
+    "url": "https://www.merck.com/news/merck-announces-fourth-quarter-and-full-year-2024-financial-results/"
+  },
+  {
+    "id": "fiercepharma-merck-gardasil-china-pause-2025",
+    "authors": "Fierce Pharma",
+    "title": "Merck halts Gardasil shipments to China, withdraws $11B sales target as demand nosedives",
+    "publisher": "Fierce Pharma",
+    "year": 2025,
+    "url": "https://www.fiercepharma.com/pharma/merck-puts-temporary-kibosh-gardasil-shipments-china-local-demand-hpv-vaccine-nosedives"
+  },
+  {
+    "id": "fiercepharma-merck-davis-keytruda-loe-hill",
+    "authors": "Fierce Pharma",
+    "title": "Merck CEO Rob Davis dubs Keytruda market exclusivity loss as 'more of a hill than a cliff'",
+    "publisher": "Fierce Pharma",
+    "year": 2025,
+    "url": "https://www.fiercepharma.com/pharma/merck-ceo-davis-dubs-keytruda-loe-more-hill-cliff"
+  },
+  {
+    "id": "merck-msd-rd-asia-beijing-2011",
+    "authors": "Merck & Co., Inc.",
+    "title": "Merck Establishes New MSD R&D Asia Headquarters",
+    "publisher": "Merck press release",
+    "year": 2011,
+    "url": "https://www.merck.com/news/merck-establishes-new-msd-rd-asia-headquarters/"
+  },
+  {
+    "id": "merck-hangzhou-plant-opening-2013",
+    "authors": "Merck & Co., Inc.",
+    "title": "Merck Opens New Manufacturing Facility in Hangzhou, China",
+    "publisher": "Merck press release",
+    "year": 2013,
+    "url": "https://www.merck.com/news/merck-opens-new-manufacturing-facility-in-hangzhou-china/"
+  },
+  {
+    "id": "lilly-innovent-2015-original-alliance",
+    "authors": "Eli Lilly and Company",
+    "title": "Lilly and Innovent Biologics Announce a Strategic Alliance to Bring Potential Oncology Therapies to Patients in China and Around the World",
+    "publisher": "Eli Lilly Investor Relations / PR Newswire",
+    "year": 2015,
+    "url": "https://www.prnewswire.com/news-releases/lilly-and-innovent-biologics-announce-a-strategic-alliance-to-bring-potential-oncology-therapies-to-patients-in-china-and-around-the-world-300053590.html"
+  },
+  {
+    "id": "lilly-innovent-2015-expansion-pd1-bispecifics",
+    "authors": "Eli Lilly and Company",
+    "title": "Lilly and Innovent Biologics Expand Their Strategic Alliance to Include Immuno-Oncology Bispecific Antibodies in China and Globally",
+    "publisher": "Eli Lilly Investor Relations / PR Newswire",
+    "year": 2015,
+    "url": "https://www.prnewswire.com/news-releases/lilly-and-innovent-biologics-expand-their-strategic-alliance-to-include-immuno-oncology-bispecific-antibodies-in-china-and-globally-300157687.html"
+  },
+  {
+    "id": "fiercepharma-lilly-dumps-innovent-pd1-2022",
+    "authors": "Angus Liu",
+    "title": "Eli Lilly dumps Innovent's PD-1 after FDA rebuff, nixing high-profile Chinese cancer drug",
+    "publisher": "Fierce Pharma",
+    "year": 2022,
+    "url": "https://www.fiercepharma.com/pharma/eli-lilly-dumps-innovents-pd-1-after-fda-rebuff-nixing-poster-child-china-developed-cancer"
+  },
+  {
+    "id": "cancerletter-odac-sintilimab-14-1-vote",
+    "authors": "The Cancer Letter",
+    "title": "In a 14:1 vote, ODAC nixes a PD-1 drug developed in China; data not generalizable to U.S. population",
+    "publisher": "The Cancer Letter",
+    "year": 2022,
+    "url": "https://cancerletter.com/regulatory-news/20220211_1/"
+  },
+  {
+    "id": "prnewswire-fda-advisory-sintilimab-recommend-additional-data",
+    "authors": "Innovent Biologics / Eli Lilly",
+    "title": "FDA Advisory Committee Votes to Recommend Additional Data for Sintilimab Submission",
+    "publisher": "PR Newswire",
+    "year": 2022,
+    "url": "https://www.prnewswire.com/news-releases/fda-advisory-committee-votes-to-recommend-additional-data-for-sintilimab-submission-301480399.html"
+  },
+  {
+    "id": "fiercepharma-mazdutide-china-approval-2025",
+    "authors": "Fraiser Kansteiner",
+    "title": "With China approval, Lilly and Innovent's mazdutide breaks into new class for GLP-1 obesity drugs",
+    "publisher": "Fierce Pharma",
+    "year": 2025,
+    "url": "https://www.fiercepharma.com/pharma/china-approval-lilly-and-innovents-mazdutide-breaks-new-class-glp-1-obesity-drugs"
+  },
+  {
+    "id": "biospace-lilly-tirzepatide-china-obesity-2024",
+    "authors": "BioSpace",
+    "title": "Lilly Wins Chinese Approval for Tirzepatide in Obesity on Heels of Novo's Semaglutide",
+    "publisher": "BioSpace",
+    "year": 2024,
+    "url": "https://www.biospace.com/policy/lilly-wins-chinese-approval-for-tirzepatide-in-obesity-on-heels-of-novos-semaglutide"
+  },
+  {
+    "id": "biopharmadive-mounjaro-china-approval-may-2024",
+    "authors": "Bloomberg",
+    "title": "China Clears Eli Lilly's Weight Loss Drug Tirzepatide, Only For Diabetes",
+    "publisher": "Bloomberg",
+    "year": 2024,
+    "url": "https://www.bloomberg.com/news/articles/2024-05-21/china-clears-eli-lilly-s-weight-loss-drug-tirzepatide-only-for-diabetes"
+  },
+  {
+    "id": "fiercepharma-lilly-200m-suzhou-tirzepatide-expansion",
+    "authors": "Fierce Pharma",
+    "title": "Lilly plans $200M expansion in China to make tirzepatide meds",
+    "publisher": "Fierce Pharma",
+    "year": 2024,
+    "url": "https://www.fiercepharma.com/manufacturing/lillys-manufacturing-splurge-continues-200m-expansion-china"
+  },
+  {
+    "id": "lilly-innovent-2026-strategic-collaboration",
+    "authors": "Innovent Biologics / Eli Lilly",
+    "title": "Innovent Announces Strategic Collaboration with Lilly to Develop New Medicines Globally in Oncology and Immunology",
+    "publisher": "PR Newswire",
+    "year": 2026,
+    "url": "https://www.prnewswire.com/news-releases/innovent-announces-strategic-collaboration-with-lilly-to-develop-new-medicines-globally-in-oncology-and-immunology-302682009.html"
+  },
+  {
+    "id": "fiercebiotech-lilly-innovent-88b-2026",
+    "authors": "Fierce Biotech",
+    "title": "Lilly, Innovent pen $8.8B oncology, immunology collab that 'moves beyond traditional licensing'",
+    "publisher": "Fierce Biotech",
+    "year": 2026,
+    "url": "https://www.fiercebiotech.com/biotech/lilly-innovent-pen-88b-collab-moves-beyond-traditional-licensing"
+  },
+  {
+    "id": "biospace-laekna-lilly-lae102-2024",
+    "authors": "BioSpace",
+    "title": "Lilly Partners With Chinese Biotech Laekna to Advance Muscle-Sparing Obesity Treatment",
+    "publisher": "BioSpace",
+    "year": 2024,
+    "url": "https://www.biospace.com/business/lilly-partners-with-chinese-biotech-to-advance-muscle-sparing-obesity-treatment"
+  },
+  {
+    "id": "fiercepharma-lilly-ceo-china-commitment-biosecure",
+    "authors": "Fierce Pharma",
+    "title": "Lilly CEO reaffirms commitment to Chinese market amid US threat against local biotechs",
+    "publisher": "Fierce Pharma",
+    "year": 2024,
+    "url": "https://www.fiercepharma.com/pharma/lilly-ceo-reaffirms-commitment-chinese-market-amid-us-threat-against-local-biotechs"
+  },
+  {
+    "id": "lilly-q4-2025-results",
+    "authors": "Eli Lilly and Company",
+    "title": "Lilly reports fourth-quarter 2025 financial results and provides 2026 guidance",
+    "publisher": "Eli Lilly Investor Relations",
+    "year": 2026,
+    "url": "https://investor.lilly.com/news-releases/news-release-details/lilly-reports-fourth-quarter-2025-financial-results-and-provides"
+  },
+  {
+    "id": "lilly-shanghai-rd-center-opening",
+    "authors": "Eli Lilly and Company",
+    "title": "Lilly's Commitment to Global Innovation Reinforced with Opening of New Diabetes-Focused Research and Development Center in Shanghai",
+    "publisher": "Eli Lilly Investor Relations",
+    "year": 2012,
+    "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-commitment-global-innovation-reinforced-opening-new"
+  },
+  {
+    "id": "globaltimes-lilly-suzhou-third-insulin-plant",
+    "authors": "Global Times",
+    "title": "Eli Lilly to open a third insulin plant in Suzhou",
+    "publisher": "Global Times",
+    "year": 2014,
+    "url": "https://www.globaltimes.cn/content/850766.shtml"
+  },
+  {
+    "id": "astrazeneca-eccogene-2023",
+    "authors": "AstraZeneca",
+    "title": "AstraZeneca licenses novel agent for the treatment of cardiometabolic conditions and obesity",
+    "publisher": "AstraZeneca press release",
+    "year": 2023,
+    "url": "https://www.astrazeneca.com/media-centre/press-releases/2023/agreement-with-eccogene-for-clinical-stage-glp-1ra.html"
+  },
+  {
+    "id": "eccogene-astrazeneca-glp1-2023",
+    "authors": "Eccogene",
+    "title": "Eccogene Enters Exclusive License Agreement With AstraZeneca to Develop and Commercialize Small Molecule GLP-1 Receptor Agonist ECC5004 for Cardiometabolic Diseases",
+    "publisher": "PR Newswire",
+    "year": 2023,
+    "url": "https://www.prnewswire.com/news-releases/eccogene-enters-exclusive-license-agreement-with-astrazeneca-to-develop-and-commercialize-small-molecule-glp-1-receptor-agonist-ecc5004-for-cardiometabolic-diseases-301982778.html"
+  },
+  {
+    "id": "astrazeneca-gracell-2023",
+    "authors": "AstraZeneca",
+    "title": "AstraZeneca to acquire Gracell, furthering cell therapy ambition across oncology and autoimmune diseases",
+    "publisher": "AstraZeneca press release",
+    "year": 2023,
+    "url": "https://www.astrazeneca.com/media-centre/press-releases/2023/astrazeneca-to-acquire-gracell-furthering-cell-therapy-ambition-across-oncology-and-autoimmune-diseases.html"
+  },
+  {
+    "id": "fiercebiotech-astrazeneca-gracell-2023",
+    "authors": "Annalee Armstrong",
+    "title": "AstraZeneca pays $1B to take the wheel of Gracell's CAR-T 'fast car'",
+    "publisher": "Fierce Biotech",
+    "year": 2023,
+    "url": "https://www.fiercebiotech.com/biotech/astrazeneca-pays-1b-take-wheel-gracells-car-t-fast-car"
+  },
+  {
+    "id": "astrazeneca-cspc-obesity-2026",
+    "authors": "AstraZeneca",
+    "title": "AstraZeneca enters strategic collaboration with CSPC Pharmaceuticals focused on AI-enabled research",
+    "publisher": "AstraZeneca press release",
+    "year": 2026,
+    "url": "https://www.astrazeneca.com/media-centre/press-releases/2025/astrazeneca-enters-into-collaboration-with-cspc.html"
+  },
+  {
+    "id": "biopharmadive-astrazeneca-cspc-obesity-2026",
+    "authors": "Ned Pagliarulo",
+    "title": "AstraZeneca leans into obesity, striking wide-ranging alliance with China's CSPC",
+    "publisher": "BioPharma Dive",
+    "year": 2026,
+    "url": "https://www.biopharmadive.com/news/astrazeneca-obesity-deal-china-cspc-ai/810942/"
+  },
+  {
+    "id": "astrazeneca-fy2024-results",
+    "authors": "AstraZeneca",
+    "title": "Full Year and Q4 2024 results",
+    "publisher": "AstraZeneca / BusinessWire",
+    "year": 2025,
+    "url": "https://www.businesswire.com/news/home/20250205200649/en/AstraZenecas-Full-Year-and-Q4-2024-results"
+  },
+  {
+    "id": "biospace-astrazeneca-fy2024",
+    "authors": "BioSpace staff",
+    "title": "AstraZeneca's Full Year and Q4 2024 results",
+    "publisher": "BioSpace",
+    "year": 2025,
+    "url": "https://www.biospace.com/press-releases/astrazenecas-full-year-and-q4-2024-results"
+  },
+  {
+    "id": "fiercepharma-astrazeneca-china-detentions-2024",
+    "authors": "Angus Liu",
+    "title": "AstraZeneca staffers detained in China over patient data collection, drug imports: Bloomberg",
+    "publisher": "Fierce Pharma",
+    "year": 2024,
+    "url": "https://www.fiercepharma.com/pharma/astrazeneca-staffers-detained-china-over-patient-data-collection-drug-import-bloomberg"
+  },
+  {
+    "id": "cnn-astrazeneca-china-chief-2024",
+    "authors": "CNN Business",
+    "title": "Drugmaker AstraZeneca names new China chief to replace detained executive",
+    "publisher": "CNN",
+    "year": 2024,
+    "url": "https://www.cnn.com/2024/12/05/business/china-astrazeneca-detained-hnk-intl"
+  },
+  {
+    "id": "astrazeneca-iskra-reic-evp-international-2024",
+    "authors": "AstraZeneca",
+    "title": "AstraZeneca appoints Iskra Reic as Executive Vice President, International",
+    "publisher": "AstraZeneca press release",
+    "year": 2024,
+    "url": "https://www.astrazeneca.com/media-centre/press-releases/2024/astrazeneca-appoints-iskra-reic-as-executive-vice-president-international.html"
+  },
+  {
+    "id": "fiercepharma-az-china-indictment-2026",
+    "authors": "Angus Liu",
+    "title": "China indicts AstraZeneca and former exec Leon Wang over data, trade charges",
+    "publisher": "Fierce Pharma",
+    "year": 2026,
+    "url": "https://www.fiercepharma.com/pharma/china-indicts-astrazeneca-and-former-exec-leon-wang-over-data-trade-charges"
+  },
+  {
+    "id": "astrazeneca-2-5b-beijing-rnd-2025",
+    "authors": "AstraZeneca",
+    "title": "AstraZeneca to invest $2.5 billion in new global strategic R&D centre, biotech agreements and manufacturing in Beijing",
+    "publisher": "AstraZeneca press release",
+    "year": 2025,
+    "url": "https://www.astrazeneca.com/media-centre/press-releases/2025/astrazeneca-invests-2-and-half-bn-in-beijing-r-and-d-and-manufacturing.html"
+  },
+  {
+    "id": "fiercebiotech-astrazeneca-25b-china-2025",
+    "authors": "Angus Liu",
+    "title": "AstraZeneca details $2.5B investment in China's political center, funding R&D center, biotech pacts",
+    "publisher": "Fierce Biotech",
+    "year": 2025,
+    "url": "https://www.fiercebiotech.com/biotech/astrazeneca-details-25b-investment-chinas-political-center-funding-rd-center-biotech-pacts"
+  },
+  {
+    "id": "astrazeneca-15b-china-through-2030",
+    "authors": "AstraZeneca",
+    "title": "AstraZeneca plans to invest $15 billion in China through 2030 to pioneer the next-generation of innovative medicines",
+    "publisher": "AstraZeneca press release",
+    "year": 2026,
+    "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/astrazeneca-invests-15bn-in-china-through-2030.html"
+  },
+  {
+    "id": "biopharmadive-astrazeneca-cell-therapy-china-2026",
+    "authors": "Jonathan Gardner",
+    "title": "AstraZeneca to boost cell therapy capabilities with new China investment",
+    "publisher": "BioPharma Dive",
+    "year": 2026,
+    "url": "https://www.biopharmadive.com/news/astrazeneca-cell-therapy-china-shanghai-biotech/815159/"
+  },
+  {
+    "id": "astrazeneca-three-china-initiatives-2019",
+    "authors": "AstraZeneca",
+    "title": "AstraZeneca announces three large-scale initiatives in China to advance global medicine research and development",
+    "publisher": "AstraZeneca press release",
+    "year": 2019,
+    "url": "https://www.astrazeneca.com/media-centre/press-releases/2019/astrazeneca-announces-three-large-scale-initiatives-in-china-to-advance-global-medicine-research-and-development-061120119.html"
+  },
+  {
+    "id": "pharma-tech-astrazeneca-wuxi-plant",
+    "authors": "Pharmaceutical Technology",
+    "title": "AstraZeneca Pharmaceutical Manufacturing Plant, Wuxi, Shanghai, China",
+    "publisher": "Pharmaceutical Technology",
+    "year": 2015,
+    "url": "https://www.pharmaceutical-technology.com/projects/wuxi/"
+  },
+  {
+    "id": "biontech-fosun-strategic-alliance-2020",
+    "authors": "BioNTech",
+    "title": "BioNTech and Fosun Pharma form COVID-19 vaccine strategic alliance in China",
+    "publisher": "BioNTech Investor Relations",
+    "year": 2020,
+    "url": "https://investors.biontech.de/news-releases/news-release-details/biontech-and-fosun-pharma-form-covid-19-vaccine-strategic/"
+  },
+  {
+    "id": "biontech-fosun-china-supply-2020",
+    "authors": "BioNTech",
+    "title": "BioNTech and Fosun Pharma to Supply China with mRNA-based COVID-19 Vaccine",
+    "publisher": "BioNTech Investor Relations / GlobeNewswire",
+    "year": 2020,
+    "url": "https://investors.biontech.de/news-releases/news-release-details/biontech-and-fosun-pharma-supply-china-mrna-based-covid-19/"
+  },
+  {
+    "id": "biontech-fosun-hk-comirnaty-full-approval-2022",
+    "authors": "BioNTech",
+    "title": "BioNTech and Fosun Pharma Announce Full Regulatory Approval of their Mono- and Bivalent COVID-19 Vaccine COMIRNATY in Individuals 12 Years and Older in Hong Kong",
+    "publisher": "BioNTech Investor Relations",
+    "year": 2022,
+    "url": "https://investors.biontech.de/news-releases/news-release-details/biontech-and-fosun-pharma-announce-full-regulatory-approval/"
+  },
+  {
+    "id": "fortune-biontech-china-no-approval-2021",
+    "authors": "Fortune",
+    "title": "China has 100 million doses of BioNTech COVID vaccine — why hasn't it approved the jab?",
+    "publisher": "Fortune",
+    "year": 2021,
+    "url": "https://fortune.com/2021/03/20/biontech-covid-vaccine-china-approval-fosun/"
+  },
+  {
+    "id": "scmp-fosun-biontech-jv-1b-doses-2021",
+    "authors": "South China Morning Post",
+    "title": "Fosun Pharma unit, BioNTech to form joint venture to make up to 1 billion doses of Covid-19 vaccine in China",
+    "publisher": "South China Morning Post",
+    "year": 2021,
+    "url": "https://www.scmp.com/business/companies/article/3132834/fosun-pharma-unit-biontech-form-joint-venture-make-1-billion"
+  },
+  {
+    "id": "biontech-shanghai-office-2022",
+    "authors": "BioNTech",
+    "title": "Sites and subsidiaries — Shanghai (BioNTech's first regional office in East Asia, opened June 2022)",
+    "publisher": "BioNTech corporate website",
+    "year": 2022,
+    "url": "https://www.biontech.com/int/en/home/about/sites-and-subsidiaries.html"
+  },
+  {
+    "id": "biontech-oncoc4-strategic-collab-2023",
+    "authors": "BioNTech",
+    "title": "BioNTech and OncoC4 Announce Strategic Collaboration to Co-Develop and Commercialize Novel Checkpoint Antibody in Multiple Solid Tumor Indications",
+    "publisher": "BioNTech Investor Relations",
+    "year": 2023,
+    "url": "https://investors.biontech.de/news-releases/news-release-details/biontech-and-oncoc4-announce-strategic-collaboration-co-develop"
+  },
+  {
+    "id": "biontech-medilink-her3-adc-2023",
+    "authors": "MediLink Therapeutics",
+    "title": "MediLink Therapeutics announces a multi-target TMALIN ADC technology platform license agreement with BioNTech, expanding their global strategic partnership",
+    "publisher": "PR Newswire",
+    "year": 2024,
+    "url": "https://www.prnewswire.com/news-releases/medilink-therapeutics-announces-a-multi-target-tmalin-adc-technology-platform-license-agreement-with-biontech-expanding-their-global-strategic-partnership-302155699.html"
+  },
+  {
+    "id": "biontech-acquire-biotheus-2024",
+    "authors": "BioNTech",
+    "title": "BioNTech to Acquire Biotheus to Boost Oncology Strategy",
+    "publisher": "BioNTech Investor Relations",
+    "year": 2024,
+    "url": "https://investors.biontech.de/news-releases/news-release-details/biontech-acquire-biotheus-boost-oncology-strategy/"
+  },
+  {
+    "id": "biontech-completes-biotheus-acquisition-2025",
+    "authors": "BioNTech",
+    "title": "BioNTech Completes Acquisition of Biotheus",
+    "publisher": "BioNTech Investor Relations",
+    "year": 2025,
+    "url": "https://investors.biontech.de/news-releases/news-release-details/biontech-completes-acquisition-biotheus"
+  },
+  {
+    "id": "naturebt-biontech-china-buy-2024",
+    "authors": "Nature Biotechnology",
+    "title": "BioNTech boosts oncology pipeline with China buy",
+    "publisher": "Nature Biotechnology",
+    "year": 2024,
+    "url": "https://www.nature.com/articles/s41587-024-02518-3"
+  },
+  {
+    "id": "biontech-bms-bnt327-partnership-2025",
+    "authors": "BioNTech",
+    "title": "BioNTech and Bristol Myers Squibb Announce Global Strategic Partnership to Co-Develop and Co-Commercialize Next-generation Bispecific Antibody Candidate BNT327 Broadly for Multiple Solid Tumor Types",
+    "publisher": "BioNTech Investor Relations",
+    "year": 2025,
+    "url": "https://investors.biontech.de/news-releases/news-release-details/biontech-and-bristol-myers-squibb-announce-global-strategic/"
+  },
+  {
+    "id": "biontech-fy2024-results",
+    "authors": "BioNTech",
+    "title": "BioNTech Announces Fourth Quarter and Full Year 2024 Financial Results and Corporate Update",
+    "publisher": "BioNTech Investor Relations / GlobeNewswire",
+    "year": 2025,
+    "url": "https://investors.biontech.de/news-releases/news-release-details/biontech-announces-fourth-quarter-and-full-year-2024-financial"
+  },
+  {
+    "id": "pharmaboardroom-biontech-china-oncology-bet",
+    "authors": "PharmaBoardroom",
+    "title": "BioNTech: Betting Big on Chinese Oncology Innovation",
+    "publisher": "PharmaBoardroom",
+    "year": 2025,
+    "url": "https://pharmaboardroom.com/articles/biontech-betting-big-on-chinese-oncology-innovation/"
+  },
+  {
+    "id": "fiercepharma-jj-legend-buyout-offer-2024",
+    "authors": "Angus Liu",
+    "title": "J&J's CAR-T partner Legend Biotech reportedly receives buyout offer",
+    "publisher": "Fierce Pharma",
+    "year": 2024,
+    "url": "https://www.fiercepharma.com/pharma/jjs-car-t-partner-legend-biotech-reportedly-receives-buyout-offer"
+  },
+  {
+    "id": "fiercepharma-beigene-legend-sell-2025",
+    "authors": "Angus Liu",
+    "title": "With BIOSECURE in limbo, should BeiGene or Legend sell itself in 2025? Analysts weigh in",
+    "publisher": "Fierce Pharma",
+    "year": 2025,
+    "url": "https://www.fiercepharma.com/pharma/should-beigene-and-legend-sell-themselves-2025"
+  },
+  {
+    "id": "biopharmadive-jnj-legend-2017-deal",
+    "authors": "Ned Pagliarulo",
+    "title": "J&J enters CAR-T field with $350M Legend deal",
+    "publisher": "BioPharma Dive",
+    "year": 2017,
+    "url": "https://www.biopharmadive.com/news/janssen-china-legend-biotech-car-t-deal-multiple-myeloma/513713/"
+  },
+  {
+    "id": "jnj-legend-2017-collab-press-release",
+    "authors": "Johnson & Johnson",
+    "title": "Janssen Enters Worldwide Collaboration and License Agreement with Chinese Company Legend Biotech to Develop Investigational CAR-T Anti-Cancer Therapy",
+    "publisher": "Johnson & Johnson",
+    "year": 2017,
+    "url": "https://www.jnj.com/media-center/press-releases/janssen-enters-worldwide-collaboration-and-license-agreement-with-chinese-company-legend-biotech-to-develop-investigational-car-t-anti-cancer-therapy"
+  },
+  {
+    "id": "jnj-fy2025-q4-results",
+    "authors": "Johnson & Johnson",
+    "title": "Johnson & Johnson reports Q4 and Full-Year 2025 results",
+    "publisher": "Johnson & Johnson Investor Relations",
+    "year": 2026,
+    "url": "https://investor.jnj.com/investor-news/news-details/2026/Johnson--Johnson-reports-Q4-and-Full-Year-2025-results/default.aspx"
+  },
+  {
+    "id": "jnj-2024-10k",
+    "authors": "Johnson & Johnson",
+    "title": "Johnson & Johnson 2024 Annual Report (Form 10-K)",
+    "publisher": "U.S. Securities and Exchange Commission",
+    "year": 2025,
+    "url": "https://www.sec.gov/Archives/edgar/data/200406/000130817925000085/jnj013333-ars.pdf"
+  },
+  {
+    "id": "xian-janssen-jnj-family",
+    "authors": "Xian Janssen Pharmaceutical Ltd.",
+    "title": "Johnson & Johnson Family of Companies — Xian Janssen overview",
+    "publisher": "Xian Janssen / Johnson & Johnson China",
+    "year": 2024,
+    "url": "https://www.xian-janssen.com.cn/en/about-xian-janssen/jnj-family"
+  },
+  {
+    "id": "jnj-jlabs-shanghai-2019-launch",
+    "authors": "Johnson & Johnson",
+    "title": "JLABS @ Shanghai: Johnson & Johnson's New Healthcare Start-Up Incubator",
+    "publisher": "Johnson & Johnson",
+    "year": 2019,
+    "url": "https://www.jnj.com/innovation/jlabs-shanghai-johnson-johnsons-new-healthcare-start-up-incubator"
+  },
+  {
+    "id": "fiercepharma-jj-china-headwind-2025",
+    "authors": "Robert Barrie",
+    "title": "China to remain a headwind in 2025 for J&J MedTech, CFO says",
+    "publisher": "Medical Device Network",
+    "year": 2025,
+    "url": "https://www.medicaldevice-network.com/news/china-to-remain-a-headwind-in-2025-for-jj-medtech-cfo-says/"
+  },
+  {
+    "id": "biospace-jnj-china-collaborations",
+    "authors": "BioSpace staff",
+    "title": "J&J, Biopharma Turn to China for Innovative Collaborations",
+    "publisher": "BioSpace",
+    "year": 2022,
+    "url": "https://www.biospace.com/johnson-and-johnson-looks-east-for-collaborations"
+  },
+  {
+    "id": "biospace-pfizer-3sbio-6b-pd1-vegf-2025",
+    "authors": "BioSpace",
+    "title": "Pfizer Puts $6B on the Line for 3SBio's PD-1/VEGF Antibody",
+    "publisher": "BioSpace",
+    "year": 2025,
+    "url": "https://www.biospace.com/business/pfizer-puts-6b-on-the-line-for-3sbios-pd-1-vegf-antibody"
+  },
+  {
+    "id": "biopharmadive-pfizer-3sbio-pd1-vegf-2025",
+    "authors": "BioPharma Dive",
+    "title": "Pfizer buys into PD-1/VEGF competition with 3SBio deal",
+    "publisher": "BioPharma Dive",
+    "year": 2025,
+    "url": "https://www.biopharmadive.com/news/pfizer-3sbio-pd1-vegf-cancer-licensing-deal/748559/"
+  },
+  {
+    "id": "bloomberg-pfizer-3sbio-record-license-2025",
+    "authors": "Bloomberg",
+    "title": "Pfizer Licenses 3SBio Cancer Drug From China for Record $1.2 Billion",
+    "publisher": "Bloomberg",
+    "year": 2025,
+    "url": "https://www.bloomberg.com/news/articles/2025-05-20/pfizer-licenses-3sbio-cancer-drug-for-record-1-2-billion"
+  },
+  {
+    "id": "pharmaphorum-pfizer-cstone-sugemalimab-china",
+    "authors": "pharmaphorum",
+    "title": "Pfizer picks up rights to CStone's cancer immunotherapy sugemalimab in China",
+    "publisher": "pharmaphorum",
+    "year": 2020,
+    "url": "https://pharmaphorum.com/news/pfizer-picks-up-rights-to-cstones-cancer-immunotherapy-sugemalimab-in-china"
+  },
+  {
+    "id": "cstone-pfizer-sugemalimab-nmpa-stage3-nsclc-2022",
+    "authors": "CStone Pharmaceuticals / Pfizer",
+    "title": "CStone and Pfizer announce NMPA approval of sugemalimab in patients with unresectable stage III non-small cell lung cancer",
+    "publisher": "PR Newswire / CStone Pharmaceuticals",
+    "year": 2022,
+    "url": "https://www.prnewswire.com/news-releases/cstone-and-pfizer-announce-nmpa-approval-of-sugemalimab-in-patients-with-unresectable-stage-iii-non-small-cell-lung-cancer-301561552.html"
+  },
+  {
+    "id": "fiercepharma-pfizer-completes-seagen-43b-2023",
+    "authors": "Fierce Pharma",
+    "title": "Done deal: Pfizer completes $43B acquisition of Seagen, doubling its oncology pipeline",
+    "publisher": "Fierce Pharma",
+    "year": 2023,
+    "url": "https://www.fiercepharma.com/pharma/done-deal-pfizer-completes-43b-acquisition-seagen-doubling-its-oncology-pipeline"
+  },
+  {
+    "id": "pfizer-receives-regulatory-approvals-seagen-2023",
+    "authors": "Pfizer",
+    "title": "Pfizer Receives All Required Regulatory Approvals to Complete the Acquisition of Seagen",
+    "publisher": "Pfizer",
+    "year": 2023,
+    "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-receives-all-required-regulatory-approvals-complete"
+  },
+  {
+    "id": "biospace-pfizer-1b-china-2030-2024",
+    "authors": "BioSpace",
+    "title": "Pfizer Makes $1B Commitment in China to Boost Innovation, Targets Chinese Market",
+    "publisher": "BioSpace",
+    "year": 2024,
+    "url": "https://www.biospace.com/business/pfizer-makes-1b-commitment-in-china-to-boost-innovation-target-chinese-market"
+  },
+  {
+    "id": "pharmaboardroom-pfizer-1b-china-2024",
+    "authors": "PharmaBoardroom",
+    "title": "China: Pfizer Makes USD 1 Billion Commitment to China; WuXi AppTec's Revenues Continue to Decline",
+    "publisher": "PharmaBoardroom",
+    "year": 2024,
+    "url": "https://pharmaboardroom.com/articles/china-pfizer-makes-usd-1-billion-commitment-to-china-wuxi-apptecs-revenues-continue-to-decline/"
+  },
+  {
+    "id": "biopharmadive-pfizer-yaopharma-obesity-2025",
+    "authors": "BioPharma Dive",
+    "title": "Pfizer dips into China for another try at an obesity pill",
+    "publisher": "BioPharma Dive",
+    "year": 2025,
+    "url": "https://www.biopharmadive.com/news/pfizer-yaopharma-fosun-obesity-pill-deal-china/807375/"
+  },
+  {
+    "id": "fiercepharma-pfizer-keyuan-prevenar-2023",
+    "authors": "Fierce Pharma",
+    "title": "Pfizer taps Shanghai Pharma's Keyuan to commercialize Prevenar 13 in China",
+    "publisher": "Fierce Pharma",
+    "year": 2023,
+    "url": "https://www.fiercepharma.com/pharma/pfizer-gsk-sanofi-biogen-big-pharma-reworks-china-strategy-and-job-cuts-are-part-it"
+  },
+  {
+    "id": "pfizer-china-overview-page",
+    "authors": "Pfizer China",
+    "title": "Pfizer China Overview",
+    "publisher": "Pfizer China",
+    "year": 2024,
+    "url": "https://www.pfizer.com.cn/en/about-en/pfizer-china-en/china-overview-en"
+  },
+  {
+    "id": "pharmatimes-pfizer-wuhan-rd-2010",
+    "authors": "PharmaTimes",
+    "title": "Pfizer to build R&D facility in Wuhan, China",
+    "publisher": "PharmaTimes",
+    "year": 2010,
+    "url": "https://pharmatimes.com/news/pfizer_to_build_r_and_d_facility_in_wuhan_china_984211/"
+  },
+  {
+    "id": "pharmaceutical-technology-pfizer-dalian-plant",
+    "authors": "Pharmaceutical Technology",
+    "title": "Pfizer New Manufacturing Facility, Dalian",
+    "publisher": "Pharmaceutical Technology",
+    "year": 2010,
+    "url": "https://www.pharmaceutical-technology.com/projects/pfizer-dalian/"
+  },
+  {
+    "id": "hillhouse-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "Hillhouse Investment",
+    "publisher": "Wikipedia",
+    "year": 2025,
+    "url": "https://en.wikipedia.org/wiki/Hillhouse_Investment"
+  },
+  {
+    "id": "qiming-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "Qiming Venture Partners",
+    "publisher": "Wikipedia",
+    "year": 2025,
+    "url": "https://en.wikipedia.org/wiki/Qiming_Venture_Partners"
+  },
+  {
+    "id": "lav-firm-overview",
+    "authors": "Lilly Asia Ventures",
+    "title": "About — Lilly Asia Ventures (firm overview)",
+    "publisher": "Lilly Asia Ventures",
+    "year": 2025,
+    "url": "https://www.lillyasia.com/"
+  },
+  {
+    "id": "hongshan-sequoia-split-2023",
+    "authors": "Lin, L. & Westcott, R.",
+    "title": "Sequoia Splits Into Three: U.S./Europe (Sequoia Capital), India/SE Asia (Peak XV), and China (HongShan)",
+    "publisher": "Wall Street Journal",
+    "year": 2023,
+    "url": "https://www.wsj.com/articles/sequoia-china-india-split-90168bda"
+  },
+  {
+    "id": "fudan-cancer-hospital-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "Fudan University Shanghai Cancer Center",
+    "publisher": "Wikipedia",
+    "year": 2025,
+    "url": "https://en.wikipedia.org/wiki/Fudan_University_Shanghai_Cancer_Center"
+  },
+  {
+    "id": "nibs-beijing-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "National Institute of Biological Sciences, Beijing",
+    "publisher": "Wikipedia",
+    "year": 2025,
+    "url": "https://en.wikipedia.org/wiki/National_Institute_of_Biological_Sciences,_Beijing"
+  },
+  {
+    "id": "shanghaitech-ihuman-about",
+    "authors": "iHuman Institute",
+    "title": "About iHuman Institute, ShanghaiTech University",
+    "publisher": "ShanghaiTech University",
+    "year": 2024,
+    "url": "https://ihuman.shanghaitech.edu.cn/About"
+  },
+  {
+    "id": "hkex-18a-cumulative-2024",
+    "authors": "Hong Kong Exchanges and Clearing",
+    "title": "HKEX Biotech Hub — Listings under Chapter 18A (2024 review)",
+    "publisher": "HKEX",
+    "year": 2024,
+    "url": "https://www.hkex.com.hk/Listing/Sectors/Biotech-Hub"
+  },
+  {
+    "id": "star-market-biotech-listings-2024",
+    "authors": "EY China",
+    "title": "Five years of STAR Market: a review of biotech listings",
+    "publisher": "EY China",
+    "year": 2024,
+    "url": "https://www.ey.com/en_cn/ipo/star-market-five-years"
+  },
+  {
+    "id": "nhsa-establishment-2018",
+    "authors": "China State Council",
+    "title": "State Council institutional reform — establishment of NHSA",
+    "publisher": "Xinhua / english.www.gov.cn",
+    "year": 2018,
+    "url": "https://english.www.gov.cn/state_council/ministries/2018/03/26/content_281476080422790.htm"
+  },
+  {
+    "id": "ndrc-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "National Development and Reform Commission",
+    "publisher": "Wikipedia",
+    "year": 2025,
+    "url": "https://en.wikipedia.org/wiki/National_Development_and_Reform_Commission"
+  },
+  {
+    "id": "most-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "Ministry of Science and Technology of the People's Republic of China",
+    "publisher": "Wikipedia",
+    "year": 2025,
+    "url": "https://en.wikipedia.org/wiki/Ministry_of_Science_and_Technology_(China)"
+  },
+  {
+    "id": "nhc-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "National Health Commission",
+    "publisher": "Wikipedia",
+    "year": 2025,
+    "url": "https://en.wikipedia.org/wiki/National_Health_Commission"
+  },
+  {
+    "id": "fda-history-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "Food and Drug Administration",
+    "publisher": "Wikipedia",
+    "year": 2025,
+    "url": "https://en.wikipedia.org/wiki/Food_and_Drug_Administration"
+  },
+  {
+    "id": "ema-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "European Medicines Agency",
+    "publisher": "Wikipedia",
+    "year": 2025,
+    "url": "https://en.wikipedia.org/wiki/European_Medicines_Agency"
+  },
+  {
+    "id": "ich-overview",
+    "authors": "International Council for Harmonisation",
+    "title": "About ICH",
+    "publisher": "ICH",
+    "year": 2024,
+    "url": "https://www.ich.org/page/mission"
+  },
+  {
+    "id": "who-history",
+    "authors": "World Health Organization",
+    "title": "About WHO",
+    "publisher": "World Health Organization",
+    "year": 2024,
+    "url": "https://www.who.int/about"
+  },
+  {
+    "id": "us-congress-overview",
+    "authors": "United States Senate",
+    "title": "United States Congress — overview",
+    "publisher": "Congress.gov",
+    "year": 2024,
+    "url": "https://www.congress.gov/"
   }
 ]

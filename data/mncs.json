@@ -5,17 +5,247 @@
     "founded": 1980,
     "headquarters": "Thousand Oaks, California",
     "category": "mnc_pharma",
-    "shortDescription": "Took 20.5% stake in BeiGene for $2.7B (2019) plus joint development of 20 oncology assets",
-    "signature": "BeiGene strategic alliance (2019)"
+    "shortDescription": "Established China affiliate in 2012; in 2019 took a 20.5% stake in BeiGene for $2.7B and a 20-asset oncology co-development pact, anchoring the first MNC-Chinese-biotech strategic alliance of its scale.",
+    "signature": "BeiGene strategic alliance (2019)",
+    "narrativeHook": "Amgen's 2019 BeiGene investment was the moment a top-10 global biopharma bought a fifth of a Chinese biotech and handed it the China launch of three marketed oncology drugs plus 20 pipeline assets — the template every later MNC-China deal has been measured against.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "mncContext": {
+      "chinaArrival": "China affiliate established 2012 (Beijing/Shanghai); Asia R&D Center opened on ShanghaiTech campus 2014",
+      "chinaHeadcount": 1000,
+      "notableDeals": [
+        {
+          "partner": "beigene",
+          "year": 2019,
+          "type": "equity",
+          "valueBillions": 2.7,
+          "asset": "20.5% equity stake + co-development of 20 oncology assets; BeiGene to commercialize XGEVA, KYPROLIS, BLINCYTO in China",
+          "status": "Closed Jan 2020; Amgen ownership ~18% by Sept 2022, gradually diluted; relinquished BeiGene board seat Jan 2023; remains BeOne's largest shareholder as of 2025"
+        },
+        {
+          "partner": "beigene",
+          "year": 2025,
+          "type": "collaboration",
+          "asset": "Imdelltra (tarlatamab, DLL3 BiTE) — BeOne's ~7% royalty on Amgen ex-China sales monetized to Royalty Pharma for $885M upfront (up to $950M)",
+          "status": "Aug 2025 — flowed from the original 2019 pipeline pact"
+        },
+        {
+          "partner": "Five Prime Therapeutics (US; bemarituzumab China rights held by Zai Lab)",
+          "year": 2021,
+          "type": "acquisition",
+          "valueBillions": 1.9,
+          "asset": "Bemarituzumab (FGFR2b mAb) for gastric cancer — Amgen retains ex-China rights and royalties on Zai Lab's Greater China sales",
+          "status": "Closed 2021"
+        },
+        {
+          "partner": "Simcere Pharmaceutical Group",
+          "year": 2017,
+          "type": "collaboration",
+          "asset": "Co-development and commercialization of four undisclosed inflammation/oncology biosimilars in China",
+          "status": "Active"
+        },
+        {
+          "partner": "Fosun Pharma",
+          "year": 2022,
+          "type": "license-out",
+          "asset": "Otezla (apremilast) and Parsabiv (etelcalcetide) — China commercialization rights",
+          "status": "Otezla NMPA-approved Aug 2021; Parsabiv under NMPA review at deal signing"
+        }
+      ],
+      "hookFact": "Amgen's BeiGene stake was the largest single MNC equity bet on a Chinese biotech ever made — and remained intact (largest shareholder) through BeiGene's 2025 rebrand to BeOne Medicines and Swiss redomicile."
+    },
+    "timeline": [
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "Established China affiliate (2012); offices in Beijing and Shanghai",
+        "note": "First direct Amgen presence in China after decades of importing biologics"
+      },
+      {
+        "chapterId": "innovator-generation",
+        "status": "Opened Asia R&D Center on ShanghaiTech University campus (Nov 2014); launched Repatha (2018) and Prolia (2018) in China",
+        "note": "Amgen's only multi-disciplinary research lab in Asia-Pacific"
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "Signed Simcere biosimilars co-development pact (Sep 2017); Repatha NMPA approval (Jan 2019)",
+        "note": "Building China commercial muscle ahead of the BeiGene deal"
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Strategic collaboration with BeiGene announced Oct 31, 2019: 20.5% stake for $2.7B + 20-asset oncology co-development; closed Jan 2020. XGEVA, KYPROLIS, BLINCYTO licensed to BeiGene for China commercialization with 50/50 P&L share",
+        "note": "Anchor MNC deal of the chapter; Amgen took a board seat"
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "Acquired Five Prime ($1.9B, 2021), inheriting royalty stream on Zai Lab's bemarituzumab China rights; Fosun Pharma deal (Jun 2022) for Otezla/Parsabiv China commercialization; Amgen China hits 1,000+ employees, 100+ cities (10-yr anniversary, 2022)",
+        "note": "China revenue-share model maturing alongside NRDL/VBP pressures"
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Relinquished BeiGene board seat (Jan 2023), shifting accounting from equity-method toward fair-value treatment; ownership stake gradually diluted from 20.5% toward ~5%-floor",
+        "note": "Quiet unwind even as commercial collaboration continued"
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "Remained BeOne's largest shareholder through the May 2025 Swiss redomicile and rebrand from BeiGene; in Aug 2025 BeOne monetized its ~7% Imdelltra ex-China royalty to Royalty Pharma for $885M upfront, validating the 2019 pact's pipeline economics",
+        "note": "Imdelltra (tarlatamab) — DLL3 BiTE — was one of the 20 pipeline assets covered by the 2019 deal"
+      }
+    ],
+    "sources": [
+      "amgen-beigene-collab-2019",
+      "amgen-china-10-years-2022",
+      "amgen-asia-rd-center-shanghaitech-2014",
+      "amgen-simcere-biosimilars-2017",
+      "amgen-five-prime-acquisition-2021",
+      "fosun-amgen-otezla-parsabiv-2022",
+      "amgen-repatha-nmpa-2019",
+      "fiercepharma-beigene-amgen-cancer-china-2020",
+      "biopharmadive-amgen-beigene-china-ambitions-2019",
+      "biopharmadive-royalty-beone-imdelltra-2025",
+      "fiercepharma-beone-royalty-imdelltra-2025",
+      "beone-launch-bw-2025"
+    ]
   },
   {
     "id": "merck-co",
-    "name": "Merck & Co.",
+    "name": "Merck & Co. (MSD)",
     "founded": 1891,
     "headquarters": "Rahway, NJ",
     "category": "mnc_pharma",
-    "shortDescription": "Multi-billion ADC partnership with Kelun; PD-1/VEGF bispecific deal with LaNova for $3.3B (2024)",
-    "signature": "Kelun ADC + LaNova bispecific"
+    "shortDescription": "Most active MNC buyer of Chinese biotech assets — anchored the China ADC story via Kelun-Biotech and answered Akeso/Summit's PD-1xVEGF challenge by licensing LaNova's LM-299.",
+    "signature": "Kelun ADC franchise + LaNova bispecific + Hansoh GLP-1 + Hengrui Lp(a)",
+    "narrativeHook": "Facing Keytruda's 2028 patent cliff, Rob Davis turned Merck into the loudest China-licensing voice in big pharma: the December 2022 $9.3B Kelun-Biotech ADC mega-deal validated Chinese ADC platforms globally, and the November 2024 $3.3B LaNova bispecific deal showed an MNC willing to bet on a Chinese answer to its own blockbuster.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "mncContext": {
+      "chinaArrival": "Beijing R&D headquarters established 2011; Hangzhou packaging/manufacturing plant opened 2013",
+      "chinaHeadcount": 5000,
+      "chinaRevenueBillions": 3.5,
+      "chinaRevenueYear": 2024,
+      "notableDeals": [
+        {
+          "partner": "kelun-bio",
+          "year": 2022,
+          "asset": "SKB264 / sacituzumab tirumotecan (MK-2870) — TROP2 ADC",
+          "type": "license-in",
+          "valueBillions": 1.4,
+          "status": "May 2022 ex-China license: $47M upfront + up to ~$1.36B milestones; first NMPA approval (3L+ TNBC) Nov 2024, second NMPA nod (EGFRm NSCLC) Mar 2025"
+        },
+        {
+          "partner": "kelun-bio",
+          "year": 2022,
+          "asset": "Second undisclosed ADC candidate",
+          "type": "license-in",
+          "valueBillions": 0.9,
+          "status": "July 2022: $35M upfront + up to ~$901M milestones"
+        },
+        {
+          "partner": "kelun-bio",
+          "year": 2022,
+          "asset": "Seven preclinical ADC candidates (mega-expansion)",
+          "type": "license-in",
+          "valueBillions": 9.3,
+          "status": "Dec 22, 2022: $175M upfront + up to $9.3B milestones — the headline China ADC deal of the cycle"
+        },
+        {
+          "partner": "lanova",
+          "year": 2024,
+          "asset": "LM-299 — PD-1 x VEGF bispecific antibody",
+          "type": "license-in",
+          "valueBillions": 3.3,
+          "status": "Nov 2024: $588M upfront + up to ~$2.7B milestones (incl. $300M tech-transfer); closed Q1 2025; Merck's strategic answer to Akeso/Summit ivonescimab"
+        },
+        {
+          "partner": "hansoh",
+          "year": 2024,
+          "asset": "HS-10535 — preclinical oral small-molecule GLP-1 receptor agonist",
+          "type": "license-in",
+          "valueBillions": 2.0,
+          "status": "Dec 2024: $112M upfront + up to $1.9B milestones; Merck's entry into oral obesity"
+        },
+        {
+          "partner": "hengrui",
+          "year": 2025,
+          "asset": "HRS-5346 — oral Lp(a) inhibitor (Phase 2 in China)",
+          "type": "license-in",
+          "valueBillions": 2.0,
+          "status": "Mar 25, 2025: $200M upfront + up to ~$1.77B milestones; ex-Greater-China rights"
+        }
+      ],
+      "hookFact": "From May 2022 to March 2025 Merck signed six China-origin licensing deals worth a headline ~$19B in biobucks — more than any other MNC, and the bulk of it pre-Phase 3."
+    },
+    "timeline": [
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "Establishes MSD R&D Asia headquarters in Beijing (2011) and a $120M packaging/manufacturing plant in Hangzhou (opened 2013) to localize Keytruda and Gardasil for Greater China.",
+        "note": "China headcount grows past 5,000 across Beijing R&D, Shanghai commercial HQ and Hangzhou plant."
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "Three Kelun-Biotech ADC deals in eight months: May 2022 SKB264/sac-TMT ex-China license ($47M up + up to $1.36B); July 2022 second ADC ($35M up + up to ~$901M); Dec 22, 2022 seven-ADC mega-collaboration ($175M up + up to $9.3B) — the largest China-origin biotech deal to date.",
+        "note": "Sac-TMT becomes MK-2870, Merck's TROP2 contender against Gilead's Trodelvy."
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Nov 14, 2024 LaNova LM-299 PD-1xVEGF bispecific license ($588M up + up to $2.7B) signals MNCs racing to match Akeso/Summit ivonescimab. Dec 18, 2024 Hansoh HS-10535 oral GLP-1 license ($112M up + up to $1.9B) extends incretin franchise.",
+        "note": "Gardasil China sales fall sharply in H2 2024 amid domestic 9-valent HPV competition; Merck pauses China shipments Feb 2025."
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "Mar 25, 2025 Hengrui HRS-5346 oral Lp(a) license ($200M up + up to $1.77B). LM-299 deal closes Q1 2025. CEO Rob Davis frames Keytruda 2028 LOE as 'more of a hill than a cliff' and continues prioritizing China-sourced BD up to ~$15B per deal.",
+        "note": "Sac-TMT (MK-2870) wins second NMPA approval (EGFRm NSCLC) Mar 2025; Phase 3 readouts ongoing."
+      }
+    ],
+    "milestones": [
+      {
+        "year": 2011,
+        "label": "MSD R&D Asia headquarters opens in Beijing"
+      },
+      {
+        "year": 2013,
+        "label": "$120M Hangzhou packaging/manufacturing plant opens (HEDA)"
+      },
+      {
+        "year": 2022,
+        "label": "Kelun-Biotech SKB264 (TROP2 ADC) ex-China license — $47M up, up to ~$1.36B (May)"
+      },
+      {
+        "year": 2022,
+        "label": "Kelun-Biotech seven-ADC mega-deal — $175M up, up to $9.3B (Dec 22)"
+      },
+      {
+        "year": 2024,
+        "label": "LaNova LM-299 PD-1xVEGF bispecific license — $588M up, up to ~$2.7B (Nov 14)"
+      },
+      {
+        "year": 2024,
+        "label": "Hansoh HS-10535 oral GLP-1 license — $112M up, up to $1.9B (Dec 18)"
+      },
+      {
+        "year": 2025,
+        "label": "Hengrui HRS-5346 oral Lp(a) license — $200M up, up to ~$1.77B (Mar 25)"
+      }
+    ],
+    "sources": [
+      "merck-kelun-adc-deal-press",
+      "fiercebiotech-merck-kelun-93b-third-deal",
+      "fiercebiotech-merck-kelun-second-adc-deal",
+      "biopharmadive-merck-kelun-adc",
+      "pharmaphorum-merck-kelun-skb264-2022",
+      "merck-lanova-2024",
+      "merck-lanova-closing-2025",
+      "biopharmadive-merck-lanova-2024",
+      "biospace-merck-lanova-3b-2024",
+      "merck-hansoh-hs10535-glp1",
+      "biospace-merck-hansoh-2b-glp1",
+      "merck-bw-merck-enters-exclusive-license-agreement",
+      "biopharmadive-merck-hengrui-lpa-2025",
+      "merck-2024-fy-results",
+      "fiercepharma-merck-gardasil-china-pause-2025",
+      "fiercepharma-merck-davis-keytruda-loe-hill",
+      "merck-msd-rd-asia-beijing-2011",
+      "merck-hangzhou-plant-opening-2013"
+    ]
   },
   {
     "id": "eli-lilly",
@@ -23,8 +253,177 @@
     "founded": 1876,
     "headquarters": "Indianapolis",
     "category": "mnc_pharma",
-    "shortDescription": "Innovent partnership template — co-developed Tyvyt (sintilimab) for China commercialization",
-    "signature": "Innovent strategic alliance"
+    "shortDescription": "Innovent's longest-running MNC partner — co-developed Tyvyt (sintilimab), licensed mazdutide TO Innovent in 2019, and in 2026 signed a $350M / $8.5B oncology-immunology mega-collaboration.",
+    "signature": "Innovent partnership saga + mazdutide + Suzhou GLP-1 build",
+    "narrativeHook": "Lilly's Innovent relationship is the most two-way MNC alliance in Chinese biotech: licensee of sintilimab (and victim of the FDA's 14-1 ODAC vote in 2022), out-licensor of mazdutide (now the world's first GCG/GLP-1 dual agonist), and again in 2026 the partner of choice for an $8.5B follow-on collaboration.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "mncContext": {
+      "chinaArrival": "First Shanghai office 1918; re-entered post-reform 1993; Suzhou insulin plant established 1996",
+      "chinaHeadcount": 3200,
+      "chinaRevenueBillions": 0.917,
+      "chinaRevenueYear": 2025,
+      "notableDeals": [
+        {
+          "partner": "innovent",
+          "year": 2015,
+          "asset": "Strategic alliance — three oncology antibodies (incl. Lilly cMet mAb, Innovent CD20 mAb)",
+          "type": "collaboration",
+          "valueBillions": 0.45,
+          "status": "Mar 2015 original alliance: $56M upfront + up to >$400M milestones; Oct 2015 expansion added up to three anti-PD-1 bispecifics with potential >$1B add'l milestones — first major MNC-China co-development template"
+        },
+        {
+          "partner": "innovent",
+          "year": 2019,
+          "asset": "Mazdutide (LY3305677 / IBI362) — GCG/GLP-1 dual agonist",
+          "type": "license-out",
+          "status": "Lilly out-licensed Greater-China rights to Innovent (undisclosed terms); approved by NMPA for chronic weight management Jun 2025 — world's first GCG/GLP-1 dual agonist on market"
+        },
+        {
+          "partner": "innovent",
+          "year": 2020,
+          "asset": "Tyvyt (sintilimab) — anti-PD-1 mAb, ex-China rights",
+          "type": "license-in",
+          "valueBillions": 1.025,
+          "status": "Aug 2020: $200M upfront + up to $825M milestones + tiered double-digit royalties; FDA Complete Response Letter Mar 24, 2022 after 14-1 ODAC vote (Feb 10, 2022) on ORIENT-11 single-country data; Lilly returned ex-China rights to Innovent Oct 2022"
+        },
+        {
+          "partner": "hutchmed",
+          "year": 2013,
+          "asset": "Elunate (fruquintinib) — VEGFR1/2/3 inhibitor",
+          "type": "collaboration",
+          "status": "Lilly held Greater-China commercial rights from 2013; later transferred on-the-ground promotion back to HUTCHMED"
+        },
+        {
+          "partner": "laekna",
+          "year": 2024,
+          "asset": "LAE102 — anti-ActRIIA mAb (muscle-sparing obesity)",
+          "type": "collaboration",
+          "status": "Apr 2024 clinical collaboration — Lilly funds development; Laekna retains global rights"
+        },
+        {
+          "partner": "innovent",
+          "year": 2026,
+          "asset": "Multi-program oncology + immunology collaboration",
+          "type": "license-in",
+          "valueBillions": 8.85,
+          "status": "Feb 8, 2026: $350M upfront + up to ~$8.5B milestones + tiered royalties; Innovent leads to Phase 2 PoC in China, Lilly takes ex-Greater-China rights — seventh Lilly-Innovent deal and a new co-development model"
+        }
+      ],
+      "hookFact": "Lilly is both the largest MNC out-licensor TO a Chinese biotech (mazdutide → Innovent, 2019) and one of the largest in-licensors FROM one (sintilimab 2020, $1.03B; oncology/immunology 2026, $8.85B) — all with the same partner."
+    },
+    "timeline": [
+      {
+        "chapterId": "republican-foundations",
+        "status": "Eli Lilly opens its first overseas office in Shanghai (1918) — the company's first international footprint, predating the 1949 disruption.",
+        "note": "Operations cease after 1949; Lilly does not return to mainland China until the post-Reform era."
+      },
+      {
+        "chapterId": "reform-and-opening",
+        "status": "Lilly re-enters China in 1993; establishes Lilly Suzhou Pharmaceutical Co. in Suzhou Industrial Park in 1996 to manufacture insulin and other diabetes products."
+      },
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "Second Suzhou plant built 2009; Shanghai R&D centre opened (diabetes-focused) and Lilly China Drug Development Center (LCDDC) seeded local clinical/regulatory bench.",
+        "note": "Suzhou grows into Lilly's only China manufacturing site."
+      },
+      {
+        "chapterId": "bi-jingquan-bigbang",
+        "status": "Mar 2015 original Innovent strategic alliance ($56M up + up to >$400M) — three oncology antibodies including Innovent CD20 mAb and Lilly cMet mAb. Oct 2015 expansion adds up to three anti-PD-1 bispecifics with >$1B add'l milestones. The deal becomes the canonical 'MNC + Chinese innovator co-development' template.",
+        "note": "Aligns with Bi Jingquan-era CDE reset that made Chinese clinical data globally usable."
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "Innovent IPOs on HKEX 18A Oct 2018 (US$485M raise); first Tyvyt (sintilimab) NMPA approval Dec 2018 for r/r classical Hodgkin lymphoma — co-promoted by Lilly in China.",
+        "note": "Innovent becomes the prototype MNC-Chinese partnership for tooltip-grade case studies."
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Aug 2020 expansion: Lilly pays Innovent $200M upfront + up to $825M for exclusive ex-China rights to Tyvyt — the first MNC bet that a Chinese-originated PD-1 could go global. 2019: Lilly out-licenses mazdutide (LY3305677, GCG/GLP-1) to Innovent for Greater China — quietly seeding the obesity story.",
+        "note": "Tyvyt added to NRDL Nov 2019 with a ~64% price cut — a defining 'value vs access' moment."
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "Feb 10, 2022 ODAC votes 14-1 against approval of sintilimab/chemo in 1L nonsquamous NSCLC, citing ORIENT-11's single-country (China-only) population. FDA issues Complete Response Letter Mar 24, 2022. Oct 2022: Lilly terminates ex-China sintilimab deal and returns rights to Innovent — the first reset of the MNC-China license-in thesis.",
+        "note": "Ends the first wave of 'Chinese PD-1 going global' optimism; reframes how MNCs and FDA evaluate single-country trials."
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Apr 2024 Laekna clinical collaboration on LAE102 muscle-sparing obesity antibody. May 21, 2024 NMPA approves Mounjaro (tirzepatide) for type 2 diabetes; Jul 2024 weight-management indication approved. Oct 2024 Lilly commits $200M to expand the Suzhou plant for tirzepatide; total Suzhou investment ~RMB 15B (~$2.1B).",
+        "note": "Mounjaro launches commercially in China Jan 2025; CEO David Ricks publicly reaffirms China commitment despite BIOSECURE Act overhang."
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "Jun 2025 NMPA approves Innovent's mazdutide — world's first GCG/GLP-1 dual agonist — vindicating Lilly's 2019 out-licensing bet. Q2 2025 China revenue $917M (+18-19% YoY), Mounjaro now the lead growth engine internationally. Dec 2025 Mounjaro added to NRDL effective Jan 1, 2026. Feb 8, 2026 Lilly + Innovent announce seventh collaboration: $350M upfront + up to ~$8.5B milestones for oncology/immunology programs developed by Innovent through Phase 2 PoC, with Lilly taking ex-Greater-China rights.",
+        "note": "Lilly emerges as the only MNC with a fully two-way (license-in + license-out) flagship Chinese partnership."
+      }
+    ],
+    "milestones": [
+      {
+        "year": 1918,
+        "label": "First Lilly Shanghai office opens — earliest international footprint"
+      },
+      {
+        "year": 1993,
+        "label": "Lilly re-enters China post-reform"
+      },
+      {
+        "year": 1996,
+        "label": "Lilly Suzhou Pharmaceutical Co. established (insulin manufacturing)"
+      },
+      {
+        "year": 2015,
+        "label": "Innovent strategic alliance — Mar (3 oncology mAbs) + Oct (3 PD-1 bispecifics) expansion"
+      },
+      {
+        "year": 2019,
+        "label": "Mazdutide (LY3305677) out-licensed to Innovent for Greater China"
+      },
+      {
+        "year": 2020,
+        "label": "Tyvyt ex-China license-in: $200M upfront + up to $825M (Aug)"
+      },
+      {
+        "year": 2022,
+        "label": "ODAC 14-1 against sintilimab (Feb 10); FDA CRL (Mar 24); Lilly returns ex-China rights to Innovent (Oct)"
+      },
+      {
+        "year": 2024,
+        "label": "Mounjaro NMPA approval — T2D (May 21) and obesity (Jul); $200M Suzhou expansion (Oct)"
+      },
+      {
+        "year": 2025,
+        "label": "Mazdutide NMPA approval — world's first GCG/GLP-1 dual agonist (Jun); Mounjaro added to NRDL (Dec)"
+      },
+      {
+        "year": 2026,
+        "label": "Lilly + Innovent seventh deal: $350M up + up to ~$8.5B for oncology/immunology (Feb 8)"
+      }
+    ],
+    "sources": [
+      "innovent-lilly-tyvyt-press",
+      "lilly-ir-lilly-announces-complete-response-letter",
+      "fiercepharma-eli-lilly-innovent-hit-with-fda-rejectio",
+      "bioworld-innovent-out-licenses-ex-china-rights-fo",
+      "lilly-innovent-2015-original-alliance",
+      "lilly-innovent-2015-expansion-pd1-bispecifics",
+      "fiercepharma-lilly-dumps-innovent-pd1-2022",
+      "cancerletter-odac-sintilimab-14-1-vote",
+      "prnewswire-fda-advisory-sintilimab-recommend-additional-data",
+      "innovent-innovent-announces-mazdutide-first-dual",
+      "fiercepharma-mazdutide-china-approval-2025",
+      "biospace-lilly-tirzepatide-china-obesity-2024",
+      "biopharmadive-mounjaro-china-approval-may-2024",
+      "fiercepharma-lilly-200m-suzhou-tirzepatide-expansion",
+      "lilly-innovent-2026-strategic-collaboration",
+      "fiercebiotech-lilly-innovent-88b-2026",
+      "biospace-laekna-lilly-lae102-2024",
+      "fiercepharma-lilly-ceo-china-commitment-biosecure",
+      "lilly-q4-2025-results",
+      "lilly-shanghai-rd-center-opening",
+      "globaltimes-lilly-suzhou-third-insulin-plant",
+      "innovent-tyvyt-sintilimab-injection-included-in-t"
+    ]
   },
   {
     "id": "astrazeneca",
@@ -32,17 +431,350 @@
     "founded": 1999,
     "headquarters": "Cambridge, UK",
     "category": "mnc_pharma",
-    "shortDescription": "Largest MNC China presence; major deals across innovator biotechs; manufacturing in Wuxi and Taizhou",
-    "signature": "Multi-decade China platform"
+    "shortDescription": "The most-localized big pharma in China: ~$6.4B FY2024 China revenue (~12% of group), Shanghai (Zhangjiang) regional HQ, manufacturing in Wuxi/Taizhou/Qingdao, plus the Gracell CAR-T acquisition and a string of license-ins from LaNova, Eccogene, CSPC and CanSino.",
+    "signature": "Multi-decade China platform — Shanghai HQ + Wuxi/Taizhou plants + Gracell, LaNova, Eccogene, CanSino, CSPC deals",
+    "narrativeHook": "AstraZeneca treats China as its second home market — by 2024 the country accounted for ~$6.4B (about 12%) of group revenue, and the company has wired itself into nearly every node of the Chinese biotech ecosystem through the Gracell CAR-T acquisition, the LaNova GPRC5D-ADC and Eccogene oral-GLP-1 license-ins, the CanSino mRNA partnership, and the $18B+ CSPC obesity alliance. Even the 2024 detention of country head Leon Wang and a sprawling import-tax probe didn't slow the bet — AZ followed up by pledging $2.5B for a Beijing R&D and cell-therapy hub and a $15B through-2030 China commitment.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "mncContext": {
+      "chinaArrival": "Astra opened its first China sales office in 1993; Wuxi manufacturing plant inaugurated 2001; Shanghai Zhangjiang Innovation Centre China launched 2007.",
+      "chinaHeadcount": 17000,
+      "chinaRevenueBillions": 6.4,
+      "chinaRevenueYear": 2024,
+      "notableDeals": [
+        {
+          "partner": "lanova",
+          "year": 2023,
+          "asset": "LM-305 (GPRC5D-targeting ADC)",
+          "type": "license-in",
+          "valueBillions": 0.6,
+          "status": "$55M upfront/near-term + up to $545M milestones; preclinical → IND in US/CN"
+        },
+        {
+          "partner": "Eccogene",
+          "year": 2023,
+          "asset": "ECC5004/AZD5004 (oral small-molecule GLP-1RA)",
+          "type": "license-in",
+          "valueBillions": 2.0,
+          "status": "$185M upfront + up to $1.825B milestones; ex-China rights"
+        },
+        {
+          "partner": "Gracell Biotechnologies",
+          "year": 2023,
+          "asset": "GC012F BCMA/CD19 dual-targeting FasTCAR autologous CAR-T",
+          "type": "acquisition",
+          "valueBillions": 1.2,
+          "status": "Closed Q1 2024; Suzhou-headquartered; basis of AZ's end-to-end China cell-therapy buildout"
+        },
+        {
+          "partner": "cansino",
+          "year": 2023,
+          "asset": "mRNA vaccine manufacturing & R&D platform",
+          "type": "collaboration",
+          "status": "≥10-year supply pact announced Aug 2023; AZ's first major mRNA partnership with a Chinese player"
+        },
+        {
+          "partner": "CSPC Pharmaceutical Group",
+          "year": 2026,
+          "asset": "Up to 8 next-gen obesity/diabetes assets (incl. four AI-designed long-acting peptides)",
+          "type": "license-in",
+          "valueBillions": 18.5,
+          "status": "$1.2B upfront + $3.5B R&D milestones + $13.8B sales milestones; ex-China rights"
+        }
+      ],
+      "hookFact": "AstraZeneca is the most localized of the big pharmas in China — ~$6.4B (≈12%) of FY2024 group revenue, ~17,000 China employees, manufacturing in Wuxi/Taizhou/Qingdao, and a $15B through-2030 buildout that will give it the first end-to-end MNC cell-therapy footprint in the country."
+    },
+    "timeline": [
+      {
+        "chapterId": "reform-and-opening",
+        "status": "Astra opens first China sales office in 1993; Zeneca follows in 1994; the two merge in 1999 to form AstraZeneca, with China already a strategic emerging-markets pillar.",
+        "note": "Cumulative China investment >$5B by 2019."
+      },
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "Wuxi pharmaceutical plant inaugurated 2001 (later expanded with $200M in 2011); Innovation Centre China launches at Shanghai Zhangjiang Hi-Tech Park in 2007 as part of a $100M R&D commitment.",
+        "note": "Wuxi becomes a global supply site shipping to 70+ markets."
+      },
+      {
+        "chapterId": "innovator-generation",
+        "status": "Builds out Taizhou plant (small-molecules) and expands Wuxi biologics fill-finish; Leon Wang takes over China business in the early 2010s and drives explosive volume growth.",
+        "note": "China becomes AZ's second-largest country market by mid-decade."
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "Capitalizes on NMPA reform / ICH alignment with rapid local launches; partners with local CSPC on lipid-lowering therapy; sets up AZ-CICC healthcare investment fund and Wuxi I-Campus incubator.",
+        "note": "Sixth regional HQ + COPD plant announced for Qingdao."
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Three large-scale 2019 China initiatives announced: AI-driven research collab with Tencent, Wuxi I-Campus expansion, and Shanghai International Life Sciences Innovation Campus.",
+        "approvedDrugCount": null
+      },
+      {
+        "chapterId": "going-global",
+        "status": "License-in spree from Chinese innovators: LaNova LM-305 GPRC5D ADC (May 2023, up to $600M); Eccogene ECC5004 oral GLP-1 (Nov 2023, $185M upfront + $1.825B milestones); CanSino mRNA manufacturing pact (Aug 2023); Gracell CAR-T acquisition (Dec 2023, $1.2B, closed Q1 2024).",
+        "note": "China revenue grows ~11% to ~$6.4B in 2024 (~12% of group)."
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "Country head Leon Wang detained Oct 2024; replaced by EVP International Iskra Reic (Dec 2024); AZ prepays ~$3.5M import-tax assessment with up to ~$22M further fines pending; sprawling import / data-collection / insurance-fraud indictment filed in Shenzhen 2025–2026. Despite the probe, AZ commits $2.5B for a Beijing R&D and end-to-end cell-therapy facility (March 2025) and announces a $15B through-2030 China investment plan (early 2026), plus the $18.5B CSPC obesity mega-alliance (Jan 2026).",
+        "note": "First MNC with end-to-end cell-therapy capabilities in China."
+      }
+    ],
+    "milestones": [
+      {
+        "year": 1993,
+        "label": "Astra opens first China sales office"
+      },
+      {
+        "year": 1999,
+        "label": "Astra–Zeneca merger forms AstraZeneca"
+      },
+      {
+        "year": 2001,
+        "label": "Wuxi (Jiangsu) manufacturing plant inaugurated"
+      },
+      {
+        "year": 2007,
+        "label": "Innovation Centre China opens at Shanghai Zhangjiang Hi-Tech Park"
+      },
+      {
+        "year": 2011,
+        "label": "$200M Wuxi expansion"
+      },
+      {
+        "year": 2015,
+        "label": "Taizhou small-molecule plant added"
+      },
+      {
+        "year": 2019,
+        "label": "Three large-scale China initiatives (Tencent AI partnership, Wuxi I-Campus, Shanghai life-sci campus)"
+      },
+      {
+        "year": 2023,
+        "label": "LaNova LM-305 GPRC5D ADC license (up to $600M)"
+      },
+      {
+        "year": 2023,
+        "label": "CanSino mRNA manufacturing pact (≥10 yrs)"
+      },
+      {
+        "year": 2023,
+        "label": "Eccogene oral GLP-1 license (up to $2B)"
+      },
+      {
+        "year": 2023,
+        "label": "Acquires Suzhou CAR-T innovator Gracell Biotechnologies for ~$1.2B (closed Q1 2024)"
+      },
+      {
+        "year": 2024,
+        "label": "China revenue ~$6.4B, ~12% of group; 11% growth FY2024"
+      },
+      {
+        "year": 2024,
+        "label": "Country head Leon Wang detained; Iskra Reic appointed EVP International"
+      },
+      {
+        "year": 2025,
+        "label": "$2.5B Beijing R&D centre + cell-therapy manufacturing announced"
+      },
+      {
+        "year": 2026,
+        "label": "$18.5B CSPC obesity alliance (4+ next-gen GLP-1 / oral peptides)"
+      },
+      {
+        "year": 2026,
+        "label": "$15B through-2030 China investment commitment"
+      }
+    ],
+    "sources": [
+      "lanova-astrazeneca-lm305-2023",
+      "biospace-astrazeneca-lanova-600m-2023",
+      "astrazeneca-eccogene-2023",
+      "eccogene-astrazeneca-glp1-2023",
+      "astrazeneca-gracell-2023",
+      "fiercebiotech-astrazeneca-gracell-2023",
+      "fiercepharma-astrazeneca-pursues-mrna-signs-vaccine-m",
+      "astrazeneca-cspc-obesity-2026",
+      "biopharmadive-astrazeneca-cspc-obesity-2026",
+      "astrazeneca-fy2024-results",
+      "biospace-astrazeneca-fy2024",
+      "fiercepharma-astrazeneca-china-detentions-2024",
+      "cnn-astrazeneca-china-chief-2024",
+      "astrazeneca-iskra-reic-evp-international-2024",
+      "fiercepharma-az-china-indictment-2026",
+      "astrazeneca-2-5b-beijing-rnd-2025",
+      "fiercebiotech-astrazeneca-25b-china-2025",
+      "astrazeneca-15b-china-through-2030",
+      "biopharmadive-astrazeneca-cell-therapy-china-2026",
+      "astrazeneca-three-china-initiatives-2019",
+      "pharma-tech-astrazeneca-wuxi-plant"
+    ]
   },
   {
     "id": "biontech",
     "name": "BioNTech",
     "founded": 2008,
     "headquarters": "Mainz, Germany",
+    "founders": "Uğur Şahin, Özlem Türeci, Christoph Huber",
     "category": "mnc_pharma",
-    "shortDescription": "ADC-focused China deals: Duality Biologics 2023 ($1.5B+); Fosun mRNA partnership for COVID",
-    "signature": "Duality ADC + Fosun mRNA"
+    "shortDescription": "German mRNA pioneer that pivoted post-COVID into a Chinese-asset-heavy oncology pipeline — anchored by a Duality Biologics ADC partnership, the Biotheus acquisition, and a Shanghai regional hub.",
+    "signature": "Duality ADC alliance (2023) + Biotheus acquisition (2025)",
+    "narrativeHook": "Once known to China only as Fosun's mRNA-vaccine partner, BioNTech rebuilt its post-COVID oncology pipeline on the back of Chinese biotech — the Duality ADC alliance, the BNT327 PD-L1xVEGF bispecific bought from Biotheus, and HER3/CTLA-4 programmes from MediLink and OncoC4 — making Chinese ADC and bispecific platforms the spine of its second act.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "today": {
+      "asOf": "2026-04",
+      "revenueBillions": 2.97,
+      "revenueYear": 2024,
+      "listings": [
+        "NASDAQ: BNTX"
+      ],
+      "leadAsset": {
+        "name": "BNT327 (PD-L1 x VEGF-A bispecific)",
+        "mechanism": "Bispecific antibody combining PD-L1 checkpoint blockade with VEGF-A neutralization",
+        "indication": "Multiple solid tumors (NSCLC, SCLC, TNBC)",
+        "status": "Global Phase 3 in 1L extensive-stage SCLC and NSCLC; co-developed with BMS under June 2025 partnership worth up to $11.1B"
+      },
+      "biggestDeal": {
+        "partner": "biotheus",
+        "type": "acquisition",
+        "year": 2024,
+        "valueBillions": 0.95
+      }
+    },
+    "mncContext": {
+      "chinaArrival": "Fosun Pharma strategic alliance Mar 2020; Shanghai regional office opened Jun 2022",
+      "notableDeals": [
+        {
+          "partner": "fosun-pharma",
+          "year": 2020,
+          "asset": "BNT162b2 / Comirnaty (mRNA COVID-19 vaccine, Greater China rights)",
+          "type": "license-out",
+          "valueBillions": 0.185,
+          "status": "Authorised in Hong Kong (Jan 2021, full approval Dec 2022) and Macau (Mar 2021); Phase 2 trial run in Jiangsu but never approved on the mainland; 2021 JV plan for up to 1B doses of local manufacturing was ultimately shelved"
+        },
+        {
+          "partner": "duality",
+          "year": 2023,
+          "asset": "DB-1303 (BNT323, HER2 ADC) and DB-1311 (BNT324, B7-H3 ADC); expanded Aug 2023 to add DB-1305 (BNT325, TROP2 ADC)",
+          "type": "license-in",
+          "valueBillions": 1.67,
+          "status": "$170M upfront + >$1.5B milestones; ex-Greater China rights to BioNTech, Greater China retained by Duality. BNT323 Phase 3 in HER2+ metastatic breast cancer met PFS endpoint Sept 2024; BioNTech became cornerstone investor in Duality's Apr 2025 HKEX 18A IPO"
+        },
+        {
+          "partner": "OncoC4",
+          "year": 2023,
+          "asset": "Gotistobart (BNT316 / ONC-392, next-gen anti-CTLA-4)",
+          "type": "license-in",
+          "valueBillions": 0.2,
+          "status": "Mar 2023 deal: $200M upfront + milestones + double-digit royalties; jointly developed in NSCLC and other solid tumours; FDA Orphan Drug + China NMPA Breakthrough Therapy designations"
+        },
+        {
+          "partner": "MediLink Therapeutics",
+          "year": 2023,
+          "asset": "BNT326 / YL202 (HER3 ADC, TMALIN platform)",
+          "type": "license-in",
+          "valueBillions": 1.0,
+          "status": "Oct 2023: $70M upfront + up to ~$1B in milestones for global ex-China rights; FDA partial clinical hold imposed Jun 2024 after three patient deaths, lifted Aug 2024"
+        },
+        {
+          "partner": "biotheus",
+          "year": 2024,
+          "asset": "BNT327 / PM8002 (PD-L1 x VEGF-A bispecific) plus a 10-program pipeline and Zhuhai biologics manufacturing site",
+          "type": "acquisition",
+          "valueBillions": 0.95,
+          "status": "Nov 2024 deal: $800M upfront + up to $150M milestones; closed Feb 3 2025. Gives BioNTech full global rights to BNT327 and an integrated antibody manufacturing footprint in China"
+        },
+        {
+          "partner": "Bristol Myers Squibb",
+          "year": 2025,
+          "asset": "BNT327 (PD-L1 x VEGF-A bispecific) — global co-development / co-commercialisation",
+          "type": "collaboration",
+          "valueBillions": 11.1,
+          "status": "Jun 2 2025: $1.5B upfront + $2B non-contingent payments through 2028 + up to $7.6B milestones; 50/50 cost and profit share. Effectively monetises the China-originated Biotheus asset"
+        }
+      ],
+      "hookFact": "Five of BioNTech's six headline oncology assets — BNT323, BNT324, BNT325, BNT326, BNT327 — originated at Chinese biotechs (Duality, MediLink, Biotheus); only the CTLA-4 antibody gotistobart (US-based OncoC4) breaks the pattern."
+    },
+    "timeline": [
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Fosun Pharma strategic alliance for BNT162 mRNA COVID-19 vaccine in Greater China",
+        "note": "March 13 2020: BioNTech grants Fosun Pharma rights to develop and commercialise BNT162 in mainland China, Hong Kong, Macau and Taiwan; Fosun pays up to $135M in upfront/milestones plus a $50M equity investment (1.58M ordinary BNTX shares). Phase 2 trial of BNT162b2 launched in Jiangsu Nov 2020; 100M-dose mainland supply agreement announced Dec 2020 contingent on approval that never came."
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "Comirnaty rolled out via Fosun in HK/Macau/Taiwan; mainland approval stalls; Shanghai office opens",
+        "note": "Jan 25 2021: emergency-use authorisation in Hong Kong (full HK BLA-equivalent approval Dec 2022). Mar 2021: special import authorisation in Macau. May 2021: BioNTech and Fosun unveil JV plan for up to 1B annual doses in mainland China — never realised because Comirnaty was never approved on the mainland. Jun 2022: BioNTech opens its first East Asian regional office in Jing'an, Shanghai."
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Pivots from COVID income to a Chinese-ADC-anchored oncology pipeline",
+        "pipelineStage": "Multiple Phase 1-3",
+        "note": "Mar 2023: $200M-upfront OncoC4 deal for gotistobart (BNT316). Apr 2023: Duality Biologics global ADC partnership for DB-1303 (BNT323, HER2) and DB-1311 (BNT324, B7-H3) — $170M upfront + >$1.5B milestones. Aug 2023: Duality deal expanded to include DB-1305 (BNT325, TROP2). Oct 2023: MediLink HER3 ADC deal (BNT326/YL202), $70M upfront, up to ~$1B."
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "Doubles down on China — Biotheus acquisition, Duality IPO, BMS partnership; FY2024 revenue €2.75B",
+        "approvedDrugCount": 1,
+        "pipelineStage": "30+ clinical programmes; targeting 10 oncology approvals by 2030",
+        "listings": [
+          "NASDAQ: BNTX"
+        ],
+        "note": "Sep 2024: BNT323/DB-1303 Phase 3 hits PFS primary endpoint. Nov 2024: BioNTech agrees to acquire Biotheus (Zhuhai) for $800M up front + $150M milestones for full global rights to BNT327/PM8002 and a Chinese antibody-manufacturing platform; deal closes Feb 3 2025. Apr 15 2025: cornerstone investor (alongside LAV, Lake Bleu and others) in Duality Biotherapeutics' HK$1.64B (~US$211M) HKEX 18A IPO. Jun 2 2025: BMS partnership on BNT327 — $1.5B upfront, $2B non-contingent through 2028, up to $11.1B total — monetising the Biotheus asset."
+      }
+    ],
+    "milestones": [
+      {
+        "year": 2008,
+        "label": "Founded in Mainz by Uğur Şahin, Özlem Türeci and Christoph Huber"
+      },
+      {
+        "year": 2020,
+        "label": "Fosun Pharma strategic alliance for BNT162 mRNA COVID-19 vaccine in Greater China"
+      },
+      {
+        "year": 2021,
+        "label": "Comirnaty authorised in Hong Kong (Jan) and Macau (Mar); mainland approval never granted"
+      },
+      {
+        "year": 2022,
+        "label": "Opens first East Asia regional office in Shanghai (June)"
+      },
+      {
+        "year": 2023,
+        "label": "Triple China deals: OncoC4 CTLA-4 (Mar), Duality ADCs (Apr/Aug), MediLink HER3 ADC (Oct)"
+      },
+      {
+        "year": 2024,
+        "label": "Agrees to acquire Biotheus for up to $950M, gaining global rights to BNT327"
+      },
+      {
+        "year": 2025,
+        "label": "Closes Biotheus deal (Feb); cornerstone in Duality HKEX IPO (Apr); BMS partnership on BNT327 worth up to $11.1B (Jun)"
+      }
+    ],
+    "sources": [
+      "biontech-fosun-strategic-alliance-2020",
+      "biontech-fosun-china-supply-2020",
+      "biontech-fosun-hk-comirnaty-full-approval-2022",
+      "fortune-biontech-china-no-approval-2021",
+      "scmp-fosun-biontech-jv-1b-doses-2021",
+      "biontech-shanghai-office-2022",
+      "biontech-dualitybio-global-partnership-2023",
+      "biopharmadive-biontech-duality-adc-2023",
+      "dualitybio-biontech-third-adc-db1305-2023",
+      "biontech-oncoc4-strategic-collab-2023",
+      "biontech-medilink-her3-adc-2023",
+      "biontech-acquire-biotheus-2024",
+      "biontech-completes-biotheus-acquisition-2025",
+      "naturebt-biontech-china-buy-2024",
+      "fiercebiotech-dualitybio-hkex-ipo-2025",
+      "biontech-bms-bnt327-partnership-2025",
+      "biontech-fy2024-results",
+      "pharmaboardroom-biontech-china-oncology-bet"
+    ]
   },
   {
     "id": "johnson-johnson",
@@ -50,8 +782,111 @@
     "founded": 1886,
     "headquarters": "New Brunswick, NJ",
     "category": "mnc_pharma",
-    "shortDescription": "Legend Biotech CAR-T partner — co-developed Carvykti (cilta-cel)",
-    "signature": "Legend / Carvykti"
+    "shortDescription": "Legend Biotech CAR-T partner — co-developed Carvykti (cilta-cel), the first China-discovered cell therapy to reach US blockbuster scale",
+    "signature": "Legend / Carvykti",
+    "narrativeHook": "J&J's December 2017 cilta-cel pact with Legend — $350M upfront, struck on the strength of an investigator-initiated trial in Xi'an — is the deal that proved a Chinese-discovered cell therapy could clear FDA and reach blockbuster scale; Carvykti's $1.9B FY2025 net trade sales (+97% YoY) is the validation.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "mncContext": {
+      "chinaArrival": "Xian Janssen joint venture, founded October 22, 1985 — one of the first Western pharma JVs in post-reform China",
+      "chinaHeadcount": 10000,
+      "hookFact": "J&J's $350M-upfront 2017 collaboration with Legend Biotech on cilta-cel (Carvykti) — structured as a 50/50 ex-Greater China P&L split and 30/70 (Legend/Janssen) inside Greater China — became the template for MNC-China cell-therapy partnerships and, at $1.9B FY2025 net trade sales, the first China-discovered cell therapy to reach blockbuster scale",
+      "notableDeals": [
+        {
+          "partner": "legend",
+          "year": 2017,
+          "asset": "cilta-cel (Carvykti) — BCMA-directed autologous CAR-T",
+          "type": "collaboration",
+          "valueBillions": 0.35,
+          "status": "FDA-approved Feb 28, 2022 (4L+); 2L+ label expansion Apr 5, 2024 on CARTITUDE-4; FY2025 net trade sales $1.9B (+97% YoY); J&J pegs peak sales potential >$5B"
+        },
+        {
+          "partner": "legend",
+          "year": 2024,
+          "asset": "Carvykti manufacturing — second Belgium (Ghent/Obelisc) cell-therapy facility",
+          "type": "collaboration",
+          "valueBillions": 0.15,
+          "status": "Joint $150M commitment to double Carvykti capacity ahead of CARTITUDE-4 launch"
+        }
+      ]
+    },
+    "timeline": [
+      {
+        "chapterId": "reform-and-opening",
+        "status": "Xian Janssen Pharmaceutical Ltd. established October 22, 1985 — one of the earliest Western pharma joint ventures in post-reform China; ~CNY 290M initial investment with four Chinese pharmaceutical partners",
+        "note": "Often called 'the Whampoa Military Academy of China's pharma industry' for the marketing and management talent it trained; production base in Xi'an High-tech Zone, headquarters in Beijing"
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "Janssen Biotech signs worldwide collaboration & license agreement with Legend Biotech for cilta-cel (LCAR-B38M) on December 21, 2017 — $350M upfront plus development, regulatory, and sales milestones; structured 50/50 P&L ex-Greater China and 30/70 (Legend/Janssen) inside China",
+        "note": "Triggered by Legend's investigator-initiated LEGEND-2 readout at ASCO 2017 (100% ORR in r/r myeloma at Xi'an Jiaotong's Second Affiliated Hospital). Largest upfront for a single Chinese biotech asset at the time"
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "JLABS @ Shanghai opened June 27, 2019 in Zhangjiang Hi-Tech Park as the largest JLABS site globally (~4,400 sqm, 50+ resident startups) and J&J's first APAC innovation incubator — anchoring its Asia Pacific Innovation Center network",
+        "note": "Strategic tilt toward sourcing China-origin innovation rather than just selling foreign drugs into China"
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "FDA approves Carvykti (ciltacabtagene autoleucel) on February 28, 2022 for r/r multiple myeloma after 4+ prior lines — Janssen's first cell therapy and the first cell therapy fully co-developed with a Chinese partner; EC conditional MA May 25, 2022",
+        "note": "Manufacturing throttled by viral-vector and capacity bottlenecks at the Raritan, NJ site through 2023"
+      },
+      {
+        "chapterId": "going-global",
+        "status": "FDA expands Carvykti label to 2L+ on April 5, 2024 on CARTITUDE-4 (59% reduction in risk of progression or death vs SoC); EC matches Apr 23, 2024. J&J/Legend commit ~$150M to a second Belgium (Ghent/Obelisc) cell-therapy facility. Carvykti FY2024 net trade sales $963M (+93% YoY). Reuters reports July 12, 2024 that Legend received an unsolicited buyout offer (J&J widely suspected as bidder); Legend retains Centerview Partners but no deal materialises",
+        "note": "China itself becomes a headwind for the broader Innovative Medicine business (VBP volume-based procurement + anti-corruption campaign cited by CFO Joseph Wolk)"
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "Carvykti hits blockbuster scale in FY2025: $1.9B net trade sales (+97% YoY), >10,000 cumulative patients treated, available at 294 sites in 14 markets. J&J Innovative Medicine segment FY2025 revenue $60.4B (+6.0% YoY). J&J/Legend continue jointly investing in cell-therapy capacity (Raritan expansion, Ghent ramp, Pennsylvania $1B CGT site). Persistent J&J takeover speculation around Legend through 2025–26 amid BIOSECURE Act overhang, but no formal bid disclosed",
+        "note": "China revenue contribution remains a small share of segment but the Legend partnership has become J&J's headline China-asset case study; J&J continues to scout Chinese biotech IP through JLABS Shanghai and the Asia Pacific Innovation Center"
+      }
+    ],
+    "milestones": [
+      {
+        "year": 1985,
+        "label": "Xian Janssen JV founded — one of the first Western pharma JVs in post-reform China"
+      },
+      {
+        "year": 2017,
+        "label": "$350M-upfront cilta-cel collaboration with Legend Biotech — biggest upfront for a Chinese biotech asset at the time"
+      },
+      {
+        "year": 2019,
+        "label": "JLABS @ Shanghai opens as the largest JLABS site globally"
+      },
+      {
+        "year": 2022,
+        "label": "Carvykti FDA approval (Feb 28) — Janssen's first cell therapy and first China-co-developed cell therapy"
+      },
+      {
+        "year": 2024,
+        "label": "Carvykti 2L+ label (Apr 5) on CARTITUDE-4; FY net trade sales reach $963M; Legend buyout speculation involving J&J"
+      },
+      {
+        "year": 2025,
+        "label": "Carvykti $1.9B FY net trade sales (+97% YoY) — the first China-discovered cell therapy at blockbuster scale"
+      }
+    ],
+    "sources": [
+      "jnj-carvykti-fda-approval-2022",
+      "legend-janssen-collaboration-milestone",
+      "fiercepharma-jj-legend-carvykti-fda-2022",
+      "legend-carvykti-2l-approval-2024",
+      "legend-fy2025-results",
+      "legend-fy2024-results",
+      "fiercepharma-jj-legend-150m-belgium",
+      "fiercepharma-jj-legend-buyout-offer-2024",
+      "fiercepharma-beigene-legend-sell-2025",
+      "biopharmadive-jnj-legend-2017-deal",
+      "jnj-legend-2017-collab-press-release",
+      "jnj-fy2025-q4-results",
+      "jnj-2024-10k",
+      "xian-janssen-jnj-family",
+      "jnj-jlabs-shanghai-2019-launch",
+      "fiercepharma-jj-china-headwind-2025",
+      "biospace-jnj-china-collaborations"
+    ]
   },
   {
     "id": "pfizer",
@@ -59,7 +894,173 @@
     "founded": 1849,
     "headquarters": "New York City",
     "category": "mnc_pharma",
-    "shortDescription": "CStone Pharmaceuticals partnership for ex-China sugemalimab development",
-    "signature": "CStone alliance"
+    "shortDescription": "Long-time China incumbent (Dalian plant 1989, Wuhan + Shanghai R&D) re-tooled into a top-tier buyer of Chinese biotech assets — culminating in the July 2025 3SBio PD-1/VEGF deal worth up to $6.05B, the largest single-asset China license-out at signing.",
+    "signature": "3SBio PD-1/VEGF mega-license (2025) + post-Seagen RemeGen ADC + CStone PD-L1",
+    "narrativeHook": "Once Paxlovid normalized China-as-supply-chain via Asymchem's RMB 3.5B Paxlovid contract, Pfizer's playbook flipped: instead of selling drugs to China, Albert Bourla started buying Chinese drugs to sell to the world — a shift the 3SBio mega-deal sealed in 2025 even as the earlier CStone bet on sugemalimab quietly faded.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "mncContext": {
+      "chinaArrival": "Dalian production base 1989 (first GMP-certified pharmaceutical plant in China); Beijing management center 1997; China region HQ 2004 (Shanghai); China R&D Center Shanghai 2005; CRDC Wuhan branch 2010",
+      "chinaHeadcount": 4000,
+      "chinaRevenueBillions": 2.5,
+      "chinaRevenueYear": 2024,
+      "notableDeals": [
+        {
+          "partner": "3sbio",
+          "year": 2025,
+          "asset": "SSGJ-707 — PD-1 x VEGF bispecific antibody (CLF2 platform); ex-China rights with $150M China-rights option",
+          "type": "license-in",
+          "valueBillions": 6.05,
+          "status": "Announced May 20, 2025; completed July 24, 2025. $1.25B upfront + up to $4.8B milestones + $100M equity in 3SBio + tiered double-digit royalties — largest single-asset China license-out at signing. Phase 2 NSCLC monotherapy data presented at ASCO 2025."
+        },
+        {
+          "partner": "cstone",
+          "year": 2020,
+          "asset": "Sugemalimab (CS1001 / Cejemly) — anti-PD-L1 mAb, mainland China rights for five indications + 9.9% CStone equity",
+          "type": "equity",
+          "valueBillions": 0.2,
+          "status": "Sept 2020: $200M cash for 9.9% stake at HK$13.37/share + sugemalimab China rights ($280M biobucks + royalties). NMPA approval (Stage III NSCLC) May 2022; broader collaboration framework for additional Greater-China oncology assets did not yield a second co-developed drug."
+        },
+        {
+          "partner": "remegen",
+          "year": 2021,
+          "asset": "Disitamab vedotin (RC48 / Aidixi) — HER2-targeted ADC; ex-Asia (excl. Japan/Singapore) global rights, inherited via Seagen acquisition",
+          "type": "license-in",
+          "valueBillions": 2.6,
+          "status": "Originally Seagen/RemeGen Aug 2021: $200M upfront + up to $2.4B milestones + high-single- to mid-teen royalties. Pfizer assumed the agreement on Dec 14, 2023 when it closed the $43B Seagen acquisition; Phase 3 first-line urothelial trial met PFS/OS in 2025."
+        },
+        {
+          "partner": "asymchem",
+          "year": 2022,
+          "asset": "Paxlovid (nirmatrelvir/ritonavir) API and intermediates — multi-year CDMO supply",
+          "type": "collaboration",
+          "valueBillions": 0.55,
+          "status": "Feb 2022 supply contract via Jilin Asymchem: ~RMB 3.542B (~$555M) for 2022 deliveries, alongside earlier US$481M (Nov 2021) and ~RMB 2.72B (Nov 2021) Paxlovid orders — total Asymchem-Pfizer Paxlovid backlog ~RMB 9.2B."
+        },
+        {
+          "partner": "yaopharma",
+          "year": 2025,
+          "asset": "YP05002 — oral small-molecule GLP-1 receptor agonist for obesity (Phase 1)",
+          "type": "license-in",
+          "valueBillions": 2.09,
+          "status": "Dec 2025: $150M upfront + up to $1.94B milestones — Pfizer's second attempt at an oral obesity asset after danuglipron failure; ex-China rights."
+        },
+        {
+          "partner": "shanghai-pharma",
+          "year": 2023,
+          "asset": "Prevenar 13 (PCV13 pneumococcal vaccine) — China distribution and promotion via Keyuan Pharma subsidiary",
+          "type": "collaboration",
+          "status": "Nov 2023: handed China commercial responsibility to a local partner as part of broader China commercial restructuring; representative of Pfizer's late-2023 'tap local partners' shift."
+        }
+      ],
+      "hookFact": "On July 24, 2025 Pfizer wired $1.25B upfront to 3SBio for ex-China rights to SSGJ-707 — bigger than every previous single-asset license-out from a Chinese biotech and almost six times the upfront Merck paid for LaNova's competing PD-1/VEGF bispecific eight months earlier."
+    },
+    "timeline": [
+      {
+        "chapterId": "reform-and-opening",
+        "status": "Establishes Dalian production base (1989) — the first GMP-certified pharmaceutical plant in China — anchoring Pfizer in the country alongside the early reform-era opening to MNC manufacturers.",
+        "note": "Pfizer was the prototype for foreign-pharma direct investment in PRC manufacturing."
+      },
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "China region HQ established in Shanghai (2004); Pfizer China R&D Center opens in Shanghai (2005); CRDC Wuhan branch added in Wuhan Biolake (2010). Long-running Shanghai Institutes for Biological Sciences drug-discovery partnership.",
+        "note": "Builds the Shanghai/Wuhan R&D footprint that later anchors China BD function."
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "Headquarters of established medicines unit moved to Shanghai (2017–2019); presence in 300+ Chinese cities; 4,000+ China staff.",
+        "note": "Largest commercial footprint of any MNC in China outside AstraZeneca."
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Sept 30, 2020 — CStone strategic collaboration: $200M for 9.9% equity at HK$13.37/share + mainland-China license to sugemalimab (CS1001) for five indications, with framework to bring additional oncology assets to Greater China.",
+        "note": "Pfizer's first equity-plus-license play with a Chinese innovator biotech."
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "Asymchem CDMO supply contracts make Pfizer dependent on a Tianjin/Jilin partner for Paxlovid: US$481M (Nov 2021), ~RMB 2.72B (Nov 2021), ~RMB 3.542B (Feb 2022). NMPA approves sugemalimab for Stage III NSCLC (May 2022); China Meheco distributes Paxlovid (Mar 2022).",
+        "note": "China shifts from Pfizer's commercial market to its global manufacturing supply chain."
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Dec 14, 2023 — closes $43B Seagen acquisition, inheriting the Aug 2021 Seagen/RemeGen worldwide license to disitamab vedotin (HER2 ADC; $200M up + up to $2.4B). Late 2023: hands Prevenar 13 China commercialization to Shanghai Pharma's Keyuan as part of broader commercial restructuring and China-organisation cost cuts.",
+        "note": "Pfizer becomes a Chinese-asset licensee almost by accident — via the Seagen ADC platform."
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "May 20, 2025 — announces 3SBio SSGJ-707 PD-1xVEGF bispecific deal: $1.25B upfront + up to $4.8B milestones + $100M equity, completed July 24, 2025; largest single-asset China license-out to date. Nov 2024 unveils 'China 2030' plan committing $1B over five years and 60 innovative drugs/indications. Dec 2025 licenses YaoPharma YP05002 oral GLP-1 ($150M up + up to $1.94B). FY2024 China revenue ~$2.5B (~4% of $63.6B global).",
+        "note": "From COVID-era CDMO buyer to the headline buyer of the China license-out boom."
+      }
+    ],
+    "milestones": [
+      {
+        "year": 1989,
+        "label": "Pfizer Pharmaceuticals (Dalian) — first GMP-certified pharma plant in China"
+      },
+      {
+        "year": 2004,
+        "label": "China region HQ established in Shanghai"
+      },
+      {
+        "year": 2005,
+        "label": "Pfizer China R&D Center opens in Shanghai"
+      },
+      {
+        "year": 2010,
+        "label": "CRDC Wuhan branch opens at Wuhan Biolake"
+      },
+      {
+        "year": 2020,
+        "label": "CStone strategic collaboration — $200M for 9.9% equity + mainland China license to sugemalimab (Sept 30)"
+      },
+      {
+        "year": 2022,
+        "label": "Asymchem Paxlovid supply contract ~RMB 3.542B (Feb)"
+      },
+      {
+        "year": 2022,
+        "label": "NMPA approves sugemalimab for unresectable Stage III NSCLC (May)"
+      },
+      {
+        "year": 2023,
+        "label": "Closes $43B Seagen acquisition, inheriting RemeGen disitamab vedotin license (Dec 14)"
+      },
+      {
+        "year": 2024,
+        "label": "Unveils 'China 2030' — $1B five-year commitment at CIIE Shanghai (Nov)"
+      },
+      {
+        "year": 2025,
+        "label": "3SBio SSGJ-707 PD-1xVEGF deal — $1.25B up + up to $4.8B + $100M equity (announced May 20, completed July 24)"
+      },
+      {
+        "year": 2025,
+        "label": "YaoPharma YP05002 oral GLP-1 license — $150M up + up to $1.94B (Dec)"
+      }
+    ],
+    "sources": [
+      "pfizer-pfizer-completes-licensing-agreement-wit",
+      "fiercebiotech-pfizer-pays-3sbio-1-25b-for-pd-1xvegf-bi",
+      "biospace-pfizer-3sbio-6b-pd1-vegf-2025",
+      "biopharmadive-pfizer-3sbio-pd1-vegf-2025",
+      "bloomberg-pfizer-3sbio-record-license-2025",
+      "cstone-pfizer-strategic-collab-2020",
+      "fiercebiotech-pfizer-200m-cstone",
+      "pharmaphorum-pfizer-cstone-sugemalimab-china",
+      "cstone-pfizer-sugemalimab-nmpa-stage3-nsclc-2022",
+      "businesswire-seagen-and-remegen-announce-exclusive-wo",
+      "fiercepharma-pfizer-completes-seagen-43b-2023",
+      "pfizer-receives-regulatory-approvals-seagen-2023",
+      "echemi-asymchem-paxlovid-3-5b-2022",
+      "fda-paxlovid-dailymed-jilin-asymchem",
+      "biospace-pfizer-1b-china-2030-2024",
+      "pharmaboardroom-pfizer-1b-china-2024",
+      "biopharmadive-pfizer-yaopharma-obesity-2025",
+      "fiercepharma-pfizer-keyuan-prevenar-2023",
+      "fiercepharma-pfizer-keyuan-prevenar-2023",
+      "pfizer-china-overview-page",
+      "pharmatimes-pfizer-wuhan-rd-2010",
+      "pharmaceutical-technology-pfizer-dalian-plant"
+    ]
   }
 ]

@@ -6,8 +6,89 @@
     "founded": 2000,
     "headquarters": "Hong Kong",
     "category": "exchange",
-    "shortDescription": "Chapter 18A (2018) opened HKEX to pre-revenue biotechs — became Asia's largest biotech IPO venue",
-    "signature": "Chapter 18A regime"
+    "shortDescription": "Asia's largest biotech IPO venue after Chapter 18A (2018) opened the main board to pre-revenue biotechs.",
+    "signature": "Chapter 18A regime",
+    "narrativeHook": "On 30 April 2018 HKEX rewrote the listing map for unprofitable Chinese biotech: Chapter 18A let pre-revenue companies list with one core product past the concept stage and HK$1.5B expected market cap, and the wave that followed peaked at twenty 18A IPOs in 2021.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "exchangeContext": {
+      "keyRule": "Main Board Listing Rules Chapter 18A (2018) for pre-revenue biotechs; Chapter 18C (2023) for specialist tech (incl. AI biotech)",
+      "biotechListings": 65,
+      "raisesSinceYear": 2018,
+      "flagshipListings": [
+        {
+          "entityId": "innovent",
+          "year": 2018
+        },
+        {
+          "entityId": "junshi",
+          "year": 2018
+        },
+        {
+          "entityId": "henlius",
+          "year": 2019
+        },
+        {
+          "entityId": "cstone",
+          "year": 2019
+        },
+        {
+          "entityId": "akeso",
+          "year": 2020
+        },
+        {
+          "entityId": "remegen",
+          "year": 2020
+        },
+        {
+          "entityId": "kelun-bio",
+          "year": 2023
+        },
+        {
+          "entityId": "xtalpi",
+          "year": 2024
+        },
+        {
+          "entityId": "duality",
+          "year": 2025
+        },
+        {
+          "entityId": "insilico",
+          "year": 2025
+        }
+      ],
+      "hookFact": "The 18A wave from 2018–2021 absorbed roughly 95% of the global pre-revenue biotech IPO volume that didn't list on Nasdaq, and remained the primary listing route for Chinese biotech even through the post-2022 financing slump."
+    },
+    "timeline": [
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "Chapter 18A Main Board listing rules added 30 April 2018; pre-revenue biotechs eligible.",
+        "note": "BeiGene, Innovent, Junshi, Hua Medicine were the first 18A vintage; 7 listed in 2018, 9 in 2019."
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "18A pace continued; Akeso, RemeGen, JW Therapeutics among the 2020 cohort."
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "Peak 20 18A listings in 2021; pace fell to 8 in 2022 and 7 in 2023 as financing tightened.",
+        "note": "STAR Market opened a complementary domestic route from 2019."
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Chapter 18C added 31 March 2023 to host pre-revenue specialist-tech (incl. AI biotech) listings."
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "XtalPi (Jun 2024) became the first Chapter 18C listing; Duality, Insilico continued the 18A pipeline through 2025."
+      }
+    ],
+    "sources": [
+      "charltons-chapter-18a",
+      "pharmaboardroom-hk-2021-record",
+      "pharmaboardroom-hk-biotech-2022",
+      "hkex-18a-cumulative-2024"
+    ]
   },
   {
     "id": "star-market",
@@ -16,7 +97,56 @@
     "founded": 2019,
     "headquarters": "Shanghai",
     "category": "exchange",
-    "shortDescription": "Shanghai Stock Exchange's Sci-Tech Innovation Board; pre-revenue tech and biotech IPOs domestically",
-    "signature": "Sci-Tech Innovation Board"
+    "shortDescription": "Shanghai Stock Exchange's Sci-Tech Innovation Board; the domestic counterpart to HKEX 18A for pre-revenue tech and biotech.",
+    "signature": "Sci-Tech Innovation Board",
+    "narrativeHook": "Launched on 22 July 2019 with a registration-based IPO regime and a fifth listing standard explicitly for pre-revenue biotechs, STAR became the first onshore market in China to allow loss-making biotech to list — closing the financing loop that HKEX 18A had opened a year earlier.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "exchangeContext": {
+      "keyRule": "Set 5 of the STAR listing standards: pre-revenue biotech with at least one core product past Phase 2",
+      "raisesSinceYear": 2019,
+      "flagshipListings": [
+        {
+          "entityId": "wuxi-bio",
+          "year": 2017
+        },
+        {
+          "entityId": "kelun-bio",
+          "year": 2023
+        },
+        {
+          "entityId": "hengrui",
+          "year": 2000
+        },
+        {
+          "entityId": "remegen",
+          "year": 2022
+        }
+      ],
+      "hookFact": "STAR introduced a registration-based system in China for the first time, weighting issuer disclosure over administrative pre-approval — a structural break from the historical IPO queue."
+    },
+    "timeline": [
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "Announced by President Xi at the 2018 China International Import Expo; SSE began rule drafting late 2018."
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "First 25 STAR listings on 22 July 2019; biotech standard 5 (pre-revenue) used by Suzhou Zelgen, Shanghai Junshi (existing HKEX-listed firms with A-share dual listings)."
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "STAR biotech listings included BeiGene's secondary 2021 listing (688235) — first biotech with NASDAQ + HKEX + STAR triple listing."
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Slowdown in 2023–2024 as broader A-share IPO pace cooled; STAR retained the domestic biotech IPO mantle."
+      }
+    ],
+    "sources": [
+      "xinhua-star-market-launch",
+      "ey-star-market-ipo-support",
+      "star-market-biotech-listings-2024"
+    ]
   }
 ]

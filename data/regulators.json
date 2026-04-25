@@ -3,12 +3,69 @@
     "id": "nmpa",
     "name": "NMPA (National Medical Products Administration)",
     "nameZh": "国家药品监督管理局",
-    "founded": 2018,
+    "founded": 1998,
     "headquarters": "Beijing",
     "category": "regulator",
-    "subcategory": "Drug authority",
-    "shortDescription": "China's central drug regulator (renamed from CFDA in 2018, originally SFDA in 2003); approves drugs, devices, vaccines",
-    "signature": "Owns the post-2015 approval reform program (Order 117/722, ICH membership, conditional approval, value-oriented oncology guideline)"
+    "shortDescription": "China's drug, device, and cosmetics regulator. Restructured under Bi Jingquan 2015–2018: 722 self-inspection cleared the trial backlog, ICH membership followed, and innovator approvals went from rare to routine.",
+    "signature": "Bi Jingquan reforms · ICH membership 2017",
+    "narrativeHook": "What was a slow-walking generics regulator in 2014 had, by 2018, cleared a 22,000-application backlog, joined ICH, established expedited pathways for breakthrough innovators, and renamed itself NMPA — the institutional change underneath the entire innovator generation.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "regulatorContext": {
+      "parent": "State Council (under State Administration for Market Regulation since 2018)",
+      "mandate": "Pre-market approval and post-market surveillance of drugs, medical devices, cosmetics, and traditional Chinese medicine in mainland China. Implements pricing-adjacent policies through CDE technical review.",
+      "currentLeader": "Li Li (Commissioner)",
+      "keyReformIds": [
+        "nmpa-rename",
+        "ich-join",
+        "vaccine-admin-law",
+        "priority-review"
+      ],
+      "hookFact": "Bi Jingquan's 2015–2018 tenure as CFDA/NMPA chief was the inflection point: between 722 self-inspection in 2015 and ICH membership in 2017, the regulator became the binding constraint that turned Chinese biotech into a global pipeline contributor."
+    },
+    "timeline": [
+      {
+        "chapterId": "reform-and-opening",
+        "status": "Established 1998 as State Drug Administration (SDA)."
+      },
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "Renamed China Food and Drug Administration (CFDA) in 2003; primarily generics-focused."
+      },
+      {
+        "chapterId": "bi-jingquan-bigbang",
+        "status": "722 self-inspection (Jul 2015) cleared trial-data fraud; trial-application backlog dropped from ~22,000 to <4,000.",
+        "note": "Bi Jingquan appointed CFDA chief Jan 2015; expedited pathways introduced 2015–2017."
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "Admitted to ICH as regulatory member June 2017; renamed NMPA in March 2018 State Council reorganization."
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "First domestically-discovered PD-1s approved in 2018; the post-Bi-Jingquan baseline of innovator approvals took hold."
+      },
+      {
+        "chapterId": "going-global",
+        "status": "82 innovative drug approvals 2022–2024; majority foreign-quality clinical-data acceptance.",
+        "note": "Sustained ICH MC re-elections (2018, 2021, 2024)."
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "Continues to align with ICH Q12/Q13 standards; first AI-discovered drug (rentosertib Phase 2) under review."
+      }
+    ],
+    "sources": [
+      "bi-jingquan-wikipedia",
+      "nmpa-2018-rename",
+      "fda-cfda-ich-membership",
+      "nmpa-vaccine-administration-law",
+      "nmpa-82-innovative-2024",
+      "ispe-china-ich-alignment-2024",
+      "nmpa-ich-mc-reelection-2024",
+      "acurit-china-joins-ich-2017",
+      "nmpa-2018-rename"
+    ]
   },
   {
     "id": "nhsa",
@@ -17,9 +74,48 @@
     "founded": 2018,
     "headquarters": "Beijing",
     "category": "regulator",
-    "subcategory": "Payer / reimbursement",
-    "shortDescription": "Single national payer; runs NRDL annual price negotiations and Volume-Based Procurement",
-    "signature": "VBP price compression"
+    "shortDescription": "Established March 2018 to consolidate medical-insurance authority. Runs the National Reimbursement Drug List (NRDL) annual negotiation and the volume-based procurement (VBP) program — the two policies that reset Chinese pharma profitability after 2018.",
+    "signature": "NRDL negotiation · VBP procurement",
+    "narrativeHook": "When the State Council carved off insurance, drug pricing, and procurement from three other ministries to create NHSA in 2018, it consolidated payer power in a single agency — and the price discipline that followed turned blockbuster checkpoint inhibitors into commodity goods almost on contact.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "regulatorContext": {
+      "parent": "State Council (independent ministry-level agency)",
+      "mandate": "Administers basic medical insurance programs (urban + rural), maintains the National Reimbursement Drug List, runs annual NRDL price negotiation and volume-based procurement (VBP) tenders, oversees medical-pricing policy.",
+      "currentLeader": "Hu Jinglin (Director)",
+      "keyReformIds": [
+        "nrdl-resume",
+        "vbp"
+      ],
+      "hookFact": "Annual NRDL negotiation forces price cuts averaging 50–70% in exchange for inclusion in basic-insurance reimbursement; VBP tenders cut generic-drug prices by 50–96% across multiple rounds."
+    },
+    "timeline": [
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "Established March 2018 in State Council reorganization; absorbed insurance/pricing functions from MoHRSS, NDRC, MoH, NHFPC."
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "2019 NRDL negotiation included first homegrown PD-1 (Junshi toripalimab); 2020 added Tyvyt (Innovent sintilimab) at 64% price cut."
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "VBP rounds 5–8 systematically cut generic prices; PD-1 NRDL negotiations bottomed at ~$10/dose by 2022."
+      },
+      {
+        "chapterId": "going-global",
+        "status": "License-out boom partly driven by domestic-market price compression making ex-China rights more valuable."
+      }
+    ],
+    "sources": [
+      "wikipedia-nhsa",
+      "uschina-nhsa-policy",
+      "china-health-pulse-nhsa",
+      "eversana-pd1-nrdl-2020",
+      "uschina-nrdl-healthcare-series",
+      "simon-kucher-nrdl-2017",
+      "nhsa-establishment-2018"
+    ]
   },
   {
     "id": "ndrc",
@@ -28,9 +124,40 @@
     "founded": 2003,
     "headquarters": "Beijing",
     "category": "regulator",
-    "subcategory": "Industrial policy",
-    "shortDescription": "Industrial planning and macroeconomic policy; sets biotech as strategic emerging industry",
-    "signature": "5-year plans for bioeconomy"
+    "shortDescription": "China's macro-economic planning body. Set drug prices directly until 2018 (when authority moved to NHSA); now drafts Five-Year Plans and bioeconomy strategy.",
+    "signature": "14th FYP Bioeconomy Plan (2022)",
+    "narrativeHook": "NDRC's 14th Five-Year Bioeconomy Plan (2022) elevated biotechnology to the status of a strategic emerging industry — the planning document that named pharmaceuticals, bio-agriculture, bioenergy, and bio-information as concurrent national priorities.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "regulatorContext": {
+      "parent": "State Council (cabinet-level)",
+      "mandate": "Macroeconomic planning; Five-Year Plan drafting; strategic-industry policy; formerly direct drug pricing (transferred to NHSA in 2018).",
+      "keyReformIds": [
+        "fyp14-bioeconomy"
+      ],
+      "hookFact": "NDRC drafts each Five-Year Plan; the 14th (2021–2025) named bioeconomy a strategic emerging industry, pushing biotech R&D spending and infrastructure investment."
+    },
+    "timeline": [
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "Established 2003 from the State Planning Commission lineage (founded 1952)."
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "Drug-pricing authority transferred to the new NHSA in March 2018."
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "14th FYP Bioeconomy Plan (May 2022) elevated bioeconomy to strategic-industry status."
+      }
+    ],
+    "sources": [
+      "ndrc-bioeconomy-plan-en-2022",
+      "gov-cn-bioeconomy-plan-2022",
+      "chinadaily-bioeconomy-plan",
+      "cgtn-bioeconomy-3-28-trillion-2022",
+      "ndrc-wikipedia"
+    ]
   },
   {
     "id": "most",
@@ -39,9 +166,40 @@
     "founded": 1998,
     "headquarters": "Beijing",
     "category": "regulator",
-    "subcategory": "R&D funding",
-    "shortDescription": "Science policy and major R&D funding programs (863, 973, Major New Drug Project)",
-    "signature": "863 Program / Major New Drug Creation"
+    "shortDescription": "Sets national science and technology policy; runs the major R&D programs (863, Torch, 973) that named biotechnology a strategic priority from 1986 onward.",
+    "signature": "863 Program · Torch Program",
+    "narrativeHook": "When four senior physicists wrote to Deng Xiaoping in 1986 arguing China couldn't 'stay aloof' from the international high-tech competition, the resulting 863 Program — administered by what became MoST — named biotechnology one of seven national priorities and set the institutional pattern for sixty years of R&D planning.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "regulatorContext": {
+      "parent": "State Council (cabinet-level)",
+      "mandate": "Science and technology policy; major R&D programs; international S&T cooperation; supervises the National Natural Science Foundation and CAS-affiliated programs.",
+      "keyReformIds": [
+        "863-program"
+      ],
+      "hookFact": "MoST runs the 863 (high-tech), Torch (industrialization), and 973 (basic-research) programs that have funded much of China's biotechnology R&D since 1986. NIBS Beijing (2003) was a direct MoST experiment in Western-style PI institutes."
+    },
+    "timeline": [
+      {
+        "chapterId": "reform-and-opening",
+        "status": "Established 1998 from the State Science and Technology Commission (founded 1958).",
+        "note": "Predecessor SSTC ran the 863 (1986) and Torch (1988) programs."
+      },
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "Co-founded NIBS Beijing in 2003 with Beijing Municipal Government as an experiment in Western-style PI autonomy."
+      },
+      {
+        "chapterId": "innovator-generation",
+        "status": "12th Five-Year Plan (2011–2015) elevated biotechnology to strategic-emerging-industry status."
+      }
+    ],
+    "sources": [
+      "863-program-wikipedia",
+      "chinadaily-863-program",
+      "torch-program-china",
+      "most-wikipedia"
+    ]
   },
   {
     "id": "cde",
@@ -50,9 +208,39 @@
     "founded": 1985,
     "headquarters": "Beijing",
     "category": "regulator",
-    "subcategory": "Drug review",
-    "shortDescription": "NMPA's technical review arm; performs the substantive science assessments behind approval decisions",
-    "signature": "Value-Oriented Oncology Drug Development Guideline (2021)"
+    "shortDescription": "NMPA's technical-review arm. Cleared the 22,000-application backlog 2015–2018, hired ~1,000 new reviewers, and issued the 2021 Clinical Value-Oriented Oncology Drug Development guidelines that ended the PD-1 fast-follower era.",
+    "signature": "Clinical Value-Oriented guidelines (2021)",
+    "narrativeHook": "CDE was where the Bi Jingquan reforms operationalized: the agency hired roughly a thousand new reviewers, cleared the trial backlog, and in July 2021 issued guidelines that quietly told the industry that fast-following Merck's Keytruda was no longer a winning strategy.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "regulatorContext": {
+      "parent": "Subordinate to NMPA",
+      "mandate": "Technical review of drug applications (NDAs, INDs, supplements); maintains review-quality standards aligned with ICH guidelines.",
+      "keyReformIds": [
+        "value-oriented-onc",
+        "priority-review"
+      ],
+      "hookFact": "Headcount roughly tripled under the Bi Jingquan reforms (from ~120 to >1,000 reviewers); review timelines for innovator drugs converged toward FDA/EMA benchmarks."
+    },
+    "timeline": [
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "Established 1985 as the technical review arm of the SDA."
+      },
+      {
+        "chapterId": "bi-jingquan-bigbang",
+        "status": "Aggressive hiring 2015–2018 cleared the 22,000-application backlog."
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "Issued the Clinical Value-Oriented Oncology Drug Development guidelines, July 2021."
+      }
+    ],
+    "sources": [
+      "pharmadj-cde-clinical-value-guidelines",
+      "fiercepharma-china-cde-value-oriented-2021",
+      "tigermed-cde-value-guideline-2021"
+    ]
   },
   {
     "id": "nhc",
@@ -61,58 +249,217 @@
     "founded": 2018,
     "headquarters": "Beijing",
     "category": "regulator",
-    "subcategory": "Public health",
-    "shortDescription": "National health authority; pandemic response, public health policy, hospital regulation",
-    "signature": "COVID-19 response coordination"
+    "shortDescription": "Established March 2018 to oversee public health, hospitals, and disease control. Successor to the National Health and Family Planning Commission; oversees China CDC.",
+    "signature": "Public health · hospital system",
+    "narrativeHook": "When NHC replaced the National Health and Family Planning Commission in March 2018, the rebrand reflected a quiet but consequential pivot: post-one-child-policy, the country's health agency was repositioned around population aging, chronic disease, and a hospital system three times the size it had been in 2000.",
+    "verified": false,
+    "regulatorContext": {
+      "parent": "State Council (cabinet-level)",
+      "mandate": "Public health policy, hospital and primary-care system oversight, disease-control coordination (oversees China CDC), professional licensing for physicians and nurses.",
+      "hookFact": "NHC's 2018 establishment was part of the same State Council reorganization that created NMPA and NHSA — together a tripartite reset of how China's health system regulates manufacturers, payers, and providers."
+    },
+    "sources": [
+      "nhc-wikipedia"
+    ]
   },
   {
     "id": "fda",
     "name": "FDA (US Food and Drug Administration)",
+    "nameZh": "美国食品药品监督管理局",
     "founded": 1906,
-    "headquarters": "Silver Spring, MD",
+    "headquarters": "Silver Spring, Maryland",
     "category": "regulator",
-    "subcategory": "Drug authority (US)",
-    "shortDescription": "US drug regulator; approves Chinese-discovered drugs that go global (Brukinsa, Carvykti, etc.)",
-    "signature": "Brukinsa accelerated approval (Nov 2019) — first Chinese-discovered drug FDA approval"
+    "shortDescription": "US drug, device, and food regulator. Approved Brukinsa (Nov 2019) — the first cancer drug discovered in China to clear FDA — and refused sintilimab (Feb 2022) on China-only data.",
+    "signature": "First Chinese-discovered cancer drug approval (2019)",
+    "narrativeHook": "FDA's role in the China biotech story is bookended by two decisions: November 2019, when Brukinsa became the first cancer drug discovered in China to clear FDA; and February 2022, when an ODAC vote of 14–1 rejected sintilimab on China-only data, drawing the limit of how far Chinese biotech could go without American patients in pivotal trials.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "regulatorContext": {
+      "parent": "US Department of Health and Human Services",
+      "mandate": "Pre-market authorization and post-market surveillance of drugs, biologics, devices, and food in the United States.",
+      "hookFact": "FDA's reception of Chinese biotech evolved through three phases: novelty (Brukinsa 2019), skepticism (sintilimab CRL 2022, camrelizumab CRL 2024–2025), and routine review (Loqtorzi 2023, Carvykti 2022, penpulimab 2025)."
+    },
+    "timeline": [
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Brukinsa accelerated approval Nov 2019 — first cancer drug developed in China to clear FDA."
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "Carvykti approval Feb 2022; sintilimab Complete Response Letter Feb 24 2022 after 14–1 ODAC vote against."
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Loqtorzi approval Oct 2023 — first FDA-approved Chinese-developed PD-1; multiple Chinese ADC IND clearances in oncology."
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "Penpulimab approval April 2025; Insilico's rentosertib advancing to Phase 2b/3 IND in 2026."
+      }
+    ],
+    "sources": [
+      "fiercepharma-brukinsa-fda-approval",
+      "fiercepharma-eli-lilly-innovent-hit-with-fda-rejectio",
+      "cancernetwork-fda-issues-second-camrelizumab-rivoceran",
+      "akeso-penpulimab-fda-2025",
+      "fda-history-wikipedia"
+    ]
   },
   {
     "id": "ema",
     "name": "EMA (European Medicines Agency)",
+    "nameZh": "欧洲药品管理局",
     "founded": 1995,
     "headquarters": "Amsterdam",
     "category": "regulator",
-    "subcategory": "Drug authority (EU)",
-    "shortDescription": "EU drug regulator; approves Chinese-discovered drugs for European market",
-    "signature": "Brukinsa and Tevimbra approvals"
+    "shortDescription": "EU centralized drug authorization agency. Approved Henlius's Hanquyou (trastuzumab biosimilar) in July 2020 — the first Chinese-developed mAb biosimilar in the EU.",
+    "signature": "First China mAb biosimilar in EU (Henlius, 2020)",
+    "narrativeHook": "Long before FDA or NMPA fully aligned on biosimilar standards, EMA approved Henlius's trastuzumab biosimilar Hanquyou (Zercepac) in July 2020 — the first Chinese-developed monoclonal antibody biosimilar to clear a major Western regulator.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "regulatorContext": {
+      "parent": "European Union (independent EU agency)",
+      "mandate": "Centralized scientific evaluation and supervision of medicines for the European Union and EEA; CHMP opinions translate into European Commission marketing authorisations.",
+      "hookFact": "EMA's relocation from London to Amsterdam in 2019 (post-Brexit) coincided with the first wave of Chinese-developed biologics filings — Zercepac, sugemalimab, Hetronifly all cleared CHMP review through the early 2020s."
+    },
+    "timeline": [
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Approved Hanquyou (Henlius trastuzumab biosimilar, marketed as Zercepac) July 27 2020."
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Approved sugemalimab (CStone, Cejemly) for 1L metastatic NSCLC July 2024; expanded to Stage III NSCLC November 2025."
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "Approved serplulimab (Henlius, Hetronifly) for ES-SCLC February 2025 — first China-developed PD-1 in EU."
+      }
+    ],
+    "sources": [
+      "henlius-hanquyou-ec-ema-approval",
+      "henlius-zercepac-ema-2020",
+      "ema-hetronifly-epar",
+      "ema-wikipedia"
+    ]
   },
   {
     "id": "ich",
     "name": "ICH (International Council for Harmonisation)",
+    "nameZh": "国际人用药品注册技术协调会",
     "founded": 1990,
     "headquarters": "Geneva",
     "category": "regulator",
-    "subcategory": "Standards body",
-    "shortDescription": "Harmonizes pharmaceutical standards across US, EU, Japan, China; China joined as Regulatory Member June 2017",
-    "signature": "China membership unlocked bridging trials and global pipeline alignment"
+    "shortDescription": "Multilateral body that harmonizes drug-development technical standards across jurisdictions. China NMPA admitted as a regulatory member in June 2017.",
+    "signature": "NMPA membership 2017",
+    "narrativeHook": "When NMPA was admitted to ICH in June 2017, the practical effect was that a Chinese trial dossier acceptable to American regulators was no longer a contradiction in terms — the door that the entire later license-out wave walked through.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "regulatorContext": {
+      "parent": "International Council for Harmonisation (independent association)",
+      "mandate": "Develops and maintains harmonized technical guidelines (Q, S, E, M categories) for drug registration across founding regulators (FDA, EMA, MHLW/PMDA), regulatory members, and observers.",
+      "hookFact": "NMPA's ICH membership in 2017 — followed by election to the Management Committee in 2018 and re-elections in 2021 and 2024 — formalized China's transition from regulatory outsider to peer."
+    },
+    "timeline": [
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "Admitted China NMPA (then CFDA) as regulatory member June 2017; elected to Management Committee June 2018."
+      },
+      {
+        "chapterId": "going-global",
+        "status": "NMPA re-elected to MC 2021 and 2024; convergence with ICH Q12/Q13 lifecycle standards."
+      }
+    ],
+    "sources": [
+      "fda-cfda-ich-membership",
+      "ispe-china-ich-alignment-2024",
+      "nmpa-ich-mc-reelection-2024",
+      "acurit-china-joins-ich-2017",
+      "ich-overview"
+    ]
   },
   {
     "id": "us-congress",
     "name": "US Congress",
+    "nameZh": "美国国会",
     "founded": 1789,
     "headquarters": "Washington, DC",
     "category": "regulator",
-    "subcategory": "Legislative",
-    "shortDescription": "Passes laws affecting US-China biotech relations including BIOSECURE Act",
-    "signature": "BIOSECURE Act enacted Dec 2025 as Section 851 of FY2026 NDAA"
+    "shortDescription": "US legislature. Passed the BIOSECURE Act in 2024 House (306–81); enacted as Section 851 of the FY2026 NDAA on 17 December 2025.",
+    "signature": "BIOSECURE Act (2024–2025)",
+    "narrativeHook": "Congress isn't a regulator in the FDA/EMA sense, but it shaped Chinese biotech's geopolitical perimeter through two pieces of legislation: the BIOSECURE Act, restricting federal procurement from named Chinese biotech firms, and the broader China Select Committee framing that pushed BIOSECURE through bipartisan votes.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "regulatorContext": {
+      "parent": "Independent branch of US federal government (legislative)",
+      "mandate": "Federal legislation, including export controls and procurement restrictions affecting Chinese biotech.",
+      "keyReformIds": [
+        "biosecure",
+        "biosecure-enacted"
+      ],
+      "hookFact": "BIOSECURE was passed via the FY2026 NDAA on 17 December 2025 as Section 851 — final text dropped the named-entity list (BGI, MGI, Complete Genomics, WuXi AppTec, WuXi Biologics) but gave OMB up to 12 months to publish the official Biotechnology Companies of Concern list."
+    },
+    "timeline": [
+      {
+        "chapterId": "going-global",
+        "status": "BIOSECURE Act passed House 306–81 Sept 9 2024; failed to fold into FY2025 NDAA."
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "Enacted as Section 851 of FY2026 NDAA on Dec 17 2025; OMB given up to 12 months to publish the BCC list."
+      }
+    ],
+    "sources": [
+      "ropesgray-biosecure-house-2024",
+      "mwc-biosecure-house-2024",
+      "foley-biosecure-2024",
+      "lw-biosecure-becomes-law-2025",
+      "arnold-porter-biosecure-law-2025",
+      "congress-h-r-7085",
+      "foleyhoag-congress-passes-biosecure-act",
+      "ropesgray-biosecure-act-enacted",
+      "us-congress-overview"
+    ]
   },
   {
     "id": "who",
     "name": "WHO (World Health Organization)",
+    "nameZh": "世界卫生组织",
     "founded": 1948,
     "headquarters": "Geneva",
     "category": "regulator",
-    "subcategory": "Public health (multilateral)",
-    "shortDescription": "UN health agency; vaccine prequalification gates Chinese vaccine exports to LMICs",
-    "signature": "Sinovac and Sinopharm Emergency Use Listings (2021)"
+    "shortDescription": "UN public-health agency. Granted Emergency Use Listing to Sinopharm BBIBP-CorV (May 2021) and Sinovac CoronaVac (June 2021) — the first non-Western COVID vaccines on the WHO list.",
+    "signature": "Emergency Use Listing for non-Western COVID vaccines (2021)",
+    "narrativeHook": "WHO Emergency Use Listing in 2021 for Sinopharm BBIBP-CorV and Sinovac CoronaVac was the moment Chinese-made vaccines became globally legitimate — the listings unlocked COVAX procurement and bilateral shipments to roughly 60 low- and middle-income countries.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "regulatorContext": {
+      "parent": "United Nations (specialized agency)",
+      "mandate": "Global public-health policy; Emergency Use Listing (EUL) for vaccines, diagnostics, and therapeutics; prequalification (PQ) for medicines and devices used in low/middle-income procurement.",
+      "hookFact": "WHO EUL/PQ has been the primary global-legitimation channel for Chinese-developed vaccines: BBIBP-CorV (May 2021), CoronaVac (June 2021), Convidecia (May 2022), Cecolin HPV (Oct 2021), Walrinvax HPV (Aug 2024)."
+    },
+    "timeline": [
+      {
+        "chapterId": "first-american-approvals",
+        "status": "EUL granted to Sinopharm BBIBP-CorV (May 7 2021) and Sinovac CoronaVac (June 1 2021)."
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "EUL granted to CanSino Convidecia (May 19 2022); WHO prequalified Innovax's Cecolin HPV vaccine (October 2021)."
+      },
+      {
+        "chapterId": "going-global",
+        "status": "WHO prequalified Walvax/Yuxi Zerun's Walrinvax bivalent HPV vaccine in August 2024."
+      }
+    ],
+    "sources": [
+      "who-sinovac-eul",
+      "who-sinopharm-eul",
+      "who-interim-recommendations-for-use-of-the-c",
+      "who-bibp-background-2021",
+      "path-walrinvax-who-prequalification-2024",
+      "path-cecolin-who-prequalification-2021",
+      "who-history"
+    ]
   }
 ]

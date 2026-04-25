@@ -4,10 +4,40 @@
     "name": "NIBS Beijing",
     "nameZh": "北京生命科学研究所",
     "founded": 2003,
-    "headquarters": "Beijing",
+    "headquarters": "Beijing (Zhongguancun)",
     "category": "academic",
-    "shortDescription": "National Institute of Biological Sciences; Wang Xiaodong's home institute; outsized share of Chinese-discovered drug targets",
-    "signature": "Foundational research engine"
+    "shortDescription": "National Institute of Biological Sciences — independent research institute that produced the founding science behind BeiGene.",
+    "signature": "Foundational research engine",
+    "narrativeHook": "Established in 2003 as a deliberate experiment in Western-style PI autonomy, NIBS recruited Wang Xiaodong from UT Southwestern as founding director — and his lab there became the scientific anchor of BeiGene when Wang co-founded the company in 2010.",
+    "verified": false,
+    "academicContext": {
+      "affiliation": "Jointly funded by the Ministry of Science and Technology and the Beijing Municipal Government",
+      "keyPIs": [
+        {
+          "name": "Wang Xiaodong",
+          "lab": "Apoptosis lab",
+          "area": "Cell death and oncology — co-founder of BeiGene"
+        }
+      ],
+      "spinoutEntityIds": [
+        "beigene"
+      ],
+      "hookFact": "NIBS' Western-style autonomy model — flat hierarchy, no Chinese Academy of Sciences entanglement, returnee-led PI recruiting — was a template later imitated by ShanghaiTech and Westlake."
+    },
+    "timeline": [
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "Founded 2003; Wang Xiaodong returned from UT Southwestern as founding director."
+      },
+      {
+        "chapterId": "innovator-generation",
+        "status": "BeiGene co-founded 2010 around science from Wang Xiaodong's NIBS lab."
+      }
+    ],
+    "sources": [
+      "nibs-beijing-wikipedia",
+      "crunchbase-xiaodong-wang"
+    ]
   },
   {
     "id": "tsinghua",
@@ -16,8 +46,32 @@
     "founded": 2001,
     "headquarters": "Beijing",
     "category": "academic",
-    "shortDescription": "Major source of biotech founders and senior scientific talent",
-    "signature": "Talent pipeline"
+    "shortDescription": "Re-established 2001 as part of Tsinghua's expansion into life sciences; major returnee-PI destination through the 2010s.",
+    "signature": "Talent pipeline",
+    "narrativeHook": "When Tsinghua re-opened its medical school in 2001 it became one of the central landing pads for the haigui (returnee-scientist) wave — Yigong Shi's structural-biology lab was the highest-profile early arrival before Shi later left to found Westlake.",
+    "verified": false,
+    "academicContext": {
+      "affiliation": "Tsinghua University · Ministry of Education",
+      "keyPIs": [
+        {
+          "name": "Yigong Shi",
+          "lab": "Structural biology (departed 2018 to lead Westlake)",
+          "area": "Cryo-EM membrane proteins"
+        }
+      ],
+      "hookFact": "Tsinghua School of Medicine and PKU School of Basic Medical Sciences together produced a meaningful share of the biotech founders and senior scientists at China's innovator-generation companies."
+    },
+    "timeline": [
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "Re-established 2001 amid Tsinghua's life-sciences expansion."
+      },
+      {
+        "chapterId": "innovator-generation",
+        "status": "Major destination for returnee PIs through the 2010s."
+      }
+    ],
+    "sources": []
   },
   {
     "id": "peking-university",
@@ -26,8 +80,25 @@
     "founded": 1898,
     "headquarters": "Beijing",
     "category": "academic",
-    "shortDescription": "Top life-sciences research university; PUMC affiliation; major founder pipeline",
-    "signature": "Research + talent"
+    "shortDescription": "China's oldest modern university; the Health Science Center and School of Life Sciences are central to the country's biomedical research base.",
+    "signature": "Research + talent",
+    "narrativeHook": "Founded in 1898 as Imperial University of Peking, PKU's Health Science Center and School of Life Sciences anchor much of Beijing's biomedical research output and have trained an outsized share of Chinese biotech's founding scientists.",
+    "verified": false,
+    "academicContext": {
+      "affiliation": "Ministry of Education",
+      "hookFact": "PKU is consistently the top-ranked research university in mainland China alongside Tsinghua, and dominates the talent pipeline for Beijing-area biotech firms."
+    },
+    "timeline": [
+      {
+        "chapterId": "republican-foundations",
+        "status": "Founded 1898; renamed Peking University 1912."
+      },
+      {
+        "chapterId": "innovator-generation",
+        "status": "Biomedical research output and PhD pipeline scaled with the post-2010 talent return wave."
+      }
+    ],
+    "sources": []
   },
   {
     "id": "fudan-university",
@@ -36,27 +107,103 @@
     "founded": 1905,
     "headquarters": "Shanghai",
     "category": "academic",
-    "shortDescription": "Major Shanghai-area research engine; affiliated with Fudan University Cancer Hospital",
-    "signature": "Shanghai research cluster"
+    "shortDescription": "Shanghai's flagship comprehensive university; School of Basic Medical Sciences and the affiliated Shanghai Cancer Center anchor the city's biomedical research cluster.",
+    "signature": "Shanghai research cluster",
+    "narrativeHook": "Founded by the Jesuit-trained Ma Xiangbo in 1905 as Fudan Public School and reorganized into its modern comprehensive university form in the 1950s, Fudan's School of Basic Medical Sciences and its affiliated hospital network form the anchor of the Shanghai biomedical research base.",
+    "verified": false,
+    "academicContext": {
+      "affiliation": "Ministry of Education",
+      "hookFact": "Fudan's Hospital Management Institute publishes the de facto national hospital ranking (since 2009)."
+    },
+    "timeline": [
+      {
+        "chapterId": "republican-foundations",
+        "status": "Founded 1905 as Fudan Public School."
+      },
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "Modern reorganization with Shanghai Medical University merger (2000)."
+      }
+    ],
+    "sources": []
   },
   {
     "id": "shanghaitech",
     "name": "ShanghaiTech University",
     "nameZh": "上海科技大学",
     "founded": 2013,
-    "headquarters": "Shanghai",
+    "headquarters": "Shanghai (Pudong)",
     "category": "academic",
-    "shortDescription": "Newer research-intensive university; iHuman Institute drives drug-discovery research",
-    "signature": "iHuman Institute"
+    "shortDescription": "Founded 2013 jointly by CAS and Shanghai municipality on the NIBS Western-style PI model; iHuman Institute is a global leader in GPCR structural biology.",
+    "signature": "iHuman Institute",
+    "narrativeHook": "Established in 2013 as a joint venture between the Chinese Academy of Sciences and Shanghai Municipal Government on the NIBS template, ShanghaiTech recruited Raymond Stevens from Scripps to launch iHuman in 2014 — and the institute became one of the world's most prolific producers of GPCR structures within five years.",
+    "verified": false,
+    "academicContext": {
+      "affiliation": "Joint Chinese Academy of Sciences / Shanghai Municipal Government",
+      "keyPIs": [
+        {
+          "name": "Raymond Stevens",
+          "lab": "iHuman Institute (founding director)",
+          "area": "GPCR structural biology"
+        }
+      ],
+      "hookFact": "iHuman Institute solved more than 50 GPCR structures in its first decade — one of the world's leading clusters in the field, anchored by Pudong's biotech park."
+    },
+    "timeline": [
+      {
+        "chapterId": "innovator-generation",
+        "status": "Founded 2013; iHuman Institute launched 2014 with Raymond Stevens recruited from Scripps."
+      }
+    ],
+    "sources": [
+      "shanghaitech-ihuman-about"
+    ]
   },
   {
     "id": "cas",
     "name": "Chinese Academy of Sciences",
     "nameZh": "中国科学院",
     "founded": 1949,
-    "headquarters": "Beijing (HQ); national network",
+    "headquarters": "Beijing (HQ); national network of 100+ institutes",
     "category": "academic",
-    "shortDescription": "Largest research network in China; Shanghai Institutes of Biological Sciences (SIBS) anchor biotech research",
-    "signature": "National research network"
+    "shortDescription": "China's primary national research network; Shanghai Institute of Materia Medica and BGI (originally an affiliated non-governmental institute) are key biomedical anchors.",
+    "signature": "National research network",
+    "narrativeHook": "Established 14 days after the founding of the People's Republic in 1949 on the Soviet academy template, CAS today runs more than a hundred institutes — and produced both the artemisinin work that won Tu Youyou the 2015 Nobel Prize and the Shanghai Institute of Materia Medica that anchors Chinese drug-discovery science.",
+    "verified": false,
+    "academicContext": {
+      "affiliation": "State Council (directly administered)",
+      "keyPIs": [
+        {
+          "name": "Tu Youyou",
+          "lab": "Beijing 523 Project / China Academy of Chinese Medical Sciences (CAS-affiliated network)",
+          "area": "Artemisinin (2015 Nobel)"
+        }
+      ],
+      "hookFact": "CAS-affiliated institutes were the principal scientific home of Chinese drug research in the planned-economy era, including the Beijing 523 Project that produced artemisinin."
+    },
+    "timeline": [
+      {
+        "chapterId": "republican-foundations",
+        "status": "Reorganized 1949 from the Republican-era Academia Sinica on the Soviet academy model."
+      },
+      {
+        "chapterId": "insulin-and-artemisinin",
+        "status": "Synthetic insulin (1965) and artemisinin (1970s) were both CAS-led achievements."
+      },
+      {
+        "chapterId": "reform-and-opening",
+        "status": "Knowledge Innovation Program (1998) repositioned CAS toward institutional modernization."
+      },
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "Shanghai Institute of Materia Medica became a key drug-discovery anchor."
+      }
+    ],
+    "sources": [
+      "cas-history-soviet-model",
+      "bcas-insulin-2024",
+      "lasker-artemisinin-2011",
+      "cas-at-70-nature"
+    ]
   }
 ]
