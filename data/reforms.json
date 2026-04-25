@@ -2,98 +2,431 @@
   {
     "id": "863-program",
     "name": "863 Program & NSFC Launch",
+    "nameZh": "国家高技术研究发展计划(863计划)",
     "date": "1986-03",
+    "effectiveDate": "1986-03-05",
+    "agency": "State Council of the People's Republic of China",
+    "documentRef": "State High-Tech Research and Development Plan (approved by Deng Xiaoping, 5 March 1986)",
     "category": "approval",
-    "shortDescription": "Deng-approved State High-Tech R&D Program; NSFC founded one month earlier",
-    "impact": "First sustained national funding for biotechnology; seeded BGI's HGP entry"
+    "shortDescription": "Deng Xiaoping's national high-tech R&D fund — China's first sustained government money for biotechnology — launched alongside the National Natural Science Foundation (NSFC), founded one month earlier in February 1986.",
+    "impact": "Put biotechnology on the same priority list as space and computing, and over 30 years funded the labs and people who later built the industry — most visibly bankrolling China's 1% slice of the Human Genome Project, the work that became BGI. Folded into the unified National Key R&D Program in 2016 after backing 5,200+ industrial R&D projects.",
+    "keyProvisions": [
+      "Picked seven priority fields — biotechnology was named first, alongside space, information tech, lasers, automation, energy, and new materials",
+      "Set up as a top-down R&D fund: State Council approval, MOST-coordinated, with senior scientists (not bureaucrats) choosing projects",
+      "Paired with NSFC (founded 14 February 1986), China's first peer-reviewed basic-science funder, modeled loosely on the US NSF",
+      "Initial budget of ~5.9 billion RMB across its first 15 years; raised to 15 billion RMB for the 10th Five-Year Plan (2001–2005)",
+      "Absorbed into the National Key R&D Program in 2016, ending the standalone 863 brand after 30 years"
+    ],
+    "narrativeHook": "Four senior physicists — Wang Daheng, Wang Ganchang, Yang Jiachi, Chen Fangyun — wrote to Deng Xiaoping warning that China couldn't 'stay aloof' from Reagan's Star Wars-era tech race; Deng approved the program in two days, and biotechnology was on the priority list before China had a single biotech company.",
+    "affectedCompanyIds": [
+      "bgi"
+    ],
+    "sources": [
+      "863-program-wikipedia",
+      "chinadaily-863-program",
+      "nsfc-wikipedia",
+      "chgc-hgp-china-protein-cell",
+      "cset-nkrp-launch-2016"
+    ],
+    "verified": true,
+    "lastVerified": "2026-04-25"
   },
   {
     "id": "973-program",
     "name": "973 Basic Research Program",
+    "nameZh": "国家重点基础研究发展计划",
     "date": "1997-06",
+    "effectiveDate": "1998-01",
+    "agency": "Ministry of Science and Technology, via the State Science and Education Steering Group under the State Council",
+    "documentRef": "National Plan on Key Basic Research and Development (approved 4 June 1997)",
     "category": "approval",
-    "shortDescription": "Mission-driven funding for strategic basic science",
-    "impact": "Built academic capacity that returnees would later commercialize"
+    "shortDescription": "Beijing's first big-money basic-science program — multi-year grants for upstream research that won't pay off for a decade.",
+    "impact": "Built the academic bench Chinese biotech later hired from: by 2008 the program had funded 456 projects with 451 lead investigators, and life-sciences money helped turn acute promyelocytic leukemia into the first curable adult leukemia and pushed Chinese-discovered cancer drugs Salvicine and Lidamycin into clinical trials. The labs and PhDs it paid for seeded the protein-science, stem-cell, and drug-discovery groups that returnee founders would later poach from in the 2010s.",
+    "keyProvisions": [
+      "Funded a small number of strategic projects (initial 1998–2002 batch: 132 projects across the whole country) rather than spreading money thin",
+      "Eight priority areas — including 'Population and Health,' which paid for cancer biology, hepatitis B, Alzheimer's drug discovery, and stem-cell research",
+      "Each project ran for up to five years (later '2+3' with a mid-term review) under a single named 'chief scientist' who controlled the budget",
+      "MOST ran the program; State Science and Education Steering Group set the priority list — basic research, not applied or commercial",
+      "Folded into the unified National Key R&D Program in February 2016, alongside the 863 Program"
+    ],
+    "narrativeHook": "Named for when it was proposed — March 1997, so '97-3' became '973' — and a decade later the same scientists Shi Yigong and Rao Yi who benefited from it co-wrote a Science editorial accusing its grant-rationing culture of 'corrupting the spirit' of Chinese research.",
+    "sources": [
+      "973-program-wikipedia",
+      "ny-consulate-973-program",
+      "baidu-baike-973-program-en",
+      "cset-nkrp-launch-2016"
+    ],
+    "verified": true,
+    "lastVerified": "2026-04-25"
   },
   {
     "id": "hgr-interim",
     "name": "Interim HGR Measures",
-    "date": "1998-06",
+    "nameZh": "人类遗传资源管理暂行办法",
+    "date": "1998-06-10",
     "category": "geopolitical",
-    "shortDescription": "First rules controlling foreign access to Chinese genetic samples",
-    "impact": "Established the data-sovereignty principle later codified in 2019 and 2022"
+    "agency": "General Office of the State Council (transmitting joint draft by Ministry of Science and Technology and Ministry of Public Health)",
+    "documentRef": "Guobanfa [1998] No. 36",
+    "shortDescription": "China's first rule requiring Beijing's sign-off before any Chinese tissue, blood, or DNA sample could leave the country.",
+    "impact": "Established the data-sovereignty principle that Chinese DNA belongs to China — dormant for over a decade, then weaponized between 2015 and 2018 when MOST hit BGI, WuXi AppTec, and others with at least six administrative penalties for unauthorized cross-border sample transfers, before being upgraded to a State Council regulation in 2019 and a Biosecurity-Law chapter in 2020.",
+    "keyProvisions": [
+      "Defined 'human genetic resources' broadly to cover tissue, cells, blood, DNA constructs, and the data derived from them — not just physical samples",
+      "Required prior government approval to collect, store, sell, export, or take abroad any covered sample",
+      "Set up the China Administration of Human Genetic Resources under joint MOST + Ministry of Health oversight as the licensing gatekeeper",
+      "Forced foreign researchers to work through a Chinese partner institution, with shared IP and 'reasonable benefit-sharing' written into every project",
+      "Singled out 'important pedigrees' and region-specific genetic material (e.g. ethnic-minority or isolated-village cohorts) for the strictest controls"
+    ],
+    "narrativeHook": "Triggered by the 1996–97 'Anhui gene war' — Harvard epidemiologists collected blood from 16,000+ peasants for a Millennium Pharma deal without proper consent; geneticist Tan Jiazhen wrote to Jiang Zemin, and the rules were on paper within a year.",
+    "affectedCompanyIds": [
+      "bgi",
+      "wuxi-apptec"
+    ],
+    "sources": [
+      "covington-hgr-regulation",
+      "freshfields-hgr-demystifying",
+      "stanford-genomic-data-policies-2025",
+      "pmc-china-cross-border-genomic-2018",
+      "gd-gov-cn-guobanfa-1998-36"
+    ],
+    "verified": true,
+    "lastVerified": "2026-04-25"
   },
   {
     "id": "major-new-drug-project",
-    "name": "Major New Drug Creation Project",
+    "name": "Major New Drug Creation Megaproject",
+    "nameZh": "重大新药创制科技重大专项",
     "date": "2008-01",
+    "effectiveDate": "2008-01",
+    "agency": "Ministry of Science and Technology, National Health Commission, Ministry of Finance, and National Development and Reform Commission",
+    "documentRef": "National Medium- and Long-Term Science & Technology Development Plan (2006–2020), Megaproject No. 10",
     "category": "approval",
-    "shortDescription": "National translational R&D subsidy for indigenous drug development",
-    "impact": "Funded the first wave of innovator platforms and clinical infrastructure"
+    "shortDescription": "A 12-year national grant program that paid Chinese drugmakers to invent original drugs instead of copying them.",
+    "impact": "Put roughly 23.3 billion yuan (~US$3.3B) of central money — plus matching local and corporate spend — into more than 3,000 R&D projects between 2008 and 2020, and produced 44 'Class 1' drugs (chemicals never marketed anywhere in the world before). That is 8x the number China had managed in the decades before the program.",
+    "keyProvisions": [
+      "Central-government grants funneled through the Ministry of Science & Technology and the National Health Commission, in five-year tranches aligned with the 11th, 12th, and 13th Five-Year Plans",
+      "Money targeted ten priority disease areas including cancer, cardiovascular disease, diabetes, neurodegeneration, and infectious disease",
+      "Built and funded ~15 'integrated drug innovation platforms' — university and CAS labs that small companies could rent for medicinal chemistry, ADME, and toxicology work",
+      "Co-funded specific late-stage clinical trials for Class 1 candidates — including Hengrui's apatinib and camrelizumab, Innovent's sintilimab, and Betta's icotinib (the first home-grown small-molecule cancer drug)",
+      "Set explicit output targets each five years (number of new drug certificates, Class 1 approvals, WHO prequalifications) — the 2020 final tally beat them"
+    ],
+    "narrativeHook": "By the time the program closed in December 2020, the sintilimab and camrelizumab it had helped pay for were the same PD-1 drugs that were about to be discounted ~85% in NRDL talks — and licensed to Lilly and Merck-KGaA for billions.",
+    "affectedCompanyIds": [
+      "hengrui",
+      "innovent",
+      "junshi",
+      "hansoh",
+      "sinopharm",
+      "wuxi-apptec",
+      "beigene"
+    ],
+    "sources": [
+      "gov-cn-new-drug-megaproject-closing-2021",
+      "xinhua-new-drug-megaproject-2018",
+      "most-new-drug-megaproject-presser-2019",
+      "nature-china-megaprojects-2008"
+    ],
+    "verified": true,
+    "lastVerified": "2026-04-25"
   },
   {
     "id": "sfda-scandal",
     "name": "SFDA Director Executed",
-    "date": "2007-07",
+    "nameZh": "郑筱萸案",
+    "date": "2007-07-10",
     "category": "approval",
-    "shortDescription": "Zheng Xiaoyu executed for corruption; symbol of regulatory rot",
-    "impact": "Exposed approval system as broken; set stage for later overhaul"
+    "agency": "Beijing No. 1 Intermediate People's Court / State Food and Drug Administration",
+    "documentRef": "Zheng Xiaoyu corruption verdict (sentenced 2007-05-29, executed 2007-07-10); follow-on Provisions for Drug Registration (SFDA Order No. 28, effective 2007-10-01)",
+    "shortDescription": "China executed its former top drug regulator Zheng Xiaoyu for taking RMB 6.49M (~US$850K) in bribes from eight drug makers in exchange for waving through unsafe medicines.",
+    "impact": "Forced an admission that China's drug-approval system was broken — Zheng's agency had rubber-stamped roughly 150,000 new drug approvals during his eight-year tenure, more than 100x the FDA's pace, including six counterfeit drugs and a tainted antibiotic from Anhui Huayuan that killed at least 14 patients and left thousands sick. The scandal cleared the political ground for the 2007 Provisions for Drug Registration (SFDA Order No. 28, effective Oct 1, 2007) and set the template for the deeper 2015–2018 overhaul under Bi Jingquan.",
+    "keyProvisions": [
+      "Zheng was sentenced May 29, 2007 and executed by lethal injection on July 10, 2007 — the highest-ranking Chinese official executed since 2000",
+      "Court found he took bribes from eight domestic drug makers between June 1997 and December 2006, including Anhui Huayuan Worldbest, whose Xinfu-brand clindamycin killed at least 14 people in 2006",
+      "Six drugs approved on faked paperwork between 2001 and 2003 were later confirmed counterfeit; a separate diethylene-glycol-laced cough syrup tied to Chinese suppliers killed roughly 100 people in Panama in 2006",
+      "The day after the execution, SFDA released the new Provisions for Drug Registration (Order No. 28, effective Oct 1, 2007): drug approvals moved from a single official to a review panel, manufacturers faced surprise inspections, new chemical entities got fast-track review, and companies caught faking data were barred from filing new drugs for three years"
+    ],
+    "narrativeHook": "China's drug regulator approved 150,000 new medicines on Zheng Xiaoyu's watch — about 134 times the FDA's pace — and the only way to fix the agency, the Party decided, was to shoot the man who ran it.",
+    "affectedCompanyIds": [
+      "hengrui"
+    ],
+    "sources": [
+      "zheng-xiaoyu-wikipedia",
+      "chinadaily-zheng-xiaoyu-executed",
+      "cen-zheng-xiaoyu-executed-2007",
+      "bmj-zheng-xiaoyu-death-sentence-2007",
+      "npr-zheng-xiaoyu-executed-2007",
+      "sfdachina-provisions-drug-registration-2007"
+    ],
+    "verified": true,
+    "lastVerified": "2026-04-25"
   },
   {
     "id": "mic-2025",
     "name": "Made in China 2025",
+    "nameZh": "中国制造2025",
     "date": "2015-05",
+    "effectiveDate": "2015-05-08",
+    "agency": "State Council of the People's Republic of China",
+    "documentRef": "Guofa [2015] No. 28",
     "category": "approval",
-    "shortDescription": "Biopharma named one of ten priority manufacturing sectors",
-    "impact": "Locked biotech into national industrial strategy; later weaponized by US trade policy"
+    "shortDescription": "A 10-year industrial plan that named biopharma and high-end medical devices one of ten sectors China would build itself, instead of importing.",
+    "impact": "Locked biotech into Beijing's industrial-policy frame for a decade — and made it a target. By 2023, imports' share of China's medical-device market fell from 24% to 14%, and the policy's drug-category list (antibodies, ADCs, cell therapies) reads like the pipeline that produced China's $136B in 2025 out-licensing deals. The same plan made biopharma a Section 301 tariff target in 2018, the first time US trade policy explicitly weaponized a Chinese industrial strategy.",
+    "keyProvisions": [
+      "Named 'biomedicine and high-performance medical devices' one of ten priority manufacturing sectors — alongside semiconductors, robotics, and aerospace",
+      "Set a target of 70% domestically made mid- to high-end medical devices in county hospitals, and 80% domestically made core components, by 2025",
+      "Prioritized specific drug categories the state would back with funding and procurement: new chemical drugs, antibodies, antibody-drug conjugates, vaccines, and cell therapies",
+      "Set a national R&D-to-revenue target of 1.68% for manufacturing by 2025, up from 0.95% in 2015 — the funding lever that flowed into biotech parks like Suzhou BioBAY",
+      "Issued by the State Council on May 8, 2015 and signed by Premier Li Keqiang — the first time biotech was named in a top-line industrial blueprint, not just a science plan"
+    ],
+    "narrativeHook": "Beijing got what it asked for and then some: by 2025, Chinese biotechs were doing $136B in license-out deals to Western pharma — but the plan's name had become so politically toxic that Chinese officials stopped saying it out loud after Trump's 2018 tariffs.",
+    "affectedCompanyIds": [
+      "hengrui",
+      "innovent",
+      "beigene",
+      "wuxi-apptec",
+      "wuxi-bio",
+      "bgi",
+      "junshi",
+      "akeso",
+      "henlius",
+      "remegen"
+    ],
+    "sources": [
+      "cset-mic2025-state-council-notice",
+      "uscc-mic2025-evaluation-2025",
+      "rhodium-mic2025-success-2025",
+      "ustr-section-301-tariffs-2018",
+      "made-in-china-2025-wikipedia"
+    ],
+    "verified": true,
+    "lastVerified": "2026-04-25"
   },
   {
     "id": "order-117",
     "name": "Order 117 / 722 Self-Inspection",
-    "date": "2015-07",
+    "nameZh": "关于开展药物临床试验数据自查核查工作的公告（2015年第117号）",
+    "date": "2015-07-22",
+    "effectiveDate": "2015-08-25",
+    "agency": "China Food and Drug Administration",
+    "documentRef": "CFDA Announcement No. 117 (2015) — known in Chinese as the '722 event' (七二二事件) for the date it was issued",
     "category": "approval",
-    "shortDescription": "Mass self-audit of clinical trial data",
-    "impact": "~80% of pending applications withdrawn due to fraud — brutal cleansing"
+    "shortDescription": "Gave drug companies one month to re-audit the clinical trial data behind 1,622 pending Chinese drug applications — and admit which ones were faked.",
+    "impact": "By end-2016, 1,165 of the 1,622 applications had been voluntarily withdrawn and 30 outright rejected — roughly 80% gone. The cleansing collapsed China's NDA backlog from a peak of ~22,000 review assignments in September 2015 to under 3,500 by end-2018, and forced every Chinese sponsor and CRO to rebuild data-integrity systems before the post-2017 ICH era.",
+    "keyProvisions": [
+      "Sponsors of all 1,622 pending drug applications had to re-audit their own clinical trial data and file a self-inspection report by August 25, 2015 — about one month",
+      "Companies could withdraw an application with no penalty if they reported problems themselves; the CFDA promised to skip enforcement on voluntary withdrawals",
+      "Anyone who didn't withdraw faced a surprise on-site CFDA inspection of the trial sites, hospital records, and CRO files",
+      "If fraud was found after the deadline: the company was banned from filing any new drug application for 3 years, the trial hospital lost its clinical-trial license, and the company, CRO, and principal investigator all went on a public blacklist",
+      "Applied to both domestic and imported drug filings — multinationals were not exempt"
+    ],
+    "narrativeHook": "Bi Jingquan called fake trial data a 'cancer' on Chinese pharma and gave the industry one month to confess. About 80% confessed. The backlog that had taken a decade to build was gone in eighteen months.",
+    "affectedCompanyIds": [
+      "hengrui",
+      "3sbio",
+      "beigene",
+      "innovent",
+      "junshi",
+      "akeso",
+      "henlius",
+      "wuxi-apptec"
+    ],
+    "sources": [
+      "lexology-cfda-self-inspection-2015",
+      "pda-storm-clinical-trial-data-china",
+      "fiercepharma-cfda-disputes-80-percent-fake",
+      "rfa-china-clinical-trials-80-percent-fake",
+      "tencent-news-722-event-2023",
+      "ropesgray-china-state-council-44",
+      "pekingnology-bi-jingquan-pharma-evolution"
+    ],
+    "verified": true,
+    "lastVerified": "2026-04-25"
   },
   {
     "id": "priority-review",
     "name": "Priority Review Pathway",
+    "nameZh": "药品优先审评审批程序",
     "date": "2015-11",
+    "effectiveDate": "2016-02-26",
+    "agency": "China Food and Drug Administration",
+    "documentRef": "CFDA Announcement No. 230 [2015] (Nov 11, 2015); implementing rules CFDA Announcement No. 19 [2016] (Feb 26, 2016); expanded by CFDA Announcement No. 126 [2017] (Dec 28, 2017)",
     "category": "approval",
-    "shortDescription": "Fast-track for innovative drugs and unmet need",
-    "impact": "First substantive break from generics-first regime"
+    "shortDescription": "A fast lane at the drug regulator for innovative drugs, cancer and rare-disease therapies, and medicines aimed at children — review clock cut from 200 working days to 130.",
+    "impact": "First substantive break from the generics-first regime — and the rule that made China-only Phase III trials worth running. Of 137 oncology drugs approved in China between 2018 and 2021, 98 (72%) went through priority review; under the pathway, the first wave of domestic PD-1s (Junshi's toripalimab, Innovent's sintilimab, Hengrui's camrelizumab, BeiGene's tislelizumab) all reached the market in roughly 16 months instead of the typical 3+ years.",
+    "keyProvisions": [
+      "Five eligible buckets: drugs not yet sold anywhere in the world; drugs being moved to a Chinese factory for the first time; drugs using a new delivery technology; drugs for cancer, AIDS, hepatitis, TB, rare diseases, or pediatric/elderly patients; and generics of drugs whose patents are about to expire",
+      "Cuts the standard review clock from 200 working days to 130 (and to 70 days for generics filed before patent expiry)",
+      "Lets the Center for Drug Evaluation communicate with sponsors during review — a sharp break from the old black-box system",
+      "Allows reduced or waived local clinical trials for rare-disease drugs already approved abroad (added by the December 2017 expansion)",
+      "Designations are published on a public list, so applicants can see what made the cut"
+    ],
+    "narrativeHook": "Bi Jingquan copied the FDA playbook — priority review, breakthrough designation, an accountable review queue — and within three years China was approving more new drugs per year than at any point in its history. He fell to corruption charges in 2025; the pathway he built outlived him.",
+    "affectedCompanyIds": [
+      "beigene",
+      "innovent",
+      "junshi",
+      "hengrui",
+      "akeso",
+      "henlius",
+      "hansoh",
+      "kelun-bio"
+    ],
+    "sources": [
+      "ropesgray-china-state-council-44",
+      "wang-2019-new-era-drug-innovation-china",
+      "biopharmadive-china-drug-friendly-2015",
+      "pmc-china-priority-review-access-gap-2025",
+      "frontiers-china-oncology-review-time-2023",
+      "mercatus-china-drug-approval-pace",
+      "bi-jingquan-wikipedia"
+    ],
+    "verified": true,
+    "lastVerified": "2026-04-25"
   },
   {
     "id": "mah",
     "name": "Marketing Authorization Holder Pilot",
+    "nameZh": "药品上市许可持有人制度试点",
     "date": "2016-06",
+    "effectiveDate": "2016-06-06",
+    "agency": "General Office of the State Council of the People's Republic of China",
+    "documentRef": "Guo Ban Fa [2016] No. 41",
     "category": "approval",
-    "shortDescription": "Decoupled drug ownership from manufacturing",
-    "impact": "Made it possible for asset-light biotechs to own approved drugs"
+    "shortDescription": "Let a company own a Chinese drug license without owning the factory — it could hire a contract manufacturer to make the drug instead.",
+    "impact": "Made the asset-light biotech model legal in China for the first time and seeded the contract-manufacturing industry that WuXi Biologics and its peers would ride: by July 2019, 156 holders had picked up 3,239 product licenses across the 10 pilot provinces, and the pilot was written into the revised Drug Administration Law that took effect nationwide on December 1, 2019.",
+    "keyProvisions": [
+      "Split the drug license from the factory license — research institutes, scientists, and biotechs in 10 pilot regions could own a drug and farm out production to a contract manufacturer",
+      "Made the license holder legally responsible end-to-end — for R&D, manufacturing quality, distribution, surveillance, and recalls — even when a third party actually ran the production line",
+      "Required holders to carry product-liability insurance and prove they could trace, recall, and handle adverse-event emergencies before a license would issue",
+      "Carved out the riskiest categories: narcotics, psychotropics, medicinal toxic drugs, radioactive drugs, preventive biologics (vaccines), and blood-plasma products stayed under the old must-own-the-factory rule",
+      "Set a three-year pilot window (Dec 1, 2015 – Nov 4, 2018), later extended and then made permanent and national in the December 2019 Drug Administration Law"
+    ],
+    "narrativeHook": "The first biologic approved under the new system was BeiGene's tislelizumab, made under contract by Boehringer Ingelheim's Shanghai plant — a Chinese cancer drug, manufactured in China by a German multinational, for a company that didn't own a single bioreactor.",
+    "affectedCompanyIds": [
+      "beigene",
+      "innovent",
+      "junshi",
+      "zailab",
+      "akeso",
+      "henlius",
+      "wuxi-bio",
+      "wuxi-apptec",
+      "hengrui"
+    ],
+    "sources": [
+      "ropesgray-mah-pilot-2016",
+      "cooley-mah-pilot-2015",
+      "covington-drug-admin-law-2019",
+      "diaglobal-mah-implementation-2023",
+      "pmc-mah-innovation-impact"
+    ],
+    "verified": true,
+    "lastVerified": "2026-04-25"
   },
   {
     "id": "ich-join",
     "name": "China Joins ICH",
+    "nameZh": "中国加入国际人用药品注册技术协调会",
     "date": "2017-06",
+    "effectiveDate": "2017-06-19",
     "category": "approval",
-    "shortDescription": "Harmonized regulatory standards with US/EU/Japan",
-    "impact": "Foreign trial data accepted; bridging trials enabled global pipelines"
+    "agency": "China Food and Drug Administration (renamed NMPA in 2018)",
+    "documentRef": "ICH Assembly resolution, Montreal — admitted as Regulatory Member, 1 June 2017",
+    "shortDescription": "Got China's drug regulator into the global standards-setting body for drug approval — meaning Chinese reviewers now use the same technical playbook as the FDA, EMA, and Japan's PMDA.",
+    "impact": "Let companies run a single global trial that counts in every major market instead of repeating Phase III in China. Imported drugs that used to wait 5–7 years for Chinese approval (after launching in the US) now arrive in months — AstraZeneca's Tagrisso was approved 7 months after filing. By 2023 China had adopted 59 of 63 ICH guidelines, and innovative-drug IND applications jumped from 688 (2019) to 2,298 (2023).",
+    "keyProvisions": [
+      "China admitted as the 8th Regulatory Member of ICH on 1 June 2017 at the Montreal Assembly — alongside the US FDA, EMA, Japan's MHLW/PMDA, Canada, Switzerland, Brazil, and Korea",
+      "CFDA committed to translate and implement all ICH guidelines — covering Good Clinical Practice (E6), trial design (E5/E17), drug stability (Q1), and non-clinical safety (S-series)",
+      "Foreign clinical-trial data became admissible for Chinese approval, ending the rule that Phase I had to be repeated in Chinese patients before any further work could begin",
+      "China gained a seat at the table for writing future global drug-development standards — and was elected to the ICH Management Committee in 2018, re-elected 2021 and June 2024"
+    ],
+    "narrativeHook": "For 30 years a Chinese trial counted only in China and a Western trial counted only in the West. Then on one morning in Montreal that wall came down — and within 4 years Chinese biotechs were filing Phase III data with the FDA.",
+    "sources": [
+      "fda-cfda-ich-membership",
+      "ispe-china-ich-alignment-2024",
+      "fdli-china-great-wall-2018",
+      "nmpa-ich-mc-reelection-2024",
+      "acurit-china-joins-ich-2017"
+    ],
+    "verified": true,
+    "lastVerified": "2026-04-25"
   },
   {
     "id": "conditional-approval",
     "name": "Conditional Approval Pathway",
-    "date": "2017-10",
+    "nameZh": "附条件批准上市",
+    "date": "2017-10-08",
     "category": "approval",
-    "shortDescription": "Early access for breakthrough therapies",
-    "impact": "Years shaved off oncology and rare-disease approvals"
+    "agency": "General Offices of the CPC Central Committee and the State Council (implemented by CFDA/NMPA; codified by NMPA in 2020)",
+    "documentRef": "Tingzi [2017] No. 42 — 'Opinions on Deepening the Reform of the Review and Approval System and Encouraging the Innovation of Drugs and Medical Devices'; codified in NMPA Drug Registration Regulation (effective 2020-07-01)",
+    "shortDescription": "Lets a drug treating a serious unmet need launch on a single Phase 2 trial, with the Phase 3 confirmation done after the drug is already on the market.",
+    "impact": "Cut years off the path to launch for Chinese oncology and rare-disease drugs and powered the PD-1 wave — toripalimab (Dec 2018), sintilimab, camrelizumab and tislelizumab all reached the Chinese market on conditional approval. By end-2023 the NMPA had granted 103 conditional approvals, ~85% of them cancer drugs, the vast majority on single-arm Phase 2 data using response rate as the endpoint.",
+    "keyProvisions": [
+      "Eligible drugs must treat a life-threatening disease with no good existing therapy, a rare disease, or an urgent public-health need (e.g. pandemic response)",
+      "Surrogate endpoints from a single-arm Phase 2 trial — typically tumor response rate or progression-free survival — are enough to win marketing approval",
+      "Approval is time-limited (5-year registration certificate); the company must finish a confirmatory Phase 3 trial — usually within ~4 years — to convert to a full approval",
+      "Foreign drugs already approved abroad for rare diseases can skip a full Chinese trial package and rely on overseas data",
+      "Failure to deliver the post-market confirmatory data on time can trigger withdrawal of the approval"
+    ],
+    "narrativeHook": "By 2023 China was running its own version of the FDA's accelerated-approval system — but only ~25 of the first 103 conditional approvals had converted to regular approval, leaving most Chinese oncology launches still operating on a regulatory IOU.",
+    "affectedCompanyIds": [
+      "junshi",
+      "innovent",
+      "hengrui",
+      "beigene",
+      "akeso",
+      "henlius",
+      "remegen",
+      "jw-therapeutics",
+      "legend"
+    ],
+    "sources": [
+      "chinameddevice-state-council-2017-opinions",
+      "pmc-conditional-approval-pooled-2020-2023",
+      "pmc-conditional-approval-antitumor-criteria",
+      "wang-2019-new-era-drug-innovation-china",
+      "frontiers-toripalimab-first-domestic-pd1"
+    ],
+    "verified": true,
+    "lastVerified": "2026-04-25"
   },
   {
     "id": "nrdl-resume",
     "name": "NRDL Annual Negotiations Resume",
+    "nameZh": "国家基本医疗保险药品目录",
     "date": "2017-07",
     "category": "market_access",
-    "shortDescription": "National reimbursement list updates after 8-year freeze",
-    "impact": "Created regular path to mass market — at the price of steep discounts"
+    "agency": "Ministry of Human Resources and Social Security of the People's Republic of China",
+    "documentRef": "Renshebufa [2017] No. 15 — National Basic Medical Insurance, Work Injury Insurance and Maternity Insurance Drug Catalogue (2017 Edition)",
+    "shortDescription": "Restarted updates to China's national insurance drug list — the catalogue of medicines public health insurance will pay for — after an 8-year freeze, and made it an annual price negotiation.",
+    "impact": "Gave innovative drugs a path from launch to ~95% of China's insured population in roughly a year — at the cost of taking a 44%+ list-price cut to get on the list. Set up the dynamic that by 2020 forced four domestic PD-1 makers — Hengrui, Innovent, Junshi, BeiGene — to slash prices 64-85% to win national coverage, commoditizing a class that had cleared the FDA at $150K/year.",
+    "keyProvisions": [
+      "Updated the full catalogue in Feb 2017 (+339 drugs, first refresh since 2009), then negotiated 36 high-cost drugs onto it in July 2017 at an average 44% discount — establishing the two-step model.",
+      "Locked in an annual cycle: each year the payer opens a window, drug makers submit prices, the agency counter-offers from a confidential 'reserve price', and drugs that miss the cut wait another year.",
+      "Introduced pharmacoeconomic evaluation (cost-effectiveness math) as a formal negotiation tool for the first time in China.",
+      "Listed negotiated drugs on Tier B with a 10-20% patient co-pay, making them reimbursable in every province without separate provincial bargaining.",
+      "Shifted from the Ministry of Human Resources and Social Security to the new National Healthcare Security Administration after May 2018, concentrating bargaining power in a single national payer."
+    ],
+    "narrativeHook": "Hengrui's camrelizumab cut its list price by ~85% — to about 2,928 yuan a vial, ~49,800 yuan a year — to win four indications on the 2020 list. The same drug had been a flagship innovator launch eighteen months earlier.",
+    "affectedCompanyIds": [
+      "hengrui",
+      "innovent",
+      "junshi",
+      "beigene",
+      "akeso",
+      "henlius",
+      "remegen",
+      "3sbio"
+    ],
+    "sources": [
+      "uschina-nrdl-healthcare-series",
+      "simon-kucher-nrdl-2017",
+      "biocentury-nrdl-2017",
+      "eversana-pd1-nrdl-2020",
+      "pmc-nrdl-systematic-review-2025",
+      "innovent-tyvyt-sintilimab-injection-included-in-t"
+    ],
+    "verified": true,
+    "lastVerified": "2026-04-25"
   },
   {
     "id": "hk-18a",
@@ -134,129 +467,611 @@
   {
     "id": "nhsa",
     "name": "NHSA Established",
+    "nameZh": "国家医疗保障局成立",
     "date": "2018-05",
+    "effectiveDate": "2018-05-31",
+    "agency": "State Council of the People's Republic of China",
+    "documentRef": "Plan for Deepening Reform of Party and State Institutions (March 17, 2018) — National Healthcare Security Administration",
     "category": "market_access",
-    "shortDescription": "Single national healthcare payer created",
-    "impact": "Concentrated bargaining power; enabled VBP at national scale"
+    "shortDescription": "Created one national agency in charge of paying for drugs — covering ~95% of Chinese patients — by merging health-insurance, drug-pricing, and medical-aid powers that had been split across four ministries.",
+    "impact": "Gave Beijing a single bargaining table for the ~1.36 billion people on basic medical insurance, and made the 2018-onward wave of forced price cuts possible: the December 2018 '4+7' procurement pilot dropped 25 generics by an average 52%, and the 2018 NRDL round added 17 cancer drugs at an average ~60% discount.",
+    "keyProvisions": [
+      "Took over public health insurance (urban employee, urban-rural resident, maternity) from the human-resources ministry",
+      "Took over drug and medical-service price-setting from the NDRC, China's economic-planning agency",
+      "Took over rural cooperative medical coverage from the health and family-planning commission, and medical aid for the poor from civil affairs",
+      "Got authority to write the National Reimbursement Drug List and run annual price negotiations with manufacturers",
+      "Got authority to run nationwide volume-based procurement — bulk-buying drugs for public hospitals in exchange for steep discounts"
+    ],
+    "narrativeHook": "For the first time, one Beijing agency decided which drugs Chinese patients could get reimbursed and what their makers would be paid — turning a fragmented buyer into a monopsony with the leverage to slash prices 50-90% in a single negotiation.",
+    "affectedCompanyIds": [
+      "hengrui",
+      "innovent",
+      "junshi",
+      "beigene",
+      "akeso",
+      "henlius",
+      "hansoh",
+      "3sbio"
+    ],
+    "sources": [
+      "wikipedia-nhsa",
+      "uschina-nhsa-policy",
+      "china-health-pulse-nhsa",
+      "chinadaily-nhsa-proposal-2018",
+      "npc-observer-2018-state-council-reform",
+      "pmc-ncdp-4-7-procurement",
+      "pmc-nrdl-anticancer-2022"
+    ],
+    "verified": true,
+    "lastVerified": "2026-04-25"
   },
   {
     "id": "changsheng-scandal",
     "name": "Changsheng Vaccine Scandal",
-    "date": "2018-07",
+    "nameZh": "长春长生疫苗事件",
+    "date": "2018-07-15",
     "category": "approval",
-    "shortDescription": "Rabies-vaccine fraud at Changchun Changsheng; ~9.1B RMB in fines",
-    "impact": "Forced the Vaccine Administration Law and whole-process accountability"
+    "agency": "Jilin Provincial Food and Drug Administration (initial action) / China Food and Drug Administration",
+    "documentRef": "Jilin FDA penalty notice (Oct 16, 2018); Changchun Changsheng Bio-Tech Co., Ltd. (SZSE: 002680)",
+    "shortDescription": "A Chinese vaccine maker got caught faking rabies-vaccine production records and shipping ineffective baby DPT shots — a shock that forced Beijing to write its first-ever standalone vaccine law.",
+    "impact": "Regulators fined Changsheng 9.1 billion yuan (~US$1.3B) — the largest pharma penalty in Chinese history at the time — arrested 18 executives including chairwoman Gao Junfang, and delisted the company from the Shenzhen exchange in October 2019, the first firm ever booted under new 'endangering public safety' rules. The CFDA chief Bi Jingquan was forced out within two months, and within a year the National People's Congress had passed the Vaccine Administration Law (effective Dec 1, 2019) — drafted, deliberated, and signed in just six months.",
+    "keyProvisions": [
+      "Jilin FDA revoked Changsheng's manufacturing license and confiscated 113,000 falsified rabies-vaccine doses on July 15, 2018",
+      "Final penalty (Oct 16, 2018): 9.1 billion yuan total — confiscation of illegal earnings plus a fine of up to 30x the value of the bad product, the maximum the old Drug Administration Law allowed",
+      "Separately: ~252,600 doses of substandard diphtheria-pertussis-tetanus vaccine had already been administered to Chinese babies in 2017 — a fact the company hid until the rabies scandal forced disclosure",
+      "14 senior executives, including chairwoman Gao Junfang ('China's vaccine queen'), were banned from the pharmaceutical industry for life",
+      "48 government officials were punished, including former CFDA head Bi Jingquan, who lost his post as deputy director of the new SAMR in September 2018"
+    ],
+    "narrativeHook": "Xi called it 'appalling' on a foreign trip and ordered an investigation by phone — the kind of personal intervention reserved for milk-powder-poisoning levels of public anger. China's first dedicated vaccine law was drafted, passed, and on the books inside twelve months.",
+    "affectedCompanyIds": [
+      "sinovac",
+      "sinopharm",
+      "cansino",
+      "walvax"
+    ],
+    "sources": [
+      "chinadaily-changsheng-fine",
+      "nmpa-vaccine-administration-law",
+      "npcobserver-vaccine-admin-law",
+      "scmp-changsheng-delisted",
+      "fiercepharma-changsheng-1-3b",
+      "lancet-changsheng-lessons",
+      "nbr-changsheng-analysis",
+      "cmp-changsheng-timeline"
+    ],
+    "verified": true,
+    "lastVerified": "2026-04-25"
   },
   {
     "id": "he-jiankui",
     "name": "He Jiankui Embryo-Editing Case",
-    "date": "2018-11",
+    "nameZh": "贺建奎基因编辑婴儿事件",
+    "date": "2018-11-26",
+    "effectiveDate": "2019-12-30",
     "category": "geopolitical",
-    "shortDescription": "First germline-edited human births announced in Shenzhen",
-    "impact": "Triggered criminal-law amendments and a national bioethics regime"
+    "agency": "Nanshan District People's Court of Shenzhen (verdict); Standing Committee of the National People's Congress (subsequent legislation)",
+    "documentRef": "Shenzhen Nanshan Court verdict (2019-12-30); Civil Code Article 1009; Criminal Law Amendment XI, Article 336-1",
+    "shortDescription": "A Shenzhen scientist used CRISPR to edit the DNA of three babies before birth — the world's first — and got three years in prison for it.",
+    "impact": "Forced China to write the first criminal-law ban on heritable gene editing anywhere in the world: a 3-to-7-year sentence for implanting an edited embryo (Criminal Law Amendment 11, March 2021), a flat ban in Civil Code Article 1009 (effective Jan 1, 2021), and a new National Ethics Committee for Science and Technology (2020) sitting above every hospital ethics board doing high-risk research.",
+    "keyProvisions": [
+      "He Jiankui got 3 years and a 3 million yuan (~US$430k) fine for 'illegal medical practice' — the only crime on the books in 2019 that fit, because gene editing wasn't yet criminalized",
+      "Two collaborators (Zhang Renli, Qin Jinzhou) got 18-month and 2-year sentences plus a lifetime ban from assisted-reproduction work",
+      "Civil Code Article 1009 (effective 2021-01-01): any research touching human genes or embryos must follow law and ethics — the first time embryo research was named in China's general civil law",
+      "Criminal Law Amendment 11 (effective 2021-03-01): implanting a gene-edited or cloned human embryo is now its own crime, with up to 7 years for serious cases — the first criminal ban on heritable gene editing in the world",
+      "Biosecurity Law (effective 2021-04-15) and the 2023 Ethical Review Measures pushed every Chinese hospital and university to register its ethics committee with the NHC and bumped high-risk gene-editing research to provincial or national review"
+    ],
+    "narrativeHook": "He told the world he'd made HIV-resistant babies; the world told China its ethics regime was a fiction. Three years later He walked out of prison, opened a new lab in Beijing, and pivoted to rare-disease gene therapy — by then China had passed the strictest germline-editing law on the planet.",
+    "affectedCompanyIds": [
+      "bgi"
+    ],
+    "sources": [
+      "wikipedia-he-jiankui-affair",
+      "statnews-he-jiankui-sentenced",
+      "mit-tr-he-jiankui-released-2022",
+      "china-org-civil-code-1009",
+      "loc-criminal-law-amendment-11",
+      "covington-biosecurity-law",
+      "hastings-china-gene-editing-2022",
+      "tandfonline-he-jiankui-legal-2024"
+    ],
+    "verified": true,
+    "lastVerified": "2026-04-25"
   },
   {
     "id": "vbp",
     "name": "Volume-Based Procurement",
+    "nameZh": "国家组织药品集中采购",
     "date": "2018-12",
+    "effectiveDate": "2019-03",
+    "agency": "National Healthcare Security Administration (with the Joint Procurement Office); pilot plan issued by the General Office of the State Council",
+    "documentRef": "Guobanfa [2019] No. 2 — Pilot Plan for National Centralized Drug Procurement and Use",
     "category": "market_access",
-    "shortDescription": "4+7 city pilot, then nationwide expansion",
-    "impact": "Crushed generic margins; forced industry toward true innovation"
+    "shortDescription": "Lets China's national insurer pool every public hospital's purchase order into one auction, with the lowest bidder taking 60–70% of guaranteed volume across the pilot cities.",
+    "impact": "Cut prices on the first 25 drugs by an average of 52% — and up to ~96% on individual products like the hepatitis B generic entecavir — and torched the margins that had funded Chinese generics for two decades, forcing companies like Hengrui to pivot harder into innovative drugs to survive.",
+    "keyProvisions": [
+      "Eligible drugs must first pass China's 'consistency evaluation' — a quality test proving the generic is bioequivalent to the originator",
+      "One winner per molecule: the lowest bidder takes the entire guaranteed volume across all pilot cities, with no second-place award",
+      "Pilot cities pre-commit 60–70% of the prior year's hospital purchasing volume to the winner — guaranteed orders, not just a price ceiling",
+      "Started with 11 cities — Beijing, Shanghai, Tianjin, Chongqing plus 7 regional hubs (Shenyang, Dalian, Xiamen, Guangzhou, Shenzhen, Chengdu, Xi'an) — roughly a third of China's drug market by value",
+      "Expanded nationwide through 2019 and rolled out 5 more rounds covering 218 drugs by mid-2021; a separate insulin auction in late 2021 was the first to hit biologics"
+    ],
+    "narrativeHook": "The first round dropped 25 generic prices by an average of 52% in three weeks of bidding — and made it economically pointless to be a Chinese pharma company that didn't have a novel drug.",
+    "affectedCompanyIds": [
+      "hengrui",
+      "hansoh",
+      "3sbio",
+      "henlius",
+      "innovent",
+      "junshi"
+    ],
+    "sources": [
+      "pharmaboardroom-vbp-4plus7",
+      "chinatalk-china-buys-drugs",
+      "gov-cn-vbp-pilot-plan",
+      "pmc-vbp-access-medicines",
+      "pmc-vbp-pilot-its",
+      "stanford-law-vbp-2025"
+    ],
+    "verified": true,
+    "lastVerified": "2026-04-25"
   },
   {
     "id": "nmpa-rename",
     "name": "CFDA Renamed NMPA",
+    "nameZh": "国家药品监督管理局",
     "date": "2018-09",
+    "effectiveDate": "2018-09-01",
+    "agency": "State Council of the People's Republic of China",
+    "documentRef": "Plan for Deepening Reform of Party and State Institutions (March 2018); CFDA English-name notice, 29 August 2018",
     "category": "approval",
-    "shortDescription": "Restructured under State Administration for Market Regulation",
-    "impact": "Signaled completion of the 2015–2018 reform package"
+    "shortDescription": "Folded the drug regulator into a new super-agency for markets, stripped food safety out, and dropped its rank from full minister to deputy minister.",
+    "impact": "Locked in the 2015–2018 Bi Jingquan reforms — ICH membership, faster reviews, foreign-trial-data acceptance — under a new name and a leaner brief, but cost the agency a rung of bureaucratic clout: the new NMPA reports through SAMR rather than directly to the State Council, the way CFDA had since 2013.",
+    "keyProvisions": [
+      "Renamed the China Food and Drug Administration (CFDA) to the National Medical Products Administration (NMPA), with the English name effective 1 September 2018",
+      "Placed the new NMPA inside the State Administration for Market Regulation (SAMR) — a brand-new ministerial-level super-agency that also absorbed quality inspection (AQSIQ) and industry/commerce (SAIC)",
+      "Dropped the drug regulator from full ministerial rank (where CFDA had sat since 2013) to vice-ministerial rank under SAMR",
+      "Stripped food safety oversight out of the drug regulator: general food safety went to SAMR's own bureau, food import/export to Customs, and food safety standards to the National Health Commission",
+      "Kept the NMPA's brief tight — drugs, medical devices, and cosmetics only — which industry read as a vote of confidence in continuing the Bi Jingquan reform agenda"
+    ],
+    "narrativeHook": "The drug regulator lost a bureaucratic rank the same year it joined ICH and Hong Kong opened Chapter 18A — a smaller agency with a sharper mandate, exactly when Chinese biotech needed one.",
+    "affectedCompanyIds": [
+      "hengrui",
+      "beigene",
+      "innovent",
+      "junshi",
+      "henlius",
+      "akeso"
+    ],
+    "sources": [
+      "nmpa-2018-rename",
+      "pacificbridge-nmpa-profile",
+      "usda-fas-samr-2018",
+      "qualtechs-cfda-nmpa-name-change"
+    ],
+    "verified": true,
+    "lastVerified": "2026-04-25"
   },
   {
     "id": "vaccine-admin-law",
     "name": "Vaccine Administration Law",
-    "date": "2019-06",
+    "nameZh": "中华人民共和国疫苗管理法",
+    "date": "2019-06-29",
+    "effectiveDate": "2019-12-01",
+    "agency": "Standing Committee of the National People's Congress",
+    "documentRef": "Order No. 30 of the President of the People's Republic of China (2019) — 11th Session of the 13th NPC Standing Committee",
     "category": "approval",
-    "shortDescription": "Whole-process responsibility over vaccine R&D, manufacture, distribution",
-    "impact": "Lifted the bar for Chinese WHO prequalification"
+    "shortDescription": "Holds vaccine companies legally responsible from R&D through every shot administered, with criminal penalties for fraud — the world's first standalone law just for vaccines.",
+    "impact": "Forced industry consolidation around a smaller set of professionalised manufacturers and built the regulatory credibility behind WHO emergency-use listings for Sinopharm (May 2021), Sinovac (June 2021), and CanSino's Convidecia (May 2022) during the COVID rollout.",
+    "keyProvisions": [
+      "Every vaccine licence-holder must own its own factory — unlike the general drug regime, vaccine makers cannot simply hire a contract manufacturer (NMPA sign-off required for any exception)",
+      "Mandatory national electronic tracking platform: every vial traceable from production line to the arm it goes into, with records kept ≥5 years past expiry",
+      "Selling fake vaccines: fine of 15–50× the value of the goods (minimum 500,000 yuan) plus licence revocation; selling substandard vaccines: 10–30× the value",
+      "Criminal-law cross-reference requires courts to apply 'heavier punishment' within the existing crime range — not a new offence, but a sentencing thumb on the scale",
+      "State-funded compensation scheme for serious adverse reactions to vaccines on the national immunisation schedule"
+    ],
+    "narrativeHook": "A year after Changchun Changsheng got hit with a 9.1 billion yuan ($1.3B) fine for faking rabies-vaccine batch records, China became the first country in the world with a standalone vaccine law — the NPCSC vote was 170–0 with one abstention.",
+    "affectedCompanyIds": [
+      "sinovac",
+      "sinopharm",
+      "cansino",
+      "walvax"
+    ],
+    "sources": [
+      "nmpa-vaccine-administration-law",
+      "npcobserver-vaccine-admin-law",
+      "loc-vaccine-law-2019",
+      "cms-vaccines-administration-law",
+      "covington-vaccine-mfg-distribution-2022",
+      "chinadaily-changsheng-fine"
+    ],
+    "verified": true,
+    "lastVerified": "2026-04-25"
   },
   {
     "id": "hgr-2019",
     "name": "HGR Regulation Codified",
-    "date": "2019-07",
+    "nameZh": "中华人民共和国人类遗传资源管理条例",
+    "date": "2019-05-28",
+    "effectiveDate": "2019-07-01",
+    "agency": "State Council of the People's Republic of China",
+    "documentRef": "State Council Order No. 717",
     "category": "geopolitical",
-    "shortDescription": "1998 interim measures elevated to formal State Council regulation",
-    "impact": "Hardened controls on cross-border samples and joint clinical research"
+    "shortDescription": "Made it illegal to send Chinese DNA samples or genetic data abroad without Beijing's sign-off, and barred foreign companies from collecting them inside China at all.",
+    "impact": "Forced every multinational running a Chinese clinical trial to add a 2–3 month Ministry of Science and Technology approval step before any blood, tissue, or sequencing data could leave the country — and pushed pharma companies toward Chinese co-sponsors, since foreign-controlled entities were banned from collecting samples on their own.",
+    "keyProvisions": [
+      "Foreign companies and any China entity they 'actually control' may not collect, store, or export Chinese human genetic resources — defined as organs, tissues, cells, or any data derived from them",
+      "International collaborations using Chinese samples need MOST pre-approval; the foreign side must partner with a Chinese research institution and share intellectual property",
+      "Any cross-border transfer of HGR data — even just sequencing files — requires advance filing with MOST and a backup copy held in China",
+      "Buying or selling human genetic resources is banned outright (cost-recovery for legitimate research is the only exception)",
+      "Penalties run from confiscation and fines of up to 10× illegal gains to a lifetime ban on HGR work for serious cases"
+    ],
+    "narrativeHook": "The 1998 interim rules had teeth in name only — until 2018, MOST publicly punished just six violators in two decades, including BGI for emailing genetic data abroad, WuXi AppTec for shipping human serum labeled as 'canine,' and AstraZeneca for reusing leftover trial samples. The 2019 rewrite turned that occasional embarrassment into a standing approval regime every multinational had to live inside.",
+    "affectedCompanyIds": [
+      "bgi",
+      "wuxi-apptec",
+      "beigene",
+      "innovent",
+      "hengrui",
+      "junshi",
+      "hansoh",
+      "akeso"
+    ],
+    "sources": [
+      "covington-hgr-regulation",
+      "gov-cn-hgr-regulation-2019",
+      "chinalawtranslate-hgr-2019",
+      "freshfields-hgr-demystifying",
+      "ropesgray-hgr-2019"
+    ],
+    "verified": true,
+    "lastVerified": "2026-04-25"
   },
   {
     "id": "star-market",
     "name": "STAR Market Launches",
-    "date": "2019-07",
+    "nameZh": "科创板",
+    "date": "2019-07-22",
+    "effectiveDate": "2019-07-22",
+    "agency": "Shanghai Stock Exchange and China Securities Regulatory Commission",
+    "documentRef": "Rules Governing the Listing of Stocks on the Science and Technology Innovation Board of the Shanghai Stock Exchange (issued 2019-03-01)",
     "category": "capital_markets",
-    "shortDescription": "Shanghai exchange opens to pre-revenue tech and biotech",
-    "impact": "Second IPO venue; reduced reliance on HK and US listings"
+    "shortDescription": "Opens a Shanghai stock board where loss-making, pre-revenue biotechs can IPO in mainland China — Beijing's answer to NASDAQ and Hong Kong's 18A.",
+    "impact": "Gave Chinese biotechs a third home venue alongside NASDAQ and Hong Kong; 25 firms launched the board on day one raising ~RMB 37B (~US$5.4B), and by mid-2023 twenty unprofitable biotechs had IPO'd via the dedicated 'fifth standard' track — including BeiGene's RMB 22.2B (US$3.5B) Shanghai listing in Dec 2021, the largest IPO of any kind on STAR that year.",
+    "keyProvisions": [
+      "Switched from China's old approval-based IPO regime to a 'registration-based' system — the SSE checks disclosures, the market sets the price, regulators no longer veto deals",
+      "Set five alternative listing tracks: only one requires profits, the others let companies qualify on market cap plus revenue, R&D spend, or operating cash flow",
+      "'Fifth set' is the biotech-only track — no profit, no revenue required, but the company must be worth ≥ RMB 4 billion (~US$560M) at listing and have at least one drug cleared by NMPA to start Phase II trials",
+      "First mainland board to admit overseas-incorporated 'red chip' companies (including VIE structures) and firms with weighted-voting-rights share classes — the structures most Chinese biotechs use",
+      "Removed the 10%-a-day price-move limit that caps other Shanghai stocks for the first five trading days, and loosened it to ±20% thereafter"
+    ],
+    "narrativeHook": "Designed as Shanghai's answer to NASDAQ and Hong Kong's 18A — by Dec 2021 BeiGene had used it to become the first biotech listed on all three at once, before Beijing froze the biotech track in 2023 to cool the IPO pipeline.",
+    "affectedCompanyIds": [
+      "beigene",
+      "junshi",
+      "remegen",
+      "cansino",
+      "bgi"
+    ],
+    "sources": [
+      "xinhua-star-market-launch",
+      "sse-star-listing-rules-2019",
+      "ey-star-market-ipo-support",
+      "lexology-china-ipo-governing-rules",
+      "beigene-star-ipo-closing-2021",
+      "sse-fifth-standard-20-listed",
+      "caixin-star-fifth-standard-revival-2025"
+    ],
+    "verified": true,
+    "lastVerified": "2026-04-25"
   },
   {
     "id": "biosecurity-law",
     "name": "Biosecurity Law",
-    "date": "2020-10",
+    "nameZh": "中华人民共和国生物安全法",
+    "date": "2020-10-17",
+    "effectiveDate": "2021-04-15",
     "category": "geopolitical",
-    "shortDescription": "Unified biosafety, pathogen control, and bioresource security",
-    "impact": "Elevated biotechnology to national-security status"
+    "agency": "Standing Committee of the National People's Congress",
+    "documentRef": "Biosecurity Law of the People's Republic of China (Presidential Order No. 56) — 10 chapters, 88 articles",
+    "shortDescription": "China's first single statute for biotechnology — covers infectious-disease response, lab biosafety, gene editing, cross-border DNA samples, and bioweapons under one roof.",
+    "impact": "Treats biotech as a national-security domain rather than a public-health one. Made high-risk research (gain-of-function, germline editing, dual-use synthesis) require State Council approval, capped foreign access to Chinese pathogen labs and DNA samples, and set fines up to RMB 10 million (~US$1.5M) — or 10–20× any unlawful gains — for violations.",
+    "keyProvisions": [
+      "Sorts all biotech R&D into 'high-risk', 'medium-risk' and 'low-risk' tiers; high- and medium-risk work can only be done by a Chinese legal entity, and high-risk work needs State Council sign-off",
+      "Bans foreign organisations from collecting or storing Chinese human genetic resources, and requires Beijing's approval for any export of samples or sequence data",
+      "Requires national licensing for BSL-3 and BSL-4 pathogen labs, with the lab's legal representative personally liable for compliance",
+      "Outlaws development, manufacture, possession or use of biological weapons, and makes implanting a gene-edited or cloned human embryo a separate criminal offence (up to 7 years)",
+      "Sets fines of RMB 1–10 million for prohibited biotech research, or 10–20× the unlawful gains where they exceed RMB 1 million; criminal liability stacks on top"
+    ],
+    "narrativeHook": "Drafted before COVID, rushed through after — the same week Wuhan locked down, Beijing's legislators put 'biosecurity' on the State Security Commission's agenda for the first time.",
+    "affectedCompanyIds": [
+      "bgi",
+      "wuxi-apptec",
+      "wuxi-bio",
+      "cansino",
+      "sinovac",
+      "sinopharm"
+    ],
+    "sources": [
+      "covington-biosecurity-law",
+      "npc-biosecurity-law-text-2020",
+      "npc-observer-biosecurity-law",
+      "chinalawtranslate-biosecurity-law",
+      "dlapiper-prc-biosecurity-law-2020"
+    ],
+    "verified": true,
+    "lastVerified": "2026-04-25"
   },
   {
     "id": "drug-reg-overhaul",
-    "name": "New Drug Registration Regulation",
-    "date": "2020-07",
+    "name": "Provisions for Drug Registration (2020)",
+    "nameZh": "药品注册管理办法",
+    "date": "2020-03-30",
+    "effectiveDate": "2020-07-01",
+    "agency": "State Administration for Market Regulation",
+    "documentRef": "SAMR Order No. 27",
     "category": "approval",
-    "shortDescription": "Comprehensive overhaul codifying the reform decade",
-    "impact": "Locked in conditional approval, breakthrough designation, real-world evidence"
+    "shortDescription": "Rewrote China's drug-approval rulebook for the first time in 13 years, baking the 2015–2018 reforms — fast-track review, conditional approval, breakthrough designation, foreign-data acceptance — into permanent law.",
+    "impact": "Set hard review clocks for the first time: 200 working days for a standard new-drug application, 130 for priority review, and 70 for an orphan drug already approved overseas. By April 2022 the NMPA had granted 82 breakthrough-therapy designations (62% to cancer drugs), and the regulation became the legal backbone every Chinese biotech now files under.",
+    "keyProvisions": [
+      "Four named fast-track lanes — 'breakthrough therapy', 'conditional approval', 'priority review', and 'special approval' (for public-health emergencies) — each with its own published criteria and review clock",
+      "Standard new-drug review capped at 200 working days; priority review at 130; orphan drugs already approved overseas at 70",
+      "Clinical-trial applications deemed approved by default if the NMPA does not object within 60 working days — a shift from prior case-by-case sign-off",
+      "Lets foreign drug owners and Chinese research institutions — not just factories — hold a Chinese drug license, with the holder responsible for the drug across its whole life cycle",
+      "Lets the NMPA review, inspect the factory, and verify the data in parallel rather than one after the other"
+    ],
+    "narrativeHook": "The 2015 reforms ran on temporary State Council notices and 'pilots'; the 2020 Provisions made them the law of the land — the rulebook that every Chinese new-drug filing since has been built on.",
+    "affectedCompanyIds": [
+      "hengrui",
+      "beigene",
+      "innovent",
+      "junshi",
+      "akeso",
+      "remegen",
+      "legend",
+      "henlius"
+    ],
+    "sources": [
+      "nmpa-provisions-drug-registration-2020",
+      "twobirds-china-drug-registration-2020",
+      "ppd-china-drug-registration-2020",
+      "frontiers-conditional-approvals-china-2020-2023",
+      "sciencedirect-btd-china-pooled-analysis"
+    ],
+    "verified": true,
+    "lastVerified": "2026-04-25"
   },
   {
     "id": "value-oriented-onc",
     "name": "Value-Oriented Oncology Guideline",
-    "date": "2021-07",
+    "nameZh": "以临床价值为导向的抗肿瘤药物临床研发指导原则",
+    "date": "2021-07-02",
+    "effectiveDate": "2021-11-19",
+    "agency": "Center for Drug Evaluation, National Medical Products Administration",
+    "documentRef": "CDE Announcement No. 46 of 2021",
     "category": "approval",
-    "shortDescription": "NMPA explicitly discourages me-too oncology drugs",
-    "impact": "Demanded head-to-head vs standard of care; killed PD-1 me-too rush"
+    "shortDescription": "Told Chinese cancer-drug developers they had to test new drugs against the best available treatment — not against placebo or an outdated chemo regimen — to win approval.",
+    "impact": "Effectively closed the me-too lane that had let ~80 PD-1/PD-L1 programs pile up behind eight already-approved Chinese checkpoint inhibitors; the draft alone wiped 5%+ off the Hang Seng Healthcare Index in two days and pushed survivors (Akeso, Innovent, Hengrui) toward head-to-head trials against Keytruda — the discipline that made later mega-deals like Summit-Akeso ($5B for ivonescimab) and Merck-LaNova ($3.3B) possible.",
+    "keyProvisions": [
+      "Late-stage trials must use the best current standard of care as the control arm — not chemo regimens that immunotherapy has already replaced",
+      "Placebo or 'best supportive care' allowed only when no real treatment exists",
+      "Future me-too drugs must show a head-to-head benefit (better efficacy, safety, or convenience) over the best approved drug — not just non-inferiority to a weaker comparator",
+      "Trial design must put patient benefit first: encourage pediatric and elderly formulations, model-informed development, and patient-reported outcomes (the word 'patient' appears 174 times in the final text)",
+      "Applies to all anti-tumor drug clinical development, with PD-1/PD-L1 and CAR-T explicitly in the regulator's crosshairs"
+    ],
+    "narrativeHook": "A draft guideline released on a Friday afternoon in July 2021 erased ~$10B of biotech market cap by Monday — the moment Beijing told its drug industry that copying Keytruda one more time would no longer pay.",
+    "affectedCompanyIds": [
+      "hengrui",
+      "innovent",
+      "junshi",
+      "beigene",
+      "akeso",
+      "henlius",
+      "cstone"
+    ],
+    "sources": [
+      "pharmadj-cde-clinical-value-guidelines",
+      "fiercepharma-china-cde-value-oriented-2021",
+      "tigermed-cde-value-guideline-2021",
+      "sciencedirect-china-anticancer-regulation-2022",
+      "cancer-wiley-china-onc-trials-2024"
+    ],
+    "verified": true,
+    "lastVerified": "2026-04-25"
   },
   {
     "id": "hgr-tightening",
-    "name": "Human Genetic Resources Tightening",
-    "date": "2022-03",
+    "name": "Human Genetic Resources Implementing Rules",
+    "nameZh": "人类遗传资源管理条例实施细则",
+    "date": "2023-06",
+    "effectiveDate": "2023-07-01",
+    "agency": "Ministry of Science and Technology of the People's Republic of China",
+    "documentRef": "MOST Order No. 21 (科学技术部令第21号), under State Council Order No. 717 (2019 HGR Regulation)",
     "category": "geopolitical",
-    "shortDescription": "Restrictions on cross-border genetic data and samples",
-    "impact": "Complicated multinational trials and academic collaborations"
+    "shortDescription": "Wrote the operating manual for China's gene-data regime — what counts as a 'human genetic resource', who has to ask Beijing for permission, and how big the fines get if they don't.",
+    "impact": "Locked in the post-2019 rule that any foreign-controlled entity touching Chinese DNA samples or genome data needs a Chinese partner and MOST sign-off — fines up to RMB 10 million plus 5–10x any illegal gain, and personal fines up to RMB 500,000 for executives. Also exempted urine, serum, plasma, and clinical-trial sample collections under 3,000 cases (up from 500), giving multinational trial sponsors a real, narrower path through.",
+    "keyProvisions": [
+      "Defined 'HGR information' narrowly as gene and genome data — clinical, imaging, protein, and metabolic data fall outside the regime",
+      "Raised the threshold for mandatory MOST approval of large-population studies from 500 to 3,000 cases, and exempted clinical trials run for NMPA drug or device approval",
+      "Treated any PRC-domiciled company with foreign control — including VIE structures used by US-listed Chinese biotechs — as a 'foreign party' barred from collecting or exporting Chinese DNA without a local partner",
+      "Required Chinese partners to keep a full backup of all data generated and to file that backup with regulators before sharing any HGR information abroad",
+      "Set a penalty floor: fines of RMB 1M+ on companies and RMB 100K+ on individuals trigger mandatory hearings; serious cases bar firms from HGR work for a year or more"
+    ],
+    "narrativeHook": "The rule that turned a Chinese blood draw into a national-security event — and the reason every multinational running a Phase III in China now ships its data through a Chinese co-sponsor.",
+    "affectedCompanyIds": [
+      "bgi",
+      "wuxi-apptec",
+      "wuxi-bio",
+      "beigene",
+      "innovent",
+      "hengrui",
+      "zailab",
+      "legend"
+    ],
+    "sources": [
+      "ropesgray-hgr-implementing-rules-2023",
+      "morganlewis-hgr-2023",
+      "chinabriefing-hgr-implementation-2023",
+      "chinalawtranslate-hgr-implementing-rules",
+      "govcn-hgr-detailed-rules-2023",
+      "covington-hgr-regulation"
+    ],
+    "verified": true,
+    "lastVerified": "2026-04-25"
   },
   {
     "id": "fyp14-bioeconomy",
     "name": "14th Five-Year Bioeconomy Plan",
+    "nameZh": "“十四五”生物经济发展规划",
     "date": "2022-05",
+    "effectiveDate": "2022-05-10",
     "category": "approval",
-    "shortDescription": "First top-level national bioeconomy strategy",
-    "impact": "Folded medicine, agriculture, biosafety, and manufacturing into one frame"
+    "agency": "National Development and Reform Commission",
+    "documentRef": "Fa Gai Gao Ji [2021] No. 1850 (发改高技〔2021〕1850号)",
+    "shortDescription": "China's first national strategy that treats biology — not just biopharma — as a pillar of the economy, putting medicine, agriculture, manufacturing, and biosecurity under one plan through 2025.",
+    "impact": "Set a target of a 22-trillion-yuan (~US$3.3 trillion) bioeconomy by 2025 and called for biopharma to grow ~10% a year, signalling to provinces, banks, and state funds that biotech was a pillar industry — the framing that channelled local subsidies into Beijing-Tianjin-Hebei, the Yangtze River Delta, the Greater Bay Area, and Chengdu-Chongqing as designated bioeconomy clusters.",
+    "keyProvisions": [
+      "Names four pillar industries: bio-medicine (drugs, vaccines, cell therapy), bio-agriculture (GM crops, seeds, animal vaccines), bio-manufacturing (biofuels, biomaterials, fermentation chemicals), and bio-information (DNA sequencing, gene data, AI-for-bio)",
+      "Sets a 2025 target of growing the bioeconomy to ~22 trillion yuan and a 2035 goal of 'leading the world' in comprehensive bioeconomy strength",
+      "Calls for raising the share of biotech firms with annual revenue ≥ RMB 10 billion (~US$1.5B) — i.e. building national champions, not just startups",
+      "Designates four regional clusters as bioeconomy pilot zones: Beijing-Tianjin-Hebei, Yangtze River Delta, Guangdong-Hong Kong-Macao Greater Bay Area, and Chengdu-Chongqing",
+      "Folds biosecurity in as the fifth thread — pandemic preparedness, lab biosafety, and protection of Chinese genetic data sit alongside the growth targets, not as an afterthought"
+    ],
+    "narrativeHook": "The first time a Chinese five-year plan treated biology as its own economic pillar, on par with semiconductors or AI — and the first time biosecurity and bioeconomy were written as the same paragraph.",
+    "affectedCompanyIds": [
+      "bgi",
+      "wuxi-bio",
+      "wuxi-apptec",
+      "sinovac",
+      "cansino",
+      "xtalpi",
+      "insilico"
+    ],
+    "sources": [
+      "ndrc-bioeconomy-plan-en-2022",
+      "gov-cn-bioeconomy-plan-2022",
+      "cgtn-bioeconomy-3-28-trillion-2022",
+      "chinadaily-bioeconomy-plan",
+      "dcz-china-bioeconomy-agriculture-2022",
+      "pmc-bioeconomy-roadmap-2022"
+    ],
+    "verified": true,
+    "lastVerified": "2026-04-25"
   },
   {
     "id": "biosecure",
     "name": "BIOSECURE Act Introduced",
     "date": "2024-01",
     "category": "geopolitical",
-    "shortDescription": "US bill targeting WuXi AppTec, WuXi Biologics, BGI, MGI, Complete Genomics",
-    "impact": "Existential threat to China CRO/CDMO revenue from US clients"
+    "agency": "United States Congress (House Select Committee on the CCP and Senate Homeland Security and Governmental Affairs Committee)",
+    "documentRef": "S.3558 (Dec 20, 2023) / H.R.7085 (Jan 25, 2024) / substitute H.R.8333 (May 2024)",
+    "shortDescription": "US bill to cut off federal money — contracts, grants, loans — from any company doing business with five named Chinese biotechs: BGI, MGI, Complete Genomics, WuXi AppTec, and WuXi Biologics.",
+    "impact": "WuXi AppTec's stock fell ~30% in two days after the January 2024 introduction, and the House passage 306–81 in September 2024 forced WuXi to start unwinding US cell-and-gene-therapy operations even before the bill became law. Threatened roughly two-thirds of WuXi AppTec's revenue, which came from US clients.",
+    "keyProvisions": [
+      "Names five 'biotechnology companies of concern' — BGI, MGI Tech, Complete Genomics, WuXi AppTec, and (added May 2024) WuXi Biologics — plus their subsidiaries and successors",
+      "Bars any US federal agency from contracting with these companies, or with any third-party vendor that uses their equipment or services on a federal contract",
+      "Bars federal grants and loans (including NIH money) from going to recipients tied to the named companies",
+      "Gives existing contracts a grace period — the House version offered until 2032 to wind down — so industry has time to switch CDMOs",
+      "Lets the executive branch add other companies to the 'of concern' list later, with notice and a chance to contest"
+    ],
+    "narrativeHook": "Mike Gallagher pitched the bill as 'genomic data sovereignty' — but the real target was WuXi, the Chinese contract manufacturer that by 2023 was making drugs for one in four FDA-approved biologics.",
+    "affectedCompanyIds": [
+      "wuxi-apptec",
+      "wuxi-bio",
+      "bgi"
+    ],
+    "sources": [
+      "ropesgray-biosecure-house-2024",
+      "mwc-biosecure-house-2024",
+      "foley-biosecure-2024",
+      "congress-h-r-7085",
+      "cen-house-passes-act-aimed-at-5-chinese-drug",
+      "goodwin-biosecure-timeline-2024",
+      "selectccp-biosecure-introduction-2024",
+      "mayer-brown-biosecure-intro-2024",
+      "arnold-porter-biosecure-pending-2024",
+      "statnews-biosecure-act-aimed-at-chinese-drug-manu"
+    ],
+    "verified": true,
+    "lastVerified": "2026-04-25"
   },
   {
     "id": "biosecure-enacted",
-    "name": "BIOSECURE Enacted",
-    "date": "2025-12",
+    "name": "BIOSECURE Act Enacted",
+    "date": "2025-12-18",
+    "effectiveDate": "2025-12-18",
     "category": "geopolitical",
-    "shortDescription": "Signed into law as Section 851 of the FY2026 NDAA",
-    "impact": "Triggered WuXi divestitures and BeiGene → BeOne redomicile to Switzerland"
+    "agency": "United States Congress / President of the United States",
+    "documentRef": "Section 851 of the Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2026 (P.L. 119-60)",
+    "shortDescription": "Bars US federal agencies from signing new contracts or grants with any company that uses equipment or services from a Chinese 'biotechnology company of concern' — and gives existing deals five years to wind down.",
+    "impact": "WuXi AppTec sold its US and UK cell-and-gene-therapy units to Altaris (announced Dec 2024, closed 2025) and its US medical-device-testing arm to NAMSA; BeiGene re-incorporated in Switzerland as BeOne Medicines (completed May 27, 2025). Final law dropped the named-company list from earlier drafts but kept BGI, MGI, and Complete Genomics on the path to designation via the Pentagon's 1260H list. WuXi AppTec and WuXi Biologics are not yet designated, but Senate and House committee chairs wrote to the Defense Department on Dec 18, 2025 asking that they be added.",
+    "keyProvisions": [
+      "Federal agencies cannot 'enter into, extend, or renew' a contract — or spend grant or loan money — on any product or service from a 'biotechnology company of concern', or from any vendor whose work for the government uses such equipment or services",
+      "BCC list is built two ways: any biotech on the Pentagon's annual 1260H list of 'Chinese military companies' that OMB flags as biotech-related, plus a discretionary OMB process targeting firms tied to China, Russia, North Korea, or Iran",
+      "Office of Management and Budget must publish the first BCC list by December 2026; the Federal Acquisition Regulation must be rewritten within roughly a year of that, with prohibitions kicking in 60 days later for 1260H names and 90 days later for everyone else",
+      "Five-year 'rule of construction' lets companies keep performing contracts already in place when their counterparty is later named a BCC — buying time to find replacement vendors. Does NOT shield contracts with companies already on the 1260H list as of Dec 18, 2025 (i.e., BGI/MGI)",
+      "Final text dropped the named-company list (BGI, MGI, Complete Genomics, WuXi AppTec, WuXi Biologics) that was in the original 2024 House bill — the law now lists no individual firm by name"
+    ],
+    "narrativeHook": "WuXi divested its US cell-and-gene-therapy units the same year BIOSECURE became law — 'voluntarily', and almost a year before the OMB list it might appear on is even due.",
+    "affectedCompanyIds": [
+      "wuxi-apptec",
+      "wuxi-bio",
+      "bgi",
+      "beigene"
+    ],
+    "sources": [
+      "lw-biosecure-becomes-law-2025",
+      "arnold-porter-biosecure-law-2025",
+      "ropesgray-biosecure-act-enacted",
+      "foleyhoag-congress-passes-biosecure-act",
+      "sidley-biosecure-fy2026-ndaa-2025",
+      "wuxi-altaris-atu-2024",
+      "wuxi-namsa-2025",
+      "beone-launch-bw-2025",
+      "biocentury-wuxi-how-wuxi-apptec-is-battling-the-biosecur"
+    ],
+    "verified": true,
+    "lastVerified": "2026-04-25"
   },
   {
     "id": "state-council-2025",
     "name": "State Council 2025 Reform Guideline",
-    "date": "2025-12",
+    "nameZh": "国务院办公厅关于全面深化药品医疗器械监管改革促进医药产业高质量发展的意见",
+    "date": "2024-12-30",
+    "effectiveDate": "2025-01-03",
+    "agency": "General Office of the State Council of the People's Republic of China",
+    "documentRef": "Guo Ban Fa [2024] No. 53",
     "category": "approval",
-    "shortDescription": "Roadmap to make China a pharma powerhouse by 2027 / 2035",
-    "impact": "Doubles down on innovation despite financing slump and decoupling"
+    "shortDescription": "A 24-point plan that tells China's drug regulator to clear innovative trials and approvals faster, harden drug-data protection, and turn China into a 'pharmaceutical powerhouse' by 2035.",
+    "impact": "Cuts clinical-trial review for innovative drugs from 60 working days to 30, and post-approval manufacturing-change reviews from 200 to 60 — the biggest single timing shift since the 2015 reform package. Pairs the speed-up with the first formal regulatory data exclusivity China has ever drafted (proposed at 6 years for new drugs, 3 years for improved drugs), tilting the playing field toward originators and away from fast-following generics.",
+    "keyProvisions": [
+      "Clinical-trial review for innovative drugs cut from 60 working days to 30",
+      "Post-approval manufacturing-change ('supplemental') reviews cut from 200 working days to 60",
+      "First formal regulatory data exclusivity for drugs (draft proposes 6 years for new chemical entities, 3 years for improved drugs) — separate from patents",
+      "Market exclusivity periods for rare-disease drugs, pediatric drugs, first generics, and certain traditional Chinese medicines",
+      "Rare-disease drugs can be approved on foreign trial data alone, skipping a China bridging trial",
+      "2027 target: regulatory framework matching innovative-drug development; 2035 target: regulatory system fully modernised, China a 'pharmaceutical powerhouse'"
+    ],
+    "narrativeHook": "Issued the same month BIOSECURE became US law — Beijing's answer to decoupling was to make it easier, not harder, for foreign pharma to license Chinese assets and run global trials out of China.",
+    "affectedCompanyIds": [
+      "hengrui",
+      "innovent",
+      "beigene",
+      "akeso",
+      "junshi",
+      "hansoh",
+      "remegen",
+      "kelun-bio",
+      "henlius",
+      "3sbio"
+    ],
+    "sources": [
+      "state-council-gov-cn-2025-reform-cn",
+      "nmpa-en-state-council-reform-2025",
+      "covington-china-2027-2035-blueprint",
+      "gtlaw-china-life-sciences-2025",
+      "xinhua-state-council-pharma-reform-2025"
+    ],
+    "verified": true,
+    "lastVerified": "2026-04-25"
   }
 ]
