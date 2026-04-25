@@ -3,49 +3,131 @@
     "id": "republican-foundations",
     "title": "Republican Foundations",
     "date": "1917–1949",
-    "body": "<p>Modern biology in China, in its earliest organized form, was an American import paid for in Standard Oil money. In 1915, the Rockefeller Foundation’s China Medical Board purchased the Union Medical College from the London Missionary Society and rebuilt it on the site of a former royal palace in Beijing. Formally established in 1917, <em>Peking Union Medical College</em> was conceived as nothing less than “a medical school and hospital comparable with that of the leading institutions of Western civilization.” Its small graduating classes, capped at thirty to fifty students, produced an outsized share of the country’s first generation of internationally trained medical scientists.[[cite:rockarch-pumc-history]][[cite:pmc-cams-pumc-2020]]</p>\n<p>Five years before the college opened, the Cambridge-trained Malayan-Chinese physician <em>Wu Lien-teh</em> had performed what is arguably the foundational act of modern Chinese public health. Dispatched in late 1910 to investigate a mysterious epidemic in Manchuria, Wu correctly diagnosed it as airborne pneumonic plague — not bubonic — by performing one of the first postmortems sanctioned in Chinese practice. He improvised a layered cotton-and-gauze respirator that prefigures the modern surgical mask, and pushed through cremation and quarantine measures that ended an outbreak after roughly sixty thousand deaths.[[cite:infezmed-manchurian-plague]] The April 1911 Mukden Conference Wu chaired was the first international scientific congress hosted in China, attended by representatives of eleven nations.[[cite:wu-lien-teh-wikipedia]]</p>\n<p>By the 1930s, a small but real Chinese biological community existed: Wang Yinglai, born in 1907 in Fujian, completed a Cambridge doctorate before returning home; the microbiologist Tang Feifan returned from Harvard to staff Republican-era research institutes.[[cite:wang-yinglai-wikipedia]][[cite:tang-feifan-wikipedia]] They worked in a deeply unstable environment — the Sino-Japanese War of 1937–1945 physically destroyed laboratories, scattered scientists across the interior, and consumed much of the institutional capital the college had accumulated. In January 1951 the new People’s Republic nationalized the institution.[[cite:pumc-wikipedia]]</p>",
+    "body": "<p>Modern biology in China, in its earliest organized form, was an American import paid for in Standard Oil money. In 1915, the Rockefeller Foundation’s China Medical Board purchased the Union Medical College from the London Missionary Society and rebuilt it on the site of a former royal palace in Beijing. Formally established in 1917, <em>Peking Union Medical College</em> was conceived as nothing less than “a medical school and hospital comparable with that of the leading institutions of Western civilization.” Its small graduating classes, capped at thirty to fifty students, produced an outsized share of the country’s first generation of internationally trained medical scientists.[[cite:rockarch-pumc-history]][[cite:pmc-cams-pumc-2020]]</p>\n<p>Five years before the college opened, the Cambridge-trained Malayan-Chinese physician <em>Wu Lien-teh</em> was dispatched to Manchuria in late 1910 to investigate a mysterious epidemic. He correctly diagnosed it as airborne pneumonic plague — not bubonic — by performing one of the first postmortems sanctioned in Chinese practice, often counted as the foundational act of modern Chinese public health. He improvised a layered cotton-and-gauze respirator that prefigures the modern surgical mask, and pushed through cremation and quarantine measures that ended an outbreak after roughly sixty thousand deaths.[[cite:infezmed-manchurian-plague]] The April 1911 Mukden Conference Wu chaired was the first international scientific congress hosted in China, attended by representatives of eleven nations.[[cite:wu-lien-teh-wikipedia]]</p>\n<p>By the 1930s, a small but real Chinese biological community existed: Wang Yinglai, born in 1907 in Fujian, completed a Cambridge doctorate before returning home; the microbiologist Tang Feifan returned from Harvard to staff Republican-era research institutes.[[cite:wang-yinglai-wikipedia]][[cite:tang-feifan-wikipedia]] They worked through the Sino-Japanese War of 1937–1945, which physically destroyed laboratories, scattered scientists across the interior, and consumed much of the institutional capital the college had accumulated. In January 1951 the new People’s Republic nationalized the institution.[[cite:pumc-wikipedia]]</p>",
     "metrics": {
-      "novelDrugApprovals": 0,
-      "licenseInDeals": 0,
-      "licenseOutDeals": 0,
-      "apiGlobalShare": 0,
-      "biotechIPOs": 0,
-      "rdSpendBillions": 0,
-      "globalClinicalTrialShare": 0
+      "pipelineSharePct": 0,
+      "inLicensingSharePct": 0,
+      "trialStartsShare": {
+        "china": 0,
+        "us": 38,
+        "eu": 38,
+        "japan": 11,
+        "row": 13
+      }
     },
     "activeCompanyIds": [],
-    "activeReformIds": []
+    "activeReformIds": [],
+    "modalityProgress": {
+      "smallMol": {
+        "rung": 0
+      },
+      "peptide": {
+        "rung": 0
+      },
+      "recombinant": {
+        "rung": 0
+      },
+      "biosimilar": {
+        "rung": 0
+      },
+      "novelMab": {
+        "rung": 0
+      },
+      "bispecific": {
+        "rung": 0
+      },
+      "adc": {
+        "rung": 0
+      },
+      "vaccine": {
+        "rung": 0
+      },
+      "cellTherapy": {
+        "rung": 0
+      },
+      "nucleicAcid": {
+        "rung": 0
+      },
+      "geneTherapy": {
+        "rung": 0
+      },
+      "radiopharm": {
+        "rung": 0
+      }
+    }
   },
   {
     "id": "insulin-and-artemisinin",
     "title": "Insulin and Artemisinin",
     "date": "1949–1978",
-    "body": "<p>The Chinese Academy of Sciences, founded in 1949, was modeled on its Soviet counterpart — and the Soviet model came with strings. Lysenkoism, Trofim Lysenko’s pseudoscientific rejection of Mendelian genetics, dominated Chinese biology from 1949 until roughly 1956; only after Khrushchev’s secret speech were scientists like Tan Jiazhen permitted to argue publicly for Mendelian inheritance. Mao’s 1958 “Eight-Point Charter of Agriculture,” directly influenced by Lysenko’s doctrine of close-planting and deep ploughing, contributed to the catastrophic crop failures of the Great Leap Forward.[[cite:cas-history-soviet-model]][[cite:lysenkoism-wikipedia]][[cite:alphahistory-lysenko-china]]</p>\n<p>Against this backdrop, two extraordinary projects emerged. The first was the total chemical synthesis of bovine <em>insulin</em>. Proposed at a 1958 symposium under Wang Yinglai, the project divided more than two hundred synthetic steps among three institutions; on 17 September 1965 they observed crystallization of the first artificially synthesized, fully bioactive crystalline protein in human history. The accomplishment was widely considered Nobel-caliber. But the Cultural Revolution intervened: the Communist government regarded the Nobel Prize as a symbol of bourgeois decadence, and Wang spent much of the next decade as a virtual prisoner in his own institute, forced to study Mao Zedong Thought.[[cite:bcas-insulin-2024]][[cite:synthetic-insulin-wikipedia]]</p>\n<p>The second was <em>artemisinin</em>. On 23 May 1967, the People’s Liberation Army launched Project 523, a top-secret military effort to find a treatment for the chloroquine-resistant malaria devastating Chinese and Vietnamese troops. Tu Youyou — appointed group leader in January 1969 — systematically screened classical Chinese herbal texts; her 1971 insight that the conventional ethanol extraction was destroying the active component of sweet wormwood led to a low-temperature ether extraction yielding qinghaosu. Because there were no functioning clinical-trial regulations, Tu and two colleagues took the first doses themselves. The work earned her the Lasker Award in 2011 and the Nobel Prize in 2015.[[cite:lasker-artemisinin-2011]][[cite:tu-youyou-wikipedia]]</p>\n<p>These triumphs are the exception that defines the rule. Universities admitted no new undergraduates between 1966 and 1969 and no graduate students through 1977; the academy’s budget was slashed to less than one-sixth of its 1965 level by 1967; records document 229 scientists killed or driven to suicide.[[cite:cas-at-70-nature]][[cite:uchicago-cultural-revolution-college]] Tang Feifan, who in 1956 had become the first scientist to isolate and culture the bacterium causing trachoma in egg yolk sacs, hanged himself in 1958 under the strain of being denounced as a “capitalist academic authority” and “international spy” — twenty-three years before the International Organization Against Trachoma awarded him its gold medal.[[cite:tang-feifan-wikipedia]]</p>",
+    "body": "<p>The Chinese Academy of Sciences, founded in 1949, was modeled on its Soviet counterpart, and the model came with strings. Lysenkoism, Trofim Lysenko’s pseudoscientific rejection of Mendelian genetics, dominated Chinese biology from 1949 until roughly 1956; only after Khrushchev’s secret speech were scientists like Tan Jiazhen permitted to argue publicly for Mendelian inheritance. Mao’s 1958 “Eight-Point Charter of Agriculture,” directly influenced by Lysenko’s doctrine of close-planting and deep ploughing, contributed to the catastrophic crop failures of the Great Leap Forward.[[cite:cas-history-soviet-model]][[cite:lysenkoism-wikipedia]][[cite:alphahistory-lysenko-china]]</p>\n<p>Two projects emerged from this period nonetheless. The first was the total chemical synthesis of bovine <em>insulin</em>. Proposed at a 1958 symposium under Wang Yinglai, the project divided more than two hundred synthetic steps among three institutions; on 17 September 1965 they observed crystallization of the first artificially synthesized, fully bioactive crystalline protein in human history. The accomplishment was Nobel-caliber, but the Cultural Revolution intervened: the Communist government regarded the Nobel Prize as a symbol of bourgeois decadence, and Wang spent much of the next decade as a virtual prisoner in his own institute, forced to study Mao Zedong Thought.[[cite:bcas-insulin-2024]][[cite:synthetic-insulin-wikipedia]]</p>\n<p>The second was <em>artemisinin</em>. On 23 May 1967, the People’s Liberation Army launched Project 523, a top-secret military effort to find a treatment for the chloroquine-resistant malaria devastating Chinese and Vietnamese troops. Tu Youyou — appointed group leader in January 1969 — systematically screened classical Chinese herbal texts; her 1971 insight that the conventional ethanol extraction was destroying the active component of sweet wormwood led to a low-temperature ether extraction yielding qinghaosu. Because there were no functioning clinical-trial regulations, Tu and two colleagues took the first doses themselves. The work earned her the Lasker Award in 2011 and the Nobel Prize in 2015.[[cite:lasker-artemisinin-2011]][[cite:tu-youyou-wikipedia]]</p>\n<p>Such successes were exceptions. Universities admitted no new undergraduates between 1966 and 1969 and no graduate students through 1977; the academy’s budget was slashed to less than one-sixth of its 1965 level by 1967; records document 229 scientists killed or driven to suicide.[[cite:cas-at-70-nature]][[cite:uchicago-cultural-revolution-college]] Tang Feifan, who in 1956 had become the first scientist to isolate and culture the bacterium causing trachoma in egg yolk sacs, hanged himself in 1958 under the strain of being denounced as a “capitalist academic authority” and “international spy.” Twenty-three years later, the International Organization Against Trachoma awarded him its gold medal.[[cite:tang-feifan-wikipedia]]</p>",
     "metrics": {
-      "novelDrugApprovals": 0,
-      "licenseInDeals": 0,
-      "licenseOutDeals": 0,
-      "apiGlobalShare": 8,
-      "biotechIPOs": 0,
-      "rdSpendBillions": 0,
-      "globalClinicalTrialShare": 0
+      "pipelineSharePct": 0,
+      "inLicensingSharePct": 0,
+      "trialStartsShare": {
+        "china": 0,
+        "us": 38,
+        "eu": 38,
+        "japan": 11,
+        "row": 13
+      }
     },
     "activeCompanyIds": [],
-    "activeReformIds": []
+    "activeReformIds": [],
+    "modalityProgress": {
+      "smallMol": {
+        "rung": 1
+      },
+      "peptide": {
+        "rung": 0
+      },
+      "recombinant": {
+        "rung": 1
+      },
+      "biosimilar": {
+        "rung": 0
+      },
+      "novelMab": {
+        "rung": 0
+      },
+      "bispecific": {
+        "rung": 0
+      },
+      "adc": {
+        "rung": 0
+      },
+      "vaccine": {
+        "rung": 1
+      },
+      "cellTherapy": {
+        "rung": 0
+      },
+      "nucleicAcid": {
+        "rung": 0
+      },
+      "geneTherapy": {
+        "rung": 0
+      },
+      "radiopharm": {
+        "rung": 0
+      }
+    }
   },
   {
     "id": "reform-and-opening",
     "title": "Reform & Opening",
     "date": "1978–1998",
-    "body": "<p>The pivot was abrupt. In March 1978, with Deng Xiaoping consolidating power, the National Science Conference declared the rehabilitation of science and technology a strategic priority — a deliberate rebuilding of a research base the Cultural Revolution had nearly extinguished.[[cite:national-science-conference-1978]]</p>\n<p>The funding architecture came in sequence. The National Natural Science Foundation was established in February 1986 as China’s peer-reviewed basic-research funder. Weeks later, four senior physicists wrote to Deng arguing that “high-tech development is a matter of international competition for national power, and China cannot stay aloof”; he approved their proposal within two days, and the State High-Tech Development Plan — known after its 3 March 1986 approval date as the [[reform:863-program|<em>863 Program</em>]] — launched, naming biotechnology one of seven national priorities.[[cite:nsfc-wikipedia]][[cite:863-program-wikipedia]][[cite:chinadaily-863-program]] The Torch Program followed in 1988 to industrialize the output, and a strategic basic-research program was added in 1997.[[cite:torch-program-china]][[cite:973-program-wikipedia]]</p>\n<p>The other quiet revolution was human capital. From the early 1990s, the state began offering returnees — the <em>haigui</em>, “sea turtles” — labs, budgets, and faculty positions to come home. By 1999, when the [[company:bgi|Beijing Genomics Institute]] was founded to claim China’s 1% share of the Human Genome Project, the institutional ground had been quietly prepared.[[cite:innovation-china-haigui-1994]]</p>",
+    "body": "<p>In March 1978, with Deng Xiaoping consolidating power, the National Science Conference declared the rehabilitation of science and technology a strategic priority: a deliberate rebuilding of a research base the Cultural Revolution had nearly extinguished.[[cite:national-science-conference-1978]]</p>\n<p>The National Natural Science Foundation was established in February 1986 as China’s peer-reviewed basic-research funder. Weeks later, four senior physicists wrote to Deng arguing that “high-tech development is a matter of international competition for national power, and China cannot stay aloof”; he approved their proposal within two days. The resulting State High-Tech Development Plan, known by its 3 March 1986 approval date as the [[reform:863-program|<em>863 Program</em>]], named biotechnology one of seven national priorities.[[cite:nsfc-wikipedia]][[cite:863-program-wikipedia]][[cite:chinadaily-863-program]] The Torch Program followed in 1988 to industrialize the output, and a strategic basic-research program was added in 1997.[[cite:torch-program-china]][[cite:973-program-wikipedia]]</p>\n<p>From the early 1990s, the state began offering returnees, also known as <em>haigui</em> (“sea turtles”), labs, budgets, and faculty positions to come home. In 1999, the [[company:bgi|Beijing Genomics Institute]] was founded to claim China’s 1% share of the Human Genome Project.[[cite:innovation-china-haigui-1994]]</p>",
     "metrics": {
-      "novelDrugApprovals": 0,
-      "licenseInDeals": 0,
-      "licenseOutDeals": 0,
-      "apiGlobalShare": 18,
-      "biotechIPOs": 0,
-      "rdSpendBillions": 0,
-      "globalClinicalTrialShare": 1
+      "pipelineSharePct": 0,
+      "inLicensingSharePct": 0,
+      "trialStartsShare": {
+        "china": 0,
+        "us": 38,
+        "eu": 38,
+        "japan": 11,
+        "row": 13
+      }
     },
     "activeCompanyIds": [
       "hengrui",
@@ -57,21 +139,61 @@
       "863-program",
       "973-program",
       "hgr-interim"
-    ]
+    ],
+    "modalityProgress": {
+      "smallMol": {
+        "rung": 3
+      },
+      "peptide": {
+        "rung": 0
+      },
+      "recombinant": {
+        "rung": 2
+      },
+      "biosimilar": {
+        "rung": 0
+      },
+      "novelMab": {
+        "rung": 0
+      },
+      "bispecific": {
+        "rung": 0
+      },
+      "adc": {
+        "rung": 0
+      },
+      "vaccine": {
+        "rung": 2
+      },
+      "cellTherapy": {
+        "rung": 0
+      },
+      "nucleicAcid": {
+        "rung": 0
+      },
+      "geneTherapy": {
+        "rung": 0
+      },
+      "radiopharm": {
+        "rung": 0
+      }
+    }
   },
   {
     "id": "platforms-and-parks",
     "title": "Platforms and Parks",
     "date": "1999–2009",
-    "body": "<p>On 9 September 1999 — at “nine seconds past the ninth minute of the ninth hour,” in deference to numerological auspice — Yang Huanming, Wang Jian, Yu Jun, and Liu Siqi formally established the [[company:bgi|<em>Beijing Genomics Institute</em>]] as a non-governmental institute under the Chinese Academy of Sciences. The country’s “1% Project” — sequencing roughly thirty megabases on the short arm of human chromosome 3 — was modest in scope but bought China a seat at the international Human Genome Project consortium table.[[cite:bgi-history-genomics-cn]][[cite:chgc-hgp-china-protein-cell]]</p>\n<p>Eighteen months earlier, Ge Li had returned from Pharmacopeia in New Jersey to set up [[company:wuxi-apptec|<em>WuXi PharmaTech</em>]] in Shanghai’s Waigaoqiao Free Trade Zone. The original offering was simple combinatorial chemistry for Western pharma at a fraction of American labor costs. [[company:wuxi-apptec|WuXi]] listed on the New York Stock Exchange in 2007, acquired Saint Paul–based AppTec Laboratory Services in 2008, and rebranded as [[company:wuxi-apptec|WuXi AppTec]].[[cite:wuxi-apptec-wikipedia]] By absorbing the chemistry, biology, manufacturing, and analytics that small biotechs would otherwise build in-house, [[company:wuxi-apptec|WuXi]] reduced the capital requirement for starting a drug program. As Ge liked to put it, an entrepreneur could now begin a drug company “with a piece of paper, a pencil, and a credit card.”[[cite:ge-li-wikipedia]][[cite:cen-wuxi-li-words-2016]]</p>\n<p>Geography consolidated around the new model. Shanghai’s Zhangjiang High-Tech Park, established as a national high-tech zone in 1992, was by the late 2000s emerging as China’s leading pharmaceutical R&amp;D cluster — home to multinationals including Roche, AstraZeneca, Novartis, and GSK alongside a growing roster of domestic contract-research firms. Suzhou’s BioBAY opened in June 2007 as a startup-focused complement.[[cite:biobay-suzhou-baike]] The [[company:bgi|Beijing Genomics Institute]] moved to Hangzhou in 2001 in exchange for municipal funding, then to Shenzhen in 2007[[cite:ckgsb-bgi-gene-dreams]] — Yang Huanming was fond of remarking that there, “the mountains are high and the emperor is far away” — and was on its way to becoming, by 2010, the largest single producer of genomic data in the world.[[cite:bgi-shenzhen-nature-sequence-factory]]</p>",
+    "body": "<p>On 9 September 1999 — at “nine seconds past the ninth minute of the ninth hour,” in deference to numerological auspice — Yang Huanming, Wang Jian, Yu Jun, and Liu Siqi formally established the [[company:bgi|<em>Beijing Genomics Institute</em>]] as a non-governmental institute under the Chinese Academy of Sciences. The country’s “1% Project” — sequencing roughly thirty megabases on the short arm of human chromosome 3 — was modest in scope but bought China a seat at the international Human Genome Project consortium table.[[cite:bgi-history-genomics-cn]][[cite:chgc-hgp-china-protein-cell]]</p>\n<p>Eighteen months earlier, Ge Li had returned from Pharmacopeia in New Jersey to set up [[company:wuxi-apptec|<em>WuXi PharmaTech</em>]] in Shanghai’s Waigaoqiao Free Trade Zone. The original offering was simple combinatorial chemistry for Western pharma at a fraction of American labor costs. [[company:wuxi-apptec|WuXi]] listed on the New York Stock Exchange in 2007, acquired Saint Paul–based AppTec Laboratory Services in 2008, and rebranded as [[company:wuxi-apptec|WuXi AppTec]].[[cite:wuxi-apptec-wikipedia]] By absorbing the chemistry, biology, manufacturing, and analytics that small biotechs would otherwise build in-house, [[company:wuxi-apptec|WuXi]] reduced the capital requirement for starting a drug program. As Ge liked to put it, an entrepreneur could now begin a drug company “with a piece of paper, a pencil, and a credit card.”[[cite:ge-li-wikipedia]][[cite:cen-wuxi-li-words-2016]]</p>\n<p>Shanghai’s Zhangjiang High-Tech Park, established as a national high-tech zone in 1992, was by the late 2000s emerging as China’s leading pharmaceutical R&amp;D cluster, home to Roche, AstraZeneca, Novartis, and GSK alongside a growing roster of domestic contract-research firms. Suzhou’s BioBAY opened in June 2007 as a startup-focused complement.[[cite:biobay-suzhou-baike]] The [[company:bgi|Beijing Genomics Institute]] moved to Hangzhou in 2001 in exchange for municipal funding, then to Shenzhen in 2007,[[cite:ckgsb-bgi-gene-dreams]] where Yang Huanming was fond of remarking that “the mountains are high and the emperor is far away.” By 2010 BGI was the largest single producer of genomic data in the world.[[cite:bgi-shenzhen-nature-sequence-factory]]</p>",
     "metrics": {
-      "novelDrugApprovals": 0,
-      "licenseInDeals": 1,
-      "licenseOutDeals": 0,
-      "apiGlobalShare": 28,
-      "biotechIPOs": 0,
-      "rdSpendBillions": 2,
-      "globalClinicalTrialShare": 3
+      "pipelineSharePct": 0,
+      "inLicensingSharePct": 0,
+      "trialStartsShare": {
+        "china": 1,
+        "us": 38,
+        "eu": 38,
+        "japan": 11,
+        "row": 12
+      }
     },
     "activeCompanyIds": [
       "hengrui",
@@ -90,21 +212,61 @@
       "973-program",
       "hgr-interim",
       "major-new-drug-project"
-    ]
+    ],
+    "modalityProgress": {
+      "smallMol": {
+        "rung": 3
+      },
+      "peptide": {
+        "rung": 1
+      },
+      "recombinant": {
+        "rung": 3
+      },
+      "biosimilar": {
+        "rung": 1
+      },
+      "novelMab": {
+        "rung": 1
+      },
+      "bispecific": {
+        "rung": 0
+      },
+      "adc": {
+        "rung": 0
+      },
+      "vaccine": {
+        "rung": 3
+      },
+      "cellTherapy": {
+        "rung": 0
+      },
+      "nucleicAcid": {
+        "rung": 0
+      },
+      "geneTherapy": {
+        "rung": 0
+      },
+      "radiopharm": {
+        "rung": 0
+      }
+    }
   },
   {
     "id": "innovator-generation",
     "title": "The Innovator Generation",
     "date": "2010–2014",
-    "body": "<p>By 2010, more than a hundred Illumina HiSeq sequencers — bought on a ten-billion-yuan China Development Bank loan — had made the [[company:bgi|Beijing Genomics Institute]] the world’s largest single producer of genomic data, more than Harvard or the United States National Institutes of Health.[[cite:illumina-bgi-128-hiseq]] The companies that would carry Chinese drug innovation into the global pipeline took shape on the same upswing. [[company:beigene|<em>BeiGene</em>]] was co-founded in Beijing in October 2010 by the American entrepreneur John Oyler and Xiaodong Wang, a Howard Hughes Medical Institute investigator at the University of Texas Southwestern, on the bet that high-quality global trials could be run more quickly and cheaply with Chinese patient enrollment.[[cite:beigene-wikipedia]] [[company:innovent|<em>Innovent Biologics</em>]] followed in Suzhou in 2011, deliberately licensing Adimab’s yeast-display platform to support fully human antibody discovery. [[company:zailab|Zai Lab]] and [[company:junshi|Junshi Biosciences]] emerged on related templates.[[cite:innovent-biologics-wikipedia]][[cite:innovent-adimab-asianscientist]]</p>\n<p>[[company:hengrui|<em>Hengrui Pharmaceuticals</em>]] — founded as a small generic-drug factory in 1970 — had listed in Shanghai in 2000 and slowly transformed itself into one of the world’s most prolific clinical-trial sponsors.[[cite:hengrui-wikipedia]] The first generation of products from this cohort was largely “fast-follower” oncology: at peak, nearly a hundred Chinese companies were racing in the same checkpoint-inhibitor space, and by 2020 China had become the world’s most prolific source of new combination trials targeting Merck’s Keytruda pathway.[[cite:globaldata-china-pd1-trials-2020]]</p>\n<p>The policy scaffolding hardened to match. The 12th Five-Year Plan (2011–2015) elevated biotechnology to the status of a strategic emerging industry. In 2013, [[company:bgi|Beijing Genomics]] vertically integrated by acquiring Mountain View–based Complete Genomics for $118 million, gaining its own sequencing-instrument platform that would later spin off as MGI.[[cite:bgi-complete-genomics-asianscientist]] Unlike the United States, where the 1980 Bayh-Dole Act and the venture base of Boston and South San Francisco had grown organically over decades, China’s biotech rise was choreographed top-down: a state-led gold rush that proved surprisingly capable of producing globally competitive companies, even if it generated enormous duplication along the way.</p>",
+    "body": "<p>By 2010, more than a hundred Illumina HiSeq sequencers — bought on a ten-billion-yuan China Development Bank loan — had made the [[company:bgi|Beijing Genomics Institute]] the world’s largest single producer of genomic data, more than Harvard or the United States National Institutes of Health.[[cite:illumina-bgi-128-hiseq]] The companies that would carry Chinese drug innovation into the global pipeline took shape on the same upswing. [[company:beigene|<em>BeiGene</em>]] was co-founded in Beijing in October 2010 by the American entrepreneur John Oyler and Xiaodong Wang, a Howard Hughes Medical Institute investigator at the University of Texas Southwestern, on the bet that high-quality global trials could be run more quickly and cheaply with Chinese patient enrollment.[[cite:beigene-wikipedia]] [[company:innovent|<em>Innovent Biologics</em>]] followed in Suzhou in 2011, deliberately licensing Adimab’s yeast-display platform to support fully human antibody discovery. [[company:zailab|Zai Lab]] and [[company:junshi|Junshi Biosciences]] emerged on related templates.[[cite:innovent-biologics-wikipedia]][[cite:innovent-adimab-asianscientist]]</p>\n<p>[[company:hengrui|<em>Hengrui Pharmaceuticals</em>]], founded as a small generic-drug factory in 1970, had listed in Shanghai in 2000 and slowly transformed itself into one of the world’s most prolific clinical-trial sponsors.[[cite:hengrui-wikipedia]] The first generation of products from this cohort was largely “fast-follower” oncology: at peak, nearly a hundred Chinese companies were racing in the same checkpoint-inhibitor space, and by 2020 China had become the world’s most prolific source of new combination trials targeting Merck’s Keytruda pathway.[[cite:globaldata-china-pd1-trials-2020]]</p>\n<p>The 12th Five-Year Plan (2011–2015) elevated biotechnology to the status of a strategic emerging industry. In 2013, [[company:bgi|Beijing Genomics]] vertically integrated by acquiring Mountain View–based Complete Genomics for $118 million, gaining its own sequencing-instrument platform that would later spin off as MGI.[[cite:bgi-complete-genomics-asianscientist]]</p>",
     "metrics": {
-      "novelDrugApprovals": 1,
-      "licenseInDeals": 8,
-      "licenseOutDeals": 0,
-      "apiGlobalShare": 38,
-      "biotechIPOs": 1,
-      "rdSpendBillions": 7,
-      "globalClinicalTrialShare": 6
+      "pipelineSharePct": 2,
+      "inLicensingSharePct": 0,
+      "trialStartsShare": {
+        "china": 3,
+        "us": 37,
+        "eu": 38,
+        "japan": 11,
+        "row": 11
+      }
     },
     "activeCompanyIds": [
       "hengrui",
@@ -133,21 +295,62 @@
       "hgr-interim",
       "major-new-drug-project",
       "sfda-scandal"
-    ]
+    ],
+    "modalityProgress": {
+      "smallMol": {
+        "rung": 4
+      },
+      "peptide": {
+        "rung": 1
+      },
+      "recombinant": {
+        "rung": 3
+      },
+      "biosimilar": {
+        "rung": 1
+      },
+      "novelMab": {
+        "rung": 2
+      },
+      "bispecific": {
+        "rung": 0
+      },
+      "adc": {
+        "rung": 1
+      },
+      "vaccine": {
+        "rung": 4,
+        "frontier": true
+      },
+      "cellTherapy": {
+        "rung": 1
+      },
+      "nucleicAcid": {
+        "rung": 0
+      },
+      "geneTherapy": {
+        "rung": 0
+      },
+      "radiopharm": {
+        "rung": 0
+      }
+    }
   },
   {
     "id": "bi-jingquan-bigbang",
     "title": "Bi Jingquan's Big Bang",
     "date": "2015–2016",
-    "body": "<p>In January 2015, <em>Bi Jingquan</em> was appointed director of the China Food and Drug Administration, bringing with him the political weight of a former vice-chair of the National Development and Reform Commission.[[cite:bi-jingquan-wikipedia]] In August, the State Council issued document No. 44 — “Opinions on the Reform of Review and Approval Process for Drugs and Medical Devices” — and the substantive shift began. [[reform:priority-review|Priority review]] followed in November; clinical-trial application timelines collapsed toward sixty working days; foreign clinical-trial data could be accepted without redundant local trials; and the agency was redirected explicitly at fraudulent data. Median new-drug-application review time fell from two hundred working days to roughly one hundred and thirty.[[cite:ropesgray-china-state-council-44]][[cite:wang-2019-new-era-drug-innovation-china]]</p>\n<p>That April, Junjiu Huang at Sun Yat-sen University published the first report of CRISPR-mediated gene editing in human zygotes — non-viable tripronuclear embryos, an attempt to correct a β-globin mutation that causes thalassemia. The paper had been rejected by Nature and Science on ethical grounds before appearing in Protein & Cell,[[cite:liang-2015-crispr-tripronuclear]] and within weeks the International Summit on Human Gene Editing concluded that clinical use of germline editing would be “irresponsible.”[[cite:intl-summit-gene-editing-2015]] The following year, Chinese researchers conducted the first reported human trial using CRISPR-edited cells.[[cite:cyranoski-2016-first-crispr-human]]</p>\n<p>[[reform:mic-2025|<em>Made in China 2025</em>]], unveiled in May, listed biopharmaceuticals and advanced medical products as one of ten priority sectors targeted for indigenous leadership.[[cite:made-in-china-2025-wikipedia]] The 2016 National Key Research and Development Program then consolidated the earlier 863 and 973 programs into a single framework, while the [[reform:major-new-drug-project|Major New Drug Creation initiative]] continued as a separate dedicated mega-project.[[cite:cset-nkrp-launch-2016]] The reforms Bi initiated would survive his own fall — he was placed under disciplinary investigation in May 2025[[cite:china-daily-bi-investigation]] — but their direction was already set: a regulatory regime built to accommodate global-quality innovation rather than guard a generics monopoly.</p>",
+    "body": "<p>In January 2015, <em>Bi Jingquan</em> was appointed director of the China Food and Drug Administration, bringing with him the political weight of a former vice-chair of the National Development and Reform Commission.[[cite:bi-jingquan-wikipedia]] In August, the State Council issued document No. 44, “Opinions on the Reform of Review and Approval Process for Drugs and Medical Devices.” [[reform:priority-review|Priority review]] followed in November; clinical-trial application timelines collapsed toward sixty working days; foreign clinical-trial data could be accepted without redundant local trials; and the agency was redirected explicitly at fraudulent data. Median new-drug-application review time fell from two hundred working days to roughly one hundred and thirty.[[cite:ropesgray-china-state-council-44]][[cite:wang-2019-new-era-drug-innovation-china]]</p>\n<p>That April, Junjiu Huang at Sun Yat-sen University published the first report of CRISPR-mediated gene editing in human zygotes (non-viable tripronuclear embryos), an attempt to correct a β-globin mutation that causes thalassemia. The paper had been rejected by Nature and Science on ethical grounds before appearing in Protein & Cell,[[cite:liang-2015-crispr-tripronuclear]] and within weeks the International Summit on Human Gene Editing concluded that clinical use of germline editing would be “irresponsible.”[[cite:intl-summit-gene-editing-2015]] The following year, Chinese researchers conducted the first reported human trial using CRISPR-edited cells.[[cite:cyranoski-2016-first-crispr-human]]</p>\n<p>[[reform:mic-2025|<em>Made in China 2025</em>]], unveiled in May, listed biopharmaceuticals and advanced medical products as one of ten priority sectors targeted for indigenous leadership.[[cite:made-in-china-2025-wikipedia]] The 2016 National Key Research and Development Program then consolidated the earlier 863 and 973 programs into a single framework, while the [[reform:major-new-drug-project|Major New Drug Creation initiative]] continued as a separate dedicated mega-project.[[cite:cset-nkrp-launch-2016]] The reforms Bi initiated outlasted him (he was placed under disciplinary investigation in May 2025[[cite:china-daily-bi-investigation]]): a regulatory regime built to accommodate global-quality innovation rather than guard a generics monopoly.</p>",
     "metrics": {
-      "novelDrugApprovals": 2,
-      "licenseInDeals": 18,
-      "licenseOutDeals": 1,
-      "apiGlobalShare": 40,
-      "biotechIPOs": 2,
-      "rdSpendBillions": 10,
-      "globalClinicalTrialShare": 8
+      "pipelineSharePct": 4,
+      "inLicensingSharePct": 2,
+      "trialStartsShare": {
+        "china": 14,
+        "us": 29,
+        "eu": 31,
+        "japan": 8,
+        "row": 18
+      }
     },
     "activeCompanyIds": [
       "hengrui",
@@ -184,21 +387,62 @@
       "order-117",
       "priority-review",
       "mah"
-    ]
+    ],
+    "modalityProgress": {
+      "smallMol": {
+        "rung": 4
+      },
+      "peptide": {
+        "rung": 1
+      },
+      "recombinant": {
+        "rung": 3
+      },
+      "biosimilar": {
+        "rung": 2
+      },
+      "novelMab": {
+        "rung": 4,
+        "frontier": true
+      },
+      "bispecific": {
+        "rung": 1
+      },
+      "adc": {
+        "rung": 1
+      },
+      "vaccine": {
+        "rung": 4
+      },
+      "cellTherapy": {
+        "rung": 1
+      },
+      "nucleicAcid": {
+        "rung": 0
+      },
+      "geneTherapy": {
+        "rung": 0
+      },
+      "radiopharm": {
+        "rung": 0
+      }
+    }
   },
   {
     "id": "harmonisation-and-hong-kong",
     "title": "Harmonisation and Hong Kong",
     "date": "2017–2018",
-    "body": "<p>In June 2017, the [[reform:nmpa-rename|China Food and Drug Administration — renamed the National Medical Products Administration the following year]] in the government reorganization — was admitted as a regulatory member of the [[reform:ich-join|International Council for Harmonisation]], formally aligning Chinese drug regulation with American, European, and Japanese standards.[[cite:fda-cfda-ich-membership]][[cite:nmpa-2018-rename]] The change was procedural and seismic at once: a Chinese trial dossier acceptable to American regulators was no longer a contradiction in terms.</p>\n<p>The financing piece arrived on 30 April 2018, when the Hong Kong Stock Exchange introduced [[reform:hk-18a|<em>Chapter 18A</em>]] to its Main Board Listing Rules. Pre-revenue biotechs could now list provided they had at least one Core Product past the concept stage, an expected market capitalisation of one and a half billion Hong Kong dollars, twelve months of working capital, and meaningful pre-listing funding from a “Sophisticated Investor.”[[cite:charltons-chapter-18a]] The regime was explicitly designed to compete with the American Nasdaq for “China’s new generation of biotech companies”; annual listings under the rule would peak at twenty in 2021.[[cite:pharmaboardroom-hk-2021-record]] Combined with the [[reform:star-market|Shanghai sci-tech innovation board]] launched the following year, [[reform:hk-18a|Chapter 18A]] largely solved the valley-of-death financing problem that had plagued Chinese pre-revenue biotech.[[cite:xinhua-star-market-launch]]</p>\n<p>Two events at the end of 2018 framed the era’s contradictions. [[company:junshi|Junshi’s]] [[company:junshi|<em>toripalimab</em>]] became the first domestic checkpoint inhibitor approved in China;[[cite:frontiers-toripalimab-first-domestic-pd1]] [[company:innovent|Innovent’s]] [[company:innovent|sintilimab]] followed weeks later.[[cite:innovent-lilly-tyvyt-press]] And on 25–26 November, on the eve of the Second International Summit on Human Genome Editing in Hong Kong, [[reform:he-jiankui|He Jiankui announced the birth of twin girls]] whose immune-cell gene had been edited at the single-cell stage. The editing was technically sloppy — the twins were genetic mosaics with off-target effects — and ethically catastrophic; ethical-review documents were forged and consent forms inadequate.[[cite:wikipedia-he-jiankui-affair]] The same year, [[reform:changsheng-scandal|Changchun Changsheng was fined roughly nine billion yuan for falsification in rabies-vaccine production]].[[cite:chinadaily-changsheng-fine]] The reforms were working; the safeguards had not yet caught up.</p>",
+    "body": "<p>In June 2017, the [[reform:nmpa-rename|China Food and Drug Administration]] (renamed the National Medical Products Administration the following year in the government reorganization) was admitted as a regulatory member of the [[reform:ich-join|International Council for Harmonisation]], formally aligning Chinese drug regulation with American, European, and Japanese standards.[[cite:fda-cfda-ich-membership]][[cite:nmpa-2018-rename]] A Chinese trial dossier acceptable to American regulators was no longer a contradiction in terms.</p>\n<p>On 30 April 2018, the Hong Kong Stock Exchange introduced [[reform:hk-18a|<em>Chapter 18A</em>]] to its Main Board Listing Rules. Pre-revenue biotechs could now list provided they had at least one Core Product past the concept stage, an expected market capitalisation of one and a half billion Hong Kong dollars, twelve months of working capital, and meaningful pre-listing funding from a “Sophisticated Investor.”[[cite:charltons-chapter-18a]] The regime was explicitly designed to compete with the American Nasdaq for “China’s new generation of biotech companies”; annual listings under the rule would peak at twenty in 2021.[[cite:pharmaboardroom-hk-2021-record]] Combined with the [[reform:star-market|Shanghai sci-tech innovation board]] launched the following year, [[reform:hk-18a|Chapter 18A]] largely solved the valley-of-death financing problem that had plagued Chinese pre-revenue biotech.[[cite:xinhua-star-market-launch]]</p>\n<p>[[company:junshi|Junshi’s]] [[company:junshi|<em>toripalimab</em>]] became the first domestic checkpoint inhibitor approved in China;[[cite:frontiers-toripalimab-first-domestic-pd1]] [[company:innovent|Innovent’s]] [[company:innovent|sintilimab]] followed weeks later.[[cite:innovent-lilly-tyvyt-press]] On 25–26 November, on the eve of the Second International Summit on Human Genome Editing in Hong Kong, [[reform:he-jiankui|He Jiankui announced the birth of twin girls]] whose immune-cell gene had been edited at the single-cell stage. The editing was technically sloppy: the twins were genetic mosaics with off-target effects. It was also ethically catastrophic: ethical-review documents had been forged and consent forms were inadequate.[[cite:wikipedia-he-jiankui-affair]] The same year, [[reform:changsheng-scandal|Changchun Changsheng was fined roughly nine billion yuan for falsification in rabies-vaccine production]].[[cite:chinadaily-changsheng-fine]]</p>",
     "metrics": {
-      "novelDrugApprovals": 8,
-      "licenseInDeals": 42,
-      "licenseOutDeals": 4,
-      "apiGlobalShare": 42,
-      "biotechIPOs": 12,
-      "rdSpendBillions": 18,
-      "globalClinicalTrialShare": 12
+      "pipelineSharePct": 6,
+      "inLicensingSharePct": 3,
+      "trialStartsShare": {
+        "china": 14,
+        "us": 29,
+        "eu": 31,
+        "japan": 8,
+        "row": 18
+      }
     },
     "activeCompanyIds": [
       "hengrui",
@@ -247,21 +491,61 @@
       "nmpa-rename",
       "changsheng-scandal",
       "he-jiankui"
-    ]
+    ],
+    "modalityProgress": {
+      "smallMol": {
+        "rung": 4
+      },
+      "peptide": {
+        "rung": 2
+      },
+      "recombinant": {
+        "rung": 3
+      },
+      "biosimilar": {
+        "rung": 2
+      },
+      "novelMab": {
+        "rung": 4
+      },
+      "bispecific": {
+        "rung": 1
+      },
+      "adc": {
+        "rung": 2
+      },
+      "vaccine": {
+        "rung": 4
+      },
+      "cellTherapy": {
+        "rung": 2
+      },
+      "nucleicAcid": {
+        "rung": 0
+      },
+      "geneTherapy": {
+        "rung": 0
+      },
+      "radiopharm": {
+        "rung": 0
+      }
+    }
   },
   {
     "id": "first-american-approvals",
     "title": "First American Approvals and the Pandemic",
     "date": "2019–2020",
-    "body": "<p>By 2019 the platform was producing products. [[company:henlius|Henlius’s]] [[company:henlius|Hanlikang]] became the first biosimilar approved in China in February.[[cite:henlius-hlx01-approval-press]] [[company:beigene|BeiGene’s]] kinase inhibitor [[company:beigene|<em>zanubrutinib</em>]], marketed as [[company:beigene|Brukinsa]], won accelerated American approval in November — the first cancer drug developed in China to clear the United States Food and Drug Administration.[[cite:fiercepharma-brukinsa-fda-approval]] [[company:hengrui|Hengrui’s]] checkpoint inhibitor [[company:hengrui|camrelizumab]] launched in May;[[cite:camrelizumab-first-approval-springer]] [[company:beigene|BeiGene’s]] [[company:beigene|tislelizumab]] won a Hodgkin-lymphoma indication in December.[[cite:beigene-tislelizumab-press-2019]]</p>\n<p>The He Jiankui case closed in December 2019 with a three-year prison sentence for “illegal medical practice.”[[cite:statnews-he-jiankui-sentenced]] The legal response was substantive: the [[reform:hgr-2019|2019 Regulations on Human Genetic Resources]], the 2020 Civil Code and [[reform:biosecurity-law|Biosafety Law]], and the 2020 eleventh amendment to the Criminal Law — which criminalized illegal human gene editing with up to seven years’ imprisonment — collectively reset bioethics governance.[[cite:covington-hgr-regulation]][[cite:china-org-civil-code-1009]][[cite:covington-biosecurity-law]][[cite:loc-criminal-law-amendment-11]] The [[reform:vaccine-admin-law|Vaccine Administration Law]], also in 2019, imposed whole-process responsibility over development, manufacture, distribution, and post-marketing.[[cite:nmpa-vaccine-administration-law]]</p>\n<p>Then came COVID-19. By February 2020, parallel vaccine-development tracks ran across at least five technology platforms: inactivated, recombinant subunit, adenovirus-vectored, attenuated influenza-vectored, and messenger-RNA. [[company:sinovac|Sinovac’s]] [[company:sinovac|CoronaVac]] and [[company:sinopharm|Sinopharm’s]] [[company:sinopharm|BBIBP-CorV]] would receive World Health Organization Emergency Use Listing in 2021 and ship into dozens of low- and middle-income countries.[[cite:who-sinovac-eul]][[cite:who-sinopharm-eul]] The messenger-RNA story, however, was a strategic embarrassment: the [[company:walvax|Walvax]]-[[company:abogen|Abogen]]-Academy of Military Medical Sciences candidate [[company:walvax|ARCoV]] reached Phase III in Mexico and Indonesia by mid-2021 but never received broad authorization in time to matter.[[cite:scmp-arcov-phase3-mexico-indonesia]] The most consequential platform of the pandemic was developed and commercialized first by Pfizer-BioNTech and Moderna — even as 2020 became, by Nature Biotechnology’s reckoning, a record-breaking year for Chinese biotech financing.[[cite:nature-biotech-financing-2020]]</p>",
+    "body": "<p>In February 2019, [[company:henlius|Henlius’s]] [[company:henlius|Hanlikang]] became the first biosimilar approved in China.[[cite:henlius-hlx01-approval-press]] [[company:beigene|BeiGene’s]] kinase inhibitor [[company:beigene|<em>zanubrutinib</em>]], marketed as [[company:beigene|Brukinsa]], won accelerated American approval in November, the first cancer drug developed in China to clear the United States Food and Drug Administration.[[cite:fiercepharma-brukinsa-fda-approval]] [[company:hengrui|Hengrui’s]] checkpoint inhibitor [[company:hengrui|camrelizumab]] launched in May;[[cite:camrelizumab-first-approval-springer]] [[company:beigene|BeiGene’s]] [[company:beigene|tislelizumab]] won a Hodgkin-lymphoma indication in December.[[cite:beigene-tislelizumab-press-2019]]</p>\n<p>The He Jiankui case closed in December 2019 with a three-year prison sentence for “illegal medical practice.”[[cite:statnews-he-jiankui-sentenced]] The legal response was substantive: the [[reform:hgr-2019|2019 Regulations on Human Genetic Resources]], the 2020 Civil Code and [[reform:biosecurity-law|Biosafety Law]], and the 2020 eleventh amendment to the Criminal Law (which criminalized illegal human gene editing with up to seven years’ imprisonment) collectively reset bioethics governance.[[cite:covington-hgr-regulation]][[cite:china-org-civil-code-1009]][[cite:covington-biosecurity-law]][[cite:loc-criminal-law-amendment-11]] The [[reform:vaccine-admin-law|Vaccine Administration Law]], also in 2019, imposed whole-process responsibility over development, manufacture, distribution, and post-marketing.[[cite:nmpa-vaccine-administration-law]]</p>\n<p>Then came COVID-19. By February 2020, parallel vaccine-development tracks ran across at least five technology platforms: inactivated, recombinant subunit, adenovirus-vectored, attenuated influenza-vectored, and messenger-RNA. [[company:sinovac|Sinovac’s]] [[company:sinovac|CoronaVac]] and [[company:sinopharm|Sinopharm’s]] [[company:sinopharm|BBIBP-CorV]] would receive World Health Organization Emergency Use Listing in 2021 and ship into dozens of low- and middle-income countries.[[cite:who-sinovac-eul]][[cite:who-sinopharm-eul]] The messenger-RNA story, however, was a strategic embarrassment: the [[company:walvax|Walvax]]-[[company:abogen|Abogen]]-Academy of Military Medical Sciences candidate [[company:walvax|ARCoV]] reached Phase III in Mexico and Indonesia by mid-2021 but never received broad authorization in time to matter.[[cite:scmp-arcov-phase3-mexico-indonesia]] The most consequential platform of the pandemic was developed and commercialized first by Pfizer-BioNTech and Moderna. Even so, 2020 became, by Nature Biotechnology’s reckoning, a record-breaking year for Chinese biotech financing.[[cite:nature-biotech-financing-2020]]</p>",
     "metrics": {
-      "novelDrugApprovals": 18,
-      "licenseInDeals": 88,
-      "licenseOutDeals": 11,
-      "apiGlobalShare": 44,
-      "biotechIPOs": 28,
-      "rdSpendBillions": 28,
-      "globalClinicalTrialShare": 18
+      "pipelineSharePct": 7,
+      "inLicensingSharePct": 3,
+      "trialStartsShare": {
+        "china": 14,
+        "us": 29,
+        "eu": 31,
+        "japan": 8,
+        "row": 18
+      }
     },
     "activeCompanyIds": [
       "hengrui",
@@ -317,21 +601,63 @@
       "star-market",
       "biosecurity-law",
       "drug-reg-overhaul"
-    ]
+    ],
+    "modalityProgress": {
+      "smallMol": {
+        "rung": 5,
+        "frontier": true
+      },
+      "peptide": {
+        "rung": 2
+      },
+      "recombinant": {
+        "rung": 3
+      },
+      "biosimilar": {
+        "rung": 5,
+        "frontier": true
+      },
+      "novelMab": {
+        "rung": 4
+      },
+      "bispecific": {
+        "rung": 2
+      },
+      "adc": {
+        "rung": 2
+      },
+      "vaccine": {
+        "rung": 4
+      },
+      "cellTherapy": {
+        "rung": 2
+      },
+      "nucleicAcid": {
+        "rung": 1
+      },
+      "geneTherapy": {
+        "rung": 0
+      },
+      "radiopharm": {
+        "rung": 0
+      }
+    }
   },
   {
     "id": "procurement-and-value",
     "title": "Procurement Pressure and the Value Turn",
     "date": "2021–2022",
-    "body": "<p>The race in checkpoint inhibitors illustrated both the strengths and the pathologies of the Chinese model: extraordinary speed, intense crowding, ferocious price competition. [[company:hengrui|Hengrui’s]] [[company:hengrui|camrelizumab]] eventually entered the [[reform:nrdl-resume|National Reimbursement Drug List]] at deep discounts; the centralized [[reform:vbp|<em>volume-based procurement</em>]] mechanism turned would-be blockbuster checkpoint inhibitors into commodity goods almost on contact.[[cite:eversana-pd1-nrdl-2020]] In 2021, the regulator’s Center for Drug Evaluation issued formal [[reform:value-oriented-onc|Guidelines for Clinical Value-Oriented Oncology Drug Development]] — a quiet acknowledgement that fast-following Merck’s Keytruda was no longer a winning strategy.[[cite:pharmadj-cde-clinical-value-guidelines]]</p>\n<p>Cell therapy moved from prestige to clinic. Fosun Kite began local manufacture of axicabtagene ciloleucel in China in June 2021;[[cite:kite-fosun-first-cart-china]] [[company:jw-therapeutics|JW Therapeutics’]] [[company:jw-therapeutics|relmacabtagene autoleucel]] followed in September as the first domestic engineered T-cell therapy approved.[[cite:jw-relma-cel-press]] By 2022, Chinese companies were running 1.5 such programs for every one in development by American firms — a remarkable inversion given that as recently as 2014 the United States had developed or co-developed more than half of all newly identified candidates in the class.[[cite:pharma-tech-cart-china-superpower]]</p>\n<p>The [[reform:fyp14-bioeconomy|14th Five-Year Bioeconomy Plan]], issued in 2022, broadened the national agenda from biopharma narrowly to medical health, bio-agriculture, bioenergy, bio-information, and biosecurity.[[cite:chinadaily-bioeconomy-plan]] But the financing cycle had already begun to invert. Chinese biopharma primary-market financing fell from a 2021 peak of roughly RMB 88 billion (about $13.6 billion) across 625 transactions to RMB 27.7 billion (about $3.8 billion) in 2024;[[cite:biopharmaapac-china-h1-2025]] Hong Kong biotech listings under [[reform:hk-18a|Chapter 18A]] dropped from twenty in 2021 to eight in 2022 to seven in 2023.[[cite:pharmaboardroom-hk-biotech-2022]] Companies that could no longer raise at home increasingly raised abroad — through licensing. Merck’s December 2022 expansion of its antibody-drug-conjugate pact with [[company:kelun-bio|Kelun Biotech]], worth up to $9 billion,[[cite:merck-kelun-adc-deal-press]] was an early signal that out-licensing was becoming the new financing.</p>",
+    "body": "<p>[[company:hengrui|Hengrui’s]] [[company:hengrui|camrelizumab]] eventually entered the [[reform:nrdl-resume|National Reimbursement Drug List]] at deep discounts; the centralized [[reform:vbp|<em>volume-based procurement</em>]] mechanism turned would-be blockbuster checkpoint inhibitors into commodity goods almost on contact.[[cite:eversana-pd1-nrdl-2020]] In 2021, the regulator’s Center for Drug Evaluation issued formal [[reform:value-oriented-onc|Guidelines for Clinical Value-Oriented Oncology Drug Development]]: a quiet acknowledgement that fast-following Merck’s Keytruda was no longer a winning strategy.[[cite:pharmadj-cde-clinical-value-guidelines]]</p>\n<p>Fosun Kite began local manufacture of axicabtagene ciloleucel in China in June 2021;[[cite:kite-fosun-first-cart-china]] [[company:jw-therapeutics|JW Therapeutics’]] [[company:jw-therapeutics|relmacabtagene autoleucel]] followed in September as the first domestic engineered T-cell therapy approved.[[cite:jw-relma-cel-press]] By 2022, Chinese companies were running 1.5 such programs for every one in American development. As recently as 2014, the United States had developed or co-developed more than half of all newly identified candidates in the class.[[cite:pharma-tech-cart-china-superpower]]</p>\n<p>The [[reform:fyp14-bioeconomy|14th Five-Year Bioeconomy Plan]], issued in 2022, broadened the national agenda from biopharma narrowly to medical health, bio-agriculture, bioenergy, bio-information, and biosecurity.[[cite:chinadaily-bioeconomy-plan]] Chinese biopharma primary-market financing, however, fell from a 2021 peak of roughly RMB 88 billion (about $13.6 billion) across 625 transactions to RMB 27.7 billion (about $3.8 billion) in 2024;[[cite:biopharmaapac-china-h1-2025]] Hong Kong biotech listings under [[reform:hk-18a|Chapter 18A]] dropped from twenty in 2021 to eight in 2022 to seven in 2023.[[cite:pharmaboardroom-hk-biotech-2022]] Companies that could no longer raise at home increasingly raised abroad through licensing. Merck’s December 2022 expansion of its antibody-drug-conjugate pact with [[company:kelun-bio|Kelun Biotech]], worth up to $9 billion,[[cite:merck-kelun-adc-deal-press]] was an early signal that out-licensing was becoming the new financing.</p>",
     "metrics": {
-      "novelDrugApprovals": 35,
-      "licenseInDeals": 110,
-      "licenseOutDeals": 28,
-      "apiGlobalShare": 45,
-      "biotechIPOs": 41,
-      "rdSpendBillions": 38,
-      "globalClinicalTrialShare": 24
+      "pipelineSharePct": 9,
+      "inLicensingSharePct": 16,
+      "trialStartsShare": {
+        "china": 28,
+        "us": 33,
+        "eu": 23,
+        "japan": 4,
+        "row": 12
+      }
     },
     "activeCompanyIds": [
       "hengrui",
@@ -390,21 +716,65 @@
       "value-oriented-onc",
       "hgr-tightening",
       "fyp14-bioeconomy"
-    ]
+    ],
+    "modalityProgress": {
+      "smallMol": {
+        "rung": 5
+      },
+      "peptide": {
+        "rung": 3
+      },
+      "recombinant": {
+        "rung": 3
+      },
+      "biosimilar": {
+        "rung": 5
+      },
+      "novelMab": {
+        "rung": 4
+      },
+      "bispecific": {
+        "rung": 4,
+        "frontier": true
+      },
+      "adc": {
+        "rung": 4,
+        "frontier": true
+      },
+      "vaccine": {
+        "rung": 5,
+        "frontier": true
+      },
+      "cellTherapy": {
+        "rung": 5,
+        "frontier": true
+      },
+      "nucleicAcid": {
+        "rung": 1
+      },
+      "geneTherapy": {
+        "rung": 1
+      },
+      "radiopharm": {
+        "rung": 0
+      }
+    }
   },
   {
     "id": "going-global",
     "title": "Going Global",
     "date": "2023–2024",
-    "body": "<p>The licensing data made the shift unmistakable. The total deal value of innovator-drug licensing agreements with Chinese biopharma licensors surged from <em>$16.6 billion</em> in 2023 to <em>$41.5 billion</em> in 2024, with Chinese assets accounting for roughly twenty-eight percent of all in-licensed innovator drugs at large pharma. Antibody-drug-conjugate licensing alone reached $10 billion.[[cite:globaldata-china-licensing-2024]] China’s 2024 out-licensing transactions totalled ninety-four deals worth $51.9 billion — and upfront payments from those deals, around $3.1 billion in October alone, for the first time exceeded primary-market biotech listing proceeds in China.[[cite:biopharmaapac-china-h1-2025]][[cite:scmp-china-out-licensing-2025]]</p>\n<p>In September 2024, [[company:akeso|Akeso’s]] Phase III HARMONi-2 trial of [[company:akeso|<em>ivonescimab</em>]] — a bispecific antibody targeting both an immune checkpoint and a tumour-vasculature growth factor, licensed to Summit Therapeutics in 2022 for $500 million upfront and up to $5 billion in milestones[[cite:summit-akeso-2022]] — reported a forty-nine percent reduction in the risk of disease progression or death versus Merck’s Keytruda monotherapy.[[cite:akeso-harmoni2-wclc-2024]][[cite:iaslc-harmoni2-2024]] It was the first time a Chinese-discovered molecule had decisively beaten Merck’s thirty-billion-dollar- a-year flagship in a head-to-head trial. Two months later, Merck signed a $3.3-billion deal for [[company:lanova|LaNova’s]] competing bispecific.[[cite:merck-lanova-2024]] The fast-follower era had not just ended; it had been replaced by something Western pharma was forced to take seriously as potentially first-in-class.</p>\n<p>The geopolitics tightened in parallel. The [[reform:biosecure|<em>BIOSECURE Act</em>]] passed the United States House of Representatives 306 to 81 in September 2024 but failed to fold into the fiscal-year 2025 National Defense Authorization Act.[[cite:ropesgray-biosecure-house-2024]][[cite:mwc-biosecure-house-2024]] The bill, which would restrict American executive-agency procurement and federal grants from “biotechnology companies of concern,” automatically captured the [[company:bgi|Beijing Genomics Institute]] and three of its affiliates through the Pentagon’s so-called 1260H list of Chinese military companies.[[cite:foley-biosecure-2024]] [[company:wuxi-apptec|WuXi]] divested its American medical-device testing operations and its Oxford Genetics and WuXi Advanced Therapies cell-and-gene-therapy units, citing direct client deterrence.[[cite:wuxi-namsa-2025]][[cite:wuxi-altaris-atu-2024]][[cite:yicai-wuxi-altaris-2024]] By the time the year closed, China was producing more innovative approvals — eighty-two since 2022, by the regulator’s count[[cite:nmpa-82-innovative-2024]] — and exporting more pipeline value than ever before, even as the regulatory and political ground beneath the cross-border market was visibly shifting.</p>",
+    "body": "<p>The total deal value of innovator-drug licensing agreements with Chinese biopharma licensors surged from <em>$16.6 billion</em> in 2023 to <em>$41.5 billion</em> in 2024, with Chinese assets accounting for roughly twenty-eight percent of all in-licensed innovator drugs at large pharma. Antibody-drug-conjugate licensing alone reached $10 billion.[[cite:globaldata-china-licensing-2024]] China’s 2024 out-licensing transactions totalled ninety-four deals worth $51.9 billion. Upfront payments from those deals, around $3.1 billion in October alone, for the first time exceeded primary-market biotech listing proceeds in China.[[cite:biopharmaapac-china-h1-2025]][[cite:scmp-china-out-licensing-2025]]</p>\n<p>In September 2024, [[company:akeso|Akeso’s]] Phase III HARMONi-2 trial of [[company:akeso|<em>ivonescimab</em>]], a bispecific antibody targeting both an immune checkpoint and a tumour-vasculature growth factor, reported a forty-nine percent reduction in the risk of disease progression or death versus Merck’s Keytruda monotherapy.[[cite:akeso-harmoni2-wclc-2024]][[cite:iaslc-harmoni2-2024]] Summit Therapeutics had licensed the molecule in 2022 for $500 million upfront and up to $5 billion in milestones.[[cite:summit-akeso-2022]] It was the first time a Chinese-discovered molecule had decisively beaten Merck’s thirty-billion-dollar-a-year flagship in a head-to-head trial. Two months later, Merck signed a $3.3-billion deal for [[company:lanova|LaNova’s]] competing bispecific.[[cite:merck-lanova-2024]]</p>\n<p>The [[reform:biosecure|<em>BIOSECURE Act</em>]] passed the United States House of Representatives 306 to 81 in September 2024 but failed to fold into the fiscal-year 2025 National Defense Authorization Act.[[cite:ropesgray-biosecure-house-2024]][[cite:mwc-biosecure-house-2024]] The bill, which would restrict American executive-agency procurement and federal grants from “biotechnology companies of concern,” automatically captured the [[company:bgi|Beijing Genomics Institute]] and three of its affiliates through the Pentagon’s so-called 1260H list of Chinese military companies.[[cite:foley-biosecure-2024]] [[company:wuxi-apptec|WuXi]] divested its American medical-device testing operations and its Oxford Genetics and WuXi Advanced Therapies cell-and-gene-therapy units, citing direct client deterrence.[[cite:wuxi-namsa-2025]][[cite:wuxi-altaris-atu-2024]][[cite:yicai-wuxi-altaris-2024]] By the time the year closed, China was producing more innovative approvals (eighty-two since 2022, by the regulator’s count[[cite:nmpa-82-innovative-2024]]) and exporting more pipeline value than ever before.</p>",
     "metrics": {
-      "novelDrugApprovals": 52,
-      "licenseInDeals": 95,
-      "licenseOutDeals": 64,
-      "apiGlobalShare": 46,
-      "biotechIPOs": 22,
-      "rdSpendBillions": 48,
-      "globalClinicalTrialShare": 30
+      "pipelineSharePct": 12,
+      "inLicensingSharePct": 21,
+      "trialStartsShare": {
+        "china": 30,
+        "us": 35,
+        "eu": 21,
+        "japan": 7,
+        "row": 7
+      }
     },
     "activeCompanyIds": [
       "hengrui",
@@ -464,21 +834,63 @@
       "hgr-tightening",
       "fyp14-bioeconomy",
       "biosecure"
-    ]
+    ],
+    "modalityProgress": {
+      "smallMol": {
+        "rung": 5
+      },
+      "peptide": {
+        "rung": 4
+      },
+      "recombinant": {
+        "rung": 3
+      },
+      "biosimilar": {
+        "rung": 5
+      },
+      "novelMab": {
+        "rung": 5,
+        "frontier": true
+      },
+      "bispecific": {
+        "rung": 5,
+        "frontier": true
+      },
+      "adc": {
+        "rung": 4
+      },
+      "vaccine": {
+        "rung": 5
+      },
+      "cellTherapy": {
+        "rung": 5
+      },
+      "nucleicAcid": {
+        "rung": 1
+      },
+      "geneTherapy": {
+        "rung": 1
+      },
+      "radiopharm": {
+        "rung": 1
+      }
+    }
   },
   {
     "id": "frontier-era",
     "title": "The Frontier Era",
     "date": "2025–2026",
-    "body": "<p>The licensing-out story compounded faster than anyone in 2023 had forecast. China’s outbound deals in 2025 reached a record one hundred and fifty-seven transactions worth roughly <em>$135.7 billion</em> — more than double 2024[[cite:scmp-china-out-licensing-2025]] — with American drugmakers signing fourteen China-asset deals worth $18.3 billion in the first half alone.[[cite:gabi-h1-2025-china-deals]] Roughly a third of all big-pharma licensing spending in 2025 sourced from China.[[cite:biopharmadive-china-licensing-tracker-2025]]</p>\n<p>[[company:akeso|Akeso’s]] [[company:akeso|<em>ivonescimab</em>]] beat Merck’s Keytruda head-to-head in HARMONi-2 — the first time a Chinese-discovered molecule outperformed Merck’s thirty-billion-dollar-a-year flagship[[cite:akeso-harmoni2-wclc-2024]] — and the next signal came from somewhere unexpected. [[company:insilico|Insilico Medicine]] published positive Phase II data for [[company:insilico|<em>rentosertib</em>]], which the company describes as the first drug fully discovered and designed by artificial intelligence to clear that bar;[[cite:insilico-rentosertib-press-2025]][[cite:nature-medicine-tnik-rentosertib-2025]] [[company:xtalpi|XtalPi]] listed under Hong Kong’s new Chapter 18C and signed a deal with Gregory Verdine’s DoveTree reportedly worth as much as $10 billion.[[cite:xtalpi-18c-listing-2024]][[cite:xtalpi-dovetree-final-2025]][[cite:xtalpi-dovetree-loi-2025]] The frontier-language-model ecosystem opened up by DeepSeek began feeding domestic protein and genomic foundation models.[[cite:deepseek-wikipedia]]</p>\n<p>Decoupling moved in the other direction. The [[reform:biosecure-enacted|<em>BIOSECURE Act</em>]] was signed into law on 17 December 2025 as Section 851 of the fiscal-year 2026 National Defense Authorization Act.[[cite:lw-biosecure-becomes-law-2025]][[cite:arnold-porter-biosecure-law-2025]] [[company:wuxi-apptec|WuXi]] divested its American cell-and-gene-therapy and device-testing businesses; [[company:beigene|BeiGene]] rebranded as [[company:beigene|<em>BeOne Medicines</em>]] and redomiciled from the Cayman Islands to Basel.[[cite:beone-launch-bw-2025]][[cite:beone-wikipedia]] The company that had been the canonical American-Chinese hybrid biotech was actively distancing itself from China as a corporate identity — even as it remained, by every operating metric, the same firm.</p>",
+    "body": "<p>China’s outbound deals in 2025 reached a record one hundred and fifty-seven transactions worth roughly <em>$135.7 billion</em> (more than double 2024),[[cite:scmp-china-out-licensing-2025]] with American drugmakers signing fourteen China-asset deals worth $18.3 billion in the first half alone.[[cite:gabi-h1-2025-china-deals]] Roughly a third of all big-pharma licensing spending in 2025 sourced from China.[[cite:biopharmadive-china-licensing-tracker-2025]]</p>\n<p>[[company:akeso|Akeso’s]] [[company:akeso|<em>ivonescimab</em>]] beat Merck’s Keytruda head-to-head in HARMONi-2, the first time a Chinese-discovered molecule outperformed Merck’s thirty-billion-dollar-a-year flagship.[[cite:akeso-harmoni2-wclc-2024]] The next signal came from somewhere less expected: [[company:insilico|Insilico Medicine]] published positive Phase II data for [[company:insilico|<em>rentosertib</em>]], which the company describes as the first drug fully discovered and designed by artificial intelligence to clear that bar;[[cite:insilico-rentosertib-press-2025]][[cite:nature-medicine-tnik-rentosertib-2025]] [[company:xtalpi|XtalPi]] listed under Hong Kong’s new Chapter 18C and signed a deal with Gregory Verdine’s DoveTree reportedly worth as much as $10 billion.[[cite:xtalpi-18c-listing-2024]][[cite:xtalpi-dovetree-final-2025]][[cite:xtalpi-dovetree-loi-2025]] The frontier-language-model ecosystem opened up by DeepSeek began feeding domestic protein and genomic foundation models.[[cite:deepseek-wikipedia]]</p>\n<p>The [[reform:biosecure-enacted|<em>BIOSECURE Act</em>]] was signed into law on 17 December 2025 as Section 851 of the fiscal-year 2026 National Defense Authorization Act.[[cite:lw-biosecure-becomes-law-2025]][[cite:arnold-porter-biosecure-law-2025]] [[company:wuxi-apptec|WuXi]] divested its American cell-and-gene-therapy and device-testing businesses; [[company:beigene|BeiGene]] rebranded as [[company:beigene|<em>BeOne Medicines</em>]] and redomiciled from the Cayman Islands to Basel.[[cite:beone-launch-bw-2025]][[cite:beone-wikipedia]] The company that had been the canonical American-Chinese hybrid biotech was actively distancing itself from China as a corporate identity, even as it remained, by every operating metric, the same firm.</p>",
     "metrics": {
-      "novelDrugApprovals": 95,
-      "licenseInDeals": 105,
-      "licenseOutDeals": 220,
-      "apiGlobalShare": 47,
-      "biotechIPOs": 30,
-      "rdSpendBillions": 65,
-      "globalClinicalTrialShare": 35
+      "pipelineSharePct": 13,
+      "inLicensingSharePct": 32,
+      "trialStartsShare": {
+        "china": 30,
+        "us": 35,
+        "eu": 21,
+        "japan": 7,
+        "row": 7
+      }
     },
     "activeCompanyIds": [
       "hengrui",
@@ -540,6 +952,45 @@
       "biosecure",
       "biosecure-enacted",
       "state-council-2025"
-    ]
+    ],
+    "modalityProgress": {
+      "smallMol": {
+        "rung": 5
+      },
+      "peptide": {
+        "rung": 4
+      },
+      "recombinant": {
+        "rung": 3
+      },
+      "biosimilar": {
+        "rung": 5
+      },
+      "novelMab": {
+        "rung": 5
+      },
+      "bispecific": {
+        "rung": 5
+      },
+      "adc": {
+        "rung": 4
+      },
+      "vaccine": {
+        "rung": 5
+      },
+      "cellTherapy": {
+        "rung": 5
+      },
+      "nucleicAcid": {
+        "rung": 1
+      },
+      "geneTherapy": {
+        "rung": 2,
+        "frontier": true
+      },
+      "radiopharm": {
+        "rung": 1
+      }
+    }
   }
 ]
