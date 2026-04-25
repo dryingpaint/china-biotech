@@ -1,7 +1,13 @@
 "use client";
 
 import { createPortal } from "react-dom";
-import { useEffect, useState, type ReactNode } from "react";
+import {
+  useEffect,
+  useLayoutEffect,
+  useRef,
+  useState,
+  type ReactNode,
+} from "react";
 
 type Props = {
   show: boolean;
@@ -9,27 +15,63 @@ type Props = {
   children: ReactNode;
 };
 
+const TOOLTIP_W = 320;
+const MARGIN = 8;
+
 export default function Tooltip({ show, anchorRect, children }: Props) {
   const [mounted, setMounted] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+  const [pos, setPos] = useState<{
+    top: number;
+    left: number;
+    placement: "above" | "below";
+  } | null>(null);
+
   useEffect(() => setMounted(true), []);
+
+  useLayoutEffect(() => {
+    if (!show || !anchorRect || !ref.current) {
+      setPos(null);
+      return;
+    }
+    const tooltipH = ref.current.getBoundingClientRect().height;
+    const vh = window.innerHeight;
+    const vw = window.innerWidth;
+
+    const fitsAbove = anchorRect.top - tooltipH - MARGIN >= MARGIN;
+    const placement: "above" | "below" = fitsAbove ? "above" : "below";
+
+    const top =
+      placement === "above"
+        ? anchorRect.top - MARGIN
+        : Math.min(
+            anchorRect.bottom + MARGIN + tooltipH,
+            vh - MARGIN,
+          );
+
+    const half = TOOLTIP_W / 2;
+    const left = Math.max(
+      half + MARGIN,
+      Math.min(anchorRect.left + anchorRect.width / 2, vw - half - MARGIN),
+    );
+
+    setPos({ top, left, placement });
+  }, [show, anchorRect, children]);
 
   if (!mounted || !show || !anchorRect) return null;
 
-  const top = anchorRect.top - 8;
-  const left = Math.min(
-    Math.max(anchorRect.left + anchorRect.width / 2, 160),
-    window.innerWidth - 160,
-  );
-
   return createPortal(
     <div
+      ref={ref}
       role="tooltip"
-      className="dashboard pointer-events-none fixed z-50 w-[280px] -translate-x-1/2 -translate-y-full rounded-md border border-[--color-rule] px-3 py-2 text-xs leading-snug text-[--color-fg] shadow-lg"
+      className="dashboard pointer-events-none fixed z-50 -translate-x-1/2 -translate-y-full overflow-y-auto rounded-md border border-[--color-rule] px-3 py-2 text-xs leading-snug text-[--color-fg] shadow-lg"
       style={{
-        top,
-        left,
+        top: pos?.top ?? -9999,
+        left: pos?.left ?? -9999,
+        width: TOOLTIP_W,
+        maxHeight: "calc(100vh - 32px)",
         backgroundColor: "var(--color-bg)",
-        opacity: 1,
+        opacity: pos ? 1 : 0,
       }}
     >
       {children}
