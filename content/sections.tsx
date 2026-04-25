@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import DraftTag from "@/components/DraftTag";
+import Cite from "@/components/Cite";
 
 export type Section = { id: string; body: ReactNode };
 
@@ -27,21 +28,23 @@ export const sections: Section[] = [
           deliberate rebuilding of a research base the Cultural Revolution had
           nearly extinguished — the Chinese Academy of Sciences budget had
           fallen to less than one-sixth of its 1965 level, with hundreds of
-          scientists killed or driven to suicide.
+          scientists killed or driven to suicide.<Cite id="deng-1978-conference" />
         </p>
         <p>
           The funding architecture came in sequence. <em>NSFC</em> was
           established in February 1986 as China&apos;s peer-reviewed basic
           research funder. Weeks later, four senior physicists wrote to Deng,
           and the <em>863 Program</em> was approved within two days, naming
-          biotechnology one of seven national high-tech priorities. The{" "}
-          <em>Torch Program</em> followed in 1988 to industrialize the output,
-          and the <em>973 Program</em> in 1997 funded strategic basic science.
+          biotechnology one of seven national high-tech priorities.
+          <Cite id="863-program-origin" /> The <em>Torch Program</em> followed
+          in 1988 to industrialize the output, and the <em>973 Program</em> in
+          1997 funded strategic basic science.
         </p>
         <p>
           The other quiet revolution was human capital. From the early 1990s,
           the state began offering returnees — the <em>haigui</em>, &ldquo;sea
           turtles&rdquo; — labs, budgets, and faculty positions to come home.
+          <Cite id="haigui-returnees" />
           By 1999, when BGI was founded to claim China&apos;s 1% share of the
           Human Genome Project, the institutional ground had been quietly
           prepared.
@@ -81,7 +84,7 @@ export const sections: Section[] = [
         <p>
           In July 2007, China executed Zheng Xiaoyu, the former director of the
           State Food and Drug Administration, for accepting bribes to approve
-          unsafe drugs. It was a public confession that the country&apos;s
+          unsafe drugs.<Cite id="zheng-xiaoyu-execution" /> It was a public confession that the country&apos;s
           approval system had collapsed under corruption.
         </p>
         <p>
@@ -121,13 +124,13 @@ export const sections: Section[] = [
         <SectionHeader title="Bi Jingquan's Big Bang" date="2015 — 2016" />
         <p>
           In July 2015, the CFDA issued <em>Order 117</em> — the so-called 722
-          self-inspection. Sponsors were given a window to withdraw clinical
-          trial applications voluntarily, or face an audit. Roughly eighty
-          percent of pending applications were pulled. The data, it turned out,
-          was largely fabricated.
+          self-inspection.<Cite id="order-117-722" /> Sponsors were given a
+          window to withdraw clinical trial applications voluntarily, or face
+          an audit. Roughly eighty percent of pending applications were pulled.
+          The data, it turned out, was largely fabricated.
         </p>
         <p>
-          What followed was a four-year overhaul under commissioner Bi Jingquan:
+          What followed was a four-year overhaul under commissioner Bi Jingquan:<Cite id="bi-jingquan-reform-overview" />
           a priority review pathway for innovative drugs, a Marketing
           Authorization Holder pilot that decoupled drug ownership from
           manufacturing, and the first conditional approvals for breakthrough
@@ -145,12 +148,13 @@ export const sections: Section[] = [
         <p>
           In June 2017, China joined the <em>International Council for
           Harmonisation</em> — the body that sets pharmaceutical standards in
-          the US, EU and Japan. Foreign clinical data could now support Chinese
-          approvals; Chinese trials, in turn, could feed global filings.
+          the US, EU and Japan.<Cite id="ich-china-membership" /> Foreign
+          clinical data could now support Chinese approvals; Chinese trials, in
+          turn, could feed global filings.
         </p>
         <p>
           In April 2018, the Hong Kong Stock Exchange enacted{" "}
-          <em>Chapter 18A</em>, allowing pre-revenue biotechs to list. Tens of
+          <em>Chapter 18A</em>, allowing pre-revenue biotechs to list.<Cite id="hkex-18a-rule" /> Tens of
           billions of dollars flowed in within eighteen months. Innovent,
           BeiGene, Junshi, Hansoh — the first wave of innovator IPOs went off in
           rapid succession.
@@ -194,11 +198,11 @@ export const sections: Section[] = [
           date="2021 — 2022"
         />
         <p>
-          By 2021, VBP had expanded to biologics. The PD-1 class — flooded with
-          domestic me-toos — was being negotiated down by the NHSA to a small
-          fraction of US prices. NMPA published guidelines explicitly demanding
-          oncology drugs prove themselves against the standard of care, not
-          against placebo.
+          By 2021, VBP had expanded to biologics.<Cite id="vbp-impact-prices" />
+          The PD-1 class — flooded with domestic me-toos — was being negotiated
+          down by the NHSA to a small fraction of US prices. NMPA published
+          guidelines explicitly demanding oncology drugs prove themselves
+          against the standard of care, not against placebo.<Cite id="value-oriented-onc-guideline" />
         </p>
         <p>
           The funding environment turned sharply. HK biotech valuations
@@ -218,13 +222,14 @@ export const sections: Section[] = [
           The flow reversed. License-out deals — Chinese companies selling
           rights to Western pharma — overtook license-in for the first time.
           Kelun Biotech&apos;s ADC partnerships with Merck were valued at over
-          $9 billion. Duality Biologics signed a $1.5B+ ADC deal with BioNTech.
-          LaNova Medicines licensed its PD-1/VEGF bispecific to Merck for $3.3B.
+          $9 billion.<Cite id="kelun-merck-adc-deal" /> Duality Biologics
+          signed a $1.5B+ ADC deal with BioNTech. LaNova Medicines licensed
+          its PD-1/VEGF bispecific to Merck for $3.3B.<Cite id="lanova-merck-deal" />
           Akeso&apos;s ivonescimab — partnered to Summit Therapeutics — beat
-          Keytruda in a head-to-head Phase III.
+          Keytruda in a head-to-head Phase III.<Cite id="ivonescimab-phase3" />
         </p>
         <p>
-          Meanwhile in Washington, the <em>BIOSECURE Act</em> was introduced,
+          Meanwhile in Washington, the <em>BIOSECURE Act</em> was introduced,<Cite id="biosecure-act-text" />
           targeting WuXi AppTec, WuXi Biologics, BGI and MGI. The CRO/CDMO
           stack that had built the industry was suddenly a geopolitical
           liability. The story that opens in 2026 is no longer about whether
@@ -252,7 +257,7 @@ export const sections: Section[] = [
           outperformed Merck&apos;s $30B-a-year flagship — and the next signal
           came from somewhere unexpected. Insilico Medicine published positive
           Phase II data for <em>rentosertib</em>, the first AI-discovered,
-          AI-designed drug to clear that bar; XtalPi listed under Hong
+          AI-designed drug to clear that bar;<Cite id="insilico-tnik-phase2" /> XtalPi listed under Hong
           Kong&apos;s new Chapter 18C and signed a deal with Gregory
           Verdine&apos;s DoveTree reportedly worth as much as $10 billion.
           The DeepSeek-era frontier-LLM ecosystem began feeding domestic

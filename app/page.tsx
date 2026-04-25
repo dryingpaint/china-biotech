@@ -2,6 +2,7 @@ import SplitPanel from "@/components/Layout/SplitPanel";
 import Dashboard from "@/components/Dashboard/Dashboard";
 import Scroller from "@/components/Narrative/Scroller";
 import DraftTag from "@/components/DraftTag";
+import Bibliography from "@/components/Bibliography";
 import { sections } from "@/content/sections";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
         narrative={<Scroller sections={sections} />}
         dashboard={<Dashboard />}
       />
+      <Bibliography />
       <Footer />
     </main>
   );
