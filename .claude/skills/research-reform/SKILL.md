@@ -72,10 +72,40 @@ Fill the `Reform` object exactly per `lib/types.ts`. Conventions for each field:
 - **shortDescription**: see "Plain-language rules" below.
 - **impact**: see "Plain-language rules" below.
 - **keyProvisions**: see "Plain-language rules" below.
-- **narrativeHook**: see "Plain-language rules" below.
 - **affectedCompanyIds**: see step 5.
 - **sources**: see step 6.
 - **verified** / **lastVerified**: see step 7.
+
+### Length budget (HARD limits — measure your output)
+
+Each field has a strict character cap, calibrated on the canonical `hk-18a` entry. Drafts that exceed these are wrong, not "thorough" — the tooltip is dense visual real estate, and an over-long bullet renders as three lines of small text that crowds out the next field.
+
+| Field | Cap | Shape |
+|---|---|---|
+| `shortDescription` | **≤120 chars** | One sentence. The "what does it do" line. |
+| `impact` | **≤200 chars** | One sentence. Lead with the single most surprising number. |
+| `keyProvisions` | **4 bullets, ≤80 chars each** | One rule per bullet, no parenthetical sub-clauses. |
+
+**Count the characters before you submit.** If a draft exceeds the cap, cut — don't argue with it.
+
+How to cut:
+
+- **One fact per field.** If you have a second important fact, it doesn't go in the same field; push it to a different field or drop it.
+- **Drop dates that aren't decisive.** "By 2023, 63 biotechs had listed" beats "by end-2023, 63 biotechs had listed under the regime, peaking at 20 IPOs in 2021." (The peak number is its own thought; pick one.)
+- **Drop parenthetical asides.** `(added by the December 2017 expansion)`, `(US$1.5B)`, `(under the old Drug Administration Law)` — almost always cuttable.
+- **Numbers beat adjectives.** "85% cut" beats "deeply discounted." "$1.3B fine" beats "monstrous penalty."
+- **Active voice cuts ~20% length.** "Beijing froze the track in 2023" beats "the track was frozen by Beijing in 2023."
+- **Drop the second clause.** Many drafts have `<headline fact>; the <second fact>` — kill the semicolon and everything after.
+
+Worked example — bad → good:
+
+> **`impact` (566 chars, BAD):** "WuXi AppTec sold its US and UK cell-and-gene-therapy units to Altaris (announced Dec 2024, closed 2025) and its US medical-device-testing arm to NAMSA; BeiGene re-incorporated in Switzerland as BeOne Medicines (completed May 27, 2025). Final law dropped the named-company list from earlier drafts but kept BGI, MGI, and Complete Genomics on the path to designation via the Pentagon's 1260H list."
+
+That's four separate facts in one field. Compare:
+
+> **`impact` (149 chars, GOOD):** "Forced WuXi to sell its US cell-and-gene-therapy units and BeiGene to redomicile in Switzerland, all months before the law's first compliance deadline."
+
+One fact, one consequence, ≤200 chars.
 
 ### Plain-language rules (THE important part)
 
@@ -137,19 +167,6 @@ The list above is *almost* good — it's accurate, but "Core Product" and "Sophi
 ```
 
 The HKEX terms ("Core Product", "Sophisticated Investor") are real — keep them in single quotes when you need to flag the legal definition, but always pair with a plain-language gloss.
-
-#### narrativeHook (one sentence, optional)
-
-The memorable line. The thing a reader would quote at a dinner party. Italic blockquote in the tooltip.
-
-Best when it has a contrast or tension built in:
-
-| Bad | Better |
-|---|---|
-| "A major reform of Chinese drug regulation." | "The agency Bi Jingquan ran in 2015 fell to corruption charges by 2025 — but the reforms he pushed through survived him." |
-| "Represented a significant tightening of US-China biotech relations." | "WuXi divested its US cell-and-gene-therapy units the same month BIOSECURE became law — 'voluntarily', for the record." |
-
-If you can't find a hook with real bite, omit the field rather than write a flat sentence. The tooltip degrades cleanly.
 
 ### 5. Build the affected-companies list
 
@@ -223,7 +240,7 @@ Write a short summary in chat:
 - Headline: reform name + verification status
 - Bullet list of the most important verified facts
 - Bullet list of anything you couldn't confirm (and why)
-- The full text of `shortDescription`, `impact`, and `narrativeHook` so the user can sanity-check the plain-language pass
+- The full text of `shortDescription` and `impact` so the user can sanity-check the plain-language pass
 - Sources section as a markdown bulleted list of `[title](url)` pairs
 
 Do not paste the full JSON entry back to the user — they can read it in the file.
@@ -232,7 +249,7 @@ Do not paste the full JSON entry back to the user — they can read it in the fi
 
 - **Never invent dates or document numbers.** If you can't find the exact issuing date, leave `effectiveDate` unset rather than guess.
 - **Don't paste legalese.** If you find yourself copying language from the source verbatim, stop and rewrite. The tooltip is for readers, not lawyers.
-- **Don't overwrite user-curated fields silently.** If the existing record has `narrativeHook` or `shortDescription` you'd change, surface the diff in the report and ask before overwriting.
+- **Don't overwrite user-curated fields silently.** If the existing record has a `shortDescription` or `impact` you'd change, surface the diff in the report and ask before overwriting.
 - **Use `currentDate` from context** for `lastVerified` — don't use your training cutoff.
 
 ## Example invocation

@@ -158,12 +158,6 @@ function ReformTooltip({ reform }: { reform: Reform }) {
         </Section>
       )}
 
-      {reform.narrativeHook && (
-        <p className="border-l-2 border-[--color-accent] pl-2 italic text-[--color-fg]">
-          {reform.narrativeHook}
-        </p>
-      )}
-
       {reform.affectedCompanyIds && reform.affectedCompanyIds.length > 0 && (
         <Section label={`Affected (${reform.affectedCompanyIds.length})`}>
           <CompanyChipList ids={reform.affectedCompanyIds} />
