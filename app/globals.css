@@ -55,20 +55,25 @@ body {
   border-bottom-color: var(--color-gold);
 }
 
-.prose-narrative h3 {
-  font-family: var(--font-serif), Georgia, serif;
-  font-size: 1.35rem;
-  font-weight: 600;
-  margin-top: 0.4em;
-  color: var(--color-fg);
-}
+@layer components {
+  .prose-narrative h3 {
+    font-family: var(--font-serif), Georgia, serif;
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin-top: 1.5em;
+    margin-bottom: 0.3em;
+    color: var(--color-fg);
+    letter-spacing: -0.01em;
+  }
 
-.prose-narrative h3 .section-date {
-  color: var(--color-muted);
-  font-weight: 400;
-  font-size: 0.85em;
-  margin-left: 0.5em;
-  letter-spacing: 0.02em;
+  .prose-narrative h3 .section-date {
+    color: var(--color-muted);
+    font-weight: 400;
+    font-size: 0.78em;
+    margin-left: 0.6em;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
 }
 
 .deepdive-trigger {

@@ -50,10 +50,10 @@ type Hovered = { rect: DOMRect; entity: Entity; fromProse?: boolean };
 
 export default function CompanyGrid() {
   const activeIds = useNarrative(
-    (s) => s.chapters[s.currentIndex].activeEntityIds,
+    (s) => s.visibleChapters[s.currentIndex].activeEntityIds,
   );
   const currentChapter = useNarrative(
-    (s) => s.chapters[s.currentIndex],
+    (s) => s.visibleChapters[s.currentIndex],
   );
   const highlightedEntity = useNarrative((s) => s.highlightedEntity);
   const proseHighlightedId =

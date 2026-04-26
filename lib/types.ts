@@ -237,6 +237,7 @@ export type Chapter = {
   activeReformIds: string[];
   modalityProgress?: ModalityProgress;
   featureChart?: string;
+  hidden?: boolean;
 };
 
 export type SiteContent = {

@@ -6,8 +6,9 @@ import { useNarrative, type EntityRef } from "@/lib/narrativeStore";
 import { renderBodyWithCitations } from "@/lib/citations";
 import type { Chapter } from "@/lib/types";
 
-export default function Scroller({ chapters }: { chapters: Chapter[] }) {
+export default function Scroller({ chapters: _chapters }: { chapters: Chapter[] }) {
   const setIndex = useNarrative((s) => s.setCurrentIndex);
+  const visibleChapters = useNarrative((s) => s.visibleChapters);
 
   return (
     <Scrollama
@@ -16,7 +17,7 @@ export default function Scroller({ chapters }: { chapters: Chapter[] }) {
         if (typeof data === "number") setIndex(data);
       }}
     >
-      {chapters.map((chapter, i) => (
+      {visibleChapters.map((chapter, i) => (
         <Step key={chapter.id} data={i}>
           <section
             id={chapter.id}

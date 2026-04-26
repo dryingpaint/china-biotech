@@ -48,7 +48,7 @@ const ROWS: Row[] = [
 ];
 
 export default function MetricsBar() {
-  const chapters = useNarrative((s) => s.chapters);
+  const chapters = useNarrative((s) => s.visibleChapters);
   const idx = useNarrative((s) => s.currentIndex);
   const current = chapters[idx];
   if (!current) return null;

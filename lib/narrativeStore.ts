@@ -4,7 +4,8 @@ import { create } from "zustand";
 import type { Chapter } from "./types";
 import chaptersData from "@/data/chapters.json";
 
-const chapters = chaptersData as unknown as Chapter[];
+const allChapters = chaptersData as unknown as Chapter[];
+const visibleAtLoad = allChapters.filter((c) => !c.hidden);
 
 export type EntityRef = {
   type: "entity" | "reform";
@@ -12,19 +13,21 @@ export type EntityRef = {
 };
 
 type NarrativeState = {
-  chapters: Chapter[];
-  currentIndex: number;
+  chapters: Chapter[];                  // full list (incl. hidden)
+  visibleChapters: Chapter[];           // chapters where hidden !== true
+  currentIndex: number;                 // index into visibleChapters
   setCurrentIndex: (i: number) => void;
-  current: () => Chapter;
+  current: () => Chapter | undefined;
   highlightedEntity: EntityRef | null;
   setHighlightedEntity: (e: EntityRef | null) => void;
 };
 
 export const useNarrative = create<NarrativeState>((set, get) => ({
-  chapters,
+  chapters: allChapters,
+  visibleChapters: visibleAtLoad,
   currentIndex: 0,
   setCurrentIndex: (i) => set({ currentIndex: i }),
-  current: () => get().chapters[get().currentIndex],
+  current: () => get().visibleChapters[get().currentIndex],
   highlightedEntity: null,
   setHighlightedEntity: (e) => set({ highlightedEntity: e }),
 }));
