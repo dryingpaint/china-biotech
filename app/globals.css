@@ -55,6 +55,18 @@ body {
   border-bottom-color: var(--color-gold);
 }
 
+.note-ref {
+  cursor: help;
+  color: var(--color-muted);
+  font-weight: 600;
+  margin-left: 0.1em;
+  font-feature-settings: normal;
+}
+
+.note-ref:hover {
+  color: var(--color-accent);
+}
+
 @layer components {
   .prose-narrative h3 {
     font-family: var(--font-serif), Georgia, serif;

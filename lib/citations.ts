@@ -36,6 +36,9 @@ function processSimpleMarkers(html: string): string {
         return `<span class="entity-ref" data-entity-type="${type}" data-entity-id="${escapeAttr(id)}">${text}</span>`;
       },
     )
+    .replace(/\[\[note:([^\]]+)\]\]/g, (_, text) => {
+      return `<sup class="note-ref" title="${escapeAttr(text)}">?</sup>`;
+    })
     .replace(/\[\[cite:([a-z0-9-]+)\]\]/g, (_, id) => {
       const found = getCitation(id);
       if (found) {
