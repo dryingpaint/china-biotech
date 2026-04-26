@@ -1,4 +1,5 @@
 import citationsData from "@/data/citations.json";
+import { getDeepDive } from "./deepdives";
 
 export type Citation = {
   id: string;
@@ -27,7 +28,7 @@ function escapeAttr(s: string): string {
     .replace(/>/g, "&gt;");
 }
 
-export function renderBodyWithCitations(html: string): string {
+function processSimpleMarkers(html: string): string {
   return html
     .replace(
       /\[\[(entity|reform):([a-z0-9-]+)\|([^\]]+)\]\]/g,
@@ -49,4 +50,38 @@ export function renderBodyWithCitations(html: string): string {
       }
       return `<sup class="cite-ref" title="Missing citation: ${escapeAttr(id)}" style="color:#c00">[?]</sup>`;
     });
+}
+
+export function renderBodyWithCitations(html: string): string {
+  // Process at paragraph level so deep-dive content can render outside the parent <p>.
+  // Triggers stay inline inside the paragraph; the expandable content block follows it.
+  const withDeepDives = html.replace(/<p>([^]*?)<\/p>/g, (_match, paraInner) => {
+    const ddIds: string[] = [];
+    const paraReplaced = paraInner.replace(
+      /\[\[deepdive:([a-z0-9-]+)\|([^\]]+)\]\]/g,
+      (_m: string, id: string, text: string) => {
+        ddIds.push(id);
+        return `<button class="deepdive-trigger" type="button" data-deepdive-id="${escapeAttr(id)}" aria-expanded="false">${text}<span class="deepdive-chevron" aria-hidden="true">▾</span></button>`;
+      },
+    );
+    const seen = new Set<string>();
+    const blocks: string[] = [];
+    for (const id of ddIds) {
+      if (seen.has(id)) continue;
+      seen.add(id);
+      const dd = getDeepDive(id);
+      if (!dd) {
+        if (process.env.NODE_ENV !== "production") {
+          console.warn(`renderBodyWithCitations: deep-dive not found: ${id}`);
+        }
+        continue;
+      }
+      blocks.push(
+        `<div class="deepdive-content" data-deepdive-id="${escapeAttr(id)}" hidden>${processSimpleMarkers(dd.body)}</div>`,
+      );
+    }
+    return `<p>${paraReplaced}</p>${blocks.join("")}`;
+  });
+
+  return processSimpleMarkers(withDeepDives);
 }

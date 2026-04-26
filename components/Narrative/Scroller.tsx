@@ -54,11 +54,29 @@ export function ChapterBody({ chapter }: { chapter: Chapter }) {
       const entity = findEntity(e.target);
       if (entity) setHighlight(null);
     };
+    const handleClick = (e: Event) => {
+      if (!(e.target instanceof Element)) return;
+      const trigger = e.target.closest<HTMLButtonElement>(".deepdive-trigger");
+      if (!trigger || !root.contains(trigger)) return;
+      e.preventDefault();
+      const id = trigger.getAttribute("data-deepdive-id");
+      if (!id) return;
+      const expanded = trigger.getAttribute("aria-expanded") === "true";
+      trigger.setAttribute("aria-expanded", String(!expanded));
+      const selector = `.deepdive-content[data-deepdive-id="${CSS.escape(id)}"]`;
+      const content = root.querySelector<HTMLElement>(selector);
+      if (content) {
+        if (expanded) content.setAttribute("hidden", "");
+        else content.removeAttribute("hidden");
+      }
+    };
     root.addEventListener("mouseover", handleOver);
     root.addEventListener("mouseout", handleOut);
+    root.addEventListener("click", handleClick);
     return () => {
       root.removeEventListener("mouseover", handleOver);
       root.removeEventListener("mouseout", handleOut);
+      root.removeEventListener("click", handleClick);
     };
   }, [setHighlight]);
 

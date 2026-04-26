@@ -54,3 +54,45 @@ body {
   color: var(--color-gold);
   border-bottom-color: var(--color-gold);
 }
+
+.deepdive-trigger {
+  display: inline;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: var(--color-accent);
+  border-bottom: 1px dashed var(--color-accent-soft);
+  transition: color 0.15s ease, border-bottom-color 0.15s ease;
+}
+
+.deepdive-trigger:hover {
+  color: var(--color-accent);
+  border-bottom-color: var(--color-accent);
+}
+
+.deepdive-chevron {
+  display: inline-block;
+  margin-left: 0.2em;
+  font-size: 0.85em;
+  transition: transform 0.2s ease;
+}
+
+.deepdive-trigger[aria-expanded="true"] .deepdive-chevron {
+  transform: rotate(180deg);
+}
+
+.deepdive-content {
+  margin: 1em 0;
+  padding: 0.9em 1.1em;
+  border-left: 3px solid var(--color-accent-soft);
+  background: var(--color-card);
+  font-size: 0.95em;
+  border-radius: 0 4px 4px 0;
+}
+
+.deepdive-content > p + p {
+  margin-top: 0.85em;
+}

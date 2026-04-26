@@ -244,3 +244,9 @@ export type SiteContent = {
   heroSubtitle: string;
   heroByline: string;
 };
+
+export type DeepDive = {
+  id: string;
+  title: string;
+  body: string;
+};
