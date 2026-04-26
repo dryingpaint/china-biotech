@@ -39,7 +39,9 @@
         "type": "license-out",
         "year": 2025,
         "valueBillions": 12.5
-      }
+      },
+      "grossMarginPct": 86.1,
+      "rdPctOfRevenue": 23.5
     },
     "timeline": [
       {
@@ -220,7 +222,9 @@
         "type": "license-out",
         "year": 2025,
         "valueBillions": 6.05
-      }
+      },
+      "grossMarginPct": 86.0,
+      "rdPctOfRevenue": 14.6
     },
     "timeline": [
       {
@@ -350,7 +354,9 @@
         "type": "acquisition",
         "year": 2013,
         "valueBillions": 0.118
-      }
+      },
+      "grossMarginPct": 38.9,
+      "rdPctOfRevenue": 15.6
     },
     "timeline": [
       {
@@ -503,7 +509,9 @@
         "partner": "Altaris LLC",
         "type": "acquisition",
         "year": 2025
-      }
+      },
+      "grossMarginPct": 35.6,
+      "rdPctOfRevenue": 3.5
     },
     "timeline": [
       {
@@ -773,7 +781,9 @@
         "type": "license-out",
         "year": 2025,
         "valueBillions": 4.23
-      }
+      },
+      "grossMarginPct": 79.8,
+      "rdPctOfRevenue": 89.7
     },
     "timeline": [
       {
@@ -899,7 +909,9 @@
         "partner": "AstraZeneca",
         "type": "collaboration",
         "year": 2022
-      }
+      },
+      "grossMarginPct": 69.0,
+      "rdPctOfRevenue": 49.2
     },
     "timeline": [
       {
@@ -1082,7 +1094,9 @@
         "type": "collaboration",
         "year": 2019,
         "valueBillions": 2.7
-      }
+      },
+      "grossMarginPct": 84.4,
+      "rdPctOfRevenue": 51.3
     },
     "timeline": [
       {
@@ -1212,7 +1226,9 @@
         "type": "license-out",
         "year": 2025,
         "valueBillions": 11.4
-      }
+      },
+      "grossMarginPct": 74.4,
+      "rdPctOfRevenue": 23.4
     },
     "timeline": [
       {
@@ -1368,7 +1384,9 @@
         "type": "license-out",
         "year": 2021,
         "valueBillions": 1.11
-      }
+      },
+      "grossMarginPct": 73.2,
+      "rdPctOfRevenue": 65.5
     },
     "timeline": [
       {
@@ -1498,7 +1516,9 @@
         "type": "license-out",
         "year": 2022,
         "valueBillions": 5
-      }
+      },
+      "grossMarginPct": 85.8,
+      "rdPctOfRevenue": 55.9
     },
     "timeline": [
       {
@@ -1628,7 +1648,9 @@
         "partner": "TESARO / GSK",
         "type": "license-in",
         "year": 2016
-      }
+      },
+      "grossMarginPct": 62.9,
+      "rdPctOfRevenue": 58.8
     },
     "timeline": [
       {
@@ -1783,7 +1805,9 @@
         "type": "collaboration",
         "year": 2017,
         "valueBillions": 0.35
-      }
+      },
+      "grossMarginPct": 60.6,
+      "rdPctOfRevenue": 45.5
     },
     "timeline": [
       {
@@ -1918,7 +1942,9 @@
         "partner": "WuXi XDC (spinoff)",
         "type": "acquisition",
         "year": 2023
-      }
+      },
+      "grossMarginPct": 41.0,
+      "rdPctOfRevenue": 4.1
     },
     "timeline": [
       {
@@ -2074,7 +2100,9 @@
         "type": "collaboration",
         "year": 2020,
         "valueBillions": 0.48
-      }
+      },
+      "grossMarginPct": 59.0,
+      "rdPctOfRevenue": 30.4
     },
     "timeline": [
       {
@@ -2345,7 +2373,9 @@
         "partner": "Calliditas Therapeutics",
         "type": "license-in",
         "year": 2019
-      }
+      },
+      "grossMarginPct": 74.3,
+      "rdPctOfRevenue": 74.7
     },
     "timeline": [
       {
@@ -2558,7 +2588,9 @@
         "type": "license-out",
         "year": 2023,
         "valueBillions": 1.67
-      }
+      },
+      "grossMarginPct": 40.4,
+      "rdPctOfRevenue": 42.0
     },
     "timeline": [
       {
@@ -2660,7 +2692,9 @@
         "type": "license-out",
         "year": 2022,
         "valueBillions": 9.3
-      }
+      },
+      "grossMarginPct": 65.9,
+      "rdPctOfRevenue": 62.4
     },
     "timeline": [
       {
@@ -2879,7 +2913,9 @@
         "type": "license-out",
         "year": 2024,
         "valueBillions": 2
-      }
+      },
+      "grossMarginPct": 90.9,
+      "rdPctOfRevenue": 22.0
     },
     "timeline": [
       {
@@ -3008,7 +3044,8 @@
         "vaccine",
         "recombinant",
         "small molecule"
-      ]
+      ],
+      "grossMarginPct": 7.6
     },
     "timeline": [
       {
@@ -3110,7 +3147,9 @@
         "partner": "Suzhou Abogen Biosciences + PLA Academy of Military Sciences",
         "type": "collaboration",
         "year": 2020
-      }
+      },
+      "grossMarginPct": 73.7,
+      "rdPctOfRevenue": 21.1
     },
     "timeline": [
       {
@@ -3259,7 +3298,9 @@
         "type": "license-out",
         "year": 2022,
         "valueBillions": 0.541
-      }
+      },
+      "grossMarginPct": 73.1,
+      "rdPctOfRevenue": 18.1
     },
     "timeline": [
       {
@@ -3417,7 +3458,9 @@
         "type": "collaboration",
         "year": 2025,
         "valueBillions": 5.99
-      }
+      },
+      "grossMarginPct": 46.3,
+      "rdPctOfRevenue": 157.0
     },
     "timeline": [
       {
@@ -3528,7 +3571,9 @@
         "type": "collaboration",
         "year": 2022,
         "valueBillions": 1.2
-      }
+      },
+      "grossMarginPct": 90.4,
+      "rdPctOfRevenue": 107.1
     },
     "timeline": [
       {
@@ -3659,7 +3704,9 @@
         "partner": "Juno Therapeutics (Bristol Myers Squibb)",
         "type": "license-out",
         "year": 2025
-      }
+      },
+      "grossMarginPct": 48.9,
+      "rdPctOfRevenue": 178.9
     },
     "timeline": [
       {
@@ -3777,7 +3824,9 @@
         "SZSE: 300347",
         "HKEX: 03347"
       ],
-      "modalities": []
+      "modalities": [],
+      "grossMarginPct": 34.0,
+      "rdPctOfRevenue": 3.6
     },
     "timeline": [
       {
@@ -3891,7 +3940,9 @@
         "mechanism": "Discovery-through-commercial drug R&D services",
         "indication": "All therapeutic areas (small molecule + biologics + cell & gene therapy)",
         "status": "FY2024 revenue RMB 12,275.8M (~US$1.70B), +6.4% YoY; H1 2025 revenue RMB 6,441.0M, +14.9% YoY"
-      }
+      },
+      "grossMarginPct": 34.1,
+      "rdPctOfRevenue": 3.8
     },
     "timeline": [
       {
@@ -4018,7 +4069,9 @@
         "type": "collaboration",
         "year": 2022,
         "valueBillions": 0.5
-      }
+      },
+      "grossMarginPct": 41.6,
+      "rdPctOfRevenue": 10.6
     },
     "timeline": [
       {
@@ -4108,5 +4161,322 @@
       "smallMol"
     ],
     "subcategory": "Small-molecule CDMO"
+  },
+  {
+    "id": "mabwell",
+    "name": "Mabwell",
+    "nameZh": "迈威（上海）生物科技股份有限公司",
+    "founded": 2017,
+    "headquarters": "Shanghai",
+    "founders": "Datao Liu",
+    "category": "pharma",
+    "shortDescription": "Shanghai-based biologics company that rolled up nine antibody and recombinant-protein assets into a STAR-listed full-stack biopharma, then leveraged its IDDC ADC platform into back-to-back deals with Disc Medicine and Alphabet's Calico.",
+    "signature": "9MW2821 (Nectin-4 ADC) + IDDC™ ADC platform",
+    "narrativeHook": "Mabwell built itself by acquisition rather than founder-startup, then converted a biosimilar cash engine (denosumab, adalimumab) into the runway for an ADC platform (IDDC) that landed a $412M Disc Medicine deal in 2023, a $596M Calico IL-11 deal in 2025, and the world's first Nectin-4 ADC Phase III in TNBC by 2026.",
+    "verified": true,
+    "lastVerified": "2026-04-26",
+    "today": {
+      "asOf": "2026-04",
+      "marketCapBillions": 2.2,
+      "revenueBillions": 0.6,
+      "revenueYear": 2025,
+      "approvedDrugCount": 4,
+      "listings": [
+        "SSE STAR: 688062",
+        "HKEX: 02563"
+      ],
+      "leadAsset": {
+        "name": "9MW2821 (bulumtatug fuvedotin)",
+        "mechanism": "Nectin-4-targeting antibody-drug conjugate (IDDC platform)",
+        "indication": "Urothelial carcinoma, cervical cancer, triple-negative breast cancer",
+        "status": "World's first Nectin-4 ADC in Phase III; three pivotal trials running (UC, CC, TNBC); FDA Fast Track for TNBC; first US patient dosed Aug 2025; NEJM case report on hepatic pseudoprogression in cervical cancer (Apr 2026)"
+      },
+      "biggestDeal": {
+        "partner": "Calico Life Sciences",
+        "type": "license-out",
+        "year": 2025,
+        "valueBillions": 0.596
+      }
+    },
+    "timeline": [
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "Founded 2017 in Shanghai's Zhangjiang High-Tech Park by Dr. Datao Liu; assembled by absorbing nine biopharmaceutical R&D and manufacturing entities (incl. Jiangsu T-mab in Taizhou) rather than starting from a single lab",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Platform build-out / preclinical",
+        "note": "Co-founder/CSO Hai Wu was a founding scientist of Junshi Biosciences before joining; the roll-up gave Mabwell mAb, recombinant-protein, and process-development capacity from day one"
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Built out manufacturing footprint (Taizhou pilot + commercial site, Shanghai large-scale base, dedicated ADC commercial site); IDDC™ (Interchain-Disulfide Drug Conjugate) ADC platform established 2018; first IND filings for biosimilar and novel mAb pipeline",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Preclinical / IND",
+        "note": "Co-development of adalimumab biosimilar 9MW0113 with Junshi Biosciences"
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "STAR Market IPO on Jan 18, 2022 (688062.SH) raised RMB 3.48B (~US$548M) — though oversubscribed, shares fell ~30% on debut to RMB 24.50; JUNMAIKANG (9MW0113, adalimumab biosimilar, co-developed with Junshi) NMPA-approved Mar 2022",
+        "approvedDrugCount": 1,
+        "pipelineStage": "First commercial launch + Phase 1/2 ADCs",
+        "listings": [
+          "SSE STAR: 688062"
+        ],
+        "note": "Cool IPO reception foreshadowed the broader STAR biotech valuation reset; proceeds earmarked for ADC platform build-out"
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Disc Medicine $412.5M ex-Greater-China license signed Jan 2023 for 9MW3011 (anti-TMPRSS6 mAb / MWTX-003) for β-thalassemia and polycythemia vera (FDA Fast Track later granted); MAILISHU (9MW0321, denosumab biosimilar 60mg) NMPA-approved Mar 31, 2023 — world's second denosumab biosimilar; MAIWEIJIAN (9MW0311, denosumab 120mg) NMPA-approved Mar 2024 — first denosumab 120mg biosimilar in China; FY2024 revenue RMB 199.78M (+56.3% YoY) on net loss ~RMB 1.04B",
+        "approvedDrugCount": 3,
+        "pipelineStage": "Multi-approved + Phase 2/3 ADCs",
+        "listings": [
+          "SSE STAR: 688062"
+        ],
+        "note": "Disc Medicine deal validated the discovery output of Mabwell Therapeutics (San Diego subsidiary); biosimilar cash flow underwriting the ADC platform"
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "MAILISHENG (long-acting albumin-fusion G-CSF) launched 2025 — fourth approved product; Calico Life Sciences (Alphabet) signed $596M ex-Greater-China license for 9MW3811 (anti-IL-11 mAb) on Jun 26, 2025 ($25M upfront + up to $571M milestones); 9MW2821 (Nectin-4 ADC) advanced to three Phase III pivotal trials (UC, CC, TNBC) with FDA Fast Track for TNBC; HKEX secondary listing on Apr 28, 2026 (02563) raised HK$1.45B (~US$185M) at HK$27.64/share to fund ADC global development; market cap ~US$2.2B at HK listing",
+        "approvedDrugCount": 4,
+        "pipelineStage": "Multi-approved + 3 Phase III pivotal trials",
+        "listings": [
+          "SSE STAR: 688062",
+          "HKEX: 02563"
+        ],
+        "note": "Calico tie-up extends the licensing pattern into longevity/anti-aging biology; the Hong Kong primary went to international institutions at 90% allocation, signaling foreign appetite for Chinese ADC platforms despite BIOSECURE noise"
+      }
+    ],
+    "milestones": [
+      {
+        "year": 2017,
+        "label": "Founded in Shanghai by Datao Liu via roll-up of nine biopharma entities"
+      },
+      {
+        "year": 2018,
+        "label": "IDDC™ ADC platform established"
+      },
+      {
+        "year": 2022,
+        "label": "STAR Market IPO (688062) — RMB 3.48B raised; JUNMAIKANG (adalimumab) NMPA approval"
+      },
+      {
+        "year": 2023,
+        "label": "Disc Medicine license-out for 9MW3011 (~$412.5M); MAILISHU (denosumab 60mg) NMPA approval"
+      },
+      {
+        "year": 2024,
+        "label": "MAIWEIJIAN (denosumab 120mg) NMPA approval — first 120mg denosumab biosimilar in China"
+      },
+      {
+        "year": 2025,
+        "label": "Calico Life Sciences IL-11 license-out (~$596M); MAILISHENG (long-acting G-CSF) launch"
+      },
+      {
+        "year": 2026,
+        "label": "HKEX secondary listing (02563) raises ~US$185M; 9MW2821 enters world-first Nectin-4 ADC Phase III in TNBC"
+      }
+    ],
+    "sources": [
+      "mabwell-about-en",
+      "bioworld-mabwell-star-ipo-2022",
+      "bioworld-mabwell-hk-adc-2026",
+      "caproasia-mabwell-hk-ipo-2026",
+      "hkex-mabwell-prospectus-2026",
+      "goodwin-mabwell-junmaikang-2022",
+      "goodwin-mabwell-mailishu-2023",
+      "mabwell-maiweijian-first-approval-2024",
+      "mabwell-maiweijian-sbla-2026",
+      "mabwell-disc-medicine-deal-2023",
+      "calico-mabwell-il11-deal-2025",
+      "fiercebiotech-calico-mabwell-il11-2025",
+      "mabwell-9mw2821-tnbc-phase3-2026",
+      "mabwell-iddc-platform-world-adc-2024",
+      "stockanalysis-mabwell-688062"
+    ],
+    "modalities": [
+      "biosimilar",
+      "novelMab",
+      "adc",
+      "recombinant"
+    ],
+    "therapeuticAreas": [
+      "Oncology",
+      "Bone / skeletal",
+      "Immunology",
+      "Hematology",
+      "Fibrosis",
+      "Respiratory",
+      "Ophthalmology"
+    ],
+    "productClasses": [
+      {
+        "name": "Adalimumab biosimilar (JUNMAIKANG, 9MW0113)",
+        "modality": "biosimilar",
+        "status": "approved"
+      },
+      {
+        "name": "Denosumab biosimilar 60mg (MAILISHU, 9MW0321)",
+        "modality": "biosimilar",
+        "status": "approved"
+      },
+      {
+        "name": "Denosumab biosimilar 120mg (MAIWEIJIAN, 9MW0311)",
+        "modality": "biosimilar",
+        "status": "approved"
+      },
+      {
+        "name": "Long-acting G-CSF albumin fusion (MAILISHENG)",
+        "modality": "recombinant",
+        "status": "approved"
+      },
+      {
+        "name": "Nectin-4 ADC (9MW2821 / bulumtatug fuvedotin)",
+        "modality": "adc",
+        "status": "phase3"
+      },
+      {
+        "name": "Anti-TMPRSS6 mAb (9MW3011 / MWTX-003)",
+        "modality": "novelMab",
+        "status": "phase2"
+      },
+      {
+        "name": "Anti-IL-11 mAb (9MW3811)",
+        "modality": "novelMab",
+        "status": "phase2"
+      },
+      {
+        "name": "B7-H3 ADC (7MW3711)",
+        "modality": "adc",
+        "status": "phase2"
+      },
+      {
+        "name": "Anti-ST2 mAb (9MW1911)",
+        "modality": "novelMab",
+        "status": "phase2"
+      },
+      {
+        "name": "Trop-2 ADC (9MW2921)",
+        "modality": "adc",
+        "status": "phase1"
+      }
+    ]
+  },
+  {
+    "id": "fosun-kite",
+    "name": "Fosun Kite / Fosun Kairos",
+    "nameZh": "复星凯特生物科技 / 复星凯瑞斯",
+    "founded": 2017,
+    "headquarters": "Shanghai",
+    "founders": "Shanghai Fosun Pharmaceutical (Group) and Kite Pharma (Gilead)",
+    "category": "pharma",
+    "subcategory": "Cell therapy specialist",
+    "shortDescription": "Shanghai-based cell-therapy company that won China's first CAR-T approval (axicabtagene ciloleucel, June 2021) as a 50/50 Fosun Pharma–Gilead/Kite JV; bought out by Fosun in September 2024 and rebranded Fosun Kairos.",
+    "signature": "Yikaida (FKC876, axicabtagene ciloleucel)",
+    "narrativeHook": "Fosun Kite localized Yescarta into China and shipped the country's first commercial CAR-T in June 2021, but the deal did what JVs in single-payer markets often do — Beijing's reimbursement squeeze made the economics unworkable for Gilead, which exited eight years in for $27M, leaving Fosun with full control of the platform and a renamed Fosun Kairos.",
+    "verified": true,
+    "lastVerified": "2026-04-26",
+    "today": {
+      "asOf": "2026-04",
+      "approvedDrugCount": 1,
+      "leadAsset": {
+        "name": "Yikaida (FKC876, axicabtagene ciloleucel)",
+        "mechanism": "Autologous CD19-directed CAR-T cell therapy",
+        "indication": "Relapsed/refractory large B-cell lymphoma (DLBCL, PMBCL, HGBCL, transformed FL); second-line LBCL indication filed",
+        "status": "China's first approved CAR-T (NMPA, 23 June 2021); included in Shanghai 'Hu Hui Bao' inclusive insurance from 2022 and added to the 2025 Commercial Insurance Innovative Drug Catalog"
+      },
+      "biggestDeal": {
+        "partner": "Kite Pharma (Gilead)",
+        "type": "license-in",
+        "year": 2017,
+        "valueBillions": 0.04
+      }
+    },
+    "timeline": [
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "Established April 2017 in Shanghai's Zhangjiang Hi-Tech Park as a 50/50 JV between Fosun Pharma and Kite Pharma (US$20M from each side); chartered to develop, manufacture, and commercialize axicabtagene ciloleucel in China with options on additional Kite TCR programs",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Tech transfer / preclinical",
+        "note": "JV vehicle for Kite's Yescarta in China; 10,000 m² commercial manufacturing site + 2,000 m² R&D facility built in Zhangjiang Innovative Medicine Industry Park"
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Bridging Phase II trial of FKC876 (axicabtagene ciloleucel) in r/r large B-cell lymphoma; Yescarta technology transfer and local viral-vector and manufacturing infrastructure stood up to a Chinese GMP standard",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Bridging Phase II",
+        "note": "FDA-approved CAR-T product first manufactured in China in 2018 to enable a domestic regulatory path"
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "FKC876 (axicabtagene ciloleucel, brand name Yikaida 奕凯达 / Akilun) approved by NMPA on 23 June 2021 for adult r/r large B-cell lymphoma — China's first approved CAR-T cell therapy; bridging trial showed 79.2% response rate, in line with global Yescarta data",
+        "approvedDrugCount": 1,
+        "pipelineStage": "Marketed (1 product) + Phase 2/3",
+        "note": "Listed at ~RMB 1.2M per infusion at launch; included in Shanghai 'Hu Hui Bao' inclusive insurance from 2022 to ease patient access"
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Yikaida second-line LBCL indication submitted (Oct 2022); Brexucabtagene autoleucel (Tecartus localized version) NMPA registration application accepted; Sept 13, 2024: Fosun Pharma agreed to acquire Kite/Gilead's 50% JV stake for ~US$27M plus a US$10M follow-on capital injection, citing Chinese reimbursement constraints; entity rebranded as Fosun Kairos",
+        "approvedDrugCount": 1,
+        "pipelineStage": "Marketed + Phase 2/3",
+        "note": "Kite retained the Yescarta and Tecartus license for China and continues to supply viral vectors; the JV exit is the most public early example of a multinational walking away from China cell-therapy economics under NHSA pricing"
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "Yikaida (axicabtagene ciloleucel) listed on the inaugural 2025 Commercial Insurance Innovative Drug Catalog, broadening reimbursement beyond NRDL constraints; now a wholly-owned Fosun Pharma subsidiary under the Fosun Kairos name; pipeline expanding beyond Kite-licensed assets",
+        "approvedDrugCount": 1,
+        "pipelineStage": "Marketed + Phase 2/3",
+        "note": "Fosun Pharma 2025 group revenue RMB 41.66B (+1.5% YoY); innovative-drug revenue RMB 9.89B (+29.6%) with cell therapy contributing"
+      }
+    ],
+    "milestones": [
+      {
+        "year": 2017,
+        "label": "Founded as 50/50 Fosun Pharma–Kite Pharma JV in Shanghai (April)"
+      },
+      {
+        "year": 2021,
+        "label": "Yikaida (axicabtagene ciloleucel) — China's first approved CAR-T (NMPA, 23 June)"
+      },
+      {
+        "year": 2022,
+        "label": "Yikaida added to Shanghai 'Hu Hui Bao' inclusive insurance; second-line LBCL filing accepted"
+      },
+      {
+        "year": 2024,
+        "label": "Kite/Gilead exits the JV; Fosun Pharma acquires 50% stake for ~US$27M, rebrands as Fosun Kairos (Sept)"
+      },
+      {
+        "year": 2025,
+        "label": "Yikaida listed in inaugural Commercial Insurance Innovative Drug Catalog"
+      }
+    ],
+    "sources": [
+      "fosun-kite-fkc876-approval-2021",
+      "kite-fosun-first-cart-china",
+      "fosun-kite-fosunpharma-jv-establishment",
+      "gilead-kite-fosun-jv-2017",
+      "fiercepharma-kite-exits-fosun-jv-2024",
+      "pharmaletter-fosun-buys-kite-stake-2024",
+      "clifford-chance-fosun-kairos-license-2025",
+      "fosun-kite-yikaida-2l-cde-2022",
+      "fosun-pharma-2025-annual-results"
+    ],
+    "modalities": [
+      "cellTherapy"
+    ],
+    "therapeuticAreas": [
+      "Oncology — hematology"
+    ],
+    "productClasses": [
+      {
+        "name": "Anti-CD19 CAR-T (Yikaida / FKC876, axicabtagene ciloleucel)",
+        "modality": "cellTherapy",
+        "status": "approved"
+      },
+      {
+        "name": "Anti-CD19 CAR-T (Tecartus localized, brexucabtagene autoleucel)",
+        "modality": "cellTherapy",
+        "status": "phase3"
+      }
+    ]
   }
 ]

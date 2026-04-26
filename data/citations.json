@@ -7430,5 +7430,189 @@
     "publisher": "McKinsey & Company",
     "year": 2021,
     "url": "https://www.mckinsey.com/industries/life-sciences/our-insights/the-dawn-of-china-biopharma-innovation"
+  },
+  {
+    "id": "mabwell-about-en",
+    "authors": "Mabwell (Shanghai) Bioscience",
+    "title": "About Mabwell",
+    "publisher": "Mabwell corporate site",
+    "year": 2026,
+    "url": "https://www.mabwell.com/en/about.html"
+  },
+  {
+    "id": "bioworld-mabwell-star-ipo-2022",
+    "authors": "Liu, T.",
+    "title": "Mabwell raises ¥3.48B in Shanghai IPO, though shares meet cool reception",
+    "publisher": "BioWorld",
+    "year": 2022,
+    "url": "https://www.bioworld.com/articles/515301-mabwell-raises-348b-in-shanghai-ipo-though-shares-meet-cool-reception"
+  },
+  {
+    "id": "bioworld-mabwell-hk-adc-2026",
+    "authors": "BioWorld staff",
+    "title": "Mabwell turns to Hong Kong to fund ADC ambitions",
+    "publisher": "BioWorld",
+    "year": 2026,
+    "url": "https://www.bioworld.com/articles/730578-mabwell-turns-to-hong-kong-to-fund-adc-ambitions"
+  },
+  {
+    "id": "caproasia-mabwell-hk-ipo-2026",
+    "authors": "Caproasia",
+    "title": "China $2.2 Billion Pharmaceutical Company Mabwell (Shanghai) Bioscience Hong Kong Secondary Listing IPO to Raise $185 Million",
+    "publisher": "Caproasia",
+    "year": 2026,
+    "url": "https://www.caproasia.com/2026/04/25/china-2-2-billion-pharmaceutical-company-mabwell-shanghai-bioscience-hong-kong-secondary-listing-ipo-to-raise-185-million-with-expected-ipo-listing-on-28th-april-2026-founded-in-2017-by-datao-liu/"
+  },
+  {
+    "id": "hkex-mabwell-prospectus-2026",
+    "authors": "Mabwell (Shanghai) Bioscience",
+    "title": "Global Offering Prospectus (Hong Kong)",
+    "publisher": "HKEXnews",
+    "year": 2026,
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0420/2026042000005.pdf"
+  },
+  {
+    "id": "goodwin-mabwell-junmaikang-2022",
+    "authors": "Goodwin Procter",
+    "title": "Adalimumab Biosimilar Wins NMPA Approval",
+    "publisher": "Goodwin (Big Molecule Watch)",
+    "year": 2022,
+    "url": "https://www.goodwinlaw.com/en/insights/blogs/2022/03/adalimumab-biosimilar-wins-nmpa-approval"
+  },
+  {
+    "id": "goodwin-mabwell-mailishu-2023",
+    "authors": "Goodwin Procter",
+    "title": "Mabwell Announces Approval of Denosumab Biosimilar MAILISHU in China",
+    "publisher": "Goodwin (Big Molecule Watch)",
+    "year": 2023,
+    "url": "https://www.goodwinlaw.com/en/insights/blogs/2023/04/mabwell-announces-approval-of-denosumab-biosimilar-mailishu-in-china"
+  },
+  {
+    "id": "mabwell-maiweijian-first-approval-2024",
+    "authors": "Mabwell (Shanghai) Bioscience",
+    "title": "MAIWEIJIAN, First Approved Biosimilar of Denosumab (120mg) in China",
+    "publisher": "PR Newswire",
+    "year": 2024,
+    "url": "https://www.prnewswire.com/news-releases/maiweijian-first-approved-biosimilar-of-denosumab-120mg-in-china-302110441.html"
+  },
+  {
+    "id": "mabwell-maiweijian-sbla-2026",
+    "authors": "Mabwell (Shanghai) Bioscience",
+    "title": "Mabwell Announces Acceptance of Supplemental Biologics License Application by NMPA for MAIWEIJIAN (Denosumab)",
+    "publisher": "PR Newswire",
+    "year": 2026,
+    "url": "https://www.prnewswire.com/news-releases/mabwell-announces-acceptance-of-supplemental-biologics-license-application-by-nmpa-for-maiweijian-denosumab-302743323.html"
+  },
+  {
+    "id": "mabwell-disc-medicine-deal-2023",
+    "authors": "Mabwell (Shanghai) Bioscience",
+    "title": "$412.5 million! Mabwell Announces Exclusive Licensing Agreement with DISC MEDICINE, INC. for Innovative Drug Candidates of Hematologic Diseases",
+    "publisher": "PR Newswire",
+    "year": 2023,
+    "url": "https://www.prnewswire.com/news-releases/412-5-million-mabwell-announces-exclusive-licensing-agreement-with-disc-medicine-inc-for-innovative-drug-candidates-of-hematologic-diseases-301726440.html"
+  },
+  {
+    "id": "calico-mabwell-il11-deal-2025",
+    "authors": "Calico Life Sciences",
+    "title": "Mabwell Bioscience and Calico Life Sciences Announce Exclusive Licensing Agreement for Novel IL-11 Targeting Monoclonal Antibody",
+    "publisher": "Calico Life Sciences",
+    "year": 2025,
+    "url": "https://www.calicolabs.com/press/mabwell-bioscience-and-calico-life-sciences-announce-exclusive-licensing-agreement-for-novel-il-11-targeting-monoclonal-antibody/"
+  },
+  {
+    "id": "fiercebiotech-calico-mabwell-il11-2025",
+    "authors": "Becker, Z.",
+    "title": "Alphabet's Calico stitches $596M deal for Mabwell's anti-aging asset",
+    "publisher": "Fierce Biotech",
+    "year": 2025,
+    "url": "https://www.fiercebiotech.com/biotech/alphabets-calico-stitches-571m-deal-mabwells-anti-aging-asset"
+  },
+  {
+    "id": "mabwell-9mw2821-tnbc-phase3-2026",
+    "authors": "Mabwell (Shanghai) Bioscience",
+    "title": "Mabwell Initiates Phase III Clinical Study of its Nectin-4-Targeting ADC 9MW2821 for the Treatment of Triple-Negative Breast Cancer",
+    "publisher": "PR Newswire",
+    "year": 2026,
+    "url": "https://www.prnewswire.com/news-releases/mabwell-initiates-phase-iii-clinical-study-of-its-nectin-4-targeting-adc-9mw2821-for-the-treatment-of-triple-negative-breast-cancer-302751535.html"
+  },
+  {
+    "id": "mabwell-iddc-platform-world-adc-2024",
+    "authors": "Mabwell (Shanghai) Bioscience",
+    "title": "Mabwell Presented IDDC™ Platform Technology and ADC Drug Development Achievements at the 14th World ADC London",
+    "publisher": "PR Newswire",
+    "year": 2024,
+    "url": "https://www.prnewswire.com/news-releases/mabwell-presented-iddc-platform-technology-and-adc-drug-development-achievements-at-the-14th-world-adc-london-302095573.html"
+  },
+  {
+    "id": "stockanalysis-mabwell-688062",
+    "authors": "Stock Analysis",
+    "title": "Mabwell (Shanghai) Bioscience (SHA:688062) Company Profile",
+    "publisher": "stockanalysis.com",
+    "year": 2026,
+    "url": "https://stockanalysis.com/quote/sha/688062/company/"
+  },
+  {
+    "id": "fosun-kite-fosunpharma-jv-establishment",
+    "authors": "Shanghai Fosun Pharmaceutical",
+    "title": "Fosun Pharma and Kite Pharma Establish Cooperative Enterprise in China",
+    "publisher": "Fosun Kite Bio (corporate site)",
+    "year": 2017,
+    "url": "http://www.fosunkitebio.com/en/news/details-65.html"
+  },
+  {
+    "id": "gilead-kite-fosun-jv-2017",
+    "authors": "Gilead Sciences",
+    "title": "Kite Pharma and Fosun Pharma Establish Joint Venture in China to Develop and Commercialize Autologous T-Cell Therapies to Treat Cancer",
+    "publisher": "Gilead news release",
+    "year": 2017,
+    "url": "https://www.gilead.com/news/news-details/2017/kite-pharma-and-fosun-pharma-establish-joint-venture-in-china-to-develop-and-commercialize-autologous-t-cell-therapies-to-treat-cancer"
+  },
+  {
+    "id": "fosun-kite-fkc876-approval-2021",
+    "authors": "Fosun Kite",
+    "title": "China's first CAR-T Cell Therapy approved — Fosun Kite Axicabtagene Ciloleucel (FKC876)",
+    "publisher": "PR Newswire",
+    "year": 2021,
+    "url": "https://www.prnewswire.com/news-releases/chinas-first-car-t-cell-therapy-approved-fosun-kite-axicabtagene-ciloleucel-fkc876-301319139.html"
+  },
+  {
+    "id": "fosun-kite-yikaida-2l-cde-2022",
+    "authors": "Fosun Kite",
+    "title": "NDA for New Second-Line Indication of CAR T-Cell Therapy Product YIKAIDA (Axicabtagene Ciloleucel Injection) Approved for CDE Review",
+    "publisher": "PR Newswire",
+    "year": 2022,
+    "url": "https://www.prnewswire.com/news-releases/nda-for-new-second-line-indication-of-car-t-cell-therapy-product-yikaida-axicabtagene-ciloleucel-injection-approved-for-cde-review-301661624.html"
+  },
+  {
+    "id": "fiercepharma-kite-exits-fosun-jv-2024",
+    "authors": "Liu, A.",
+    "title": "Gilead's Kite exits China cell therapy joint venture with Fosun Pharma",
+    "publisher": "Fierce Pharma",
+    "year": 2024,
+    "url": "https://www.fiercepharma.com/pharma/gileads-kite-exits-china-cell-therapy-jv-fosun-pharma"
+  },
+  {
+    "id": "pharmaletter-fosun-buys-kite-stake-2024",
+    "authors": "The Pharma Letter",
+    "title": "Fosun Pharma secures full ownership of Fosun Kite with $27 million deal",
+    "publisher": "The Pharma Letter",
+    "year": 2024,
+    "url": "https://www.thepharmaletter.com/biotechnology/fosun-pharma-secures-full-ownership-of-fosun-kite-with-27-million-dollar-deal"
+  },
+  {
+    "id": "clifford-chance-fosun-kairos-license-2025",
+    "authors": "Clifford Chance",
+    "title": "Clifford Chance advises Fosun Kairos on License Agreement with Kite Pharma",
+    "publisher": "Clifford Chance",
+    "year": 2025,
+    "url": "https://www.cliffordchance.com/news/news/2025/01/clifford-chance-advises-fosun-kairos-on-license-agreement-with-k.html"
+  },
+  {
+    "id": "fosun-pharma-2025-annual-results",
+    "authors": "Shanghai Fosun Pharmaceutical",
+    "title": "Fosun Pharma Announces 2025 Annual Results",
+    "publisher": "PR Newswire",
+    "year": 2026,
+    "url": "https://www.prnewswire.com/news-releases/fosun-pharma-announces-2025-annual-results-302723550.html"
   }
 ]

@@ -8,8 +8,8 @@
     "agency": "State Council of the People's Republic of China",
     "documentRef": "State High-Tech Research and Development Plan (approved by Deng Xiaoping, 5 March 1986)",
     "category": "approval",
-    "shortDescription": "Deng Xiaoping's national high-tech R&D fund — China's first sustained state money for biotechnology.",
-    "impact": "Bankrolled the labs that built Chinese biotech, including the 1% slice of the Human Genome Project that became BGI; backed 5,200+ R&D projects before folding into the unified program in 2016.",
+    "shortDescription": "Deng Xiaoping's national high-tech R&D fund, China's first sustained state money for biotechnology.",
+    "impact": "Bankrolled the labs that built Chinese biotech, including BGI's 1% share of the Human Genome Project; backed 5,200+ R&D projects before folding into the unified program in 2016.",
     "keyProvisions": [
       "Named biotech as a priority field, alongside space, IT, lasers, and energy",
       "Top-down R&D fund run by MOST, with senior scientists picking the projects",
@@ -38,10 +38,10 @@
     "agency": "Ministry of Science and Technology, via the State Science and Education Steering Group under the State Council",
     "documentRef": "National Plan on Key Basic Research and Development (approved 4 June 1997)",
     "category": "approval",
-    "shortDescription": "Beijing's first big-money basic-science program — multi-year grants for upstream research years from any payoff.",
-    "impact": "Funded 456 projects and 451 lead investigators by 2008, building the academic bench Chinese biotech later hired from — including the labs that turned APL into the first curable adult leukemia.",
+    "shortDescription": "Beijing's first major basic-science program, with multi-year grants for upstream research years from any payoff.",
+    "impact": "Funded 456 projects and 451 lead investigators by 2008, building the academic bench Chinese biotech later hired from, including the labs that turned APL into the first curable adult leukemia.",
     "keyProvisions": [
-      "132 projects in the 1998–2002 batch — concentrated funding, not spread thin",
+      "132 projects in the 1998–2002 batch, concentrated funding rather than spread thin",
       "Eight priority areas, including 'Population and Health' (cancer, stem cells)",
       "Five-year projects led by a single 'chief scientist' who controlled the budget",
       "Folded into the unified National Key R&D Program in February 2016"
@@ -66,7 +66,7 @@
     "shortDescription": "China's first rule requiring Beijing's sign-off before Chinese tissue, blood, or DNA samples could leave the country.",
     "impact": "Established that Chinese DNA belongs to China; dormant for a decade, then used 2015-2018 to penalize BGI and WuXi AppTec at least six times for unauthorized sample exports.",
     "keyProvisions": [
-      "Covered tissue, cells, blood, DNA, and derived data — not just physical samples",
+      "Covered tissue, cells, blood, DNA, and derived data, not just physical samples",
       "Required Beijing's prior approval to collect, store, sell, or export any sample",
       "Set up the China Administration of HGR under MOST as licensing gatekeeper",
       "Forced foreign researchers to work through a Chinese partner with shared IP"
@@ -95,7 +95,7 @@
     "documentRef": "National Medium- and Long-Term Science & Technology Development Plan (2006–2020), Megaproject No. 10",
     "category": "approval",
     "shortDescription": "A 12-year national grant program that paid Chinese drugmakers to invent original drugs, not copy them.",
-    "impact": "Funneled ~23.3B yuan (~US$3.3B) into 3,000+ R&D projects and produced 44 'Class 1' drugs by 2020 — 8x what China managed in prior decades.",
+    "impact": "Funneled ~23.3B yuan (~US$3.3B) into 3,000+ R&D projects and produced 44 'Class 1' drugs by 2020, 8x what China managed in prior decades.",
     "keyProvisions": [
       "Grants paid in 5-year tranches across the 11th, 12th, and 13th Five-Year Plans",
       "Targeted 10 priority diseases including cancer, diabetes, and infectious disease",
@@ -129,12 +129,12 @@
     "agency": "Beijing No. 1 Intermediate People's Court / State Food and Drug Administration",
     "documentRef": "Zheng Xiaoyu corruption verdict (sentenced 2007-05-29, executed 2007-07-10); follow-on Provisions for Drug Registration (SFDA Order No. 28, effective 2007-10-01)",
     "shortDescription": "China executed its top drug regulator Zheng Xiaoyu for taking US$850K in bribes to wave through unsafe medicines.",
-    "impact": "Exposed that Zheng's agency had rubber-stamped ~150,000 drug approvals in eight years — including a tainted antibiotic that killed 14 — and set the stage for the 2015–2018 overhaul.",
+    "impact": "Exposed that Zheng's agency had rubber-stamped ~150,000 drug approvals in eight years (including a tainted antibiotic that killed 14), and set the stage for the 2015–2018 overhaul.",
     "keyProvisions": [
-      "Executed July 10, 2007 — highest-ranking Chinese official killed since 2000",
+      "Executed July 10, 2007; highest-ranking Chinese official killed since 2000",
       "Took bribes from 8 drug makers, 1997–2006; one made antibiotic that killed 14",
       "Six approved drugs proven counterfeit; tainted cough syrup killed ~100 in Panama",
-      "Order 28 (Oct 2007): panel approvals, surprise inspections, ban on data fakers"
+      "Order 28 (Oct 2007): panel approvals, surprise inspections, sanctions for trial-data fraud"
     ],
     "sources": [
       "zheng-xiaoyu-wikipedia",
@@ -160,7 +160,7 @@
     "documentRef": "Guofa [2015] No. 28",
     "category": "approval",
     "shortDescription": "A 10-year industrial plan naming biopharma and medical devices among 10 sectors China would build itself, not import.",
-    "impact": "Locked biotech into Beijing's industrial frame and made it a US target — imports' share of China's medical-device market fell from 24% to 14% by 2023, and biopharma drew Section 301 tariffs in 2018.",
+    "impact": "Locked biotech into Beijing's industrial frame and made it a US target. Imports' share of China's medical-device market fell from 24% to 14% by 2023, and biopharma drew Section 301 tariffs in 2018.",
     "keyProvisions": [
       "Named biomedicine and high-end medical devices a top-10 priority sector",
       "Targeted 70% domestically made mid/high-end devices in county hospitals by 2025",
@@ -198,11 +198,11 @@
     "agency": "China Food and Drug Administration",
     "documentRef": "CFDA Announcement No. 117 (2015) — known in Chinese as the '722 event' (七二二事件) for the date it was issued",
     "category": "approval",
-    "shortDescription": "Gave sponsors of 1,622 pending Chinese drug filings one month to re-audit their trial data — or admit it was faked.",
-    "impact": "1,165 of 1,622 applications were voluntarily withdrawn and 30 rejected — roughly 80% gone — collapsing the NDA backlog from ~22,000 in Sept 2015 to under 3,500 by end-2018.",
+    "shortDescription": "Gave sponsors of 1,622 pending Chinese drug filings one month to re-audit their trial data, or admit it was faked.",
+    "impact": "1,165 of 1,622 applications were voluntarily withdrawn and 30 rejected (roughly 80% gone), collapsing the NDA backlog from ~22,000 in Sept 2015 to under 3,500 by end-2018.",
     "keyProvisions": [
       "Sponsors had one month to re-audit trial data on all 1,622 pending applications",
-      "Voluntary withdrawal carried no penalty — self-reporting skipped enforcement",
+      "Voluntary withdrawal carried no penalty; sponsors who self-reported avoided enforcement",
       "Holdouts faced surprise on-site CFDA inspections of sites, hospitals, and CROs",
       "Post-deadline fraud: 3-year filing ban, lost trial licenses, public blacklist"
     ],
@@ -237,8 +237,8 @@
     "agency": "China Food and Drug Administration",
     "documentRef": "CFDA Announcement No. 230 [2015] (Nov 11, 2015); implementing rules CFDA Announcement No. 19 [2016] (Feb 26, 2016); expanded by CFDA Announcement No. 126 [2017] (Dec 28, 2017)",
     "category": "approval",
-    "shortDescription": "A fast lane for innovative drugs and rare-disease therapies — review clock cut from 200 working days to 130.",
-    "impact": "Of 137 oncology drugs approved in China between 2018 and 2021, 98 (72%) went through priority review — the rule that made China-only Phase III trials worth running.",
+    "shortDescription": "A fast lane for innovative drugs and rare-disease therapies, with the review clock cut from 200 working days to 130.",
+    "impact": "Of 137 oncology drugs approved in China between 2018 and 2021, 98 (72%) went through priority review, the rule that made China-only Phase III trials worth running.",
     "keyProvisions": [
       "Five eligible buckets, including drugs not yet sold anywhere in the world",
       "Cuts the standard review clock from 200 working days to 130",
@@ -276,8 +276,8 @@
     "agency": "General Office of the State Council of the People's Republic of China",
     "documentRef": "Guo Ban Fa [2016] No. 41",
     "category": "approval",
-    "shortDescription": "Lets a company own a Chinese drug license without owning the factory — production can be contracted out.",
-    "impact": "Made asset-light biotech legal in China and seeded the CDMO boom WuXi Biologics rode; by July 2019, 156 holders held 3,239 licenses, and the pilot went national in the 2019 Drug Law.",
+    "shortDescription": "Lets a company own a Chinese drug license without owning the factory, since production can be contracted out.",
+    "impact": "Made asset-light biotech legal in China and seeded the CDMO boom that lifted WuXi Biologics; by July 2019, 156 holders held 3,239 licenses, and the pilot went national in the 2019 Drug Law.",
     "keyProvisions": [
       "Split the drug license from the factory license in 10 pilot provinces",
       "Holder stayed liable end-to-end for quality, recalls, and adverse events",
@@ -341,7 +341,7 @@
     "agency": "General Offices of the CPC Central Committee and the State Council (implemented by CFDA/NMPA; codified by NMPA in 2020)",
     "documentRef": "Tingzi [2017] No. 42 — 'Opinions on Deepening the Reform of the Review and Approval System and Encouraging the Innovation of Drugs and Medical Devices'; codified in NMPA Drug Registration Regulation (effective 2020-07-01)",
     "shortDescription": "Lets a drug treating a serious unmet need launch on a single Phase 2 trial, with Phase 3 confirmed after launch.",
-    "impact": "By end-2023 the NMPA had granted 103 conditional approvals, ~85% of them oncology — including the first four domestic PD-1s, all cleared on single-arm Phase 2 data.",
+    "impact": "By end-2023 the NMPA had granted 103 conditional approvals, ~85% of them oncology, including the first four domestic PD-1s, all cleared on single-arm Phase 2 data.",
     "keyProvisions": [
       "Eligible: life-threatening unmet needs, rare diseases, or pandemic response",
       "Single-arm Phase 2 surrogate data (e.g. response rate) suffices for approval",
@@ -378,7 +378,7 @@
     "agency": "Ministry of Human Resources and Social Security of the People's Republic of China",
     "documentRef": "Renshebufa [2017] No. 15 — National Basic Medical Insurance, Work Injury Insurance and Maternity Insurance Drug Catalogue (2017 Edition)",
     "shortDescription": "Restarted China's national insurance drug list after an 8-year freeze and made it an annual price negotiation.",
-    "impact": "Forced the four domestic PD-1 makers to cut prices 64-85% to win national coverage, commoditizing a class the FDA priced at $150K/year.",
+    "impact": "Forced the four domestic PD-1 makers to cut prices 64-85% to win national coverage, commoditizing a class that listed at ~$150K/year in the US.",
     "keyProvisions": [
       "Refreshed the catalogue in Feb 2017 (+339 drugs), the first update since 2009",
       "Negotiated 36 high-cost drugs in July 2017 at an average 44% list-price cut",
@@ -489,10 +489,10 @@
     "agency": "Jilin Provincial Food and Drug Administration (initial action) / China Food and Drug Administration",
     "documentRef": "Jilin FDA penalty notice (Oct 16, 2018); Changchun Changsheng Bio-Tech Co., Ltd. (SZSE: 002680)",
     "shortDescription": "Chinese vaccine maker faked rabies-vaccine records and shipped bad baby DPT shots, forcing Beijing's first vaccine law.",
-    "impact": "Drew a 9.1B yuan (~$1.3B) fine — China's largest pharma penalty — delisted Changsheng, ousted the CFDA chief, and forced the Vaccine Administration Law in six months.",
+    "impact": "Drew a 9.1B yuan (~$1.3B) fine (China's largest pharma penalty), delisted Changsheng, ousted the CFDA chief, and forced the Vaccine Administration Law in six months.",
     "keyProvisions": [
       "Jilin FDA seized 113,000 falsified rabies-vaccine doses on July 15, 2018",
-      "9.1B yuan fine — the legal maximum, 30x the bad product's value",
+      "9.1B yuan fine, the legal maximum at 30x the bad product's value",
       "252,600 substandard DPT doses had already been given to babies in 2017",
       "Chairwoman Gao Junfang and 13 execs banned from pharma for life"
     ],
@@ -524,7 +524,7 @@
     "category": "geopolitical",
     "agency": "Nanshan District People's Court of Shenzhen (verdict); Standing Committee of the National People's Congress (subsequent legislation)",
     "documentRef": "Shenzhen Nanshan Court verdict (2019-12-30); Civil Code Article 1009; Criminal Law Amendment XI, Article 336-1",
-    "shortDescription": "A Shenzhen scientist used CRISPR to edit three babies' DNA before birth — the world's first — and got 3 years in prison.",
+    "shortDescription": "A Shenzhen scientist used CRISPR to edit three babies' DNA before birth (the world's first) and got 3 years in prison.",
     "impact": "Forced the world's first criminal ban on heritable gene editing: up to 7 years for implanting an edited embryo, a flat Civil Code ban, and a new national ethics body over every hospital.",
     "keyProvisions": [
       "He got 3 years and a 3M yuan (~US$430k) fine for 'illegal medical practice'",
@@ -558,10 +558,10 @@
     "documentRef": "Guobanfa [2019] No. 2 — Pilot Plan for National Centralized Drug Procurement and Use",
     "category": "market_access",
     "shortDescription": "Pools every public hospital's drug order into one national auction, with the lowest bidder taking guaranteed volume.",
-    "impact": "Cut prices on the first 25 drugs by an average of 52% — up to 96% on entecavir — torching the margins that had funded Chinese generics and forcing Hengrui to pivot into innovative drugs.",
+    "impact": "Cut prices on the first 25 drugs by an average of 52% (up to 96% on entecavir), torching the margins that had funded Chinese generics and forcing Hengrui to pivot into innovative drugs.",
     "keyProvisions": [
       "Generics must first pass China's 'consistency evaluation' bioequivalence test",
-      "Lowest bidder takes the entire guaranteed volume — no second-place award",
+      "Lowest bidder takes the entire guaranteed volume, with no second-place award",
       "Pilot cities pre-commit 60–70% of last year's hospital orders to the winner",
       "Launched in 11 cities ('4+7'), went nationwide in 2019, hit insulin by 2021"
     ],
@@ -594,7 +594,7 @@
     "documentRef": "Plan for Deepening Reform of Party and State Institutions (March 2018); CFDA English-name notice, 29 August 2018",
     "category": "approval",
     "shortDescription": "Renamed China's drug regulator from CFDA to NMPA and folded it into a new market-regulation super-agency.",
-    "impact": "Locked in the Bi Jingquan reforms — ICH membership, faster reviews, foreign-trial-data acceptance — but cost the regulator a rung of clout, reporting through SAMR instead of the State Council.",
+    "impact": "Locked in the Bi Jingquan reforms (ICH membership, faster reviews, foreign-trial-data acceptance), but dropped the regulator from ministerial to vice-ministerial rank, now reporting through SAMR instead of the State Council.",
     "keyProvisions": [
       "Renamed CFDA to NMPA, English name effective 1 September 2018",
       "Placed NMPA inside SAMR, a new ministerial-level market-regulation super-agency",
@@ -630,7 +630,7 @@
     "shortDescription": "Holds vaccine makers legally responsible from R&D through every shot, with criminal penalties for fraud.",
     "impact": "Forced industry consolidation and built the regulatory credibility behind WHO emergency-use listings for Sinopharm, Sinovac, and CanSino during the COVID rollout.",
     "keyProvisions": [
-      "Vaccine licence-holders must own their factory — no contract manufacturers",
+      "Vaccine licence-holders must own their factory, with no contract manufacturers",
       "National e-tracking platform: every vial traced from line to arm, kept 5+ years",
       "Fake vaccines: 15–50× goods-value fine plus licence pulled; substandard: 10–30×",
       "State pays compensation for serious reactions to immunisation-schedule vaccines"
@@ -698,10 +698,10 @@
     "agency": "Shanghai Stock Exchange and China Securities Regulatory Commission",
     "documentRef": "Rules Governing the Listing of Stocks on the Science and Technology Innovation Board of the Shanghai Stock Exchange (issued 2019-03-01)",
     "category": "capital_markets",
-    "shortDescription": "Lets loss-making biotechs IPO in mainland China — Beijing's answer to NASDAQ and Hong Kong's 18A.",
+    "shortDescription": "Lets loss-making biotechs IPO in mainland China, Beijing's answer to NASDAQ and Hong Kong's 18A.",
     "impact": "Gave Chinese biotechs a third home venue; 25 firms raised ~RMB 37B on day one, and by mid-2023 twenty unprofitable biotechs had listed via the biotech-only 'fifth standard' track.",
     "keyProvisions": [
-      "Switched IPOs to a registration system — market sets price, no regulator veto",
+      "Switched IPOs to a registration system, with market-set prices and no regulator veto",
       "Five listing tracks: one needs profits, others use market cap, revenue, or R&D",
       "Biotech track: no profit needed but ≥RMB 4B (~US$560M) cap and a Phase II drug",
       "First mainland board to admit 'red chip' VIEs and weighted-voting-rights firms"
@@ -734,7 +734,7 @@
     "category": "geopolitical",
     "agency": "Standing Committee of the National People's Congress",
     "documentRef": "Biosecurity Law of the People's Republic of China (Presidential Order No. 56) — 10 chapters, 88 articles",
-    "shortDescription": "China's first single biotech statute — covers pandemics, lab biosafety, gene editing, DNA exports, and bioweapons.",
+    "shortDescription": "China's first single biotech statute, covering pandemics, lab biosafety, gene editing, DNA exports, and bioweapons.",
     "impact": "Reframed biotech as national security: high-risk work needs State Council sign-off, foreign access to Chinese pathogen labs and DNA samples is capped, and fines reach RMB 10M or 10–20× unlawful gains.",
     "keyProvisions": [
       "Tiers biotech R&D by risk; high-risk work needs State Council sign-off",
@@ -770,7 +770,7 @@
     "documentRef": "SAMR Order No. 27",
     "category": "approval",
     "shortDescription": "First overhaul of China's drug-approval rulebook in 13 years, locking the 2015–18 fast-track reforms into permanent law.",
-    "impact": "Set hard review clocks for the first time — 200 working days standard, 130 priority, 70 for foreign-approved orphan drugs — and became the legal backbone every Chinese biotech now files under.",
+    "impact": "Set hard review clocks for the first time (200 working days standard, 130 priority, 70 for foreign-approved orphan drugs), and became the legal backbone every Chinese biotech now files under.",
     "keyProvisions": [
       "Four fast-track lanes: breakthrough, conditional, priority, and emergency review",
       "Standard NDA review capped at 200 working days; priority 130; orphan 70",
@@ -806,12 +806,12 @@
     "agency": "Center for Drug Evaluation, National Medical Products Administration",
     "documentRef": "CDE Announcement No. 46 of 2021",
     "category": "approval",
-    "shortDescription": "Forced Chinese cancer-drug trials to use the best available treatment as the control — not placebo or old chemo.",
+    "shortDescription": "Forced Chinese cancer-drug trials to use the best available treatment as the control, not placebo or old chemo.",
     "impact": "Closed the me-too lane that had stacked ~80 PD-1 programs behind eight approved checkpoint inhibitors, pushing Akeso, Innovent, and Hengrui into head-to-head trials versus Keytruda.",
     "keyProvisions": [
       "Late-stage trials must use the current standard of care as the control",
       "Placebo allowed only when no real treatment exists",
-      "Me-too drugs must beat — not just match — the best approved drug",
+      "Me-too drugs must beat, not just match, the best approved drug",
       "Aimed squarely at the PD-1/PD-L1 and CAR-T pile-up"
     ],
     "sources": [
@@ -880,12 +880,12 @@
     "category": "approval",
     "agency": "National Development and Reform Commission",
     "documentRef": "Fa Gai Gao Ji [2021] No. 1850 (发改高技〔2021〕1850号)",
-    "shortDescription": "China's first national strategy treating biology — not just biopharma — as a pillar of the economy through 2025.",
+    "shortDescription": "China's first national strategy treating biology, not just biopharma, as a pillar of the economy through 2025.",
     "impact": "Set a 22-trillion-yuan (~US$3.3T) bioeconomy target by 2025 and signalled to provinces, banks, and state funds that biotech was a pillar industry.",
     "keyProvisions": [
       "Names four pillars: bio-medicine, bio-agriculture, bio-manufacturing, bio-info",
       "Sets a 2025 target of growing the bioeconomy to ~22 trillion yuan",
-      "Pushes for more biotech firms with annual revenue ≥ RMB 10B — building champions",
+      "Pushes for more biotech firms with annual revenue ≥ RMB 10B, building champions",
       "Designates four regional pilot clusters: BTH, YRD, GBA, Chengdu-Chongqing"
     ],
     "sources": [
@@ -920,7 +920,7 @@
     "keyProvisions": [
       "Names BGI, MGI, Complete Genomics, WuXi AppTec, WuXi Bio as 'firms of concern'",
       "Bars federal contracts with the named firms or any vendor using their services",
-      "Blocks federal grants and loans — including NIH money — to anyone tied to them",
+      "Blocks federal grants and loans (including NIH money) to anyone tied to them",
       "House version gave existing contracts until 2032 to wind down and switch CDMOs"
     ],
     "sources": [
@@ -952,12 +952,12 @@
     "agency": "United States Congress / President of the United States",
     "documentRef": "Section 851 of the Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2026 (P.L. 119-60)",
     "shortDescription": "Bars US federal agencies from contracting with or funding any firm tied to a Chinese 'biotech of concern'.",
-    "impact": "Forced WuXi AppTec to sell its US cell-and-gene-therapy units to Altaris and BeiGene to redomicile in Switzerland as BeOne Medicines, all months before the law's first compliance deadline.",
+    "impact": "Forced WuXi AppTec to sell its US cell-and-gene-therapy units to Altaris, and BeiGene to redomicile in Switzerland as BeOne Medicines, all months before the law's first compliance deadline.",
     "keyProvisions": [
       "No federal contracts or grants touching a 'biotech of concern' or its tools",
       "BCC list seeded from the Pentagon's 1260H roster, expanded by OMB discretion",
       "First BCC list due Dec 2026; bans kick in 60-90 days after FAR rewrite",
-      "Five-year wind-down for existing deals — but not for firms already on 1260H"
+      "Five-year wind-down for existing deals, but not for firms already on 1260H"
     ],
     "sources": [
       "lw-biosecure-becomes-law-2025",
@@ -989,7 +989,7 @@
     "documentRef": "Guo Ban Fa [2024] No. 53",
     "category": "approval",
     "shortDescription": "Orders China's drug regulator to speed reviews and grant the country's first formal data exclusivity for new drugs.",
-    "impact": "Cuts innovative-trial review from 60 working days to 30 and post-approval manufacturing reviews from 200 to 60 — the biggest timing shift since 2015 — plus 6-year data exclusivity for new drugs.",
+    "impact": "Cuts innovative-trial review from 60 working days to 30 and post-approval manufacturing reviews from 200 to 60 (the biggest timing shift since 2015), plus 6-year data exclusivity for new drugs.",
     "keyProvisions": [
       "Innovative-drug clinical-trial review cut from 60 working days to 30",
       "Post-approval manufacturing-change reviews cut from 200 days to 60",
