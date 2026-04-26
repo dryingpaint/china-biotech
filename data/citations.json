@@ -6774,5 +6774,645 @@
     "publisher": "NIBS Beijing — Scientists & Research",
     "year": 2024,
     "url": "http://www.nibs.ac.cn/en/yjsjyimgshow.php?cid=5&sid=6&id=756"
+  },
+  {
+    "id": "tsinghua-sls-history",
+    "authors": "School of Life Sciences, Tsinghua University",
+    "title": "School History — School of Life Sciences, Tsinghua University",
+    "publisher": "Tsinghua University",
+    "year": 2024,
+    "url": "https://life.tsinghua.edu.cn/lifeen/School_Overview/School_History.htm"
+  },
+  {
+    "id": "tsinghua-medicine-history",
+    "authors": "Tsinghua Medicine",
+    "title": "History — Tsinghua Medicine",
+    "publisher": "Tsinghua University",
+    "year": 2024,
+    "url": "https://www.med.tsinghua.edu.cn/en/AboutTM/History.htm"
+  },
+  {
+    "id": "tsinghua-medicine-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "Tsinghua University School of Medicine",
+    "publisher": "Wikipedia",
+    "year": 2025,
+    "url": "https://en.wikipedia.org/wiki/Tsinghua_University_School_of_Medicine"
+  },
+  {
+    "id": "shi-yigong-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "Shi Yigong",
+    "publisher": "Wikipedia",
+    "year": 2025,
+    "url": "https://en.wikipedia.org/wiki/Shi_Yigong"
+  },
+  {
+    "id": "shi-yigong-westlake-bio",
+    "authors": "Westlake University",
+    "title": "Yigong SHI, Ph.D. — Faculty profile",
+    "publisher": "Westlake University",
+    "year": 2024,
+    "url": "https://en.westlake.edu.cn/faculty/yigong-shi.html"
+  },
+  {
+    "id": "shi-yigong-future-prize-2017",
+    "authors": "Tsinghua University News",
+    "title": "Professor Shi Yigong Wins 2017 Future Science Prize",
+    "publisher": "Tsinghua University",
+    "year": 2017,
+    "url": "https://www.tsinghua.edu.cn/en/info/1245/4993.htm"
+  },
+  {
+    "id": "tsinghua-shi-spliceosome-science-2015",
+    "authors": "Tsinghua University News",
+    "title": "Prof. Yigong Shi's group reported the structure of yeast spliceosome and the splicing mechanism in two Science articles",
+    "publisher": "Tsinghua University",
+    "year": 2015,
+    "url": "https://news.tsinghua.edu.cn/en/info/1021/1915.htm"
+  },
+  {
+    "id": "shi-gamma-secretase-nature-2015",
+    "authors": "Bai X-C, Yan C, Yang G, Lu P, Ma D, Sun L, Zhou R, Scheres SHW, Shi Y",
+    "title": "An atomic structure of human γ-secretase",
+    "publisher": "Nature",
+    "year": 2015,
+    "url": "https://www.nature.com/articles/nature14892"
+  },
+  {
+    "id": "nieng-yan-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "Yan Ning (Nieng Yan)",
+    "publisher": "Wikipedia",
+    "year": 2025,
+    "url": "https://en.wikipedia.org/wiki/Yan_Ning"
+  },
+  {
+    "id": "yan-glut1-princeton",
+    "authors": "Deng D, Xu C, Sun P, Wu J, Yan C, Hu M, Yan N",
+    "title": "Crystal structure of the human glucose transporter GLUT1",
+    "publisher": "Nature (Princeton record)",
+    "year": 2014,
+    "url": "https://collaborate.princeton.edu/en/publications/crystal-structure-of-the-human-glucose-transporter-glut1/"
+  },
+  {
+    "id": "yan-nav16-pnas-2023",
+    "authors": "Fan X, Huang J, Jin X, Yan N",
+    "title": "Cryo-EM structure of human voltage-gated sodium channel Nav1.6",
+    "publisher": "Proceedings of the National Academy of Sciences",
+    "year": 2023,
+    "url": "https://www.pnas.org/doi/10.1073/pnas.2220578120"
+  },
+  {
+    "id": "wang-hongwei-frcbs-bio",
+    "authors": "Beijing Frontier Research Center for Biological Structure, Tsinghua",
+    "title": "Hongwei Wang — PI profile",
+    "publisher": "Tsinghua University",
+    "year": 2024,
+    "url": "https://www.frcbs.tsinghua.edu.cn/en/pi/1087"
+  },
+  {
+    "id": "wang-streptavidin-natcomm-2019",
+    "authors": "Tsinghua University News",
+    "title": "Hong-Wei Wang's group published a research article in Nature Communications on the smallest protein solved by single-particle cryo-EM at near-atomic resolution (52 kDa streptavidin at 3.2 Å)",
+    "publisher": "Tsinghua University",
+    "year": 2019,
+    "url": "https://www.tsinghua.edu.cn/en/info/1245/5163.htm"
+  },
+  {
+    "id": "dong-chen-iitu-bio",
+    "authors": "Institute for Immunology, Tsinghua",
+    "title": "Chen Dong, Ph.D. — biographical sketch",
+    "publisher": "Tsinghua University",
+    "year": 2024,
+    "url": "https://www.iitu.tsinghua.edu.cn/2024/0122/c814a5617/page.htm"
+  },
+  {
+    "id": "dong-th17-nri-2021",
+    "authors": "Dong C",
+    "title": "Defining the TH17 cell lineage",
+    "publisher": "Nature Reviews Immunology",
+    "year": 2021,
+    "url": "https://www.nature.com/articles/s41577-021-00596-x"
+  },
+  {
+    "id": "tsinghua-icsb-overview",
+    "authors": "Beijing Frontier Research Center for Biological Structure (formerly Beijing Advanced Innovation Center for Structural Biology)",
+    "title": "Overview — Beijing Frontier Research Center for Biological Structure, Tsinghua",
+    "publisher": "Tsinghua University",
+    "year": 2024,
+    "url": "https://www.icsb.tsinghua.edu.cn/en/overview"
+  },
+  {
+    "id": "li-xueming-thuem",
+    "authors": "Xueming Li Lab",
+    "title": "Research — Xueming Li Lab (THUNDER, EPicker, MotionCorr)",
+    "publisher": "Tsinghua University",
+    "year": 2024,
+    "url": "https://thuem.net/"
+  },
+  {
+    "id": "cls-tsinghua-pku",
+    "authors": "Tsinghua-Peking Center for Life Sciences",
+    "title": "Center For Life Sciences (CLS) — overview",
+    "publisher": "Tsinghua University & Peking University",
+    "year": 2024,
+    "url": "http://www.cls.edu.cn/en/"
+  },
+  {
+    "id": "innocare-cui-yigong-shi",
+    "authors": "PharmaBoardroom",
+    "title": "Jasmine Cui — Founder & CEO, InnoCare (interview)",
+    "publisher": "PharmaBoardroom",
+    "year": 2023,
+    "url": "https://pharmaboardroom.com/interviews/jasmine-cui-founder-ceo-innocare/"
+  },
+  {
+    "id": "sineugene-about-tsinghua",
+    "authors": "SineuGene Therapeutics",
+    "title": "About Us — Tsinghua-spinout neurology gene-therapy company; SNUG01 TRIM72-targeted gene therapy for ALS",
+    "publisher": "SineuGene Therapeutics",
+    "year": 2025,
+    "url": "https://www.sineugene.com/about.html"
+  },
+  {
+    "id": "biological-cryoem-china-2017",
+    "authors": "Wang H-W, Wang J-W",
+    "title": "Biological cryo-electron microscopy in China",
+    "publisher": "Protein Science",
+    "year": 2017,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5192968/"
+  },
+  {
+    "id": "pku-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "Peking University",
+    "publisher": "Wikipedia",
+    "year": 2025,
+    "url": "https://en.wikipedia.org/wiki/Peking_University"
+  },
+  {
+    "id": "pkuhsc-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "Peking University Health Science Center",
+    "publisher": "Wikipedia",
+    "year": 2025,
+    "url": "https://en.wikipedia.org/wiki/Peking_University_Health_Science_Center"
+  },
+  {
+    "id": "biopic-pku-about",
+    "authors": "Biomedical Pioneering Innovation Center, Peking University",
+    "title": "About BIOPIC — Introduction",
+    "publisher": "BIOPIC, Peking University (official site)",
+    "year": 2025,
+    "url": "https://biopic.pku.edu.cn/en/aboutus/introduction/index.htm"
+  },
+  {
+    "id": "icg-pku-about",
+    "authors": "Beijing Advanced Innovation Center for Genomics, Peking University",
+    "title": "Beijing Advanced Innovation Center for Genomics — Home",
+    "publisher": "ICG, Peking University (official site)",
+    "year": 2025,
+    "url": "https://icg.pku.edu.cn/en/"
+  },
+  {
+    "id": "sunney-xie-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "Xiaoliang Sunney Xie",
+    "publisher": "Wikipedia",
+    "year": 2025,
+    "url": "https://en.wikipedia.org/wiki/Xiaoliang_Sunney_Xie"
+  },
+  {
+    "id": "sunney-xie-pku-news-2017",
+    "authors": "PKU News",
+    "title": "PKU Professor Xiaoliang Sunney Xie awarded Qiu Shi Outstanding Scientist Award of 2017",
+    "publisher": "Peking University News",
+    "year": 2017,
+    "url": "https://newsen.pku.edu.cn/news_events/news/focus/6288.html"
+  },
+  {
+    "id": "zong-malbac-science-2012",
+    "authors": "Zong, C., Lu, S., Chapman, A. R., Xie, X. S.",
+    "title": "Genome-wide detection of single-nucleotide and copy-number variations of a single human cell",
+    "publisher": "Science 338(6114): 1622–1626",
+    "year": 2012,
+    "url": "https://www.science.org/doi/10.1126/science.1229164"
+  },
+  {
+    "id": "pku-malbac-baby-2014",
+    "authors": "Peking University News",
+    "title": "The first IVF baby born following MALBAC-based whole genome screening",
+    "publisher": "Peking University (English news)",
+    "year": 2014,
+    "url": "https://english.pku.edu.cn/news_events/news/research/2031.html"
+  },
+  {
+    "id": "yan-marsala-pnas-2015",
+    "authors": "Yan, L., Huang, L., Xu, L., Huang, J., Ma, F., Zhu, X., Tang, Y., Liu, M., Lian, Y., Liu, P., Li, R., Lu, S., Tang, F., Qiao, J., Xie, X. S.",
+    "title": "Live births after simultaneous avoidance of monogenic diseases and chromosome abnormality by next-generation sequencing with linkage analyses (MARSALA)",
+    "publisher": "Proceedings of the National Academy of Sciences (PNAS) 112(52): 15964–15969",
+    "year": 2015,
+    "url": "https://www.pnas.org/doi/10.1073/pnas.1523297113"
+  },
+  {
+    "id": "tang-mrna-seq-natmethods-2009",
+    "authors": "Tang, F., Barbacioru, C., Wang, Y., Nordman, E., Lee, C., Xu, N., Wang, X., Bodeau, J., Tuch, B. B., Siddiqui, A., Lao, K., Surani, M. A.",
+    "title": "mRNA-Seq whole-transcriptome analysis of a single cell",
+    "publisher": "Nature Methods 6(5): 377–382",
+    "year": 2009,
+    "url": "https://www.nature.com/articles/nmeth.1315"
+  },
+  {
+    "id": "tang-fuchou-pku-faculty",
+    "authors": "Beijing Advanced Innovation Center for Genomics, Peking University",
+    "title": "Fuchou Tang — Faculty profile",
+    "publisher": "ICG, Peking University",
+    "year": 2025,
+    "url": "https://icg.pku.edu.cn/en/research/faculty/269372.htm"
+  },
+  {
+    "id": "zhu-scmethylome-natgenet-2018",
+    "authors": "Zhu, P., Guo, H., Ren, Y., Hou, Y., Dong, J., Li, R., Lian, Y., Fan, X., Hu, B., Gao, Y., Wang, X., Wei, Y., Liu, P., Yan, J., Ren, X., Yuan, P., Yuan, Y., Yan, Z., Wen, L., Yan, L., Qiao, J., Tang, F.",
+    "title": "Single-cell DNA methylome sequencing of human preimplantation embryos",
+    "publisher": "Nature Genetics 50(1): 12–19",
+    "year": 2018,
+    "url": "https://www.nature.com/articles/s41588-017-0007-6"
+  },
+  {
+    "id": "deng-hongkui-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "Deng Hongkui",
+    "publisher": "Wikipedia",
+    "year": 2025,
+    "url": "https://en.wikipedia.org/wiki/Deng_Hongkui"
+  },
+  {
+    "id": "hou-cipsc-science-2013",
+    "authors": "Hou, P., Li, Y., Zhang, X., Liu, C., Guan, J., Li, H., Zhao, T., Ye, J., Yang, W., Liu, K., Ge, J., Xu, J., Zhang, Q., Zhao, Y., Deng, H.",
+    "title": "Pluripotent stem cells induced from mouse somatic cells by small-molecule compounds",
+    "publisher": "Science 341(6146): 651–654",
+    "year": 2013,
+    "url": "https://www.science.org/doi/10.1126/science.1239278"
+  },
+  {
+    "id": "guan-hcipsc-nature-2022",
+    "authors": "Guan, J., Wang, G., Wang, J., Zhang, Z., Fu, Y., Cheng, L., Meng, G., Lyu, Y., Zhu, J., Li, Y., Wang, Y., Liuyang, S., Liu, B., Yang, Z., He, H., Zhong, X., Chen, Q., Zhang, X., Sun, S., Lai, W., Shi, Y., Liu, L., Wang, L., Li, C., Lu, S., Deng, H.",
+    "title": "Chemical reprogramming of human somatic cells to pluripotent stem cells",
+    "publisher": "Nature 605(7909): 325–331",
+    "year": 2022,
+    "url": "https://www.nature.com/articles/s41586-022-04593-5"
+  },
+  {
+    "id": "xu-ccr5-nejm-2019",
+    "authors": "Xu, L., Wang, J., Liu, Y., Xie, L., Su, B., Mou, D., Wang, L., Liu, T., Wang, X., Zhang, B., Zhao, L., Hu, L., Ning, H., Zhang, Y., Deng, K., Liu, L., Lu, X., Zhang, T., Xu, J., Li, C., Wu, H., Deng, H., Chen, H.",
+    "title": "CRISPR-edited stem cells in a patient with HIV and acute lymphocytic leukemia",
+    "publisher": "New England Journal of Medicine 381(13): 1240–1247",
+    "year": 2019,
+    "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1817426"
+  },
+  {
+    "id": "deng-future-science-2024",
+    "authors": "Future Science Prize Foundation",
+    "title": "2024 The Life Science Prize Laureate — Hongkui Deng",
+    "publisher": "Future Science Prize",
+    "year": 2024,
+    "url": "http://www.futureprize.org/en/laureates/detail/87.html"
+  },
+  {
+    "id": "cheng-sparks-science-1993",
+    "authors": "Cheng, H., Lederer, W. J., Cannell, M. B.",
+    "title": "Calcium sparks: elementary events underlying excitation-contraction coupling in heart muscle",
+    "publisher": "Science 262(5134): 740–744",
+    "year": 1993,
+    "url": "https://www.science.org/doi/10.1126/science.8235594"
+  },
+  {
+    "id": "cheng-heping-pku-faculty",
+    "authors": "College of Future Technology, Peking University",
+    "title": "Heping Cheng — Faculty profile",
+    "publisher": "Peking University, College of Future Technology",
+    "year": 2025,
+    "url": "https://future.pku.edu.cn/en/js/Faculty/InstituteMedicine/9471bce138d9460f9084531ef08bae90.htm"
+  },
+  {
+    "id": "zhang-zemin-biopic-faculty",
+    "authors": "Beijing Advanced Innovation Center for Genomics, Peking University",
+    "title": "Zemin Zhang — Faculty profile",
+    "publisher": "ICG / BIOPIC, Peking University",
+    "year": 2025,
+    "url": "https://icg.pku.edu.cn/en/research/faculty/62icg_en269363.htm"
+  },
+  {
+    "id": "cao-bd368-cell-2020",
+    "authors": "Cao, Y., Su, B., Guo, X., Sun, W., Deng, Y., Bao, L., Zhu, Q., Zhang, X., Zheng, Y., Geng, C., Chai, X., He, R., Li, X., Lv, Q., Zhu, H., Deng, W., Xu, Y., Wang, Y., Qiao, L., Tan, Y., Song, L., Wang, G., Du, X., Gao, N., Liu, J., Xiao, J., Su, X., Du, Z., Feng, Y., Qin, C., Qin, C., Jin, R., Xie, X. S.",
+    "title": "Potent Neutralizing Antibodies against SARS-CoV-2 Identified by High-Throughput Single-Cell Sequencing of Convalescent Patients' B Cells",
+    "publisher": "Cell 182(1): 73–84.e16",
+    "year": 2020,
+    "url": "https://www.cell.com/cell/fulltext/S0092-8674(20)30620-6"
+  },
+  {
+    "id": "cao-omicron-nature-2022",
+    "authors": "Cao, Y., Wang, J., Jian, F., Xiao, T., Song, W., Yisimayi, A., Huang, W., Li, Q., Wang, P., An, R., Wang, J., Wang, Y., Niu, X., Yang, S., Liang, H., Sun, H., Li, T., Yu, Y., Cui, Q., Liu, S., Yang, X., Du, S., Zhang, Z., Hao, X., Shao, F., Jin, R., Wang, X., Xiao, J., Wang, Y., Xie, X. S.",
+    "title": "Omicron escapes the majority of existing SARS-CoV-2 neutralizing antibodies",
+    "publisher": "Nature 602(7898): 657–663",
+    "year": 2022,
+    "url": "https://www.nature.com/articles/s41586-021-04385-3"
+  },
+  {
+    "id": "rao-yi-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "Rao Yi",
+    "publisher": "Wikipedia",
+    "year": 2025,
+    "url": "https://en.wikipedia.org/wiki/Rao_Yi"
+  },
+  {
+    "id": "tsinghua-pku-cls-about",
+    "authors": "Tsinghua–Peking Center for Life Sciences",
+    "title": "About us — Tsinghua–Peking Joint Center for Life Sciences",
+    "publisher": "CLS (official site)",
+    "year": 2025,
+    "url": "http://www.cls.edu.cn/en/Aboutus/About_us.htm"
+  },
+  {
+    "id": "fudan-university-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "Fudan University",
+    "publisher": "Wikipedia",
+    "year": 2026,
+    "url": "https://en.wikipedia.org/wiki/Fudan_University"
+  },
+  {
+    "id": "fudan-en-about-history",
+    "authors": "Fudan University",
+    "title": "About Fudan — History (English site)",
+    "publisher": "Fudan University (official)",
+    "year": 2025,
+    "url": "https://www.fudan.edu.cn/en/About/main.htm"
+  },
+  {
+    "id": "shanghai-medical-college-fudan-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "Shanghai Medical College, Fudan University",
+    "publisher": "Wikipedia",
+    "year": 2025,
+    "url": "https://en.wikipedia.org/wiki/Shanghai_Medical_College,_Fudan_University"
+  },
+  {
+    "id": "fudan-ibs-about-en",
+    "authors": "Institutes of Biomedical Sciences, Fudan University",
+    "title": "About IBS — founder He Fuchu (2005); Director Junbo Ge, Executive Director Xu Guoliang",
+    "publisher": "IBS, Fudan University (official site, English)",
+    "year": 2024,
+    "url": "https://ibs.fudan.edu.cn/ibsen/22489/list.htm"
+  },
+  {
+    "id": "fudan-iobs-about-en",
+    "authors": "Institutes of Brain Science, Fudan University",
+    "title": "Introduction — Institutes of Brain Science (founded 2006; founding director Yang Xiongli)",
+    "publisher": "IOBS, Fudan University (official site, English)",
+    "year": 2024,
+    "url": "https://iobs.fudan.edu.cn/iobsenglish/_t5599/jj/list.psp"
+  },
+  {
+    "id": "fudan-hospital-rankings-jhmhp-2018",
+    "authors": "Gao, H. and the Hospital Management Institute of Fudan University",
+    "title": "Introduction of Chinese hospital ranking method from the aspect of theoretical framework, practical choice and social effect",
+    "publisher": "Journal of Hospital Management and Health Policy (AME)",
+    "year": 2018,
+    "url": "https://jhmhp.amegroups.org/article/view/3939/4713"
+  },
+  {
+    "id": "zhang-yongzhen-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "Zhang Yongzhen",
+    "publisher": "Wikipedia",
+    "year": 2026,
+    "url": "https://en.wikipedia.org/wiki/Zhang_Yongzhen"
+  },
+  {
+    "id": "zhang-yongzhen-virological-jan-2020",
+    "authors": "Holmes, E. C. (on behalf of Zhang Y.-Z., Fudan University / Shanghai Public Health Clinical Center)",
+    "title": "Novel 2019 coronavirus genome (first public release of SARS-CoV-2 sequence Wuhan-Hu-1)",
+    "publisher": "virological.org",
+    "year": 2020,
+    "url": "https://virological.org/t/novel-2019-coronavirus-genome/319"
+  },
+  {
+    "id": "wu-zhang-holmes-nature-2020-sars-cov-2",
+    "authors": "Wu, F., Zhao, S., Yu, B., Chen, Y.-M., Wang, W., Song, Z.-G., Hu, Y., Tao, Z.-W., Tian, J.-H., Pei, Y.-Y., Yuan, M.-L., Zhang, Y.-L., Dai, F.-H., Liu, Y., Wang, Q.-M., Zheng, J.-J., Xu, L., Holmes, E. C., Zhang, Y.-Z.",
+    "title": "A new coronavirus associated with human respiratory disease in China",
+    "publisher": "Nature",
+    "year": 2020,
+    "url": "https://www.nature.com/articles/s41586-020-2008-3"
+  },
+  {
+    "id": "zhang-yongzhen-cnn-2024-sit-in",
+    "authors": "Gan, N., Wang, S.",
+    "title": "Chinese virologist Zhang Yongzhen, who shared crucial Covid-19 data, sleeps on street after lab shut",
+    "publisher": "CNN",
+    "year": 2024,
+    "url": "https://edition.cnn.com/2024/04/30/china/zhang-yongzhen-china-scientist-protest-intl-hnk-scn"
+  },
+  {
+    "id": "zhang-yongzhen-nature-2024-lab",
+    "authors": "Mallapaty, S.",
+    "title": "Chinese virologist who was first to share COVID-19 genome sleeps on street after lab shuts",
+    "publisher": "Nature",
+    "year": 2024,
+    "url": "https://www.nature.com/articles/d41586-024-01293-0"
+  },
+  {
+    "id": "xu-guoliang-tet3-nature-2011",
+    "authors": "Gu, T.-P., Guo, F., Yang, H., Wu, H.-P., Xu, G.-F., Liu, W., Xie, Z.-G., Shi, L., He, X., Jin, S., Iqbal, K., Shi, Y. G., Deng, Z., Szabó, P. E., Pfeifer, G. P., Li, J., Xu, G.-L.",
+    "title": "The role of Tet3 DNA dioxygenase in epigenetic reprogramming by oocytes",
+    "publisher": "Nature",
+    "year": 2011,
+    "url": "https://www.nature.com/articles/nature10443"
+  },
+  {
+    "id": "xu-guoliang-tet3-oocyte-nature-2022",
+    "authors": "Chen, B., Du, Y.-R., Zhu, H., Sun, M.-L., Wang, C., Cheng, Y., Pang, H., Ding, G., Gao, J., Tan, Y., Tong, X., Lv, P., Zhou, F., Zhan, Q., Xu, Z.-M., Wang, L., Luo, D., Ye, Y., Jin, L., Zhang, S., Zhu, Y., Lin, X., Wu, F., Wang, L., Huang, H., Sheng, J., Wang, H., Zhu, Y., Liu, T., Meng, Y., Xu, G.-L.",
+    "title": "Maternal inheritance of glucose intolerance via oocyte TET3 insufficiency",
+    "publisher": "Nature",
+    "year": 2022,
+    "url": "https://www.nature.com/articles/s41586-022-04756-4"
+  },
+  {
+    "id": "fudan-yanhui-xu-2021-fudan-en",
+    "authors": "Fudan University News",
+    "title": "Yanhui Xu: true complexity of life is still beyond us (profile)",
+    "publisher": "Fudan University (official, English)",
+    "year": 2021,
+    "url": "https://www.fudan.edu.cn/en/2021/0916/c344a110022/page.htm"
+  },
+  {
+    "id": "fudan-yanhui-xu-xplorer-2022",
+    "authors": "Fudan University News",
+    "title": "Study led by Yanhui Xu wins China's top honor in life sciences",
+    "publisher": "Fudan University (official, English)",
+    "year": 2022,
+    "url": "https://www.fudan.edu.cn/en/2022/0118/c344a130014/page.htm"
+  },
+  {
+    "id": "junbo-ge-scai-bio",
+    "authors": "Society for Cardiovascular Angiography and Interventions",
+    "title": "Junbo Ge, MD — Biographical profile (Director, Cardiology, Zhongshan Hospital, Fudan; CAS academician)",
+    "publisher": "SCAI",
+    "year": 2023,
+    "url": "https://scai.org/junbo-ge-md"
+  },
+  {
+    "id": "fudan-iobs-yang-xiongli-bio",
+    "authors": "Institutes of Brain Science, Fudan University",
+    "title": "Prof. Xiong-Li Yang — biographical page (founding director, IOBS)",
+    "publisher": "IOBS, Fudan University (official site)",
+    "year": 2023,
+    "url": "https://iobs.fudan.edu.cn/iobsenglish/9b/b0/c17668a170928/page.htm"
+  },
+  {
+    "id": "fudan-life-sciences-en",
+    "authors": "Fudan University",
+    "title": "School of Life Sciences (English overview; Dean Lin Xinhua)",
+    "publisher": "Fudan University (official, English)",
+    "year": 2024,
+    "url": "https://www.fudan.edu.cn/en/2019/0513/c295a96649/page.htm"
+  },
+  {
+    "id": "fudan-tnbc-future-umbrella-cell-research-2020",
+    "authors": "Jiang, Y.-Z., Liu, Y., Xiao, Y., Hu, X., Jiang, L., Zuo, W.-J., Ma, D., Ding, J., Zhu, X., Zou, J., Verschraegen, C., Stover, D. G., Kaklamani, V., Wang, Z.-H., Shao, Z.-M.",
+    "title": "Molecular subtyping and genomic profiling expand precision medicine in refractory metastatic triple-negative breast cancer: the FUTURE trial",
+    "publisher": "Cell Research",
+    "year": 2020,
+    "url": "https://www.nature.com/articles/s41422-020-0375-9"
+  },
+  {
+    "id": "future-super-tnbc-lancet-oncology-2024",
+    "authors": "Fan, L., Wang, Z.-H., Ma, L.-X., Wu, S.-Y., Wu, J., Yu, K.-D., Sui, X.-Y., Xu, Y., Liu, X.-Y., Xiao, Y., Liu, G.-Y., Di, G.-H., Shen, X.-X., Li, Z.-J., Yu, J., Shao, Z.-M., Jiang, Y.-Z.",
+    "title": "Optimising first-line subtyping-based therapy in triple-negative breast cancer (FUTURE-SUPER): a multi-cohort, randomised, phase 2 trial",
+    "publisher": "The Lancet Oncology",
+    "year": 2024,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38211606/"
+  },
+  {
+    "id": "fudan-alumni-unicorns-2024",
+    "authors": "Fudan University News",
+    "title": "Unicorns run by Fudan alumni shine on Global Unicorn Index 2024",
+    "publisher": "Fudan University (official, English)",
+    "year": 2024,
+    "url": "https://www.fudan.edu.cn/en/2024/0514/c344a140579/page.htm"
+  },
+  {
+    "id": "simm-80yr-acta-pharma-2012",
+    "authors": "Acta Pharmacologica Sinica editorial",
+    "title": "Celebrating the 80th anniversary of the Shanghai Institute of Materia Medica, Chinese Academy of Sciences (SIMM)",
+    "publisher": "Acta Pharmacologica Sinica (Nature) / PMC",
+    "year": 2012,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4003112/"
+  },
+  {
+    "id": "simm-about-en",
+    "authors": "Shanghai Institute of Materia Medica, CAS",
+    "title": "About Us — Brief Introduction",
+    "publisher": "SIMM (official English site)",
+    "year": 2024,
+    "url": "http://english.simm.cas.cn/au/bi/"
+  },
+  {
+    "id": "ibp-cas-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "Institute of Biophysics, Chinese Academy of Sciences",
+    "publisher": "Wikipedia",
+    "year": 2024,
+    "url": "https://en.wikipedia.org/wiki/Institute_of_Biophysics,_Chinese_Academy_of_Sciences"
+  },
+  {
+    "id": "rao-zihe-sars-structural-pmc",
+    "authors": "Bartlam, M., Xu, Y. & Rao, Z.",
+    "title": "Structural insights into SARS coronavirus proteins",
+    "publisher": "Current Opinion in Structural Biology / PMC",
+    "year": 2005,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7127763/"
+  },
+  {
+    "id": "rao-zihe-cen-covid-2020",
+    "authors": "Arnaud, C. H.",
+    "title": "How structural biologists revealed the new coronavirus's structure so quickly",
+    "publisher": "Chemical & Engineering News (ACS)",
+    "year": 2020,
+    "url": "https://cen.acs.org/analytical-chemistry/structural-biology/structural-biologists-revealed-new-coronaviruss/98/i17"
+  },
+  {
+    "id": "gao-fu-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "George F. Gao",
+    "publisher": "Wikipedia",
+    "year": 2025,
+    "url": "https://en.wikipedia.org/wiki/George_F._Gao"
+  },
+  {
+    "id": "gao-fu-imcas-twas",
+    "authors": "Chinese Center for Disease Control and Prevention",
+    "title": "George F. Gao — Academician profile",
+    "publisher": "China CDC (English)",
+    "year": 2022,
+    "url": "https://en.chinacdc.cn/about/academicians/202201/t20220105_255656.html"
+  },
+  {
+    "id": "poo-muming-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "Mu-ming Poo",
+    "publisher": "Wikipedia",
+    "year": 2024,
+    "url": "https://en.wikipedia.org/wiki/Mu-ming_Poo"
+  },
+  {
+    "id": "ion-monkey-clone-cell-2018",
+    "authors": "Liu, Z., Cai, Y., Wang, Y., Nie, Y., Zhang, C., … Sun, Q.",
+    "title": "Cloning of Macaque Monkeys by Somatic Cell Nuclear Transfer",
+    "publisher": "Cell",
+    "year": 2018,
+    "url": "https://www.cell.com/fulltext/S0092-8674(18)30057-6"
+  },
+  {
+    "id": "geng-meiyu-gv971-cas",
+    "authors": "Chinese Academy of Sciences",
+    "title": "GV-971 Drug Brings Hope for Alzheimer's Treatment",
+    "publisher": "CAS Newsroom (English)",
+    "year": 2019,
+    "url": "https://english.cas.cn/Special_Reports/2018_Highlight_Researches_in_CAS/201901/t20190122_204882.html"
+  },
+  {
+    "id": "gv971-nmpa-approval-2019",
+    "authors": "Green Valley Pharmaceutical / PR Newswire",
+    "title": "Green Valley Announces NMPA Approval Of Oligomannate For Mild To Moderate Alzheimer's Disease",
+    "publisher": "PR Newswire",
+    "year": 2019,
+    "url": "https://www.prnewswire.com/news-releases/green-valley-announces-nmpa-approval-of-oligomannate-for-mild-to-moderate-alzheimers-disease-300950349.html"
+  },
+  {
+    "id": "cemcs-rename-2020",
+    "authors": "CAS Center for Excellence in Molecular Cell Science",
+    "title": "About Us — CEMCS (renamed from SIBCB, March 2020)",
+    "publisher": "CEMCS (official English site)",
+    "year": 2024,
+    "url": "http://english.cemcs.cas.cn/about/"
+  },
+  {
+    "id": "project-523-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "Project 523",
+    "publisher": "Wikipedia",
+    "year": 2025,
+    "url": "https://en.wikipedia.org/wiki/Project_523"
+  },
+  {
+    "id": "cas-knowledge-innovation-program",
+    "authors": "Chinese Academy of Sciences",
+    "title": "National Knowledge Innovation Program — CAS History",
+    "publisher": "CAS (official English site)",
+    "year": 2022,
+    "url": "https://english.cas.cn/about_us/introduction/CAS_History/202212/t20221201_325183.shtml"
   }
 ]

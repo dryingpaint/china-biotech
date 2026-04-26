@@ -88,91 +88,340 @@
   },
   {
     "id": "tsinghua",
-    "name": "Tsinghua University School of Medicine",
-    "nameZh": "清华大学医学院",
-    "founded": 2001,
-    "headquarters": "Beijing",
+    "name": "Tsinghua University (School of Life Sciences + School of Medicine)",
+    "nameZh": "清华大学",
+    "founded": 1911,
+    "headquarters": "Beijing (Haidian District)",
     "category": "academic",
-    "shortDescription": "Re-established 2001 as part of Tsinghua's expansion into life sciences; major returnee-PI destination through the 2010s.",
-    "signature": "Talent pipeline",
-    "narrativeHook": "When Tsinghua re-opened its medical school in 2001 it became one of the central landing pads for the haigui (returnee-scientist) wave — Yigong Shi's structural-biology lab was the highest-profile early arrival before Shi later left to found Westlake.",
-    "verified": false,
+    "subcategory": "University",
+    "shortDescription": "Tsinghua's life-sciences cluster spans the School of Life Sciences (Department of Biology founded 1926, dissolved 1952, re-established 1984; renamed School of Life Sciences 2009), the School of Medicine (founded 25 October 2001), and the Tsinghua-Peking Center for Life Sciences (CLS, established 2011 jointly with PKU). The campus is China's most concentrated structural-biology hub, anchored by the Beijing Advanced Innovation Center for Structural Biology (2015) and one of Asia's earliest Titan Krios cryo-EM facilities.",
+    "signature": "Structural-biology powerhouse",
+    "narrativeHook": "Tsinghua's life-sciences expansion was driven by the post-2007 returnee wave — Yigong Shi rejected a $10M HHMI award and an endowed Princeton chair to become dean of the School of Life Sciences in 2008, recruited Nieng Yan and Hongwei Wang, and persuaded the university to invest in what became Asia's first Titan Krios cryo-EM core. Even after Shi left in January 2018 to found Westlake University, the platform he built kept producing landmark cryo-EM structures (γ-secretase, the yeast spliceosome, Nav sodium channels), and the joint Tsinghua-PKU Center for Life Sciences (co-directed by Shi and Rao Yi from 2011) became the country's flagship Western-style PI program.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
     "academicContext": {
-      "affiliation": "Tsinghua University · Ministry of Education",
+      "affiliation": "Tsinghua University, Ministry of Education. Life-sciences research is organized across the School of Life Sciences (1926; re-established 1984; renamed 2009), the School of Medicine (2001, restructured 2023–2024 into five sub-schools including Basic Medical Sciences, Clinical Medicine, Biomedical Engineering, Pharmaceutical Sciences and Vanke Public Health), the Beijing Advanced Innovation Center for Structural Biology / Beijing Frontier Research Center for Biological Structure (founded 2015 with Shi Yigong as inaugural director), and the Tsinghua-Peking Center for Life Sciences (CLS, joint with PKU since 2011).",
       "keyPIs": [
         {
-          "name": "Yigong Shi",
-          "lab": "Structural biology (departed 2018 to lead Westlake)",
-          "area": "Cryo-EM membrane proteins"
+          "name": "Shi Yigong",
+          "lab": "Structural biology — dean of School of Life Sciences 2009–2016; vice president of Tsinghua 2015–2018; founding director of the Beijing Advanced Innovation Center for Structural Biology (2015); departed January 2018 to lead Westlake University",
+          "area": "Cryo-EM of intramembrane proteases and the spliceosome — atomic-resolution structure of human γ-secretase (Nature 2015, 3.4 Å), the catalytic complex implicated in Alzheimer's disease; structure of a yeast spliceosome at 3.6 Å (two side-by-side Science papers, August 2015), the first near-atomic spliceosome structure. 2017 Future Science Prize in Life Sciences for the spliceosome work. Rejected a $10M HHMI investigator award and Princeton's Warner-Lambert/Parke-Davis endowed chair in 2008 to return to Tsinghua."
+        },
+        {
+          "name": "Yan Nieng (颜宁)",
+          "lab": "Membrane-protein structural biology — Tsinghua faculty 2007–2017, Princeton 2017–2022, returned to lead Shenzhen Medical Academy of Research and Translation December 2022 (concurrent Tsinghua appointment)",
+          "area": "Structural biology of glucose transporters and voltage-gated ion channels — first crystal structure of human GLUT1 (Nature 2014); first cryo-EM structure of a eukaryotic voltage-gated sodium channel (NavPaS, Science 2017) and subsequently human Nav1.7 / Nav1.4 / Nav1.6, charting the molecular basis of pain, epilepsy and cardiac arrhythmias. HHMI International Early Career Scientist 2012; NAS member 2022; PhD with Shi at Princeton 2000–2004."
+        },
+        {
+          "name": "Wang Hong-Wei",
+          "lab": "Cryo-EM of macromolecular complexes — joined Tsinghua 2010 from Yale; dean of School of Life Sciences 2016–2021",
+          "area": "Cryo-EM methodology and RNA-processing machinery — drove Tsinghua's expansion of its cryo-EM core after his 2010–2011 return; published the smallest protein ever solved by single-particle cryo-EM at near-atomic resolution (52 kDa streptavidin at 3.2 Å, Nature Communications 2019), a methodology benchmark for the field."
+        },
+        {
+          "name": "Dong Chen",
+          "lab": "Institute for Immunology, Tsinghua — dean of School of Medicine 2016–2020",
+          "area": "T-helper-cell biology — co-discoverer of the Th17 lineage (Nature Immunology 2005), and a defining contributor to characterising IL-17 / RORγt and the Tfh subset; clarivate Highly Cited Researcher 2017–present; 2019 BioLegend William E. Paul Award. Therapies targeting the IL-17/IL-23 axis (secukinumab, risankizumab, etc.) trace their biological rationale to this lineage definition."
+        },
+        {
+          "name": "Li Xueming",
+          "lab": "Cryo-EM methods development; School of Life Sciences (joined 2014)",
+          "area": "Cryo-EM software and detector physics — co-inventor of the MotionCorr motion-correction program (developed during postdoc with Yifan Cheng/David Agard at UCSF, used field-wide for cryo-EM data) and lead author on Tsinghua's THUNDER particle-filter 3D-reconstruction package and the EPicker continual-learning particle picker."
+        },
+        {
+          "name": "Jia Yichang",
+          "lab": "School of Medicine; vice dean of Basic Medical Sciences; PI at Tsinghua-Peking CLS and IDG/McGovern Institute for Brain Research at Tsinghua",
+          "area": "Neurogenetics and gene therapy — lab work on TRIM72 as a multifunctional neuroprotectant became the foundation of SineuGene Therapeutics' lead asset SNUG01, an AAV gene therapy for ALS that received FDA Orphan Drug Designation and IND clearance in 2025."
         }
       ],
-      "hookFact": "Tsinghua School of Medicine and PKU School of Basic Medical Sciences together produced a meaningful share of the biotech founders and senior scientists at China's innovator-generation companies."
+      "spinoutEntityIds": [
+        "innocare"
+      ],
+      "hookFact": "When Shi Yigong became dean of Tsinghua's School of Life Sciences in 2008, the university had no high-end cryo-EM capability. By 2011 it had installed the first Titan Krios microscope in China and Asia and recruited Hongwei Wang from Yale to expand the EM facility — the platform that produced the human γ-secretase atomic structure (Nature 2015), the first eukaryotic spliceosome structure (Science 2015) and the first eukaryotic voltage-gated sodium channel structure (Science 2017) within roughly five years."
     },
     "timeline": [
       {
+        "chapterId": "republican-foundations",
+        "status": "Department of Biology established at Tsinghua University in August 1926 with botanist Qian Chongshu as founding dean. Merged with PKU's biology unit during wartime evacuation to form the National South-West Associated University (1937)."
+      },
+      {
+        "chapterId": "insulin-and-artemisinin",
+        "status": "Department of Biology dissolved during the 1952 nationwide university reorganization, with biology faculty absorbed into Peking University and other institutions; Tsinghua had no biology department for 32 years."
+      },
+      {
+        "chapterId": "reform-and-opening",
+        "status": "June 1984 decision to restore biology at Tsinghua; the Department of Biological Sciences and Biotechnology re-opens September 1984 under dean Pu Muming, with support from PKU's Biology Department and the CAS Institute of Biophysics."
+      },
+      {
         "chapterId": "platforms-and-parks",
-        "status": "Re-established 2001 amid Tsinghua's life-sciences expansion."
+        "status": "Tsinghua University School of Medicine established 25 October 2001 with Wu Jieping (CAS and CAE academician) as founding dean; first class of 61 students. Shi Yigong returns from Princeton in 2008 to become dean of the School of Life Sciences, declining a $10M HHMI investigator award; Nieng Yan returns 2007 as one of the youngest professors at Tsinghua."
       },
       {
         "chapterId": "innovator-generation",
-        "status": "Major destination for returnee PIs through the 2010s."
+        "status": "First Titan Krios cryo-EM in China and Asia installed at Tsinghua circa 2010–2011; Hongwei Wang joins from Yale 2010 to expand the EM core. Tsinghua-Peking Center for Life Sciences (CLS) established 2011 with Shi (Tsinghua side) and Rao Yi (PKU side) as co-directors. School of Life Sciences renamed from Department of Biological Sciences and Biotechnology in September 2009."
+      },
+      {
+        "chapterId": "bi-jingquan-bigbang",
+        "status": "August 2015: Shi Yigong's group publishes the human γ-secretase atomic structure (Nature, 3.4 Å) and the yeast spliceosome at 3.6 Å (two Science papers) — the year Tsinghua structural biology becomes globally visible. Beijing Advanced Innovation Center for Structural Biology established 2015 under Shi as director. InnoCare Pharma co-founded August 2015 by Shi Yigong and Jisong Cui (orelabrutinib BTK inhibitor)."
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "January 2018: Shi Yigong resigns Tsinghua vice presidency to become founding president of Westlake University. Chen Dong serves as dean of the School of Medicine 2016–2020, expanding the Institute for Immunology. February 2017: Nieng Yan publishes first eukaryotic voltage-gated sodium channel cryo-EM structure (NavPaS, Science) before departing for Princeton in 2017."
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "March 2020: Tsinghua spinout InnoCare Pharma lists on HKEX (09969) raising US$289 million; Shi Yigong serves on its Scientific Advisory Board. June 2019: Wang Hongwei's group publishes 3.2 Å cryo-EM structure of 52 kDa streptavidin (Nature Communications), a methodology record for small-protein cryo-EM."
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "Late 2021: SineuGene Therapeutics founded by Yichang Jia (vice dean, School of Basic Medical Sciences) on TRIM72 neuroprotection research. Tsinghua School of Medicine major restructuring announced 2023–2024 into five sub-schools."
+      },
+      {
+        "chapterId": "going-global",
+        "status": "December 2022: Nieng Yan returns from Princeton to lead the new Shenzhen Medical Academy of Research and Translation (concurrent Tsinghua appointment). 2023: SineuGene's SNUG01 receives FDA Orphan Drug Designation; first-in-class TRIM72 gene therapy for ALS."
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "2025: SineuGene SNUG01 cleared for global ALS trials in China and the US. By the mid-2020s Tsinghua's life-sciences cluster ranks #15 globally in Times Higher Education's medical and health subject ranking; the Beijing Frontier Research Center for Biological Structure (successor to ICSB) continues to be one of the world's most prolific cryo-EM hubs."
       }
     ],
-    "sources": []
+    "sources": [
+      "tsinghua-sls-history",
+      "tsinghua-medicine-history",
+      "tsinghua-medicine-wikipedia",
+      "shi-yigong-wikipedia",
+      "shi-yigong-westlake-bio",
+      "shi-yigong-future-prize-2017",
+      "tsinghua-shi-spliceosome-science-2015",
+      "shi-gamma-secretase-nature-2015",
+      "nieng-yan-wikipedia",
+      "yan-glut1-princeton",
+      "yan-nav16-pnas-2023",
+      "wang-hongwei-frcbs-bio",
+      "wang-streptavidin-natcomm-2019",
+      "dong-chen-iitu-bio",
+      "dong-th17-nri-2021",
+      "tsinghua-icsb-overview",
+      "li-xueming-thuem",
+      "cls-tsinghua-pku",
+      "innocare-cui-yigong-shi",
+      "sineugene-about-tsinghua",
+      "biological-cryoem-china-2017"
+    ]
   },
   {
     "id": "peking-university",
     "name": "Peking University",
     "nameZh": "北京大学",
     "founded": 1898,
-    "headquarters": "Beijing",
+    "headquarters": "Beijing (Haidian — main campus; Health Science Center on Xueyuan Road)",
     "category": "academic",
-    "shortDescription": "China's oldest modern university; the Health Science Center and School of Life Sciences are central to the country's biomedical research base.",
-    "signature": "Research + talent",
-    "narrativeHook": "Founded in 1898 as Imperial University of Peking, PKU's Health Science Center and School of Life Sciences anchor much of Beijing's biomedical research output and have trained an outsized share of Chinese biotech's founding scientists.",
-    "verified": false,
+    "subcategory": "Comprehensive research university",
+    "shortDescription": "China's oldest modern university (founded 1898 as the Imperial University of Peking). Biomedical research is anchored by the School of Life Sciences, the Health Science Center (PUHSC, the former Beijing Medical University, merged back into PKU in 2000) and the cross-institute Biomedical Pioneering Innovation Center (BIOPIC) / Beijing Advanced Innovation Center for Genomics (ICG). Internationally best-known for single-cell genomics methods (MALBAC, single-cell RNA-seq) and chemical reprogramming of pluripotent stem cells.",
+    "signature": "Single-cell genomics + stem-cell reprogramming",
+    "narrativeHook": "Founded in 1898 as the Imperial University of Peking, PKU's biomedical footprint runs through three different organisational layers — the School of Life Sciences in Haidian, the Health Science Center (an ex-independent Beijing Medical University reabsorbed in 2000, with eleven schools including Basic Medical Sciences, Pharmaceutical Sciences and three clinical hospitals), and from 2010 the Biomedical Pioneering Innovation Center (BIOPIC), set up by Sunney Xie when he was still a Harvard professor. BIOPIC, rebadged in 2016 as the Beijing Advanced Innovation Center for Genomics, became the home of Xie's MALBAC method, Tang Fuchou's single-cell sequencing platform and Zemin Zhang's tumour-immune atlases. In parallel, Deng Hongkui's group in the School of Life Sciences turned chemical reprogramming of somatic cells into pluripotent stem cells from a 2013 mouse proof-of-concept (Science) into a 2022 human protocol (Nature) and a 2024 islet-cell diabetes case in non-human primates and humans.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
     "academicContext": {
-      "affiliation": "Ministry of Education",
-      "hookFact": "PKU is consistently the top-ranked research university in mainland China alongside Tsinghua, and dominates the talent pipeline for Beijing-area biotech firms."
+      "affiliation": "Ministry of Education (副部级 / vice-ministerial 'Double First Class' university). Biomedical research sits across (i) the School of Life Sciences in the main Haidian campus, (ii) the Health Science Center (PUHSC) on Xueyuan Road — eleven schools including Basic Medical Sciences, Pharmaceutical Sciences, Public Health, Stomatology and three clinical-medicine schools (Peking University First, People's, Third Hospitals), formerly the independent Beijing Medical University 1952–2000, and (iii) the Biomedical Pioneering Innovation Center (BIOPIC, 2010) / Beijing Advanced Innovation Center for Genomics (ICG, 2016) cross-disciplinary institute, plus the joint Tsinghua–Peking Center for Life Sciences (CLS, established 2011).",
+      "keyPIs": [
+        {
+          "name": "Xiaoliang Sunney Xie (谢晓亮)",
+          "lab": "Biomedical Pioneering Innovation Center (BIOPIC) — founder and director 2010–2021; Beijing Advanced Innovation Center for Genomics (ICG) — director 2016–2021; Lee Shau-kee Professor since July 2018",
+          "area": "Single-molecule biophysical chemistry and single-cell genomics — co-developed Multiple Annealing and Looping-Based Amplification Cycles (MALBAC) for single-cell whole-genome amplification (Zong et al., Science 2012); MALBAC enabled the world's first MALBAC-based preimplantation genetic screening live birth at PKU Third Hospital with Qiao Jie's group in 2014 and the MARSALA monogenic-disease + aneuploidy method (Yan et al., PNAS 2015). At BIOPIC, Cao Yunlong's team used high-throughput single-cell BCR sequencing of convalescent COVID-19 patients to identify BD-368-2 and related neutralising antibodies (Cao et al., Cell 2020), and later mapped the Omicron escape landscape (Cao et al., Nature 2022). Returnee from Harvard — first ethnic-Chinese tenured Harvard professor (1999); fully relocated to PKU full-time in July 2018. NAS member 2011; National Academy of Medicine 2016; Albany Medical Center Prize 2015."
+        },
+        {
+          "name": "Tang Fuchou (汤富酬)",
+          "lab": "BIOPIC / School of Life Sciences — PI since 2010",
+          "area": "Single-cell transcriptomics and epigenomics. While a postdoc with Azim Surani at the Gurdon Institute, Cambridge, published the first single-cell mRNA-seq method (Tang et al., Nature Methods 2009, on a single mouse blastomere) and the corresponding single-cell RNA-seq protocol (Nature Protocols 2010). Started his lab at BIOPIC in 2010 and built single-cell DNA methylome (scRRBS) and multi-omics methods, including single-cell DNA methylome sequencing of human preimplantation embryos (Zhu et al., Nature Genetics 2018) and single-cell multi-omics sequencing of human early embryos (Li et al., Nature Cell Biology 2018)."
+        },
+        {
+          "name": "Deng Hongkui (邓宏魁)",
+          "lab": "School of Life Sciences / Institute of Stem Cell Research — Boya Chair Professor",
+          "area": "Pluripotent stem-cell reprogramming. With Yang Zhao demonstrated that mouse fibroblasts can be reprogrammed to chemically induced pluripotent stem cells (CiPSCs) using only a seven-small-molecule cocktail (Hou et al., Science 2013) — a transgene-free alternative to Yamanaka factors. Extended the platform to human somatic cells (Guan et al., Nature 2022, hCiPSCs). Separately led the first clinical use of CRISPR/Cas9-edited CCR5-knockout autologous hematopoietic stem-cells in an HIV-infected leukaemia patient (Xu et al., NEJM 2019) — Deng was named to Nature's 10 the same year. 2024 Future Science Prize in Life Sciences."
+        },
+        {
+          "name": "Cheng Heping (程和平)",
+          "lab": "College of Future Technology — Institute of Molecular Medicine; Director of the National Biomedical Imaging Center",
+          "area": "Calcium signalling and mitochondrial bioenergetics. As a graduate student in Jonathan Lederer's lab at Maryland, co-discovered cardiac 'Ca2+ sparks' — the elementary intracellular calcium release events through ryanodine receptors (Cheng, Lederer & Cannell, Science 1993) — a foundational paper of modern cell physiology. At PKU, identified mitochondrial flashes (mitoflashes, 2008) and built a high-resolution miniature two-photon microscope for free-moving mice (Nature Methods 2017). CAS academician."
+        },
+        {
+          "name": "Zhang Zemin (张泽民)",
+          "lab": "BIOPIC — Director from 2021 (succeeded Sunney Xie); Boya Chair Professor",
+          "area": "Cancer genomics and tumour-immune single-cell atlases. After 16 years at Genentech leading cancer genomics, joined PKU in 2014. His lab produced some of the most cited single-cell maps of tumour-infiltrating T cells in liver (Zheng et al., Cell 2017), lung (Guo et al., Nature Medicine 2018) and colorectal cancers (Zhang et al., Nature 2018), and showed clonal revival of precursor-exhausted T cells under anti-PD-1 therapy in lung cancer (Liu et al., Nature Medicine 2022). Now BIOPIC director."
+        }
+      ],
+      "hookFact": "BIOPIC's founding move — a Harvard tenured professor (Sunney Xie) building a cross-disciplinary single-cell-genomics centre at PKU starting 2010 while still based in Cambridge, MA — became the template for the cross-Pacific 'returnee' centre model and produced both the MALBAC IVF babies (2014–) and the BD-368-2 / BRII-198-class COVID neutralising antibodies that PKU licensed into Brii Biosciences in 2020."
     },
     "timeline": [
       {
         "chapterId": "republican-foundations",
-        "status": "Founded 1898; renamed Peking University 1912."
+        "status": "Founded 1898 as the Imperial University of Peking (京师大学堂); renamed Peking University 1912. The medical wing — established 1903 as the Medical Branch — would later split off in 1952 as Beijing Medical University."
+      },
+      {
+        "chapterId": "reform-and-opening",
+        "status": "School of Life Sciences re-formed 1993 by merger of older biology, biochemistry and physiology departments; sits in Haidian on the main PKU campus."
+      },
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "April 2000 — independent Beijing Medical University (1952–2000) merges back into PKU as the Health Science Center (PUHSC), giving PKU eleven medical schools and the First / People's / Third clinical hospitals. 2007 — Rao Yi returns from Northwestern to be Dean of the School of Life Sciences."
       },
       {
         "chapterId": "innovator-generation",
-        "status": "Biomedical research output and PhD pipeline scaled with the post-2010 talent return wave."
+        "status": "BIOPIC founded 2010 by Harvard professor Sunney Xie (originally the Biodynamic Optical Imaging Center). Tang Fuchou — first single-cell mRNA-seq author at Cambridge in 2009 — sets up his lab at BIOPIC the same year. 2011 — Tsinghua–Peking Center for Life Sciences (CLS) joint program launches. 2012 — Xie group publishes MALBAC (Zong et al., Science). 2013 — Deng Hongkui's group reports the first chemically-induced pluripotent stem cells in mouse (Hou et al., Science)."
+      },
+      {
+        "chapterId": "bi-jingquan-bigbang",
+        "status": "September 2014 — first MALBAC IVF baby born at PKU Third Hospital (Qiao Jie's group + Xie lab). 2015 — MARSALA monogenic-disease + aneuploidy method (Yan et al., PNAS). 2016 — Beijing Municipal Education Commission upgrades BIOPIC to the Beijing Advanced Innovation Center for Genomics (ICG); Xie chairs both."
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "July 2018 — Sunney Xie formally relocates to PKU full-time as Lee Shau-kee Professor, leaving his Harvard chair. 2019 — Deng Hongkui & Chen Hu publish first CRISPR-edited CCR5-KO HSC transplant in an HIV/leukaemia patient (Xu et al., NEJM); Deng named to Nature's 10."
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "May 2020 — Cao Yunlong et al. (BIOPIC) publish single-cell-sequencing-derived SARS-CoV-2 neutralising antibody panel including BD-368-2 in Cell; the antibody platform underpins Brii Biosciences' BRII-196/198 cocktail (FDA EUA 2021)."
+      },
+      {
+        "chapterId": "going-global",
+        "status": "2021 — Xie steps down as BIOPIC/ICG director; Zhang Zemin succeeds him at BIOPIC. April 2022 — Deng Hongkui's group publishes chemical reprogramming of human somatic cells to hCiPSCs in Nature (Guan et al.). January 2022 — Cao et al. map Omicron antibody escape landscape in Nature. 2024 — Deng wins Future Science Prize; first hCiPSC-derived islet transplant reverses type-1 diabetes in a human patient (Cell 2024)."
       }
     ],
-    "sources": []
+    "sources": [
+      "pku-wikipedia",
+      "pkuhsc-wikipedia",
+      "biopic-pku-about",
+      "icg-pku-about",
+      "sunney-xie-wikipedia",
+      "sunney-xie-pku-news-2017",
+      "zong-malbac-science-2012",
+      "pku-malbac-baby-2014",
+      "yan-marsala-pnas-2015",
+      "tang-mrna-seq-natmethods-2009",
+      "tang-fuchou-pku-faculty",
+      "zhu-scmethylome-natgenet-2018",
+      "deng-hongkui-wikipedia",
+      "hou-cipsc-science-2013",
+      "guan-hcipsc-nature-2022",
+      "xu-ccr5-nejm-2019",
+      "deng-future-science-2024",
+      "cheng-sparks-science-1993",
+      "cheng-heping-pku-faculty",
+      "zhang-zemin-biopic-faculty",
+      "cao-bd368-cell-2020",
+      "cao-omicron-nature-2022",
+      "rao-yi-wikipedia",
+      "tsinghua-pku-cls-about"
+    ]
   },
   {
     "id": "fudan-university",
     "name": "Fudan University",
     "nameZh": "复旦大学",
     "founded": 1905,
-    "headquarters": "Shanghai",
+    "headquarters": "Shanghai (Handan, Fenglin, Jiangwan and Zhangjiang campuses)",
     "category": "academic",
-    "shortDescription": "Shanghai's flagship comprehensive university; School of Basic Medical Sciences and the affiliated Shanghai Cancer Center anchor the city's biomedical research cluster.",
-    "signature": "Shanghai research cluster",
-    "narrativeHook": "Founded by the Jesuit-trained Ma Xiangbo in 1905 as Fudan Public School and reorganized into its modern comprehensive university form in the 1950s, Fudan's School of Basic Medical Sciences and its affiliated hospital network form the anchor of the Shanghai biomedical research base.",
-    "verified": false,
+    "subcategory": "University",
+    "shortDescription": "Shanghai's flagship comprehensive research university; the post-2000 merger with Shanghai Medical University consolidated the city's biomedical base around the School of Basic Medical Sciences, the Institutes of Biomedical Sciences (IBS), the Institutes of Brain Science (IOBS), the Institute for Translational Brain Research, and an 11-hospital affiliated clinical network anchored by Zhongshan, Huashan and the Shanghai Cancer Center.",
+    "signature": "Shanghai biomedical anchor",
+    "narrativeHook": "Founded in 1905 as Fudan Public School by the Jesuit-trained reformer Ma Xiangbo and renamed Fudan University in 1917, Fudan absorbed Shanghai Medical University on 27 April 2000 — fusing China's oldest privately-founded university with what had been the medical school of National Sun Yat-sen University (1927). The post-merger reorganization of basic-science research into the School of Basic Medical Sciences (rebranded 2002), the Institutes of Biomedical Sciences (IBS, founded 2005 by proteomics pioneer He Fuchu), and the Institutes of Brain Science (IOBS, 2006, founding director Yang Xiongli) made Fudan one of the two principal anchors of the Shanghai biomedical cluster alongside CAS' Shanghai Institute of Materia Medica.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
     "academicContext": {
-      "affiliation": "Ministry of Education",
-      "hookFact": "Fudan's Hospital Management Institute publishes the de facto national hospital ranking (since 2009)."
+      "affiliation": "Ministry of Education direct affiliate (985 / Double First-Class); 11 affiliated hospitals including Zhongshan, Huashan and Fudan University Shanghai Cancer Center. QS World University Rankings 2026: #30 globally.",
+      "keyPIs": [
+        {
+          "name": "Zhang Yongzhen",
+          "lab": "Shanghai Public Health Clinical Center BSL-3 lab; concurrent professor at Fudan University School of Public Health",
+          "area": "RNA virology and viral genomics — sequenced the SARS-CoV-2 genome between 3 and 5 January 2020 within ~40 hours of receiving the Wuhan patient sample; uploaded the sequence to NCBI on 5 January and authorized Edward C. Holmes to release it publicly on virological.org on 11 January 2020 (the data underlying nearly every COVID-19 vaccine and diagnostic). Named to Nature's 10 in 2020. With Holmes co-authored the foundational Nature paper 'A new coronavirus associated with human respiratory disease in China' (Wu et al., February 2020). Lab was abruptly ordered closed for 'rectification' the day after publication; access partially restored after a public 2024 sit-in protest."
+        },
+        {
+          "name": "Junbo Ge",
+          "lab": "Director, Institutes of Biomedical Sciences (IBS, since 2017); Director of Cardiology, Zhongshan Hospital; Head of the Shanghai Institute of Cardiovascular Diseases",
+          "area": "Interventional cardiology and cardiovascular research — Chinese Academy of Sciences academician (2011); described the 'half-moon phenomenon' of intravascular ultrasound for diagnosing myocardial bridging and developed the reverse-guidewire technique for chronic total-occlusion PCI. Runs IBS as a 60-PI hub with a national co-laboratory in medical epigenetics and metabolism."
+        },
+        {
+          "name": "Xu Guoliang",
+          "lab": "Executive Director, Institutes of Biomedical Sciences (IBS); Laboratory of Epigenetics — joint appointment with the CAS Center for Excellence in Molecular Cell Science",
+          "area": "DNA methylation and TET enzymes — landmark Nature 2011 paper (Gu et al.) showed that the dioxygenase Tet3 specifically oxidizes 5-methylcytosine to 5-hydroxymethylcytosine in the paternal pronucleus of the mouse zygote, providing the molecular mechanism for active DNA demethylation in early embryos. 2022 Nature paper (Chen et al.) demonstrated transgenerational maternal inheritance of glucose intolerance via oocyte TET3 insufficiency."
+        },
+        {
+          "name": "Xu Yanhui",
+          "lab": "Joint laboratory between Fudan University Shanghai Cancer Center and the Institutes of Biomedical Sciences",
+          "area": "Cryo-EM structural biology of the transcription machinery — solved the first complete human pre-initiation complex (PIC) containing TFIID and the first structure of the PIC–Mediator complex (Science 2021), reframing how RNA polymerase II is loaded at promoters. Co-led the cryo-EM structure of human DNA-PK holoenzyme (2017) and human ATR-ATRIP (2018). 2021 Tencent Xplorer Prize."
+        },
+        {
+          "name": "Lin Xinhua",
+          "lab": "Dean of the School of Life Sciences; State Key Laboratory of Genetic Engineering (Department of Cell and Developmental Biology)",
+          "area": "Developmental signalling — established that heparan sulfate proteoglycans (especially glypicans) are obligate co-receptors for Wnt, Hedgehog, BMP and FGF morphogens (built first at Cincinnati Children's, ported to Fudan when he became dean). Recruitment exemplifies the post-2010 returnee wave that built Fudan's life-sciences faculty."
+        },
+        {
+          "name": "Yang Xiongli",
+          "lab": "Founding Director, Institutes of Brain Science (IOBS, 2006–2015)",
+          "area": "Visual neuroscience and retinal physiology — CAS academician; led IOBS's establishment under the 985 Program with focus on sensory neurobiology and vision restoration. Now succeeded by Lan Ma; IOBS today operates 44 full-time PI labs and merged with the State Key Laboratory of Medical Neurobiology in 2015."
+        }
+      ],
+      "spinoutEntityIds": [
+        "abogen",
+        "fudan-cancer-hospital"
+      ],
+      "hookFact": "Fudan's Hospital Management Institute has published the de facto national hospital ranking — the 'China Hospital Rankings' — every November since 2010 (NOT 2009), making it the longest-running annual hospital-quality report in China; the rankings combine surveys of ~3,969 board-certified physicians across 27+ specialties with hospital research output. Fudan's own Shanghai Cancer Center, Zhongshan Hospital and Huashan Hospital are perennial top-10 entries on the lists Fudan publishes."
     },
     "timeline": [
       {
         "chapterId": "republican-foundations",
-        "status": "Founded 1905 as Fudan Public School."
+        "status": "Founded 14 September 1905 as Fudan Public School (复旦公学) in Wusong by Ma Xiangbo with ~130 students who had walked out of Zhendan Academy after Jesuit board members tried to seize control; renamed Fudan University in 1917. The name is drawn from the line 'Brilliant are the sunshine and moonlight, again the morning radiance returns at dawn' in the Yu and Xia commentaries to the Classic of History."
       },
       {
         "chapterId": "platforms-and-parks",
-        "status": "Modern reorganization with Shanghai Medical University merger (2000)."
+        "status": "27 April 2000: Fudan absorbs Shanghai Medical University (the former medical school of National Sun Yat-sen University, established 1927) in the central-government 985-Program merger wave, fusing comprehensive-university and medical-school research lines under one ministry. 2002: medical pre-clinical departments reorganized as the School of Basic Medical Sciences. 2005: Institutes of Biomedical Sciences (IBS) founded by proteomics pioneer He Fuchu. 2006: Institutes of Brain Science (IOBS) founded under Yang Xiongli with 985-Program support."
+      },
+      {
+        "chapterId": "innovator-generation",
+        "status": "2010: Fudan University Hospital Management Institute publishes the first 'China Hospital Rankings' — the survey-plus-research-output methodology that has since become the de facto national league table, anchoring a Beijing/Shanghai oligopoly atop the lists. 2011: Xu Guoliang's lab publishes the foundational Nature paper showing TET3 catalyses paternal-genome 5mC oxidation in the zygote, opening the field of active DNA demethylation in mammals."
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "Junbo Ge (cardiology / Zhongshan) becomes IBS Director in 2017 with Xu Guoliang as Executive Director; IBS scales to ~60 PIs across medical epigenetics, structural biology, metabolism and tumour immunology. Shao Zhimin's group at Fudan University Shanghai Cancer Center begins the FUTURE umbrella trial (NCT03805399) testing subtype-directed therapy for refractory metastatic TNBC under the 'Fudan TNBC classification' (Cell Research 2020 — the first prospective umbrella trial in TNBC anywhere)."
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "3–5 January 2020: Zhang Yongzhen's lab (Shanghai Public Health Clinical Center / Fudan School of Public Health) sequences the SARS-CoV-2 genome from a Wuhan patient sample; on 11 January 2020 he authorizes Edward Holmes to publish the sequence on virological.org — the data underpinning the first PCR assays and every initial COVID-19 vaccine candidate. Lab is ordered closed for 'rectification' on 12 January."
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Xu Yanhui's group reports the first complete human PIC–Mediator cryo-EM structure (Science 2021) and is awarded the 2021 Tencent Xplorer Prize. Shao Zhimin's FUTURE-SUPER first-line subtyping-based phase 2 trial (NCT04395989) reports significant PFS improvement over nab-paclitaxel in metastatic TNBC (Lancet Oncology 2024). Fudan-alumni-founded Abogen Biosciences (founder Bo Ying, BSc/MSc Fudan School of Life Sciences 1997–2004) becomes China's first mRNA-vaccine unicorn after a $700M Series C in 2021."
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "April 2024: Zhang Yongzhen stages a multi-day sit-in outside his sealed Shanghai lab after authorities again restrict access; international coverage (Nature, CNN, SCMP) prompts partial restoration. Fudan ranks #30 in QS World University Rankings 2026, with Pharmacy & Pharmacology in the global top 35 — the highest-ranked Chinese university in life-sciences subjects after Tsinghua/PKU."
       }
     ],
-    "sources": []
+    "sources": [
+      "fudan-university-wikipedia",
+      "fudan-en-about-history",
+      "shanghai-medical-college-fudan-wikipedia",
+      "fudan-ibs-about-en",
+      "fudan-iobs-about-en",
+      "fudan-rankings-narrative-review-2022",
+      "fudan-hospital-rankings-jhmhp-2018",
+      "zhang-yongzhen-wikipedia",
+      "zhang-yongzhen-virological-jan-2020",
+      "wu-zhang-holmes-nature-2020-sars-cov-2",
+      "zhang-yongzhen-cnn-2024-sit-in",
+      "zhang-yongzhen-nature-2024-lab",
+      "xu-guoliang-tet3-nature-2011",
+      "xu-guoliang-tet3-oocyte-nature-2022",
+      "fudan-yanhui-xu-2021-fudan-en",
+      "fudan-yanhui-xu-xplorer-2022",
+      "junbo-ge-scai-bio",
+      "fudan-iobs-yang-xiongli-bio",
+      "fudan-life-sciences-en",
+      "fudan-tnbc-future-umbrella-cell-research-2020",
+      "future-super-tnbc-lancet-oncology-2024",
+      "future-c-plus-nature-medicine-2022",
+      "fudan-alumni-unicorns-2024",
+      "fiercebiotech-abogen-700m-series-c"
+    ]
   },
   {
     "id": "shanghaitech",
@@ -252,44 +501,91 @@
     "founded": 1949,
     "headquarters": "Beijing (HQ); national network of 100+ institutes",
     "category": "academic",
-    "shortDescription": "China's primary national research network; Shanghai Institute of Materia Medica and BGI (originally an affiliated non-governmental institute) are key biomedical anchors.",
-    "signature": "National research network",
-    "narrativeHook": "Established 14 days after the founding of the People's Republic in 1949 on the Soviet academy template, CAS today runs more than a hundred institutes — and produced both the artemisinin work that won Tu Youyou the 2015 Nobel Prize and the Shanghai Institute of Materia Medica that anchors Chinese drug-discovery science.",
-    "verified": false,
+    "subcategory": "Research network",
+    "shortDescription": "China's primary national research network, established November 1949 on the Soviet academy template and directly administered by the State Council. Within biomedicine the flagship institutes are the Shanghai Institute of Materia Medica (SIMM, drug discovery), the Shanghai Institute of Biochemistry and Cell Biology / CEMCS (synthetic insulin 1965; modern molecular cell biology), the Institute of Biophysics in Beijing (structural biology), the Institute of Microbiology (vaccines and immunology) and the Institute of Neuroscience (neurobiology, primate cloning).",
+    "signature": "National research network — SIMM, SIBCB/CEMCS, IBP, ION",
+    "narrativeHook": "Founded on 1 November 1949, two weeks after the founding of the People's Republic, on the Soviet academy template, CAS today runs more than 100 institutes and remains the institutional spine of Chinese basic biomedical research. Its 1965 synthesis of crystalline bovine insulin at the Shanghai Institute of Biochemistry under Wang Yinglai was the first total chemical synthesis of a protein anywhere in the world; six decades later CAS institutes anchor Chinese drug discovery (SIMM/Green Valley's GV-971 oligomannate, the first novel Alzheimer's drug approved globally since 2003), structural biology (Rao Zihe's SARS-CoV-2 main-protease and polymerase structures from the Institute of Biophysics, January 2020) and primate neuroscience (Mu-Ming Poo's somatic-cell-nuclear-transfer cloning of macaques Zhong Zhong and Hua Hua at the Institute of Neuroscience, 2017).",
+    "verified": true,
+    "lastVerified": "2026-04-25",
     "academicContext": {
-      "affiliation": "State Council (directly administered)",
+      "affiliation": "Directly administered by the State Council of the People's Republic of China; reorganised 1 November 1949 from the Republican-era Academia Sinica on the Soviet academy template. President Hou Jianguo (since 2020) succeeded Bai Chunli (2011–2020) and Lu Yongxiang (1997–2011, who launched the 1998 Knowledge Innovation Program).",
       "keyPIs": [
         {
-          "name": "Tu Youyou",
-          "lab": "Beijing 523 Project / China Academy of Chinese Medical Sciences (CAS-affiliated network)",
-          "area": "Artemisinin (2015 Nobel)"
+          "name": "Wang Yinglai (王应睐, 1907–2001)",
+          "lab": "Founding Director, CAS Shanghai Institute of Biochemistry (1958–1984) — predecessor of today's CAS Center for Excellence in Molecular Cell Science (CEMCS, renamed from SIBCB in March 2020)",
+          "area": "Biochemistry — initiated and led the synthetic-bovine-insulin project at the 1958 CAS Shanghai symposium; on 17 September 1965 his team produced crystalline synthetic bovine insulin with full biological activity, the first total chemical synthesis of a protein in the world. Asteroid 19228 Wangyinglai named in 2023."
+        },
+        {
+          "name": "Mu-Ming Poo (蒲慕明)",
+          "lab": "Founding Director (1999–2019) and Scientific Director of the CAS Institute of Neuroscience (ION), Shanghai; Co-Director of the International Center for Primate Brain Research (ICPBR); director of CAS Center for Excellence in Brain Science and Intelligence Technology (CEBSIT)",
+          "area": "Neuroscience — established ION in 1999 on a Western-style PI-autonomy model; in 2017 his team with Sun Qiang produced Zhong Zhong and Hua Hua, the first primates cloned by somatic-cell nuclear transfer (the Dolly method), published Cell 2018. Architect of the China Brain Project."
+        },
+        {
+          "name": "George Fu Gao (高福)",
+          "lab": "Director of the CAS Key Laboratory of Pathogenic Microbiology and Immunology, Institute of Microbiology (IMCAS), Beijing (since 2008); concurrently Director of the Chinese CDC (2017–2022) and Dean, Savaid Medical School, University of Chinese Academy of Sciences (since 2015)",
+          "area": "Viral immunology and vaccinology — cross-species transmission of avian influenza and coronaviruses; designed the RBD-dimer SARS-CoV-2 vaccine (ZF2001 / Zifivax, Anhui Zhifei Longcom); contributed to the 2020 SARS-CoV-2 spike-receptor structural work."
+        },
+        {
+          "name": "Zihe Rao (饶子和)",
+          "lab": "National Laboratory of Biomacromolecules and CAS Center for Excellence in Biomacromolecules, Institute of Biophysics (IBP), Beijing; concurrently Tsinghua University and ShanghaiTech",
+          "area": "Structural virology and drug design — solved the SARS-CoV main protease (Mpro) structure during the 2003 outbreak; in January 2020 his IBP/Tsinghua group released the SARS-CoV-2 main-protease and RNA-dependent RNA polymerase structures that seeded global antiviral design (including PF-07321332/nirmatrelvir scaffolds)."
+        },
+        {
+          "name": "Geng Meiyu (耿美玉)",
+          "lab": "Deputy Director, Shanghai Institute of Materia Medica (SIMM), CAS",
+          "area": "Anti-tumour pharmacology and gut–brain axis — led SIMM's 22-year programme that developed sodium oligomannate (GV-971), partnered with Shanghai Green Valley; conditionally approved by NMPA on 2 November 2019 for mild-to-moderate Alzheimer's disease, the first novel Alzheimer's drug approved anywhere since 2003. FDA IND for global Phase III granted April 2020."
         }
       ],
-      "hookFact": "CAS-affiliated institutes were the principal scientific home of Chinese drug research in the planned-economy era, including the Beijing 523 Project that produced artemisinin."
+      "spinoutEntityIds": [
+        "bgi"
+      ],
+      "hookFact": "Project 523 (the artemisinin programme) was a State Science and Technology Commission and PLA General Logistics Department project launched 23 May 1967 — not a CAS programme — though SIMM and the Institute of Biophysics participated; Tu Youyou, who won the 2015 Nobel Prize for the artemisinin work, was at the Academy of Traditional Chinese Medicine (now CACMS), a separate national academy under the National Administration of Traditional Chinese Medicine. The flagship CAS biomedical achievement of the planned-economy era was the 1965 synthesis of crystalline bovine insulin at SIBCB."
     },
     "timeline": [
       {
         "chapterId": "republican-foundations",
-        "status": "Reorganized 1949 from the Republican-era Academia Sinica on the Soviet academy model."
+        "status": "Reorganised 1 November 1949 from the Republican-era Academia Sinica on the Soviet academy model; founding President Guo Moruo. Institute of Biochemistry (Shanghai) re-established 1958 under Wang Yinglai; Institute of Biophysics (Beijing) founded 1958 under Bei Shizhang."
       },
       {
         "chapterId": "insulin-and-artemisinin",
-        "status": "Synthetic insulin (1965) and artemisinin (1970s) were both CAS-led achievements."
+        "status": "On 17 September 1965 the CAS Shanghai Institute of Biochemistry (Wang Yinglai, Du Yucang and colleagues) produced crystalline synthetic bovine insulin with full biological activity — the first total chemical synthesis of a protein in the world. CAS' Shanghai Institute of Materia Medica and Institute of Biophysics later participated in Project 523 alongside CACMS, but Project 523 was governed by the State Science and Technology Commission and the PLA General Logistics Department, not by CAS."
       },
       {
         "chapterId": "reform-and-opening",
-        "status": "Knowledge Innovation Program (1998) repositioned CAS toward institutional modernization."
+        "status": "Knowledge Innovation Program launched 1998 under President Lu Yongxiang as a phased pilot of CAS reform (1998–2010); between 1998 and 2004 CAS recruited 899 researchers (778 from abroad). Shanghai Institute of Biochemistry and Shanghai Institute of Cell Biology merged in 2000 to form SIBCB; Institute of Neuroscience (ION) founded in Shanghai in 1999 under Mu-Ming Poo on a Western-style PI-autonomy model."
       },
       {
         "chapterId": "platforms-and-parks",
-        "status": "Shanghai Institute of Materia Medica became a key drug-discovery anchor."
+        "status": "George Fu Gao returned to China in 2004 to direct the Institute of Microbiology (IMCAS), Beijing. Rao Zihe's IBP/Tsinghua group solved the SARS-CoV main protease structure during the 2003 outbreak and led one of three major international SARS structural-proteomics initiatives. SIMM relocated to Zhangjiang Hi-Tech Park, Pudong."
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "ShanghaiTech University (jointly founded 2013 by CAS and the Shanghai Municipal Government) and the iHuman Institute become a CAS-aligned GPCR structural-biology hub adjacent to SIMM. The Brain Science Project ('China Brain') is mapped out under ION/CEBSIT direction."
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "January 2018: ION's Sun Qiang and Mu-Ming Poo report Zhong Zhong and Hua Hua, the first primates cloned by somatic-cell nuclear transfer (Cell). November 2019: SIMM's Geng Meiyu lab and Shanghai Green Valley win NMPA conditional approval of GV-971 (sodium oligomannate) for Alzheimer's disease. January 2020: Rao Zihe's IBP team releases the SARS-CoV-2 Mpro and RdRp structures within weeks of the outbreak. March 2020: SIBCB renamed CAS Center for Excellence in Molecular Cell Science (CEMCS). Hou Jianguo succeeds Bai Chunli as CAS President (2020)."
       }
     ],
     "sources": [
       "cas-history-soviet-model",
+      "cas-at-70-nature",
       "bcas-insulin-2024",
-      "lasker-artemisinin-2011",
-      "cas-at-70-nature"
+      "wang-yinglai-wikipedia",
+      "simm-80yr-acta-pharma-2012",
+      "simm-about-en",
+      "ibp-cas-wikipedia",
+      "rao-zihe-sars-structural-pmc",
+      "rao-zihe-cen-covid-2020",
+      "gao-fu-wikipedia",
+      "gao-fu-imcas-twas",
+      "poo-muming-wikipedia",
+      "ion-monkey-clone-cell-2018",
+      "geng-meiyu-gv971-cas",
+      "gv971-nmpa-approval-2019",
+      "cemcs-rename-2020",
+      "project-523-wikipedia",
+      "cas-knowledge-innovation-program"
     ]
   },
   {
