@@ -100,7 +100,18 @@ export default function ReformTimeline() {
                 });
               }}
               onMouseLeave={scheduleHide}
-              className="h-3 w-3 rounded-[2px] transition-shadow"
+              onClick={() => {
+                const span = document.querySelector(
+                  `[data-entity-type="reform"][data-entity-id="${r.id}"]`,
+                );
+                if (span) {
+                  span.scrollIntoView({
+                    behavior: "smooth",
+                    block: "center",
+                  });
+                }
+              }}
+              className="h-3 w-3 cursor-pointer rounded-[2px] transition-shadow"
               style={{
                 backgroundColor: isActive ? color : "transparent",
                 border: `1px solid ${isActive ? color : "var(--color-rule)"}`,

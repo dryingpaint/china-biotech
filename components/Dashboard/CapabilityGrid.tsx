@@ -185,9 +185,21 @@ type Hovered = {
 
 export default function CapabilityGrid() {
   const progress = useNarrative((s) => s.chapters[s.currentIndex].modalityProgress);
+  const chapters = useNarrative((s) => s.chapters);
   const [hovered, setHovered] = useState<Hovered | null>(null);
 
   if (!progress) return null;
+
+  const jumpToFirstChapterAtRung = (key: ModalityKey, rung: number) => {
+    const target = chapters.find(
+      (ch) => (ch.modalityProgress?.[key]?.rung ?? 0) >= rung,
+    );
+    if (target) {
+      document
+        .getElementById(target.id)
+        ?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
 
   return (
     <section className="space-y-2">
@@ -248,7 +260,11 @@ export default function CapabilityGrid() {
                         })
                       }
                       onBlur={() => setHovered(null)}
-                      className="h-2.5 w-2.5 rounded-[2px] transition-colors hover:ring-1 hover:ring-[--color-accent] focus:outline-none focus:ring-1 focus:ring-[--color-accent]"
+                      onClick={() => {
+                        if (tileReached) jumpToFirstChapterAtRung(m.key, r);
+                      }}
+                      disabled={!tileReached}
+                      className="h-2.5 w-2.5 rounded-[2px] transition-colors hover:ring-1 hover:ring-[--color-accent] focus:outline-none focus:ring-1 focus:ring-[--color-accent] disabled:cursor-default enabled:cursor-pointer"
                       style={{
                         backgroundColor: tileReached ? "var(--color-accent)" : "transparent",
                         border: `1px solid ${tileReached ? "var(--color-accent)" : "var(--color-rule)"}`,

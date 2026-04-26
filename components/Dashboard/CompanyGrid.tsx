@@ -142,7 +142,18 @@ export default function CompanyGrid() {
                         });
                       }}
                       onMouseLeave={scheduleHide}
-                      className="h-2.5 w-2.5 rounded-[2px] transition-shadow"
+                      onClick={() => {
+                        const span = document.querySelector(
+                          `[data-entity-type="entity"][data-entity-id="${e.id}"]`,
+                        );
+                        if (span) {
+                          span.scrollIntoView({
+                            behavior: "smooth",
+                            block: "center",
+                          });
+                        }
+                      }}
+                      className="h-2.5 w-2.5 cursor-pointer rounded-[2px] transition-shadow"
                       style={{
                         backgroundColor: isActive ? color : "transparent",
                         border: `1px solid ${
