@@ -57,7 +57,7 @@ export default function MetricsBar() {
     const series = chapters.map((c) => row.getValue(c.metrics));
     const value = row.getValue(current.metrics);
     return (
-      <article key={row.key} className="space-y-2">
+      <article key={row.key} className="space-y-1.5">
         <div className="flex items-baseline justify-between gap-3">
           <span className="text-[10px] uppercase tracking-[0.16em] text-[--color-muted]">
             {row.label}
@@ -84,7 +84,7 @@ export default function MetricsBar() {
   const [pipeline, inLicensing, trialStarts] = ROWS;
 
   return (
-    <section className="space-y-5">
+    <section className="space-y-3">
       <header>
         <h3 className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[--color-muted]">
           Industry indicators
