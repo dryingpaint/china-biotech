@@ -2,7 +2,6 @@ import SplitPanel from "@/components/Layout/SplitPanel";
 import Dashboard from "@/components/Dashboard/Dashboard";
 import Scroller from "@/components/Narrative/Scroller";
 import Bibliography from "@/components/Bibliography";
-import ChapterToggle from "@/components/ChapterToggle";
 import chapters from "@/data/chapters.json";
 import site from "@/data/site.json";
 import type { Chapter, SiteContent } from "@/lib/types";
@@ -16,7 +15,6 @@ export default function Home() {
         dashboard={<Dashboard />}
       />
       <Bibliography />
-      <ChapterToggle />
     </main>
   );
 }
