@@ -213,29 +213,64 @@
     "founded": 1955,
     "headquarters": "Beijing",
     "category": "academic",
-    "shortDescription": "National TCM research academy. Tu Youyou's institutional home for the artemisinin work that won the 2015 Nobel Prize in Physiology or Medicine.",
+    "subcategory": "Research institute",
+    "shortDescription": "National TCM research academy directly affiliated with the National Administration of Traditional Chinese Medicine. Tu Youyou's institutional home for the artemisinin work that won the 2015 Nobel Prize in Physiology or Medicine.",
     "signature": "Artemisinin / Tu Youyou (2015 Nobel)",
-    "narrativeHook": "Founded in 1955 as the Academy of Traditional Chinese Medicine to systematize TCM research, CACMS housed Tu Youyou's lab through the Project 523 era — the institutional thread that led from Mao-era anti-malarial military research to the 2015 Nobel Prize in Physiology or Medicine.",
-    "verified": false,
+    "narrativeHook": "Founded on 19 October 1955 as the Academy of Traditional Chinese Medicine (中医研究院) — the first national-level TCM research body of the People's Republic — CACMS housed Tu Youyou's lab at the Institute of Chinese Materia Medica throughout the Project 523 era. The institutional thread runs from Mao-era anti-malarial military research to the 2015 Nobel Prize in Physiology or Medicine, the first ever awarded to a mainland-China-based scientist.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
     "academicContext": {
-      "affiliation": "Direct unit of the National Health Commission",
+      "affiliation": "Directly affiliated with the National Administration of Traditional Chinese Medicine (NATCM), a national bureau under the National Health Commission",
       "keyPIs": [
         {
           "name": "Tu Youyou",
-          "lab": "Project 523 anti-malarial team",
-          "area": "Artemisinin (2015 Nobel Prize)"
+          "lab": "Institute of Chinese Materia Medica — former head of Project 523 research group (1969)",
+          "area": "Artemisinin / qinghaosu — 2015 Nobel Prize in Physiology or Medicine; 2011 Lasker~DeBakey Award; 2017 State Top Science and Technology Award"
+        },
+        {
+          "name": "Chen Keji",
+          "lab": "Cardiovascular Center, Xiyuan Hospital",
+          "area": "Integrative cardiology — blood-stasis theory; 2003 State Top Science and Technology Award; CAS academician"
+        },
+        {
+          "name": "Huang Luqi",
+          "lab": "President of CACMS; Vice Commissioner of NATCM",
+          "area": "Molecular pharmacognosy; Chinese Academy of Engineering academician"
         }
       ],
-      "hookFact": "Tu Youyou shared the 2015 Nobel for the artemisinin discovery she made at this institution during the Project 523 era."
+      "hookFact": "Tu Youyou's team at CACMS' Institute of Chinese Materia Medica screened more than 2,000 traditional recipes and 380 herbal extracts; in October 1971 her neutral Artemisia annua extract (sample 191) achieved 100% inhibition in mouse malaria — the breakthrough that would win the 2015 Nobel Prize."
     },
     "timeline": [
       {
         "chapterId": "insulin-and-artemisinin",
-        "status": "Tu Youyou's group identified Artemisia annua and isolated artemisinin in the late 1960s and early 1970s as part of Project 523."
+        "status": "Founded 19 October 1955 as the Academy of Traditional Chinese Medicine (中医研究院) under the Ministry of Health; Tu Youyou was assigned to the Institute of Chinese Materia Medica that same year. Project 523 work led by Tu's team identified Artemisia annua and isolated qinghaosu (artemisinin) between 1969 and 1972."
+      },
+      {
+        "chapterId": "reform-and-opening",
+        "status": "1983: Institute of Chinese Materia Medica designated WHO Collaborating Center for Traditional Medicine. 1985: Academy renamed China Academy of Traditional Chinese Medicine."
+      },
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "Renamed China Academy of Chinese Medical Sciences (CACMS) on 15 November 2005, signaling a national push to scientise TCM research and align with biomedical academy nomenclature."
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "2015 Nobel Prize in Physiology or Medicine awarded to Tu Youyou — the first ever to a mainland-China-based scientist — for the artemisinin work conducted at CACMS' Institute of Chinese Materia Medica."
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "By the mid-2020s CACMS comprises ~18 research institutes, 6 medical units (incl. four class-A hospitals: Xiyuan, Guang'anmen, Wangjing, Eye Hospital), a graduate school, and serves as the central state engine for TCM modernization and integrative-medicine policy."
       }
     ],
     "sources": [
-      "lasker-artemisinin-2011"
+      "lasker-artemisinin-2011",
+      "tu-youyou-wikipedia",
+      "cacms-about-en",
+      "cacms-history-pubmed-2015",
+      "tu-youyou-nobel-biographical",
+      "natcm-wikipedia",
+      "chen-keji-hkbu-cot-award",
+      "icmm-cacms-en"
     ]
   }
 ]

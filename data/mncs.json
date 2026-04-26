@@ -1070,9 +1070,183 @@
     "founded": 2000,
     "headquarters": "London",
     "category": "mnc_pharma",
-    "shortDescription": "UK pharma; deep China BD presence — Hengrui PDE3/4 inhalation deal (2025), Hansoh ADC pact (2023), and a long-running Shanghai R&D footprint.",
-    "signature": "Hengrui PDE3/4 deal (2025) · Hansoh ADC pacts (2023)",
-    "verified": false
+    "shortDescription": "UK pharma; Shanghai R&D since 2007 and Zhifei-distributed Shingrix in China, retooled into one of the loudest big-pharma buyers of Chinese assets via the 2025 $12B Hengrui PDE3/4-led 12-program pact and the 2023 dual Hansoh ADC license-ins.",
+    "signature": "Hengrui $12B 12-program deal (2025) · Hansoh B7-H4/B7-H3 ADC pacts (2023) · Zhifei Shingrix £2.5B pact (2023, restructured 2024)",
+    "narrativeHook": "GSK's China play is a respiratory-and-oncology pivot built on Chinese platforms: by mid-2025 the company had wired $500M upfront to Hengrui for 12 programs led by the PDE3/4 inhalable HRS-9821 — a deal sized in the same league as the AstraZeneca-CSPC alliance — on top of two 2023 Hansoh ADCs and a £2.5B Zhifei lock-in for Shingrix.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "mncContext": {
+      "chinaArrival": "Sino-American Tianjin Smith Kline & French Lab JV established 1987 (Tianjin manufacturing); Suzhou anti-infectives plant opened 1994 (divested to Fosun 2018); Shanghai R&D Centre opened 2007 with $100M neurodegenerative-disease focus (closed 2017, reorganised as China development organisation).",
+      "chinaHeadcount": 3000,
+      "chinaRevenueBillions": 1.6,
+      "chinaRevenueYear": 2024,
+      "notableDeals": [
+        {
+          "partner": "hengrui",
+          "year": 2025,
+          "asset": "HRS-9821 — best-in-class PDE3/4 inhalable for COPD (Phase 1) + 11 additional Hengrui Phase-1 options across Respiratory, Immunology & Inflammation and Oncology",
+          "type": "license-in",
+          "valueBillions": 12.0,
+          "status": "Announced July 28, 2025: $500M upfront across all agreements + up to ~$12B in development, regulatory and commercial milestones if all 12 programs are optioned + tiered royalties on net sales outside Greater China. HRS-9821 licensed immediately; 11 additional programs to be optioned by GSK after Phase 1 completion."
+        },
+        {
+          "partner": "hansoh",
+          "year": 2023,
+          "asset": "HS-20089 — B7-H4-targeted antibody-drug conjugate (topoisomerase-I payload) for ovarian/endometrial cancer (Phase 1)",
+          "type": "license-in",
+          "valueBillions": 1.57,
+          "status": "Announced Oct 20, 2023: $85M upfront + up to $1.485B in success-based milestones + tiered royalties; ex-Greater China rights. NMPA Breakthrough Therapy Designation for platinum-resistant ovarian cancer (2025)."
+        },
+        {
+          "partner": "hansoh",
+          "year": 2023,
+          "asset": "HS-20093 — B7-H3-targeted antibody-drug conjugate (topoisomerase-I payload) for SCLC, sarcoma, head & neck and other solid tumours",
+          "type": "license-in",
+          "valueBillions": 1.71,
+          "status": "Announced Dec 20, 2023: $185M upfront + up to $1.525B in success-based milestones + tiered royalties; ex-Greater China rights. FDA Breakthrough Therapy Designation; EMA PRIME designation."
+        },
+        {
+          "partner": "duality",
+          "year": 2024,
+          "asset": "DB-1324 — B7-H3 / Trop2-class novel-target preclinical ADC option (single program)",
+          "type": "license-in",
+          "valueBillions": 1.005,
+          "status": "Announced Nov 18, 2024: $30M option + exercise fee; up to ~$975M in development, regulatory and commercial milestones if option exercised + tiered royalties; second China ADC option for GSK after the Hansoh duo."
+        },
+        {
+          "partner": "zhifei",
+          "year": 2023,
+          "asset": "Shingrix (recombinant zoster vaccine) — China import, distribution and co-promotion via Zhifei's 30,000+ vaccination points; right-of-first-refusal on Arexvy RSV",
+          "type": "collaboration",
+          "valueBillions": 3.0,
+          "status": "Oct 9, 2023: 3-year exclusive co-promotion (2024–2026) with £2.5B (~$3B) minimum purchases. Restructured Dec 5, 2024: extended to 11 years through 2034, RMB 21.6B (~$2.97B) over the next six years, minimum-volume floor removed amid weaker China demand."
+        },
+        {
+          "partner": "zai-lab",
+          "year": 2016,
+          "asset": "Zejula (niraparib) — PARP inhibitor, mainland China / HK / Macau development & commercial rights",
+          "type": "license-out",
+          "status": "Sept 2016 sublicense from Tesaro to Zai Lab for Greater China; inherited by GSK via $5.1B Tesaro acquisition Dec 2018. NMPA approval as recurrent-ovarian-cancer maintenance Dec 2019; first-line maintenance approval Sept 2020; NRDL inclusion 2020. GSK retains 50% royalty/profit interest via Zai partnership."
+        }
+      ],
+      "hookFact": "On July 28, 2025 GSK paid Hengrui $500M upfront for HRS-9821 and options on 11 more Hengrui programs — packaging up to ~$12B in milestones into the largest single platform-deal a UK pharma has signed with a Chinese innovator."
+    },
+    "timeline": [
+      {
+        "chapterId": "reform-and-opening",
+        "status": "Sino-American Tianjin Smith Kline & French Laboratories JV (1987) and Glaxo Wellcome's Suzhou anti-infectives plant (1994) seed GSK's reform-era manufacturing footprint in China.",
+        "note": "GSK heritage companies are among the first Western pharma JVs to localise manufacturing in PRC."
+      },
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "GSK opens a $100M Shanghai R&D Centre in 2007 — branded the largest MNC drug-discovery hub in China at the time, focused on neurodegeneration under Jingwu Zang.",
+        "note": "Parallels NIBR Shanghai (Novartis 2007) and Roche Zhangjiang as the first wave of MNC discovery R&D in China."
+      },
+      {
+        "chapterId": "innovator-generation",
+        "status": "China bribery scandal breaks July 2013; September 2014 RMB 3B fine and conviction of Mark Reilly. China pharma sales drop ~30% in 2013 (£759M → £585M) and stay subdued; GSK ends payments to HCPs and phases out individual sales-rep quotas.",
+        "note": "The watershed China-compliance event for foreign pharma — reshapes commercial models across the sector."
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "GSK closes Shanghai neuroscience R&D centre in 2017 and consolidates discovery in Upper Providence, PA; Shanghai is reorganised into a China development organisation. Tesaro acquisition (Dec 2018) brings Zejula and the Zai Lab Greater-China sublicense into GSK's portfolio.",
+        "note": "Marks the end of 'global discovery in China' for GSK and the beginning of 'China BD into a global pipeline'."
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Zai Lab secures NMPA approval of Zejula (niraparib) for recurrent-ovarian-cancer maintenance (Dec 2019) and first-line maintenance (Sept 2020); included in the National Reimbursement Drug List (2020). Suzhou plant divested to Fosun Pharma (closed 2018).",
+        "note": "Zejula becomes one of the first Western targeted oncology drugs commercialised in China by an indigenous biotech partner."
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Oct 2023: Zhifei exclusive Shingrix distribution pact (£2.5B over three years, RoFR on Arexvy). Oct 20, 2023: Hansoh HS-20089 B7-H4 ADC license ($85M up + $1.485B). Dec 20, 2023: Hansoh HS-20093 B7-H3 ADC license ($185M up + $1.525B). Nov 2024: DualityBio DB-1324 ADC option ($30M + ~$975M).",
+        "note": "GSK becomes a serial buyer of Chinese ADC and vaccine assets — the China ADC platform thesis applied at scale."
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "Dec 5, 2024: Zhifei Shingrix pact restructured — extended to 2034, RMB 21.6B over six years, minimum volumes dropped (China vaccine-demand softness). July 28, 2025: Hengrui 12-program agreement — $500M up + up to ~$12B milestones, led by PDE3/4 inhaler HRS-9821 for COPD. China revenue ~£1.3B in 2024 (~4% of group £31.4B); China development organisation in Shanghai expanding through 2026.",
+        "note": "GSK's largest-ever Chinese deal anchors an RI&I-and-oncology pipeline reshaped by Chinese platforms."
+      }
+    ],
+    "milestones": [
+      {
+        "year": 1987,
+        "label": "Sino-American Tianjin Smith Kline & French Laboratories JV established"
+      },
+      {
+        "year": 1994,
+        "label": "Glaxo Wellcome Suzhou anti-infectives plant opened"
+      },
+      {
+        "year": 2007,
+        "label": "GSK opens $100M Shanghai R&D Centre — largest MNC drug-discovery hub in China at the time"
+      },
+      {
+        "year": 2014,
+        "label": "RMB 3B fine and conviction of China head Mark Reilly in bribery case (Sept)"
+      },
+      {
+        "year": 2017,
+        "label": "Shanghai neuroscience R&D centre closed; programs moved to Upper Providence"
+      },
+      {
+        "year": 2018,
+        "label": "Acquires Tesaro for $5.1B, inheriting Zai Lab Greater-China niraparib sublicense (Dec)"
+      },
+      {
+        "year": 2018,
+        "label": "Suzhou anti-infectives plant divested to Fosun Pharma"
+      },
+      {
+        "year": 2023,
+        "label": "Zhifei exclusive Shingrix distribution pact — £2.5B over three years (Oct 9)"
+      },
+      {
+        "year": 2023,
+        "label": "Hansoh HS-20089 B7-H4 ADC license — $85M up + $1.485B milestones (Oct 20)"
+      },
+      {
+        "year": 2023,
+        "label": "Hansoh HS-20093 B7-H3 ADC license — $185M up + $1.525B milestones (Dec 20)"
+      },
+      {
+        "year": 2024,
+        "label": "DualityBio DB-1324 ADC option — $30M + ~$975M (Nov 18)"
+      },
+      {
+        "year": 2024,
+        "label": "Zhifei Shingrix pact restructured — extended to 2034, RMB 21.6B over six years (Dec 5)"
+      },
+      {
+        "year": 2025,
+        "label": "Hengrui 12-program agreement — $500M up + up to ~$12B milestones, led by PDE3/4 inhaler HRS-9821 (July 28)"
+      }
+    ],
+    "sources": [
+      "gsk-gsk-and-hengrui-pharma-enter-agreements",
+      "biopharmadive-gsk-hengrui-collaboration-2025",
+      "statnews-gsk-hengrui-licensing-2025",
+      "fiercebiotech-gsk-hengrui-12b-2025",
+      "scmp-gsk-hengrui-12-5b-2025",
+      "gsk-hansoh-hs20089",
+      "gsk-hansoh-hs20093",
+      "biospace-gsk-hansoh-1-7b-adc-2023",
+      "fiercebiotech-gsk-hansoh-185m-second-adc-2023",
+      "dualitybio-gsk-db1324-option-2024",
+      "fiercebiotech-gsk-dualitybio-db1324-2024",
+      "gsk-zhifei-shingrix-2023",
+      "biopharmadive-gsk-zhifei-shingrix-2023",
+      "fiercepharma-gsk-zhifei-revised-2024",
+      "endpoints-gsk-zhifei-extend-2024",
+      "gsk-shanghai-rd-2007-launch",
+      "fiercebiotech-gsk-shutter-shanghai-neuroscience-2017",
+      "gsk-china-investigation-outcome-2014",
+      "wikipedia-gsk-china-scandal",
+      "tesaro-zailab-niraparib-2016",
+      "zailab-zejula-nmpa-recurrent-2019",
+      "zailab-zejula-nmpa-first-line-2020",
+      "gsk-fy-2024-results-announcement"
+    ]
   },
   {
     "id": "roche",
@@ -1081,9 +1255,176 @@
     "founded": 1896,
     "headquarters": "Basel",
     "category": "mnc_pharma",
-    "shortDescription": "Swiss pharma; one of the earliest multinationals in Shanghai's Zhangjiang R&D cluster (1990s onward); Innovent DLL3 ADC license (2024).",
-    "signature": "Zhangjiang R&D anchor",
-    "verified": false
+    "shortDescription": "Swiss pharma; pioneer foreign biopharma in Shanghai's Zhangjiang Hi-Tech Park (1994 JV with Sunve, 2004 R&D centre); now operates the autonomous China Innovation Center of Roche (CICoR) plus a Roche Accelerator and a string of 2024–2025 ADC/bispecific licence-ins from Innovent, MediLink, Hansoh and Qyuns.",
+    "signature": "Zhangjiang anchor since 1994 · CICoR + Roche Accelerator · Innovent / MediLink / Hansoh / Qyuns deals (2024–2025)",
+    "narrativeHook": "Roche has the longest continuous footprint of any Western biopharma in Pudong: it built Shanghai Roche Pharmaceuticals as Zhangjiang's first foreign-funded enterprise in 1994, opened the first MNC R&D centre there in 2004, and in 2022 spun the site out as the autonomous China Innovation Center of Roche (CICoR). After biosimilars hollowed out its Herceptin/Rituxan/Avastin franchise in China, Roche pivoted to net buyer of Chinese innovation — signing two ADC deals with MediLink (YL211 c-MET 2024; YL219 2026), the IBI3009 DLL3 ADC with Innovent (Dec 2024), the QX031N TSLP/IL-33 bispecific with Qyuns (Oct 2025) and the HS-20110 CDH17 ADC with Hansoh (Oct 2025), while pledging $282M for a second Shanghai pharma plant in 2025.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "mncContext": {
+      "chinaArrival": "Shanghai Roche Pharmaceuticals JV with Sunve incorporated 1994 — the first foreign-funded enterprise in Zhangjiang Hi-Tech Park; Roche R&D Center (China) opened 2004 (first MNC R&D centre in Pudong); upgraded to Roche Innovation Center Shanghai in 2019 and re-launched as the autonomous CICoR in 2022.",
+      "chinaHeadcount": 7000,
+      "chinaRevenueBillions": 5.9,
+      "chinaRevenueYear": 2024,
+      "notableDeals": [
+        {
+          "partner": "medilink",
+          "year": 2024,
+          "asset": "YL211 (c-MET-targeting next-generation ADC)",
+          "type": "license-in",
+          "valueBillions": 1.0,
+          "status": "$50M upfront/near-term + up to ~$1B in milestones; exclusive global rights; co-developed with CICoR through Phase 1"
+        },
+        {
+          "partner": "innovent",
+          "year": 2024,
+          "asset": "IBI3009 (DLL3-targeting ADC for small cell lung cancer)",
+          "type": "license-in",
+          "valueBillions": 1.08,
+          "status": "$80M upfront + up to $1B development/commercial milestones + tiered royalties; first patient dosed Dec 2024 (announced Jan 2 2025)"
+        },
+        {
+          "partner": "qyuns",
+          "year": 2025,
+          "asset": "QX031N (TSLP × IL-33 bispecific antibody for COPD/asthma)",
+          "type": "license-in",
+          "valueBillions": 1.07,
+          "status": "$75M upfront + up to $995M milestones; clinical-stage at signing; Roche's first respiratory bispecific from China"
+        },
+        {
+          "partner": "hansoh",
+          "year": 2025,
+          "asset": "HS-20110 (CDH17-targeting ADC for colorectal & other solid tumours)",
+          "type": "license-in",
+          "valueBillions": 1.45,
+          "status": "$80M upfront + up to ~$1.45B milestones + royalties; ex-Greater China rights; Phase 1 in China and US at signing (Oct 2025)"
+        },
+        {
+          "partner": "medilink",
+          "year": 2026,
+          "asset": "Second MediLink ADC (YL219, undisclosed target)",
+          "type": "license-in",
+          "valueBillions": 0.57,
+          "status": "Up to $570M near-term payments; second collaboration after the 2024 YL211 deal"
+        }
+      ],
+      "hookFact": "Roche has been continuously rooted in Shanghai's Zhangjiang Hi-Tech Park since 1994 — the first foreign biopharma enterprise in Pudong — and in 2022 elevated the site into CICoR, an autonomous R&D unit that since 2024 has anchored a string of >$5B in ADC and bispecific licence-ins from Innovent, MediLink, Hansoh and Qyuns, even as biosimilar competition crushed its legacy Herceptin/Rituxan/Avastin franchise."
+    },
+    "timeline": [
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "1994: Shanghai Roche Pharmaceuticals JV with Sunve becomes the first foreign-funded enterprise in Zhangjiang Hi-Tech Park and the first foreign biopharma in Pudong. 2004: Roche R&D Center (China) opens at Zhangjiang as the first multinational pharma R&D centre in Shanghai.",
+        "note": "Anchor tenant for the Zhangjiang biopharma cluster from day one."
+      },
+      {
+        "chapterId": "innovator-generation",
+        "status": "Avastin, Herceptin and Rituxan/MabThera become Roche's flagship China oncology franchise, with rapid uptake in tier-1 hospitals during the 2010–2014 period; legacy mAbs anchor Roche as the largest oncology MNC in China by revenue.",
+        "note": "Sets up the franchise that biosimilars will eventually erode."
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "Sept 2018: Roche announces an 863M-yuan ($125.87M) innovation centre in Pudong — its third strategic R&D centre globally after Basel and the Bay Area. Roche also cuts Avastin/Herceptin/Rituxan prices ~25% to requalify for the National Reimbursement Drug List (NRDL) ahead of biosimilar entry.",
+        "note": "Roche pre-emptively trades price for volume on legacy oncology mAbs."
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Feb 2019: Shanghai Henlius's HLX01 (rituximab) becomes China's first approved biosimilar — directly targeting Roche's Rituxan. 2019: Roche Innovation Center Shanghai (RICS) formally inaugurated, succeeding the 2004 R&D centre.",
+        "note": "China-developed biosimilars begin eroding Roche's largest oncology franchise."
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "Henlius and 3SBio launch trastuzumab biosimilars (HLX02 / Hanquyou approved by NMPA Aug 2020; 3SBio's later) and bevacizumab biosimilars from Qilu and Innovent (Dec 2019 onward) compress Avastin/Herceptin/Rituxan revenue in China. 2022: Roche Innovation Center Shanghai becomes the autonomous China Innovation Center of Roche (CICoR), focusing on Immunology and Oncology.",
+        "note": "Biosimilars + VBP/NRDL pressure force Roche to reposition from incumbent to BD-led player."
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Jan 2 2024: Roche signs first MediLink deal — $50M upfront/near-term + up to ~$1B for YL211 c-MET ADC. Mar 2023: Roche Accelerator inaugurated in Zhangjiang as the company's first in-house accelerator globally (RMB 300M investment, 11 startups by end-2022). Dec 30 2024: Innovent–Roche IBI3009 DLL3-ADC pact ($80M up + up to $1B; first patient dosed Dec 2024). FY2024 China Pharma sales CHF 2.93B (+6%); group China total CHF 5.33B incl. Diagnostics.",
+        "note": "Roche flips the script — from net licensor to net buyer of Chinese innovation."
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "Oct 2025: Qyuns QX031N (TSLP × IL-33 COPD bispecific) license — $75M upfront + up to $995M. Oct 17 2025: Hansoh HS-20110 CDH17 ADC license — $80M upfront + up to ~$1.45B (ex-Greater China). Jan 2026: second MediLink ADC license adds up to ~$570M near-term. May 2025: Roche commits ~$282M (RMB 2.04B) to a second Shanghai pharma plant in Zhangjiang to make Vabysmo (Luoshijia) for the China market — site to commission ~2031.",
+        "note": "Roche treats China as both an R&D source (CICoR + Accelerator) and a manufacturing destination, even amid biosimilar erosion of legacy oncology."
+      }
+    ],
+    "milestones": [
+      {
+        "year": 1994,
+        "label": "Shanghai Roche Pharmaceuticals JV with Sunve — first foreign-funded enterprise in Zhangjiang"
+      },
+      {
+        "year": 2004,
+        "label": "Roche R&D Center (China) opens in Pudong — first MNC pharma R&D centre in Shanghai"
+      },
+      {
+        "year": 2018,
+        "label": "863M-yuan ($125.87M) Pudong innovation centre announced"
+      },
+      {
+        "year": 2019,
+        "label": "Roche Innovation Center Shanghai (RICS) formally inaugurated"
+      },
+      {
+        "year": 2022,
+        "label": "RICS becomes the autonomous China Innovation Center of Roche (CICoR)"
+      },
+      {
+        "year": 2023,
+        "label": "Roche Accelerator (~RMB 300M; 5,000 m²) opens in Zhangjiang — first in-house accelerator globally"
+      },
+      {
+        "year": 2024,
+        "label": "MediLink YL211 c-MET ADC license ($50M up + up to ~$1B)"
+      },
+      {
+        "year": 2024,
+        "label": "Innovent IBI3009 DLL3 ADC license ($80M up + up to $1B; signed Dec, announced Jan 2 2025)"
+      },
+      {
+        "year": 2024,
+        "label": "FY2024 China Pharma sales CHF 2.93B (+6%); group China total CHF 5.33B"
+      },
+      {
+        "year": 2025,
+        "label": "$282M (RMB 2.04B) second Shanghai pharma plant for Vabysmo announced"
+      },
+      {
+        "year": 2025,
+        "label": "Qyuns QX031N TSLP/IL-33 COPD bispecific license ($75M up + up to $995M)"
+      },
+      {
+        "year": 2025,
+        "label": "Hansoh HS-20110 CDH17 ADC license ($80M up + up to $1.45B, ex-Greater China)"
+      },
+      {
+        "year": 2026,
+        "label": "Second MediLink ADC license — up to ~$570M near-term"
+      }
+    ],
+    "sources": [
+      "roche-fy2024-results",
+      "roche-fy2024-appendix",
+      "innovent-innovent-enters-into-exclusive-global-li",
+      "fiercebiotech-roche-innovent-ibi3009-2024",
+      "medilink-roche-yl211-2024",
+      "biospace-roche-medilink-yl211-2024",
+      "medilink-roche-second-license-2026",
+      "fiercebiotech-roche-medilink-570m-2026",
+      "biospace-roche-hansoh-cdh17-2025",
+      "hansoh-roche-cdh17-hs20110-2025",
+      "fiercebiotech-roche-qyuns-bispecific-2025",
+      "endpoints-roche-qyuns-copd-2025",
+      "fiercepharma-roche-vabysmo-china-plant-2025",
+      "yicai-roche-276m-shanghai-plant-2025",
+      "chinadaily-roche-pudong-innovation-2018",
+      "ciie-roche-shanghai-third-strategic-2019",
+      "shftz-roche-pudong-foothold-2021",
+      "pudong-roche-2024-investment",
+      "roche-cicor-overview",
+      "roche-accelerator-press-release",
+      "fiercepharma-roche-biosimilar-china-nrdl",
+      "henlius-hlx01-approval-press",
+      "biosimilardevelopment-henlius-trastuzumab-2020"
+    ]
   },
   {
     "id": "novartis",
@@ -1092,9 +1433,175 @@
     "founded": 1996,
     "headquarters": "Basel",
     "category": "mnc_pharma",
-    "shortDescription": "Swiss pharma; Shanghai Novartis Institute for BioMedical Research (NIBR Shanghai) since 2007; multiple China BD deals.",
-    "signature": "NIBR Shanghai (2007)",
-    "verified": false
+    "shortDescription": "Swiss pharma; built CNIBR Shanghai (2007) under En Li, pivoted it to development in 2019 and folded it into Novartis Biomedical Research in 2023; ~$0.8B FY2024 China sales powered by Entresto, Cosentyx and Leqvio; first MNC radioligand plant under construction in Haiyan; SanReno acquisition (2024) and Argo / Chengdu Baiyu license-ins (2024–2025) anchor a Chinese-asset-heavy BD pipeline.",
+    "signature": "CNIBR Shanghai (2007) + Argo siRNA collaboration + SanReno acquisition + Haiyan radioligand plant",
+    "narrativeHook": "Novartis came to China for the science — En Li's 2007 Shanghai institute (CNIBR) was the first MNC R&D centre in Zhangjiang sized as a true global discovery hub. Twenty years later it has become a deal-and-manufacturing story: Entresto, Cosentyx and Leqvio drive ~$0.8B in China sales, the country's first radioligand-therapy plant is rising in Haiyan, and Chinese biotechs (Argo's siRNAs, SanReno's atrasentan, Chengdu Baiyu's DNA-PK inhibitor) now feed a meaningful slice of the Novartis pipeline.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "mncContext": {
+      "chinaArrival": "Novartis formed via the 1996 Sandoz–Ciba-Geigy merger inheriting decades of China presence; Beijing Novartis Pharma JV established 1987 (Ciba-Geigy / Beijing Pharmaceutical) and Shanghai sales office shortly after; CNIBR (China Novartis Institutes for BioMedical Research) opened in Shanghai's Zhangjiang Hi-Tech Park in 2007.",
+      "chinaHeadcount": 9100,
+      "chinaRevenueBillions": 0.8,
+      "chinaRevenueYear": 2024,
+      "notableDeals": [
+        {
+          "partner": "SanReno Therapeutics",
+          "year": 2024,
+          "asset": "Atrasentan (oral endothelin-A antagonist) + zigakibart (anti-APRIL mAb) for IgA nephropathy — Greater China + Singapore rights",
+          "type": "acquisition",
+          "status": "Announced Jan 2024; SanReno (Shanghai-headquartered, founded 2021 as a SK Capital / Frazier / Chinook JV) becomes a wholly owned Novartis subsidiary; reunites the assets with Chinook (acquired by Novartis in 2023)."
+        },
+        {
+          "partner": "Argo Biopharma",
+          "year": 2024,
+          "asset": "BW-00112 / ANGPTL3 siRNA — ex-Greater China license (Phase I/IIa cardiovascular asset)",
+          "type": "license-in",
+          "valueBillions": 4.2,
+          "status": "Announced Jan 2024; $185M upfront + >$4B in milestones + tiered royalties; Novartis's first deal with the Suzhou-based RNA biotech."
+        },
+        {
+          "partner": "Chengdu Baiyu Pharmaceutical",
+          "year": 2024,
+          "asset": "AMO959 / BY101298 — small-molecule DNA-PK inhibitor for solid tumours",
+          "type": "license-in",
+          "valueBillions": 1.17,
+          "status": "Announced Oct 2024; $70M upfront + up to $1.1B development/regulatory/sales milestones + tiered royalties; entered combo trial with Pluvicto in mCRPC Dec 2025."
+        },
+        {
+          "partner": "Argo Biopharma",
+          "year": 2025,
+          "asset": "Three-asset cardiovascular siRNA pact — option on next-gen ANGPTL3, ex-China license + China P&L option on a hepatic siRNA candidate, plus discovery-stage molecules",
+          "type": "collaboration",
+          "valueBillions": 5.36,
+          "status": "Announced Sept 2025; $160M upfront + up to $5.2B in milestone / option payments + reciprocal P&L splits; Novartis's third Argo transaction in 18 months."
+        }
+      ],
+      "hookFact": "Novartis runs four overlapping China bets in parallel: a 9,100-person commercial business (~$0.8B FY2024) anchored by Entresto/Cosentyx/Leqvio in the NRDL, a Haiyan radioligand-therapy plant (the country's first, ~$83M, under construction since 2024), the post-CNIBR Shanghai development hub, and a steadily tightening Chinese BD funnel — Argo (twice), SanReno and Chengdu Baiyu — that now feeds cardiovascular, renal and oncology programmes back into the global pipeline."
+    },
+    "timeline": [
+      {
+        "chapterId": "reform-and-opening",
+        "status": "Ciba-Geigy and Sandoz both build out Chinese sales / JV operations through the 1980s–1990s; Beijing Novartis Pharma joint venture (with Beijing Pharmaceutical) traces to a 1987 Ciba-Geigy agreement.",
+        "note": "Novartis is created by the 1996 Sandoz–Ciba-Geigy merger; China inherited as an emerging-markets pillar."
+      },
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "Announces CNIBR — China Novartis Institutes for BioMedical Research — in Shanghai's Zhangjiang Hi-Tech Park (Nov 2006); 5,000 m² start-up facility opens 2007 under founding GM En Li, focused initially on infectious causes of cancer (HCC), liver disease and aging-related hearing loss; eventually scales to >1,000 staff across R&D, pharma, oncology and Sandoz.",
+        "note": "First MNC R&D centre in Zhangjiang sized as a global discovery hub, alongside AstraZeneca's 2007 Innovation Centre China."
+      },
+      {
+        "chapterId": "innovator-generation",
+        "status": "Novartis Changshu (Jiangsu) plant operational; Beijing R&D site established; CNIBR contributes >10 first-in-class candidates to the Novartis global pipeline including programmes that reach human PoC.",
+        "note": null
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "Capitalises on NMPA reform / ICH alignment and NRDL inclusions to ramp Cosentyx (psoriasis) and Entresto (HFrEF) launches in China; expands manufacturing footprint and digital trials infrastructure.",
+        "note": "China becomes one of Novartis's fastest-growing emerging markets."
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Nov 2019: ends early discovery at CNIBR and pivots the Shanghai site to development — ~150 early-discovery roles cut, ~340 development/commercial jobs added by 2023; Shanghai team reframed to support both China-discovered programmes and global candidates entering China.",
+        "note": "Shanghai site re-anchored on candidates approved elsewhere but not yet available in China — i.e. accelerated local launches under Bi Jingquan-era reforms."
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "Cosentyx and Entresto land on the NRDL, ramping volume but compressing prices; Leqvio (inclisiran) becomes a flagship out-of-pocket launch in China after global approval; Sandoz spun out (Oct 2023) to focus Novartis on innovative medicines.",
+        "note": "China Novartis revenue mix shifts toward heart-failure, dermatology and lipid-lowering franchises."
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Sept 2023: Novartis rebrands NIBR as 'Novartis Biomedical Research' under President Fiona Marshall, consolidating R&D into Cambridge MA + Basel hubs; Shanghai site retained as a development hub. Dec 2023: announces ~$84M radioligand-therapy plant in Haiyan, Zhejiang — China's first.",
+        "note": "Sets the stage for the 2024 China BD push."
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "Jan 2024: acquires Shanghai-based SanReno Therapeutics (atrasentan + zigakibart, IgAN). Jan 2024: $185M / >$4B Argo Biopharma siRNA license. July 2024: Haiyan radioligand-therapy plant breaks ground (~$83M; production targeted late-2026, completion reported March 2026). Oct 2024: Chengdu Baiyu DNA-PK inhibitor in-license ($70M / $1.1B). Sept 2025: third Argo deal — $160M upfront, up to $5.2B, with P&L sharing in China and the US. FY2024 China sales ~$0.8B (+8% reported); Entresto +31% and Cosentyx +25% globally.",
+        "note": "Pluvicto / Lutathera approvals in China pending; Novartis joins Lilly and AstraZeneca in committing fresh China manufacturing capacity."
+      }
+    ],
+    "milestones": [
+      {
+        "year": 1987,
+        "label": "Beijing Novartis Pharma JV traces to Ciba-Geigy / Beijing Pharmaceutical agreement"
+      },
+      {
+        "year": 1996,
+        "label": "Sandoz–Ciba-Geigy merger creates Novartis; China inherited as emerging-markets pillar"
+      },
+      {
+        "year": 2006,
+        "label": "Announces $100M, 5-year CNIBR R&D commitment in Shanghai Zhangjiang"
+      },
+      {
+        "year": 2007,
+        "label": "CNIBR opens in Shanghai under founding GM En Li"
+      },
+      {
+        "year": 2017,
+        "label": "Cosentyx approved in China (psoriasis); Entresto launched (HFrEF)"
+      },
+      {
+        "year": 2019,
+        "label": "Pivots CNIBR from early discovery to development; ~150 discovery layoffs, +340 dev/commercial roles by 2023"
+      },
+      {
+        "year": 2023,
+        "label": "NIBR rebranded as Novartis Biomedical Research under Fiona Marshall; Sandoz spun out"
+      },
+      {
+        "year": 2023,
+        "label": "Announces ~$84M Haiyan radioligand-therapy plant — China's first"
+      },
+      {
+        "year": 2024,
+        "label": "Acquires Shanghai-based SanReno Therapeutics (atrasentan + zigakibart, IgAN)"
+      },
+      {
+        "year": 2024,
+        "label": "Argo Biopharma siRNA license — $185M upfront / >$4B milestones (ex-Greater China ANGPTL3)"
+      },
+      {
+        "year": 2024,
+        "label": "Haiyan radioligand-therapy plant groundbreaking (July)"
+      },
+      {
+        "year": 2024,
+        "label": "Chengdu Baiyu DNA-PK inhibitor in-license — $70M / up to $1.1B"
+      },
+      {
+        "year": 2024,
+        "label": "FY2024 China sales ~$0.8B (+8%); Entresto +31%, Cosentyx +25% globally"
+      },
+      {
+        "year": 2025,
+        "label": "Second Argo Biopharma collaboration — $160M upfront / up to $5.2B with reciprocal P&L splits"
+      },
+      {
+        "year": 2026,
+        "label": "Haiyan radioligand-therapy plant construction completed; production ramp underway"
+      }
+    ],
+    "sources": [
+      "novartis-fy2024-results-release",
+      "novartis-fy2024-financial-report",
+      "fiercebiotech-novartis-shanghai-pivot-2019",
+      "biopharmadive-novartis-china-rd-reshape-2019",
+      "cen-novartis-invests-china-2006",
+      "chinadaily-novartis-china-2017",
+      "statnews-novartis-rebrand-marshall-2023",
+      "biopharmadive-novartis-argo-2024",
+      "fiercebiotech-novartis-argo-5b-2025",
+      "argo-novartis-multi-asset-2025",
+      "sanreno-novartis-acquisition-2024",
+      "yicai-novartis-sanreno-2024",
+      "endpoints-novartis-baiyu-70m-2024",
+      "fiercebiotech-novartis-baiyu-2024",
+      "fiercepharma-novartis-haiyan-radioligand-85m",
+      "yicai-novartis-second-china-base",
+      "yicai-novartis-pluvicto-china-approval",
+      "chinadaily-novartis-haiyan-success-2024"
+    ]
   },
   {
     "id": "moderna",
@@ -1102,20 +1609,239 @@
     "nameZh": "莫德纳",
     "founded": 2010,
     "headquarters": "Cambridge, Massachusetts",
+    "founders": "Derrick Rossi, Timothy A. Springer, Kenneth R. Chien, Robert S. Langer, Noubar Afeyan",
     "category": "mnc_pharma",
-    "shortDescription": "US mRNA pharma; alongside Pfizer-BioNTech, dominated the COVID-era mRNA platform that China's domestic candidates (Walvax-Abogen ARCoV) failed to match in time.",
-    "signature": "COVID mRNA dominance",
-    "verified": false
+    "shortDescription": "US mRNA pioneer; Spikevax never authorised on the Chinese mainland, but in 2023 Moderna signed a Shanghai Minhang R&D-and-production headquarters deal worth up to ~$1B, breaking ground in Nov 2023 on a CNY 3.6B (~$508M) first-phase plant for the China-only market.",
+    "signature": "Shanghai Minhang R&D + production HQ (2023)",
+    "narrativeHook": "Spikevax was the offshore mRNA platform Beijing refused to license and that domestic candidates — Walvax-Abogen's ARCoV — never matched in time; when China finally let Moderna in, it was as a ring-fenced Shanghai factory making medicines exclusively for Chinese patients, not as a vaccine importer.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "today": {
+      "asOf": "2026-04",
+      "revenueBillions": 1.9,
+      "revenueYear": 2025,
+      "listings": [
+        "NASDAQ: MRNA"
+      ],
+      "leadAsset": {
+        "name": "Spikevax (mRNA-1273) — COVID-19 mRNA vaccine",
+        "mechanism": "Lipid-nanoparticle-encapsulated mRNA encoding SARS-CoV-2 spike protein",
+        "indication": "COVID-19 prophylaxis (seasonal updated formulations)",
+        "status": "FDA-approved (full BLA Jan 2022, Spikevax brand); FY2024 product sales $3.1B; FY2025 revenue guided $1.6-2.0B as endemic-era demand decayed"
+      },
+      "biggestDeal": {
+        "partner": "Shanghai Minhang District Government",
+        "type": "collaboration",
+        "year": 2023,
+        "valueBillions": 1.0
+      }
+    },
+    "mncContext": {
+      "chinaArrival": "Moderna (China) Biotech subsidiary registered in Shanghai Minhang May 2023; tripartite cooperation agreement signed Jul 5 2023; ground broken at Shanghai Xinzhuang Industry Park Nov 6 2023",
+      "notableDeals": [
+        {
+          "partner": "Shanghai Minhang District Government",
+          "year": 2023,
+          "asset": "Moderna China R&D and Production Headquarters — ~18-hectare site in Shanghai Xinzhuang Industry Park; mRNA vaccines and medicines for the China-only market",
+          "type": "collaboration",
+          "valueBillions": 1.0,
+          "status": "Tripartite MOU signed Jul 5 2023 between Shanghai Municipal Commission of Economy & Informatization, Minhang district government and Moderna; phase-1 investment ~CNY 3.6B (~$508M); total potential investment up to $1B; expected annual output value CNY 1.5B (~$210M); ground broken Nov 6 2023 during CEO Stéphane Bancel's CIIE visit. Pipeline scope: 30+ investigational and marketed products spanning infectious disease, cardiovascular, liver, rare disease, autoimmune and personalised tumour therapies — products to be exclusively for Chinese patients, not exported."
+        },
+        {
+          "partner": "Chinese government (negotiations)",
+          "year": 2021,
+          "asset": "Spikevax (mRNA-1273) technology transfer — declined",
+          "type": "license-out",
+          "status": "Per FT/Bloomberg (Oct 2022): negotiations 2020-2021 over supplying Spikevax to mainland China stalled because Beijing demanded Moderna disclose the core mRNA recipe; Moderna refused on commercial and safety grounds. Spikevax was never authorised on the Chinese mainland; Hong Kong placed it on the travel-only acceptance list and Taiwan granted EUA in May 2021 (first 150,000 doses delivered May 28 2021)."
+        }
+      ],
+      "hookFact": "Moderna's Shanghai Minhang plant — the largest single foreign-investment biopharma project in China at the time of groundbreaking — was structured so anything it produces stays in China; Beijing got the factory it had been pushing for after refusing to license Spikevax."
+    },
+    "timeline": [
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Spikevax cleared by FDA (EUA Dec 18 2020) and EMA — but technology-transfer talks with Beijing fail; vaccine never authorised on the mainland",
+        "note": "Dec 18 2020: FDA grants Emergency Use Authorization for mRNA-1273. 2020-2021: negotiations with Chinese authorities to supply Spikevax break down because Moderna refuses to disclose the mRNA recipe (FT, reported Oct 2022). Spikevax goes to Hong Kong (travel-only list) and Taiwan (EUA May 5 2021; first 150k doses May 28 2021); never approved on the Chinese mainland. Domestic alternative ARCoV (Walvax / Abogen / PLA Academy of Military Sciences) approved for China clinical trials Jun 2020 but never reaches mainland authorisation in time."
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "Spikevax remains shut out of mainland China while Beijing pushes domestic ARCoV; Spikevax FY2022 product sales peak at $18.4B",
+        "note": "Jan 31 2022: FDA grants full BLA approval (Spikevax brand). Beijing keeps mRNA imports out: Spikevax never authorised on the mainland; Comirnaty (BioNTech/Fosun) likewise blocked. Walvax-Abogen ARCoV/AWcorna gets Indonesian EUA Sept 2022 — its only authorisation — but never receives mainland Chinese approval."
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Moderna pivots to a China-localised model — Shanghai subsidiary, $1B Minhang MOU, CNY 3.6B first-phase plant",
+        "pipelineStage": "Spikevax + 30+ investigational mRNA programmes (infectious disease, cardiovascular, rare disease, oncology)",
+        "listings": [
+          "NASDAQ: MRNA"
+        ],
+        "note": "May 2023: Moderna (China) Biotech registered as a subsidiary in Shanghai Minhang. Jul 5 2023: tripartite MOU signed in Shanghai (Shanghai Municipal Commission of Economy & Informatization, Minhang district government, Moderna) — up to ~$1B over time; Bancel attends in person. Nov 6 2023: ground broken on the Moderna China R&D and Production Headquarters in Shanghai Xinzhuang Industry Park (~18 ha, ~180,000 m²); phase-1 investment CNY 3.6B (~$508M); expected annual output value CNY 1.5B (~$210M); products explicitly for the Chinese market, not export. Shanghai municipal authorities approved construction in roughly three months — faster than Tesla's Gigafactory."
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "Endemic Spikevax run-off; FY2024 revenue $3.1-3.2B; FY2025 guided $1.6-2.0B as oncology and respiratory franchises take over",
+        "approvedDrugCount": 2,
+        "pipelineStage": "Intismeran autogene (mRNA-4157) Phase 3 in adjuvant melanoma + 2 NSCLC Phase 3s + bladder/RCC Phase 2 with Merck",
+        "listings": [
+          "NASDAQ: MRNA"
+        ],
+        "note": "FY2024 revenue ~$3.1-3.2B (largely Spikevax); GAAP operating expenses cut from ~$11.1B (2023) to ~$7.2B (2024). FY2025 revenue guidance $1.6-2.0B. Intismeran autogene (mRNA-4157) — co-developed with Merck/KEYTRUDA — sustains 49% recurrence-or-death reduction in adjuvant melanoma; Phase 3 melanoma fully enrolled, two NSCLC Phase 3s enrolling; clinical batches began Sept 2025 from Marlborough; potential commercial launch as early as 2027. The Shanghai Minhang plant remains under build-out as Moderna's only China footprint; no new Chinese BD deals beyond the original Minhang agreement."
+      }
+    ],
+    "milestones": [
+      {
+        "year": 2010,
+        "label": "Founded in Cambridge, Massachusetts by Derrick Rossi, Timothy Springer, Kenneth Chien, Robert Langer and Noubar Afeyan"
+      },
+      {
+        "year": 2011,
+        "label": "Stéphane Bancel joins as CEO (Oct 2011)"
+      },
+      {
+        "year": 2018,
+        "label": "Largest biotech IPO in history at the time — NASDAQ: MRNA, ~$604M raised at $23/share (Dec 2018)"
+      },
+      {
+        "year": 2020,
+        "label": "Spikevax (mRNA-1273) wins FDA EUA Dec 18 2020; technology-transfer talks with Beijing stall"
+      },
+      {
+        "year": 2021,
+        "label": "Spikevax granted EUA in Taiwan (May) and added to Hong Kong's travel-only acceptance list; mainland China never authorises"
+      },
+      {
+        "year": 2022,
+        "label": "Full FDA BLA approval for Spikevax (Jan 2022, Spikevax brand); FT reports Moderna refused Beijing's demand for the mRNA recipe (Oct 2022)"
+      },
+      {
+        "year": 2023,
+        "label": "Tripartite Shanghai MOU signed (Jul 5); ground broken on CNY 3.6B Minhang R&D-and-production HQ (Nov 6) — Moderna's first China plant"
+      },
+      {
+        "year": 2024,
+        "label": "FY2024 revenue ~$3.1-3.2B; cost base cut to ~$7.2B as endemic-era demand normalises"
+      },
+      {
+        "year": 2025,
+        "label": "FY2025 revenue guidance $1.6-2.0B; intismeran autogene (mRNA-4157) clinical-batch supply begins; oncology becomes the new growth axis"
+      }
+    ],
+    "sources": [
+      "moderna-shanghai-mou-2023-fiercepharma",
+      "moderna-china-plant-groundbreaking-xinhua-2023",
+      "moderna-shanghai-rd-center-yicai-2023",
+      "moderna-cnn-china-mrna-deal-2023",
+      "moderna-shanghai-fast-approval-2023",
+      "moderna-cgtn-ciie-groundbreaking-2023",
+      "moderna-china-bancel-scmp-2023",
+      "moderna-refused-china-tech-transfer-bloomberg-2022",
+      "fortune-china-rejected-mrna-vaccines-2022",
+      "wikipedia-walvax-covid-vaccine",
+      "wikipedia-covid-vaccine-authorizations",
+      "moderna-wikipedia",
+      "biospace-moderna-q4-2024",
+      "moderna-2025-shareholder-letter",
+      "moderna-ipo-biospace-2018",
+      "focus-taiwan-spikevax-eua-2021"
+    ]
   },
   {
     "id": "seagen",
-    "name": "Seagen",
+    "name": "Seagen (acquired by Pfizer, Dec 2023)",
     "nameZh": "西雅图遗传",
     "founded": 1997,
     "headquarters": "Bothell, Washington",
+    "founders": "Clay B. Siegall, H. Perry Fell Jr.",
     "category": "mnc_pharma",
-    "shortDescription": "ADC pioneer; signed RemeGen disitamab vedotin license-out in 2021 ($200M up + $2.4B); acquired by Pfizer December 2023.",
-    "signature": "RemeGen disitamab vedotin license (2021)",
-    "verified": false
+    "shortDescription": "ADC pioneer (Adcetris, Padcev, Tivdak, Tukysa); signed the first major Western license of a China-discovered HER2 ADC in Aug 2021 with RemeGen for disitamab vedotin ($200M up + up to $2.4B); acquired by Pfizer Dec 14, 2023 for $43B and dissolved as an independent entity, with the RemeGen agreement inherited by Pfizer.",
+    "signature": "RemeGen disitamab vedotin worldwide license (Aug 2021)",
+    "narrativeHook": "Seagen invented the modern auristatin-payload ADC playbook with Adcetris, then in August 2021 became the first Western pharma to validate a China-discovered HER2 ADC by paying RemeGen $200M upfront and up to $2.4B to license disitamab vedotin worldwide (ex-Asia). Pfizer's $43B Seagen takeover in December 2023 dissolved the company but rolled the RemeGen license up the chain — making Pfizer a Chinese-asset partner almost by accident.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
+    "mncContext": {
+      "chinaArrival": "No on-the-ground China presence; engaged China exclusively through the Aug 2021 RemeGen disitamab vedotin license-in",
+      "notableDeals": [
+        {
+          "partner": "remegen",
+          "year": 2021,
+          "asset": "Disitamab vedotin (RC48 / Aidixi) — HER2-targeted ADC; ex-Asia worldwide rights (RemeGen retained Asia ex-Japan/Singapore)",
+          "type": "license-in",
+          "valueBillions": 2.6,
+          "status": "Aug 9, 2021: $200M upfront + up to $2.4B in development, regulatory, and commercial milestones across multiple indications, plus tiered high-single-digit to mid-teen royalties on Seagen-territory net sales. Co-development agreement with shared global trials. Inherited by Pfizer Dec 14, 2023."
+        }
+      ],
+      "hookFact": "Dissolved as an independent entity Dec 14, 2023 when Pfizer closed its $43B acquisition; the RemeGen disitamab vedotin license is now a Pfizer asset and remains Seagen's only material China legacy."
+    },
+    "timeline": [
+      {
+        "chapterId": "platforms-and-parks",
+        "status": "Founded Dec 1997 as Seattle Genetics by Clay B. Siegall and H. Perry Fell Jr. (both ex-Bristol-Myers Squibb antibody scientists) in Bothell, WA. IPO Mar 2001 on NASDAQ as SGEN. No China activity in this period.",
+        "note": "Pioneers the auristatin (vc-MMAE) ADC linker-payload chemistry that becomes the industry standard."
+      },
+      {
+        "chapterId": "innovator-generation",
+        "status": "Aug 2011 first Adcetris (brentuximab vedotin) FDA approval — the modern ADC era begins. Seattle Genetics licenses its ADC technology platform to >20 partners through the early 2010s; no China-specific deals.",
+        "note": "Builds the technical credibility that makes its later validation of a Chinese ADC newsworthy."
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Apr 2020 Tukysa (tucatinib) FDA approval in HER2+ breast cancer. Oct 8, 2020: corporate name change to Seagen Inc. (still NASDAQ: SGEN), reflecting a global commercial footprint.",
+        "note": "Rebrand frames the company's expansion beyond the Pacific Northwest — and sets the stage for its first major China-facing deal."
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "Aug 9, 2021: Seagen and RemeGen announce exclusive worldwide license and co-development agreement for disitamab vedotin (RC48), a HER2-targeted ADC built on Seagen's vc-MMAE linker-payload chemistry combined with RemeGen's HER2 antibody. $200M upfront + up to $2.4B milestones + tiered high-single-digit to mid-teen royalties. RemeGen retains Asia ex-Japan/Singapore; Seagen takes the rest of the world.",
+        "note": "First major Western pharma validation of a China-discovered ADC — a defining moment in the China-to-global license-out era. Disitamab vedotin had received FDA Breakthrough Therapy designation in urothelial cancer Sept 2020."
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Mar 2023: Pfizer announces $43B agreement to acquire Seagen at $229/share. Dec 14, 2023: deal closes after FTC clearance; Seagen ceases to exist as an independent company. The RemeGen disitamab vedotin agreement is assigned to Pfizer along with Adcetris, Padcev, Tivdak, and Tukysa.",
+        "note": "Largest biopharma M&A deal since 2019 at the time of closing; doubles Pfizer's oncology franchise and quietly hands Pfizer a flagship Chinese ADC license."
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "Seagen brand wound down post-close; oncology pipeline now reported under Pfizer Oncology. Disitamab vedotin Phase 3 first-line urothelial trial (Pfizer/RemeGen) reads out positive PFS and OS in 2025; downstream commercial development falls to Pfizer.",
+        "note": "Seagen's only persistent China-relevant legacy is the disitamab vedotin license, now a Pfizer asset."
+      }
+    ],
+    "milestones": [
+      {
+        "year": 1997,
+        "label": "Seattle Genetics founded by Clay B. Siegall and H. Perry Fell Jr. in Bothell, WA"
+      },
+      {
+        "year": 2001,
+        "label": "NASDAQ IPO (SGEN) — March"
+      },
+      {
+        "year": 2011,
+        "label": "Adcetris (brentuximab vedotin) — first FDA approval (Aug)"
+      },
+      {
+        "year": 2020,
+        "label": "Corporate rename to Seagen Inc. (Oct 8); Tukysa FDA approval (Apr)"
+      },
+      {
+        "year": 2021,
+        "label": "RemeGen disitamab vedotin worldwide license — $200M up + up to $2.4B (Aug 9)"
+      },
+      {
+        "year": 2023,
+        "label": "Pfizer closes $43B acquisition; Seagen dissolved; RemeGen license inherited by Pfizer (Dec 14)"
+      }
+    ],
+    "sources": [
+      "businesswire-seagen-and-remegen-announce-exclusive-wo",
+      "fiercepharma-pfizer-completes-seagen-43b-2023",
+      "pfizer-receives-regulatory-approvals-seagen-2023",
+      "biospace-seagen-remegen-2-6b-adc-deal",
+      "biopharmadive-seagen-remegen-china-her2-2021",
+      "businesswire-seattle-genetics-name-change-seagen-2020",
+      "fiercepharma-seattle-genetics-rebrand-seagen-2020",
+      "pfizer-completes-acquisition-seagen-2023",
+      "remegen-fda-breakthrough-disitamab-vedotin-2020",
+      "remegen-phase-3-disitamab-vedotin-first-line-uro",
+      "wikipedia-seagen"
+    ]
   }
 ]
