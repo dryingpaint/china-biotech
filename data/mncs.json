@@ -1062,5 +1062,60 @@
       "pharmatimes-pfizer-wuhan-rd-2010",
       "pharmaceutical-technology-pfizer-dalian-plant"
     ]
+  },
+  {
+    "id": "gsk",
+    "name": "GSK",
+    "nameZh": "葛兰素史克",
+    "founded": 2000,
+    "headquarters": "London",
+    "category": "mnc_pharma",
+    "shortDescription": "UK pharma; deep China BD presence — Hengrui PDE3/4 inhalation deal (2025), Hansoh ADC pact (2023), and a long-running Shanghai R&D footprint.",
+    "signature": "Hengrui PDE3/4 deal (2025) · Hansoh ADC pacts (2023)",
+    "verified": false
+  },
+  {
+    "id": "roche",
+    "name": "Roche",
+    "nameZh": "罗氏",
+    "founded": 1896,
+    "headquarters": "Basel",
+    "category": "mnc_pharma",
+    "shortDescription": "Swiss pharma; one of the earliest multinationals in Shanghai's Zhangjiang R&D cluster (1990s onward); Innovent DLL3 ADC license (2024).",
+    "signature": "Zhangjiang R&D anchor",
+    "verified": false
+  },
+  {
+    "id": "novartis",
+    "name": "Novartis",
+    "nameZh": "诺华",
+    "founded": 1996,
+    "headquarters": "Basel",
+    "category": "mnc_pharma",
+    "shortDescription": "Swiss pharma; Shanghai Novartis Institute for BioMedical Research (NIBR Shanghai) since 2007; multiple China BD deals.",
+    "signature": "NIBR Shanghai (2007)",
+    "verified": false
+  },
+  {
+    "id": "moderna",
+    "name": "Moderna",
+    "nameZh": "莫德纳",
+    "founded": 2010,
+    "headquarters": "Cambridge, Massachusetts",
+    "category": "mnc_pharma",
+    "shortDescription": "US mRNA pharma; alongside Pfizer-BioNTech, dominated the COVID-era mRNA platform that China's domestic candidates (Walvax-Abogen ARCoV) failed to match in time.",
+    "signature": "COVID mRNA dominance",
+    "verified": false
+  },
+  {
+    "id": "seagen",
+    "name": "Seagen",
+    "nameZh": "西雅图遗传",
+    "founded": 1997,
+    "headquarters": "Bothell, Washington",
+    "category": "mnc_pharma",
+    "shortDescription": "ADC pioneer; signed RemeGen disitamab vedotin license-out in 2021 ($200M up + $2.4B); acquired by Pfizer December 2023.",
+    "signature": "RemeGen disitamab vedotin license (2021)",
+    "verified": false
   }
 ]

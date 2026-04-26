@@ -205,5 +205,37 @@
       "lasker-artemisinin-2011",
       "cas-at-70-nature"
     ]
+  },
+  {
+    "id": "cacms",
+    "name": "China Academy of Chinese Medical Sciences",
+    "nameZh": "中国中医科学院",
+    "founded": 1955,
+    "headquarters": "Beijing",
+    "category": "academic",
+    "shortDescription": "National TCM research academy. Tu Youyou's institutional home for the artemisinin work that won the 2015 Nobel Prize in Physiology or Medicine.",
+    "signature": "Artemisinin / Tu Youyou (2015 Nobel)",
+    "narrativeHook": "Founded in 1955 as the Academy of Traditional Chinese Medicine to systematize TCM research, CACMS housed Tu Youyou's lab through the Project 523 era — the institutional thread that led from Mao-era anti-malarial military research to the 2015 Nobel Prize in Physiology or Medicine.",
+    "verified": false,
+    "academicContext": {
+      "affiliation": "Direct unit of the National Health Commission",
+      "keyPIs": [
+        {
+          "name": "Tu Youyou",
+          "lab": "Project 523 anti-malarial team",
+          "area": "Artemisinin (2015 Nobel Prize)"
+        }
+      ],
+      "hookFact": "Tu Youyou shared the 2015 Nobel for the artemisinin discovery she made at this institution during the Project 523 era."
+    },
+    "timeline": [
+      {
+        "chapterId": "insulin-and-artemisinin",
+        "status": "Tu Youyou's group identified Artemisia annua and isolated artemisinin in the late 1960s and early 1970s as part of Project 523."
+      }
+    ],
+    "sources": [
+      "lasker-artemisinin-2011"
+    ]
   }
 ]
