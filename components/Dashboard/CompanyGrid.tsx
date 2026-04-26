@@ -50,11 +50,12 @@ type Hovered = { rect: DOMRect; entity: Entity; fromProse?: boolean };
 
 export default function CompanyGrid() {
   const activeIds = useNarrative(
-    (s) => s.visibleChapters[s.currentIndex].activeEntityIds,
+    (s) => s.visibleChapters[s.currentIndex]?.activeEntityIds ?? [],
   );
   const currentChapter = useNarrative(
     (s) => s.visibleChapters[s.currentIndex],
   );
+  if (!currentChapter) return null;
   const highlightedEntity = useNarrative((s) => s.highlightedEntity);
   const proseHighlightedId =
     highlightedEntity?.type === "entity" ? highlightedEntity.id : null;
@@ -381,6 +382,12 @@ function TodayBlock({ today }: { today: NonNullable<Entity["today"]> }) {
       )}
       {today.approvedDrugCount !== undefined && (
         <Stat label="Approved drugs" value={String(today.approvedDrugCount)} />
+      )}
+      {today.grossMarginPct !== undefined && (
+        <Stat label="Gross margin" value={`${today.grossMarginPct}%`} />
+      )}
+      {today.rdPctOfRevenue !== undefined && (
+        <Stat label="R&D / revenue" value={`${today.rdPctOfRevenue}%`} />
       )}
       {today.listings && today.listings.length > 0 && (
         <Stat label="Listed" value={today.listings.join(" · ")} />

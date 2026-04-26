@@ -184,7 +184,7 @@ type Hovered = {
 };
 
 export default function CapabilityGrid() {
-  const progress = useNarrative((s) => s.visibleChapters[s.currentIndex].modalityProgress);
+  const progress = useNarrative((s) => s.visibleChapters[s.currentIndex]?.modalityProgress);
   const chapters = useNarrative((s) => s.chapters);
   const [hovered, setHovered] = useState<Hovered | null>(null);
 

@@ -33,7 +33,7 @@ type Hovered = { rect: DOMRect; reform: Reform; fromProse?: boolean };
 
 export default function ReformTimeline() {
   const activeIds = useNarrative(
-    (s) => s.visibleChapters[s.currentIndex].activeReformIds,
+    (s) => s.visibleChapters[s.currentIndex]?.activeReformIds ?? [],
   );
   const highlightedEntity = useNarrative((s) => s.highlightedEntity);
   const proseHighlightedId =
