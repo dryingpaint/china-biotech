@@ -56,7 +56,8 @@
       "radiopharm": {
         "rung": 0
       }
-    }
+    },
+    "hidden": true
   },
   {
     "id": "insulin-and-artemisinin",
