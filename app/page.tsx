@@ -7,9 +7,11 @@ import site from "@/data/site.json";
 import type { Chapter, SiteContent } from "@/lib/types";
 
 export default function Home() {
+  const siteContent = site as SiteContent;
   return (
     <main>
-      <Hero site={site as SiteContent} />
+      <Hero site={siteContent} />
+      {siteContent.intro && <Intro html={siteContent.intro} />}
       <SplitPanel
         narrative={<Scroller chapters={chapters as unknown as Chapter[]} />}
         dashboard={<Dashboard />}
@@ -32,5 +34,16 @@ function Hero({ site }: { site: SiteContent }) {
         {site.heroByline}
       </div>
     </header>
+  );
+}
+
+function Intro({ html }: { html: string }) {
+  return (
+    <section className="mx-auto max-w-2xl px-6 pb-20">
+      <div
+        className="prose-narrative space-y-5 text-[18px] leading-[1.7]"
+        dangerouslySetInnerHTML={{ __html: html }}
+      />
+    </section>
   );
 }

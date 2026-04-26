@@ -244,6 +244,7 @@ export type SiteContent = {
   heroTitle: string;
   heroSubtitle: string;
   heroByline: string;
+  intro?: string;  // optional HTML preface, rendered between hero and chapters
 };
 
 export type DeepDive = {

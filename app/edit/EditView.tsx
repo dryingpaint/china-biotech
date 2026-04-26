@@ -181,21 +181,34 @@ function EditableHero({
   const bylineProps = useEditable<HTMLDivElement>(site.heroByline, (v) =>
     onChange({ heroByline: v }),
   );
+  const introProps = useEditable<HTMLDivElement>(
+    site.intro ?? "",
+    (v) => onChange({ intro: v }),
+    /* isHtml */ true,
+  );
   return (
-    <header className="mx-auto max-w-3xl px-6 pb-16 pt-32 text-center">
-      <h1
-        {...titleProps}
-        className="text-5xl font-semibold leading-[1.05] tracking-tight md:text-6xl focus:outline-none focus:ring-2 focus:ring-amber-300/60"
-      />
-      <p
-        {...subtitleProps}
-        className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-[--color-muted] focus:outline-none focus:ring-2 focus:ring-amber-300/60"
-      />
-      <div
-        {...bylineProps}
-        className="dashboard mt-10 text-xs uppercase tracking-[0.25em] text-[--color-muted] focus:outline-none focus:ring-2 focus:ring-amber-300/60"
-      />
-    </header>
+    <>
+      <header className="mx-auto max-w-3xl px-6 pb-16 pt-32 text-center">
+        <h1
+          {...titleProps}
+          className="text-5xl font-semibold leading-[1.05] tracking-tight md:text-6xl focus:outline-none focus:ring-2 focus:ring-amber-300/60"
+        />
+        <p
+          {...subtitleProps}
+          className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-[--color-muted] focus:outline-none focus:ring-2 focus:ring-amber-300/60"
+        />
+        <div
+          {...bylineProps}
+          className="dashboard mt-10 text-xs uppercase tracking-[0.25em] text-[--color-muted] focus:outline-none focus:ring-2 focus:ring-amber-300/60"
+        />
+      </header>
+      <section className="mx-auto max-w-2xl px-6 pb-20">
+        <div
+          {...introProps}
+          className="prose-narrative space-y-5 text-[18px] leading-[1.7] focus:outline-none focus:ring-2 focus:ring-amber-300/60"
+        />
+      </section>
+    </>
   );
 }
 
