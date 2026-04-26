@@ -4,37 +4,84 @@
     "name": "NIBS Beijing",
     "nameZh": "北京生命科学研究所",
     "founded": 2003,
-    "headquarters": "Beijing (Zhongguancun)",
+    "headquarters": "Beijing (Zhongguancun Life Science Park)",
     "category": "academic",
-    "shortDescription": "National Institute of Biological Sciences — independent research institute that produced the founding science behind BeiGene.",
-    "signature": "Foundational research engine",
-    "narrativeHook": "Established in 2003 as a deliberate experiment in Western-style PI autonomy, NIBS recruited Wang Xiaodong from UT Southwestern as founding director — and his lab there became the scientific anchor of BeiGene when Wang co-founded the company in 2010.",
-    "verified": false,
+    "subcategory": "Research institute",
+    "shortDescription": "Independent biomedical research institute in Beijing's Zhongguancun Life Science Park; ~30 PI labs and 16 core facilities, 845 SCI papers including 61 in Nature/Science/Cell as of December 2024. Best known internationally for programmed-cell-death biology (apoptosis, necroptosis, pyroptosis) and HBV virology.",
+    "signature": "Cell-death biology powerhouse",
+    "narrativeHook": "Founded 2003 under joint MOST + Beijing Municipal funding with Wang Xiaodong and Deng Xingwang as co-directors, NIBS was an unusual carve-out: a state-funded research institute deliberately kept outside the Chinese Academy of Sciences hierarchy, run on a Western-style PI-autonomy model with five-year tenure clocks and international peer review. Its scientific reputation rests on three landmark discoveries — Wang Xiaodong's RIPK3/MLKL necroptosis pathway, Shao Feng's gasdermin/caspase-11 pyroptosis machinery, and Li Wenhui's identification of NTCP as the HBV/HDV receptor.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
     "academicContext": {
-      "affiliation": "Jointly funded by the Ministry of Science and Technology and the Beijing Municipal Government",
+      "affiliation": "Independent institute jointly funded by the Ministry of Science and Technology (MOST) and the Beijing Municipal Government; governed by an inter-agency Board of Trustees including MOST, NDRC, MOE, MOH, CAS, NSFC and Beijing Municipal Government — explicitly outside the CAS institute network.",
       "keyPIs": [
         {
           "name": "Wang Xiaodong",
-          "lab": "Apoptosis lab",
-          "area": "Cell death and oncology — co-founder of BeiGene"
+          "lab": "Cell death / apoptosis lab; founding co-director (2003) and director from 2010",
+          "area": "Apoptosis and necroptosis — discovered cytochrome-c-triggered caspase activation (Cell 1996) and Apaf-1 (Cell 1997) at UT Southwestern; at NIBS identified RIPK3 and the pseudokinase MLKL as the executioners of necroptosis. NAS member 2004; NAS Award in Molecular Biology 2004; Shaw Prize in Life Science and Medicine 2006; King Faisal International Prize in Medicine 2020. Co-founded BeiGene with John Oyler in 2010 and chairs its Scientific Advisory Board."
+        },
+        {
+          "name": "Shao Feng",
+          "lab": "Bacterial pathogenesis and innate immunity; investigator since 2005, deputy director",
+          "area": "Pyroptosis and innate-immune sensing — showed that caspase-11/4/5 are the cytosolic receptors for bacterial LPS (Nature 2014), identified gasdermin-D as the pyroptosis executioner cleaved by inflammatory caspases, and demonstrated gasdermin pore-forming activity (Nature 2016). Future Science Prize in Life Sciences 2019; HHMI International Early Career Scientist; CAS academician; member of the German Leopoldina."
+        },
+        {
+          "name": "Li Wenhui",
+          "lab": "Viral hepatitis lab",
+          "area": "HBV/HDV entry — in 2012 identified sodium taurocholate cotransporting polypeptide (NTCP / SLC10A1) as the long-sought functional receptor for hepatitis B and D viruses (eLife 2012, Yan et al.), enabling the first reproducible in vitro HBV infection systems and opening the path to entry-inhibitor drugs (e.g. bulevirtide). 2022 Future Science Prize in Life Sciences."
+        },
+        {
+          "name": "Deng Xingwang",
+          "lab": "Plant photomorphogenesis (founding co-director 2003)",
+          "area": "Plant signal transduction and light-response biology — co-founding director of NIBS alongside Wang Xiaodong; later returned to Peking University as dean of the School of Advanced Agriculture Sciences."
+        },
+        {
+          "name": "Tang Nan",
+          "lab": "Lung biology / regenerative medicine",
+          "area": "Alveolar stem-cell biology and pulmonary fibrosis — 2024 Cell Stem Cell paper on amphiregulin-driven progressive fibrosis from intermediate alveolar stem cells."
         }
       ],
       "spinoutEntityIds": [
         "beigene"
       ],
-      "hookFact": "NIBS' Western-style autonomy model — flat hierarchy, no Chinese Academy of Sciences entanglement, returnee-led PI recruiting — was a template later imitated by ShanghaiTech and Westlake."
+      "hookFact": "Wang Xiaodong's contribution to BeiGene was scientific credibility and recruitment leverage rather than a direct technology transfer: zanubrutinib (BGB-3111) was a fast-follower BTK-inhibitor program designed by BeiGene's medicinal-chemistry team after Pharmacyclics' ibrutinib entered Phase 3 in 2012, and was the 3,111th compound the team synthesised — not a derivative of Wang's apoptosis research at NIBS."
     },
     "timeline": [
       {
         "chapterId": "platforms-and-parks",
-        "status": "Founded 2003; Wang Xiaodong returned from UT Southwestern as founding director."
+        "status": "Founded April 2003 with Wang Xiaodong (then HHMI investigator at UT Southwestern) and Deng Xingwang as co-directors; first research institute in China deliberately constructed outside the CAS hierarchy with Western-style PI autonomy, five-year tenure clocks and international peer review."
       },
       {
         "chapterId": "innovator-generation",
-        "status": "BeiGene co-founded 2010 around science from Wang Xiaodong's NIBS lab."
+        "status": "Wang Xiaodong returns full-time to Beijing as director 2010 and co-founds BeiGene with John Oyler the same year. NIBS scales to ~25 labs; Shao Feng (joined 2005) publishes the caspase-11 LPS-sensor Nature paper in 2014."
+      },
+      {
+        "chapterId": "bi-jingquan-bigbang",
+        "status": "Shao Feng's lab demonstrates gasdermin pore-forming activity and identifies GSDMD as the pyroptosis executioner (Nature 2015–2016), redefining pyroptosis as gasdermin-mediated programmed necrosis."
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "Wang Xiaodong's lab works out the RIPK1–RIPK3–MLKL necroptosis pathway in detail, including MLKL membrane-pore formation; 2020 King Faisal International Prize in Medicine awarded to Wang."
+      },
+      {
+        "chapterId": "going-global",
+        "status": "By December 2024 NIBS reports 30 labs, 16 core facilities, 845 SCI papers as corresponding-author institute and 61 papers in Nature/Science/Cell; Shao Feng named to Clarivate Highly Cited Researchers 2024 (Immunology)."
       }
     ],
     "sources": [
+      "nibs-about-en",
+      "wang-xiaodong-wikipedia",
+      "wang-xiaodong-pnas-profile",
+      "zou-apaf1-cell-1997",
+      "liu-cytochrome-c-cell-1996",
+      "shao-gasdermin-nature-2016",
+      "shao-caspase11-lps-nature-2014",
+      "yan-ntcp-elife-2012",
+      "li-wenhui-future-science-2022",
+      "shao-future-science-2019",
+      "wang-xiaodong-nas-2004",
+      "wang-mlkl-necroptosis-nibs",
+      "nibs-tang-nan-cellstemcell-2024",
       "nibs-beijing-wikipedia",
       "crunchbase-xiaodong-wang"
     ]

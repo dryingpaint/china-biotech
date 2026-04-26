@@ -6670,5 +6670,109 @@
     "publisher": "Fudan University Hospital Management Institute (via cn-healthcare)",
     "year": 2023,
     "url": "https://rank.cn-healthcare.com/fudan/specialty-general/year/2022/sid/2"
+  },
+  {
+    "id": "nibs-about-en",
+    "authors": "National Institute of Biological Sciences, Beijing",
+    "title": "About NIBS",
+    "publisher": "NIBS Beijing (official site)",
+    "year": 2025,
+    "url": "http://www.nibs.ac.cn/en/about.php?cid=2&sid=3"
+  },
+  {
+    "id": "wang-xiaodong-wikipedia",
+    "authors": "Wikipedia contributors",
+    "title": "Xiaodong Wang (biochemist)",
+    "publisher": "Wikipedia",
+    "year": 2025,
+    "url": "https://en.wikipedia.org/wiki/Xiaodong_Wang_(biochemist)"
+  },
+  {
+    "id": "wang-xiaodong-pnas-profile",
+    "authors": "Dove, A.",
+    "title": "Profile of Xiaodong Wang",
+    "publisher": "Proceedings of the National Academy of Sciences (PNAS)",
+    "year": 2006,
+    "url": "https://www.pnas.org/doi/10.1073/pnas.0509187103"
+  },
+  {
+    "id": "liu-cytochrome-c-cell-1996",
+    "authors": "Liu, X., Kim, C. N., Yang, J., Jemmerson, R., Wang, X.",
+    "title": "Induction of apoptotic program in cell-free extracts: requirement for dATP and cytochrome c",
+    "publisher": "Cell 86(1): 147–157",
+    "year": 1996,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/8689682/"
+  },
+  {
+    "id": "zou-apaf1-cell-1997",
+    "authors": "Zou, H., Henzel, W. J., Liu, X., Lutschg, A., Wang, X.",
+    "title": "Apaf-1, a human protein homologous to C. elegans CED-4, participates in cytochrome c-dependent activation of caspase-3",
+    "publisher": "Cell 90(3): 405–413",
+    "year": 1997,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9267021/"
+  },
+  {
+    "id": "wang-mlkl-necroptosis-nibs",
+    "authors": "NIBS Beijing",
+    "title": "Dr. Xiaodong Wang's group digs into the molecular mechanism of necrosis (RIP3 / MLKL)",
+    "publisher": "NIBS Beijing News",
+    "year": 2014,
+    "url": "http://www.nibs.ac.cn/en/newsshow.php?cid=4&sid=15&id=1099"
+  },
+  {
+    "id": "shao-caspase11-lps-nature-2014",
+    "authors": "Shi, J., Zhao, Y., Wang, Y., Gao, W., Ding, J., Li, P., Hu, L., Shao, F.",
+    "title": "Inflammatory caspases are innate immune receptors for intracellular LPS",
+    "publisher": "Nature 514(7521): 187–192",
+    "year": 2014,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25119034/"
+  },
+  {
+    "id": "shao-gasdermin-nature-2016",
+    "authors": "Ding, J., Wang, K., Liu, W., She, Y., Sun, Q., Shi, J., Sun, H., Wang, D.-C., Shao, F.",
+    "title": "Pore-forming activity and structural autoinhibition of the gasdermin family",
+    "publisher": "Nature 535(7610): 111–116",
+    "year": 2016,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27281216/"
+  },
+  {
+    "id": "yan-ntcp-elife-2012",
+    "authors": "Yan, H., Zhong, G., Xu, G., He, W., Jing, Z., Gao, Z., Huang, Y., Qi, Y., Peng, B., Wang, H., Fu, L., Song, M., Chen, P., Gao, W., Ren, B., Sun, Y., Cai, T., Feng, X., Sui, J., Li, W.",
+    "title": "Sodium taurocholate cotransporting polypeptide is a functional receptor for human hepatitis B and D virus",
+    "publisher": "eLife 1: e00049",
+    "year": 2012,
+    "url": "https://elifesciences.org/articles/00049"
+  },
+  {
+    "id": "li-wenhui-future-science-2022",
+    "authors": "Future Science Prize Foundation",
+    "title": "2022 Life Science Prize Laureate — Wenhui Li",
+    "publisher": "Future Science Prize",
+    "year": 2022,
+    "url": "http://www.futureprize.org/en/laureates/detail/61.html"
+  },
+  {
+    "id": "shao-future-science-2019",
+    "authors": "Future Science Prize Foundation",
+    "title": "Announcement of 2019 Future Science Prize Winners: Feng Shao, Yifang Wang, Kam-Biu Luk, Xiaoyun Wang",
+    "publisher": "Future Science Prize",
+    "year": 2019,
+    "url": "http://www.futureprize.org/en/nav/detail/749.html"
+  },
+  {
+    "id": "wang-xiaodong-nas-2004",
+    "authors": "UT Southwestern Medical Center",
+    "title": "Biochemist becomes 15th UT Southwestern faculty member serving on National Academy of Sciences",
+    "publisher": "EurekAlert! / UT Southwestern",
+    "year": 2004,
+    "url": "https://www.eurekalert.org/news-releases/850825"
+  },
+  {
+    "id": "nibs-tang-nan-cellstemcell-2024",
+    "authors": "NIBS Beijing / Tang Lab",
+    "title": "Sustained amphiregulin expression in intermediate alveolar stem cells drives progressive fibrosis (Nan Tang lab profile)",
+    "publisher": "NIBS Beijing — Scientists & Research",
+    "year": 2024,
+    "url": "http://www.nibs.ac.cn/en/yjsjyimgshow.php?cid=5&sid=6&id=756"
   }
 ]
