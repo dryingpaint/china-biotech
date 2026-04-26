@@ -358,7 +358,7 @@
     "id": "bi-jingquan-bigbang",
     "title": "Bi Jingquan's Overhaul of Drug Regulation",
     "date": "2015–2016",
-    "body": "<p>In January 2015, <em>Bi Jingquan</em> was appointed director of the [[entity:nmpa|China Food and Drug Administration]]. He&nbsp;was former vice-chair of the [[entity:ndrc|National Development and Reform Commission]], China’s top macroeconomic planning body, which gave him rare access to cross-agency leverage.[[cite:bi-jingquan-wikipedia]] Bi inherited an agency in crisis--roughly 22,000 drug applications were backlogged, and a CFDA self-audit that year had found that some 80 percent of submitted clinical-trial data was fraudulent or incomplete. In August, the State Council issued document No. 44, “Opinions on the Reform of Review and Approval Process for Drugs and Medical Devices.” [[reform:priority-review|Priority review]] followed in November; clinical-trial application timelines collapsed toward sixty working days; foreign clinical-trial data could be accepted without redundant local trials; and the agency was redirected explicitly at fraudulent data. Median new-drug-application review time fell from 200 working days to ~130.[[cite:ropesgray-china-state-council-44]][[cite:wang-2019-new-era-drug-innovation-china]]</p>\n<p>While Bi rebuilt the regulator, Chinese biological capability was outrunning the rules in another direction. That April, Junjiu Huang at Sun Yat-sen University published the first report of CRISPR-mediated gene editing in human zygotes (non-viable tripronuclear embryos), an attempt to correct a β-globin mutation that causes thalassemia. The paper had been rejected by Nature and Science on ethical grounds before appearing in Protein &amp; Cell,[[cite:liang-2015-crispr-tripronuclear]] and within weeks the International Summit on Human Gene Editing concluded that clinical use of germline editing would be “irresponsible.”[[cite:intl-summit-gene-editing-2015]] The following year, Chinese researchers conducted the first reported human trial using CRISPR-edited cells.[[cite:cyranoski-2016-first-crispr-human]]</p>",
+    "body": "<p>In January 2015, <em>Bi Jingquan</em> was appointed director of the [[entity:nmpa|China Food and Drug Administration]]. He&nbsp;was former vice-chair of the [[entity:ndrc|National Development and Reform Commission]], China’s top macroeconomic planning body, which gave him rare access to cross-agency leverage.[[cite:bi-jingquan-wikipedia]] Bi inherited an agency in crisis--roughly 22,000 drug applications were backlogged, and a CFDA self-audit that year had found that some 80 percent of submitted clinical-trial data was fraudulent or incomplete. In August, the State Council issued document No. 44, “Opinions on the Reform of Review and Approval Process for Drugs and Medical Devices.” [[reform:priority-review|Priority review]] followed in November; clinical-trial application timelines collapsed toward sixty working days; foreign clinical-trial data could be accepted without redundant local trials; and the agency was redirected explicitly at fraudulent data. Median new-drug-application review time fell from 200 working days to ~130.[[cite:ropesgray-china-state-council-44]][[cite:wang-2019-new-era-drug-innovation-china]]</p>\n",
     "metrics": {
       "pipelineSharePct": 4,
       "inLicensingSharePct": 2,
@@ -455,7 +455,7 @@
     "id": "harmonisation-and-hong-kong",
     "title": "American Partnerships and Illegal CRISPR Babies",
     "date": "2017–2018",
-    "body": "<p>Before ICH membership, a Chinese clinical trial dossier wasn't directly usable by the FDA or EMA, and vice versa. Each agency demanded its own format, its own studies, its own definitions of safety and efficacy, meaning a drug developer aiming for global launch had to do most of the work twice. In June 2017, the [[reform:nmpa-rename|China Food and Drug Administration]] (renamed the [[entity:nmpa|National Medical Products Administration]] the following year in the government reorganization) was admitted as a regulatory member of the [[reform:ich-join|International Council for Harmonisation]], formally aligning Chinese drug regulation with American, European, and Japanese standards.[[cite:fda-cfda-ich-membership]][[cite:nmpa-2018-rename]] Such standardization laid the groundwork for the upcoming outlicensing boom.</p>\n<p>On 30 April 2018, the [[entity:hkex|Hong Kong Stock Exchange]] introduced [[reform:hk-18a|<em>Chapter 18A</em>]] to its Main Board Listing Rules. Pre-revenue biotechs could now list provided they had at least one Core Product past the concept stage, an expected market capitalisation of one and a half billion Hong Kong dollars, twelve months of working capital, and meaningful pre-listing funding from a “Sophisticated Investor.”[[cite:charltons-chapter-18a]] The regime was explicitly designed to compete with the American Nasdaq for “China’s new generation of biotech companies”; annual listings under the rule would peak at twenty in 2021.[[cite:pharmaboardroom-hk-2021-record]] Combined with the [[reform:star-market|Shanghai sci-tech innovation board]] launched the following year, [[reform:hk-18a|Chapter 18A]] largely solved the valley-of-death financing problem (the gap between venture capital, which peaks around Phase I/II, and revenue, which arrives only after approval) that had plagued Chinese pre-revenue biotech.[[cite:xinhua-star-market-launch]]</p>\n<p>In December 2017, [[entity:legend|<em>Legend Biotech</em>]] (a GenScript spinout whose investigator-initiated LEGEND-2 trial in Xi’an had reported a 100% response rate in relapsed/refractory multiple myeloma at ASCO that year) signed an exclusive worldwide collaboration with [[entity:johnson-johnson|Janssen]] for its dual-VHH BCMA CAR-T cilta-cell. The upfront $350 million was, up until that point, the largest ever paid to a Chinese biotech for a single asset.[[cite:legend-janssen-collaboration-milestone]]&nbsp;</p><p>Just weeks later, [[entity:junshi|Junshi’s]] [[entity:junshi|<em>toripalimab</em>]] became the first domestic checkpoint inhibitor approved in China;[[cite:frontiers-toripalimab-first-domestic-pd1]] [[entity:innovent|Innovent’s]] [[entity:innovent|sintilimab]], co-developed under a 2015 strategic alliance with [[entity:eli-lilly|Eli Lilly]] that gave Lilly ex-China rights.[[cite:innovent-lilly-tyvyt-press]]&nbsp;</p><p>But the same period showed the cost of capability outrunning governance. On 25–26 November, of 2018 on the eve of the Second International Summit on Human Genome Editing in Hong Kong, [[reform:he-jiankui|He Jiankui announced the birth of twin girls]] whose CCR5 gene, the immune-cell receptor that HIV uses to enter T cells, had been edited at the single-cell stage to confer HIV resistance. Not only was the editing technically sloppy--the twins were genetic mosaics with off-target effects--the ethical-review documents were discovered to have been forged and the consent forms were lackluster.[[cite:wikipedia-he-jiankui-affair]] The same year, [[reform:changsheng-scandal|Changchun Changsheng was fined roughly nine billion yuan for falsification in rabies-vaccine production]].[[cite:chinadaily-changsheng-fine]]</p>",
+    "body": "<p>Before ICH membership, a Chinese clinical trial dossier wasn't directly usable by the FDA or EMA, and vice versa. Each agency demanded its own format, its own studies, its own definitions of safety and efficacy, meaning a drug developer aiming for global launch had to do most of the work twice. In June 2017, the [[reform:nmpa-rename|China Food and Drug Administration]] (renamed the [[entity:nmpa|National Medical Products Administration]] the following year in the government reorganization) was admitted as a regulatory member of the [[reform:ich-join|International Council for Harmonisation]], formally aligning Chinese drug regulation with American, European, and Japanese standards.[[cite:fda-cfda-ich-membership]][[cite:nmpa-2018-rename]] Such standardization laid the groundwork for the upcoming outlicensing boom.</p>\n<p>On 30 April 2018, the [[entity:hkex|Hong Kong Stock Exchange]] introduced [[reform:hk-18a|<em>Chapter 18A</em>]] to its Main Board Listing Rules. Pre-revenue biotechs could now list provided they had at least one Core Product past the concept stage, an expected market capitalisation of one and a half billion Hong Kong dollars, twelve months of working capital, and meaningful pre-listing funding from a “Sophisticated Investor.”[[cite:charltons-chapter-18a]] The regime was explicitly designed to compete with the American Nasdaq for “China’s new generation of biotech companies”; annual listings under the rule would peak at twenty in 2021.[[cite:pharmaboardroom-hk-2021-record]] Combined with the [[reform:star-market|Shanghai sci-tech innovation board]] launched the following year, [[reform:hk-18a|Chapter 18A]] largely solved the valley-of-death financing problem (the gap between venture capital, which peaks around Phase I/II, and revenue, which arrives only after approval) that had plagued Chinese pre-revenue biotech.[[cite:xinhua-star-market-launch]]</p>\n<p>In December 2017, [[entity:legend|<em>Legend Biotech</em>]] (a GenScript spinout whose investigator-initiated LEGEND-2 trial in Xi’an had reported a 100% response rate in relapsed/refractory multiple myeloma at ASCO that year) signed an exclusive worldwide collaboration with [[entity:johnson-johnson|Janssen]] for its dual-VHH BCMA CAR-T cilta-cell. The upfront $350 million was, up until that point, the largest ever paid to a Chinese biotech for a single asset.[[cite:legend-janssen-collaboration-milestone]]&nbsp;</p><p>Just weeks later, [[entity:junshi|Junshi’s]] [[entity:junshi|<em>toripalimab</em>]] became the first domestic checkpoint inhibitor approved in China;[[cite:frontiers-toripalimab-first-domestic-pd1]] [[entity:innovent|Innovent’s]] [[entity:innovent|sintilimab]], co-developed under a 2015 strategic alliance with [[entity:eli-lilly|Eli Lilly]] that gave Lilly ex-China rights.[[cite:innovent-lilly-tyvyt-press]]&nbsp;</p>",
     "metrics": {
       "pipelineSharePct": 6,
       "inLicensingSharePct": 3,
@@ -518,9 +518,118 @@
       "hk-18a",
       "nhsa",
       "vbp",
+      "nmpa-rename"
+    ],
+    "modalityProgress": {
+      "smallMol": {
+        "rung": 4
+      },
+      "peptide": {
+        "rung": 2
+      },
+      "recombinant": {
+        "rung": 3
+      },
+      "biosimilar": {
+        "rung": 2
+      },
+      "novelMab": {
+        "rung": 4
+      },
+      "bispecific": {
+        "rung": 1
+      },
+      "adc": {
+        "rung": 2
+      },
+      "vaccine": {
+        "rung": 4
+      },
+      "cellTherapy": {
+        "rung": 2
+      },
+      "nucleicAcid": {
+        "rung": 0
+      },
+      "geneTherapy": {
+        "rung": 0
+      },
+      "radiopharm": {
+        "rung": 0
+      }
+    }
+  },
+  {
+    "id": "gene-editing-crisis",
+    "title": "He Jiankui and the CRISPR Babies",
+    "date": "2015–2020",
+    "body": "<p>The crisis didn’t start with He Jiankui. In April 2015, Junjiu Huang at Sun Yat-sen University published the first report of CRISPR-mediated gene editing in human zygotes (non-viable tripronuclear embryos), an attempt to correct a β-globin mutation that causes thalassemia. The paper had been rejected by Nature and Science on ethical grounds before appearing in Protein &amp; Cell,[[cite:liang-2015-crispr-tripronuclear]] and within weeks the International Summit on Human Gene Editing concluded that clinical use of germline editing would be “irresponsible.”[[cite:intl-summit-gene-editing-2015]] The following year, Chinese researchers conducted the first reported human trial using CRISPR-edited cells; Chinese laboratories were running ahead of the global ethics consensus.[[cite:cyranoski-2016-first-crispr-human]]</p>\n<p>On 25–26 November of 2018, on the eve of the Second International Summit on Human Genome Editing in Hong Kong, [[reform:he-jiankui|He Jiankui announced the birth of twin girls]] whose CCR5 gene, the immune-cell receptor that HIV uses to enter T cells, had been edited at the single-cell stage to confer HIV resistance. Not only was the editing technically sloppy (the twins were genetic mosaics with off-target effects), the ethical-review documents were discovered to have been forged and the consent forms were lackluster.[[cite:wikipedia-he-jiankui-affair]]</p>\n<p>The case closed in December 2019 with a three-year prison sentence for “illegal medical practice.”[[cite:statnews-he-jiankui-sentenced]] Beijing then pushed through a substantive legal overhaul: the [[reform:hgr-2019|2019 Regulations on Human Genetic Resources]], the 2020 Civil Code and [[reform:biosecurity-law|Biosafety Law]], and the 2020 eleventh amendment to the Criminal Law (which criminalized illegal human gene editing with up to seven years’ imprisonment) collectively reset bioethics governance.[[cite:covington-hgr-regulation]][[cite:china-org-civil-code-1009]][[cite:covington-biosecurity-law]][[cite:loc-criminal-law-amendment-11]]</p>",
+    "metrics": {
+      "pipelineSharePct": 7,
+      "inLicensingSharePct": 3,
+      "trialStartsShare": {
+        "china": 14,
+        "us": 29,
+        "eu": 31,
+        "japan": 8,
+        "row": 18
+      }
+    },
+    "activeEntityIds": [
+      "3sbio",
+      "akeso",
+      "asymchem",
+      "beigene",
+      "bgi",
+      "cansino",
+      "cstone",
+      "duality",
+      "eli-lilly",
+      "everest",
+      "hansoh",
+      "hengrui",
+      "henlius",
+      "hkex",
+      "imab",
+      "innovent",
+      "insilico",
+      "johnson-johnson",
+      "junshi",
+      "jw-therapeutics",
+      "kelun-bio",
+      "legend",
+      "nmpa",
+      "pharmaron",
+      "remegen",
+      "sinopharm",
+      "sinovac",
+      "tigermed",
+      "walvax",
+      "wuxi-apptec",
+      "wuxi-bio",
+      "xtalpi",
+      "zailab"
+    ],
+    "activeReformIds": [
+      "863-program",
+      "973-program",
+      "hgr-interim",
+      "major-new-drug-project",
+      "sfda-scandal",
+      "mic-2025",
+      "order-117",
+      "priority-review",
+      "mah",
+      "ich-join",
+      "conditional-approval",
+      "nrdl-resume",
+      "hk-18a",
+      "nhsa",
+      "vbp",
       "nmpa-rename",
-      "changsheng-scandal",
-      "he-jiankui"
+      "he-jiankui",
+      "hgr-2019",
+      "biosecurity-law"
     ],
     "modalityProgress": {
       "smallMol": {
@@ -565,7 +674,7 @@
     "id": "first-american-approvals",
     "title": "First American Approvals and the Pandemic",
     "date": "2019–2020",
-    "body": "<p>In February 2019, [[entity:henlius|Henlius’s]] [[entity:henlius|Hanlikang]] (a copy of Roche’s blockbuster anti-CD20 oncology biologic rituximab) became the first biosimilar approved in China.[[cite:henlius-hlx01-approval-press]] [[entity:beigene|BeiGene’s]] kinase inhibitor [[entity:beigene|<em>zanubrutinib</em>]], marketed as [[entity:beigene|Brukinsa]], won accelerated American approval in November, the first cancer drug developed in China to clear the United States [[entity:fda|Food and Drug Administration]].[[cite:fiercepharma-brukinsa-fda-approval]] [[entity:hengrui|Hengrui’s]] checkpoint inhibitor [[entity:hengrui|camrelizumab]] launched in May;[[cite:camrelizumab-first-approval-springer]] [[entity:beigene|BeiGene’s]] [[entity:beigene|tislelizumab]] won a Hodgkin-lymphoma indication in December.[[cite:beigene-tislelizumab-press-2019]] On 31 October 2019, [[entity:amgen|Amgen]] paid $2.7 billion for a 20.5% stake in [[entity:beigene|BeiGene]] plus China commercial rights to three of its marketed oncology drugs and a 20-asset pipeline co-development pact, marking the first time a top-ten multinational bought into a Chinese biotech as a strategic anchor rather than as a portfolio investor.[[cite:amgen-beigene-collab-2019]]</p>\n<p>The He Jiankui case closed in December 2019 with a three-year prison sentence for “illegal medical practice.”[[cite:statnews-he-jiankui-sentenced]] In direct response to the He Jiankui scandal, Beijing pushed through a substantive legal overhaul: the [[reform:hgr-2019|2019 Regulations on Human Genetic Resources]], the 2020 Civil Code and [[reform:biosecurity-law|Biosafety Law]], and the 2020 eleventh amendment to the Criminal Law (which criminalized illegal human gene editing with up to seven years’ imprisonment) collectively reset bioethics governance.[[cite:covington-hgr-regulation]][[cite:china-org-civil-code-1009]][[cite:covington-biosecurity-law]][[cite:loc-criminal-law-amendment-11]] The [[reform:vaccine-admin-law|Vaccine Administration Law]], also in 2019, imposed whole-process responsibility over development, manufacture, distribution, and post-marketing.[[cite:nmpa-vaccine-administration-law]]</p>\n<p>Then came COVID-19. By February 2020, parallel vaccine-development tracks ran across at least five technology platforms: inactivated, recombinant subunit, adenovirus-vectored, attenuated influenza-vectored, and messenger-RNA. [[entity:sinovac|Sinovac’s]] [[entity:sinovac|CoronaVac]] and [[entity:sinopharm|Sinopharm’s]] [[entity:sinopharm|BBIBP-CorV]] would receive [[entity:who|World Health Organization]] Emergency Use Listing in 2021 and ship into dozens of low- and middle-income countries.[[cite:who-sinovac-eul]][[cite:who-sinopharm-eul]] The messenger-RNA story, however, was a strategic embarrassment: the [[entity:walvax|Walvax]]-[[entity:abogen|Abogen]]-Academy of Military Medical Sciences candidate [[entity:walvax|ARCoV]] reached Phase III in Mexico and Indonesia by mid-2021 but never received broad authorization in time to matter.[[cite:scmp-arcov-phase3-mexico-indonesia]] mRNA had been identified by Chinese planners as a strategic platform of the future, and failing to develop one ceded the most consequential biotechnology of the decade to American firms. The most consequential platform of the pandemic was developed and commercialized first by [[entity:pfizer|Pfizer]]-[[entity:biontech|BioNTech]] and [[entity:moderna|Moderna]]. Even so, 2020 became, by Nature Biotechnology’s reckoning, a record-breaking year for Chinese biotech financing.[[cite:nature-biotech-financing-2020]]</p>",
+    "body": "<p>In February 2019, [[entity:henlius|Henlius’s]] [[entity:henlius|Hanlikang]] (a copy of Roche’s blockbuster anti-CD20 oncology biologic rituximab) became the first biosimilar approved in China.[[cite:henlius-hlx01-approval-press]] [[entity:beigene|BeiGene’s]] kinase inhibitor [[entity:beigene|<em>zanubrutinib</em>]], marketed as [[entity:beigene|Brukinsa]], won accelerated American approval in November, the first cancer drug developed in China to clear the United States [[entity:fda|Food and Drug Administration]].[[cite:fiercepharma-brukinsa-fda-approval]] [[entity:hengrui|Hengrui’s]] checkpoint inhibitor [[entity:hengrui|camrelizumab]] launched in May;[[cite:camrelizumab-first-approval-springer]] [[entity:beigene|BeiGene’s]] [[entity:beigene|tislelizumab]] won a Hodgkin-lymphoma indication in December.[[cite:beigene-tislelizumab-press-2019]] On 31 October 2019, [[entity:amgen|Amgen]] paid $2.7 billion for a 20.5% stake in [[entity:beigene|BeiGene]] plus China commercial rights to three of its marketed oncology drugs and a 20-asset pipeline co-development pact, marking the first time a top-ten multinational bought into a Chinese biotech as a strategic anchor rather than as a portfolio investor.[[cite:amgen-beigene-collab-2019]]</p>\n<p>In 2018, [[reform:changsheng-scandal|Changchun Changsheng was fined roughly nine billion yuan for falsification in rabies-vaccine production]].[[cite:chinadaily-changsheng-fine]] In direct response, the [[reform:vaccine-admin-law|Vaccine Administration Law]] of 2019 imposed whole-process responsibility on producers across development, manufacture, distribution, and post-marketing.[[cite:nmpa-vaccine-administration-law]]</p>\n<p>Then came COVID-19. By February 2020, parallel vaccine-development tracks ran across at least five technology platforms: inactivated, recombinant subunit, adenovirus-vectored, attenuated influenza-vectored, and messenger-RNA. [[entity:sinovac|Sinovac’s]] [[entity:sinovac|CoronaVac]] and [[entity:sinopharm|Sinopharm’s]] [[entity:sinopharm|BBIBP-CorV]] would receive [[entity:who|World Health Organization]] Emergency Use Listing in 2021 and ship into dozens of low- and middle-income countries.[[cite:who-sinovac-eul]][[cite:who-sinopharm-eul]] The messenger-RNA story, however, was a strategic embarrassment. The [[entity:walvax|Walvax]]-[[entity:abogen|Abogen]]-Academy of Military Medical Sciences candidate [[entity:walvax|ARCoV]] reached Phase III in Mexico and Indonesia by mid-2021 but never received broad authorization in time.[[cite:scmp-arcov-phase3-mexico-indonesia]] mRNA had been identified by Chinese planners as a strategic platform of the future, and failing to develop one ceded the most consequential biotechnology of the decade to American firms. The most consequential platform of the pandemic was developed and commercialized first by [[entity:pfizer|Pfizer]]-[[entity:biontech|BioNTech]] and [[entity:moderna|Moderna]].</p><p>Even so, 2020 became a record-breaking year for Chinese biotech financing.[[cite:nature-biotech-financing-2020]] Chinese healthcare startups raised roughly RMB 190 billion (~$28 billion), more than double the 2019 level. The combined market capitalisation of China-originated biotechs listed on STAR, HKEX, and Nasdaq rose from $3 billion in 2016 to $140 billion by year-end 2020, a 47-fold expansion in four years. Hong Kong alone hosted six of the year’s largest biotech IPOs, including [[entity:remegen|RemeGen]] ($515M), [[entity:simcere|Simcere]] ($461M), and [[entity:everest|Everest Medicines]] ($451M). Most tellingly, Chinese biotechs signed a record twelve major out-licensing deals with multinational pharmaceutical companies, carrying a median deal value above $900 million, clear validation that Chinese innovation was producing globally competitive therapies.[[cite:mckinsey-china-biopharma-dawn-2021]]</p>",
     "metrics": {
       "pipelineSharePct": 7,
       "inLicensingSharePct": 3,
@@ -634,11 +743,8 @@
       "vbp",
       "nmpa-rename",
       "changsheng-scandal",
-      "he-jiankui",
       "vaccine-admin-law",
-      "hgr-2019",
       "star-market",
-      "biosecurity-law",
       "drug-reg-overhaul"
     ],
     "modalityProgress": {
@@ -686,7 +792,7 @@
     "id": "procurement-and-value",
     "title": "The End of the Copycat Era",
     "date": "2021–2022",
-    "body": "<p>By 2021 the strategy that had built the innovator generation had become a trap. The [[entity:nhsa|National Healthcare Security Administration]], the cabinet-level agency the State Council carved off from three other ministries in March 2018 to consolidate insurance and drug pricing, took the binding role. [[entity:hengrui|Hengrui’s]] [[entity:hengrui|camrelizumab]] eventually entered the [[reform:nrdl-resume|National Reimbursement Drug List]] at deep discounts; the centralized [[reform:vbp|<em>volume-based procurement</em>]] mechanism (the state’s monopsony bulk-purchase scheme that demands deep discounts in exchange for reimbursement-list inclusion) turned would-be blockbuster checkpoint inhibitors into commodity goods almost on contact.[[cite:eversana-pd1-nrdl-2020]] In 2021, the regulator’s [[entity:cde|Center for Drug Evaluation]] issued formal [[reform:value-oriented-onc|Guidelines for Clinical Value-Oriented Oncology Drug Development]]: a quiet acknowledgement that fast-following [[entity:merck-co|Merck]]’s Keytruda was no longer a winning strategy.[[cite:pharmadj-cde-clinical-value-guidelines]]</p>\n<p>Fosun Kite began local manufacture of axicabtagene ciloleucel (Yescarta, the Kite-Gilead CAR-T therapy for B-cell lymphomas) in China in June 2021;[[cite:kite-fosun-first-cart-china]] [[entity:jw-therapeutics|JW Therapeutics’]] [[entity:jw-therapeutics|relmacabtagene autoleucel]] followed in September as the first domestic engineered T-cell therapy approved.[[cite:jw-relma-cel-press]] On 28 February 2022 the [[entity:fda|FDA]] approved [[entity:legend|<em>Legend Biotech</em>]]’s [[entity:legend|<em>Carvykti</em>]] (ciltacabtagene autoleucel), partnered with [[entity:johnson-johnson|Janssen]]. Carvykti was the first Chinese-discovered cell therapy to clear the American market, and the first Chinese drug to compete on a novel construct (a dual-VHH BCMA design) rather than as a fast-follower; it validated the LEGEND-2 dataset that had triggered the $350M Janssen upfront five years earlier.[[cite:fda-carvykti-approval-2022]][[cite:fiercepharma-jj-legend-carvykti-fda-2022]] By 2022, Chinese companies were running 1.5 such programs for every one in American development. As recently as 2014, the United States had developed or co-developed more than half of all newly identified candidates in the class.[[cite:pharma-tech-cart-china-superpower]]</p>\n<p>The [[reform:fyp14-bioeconomy|14th Five-Year Bioeconomy Plan]], issued in 2022, broadened the national agenda from biopharma narrowly to medical health, bio-agriculture, bioenergy, bio-information, and biosecurity.[[cite:chinadaily-bioeconomy-plan]] China’s share of global biotech venture capital had climbed from 3.5% in 2010 to 18.9% by 2020[[cite:itif-china-biotech-2024]][[cite:nsf-skti-24-2022]]. The cycle then reversed sharply, driven by a global post-COVID healthcare valuation reset, US interest-rate hikes pulling capital back to American assets, and accelerating US-China geopolitical tensions that prompted foreign investors to withdraw.[[cite:stat-china-biotech-foreign-pullback-2024]] Chinese biopharma primary-market financing fell from a 2021 peak of roughly RMB 88 billion (about $13.6 billion) across 625 transactions to RMB 27.7 billion (about $3.8 billion) in 2024;[[cite:biopharmaapac-china-h1-2025]] Hong Kong biotech listings under [[reform:hk-18a|Chapter 18A]] dropped from twenty in 2021 to eight in 2022 to seven in 2023.[[cite:pharmaboardroom-hk-biotech-2022]] Companies that could no longer raise at home increasingly raised abroad through licensing. In August 2021, [[entity:remegen|<em>RemeGen</em>]] (a Yantai-based dual-platform biotech founded in 2008 by returnee scientist Jianmin Fang) granted [[entity:seagen|Seagen]] exclusive ex-China rights to disitamab vedotin, [[entity:nmpa|NMPA]]-approved as [[entity:remegen|Aidixi]] two months earlier as the first homegrown Chinese ADC, in a deal worth up to $2.6 billion (then the largest oncology out-license ever struck by a Chinese biotech).[[cite:businesswire-seagen-and-remegen-announce-exclusive-wo]][[cite:remegen-jianmin-fang]] [[entity:merck-co|Merck]]’s December 2022 expansion of its antibody-drug-conjugate pact with [[entity:kelun-bio|Kelun Biotech]], worth up to $9 billion,[[cite:merck-kelun-adc-deal-press]] was a second signal that out-licensing was becoming the new financing.</p>",
+    "body": "<p>By 2021 the strategy that had built the innovator generation had become a trap. The [[entity:nhsa|National Healthcare Security Administration]], the cabinet-level agency the State Council carved off from three other ministries in March 2018 to consolidate insurance and drug pricing. [[entity:hengrui|Hengrui’s]] [[entity:hengrui|camrelizumab]] eventually entered the [[reform:nrdl-resume|National Reimbursement Drug List]] at deep discounts; the centralized [[reform:vbp|<em>volume-based procurement</em>]] mechanism (the state’s monopsony bulk-purchase scheme that demands deep discounts in exchange for reimbursement-list inclusion) turned would-be blockbuster checkpoint inhibitors into commodity goods almost on contact.[[cite:eversana-pd1-nrdl-2020]] In 2021, the regulator’s [[entity:cde|Center for Drug Evaluation]] issued formal [[reform:value-oriented-onc|Guidelines for Clinical Value-Oriented Oncology Drug Development]]: a quiet acknowledgement that fast-following [[entity:merck-co|Merck]]’s Keytruda was no longer a winning strategy.[[cite:pharmadj-cde-clinical-value-guidelines]]</p>\n<p>Fosun Kite began local manufacture of axicabtagene ciloleucel (Yescarta, the Kite-Gilead CAR-T therapy for B-cell lymphomas) in China in June 2021;[[cite:kite-fosun-first-cart-china]] [[entity:jw-therapeutics|JW Therapeutics’]] [[entity:jw-therapeutics|relmacabtagene autoleucel]] followed in September as the first domestic engineered T-cell therapy approved.[[cite:jw-relma-cel-press]] On 28 February 2022 the [[entity:fda|FDA]] approved [[entity:legend|<em>Legend Biotech</em>]]’s [[entity:legend|<em>Carvykti</em>]] (ciltacabtagene autoleucel), partnered with [[entity:johnson-johnson|Janssen]]. Carvykti was the first Chinese-discovered cell therapy to clear the American market, and the first Chinese drug to compete on a novel construct (a dual-VHH BCMA design) rather than as a fast-follower; it validated the LEGEND-2 dataset that had triggered the $350M Janssen upfront five years earlier.[[cite:fda-carvykti-approval-2022]][[cite:fiercepharma-jj-legend-carvykti-fda-2022]] By 2022, Chinese companies were running 1.5 such programs for every one in American development. As recently as 2014, the United States had developed or co-developed more than half of all newly identified candidates in the class.[[cite:pharma-tech-cart-china-superpower]]</p>\n<p>The [[reform:fyp14-bioeconomy|14th Five-Year Bioeconomy Plan]], issued in 2022, broadened the national agenda from biopharma narrowly to medical health, bio-agriculture, bioenergy, bio-information, and biosecurity.[[cite:chinadaily-bioeconomy-plan]] China’s share of global biotech venture capital had climbed from 3.5% in 2010 to 18.9% by 2020[[cite:itif-china-biotech-2024]][[cite:nsf-skti-24-2022]]. The cycle then reversed sharply, driven by a global post-COVID healthcare valuation reset, US interest-rate hikes pulling capital back to American assets, and accelerating US-China geopolitical tensions that prompted foreign investors to withdraw.[[cite:stat-china-biotech-foreign-pullback-2024]] Chinese biopharma primary-market financing fell from a 2021 peak of roughly RMB 88 billion (about $13.6 billion) across 625 transactions to RMB 27.7 billion (about $3.8 billion) in 2024;[[cite:biopharmaapac-china-h1-2025]] Hong Kong biotech listings under [[reform:hk-18a|Chapter 18A]] dropped from twenty in 2021 to eight in 2022 to seven in 2023.[[cite:pharmaboardroom-hk-biotech-2022]] Companies that could no longer raise at home increasingly raised abroad through licensing. In August 2021, [[entity:remegen|<em>RemeGen</em>]] (a Yantai-based dual-platform biotech founded in 2008 by returnee scientist Jianmin Fang) granted [[entity:seagen|Seagen]] exclusive ex-China rights to disitamab vedotin, [[entity:nmpa|NMPA]]-approved as [[entity:remegen|Aidixi]] two months earlier as the first homegrown Chinese ADC, in a deal worth up to $2.6 billion (then the largest oncology out-license ever struck by a Chinese biotech).[[cite:businesswire-seagen-and-remegen-announce-exclusive-wo]][[cite:remegen-jianmin-fang]] [[entity:merck-co|Merck]]’s December 2022 expansion of its antibody-drug-conjugate pact with [[entity:kelun-bio|Kelun Biotech]], worth up to $9 billion,[[cite:merck-kelun-adc-deal-press]] was a second signal that out-licensing was becoming the new financing.</p>",
     "metrics": {
       "pipelineSharePct": 9,
       "inLicensingSharePct": 16,
