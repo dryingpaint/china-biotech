@@ -8,7 +8,7 @@ import CapabilityGrid from "./CapabilityGrid";
 
 export default function Dashboard() {
   return (
-    <div className="flex h-full flex-col gap-5 overflow-y-auto pr-1">
+    <div className="flex flex-col gap-5">
       <DateHeader />
       <CompanyGrid />
       <ReformTimeline />
