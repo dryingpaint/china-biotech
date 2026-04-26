@@ -518,9 +518,10 @@ function DealBlock({
 }
 
 function SourceList({ ids }: { ids: string[] }) {
+  const unique = [...new Set(ids)];
   return (
     <div className="flex flex-wrap gap-x-2 gap-y-0.5 text-[11px] leading-tight">
-      {ids.map((id) => {
+      {unique.map((id) => {
         const found = getCitation(id);
         if (!found) {
           return (
