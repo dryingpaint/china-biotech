@@ -1,6 +1,7 @@
 "use client";
 
 import type { Chapter } from "@/lib/types";
+import { useState } from "react";
 import { useEditable } from "./useEditable";
 
 type Props = {
@@ -10,6 +11,8 @@ type Props = {
 };
 
 export default function ChapterEditor({ chapter, onChange, onFocus }: Props) {
+  const [bodyVersion, setBodyVersion] = useState(0);
+
   const titleProps = useEditable<HTMLHeadingElement>(
     chapter.title,
     (v) => onChange({ title: v }),
@@ -18,19 +21,14 @@ export default function ChapterEditor({ chapter, onChange, onFocus }: Props) {
     chapter.date,
     (v) => onChange({ date: v }),
   );
-  const bodyProps = useEditable<HTMLDivElement>(
-    chapter.body,
-    (v) => onChange({ body: v }),
-    /* isHtml */ true,
-  );
 
   const insertSectionAtTop = () => {
-    const el = bodyProps.ref.current;
-    if (!el) return;
     const newSection =
       '<h3>New section<span class="section-date">YYYY–YYYY</span></h3>\n<p>New section content.</p>\n';
-    el.innerHTML = newSection + el.innerHTML;
-    onChange({ body: el.innerHTML });
+    onChange({ body: newSection + chapter.body });
+    // Bump the body sub-component's key so it remounts and useEditable re-runs
+    // with the new chapter.body as its initial value, preserving everything.
+    setBodyVersion((v) => v + 1);
   };
 
   return (
@@ -58,11 +56,28 @@ export default function ChapterEditor({ chapter, onChange, onFocus }: Props) {
           {...dateProps}
           className="text-[--color-muted] focus:outline-none focus:ring-2 focus:ring-amber-300/60"
         />
-        <div
-          {...bodyProps}
-          className="space-y-5 focus:outline-none focus:ring-2 focus:ring-amber-300/60"
+        <EditableBody
+          key={bodyVersion}
+          body={chapter.body}
+          onChange={(v) => onChange({ body: v })}
         />
       </div>
     </section>
+  );
+}
+
+function EditableBody({
+  body,
+  onChange,
+}: {
+  body: string;
+  onChange: (v: string) => void;
+}) {
+  const bodyProps = useEditable<HTMLDivElement>(body, onChange, /* isHtml */ true);
+  return (
+    <div
+      {...bodyProps}
+      className="space-y-5 focus:outline-none focus:ring-2 focus:ring-amber-300/60"
+    />
   );
 }
