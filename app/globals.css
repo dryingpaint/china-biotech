@@ -55,6 +55,22 @@ body {
   border-bottom-color: var(--color-gold);
 }
 
+.prose-narrative h3 {
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-top: 0.4em;
+  color: var(--color-fg);
+}
+
+.prose-narrative h3 .section-date {
+  color: var(--color-muted);
+  font-weight: 400;
+  font-size: 0.85em;
+  margin-left: 0.5em;
+  letter-spacing: 0.02em;
+}
+
 .deepdive-trigger {
   display: inline;
   cursor: pointer;
