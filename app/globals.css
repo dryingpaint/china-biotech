@@ -56,6 +56,20 @@ body {
     border-bottom-color: var(--color-gold);
   }
 
+  .cite-inline {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: var(--color-rule);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    transition: color 0.15s ease, text-decoration-color 0.15s ease;
+  }
+
+  .cite-inline:hover {
+    color: var(--color-accent);
+    text-decoration-color: var(--color-accent);
+  }
+
   .note-ref {
     position: relative;
     cursor: help;

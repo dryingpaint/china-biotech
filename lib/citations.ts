@@ -40,13 +40,18 @@ function processSimpleMarkers(html: string): string {
       const escaped = escapeAttr(text);
       return `<sup class="note-ref" data-tooltip="${escaped}" title="${escaped}" tabindex="0" aria-label="${escaped}">?</sup>`;
     })
-    .replace(/\[\[cite:([a-z0-9-]+)\]\]/g, (_, id) => {
+    .replace(/\[\[cite:([a-z0-9-]+)(?:\|([^\]]+))?\]\]/g, (_, id, inlineText) => {
       const found = getCitation(id);
       if (found) {
         const n = found.index + 1;
         const titleAttr = escapeAttr(
           `${found.citation.authors}, "${found.citation.title}" (${found.citation.year})`,
         );
+        if (inlineText) {
+          // Inline-citation form: text becomes a hyperlink to the bibliography entry
+          return `<a href="#cite-${found.citation.id}" title="${titleAttr}" class="cite-inline">${inlineText}</a>`;
+        }
+        // Default form: numbered superscript
         return `<sup class="cite-ref"><a href="#cite-${found.citation.id}" title="${titleAttr}" class="font-medium text-[--color-accent] no-underline hover:underline">[${n}]</a></sup>`;
       }
       if (process.env.NODE_ENV !== "production") {
