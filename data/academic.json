@@ -132,31 +132,70 @@
     "name": "ShanghaiTech University",
     "nameZh": "上海科技大学",
     "founded": 2013,
-    "headquarters": "Shanghai (Pudong)",
+    "headquarters": "Shanghai (Pudong, Zhangjiang Hi-Tech Park; 393 Middle Huaxia Road)",
     "category": "academic",
-    "shortDescription": "Founded 2013 jointly by CAS and Shanghai municipality on the NIBS Western-style PI model; iHuman Institute is a global leader in GPCR structural biology.",
-    "signature": "iHuman Institute",
-    "narrativeHook": "Established in 2013 as a joint venture between the Chinese Academy of Sciences and Shanghai Municipal Government on the NIBS template, ShanghaiTech recruited Raymond Stevens from Scripps to launch iHuman in 2014 — and the institute became one of the world's most prolific producers of GPCR structures within five years.",
-    "verified": false,
+    "shortDescription": "Public research university in Pudong's Zhangjiang Hi-Tech Park, jointly established 2013 by the Chinese Academy of Sciences and the Shanghai Municipal Government on a Western-style PI model; iHuman Institute is a globally recognized GPCR structural-biology hub.",
+    "signature": "iHuman Institute (GPCR structural biology)",
+    "narrativeHook": "Approved by China's Ministry of Education on 30 September 2013 as a joint venture between the Chinese Academy of Sciences and the Shanghai Municipal Government in Zhangjiang Hi-Tech Park, ShanghaiTech adopted the NIBS-style PI-autonomy template and recruited Raymond Stevens (then at Scripps) and Zhi-Jie Liu to co-found the iHuman Institute in 2012. iHuman has since become one of the world's most prolific GPCR structural-biology clusters, anchoring the Shanghai biomedical cluster alongside CAS' Shanghai Institute of Materia Medica.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
     "academicContext": {
-      "affiliation": "Joint Chinese Academy of Sciences / Shanghai Municipal Government",
+      "affiliation": "Joint Chinese Academy of Sciences (CAS) / Shanghai Municipal Government; Ministry of Education-approved 30 September 2013",
       "keyPIs": [
         {
-          "name": "Raymond Stevens",
-          "lab": "iHuman Institute (founding director)",
-          "area": "GPCR structural biology"
+          "name": "Raymond C. Stevens",
+          "lab": "iHuman Institute (founding director, Aug 2012–present); concurrently Bridge Institute, USC from 2014",
+          "area": "GPCR structural biology — first high-resolution human GPCR (β2-AR, 2007) at Scripps; led iHuman's GPCR program from 2012"
+        },
+        {
+          "name": "Zhi-Jie Liu",
+          "lab": "iHuman Institute (co-founder; Executive Director)",
+          "area": "GPCR structural biology — led the agonist-bound human cannabinoid receptor CB1 structure (2017) and TAS2R46 bitter-taste receptor cryo-EM (2022)"
+        },
+        {
+          "name": "Kurt Wüthrich",
+          "lab": "iHuman Institute (Distinguished Professor)",
+          "area": "Biomolecular NMR — 2002 Nobel Prize in Chemistry; leads iHuman's molecular structural biology group"
+        },
+        {
+          "name": "Richard A. Lerner",
+          "lab": "Shanghai Institute for Advanced Immunochemical Studies / SIAIS (founding director, Oct 2012–2021)",
+          "area": "Antibody design and immunochemistry — Scripps former president; died December 2021"
+        },
+        {
+          "name": "James E. Rothman",
+          "lab": "SIAIS (Professor-in-Residence)",
+          "area": "Vesicle trafficking — 2013 Nobel Prize in Physiology or Medicine"
         }
       ],
-      "hookFact": "iHuman Institute solved more than 50 GPCR structures in its first decade — one of the world's leading clusters in the field, anchored by Pudong's biotech park."
+      "hookFact": "iHuman Institute was co-founded in late 2012 by Raymond Stevens and Zhi-Jie Liu and opened officially with ShanghaiTech on 30 September 2013; by its 10-year anniversary in November 2022 it had trained 39 PhDs and 22 master's graduates and produced a series of landmark GPCR structures (CB1, GLP-1R, FZD4, TAS2R46) — and in 2018 it convened an international GPCR Consortium with Amgen, Sanofi, ONO Pharmaceutical, USC and CAS' Shanghai Institute of Materia Medica targeting structures of 200 of the ~826 human GPCRs."
     },
     "timeline": [
       {
+        "chapterId": "platforms-and-parks",
+        "status": "Planning began June 2004 (Shanghai Municipal Government and CAS initiate joint research-university planning in Pudong); 2008 Broad Collaboration Agreement; April 2012 Ministry of Education planning approval."
+      },
+      {
         "chapterId": "innovator-generation",
-        "status": "Founded 2013; iHuman Institute launched 2014 with Raymond Stevens recruited from Scripps."
+        "status": "iHuman Institute co-founded August 2012 by Raymond Stevens (then Scripps) and Zhi-Jie Liu; SIAIS founded October 2012 under Richard Lerner. Ministry of Education approves ShanghaiTech 30 September 2013; first 296 graduate students enroll September 2013, first 207 undergraduates September 2014."
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "July 2018: iHuman Institute, ShanghaiTech, Shanghai Institute of Materia Medica (CAS) and USC launch International GPCR Consortium with founding industry partners Amgen, Sanofi and ONO Pharmaceutical."
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "November 2022: iHuman 10-year anniversary; Stevens steps to Founding Director and Zhi-Jie Liu becomes Executive Director. Continued cryo-EM GPCR output (e.g., TAS2R46 bitter-taste receptor, Science 2022)."
       }
     ],
     "sources": [
-      "shanghaitech-ihuman-about"
+      "shanghaitech-wikipedia",
+      "shanghaitech-eng-about",
+      "ihuman-stevens-bio",
+      "stevens-wikipedia",
+      "ihuman-10yr-anniversary",
+      "ihuman-gpcr-consortium-2018",
+      "shanghaitech-lerner-memoriam"
     ]
   },
   {

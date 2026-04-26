@@ -6,33 +6,44 @@
     "founded": 1921,
     "headquarters": "Beijing",
     "category": "hospital",
-    "shortDescription": "Top-ranked Chinese teaching hospital; flagship of the Republican-era American medical tradition and a major academic trial site.",
-    "signature": "Top trial site",
-    "narrativeHook": "Built with Rockefeller Foundation money in 1917 to be 'a medical school and hospital comparable with that of the leading institutions of Western civilization,' PUMC remains the most-cited teaching hospital in China and the canonical lineage point for the country's first generation of internationally trained physicians.",
-    "verified": false,
+    "shortDescription": "Top-ranked Chinese teaching hospital; flagship of the Republican-era American medical tradition and a major academic trial site, including for rare-disease research.",
+    "signature": "Top-ranked Chinese teaching hospital",
+    "narrativeHook": "Built with Rockefeller Foundation money and opened to patients in 1921 as a self-described 'Johns Hopkins of China,' PUMCH remains the most-cited teaching hospital in the country and a canonical lineage point for China's first internationally-trained physician cohort.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
     "hospitalContext": {
-      "affiliation": "Chinese Academy of Medical Sciences / Peking Union Medical College",
-      "hookFact": "Has ranked #1 on the Fudan University Hospital Management Institute's Chinese Hospital Rankings continuously since the index began in 2009."
+      "affiliation": "Chinese Academy of Medical Sciences / Peking Union Medical College (CAMS-PUMC system)",
+      "beds": 2000,
+      "hookFact": "Has topped the Fudan University Hospital Management Institute's 'China's Best Hospital Rankings' every year since the index was first published in 2010 — a streak that reached 13 consecutive years with the 2021 edition (released November 2022)."
     },
     "timeline": [
       {
         "chapterId": "republican-foundations",
-        "status": "Established 1917 with Rockefeller China Medical Board funding; small graduating classes (30–50) produced China's first internationally-trained physician cohort.",
-        "note": "Original campus on the site of a former Qing royal palace in Beijing."
+        "status": "Peking Union Medical College established 1917 with Rockefeller China Medical Board funding; the teaching hospital opened to the public in September 1921 on the site of a former Qing palace, modelled on Johns Hopkins.",
+        "note": "Final Rockefeller outlay reached roughly $7.5M, far above the original $1–1.5M budget."
       },
       {
         "chapterId": "insulin-and-artemisinin",
-        "status": "Became part of CAMS-PUMC system; preserved as a teaching hospital through the Cultural Revolution period."
+        "status": "Operating as the clinical arm of the Chinese Academy of Medical Sciences / Peking Union Medical College (CAMS-PUMC) system."
       },
       {
         "chapterId": "platforms-and-parks",
-        "status": "Major academic trial site as China entered the GCP era."
+        "status": "Major academic trial site as China entered the GCP era; later host to the National Rare Diseases Registry System (NRDRS) led by PUMCH."
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "By 2024 operating >2,000 inpatient beds across multiple campuses with >130,000 annual discharges; ranked No. 1 in the National Tertiary Public Hospital Performance Evaluation."
       }
     ],
     "sources": [
       "rockarch-pumc-history",
       "pmc-cams-pumc-2020",
-      "pumc-wikipedia"
+      "pumch-wikipedia",
+      "pumch-official-about",
+      "pumch-official-detail",
+      "fudan-rankings-narrative-review-2022",
+      "beijing-gov-pumch-13th",
+      "pumch-rare-disease-2024"
     ]
   },
   {
@@ -42,34 +53,72 @@
     "founded": 1931,
     "headquarters": "Shanghai",
     "category": "hospital",
-    "shortDescription": "Largest Shanghai oncology hospital; a primary trial site for domestic PD-1, ADC, and bispecific programs.",
+    "shortDescription": "China's oldest cancer specialty hospital and a Grade-3A teaching hospital of Fudan University's Shanghai Medical College; consistently a top-three oncology specialty on the Fudan Hospital Rankings, and a primary China site for PD-1 and ADC registration trials.",
     "signature": "Oncology trial flagship",
-    "narrativeHook": "By the 2020s Fudan Cancer Center was hosting the China leg of the registration trials that would carry domestically-discovered checkpoint inhibitors and ADCs into NMPA approval — including PIs and trial sites for camrelizumab, sintilimab, disitamab vedotin, and ivonescimab programs.",
-    "verified": false,
+    "narrativeHook": "Founded on 1 March 1931 as the Sino-Belgian Radium Institute, FUSCC was the first cancer-specialty hospital in China; by the 2020s it was hosting the China leg of registration-grade oncology trials for the first wave of domestically-discovered checkpoint inhibitors and ADCs — including the camrelizumab CameL (NCT03134872) and sintilimab ORIENT-12 (NCT03629925) Phase 3 NSCLC programs and FUSCC-led trials evaluating disitamab vedotin and ivonescimab combinations.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
     "hospitalContext": {
-      "affiliation": "Fudan University",
-      "hookFact": "Fudan University Shanghai Cancer Center has consistently ranked in the top 3 oncology hospitals on the Fudan University Hospital Management Institute index since 2010."
+      "affiliation": "Affiliated with Shanghai Medical College, Fudan University (renamed FUSCC in 2002 after Shanghai Medical University merged into Fudan in 2000; previously the Cancer Hospital of Shanghai First Medical College / Shanghai Medical University from 1954).",
+      "beds": 2149,
+      "keyTrials": [
+        {
+          "trial": "CameL (NCT03134872)",
+          "sponsor": "Jiangsu Hengrui",
+          "asset": "Camrelizumab + carboplatin/pemetrexed",
+          "role": "One of 52 China sites in the Phase 3 first-line non-squamous NSCLC registration trial that supported camrelizumab's NMPA NSCLC approval."
+        },
+        {
+          "trial": "ORIENT-12 (NCT03629925)",
+          "sponsor": "Innovent / Eli Lilly",
+          "asset": "Sintilimab + gemcitabine/platinum",
+          "role": "FUSCC Department of Radiation Oncology contributed as a site in the 42-center Phase 3 squamous NSCLC trial."
+        },
+        {
+          "trial": "FUTURE-C-Plus (NCT04129996)",
+          "sponsor": "FUSCC investigator-initiated",
+          "asset": "Famitinib + camrelizumab + nab-paclitaxel",
+          "role": "Single-center Phase 2 in immunomodulatory triple-negative breast cancer; PI Zhi-Ming Shao / Xichun Hu — flagship of FUSCC's FUTURE-series precision-subtyping trials."
+        },
+        {
+          "trial": "Disitamab vedotin + ivonescimab in cisplatin-ineligible MIBC",
+          "sponsor": "FUSCC investigator-initiated",
+          "asset": "Disitamab vedotin (RemeGen RC48) + ivonescimab (Akeso/Summit AK112)",
+          "role": "FUSCC Department of Urology Phase Ib/II combining a domestic HER2 ADC with a domestic PD-1/VEGF bispecific in muscle-invasive bladder cancer."
+        }
+      ],
+      "hookFact": "Ranked #3 in the oncology specialty on the Fudan University Hospital Management Institute's Chinese Hospital Specialty Reputation Rankings — behind CAMS Cancer Hospital and Sun Yat-sen University Cancer Center — a position it has held continuously since the rankings began in 2010."
     },
     "timeline": [
       {
+        "chapterId": "republican-foundations",
+        "status": "Founded 1 March 1931 as the Sino-Belgian Radium Institute (中比镭锭治疗院) inside Shanghai's Sacred Heart Hospital — the first cancer-specialty institution in China; became the independent Shanghai Radium Institute in 1936."
+      },
+      {
         "chapterId": "platforms-and-parks",
-        "status": "Operating as Shanghai Cancer Hospital under Shanghai Medical College (later Fudan University)."
+        "status": "Operated as the Cancer Hospital of Shanghai First Medical College / Shanghai Medical University from 1954; renamed Fudan University Shanghai Cancer Center in 2002 following the 2000 merger of Shanghai Medical University into Fudan University."
       },
       {
         "chapterId": "innovator-generation",
-        "status": "Site for the first generation of China-led oncology Phase 2/3 trials."
+        "status": "China site for the first generation of multi-center oncology Phase 2/3 trials as China entered the GCP/ICH-aligned era."
       },
       {
         "chapterId": "first-american-approvals",
-        "status": "Leading PI sites for the PD-1 / PD-L1 wave (camrelizumab, sintilimab, toripalimab)."
+        "status": "Site in Phase 3 registration trials for the PD-1 wave (camrelizumab CameL, sintilimab ORIENT-series); FUSCC's own FUTURE / FUTURE-C-Plus precision-subtyping breast-cancer trials begin enrolling."
       },
       {
         "chapterId": "going-global",
-        "status": "Site for ADC, bispecific, and CDK-program registration trials."
+        "status": "Site for ADC, bispecific, and CDK-program trials; Department of Urology runs investigator-initiated combinations of disitamab vedotin (RC48) with ivonescimab; ~2,149 beds and >2 million outpatient visits annually as of end-2023."
       }
     ],
     "sources": [
-      "fudan-cancer-hospital-wikipedia"
+      "fuscc-shca-english-about",
+      "fuscc-wikipedia",
+      "fuscc-pcm-amegroups-2021",
+      "camel-nsclc-lancet-oncology-2021",
+      "orient-12-jto-2021",
+      "future-c-plus-nature-medicine-2022",
+      "fudan-hospital-rankings-oncology-2022"
     ]
   }
 ]

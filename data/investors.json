@@ -1,46 +1,50 @@
 [
   {
     "id": "hillhouse",
-    "name": "Hillhouse Capital",
+    "name": "Hillhouse Investment",
     "nameZh": "高瓴资本",
     "founded": 2005,
-    "headquarters": "Hong Kong · Singapore · Beijing",
+    "headquarters": "Singapore",
     "founders": "Lei Zhang (Zhang Lei)",
     "category": "investor",
-    "shortDescription": "China's largest healthcare-focused growth investor; anchor checks across the 2018–2021 HKEX 18A wave and BeiGene/Innovent/Junshi/Akeso scaling.",
-    "signature": "Hillhouse Healthcare Fund",
-    "narrativeHook": "Lei Zhang took $30M from Yale's endowment in 2005 and built it into the most prolific anchor investor in Chinese biotech: Hillhouse pre-IPO checks underwrote BeiGene, Innovent, Junshi, and Akeso, and the firm publicly described biotech as one of three permanent core practices through the 2022 cycle bottom.",
-    "verified": false,
+    "shortDescription": "Asia-focused alternative investor founded by Lei Zhang in 2005 with a $20M seed from the Yale endowment; one of the largest healthcare allocators in China, with stakes across BeiGene, Innovent, Junshi, and a 2020 spin-out (GL Ventures) for early-stage biotech.",
+    "signature": "Hillhouse Healthcare Fund / GL Ventures",
+    "narrativeHook": "Lei Zhang took $20M from David Swensen's Yale endowment in 2005 and built it into one of Asia's largest investors; by 2021 Hillhouse managed about $73B and had become a serial co-lead in Chinese biotech, anchored by an eight-round run into BeiGene starting with the 2014 Series A.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
     "investorContext": {
       "biotechFocus": "diversified",
       "notableExits": [
         {
           "entityId": "beigene",
-          "role": "anchor pre-IPO + post-IPO investor",
+          "role": "co-lead Series A and repeat investor (8 rounds)",
           "year": 2014
         },
         {
           "entityId": "innovent",
-          "role": "Series A co-lead",
-          "year": 2012
+          "role": "early and growth-stage investor (participated through Series D)",
+          "year": 2016
         },
         {
           "entityId": "junshi",
-          "role": "Series A and growth-stage investor"
+          "role": "pre-IPO investor (~2.9% post-IPO stake)",
+          "year": 2018
         },
         {
-          "entityId": "akeso",
-          "role": "growth investor"
-        },
-        {
-          "entityId": "kelun-bio",
-          "role": "growth-stage investor"
+          "entityId": "wuxi-apptec",
+          "role": "post-IPO investor in A-share and HK lines"
         }
       ],
-      "hookFact": "Hillhouse anchored a meaningful share of HKEX 18A IPOs from 2018 onward and made biotech one of the firm's permanent core practices through the 2022 funding bottom."
+      "hookFact": "Hillhouse co-led BeiGene's 2014 Series A and went on to invest in eight separate BeiGene rounds, including a ~$1B 2020 follow-on; in 2020 it spun out GL Ventures (~RMB 10B / $1.4B) with biomedicine and devices as one of four core verticals."
     },
     "sources": [
-      "hillhouse-wikipedia"
+      "hillhouse-wikipedia",
+      "junshi-hkex-ipo-2018",
+      "fsdc-zhang-lei-profile",
+      "krasia-hillhouse-healthcare",
+      "altassets-beigene-2014",
+      "caixin-gl-ventures-2020",
+      "endpoints-hillhouse-10b-fund-2018"
     ]
   },
   {
@@ -51,38 +55,41 @@
     "headquarters": "Shanghai",
     "founders": "Gary Rieschel, Duane Kuang",
     "category": "investor",
-    "shortDescription": "Early-stage VC with a deep healthcare practice; backed Innovent, Zai Lab, GenScript, Tigermed, CanSino at Series A or earlier.",
-    "signature": "Cross-border venture capital",
-    "narrativeHook": "When Gary Rieschel and Duane Kuang launched Qiming in 2006, the cross-border venture template was being copied from Sand Hill Road — but Qiming was the firm that consistently wrote the first $5–15M check into the founders who would define the next decade of Chinese biotech.",
-    "verified": false,
+    "shortDescription": "Early-and-growth-stage VC with a deep healthcare practice; led Zai Lab's $30M Series A in 2014 and CanSino's 2015 Series B, and was the only institutional investor (with Ignition) behind Tigermed's 2012 ChiNext IPO.",
+    "signature": "Cross-border venture capital with a dedicated healthcare team",
+    "narrativeHook": "Gary Rieschel and Duane Kuang launched Qiming in early 2006 with a $193M Fund I; by 2024 the firm managed roughly $9.5B across eleven USD funds and seven RMB funds, with healthcare partner Nisa Leung leading the seed-and-Series-A checks into Tigermed (2008), Zai Lab (2014) and CanSino (2015) — three of the defining names in China's first innovator generation.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
     "investorContext": {
+      "aumBillions": 9.5,
       "biotechFocus": "diversified",
       "notableExits": [
         {
-          "entityId": "innovent",
-          "role": "Series A co-lead",
-          "year": 2012
-        },
-        {
           "entityId": "zailab",
-          "role": "Series A investor",
+          "role": "Series A lead investor (~$30M round)",
           "year": 2014
         },
         {
           "entityId": "tigermed",
-          "role": "early backer; ChiNext IPO 2012"
+          "role": "first institutional investor ($5M in 2008, follow-on 2010); only institutional backer alongside Ignition Partners at ChiNext IPO",
+          "year": 2008
         },
         {
           "entityId": "cansino",
-          "role": "Series A investor"
+          "role": "Series B lead investor (with LAV)",
+          "year": 2015
         }
       ],
-      "hookFact": "Qiming managed roughly $9.5B across multiple funds by 2024, with healthcare consistently 25–35% of deployment."
+      "hookFact": "Qiming's healthcare practice has been led since 2006 by managing partner Nisa Leung (who stepped down in February 2025); the firm reports >100 healthcare portfolio companies and disclosed $9.5B AUM across eighteen USD/RMB funds as of 2024."
     },
     "sources": [
-      "qiming-qimings-portfolio-company-cansino-biolog",
+      "qiming-wikipedia",
+      "qiming-about-page",
+      "qiming-zai-series-a-2014",
       "tigermed-qiming-chinext-ipo-2012",
-      "qiming-wikipedia"
+      "qiming-qimings-portfolio-company-cansino-biolog",
+      "wirechina-qiming-2026",
+      "caproasia-qiming-fund-2025"
     ]
   },
   {
@@ -90,47 +97,42 @@
     "name": "Lilly Asia Ventures",
     "nameZh": "礼来亚洲基金",
     "founded": 2008,
-    "headquarters": "Shanghai",
-    "founders": "Yi Shi (Managing Partner)",
+    "headquarters": "Shanghai (with offices in Hong Kong and Palo Alto)",
+    "founders": "Yi Shi (Founder & Managing Partner)",
     "category": "investor",
-    "shortDescription": "Eli Lilly's spinout China-focused biotech VC; portfolio includes BeiGene, Innovent, Junshi, Tigermed, Zai Lab.",
-    "signature": "Strategic biotech VC",
-    "narrativeHook": "Born inside Eli Lilly's APAC corporate-venture arm in 2008 and operationally independent since, LAV under Yi Shi has been an unusually consistent Series A presence — its anchor checks into Innovent, Junshi, BeiGene, and Zai Lab span essentially the entire innovator-generation cohort.",
-    "verified": false,
+    "shortDescription": "Biotech-dedicated VC originally launched as Eli Lilly's Asia corporate-venture arm in 2008; spun out as an independent firm in 2011 raising third-party LP capital from Fund III onward.",
+    "signature": "Biotech-dedicated VC",
+    "narrativeHook": "Yi Shi launched LAV inside Eli Lilly's Asia corporate-venture group in 2008, then took the firm independent in 2011 — by Fund VI's 2021 close at $1.35B and Fund VII's 2025 close at $700M, LAV had become one of the largest biotech-dedicated VC platforms in Asia, with confirmed early checks into Innovent (2011 Series A co-lead with F-Prime), CanSino (2013 Series A) and later Gracell (2019 Series B, exited to AstraZeneca for ~$1.2B in 2024).",
+    "verified": true,
+    "lastVerified": "2026-04-25",
     "investorContext": {
       "biotechFocus": "biotech-dedicated",
       "notableExits": [
         {
-          "entityId": "beigene",
-          "role": "early-stage investor"
-        },
-        {
           "entityId": "innovent",
-          "role": "Series A co-lead",
-          "year": 2012
+          "role": "Series A co-lead with F-Prime Capital (~$5M round)",
+          "year": 2011
         },
         {
-          "entityId": "junshi",
-          "role": "early-stage investor"
+          "entityId": "cansino",
+          "role": "Series A investor",
+          "year": 2013
         },
         {
-          "entityId": "zailab",
-          "role": "Series A co-lead",
-          "year": 2014
-        },
-        {
-          "entityId": "henlius",
-          "role": "growth investor"
-        },
-        {
-          "entityId": "tigermed",
-          "role": "growth investor"
+          "entityId": "gracell",
+          "role": "Series B and Series C investor; exited via AstraZeneca acquisition (~$1.2B, 2024)",
+          "year": 2019
         }
       ],
-      "hookFact": "LAV is one of the very few biotech-dedicated VCs in Asia with a multi-decade deployment track and has remained operationally independent of Eli Lilly's corporate strategy."
+      "hookFact": "LAV originated in 2008 as Eli Lilly's Asia corporate-venture arm and became operationally independent in 2011, raising from third-party LPs starting with Fund III; Fund VI closed at $1.35B in February 2021 and Fund VII closed at $700M in May 2025."
     },
     "sources": [
-      "lav-firm-overview"
+      "lav-about-page",
+      "lav-yi-shi-globalventuring-2025",
+      "lav-fund-vii-close-2025",
+      "kirkland-lav-fund-vi-2021",
+      "innovent-series-a-fprime-2011",
+      "globalventuring-gracell-series-c-2020"
     ]
   },
   {
@@ -139,13 +141,15 @@
     "nameZh": "红杉中国",
     "founded": 2005,
     "headquarters": "Hong Kong · Beijing · Shanghai",
-    "founders": "Neil Shen (Shen Nanpeng)",
+    "founders": "Neil Shen (Shen Nanpeng), Zhang Fan",
     "category": "investor",
-    "shortDescription": "Originally Sequoia Capital China; split from Sequoia in 2023 and rebranded HongShan in 2024. Healthcare is one of three core practices.",
+    "shortDescription": "Originally Sequoia Capital China, founded 2005 by Neil Shen and Zhang Fan; the June 2023 Sequoia three-way split (US/EU → Sequoia Capital, India/SE Asia → Peak XV, China → HongShan) became operationally effective on 31 March 2024. AUM ~$56B at split; healthcare is one of three core practices.",
     "signature": "Cross-stage VC",
-    "narrativeHook": "After Sequoia Capital's parent severed its three regional arms in June 2023 over US-China geopolitical risk, Neil Shen took the China business independent and rebranded it HongShan ('redwood') in 2024 — making explicit what had effectively been the case for a decade: China venture capital is a fully separate ecosystem from Silicon Valley's.",
-    "verified": false,
+    "narrativeHook": "After Sequoia Capital announced the three-way separation of its global affiliates on 6 June 2023 over US-China geopolitical risk, Neil Shen took the China business independent and rebranded it HongShan ('redwood') by 31 March 2024 — managing roughly $56B AUM and making explicit what had effectively been the case for a decade: China venture capital is a fully separate ecosystem from Silicon Valley's.",
+    "verified": true,
+    "lastVerified": "2026-04-25",
     "investorContext": {
+      "aumBillions": 56,
       "biotechFocus": "diversified",
       "notableExits": [
         {
@@ -153,22 +157,20 @@
           "role": "growth-stage investor"
         },
         {
-          "entityId": "junshi",
-          "role": "growth investor"
-        },
-        {
-          "entityId": "akeso",
-          "role": "growth investor"
-        },
-        {
           "entityId": "zailab",
-          "role": "investor"
+          "role": "angel + Series A investor (Samantha Du founded Zai Lab in 2014 after leading healthcare at Sequoia China)",
+          "year": 2014
         }
       ],
-      "hookFact": "The June 2023 Sequoia split (US/Europe → Sequoia Capital, India/SE Asia → Peak XV, China → HongShan) was an explicit acknowledgement that cross-Pacific venture capital had become geopolitically untenable."
+      "hookFact": "The June 6, 2023 Sequoia announcement of a three-way split (US/Europe → Sequoia Capital, India/SE Asia → Peak XV, China → HongShan), completed by 31 March 2024, was an explicit acknowledgement that cross-Pacific venture capital had become geopolitically untenable; HongShan retained roughly $56B AUM."
     },
     "sources": [
-      "hongshan-sequoia-split-2023"
+      "hongshan-sequoia-split-2023",
+      "hongshan-techcrunch-split-2023",
+      "hongshan-wikipedia",
+      "hongshan-scmp-rebrand-2023",
+      "zailab-samantha-du-bio",
+      "innovent-sequoia-china-investment"
     ]
   }
 ]
