@@ -4726,5 +4726,77 @@
       "Oncology",
       "Immunology"
     ]
+  },
+  {
+    "id": "illumina",
+    "name": "Illumina",
+    "founded": 1998,
+    "headquarters": "San Diego, California",
+    "founders": "Larry Bock, John Stuelpnagel, David Walt, Anthony Czarnik, Mark Chee",
+    "category": "platform",
+    "subcategory": "Sequencing instruments",
+    "shortDescription": "American sequencing-instrument company; the Western incumbent in next-generation DNA sequencing whose HiSeq, NovaSeq, and NovaSeq X platforms have powered most global genomics for two decades. Now facing direct cost competition from BGI/MGI on per-genome economics.",
+    "narrativeHook": "BGI built its early scale on 128 Illumina HiSeq sequencers bought with a 2010 China Development Bank loan. Fifteen years later, BGI's spinout MGI Tech is undercutting Illumina by roughly 2:1 on per-genome cost at ultra-high throughput, the first credible Western-incumbent challenge in NGS in twenty years.",
+    "verified": false,
+    "lastVerified": "2026-04-26",
+    "today": {
+      "asOf": "2026-04",
+      "note": "FY2024 revenue ~$4.4B; NovaSeq X is the current flagship platform"
+    },
+    "timeline": [],
+    "milestones": [
+      {
+        "year": 1998,
+        "label": "Founded in San Diego"
+      },
+      {
+        "year": 2007,
+        "label": "Acquired Solexa, gaining the sequencing-by-synthesis chemistry that became the HiSeq line"
+      },
+      {
+        "year": 2023,
+        "label": "NovaSeq X launched, targeting $200 per genome at ultra-high throughput"
+      }
+    ],
+    "sources": [],
+    "modalities": [],
+    "therapeuticAreas": [],
+    "productClasses": []
+  },
+  {
+    "id": "recursion",
+    "name": "Recursion Pharmaceuticals",
+    "founded": 2013,
+    "headquarters": "Salt Lake City, Utah",
+    "founders": "Chris Gibson, Dean Li, Blake Borgeson",
+    "category": "platform",
+    "subcategory": "AI-bio (phenomics)",
+    "shortDescription": "American AI-bio platform built on industrial-scale automated microscopy and computational phenotypic profiling. Public on Nasdaq (RXRX). Central to the Western high-content-screening (HCS) phenomics tier, alongside Insitro and the Arc Institute.",
+    "narrativeHook": "Recursion is the canonical Western counterpart to Chinese AI-bio platforms like Insilico and XtalPi, but with a different bet: rather than generative chemistry plus wet-lab validation, Recursion industrialized image-based phenotypic screening to map drug-cell interactions. The phenomic dataset it has accumulated is the kind of foundation-model-scale biology data the Chinese ecosystem has not yet produced.",
+    "verified": false,
+    "lastVerified": "2026-04-26",
+    "today": {
+      "asOf": "2026-04",
+      "note": "Listed on Nasdaq (RXRX); merged with Exscientia in 2024 to consolidate the Western AI-bio stack"
+    },
+    "timeline": [],
+    "milestones": [
+      {
+        "year": 2013,
+        "label": "Founded at the University of Utah"
+      },
+      {
+        "year": 2021,
+        "label": "Nasdaq IPO (ticker RXRX)"
+      },
+      {
+        "year": 2024,
+        "label": "Merged with Exscientia in an all-stock deal"
+      }
+    ],
+    "sources": [],
+    "modalities": [],
+    "therapeuticAreas": [],
+    "productClasses": []
   }
 ]
