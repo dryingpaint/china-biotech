@@ -7,7 +7,7 @@ import { renderBodyWithCitations } from "@/lib/citations";
 import Tooltip from "@/components/Tooltip";
 import type { Chapter } from "@/lib/types";
 
-const NOTE_HIDE_GRACE_MS = 200;
+const NOTE_HIDE_GRACE_MS = 80;
 
 export default function Scroller({ chapters: _chapters }: { chapters: Chapter[] }) {
   const setIndex = useNarrative((s) => s.setCurrentIndex);
@@ -143,8 +143,6 @@ export function ChapterBody({ chapter }: { chapter: Chapter }) {
       <Tooltip
         show={!!hoveredNote}
         anchorRect={hoveredNote?.rect ?? null}
-        onMouseEnter={cancelHideNote}
-        onMouseLeave={scheduleHideNote}
         width={300}
       >
         {hoveredNote ? (
