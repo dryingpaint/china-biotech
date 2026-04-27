@@ -8,11 +8,15 @@ import type { Chapter } from "@/lib/types";
 
 const TRIGGER_OFFSET = 0.55; // chapter "active" once its top crosses this fraction of the viewport
 
+type HoveredNote = { rect: DOMRect; text: string };
+
 export default function Scroller({ chapters: _chapters }: { chapters: Chapter[] }) {
   const setIndex = useNarrative((s) => s.setCurrentIndex);
   const visibleChapters = useNarrative((s) => s.visibleChapters);
   const sectionRefs = useRef<Array<HTMLElement | null>>([]);
+  const [hoveredNote, setHoveredNote] = useState<HoveredNote | null>(null);
 
+  // Active chapter tracking — sync immediately on mount, then on every scroll/resize.
   useEffect(() => {
     const update = () => {
       const triggerY = window.innerHeight * TRIGGER_OFFSET;
@@ -20,11 +24,8 @@ export default function Scroller({ chapters: _chapters }: { chapters: Chapter[] 
       for (let i = 0; i < sectionRefs.current.length; i++) {
         const el = sectionRefs.current[i];
         if (!el) continue;
-        if (el.getBoundingClientRect().top <= triggerY) {
-          activeIdx = i;
-        } else {
-          break;
-        }
+        if (el.getBoundingClientRect().top <= triggerY) activeIdx = i;
+        else break;
       }
       setIndex(activeIdx);
     };
@@ -38,7 +39,7 @@ export default function Scroller({ chapters: _chapters }: { chapters: Chapter[] 
       });
     };
 
-    update(); // sync immediately on mount so deep-links and refreshes land on the right chapter
+    update();
     window.addEventListener("scroll", onScroll, { passive: true });
     window.addEventListener("resize", onScroll);
     return () => {
@@ -47,6 +48,19 @@ export default function Scroller({ chapters: _chapters }: { chapters: Chapter[] 
       if (rafId !== null) cancelAnimationFrame(rafId);
     };
   }, [setIndex, visibleChapters.length]);
+
+  // Note-ref tooltip — single page-level listener; shows when cursor enters
+  // a .note-ref, hides on every other transition.
+  useEffect(() => {
+    const onMouseOver = (e: MouseEvent) => {
+      if (!(e.target instanceof Element)) return;
+      const note = e.target.closest<HTMLElement>(".note-ref");
+      const text = note?.getAttribute("data-tooltip");
+      setHoveredNote(note && text ? { rect: note.getBoundingClientRect(), text } : null);
+    };
+    document.addEventListener("mouseover", onMouseOver);
+    return () => document.removeEventListener("mouseover", onMouseOver);
+  }, []);
 
   return (
     <>
@@ -62,38 +76,43 @@ export default function Scroller({ chapters: _chapters }: { chapters: Chapter[] 
           <ChapterBody chapter={chapter} />
         </section>
       ))}
+      <Tooltip
+        show={!!hoveredNote}
+        anchorRect={hoveredNote?.rect ?? null}
+        width={280}
+      >
+        {hoveredNote ? (
+          <p className="text-[12px] leading-relaxed">{hoveredNote.text}</p>
+        ) : null}
+      </Tooltip>
     </>
   );
 }
 
-type HoveredNote = { rect: DOMRect; text: string };
-
 export function ChapterBody({ chapter }: { chapter: Chapter }) {
   const setHighlight = useNarrative((s) => s.setHighlightedEntity);
   const ref = useRef<HTMLDivElement>(null);
-  const [hoveredNote, setHoveredNote] = useState<HoveredNote | null>(null);
 
   useEffect(() => {
     const root = ref.current;
     if (!root) return;
+
     const findEntity = (target: EventTarget | null): EntityRef | null => {
       if (!(target instanceof Element)) return null;
       const el = target.closest<HTMLElement>("[data-entity-type]");
-      if (!el) return null;
-      const type = el.getAttribute("data-entity-type");
-      const id = el.getAttribute("data-entity-id");
+      const type = el?.getAttribute("data-entity-type");
+      const id = el?.getAttribute("data-entity-id");
       if ((type !== "entity" && type !== "reform") || !id) return null;
       return { type, id };
     };
-    const handleOver = (e: Event) => {
+    const onOver = (e: Event) => {
       const entity = findEntity(e.target);
       if (entity) setHighlight(entity);
     };
-    const handleOut = (e: Event) => {
-      const entity = findEntity(e.target);
-      if (entity) setHighlight(null);
+    const onOut = (e: Event) => {
+      if (findEntity(e.target)) setHighlight(null);
     };
-    const handleClick = (e: Event) => {
+    const onClick = (e: Event) => {
       if (!(e.target instanceof Element)) return;
       const trigger = e.target.closest<HTMLButtonElement>(".deepdive-trigger");
       if (!trigger || !root.contains(trigger)) return;
@@ -102,39 +121,22 @@ export function ChapterBody({ chapter }: { chapter: Chapter }) {
       if (!id) return;
       const expanded = trigger.getAttribute("aria-expanded") === "true";
       trigger.setAttribute("aria-expanded", String(!expanded));
-      const selector = `.deepdive-content[data-deepdive-id="${CSS.escape(id)}"]`;
-      const content = root.querySelector<HTMLElement>(selector);
+      const content = root.querySelector<HTMLElement>(
+        `.deepdive-content[data-deepdive-id="${CSS.escape(id)}"]`,
+      );
       if (content) {
         if (expanded) content.setAttribute("hidden", "");
         else content.removeAttribute("hidden");
       }
     };
 
-    // Document-level mouseover decides on every element-transition whether
-    // the cursor is over a .note-ref. Non-note transitions explicitly clear
-    // the tooltip — there's no per-marker state to get stuck.
-    const onDocMouseOver = (e: MouseEvent) => {
-      if (!(e.target instanceof Element)) return;
-      const note = e.target.closest<HTMLElement>(".note-ref");
-      if (note) {
-        const text = note.getAttribute("data-tooltip");
-        if (text) {
-          setHoveredNote({ rect: note.getBoundingClientRect(), text });
-          return;
-        }
-      }
-      setHoveredNote(null);
-    };
-
-    root.addEventListener("mouseover", handleOver);
-    root.addEventListener("mouseout", handleOut);
-    root.addEventListener("click", handleClick);
-    document.addEventListener("mouseover", onDocMouseOver);
+    root.addEventListener("mouseover", onOver);
+    root.addEventListener("mouseout", onOut);
+    root.addEventListener("click", onClick);
     return () => {
-      root.removeEventListener("mouseover", handleOver);
-      root.removeEventListener("mouseout", handleOut);
-      root.removeEventListener("click", handleClick);
-      document.removeEventListener("mouseover", onDocMouseOver);
+      root.removeEventListener("mouseover", onOver);
+      root.removeEventListener("mouseout", onOut);
+      root.removeEventListener("click", onClick);
     };
   }, [setHighlight]);
 
@@ -149,15 +151,6 @@ export function ChapterBody({ chapter }: { chapter: Chapter }) {
           __html: renderBodyWithCitations(chapter.body),
         }}
       />
-      <Tooltip
-        show={!!hoveredNote}
-        anchorRect={hoveredNote?.rect ?? null}
-        width={280}
-      >
-        {hoveredNote ? (
-          <p className="text-[12px] leading-relaxed">{hoveredNote.text}</p>
-        ) : null}
-      </Tooltip>
     </div>
   );
 }
