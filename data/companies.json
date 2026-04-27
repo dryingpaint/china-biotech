@@ -4607,5 +4607,62 @@
       "stockanalysis-mgi-tech-688114"
     ],
     "modalities": []
+  },
+  {
+    "id": "aiolos",
+    "name": "Aiolos Bio",
+    "founded": 2023,
+    "headquarters": "South San Francisco, California",
+    "founders": "Atlas Venture and Forbion (lead Series A investors)",
+    "category": "mnc_pharma",
+    "subcategory": "Respiratory NewCo",
+    "shortDescription": "US-domiciled NewCo founded by Atlas Venture and Forbion in late 2023 to develop AIO-001, an anti-TSLP monoclonal antibody for severe asthma licensed from Jiangsu Hengrui; acquired by GSK thirteen months later for up to $1.4 billion. Set the canonical template for the Chinese-asset-into-US-biotech NewCo structure.",
+    "signature": "AIO-001 (HRS-9821, anti-TSLP monoclonal antibody)",
+    "narrativeHook": "Aiolos was the moment the NewCo became real. A drug discovered at Jiangsu Hengrui was wrapped in a US-incorporated shell, funded with a $245M Series A from American venture capital, and acquired by GSK thirteen months later, proving the structure could turn a Chinese clinical asset into a $1.4 billion American exit while sidestepping BIOSECURE-shaped procurement friction.",
+    "verified": false,
+    "lastVerified": "2026-04-26",
+    "today": {
+      "asOf": "2026-04",
+      "approvedDrugCount": 0,
+      "leadAsset": {
+        "name": "AIO-001 / HRS-9821 (anti-TSLP monoclonal antibody)",
+        "mechanism": "Anti-TSLP (thymic stromal lymphopoietin) monoclonal antibody",
+        "indication": "Severe asthma; potential expansion to other Th2-driven inflammatory diseases",
+        "status": "Phase 2 development under GSK; carried forward as part of the Aiolos acquisition"
+      },
+      "biggestDeal": {
+        "partner": "GSK",
+        "type": "acquired",
+        "year": 2024,
+        "valueBillions": 1.4
+      }
+    },
+    "timeline": [],
+    "milestones": [
+      {
+        "year": 2023,
+        "label": "Founded by Atlas Venture and Forbion (October); $245M Series A; AIO-001 licensed from Jiangsu Hengrui (ex-Greater China rights to HRS-9821)"
+      },
+      {
+        "year": 2024,
+        "label": "Acquired by GSK for $1B upfront + up to $400M milestones (January 9, 2024)"
+      }
+    ],
+    "sources": [
+      "gsk-aiolos-press-2024"
+    ],
+    "modalities": [
+      "novelMab"
+    ],
+    "therapeuticAreas": [
+      "Respiratory — severe asthma"
+    ],
+    "productClasses": [
+      {
+        "name": "AIO-001 / HRS-9821 (anti-TSLP monoclonal antibody)",
+        "modality": "novelMab",
+        "status": "phase2"
+      }
+    ]
   }
 ]
