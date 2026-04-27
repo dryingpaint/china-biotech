@@ -77,7 +77,7 @@ export default function Tooltip({
       role="tooltip"
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
-      className={`dashboard fixed z-50 -translate-x-1/2 -translate-y-full overflow-y-auto rounded-md border border-[--color-rule] px-3.5 py-2.5 text-xs leading-relaxed text-[--color-fg] shadow-lg ${
+      className={`dashboard fixed z-50 -translate-x-1/2 -translate-y-full overflow-y-auto rounded-md border border-[--color-rule] px-3.5 py-2.5 text-xs leading-relaxed text-[--color-fg] ${
         interactive ? "pointer-events-auto" : "pointer-events-none"
       }`}
       style={{
