@@ -117,7 +117,7 @@ export default function MetricsBar() {
     }));
 
     return (
-      <article key={row.key} className="space-y-1.5">
+      <article key={row.key} className="space-y-1">
         <div className="flex items-baseline justify-between gap-3">
           <span className="flex items-center gap-1 text-[10px] uppercase tracking-[0.16em] text-[--color-muted]">
             {row.label}
@@ -167,7 +167,7 @@ export default function MetricsBar() {
             caption={row.shareCaption}
           />
         )}
-        <RegionTrajectory series={trajectorySeries} currentIndex={idx} />
+        <RegionTrajectory series={trajectorySeries} currentIndex={idx} height={28} />
         <p className="text-[10px] tracking-wide text-[--color-muted]">
           {row.source} <Cite id={row.citeId} />
         </p>

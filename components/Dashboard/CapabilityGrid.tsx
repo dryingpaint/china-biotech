@@ -100,7 +100,7 @@ const MODALITIES: Modality[] = [
   {
     key: "adc",
     label: "Antibody–drug conjugates",
-    shortLabel: "ADC",
+    shortLabel: "ADCs",
     blurb: "Antibody + linker + cytotoxic payload",
     rungs: [
       { label: "Capability", marker: "RemeGen founded (2008); disitamab vedotin development" },
@@ -208,14 +208,14 @@ export default function CapabilityGrid() {
           Therapeutic modalities
         </h3>
       </header>
-      <div>
+      <div className="grid grid-cols-2 gap-x-4">
         {MODALITIES.map((m) => {
           const state = progress[m.key] ?? { rung: 0 };
           const reached = state.rung > 0;
           return (
             <div
               key={m.key}
-              className="grid grid-cols-[10rem_1.5rem_1fr] items-center gap-x-1.5 py-0.5"
+              className="grid grid-cols-[6.5rem_1.25rem_1fr] items-center gap-x-1.5 py-0.5"
             >
               <span
                 className="truncate text-[10px] font-medium uppercase tracking-wider leading-none"
@@ -226,7 +226,7 @@ export default function CapabilityGrid() {
                 }}
                 title={m.label}
               >
-                {m.label}
+                {m.shortLabel ?? m.label}
               </span>
               <span className="num text-right text-[10px] leading-none text-[--color-muted]">
                 {state.rung}/5
