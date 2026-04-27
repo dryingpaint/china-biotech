@@ -62,6 +62,8 @@ export type PharmaSnapshot = {
   revenueBillions?: number;
   revenueYear?: number;
   approvedDrugCount?: number;
+  grossMarginPct?: number;
+  rdPctOfRevenue?: number;
   listings?: string[];
   leadAsset?: LeadAsset;
   biggestDeal?: Deal;
@@ -225,6 +227,8 @@ export type ChapterMetrics = {
   pipelineSharePct: number;
   inLicensingSharePct: number;
   trialStartsShare: TrialStartsShare;
+  outLicensingDealValueBn?: number;
+  primaryMarketFinancingBn?: number;
 };
 
 export type Chapter = {

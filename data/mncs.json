@@ -104,7 +104,15 @@
       "biopharmadive-royalty-beone-imdelltra-2025",
       "fiercepharma-beone-royalty-imdelltra-2025",
       "beone-launch-bw-2025"
-    ]
+    ],
+    "today": {
+      "asOf": "2026-04",
+      "marketCapBillions": 185.7,
+      "revenueBillions": 33.4,
+      "revenueYear": 2024,
+      "grossMarginPct": 61.5,
+      "rdPctOfRevenue": 17.8
+    }
   },
   {
     "id": "merck-co",
@@ -245,7 +253,15 @@
       "fiercepharma-merck-davis-keytruda-loe-hill",
       "merck-msd-rd-asia-beijing-2011",
       "merck-hangzhou-plant-opening-2013"
-    ]
+    ],
+    "today": {
+      "asOf": "2026-04",
+      "marketCapBillions": 276.4,
+      "revenueBillions": 64.2,
+      "revenueYear": 2024,
+      "grossMarginPct": 76.3,
+      "rdPctOfRevenue": 28.0
+    }
   },
   {
     "id": "eli-lilly",
@@ -423,7 +439,15 @@
       "lilly-shanghai-rd-center-opening",
       "globaltimes-lilly-suzhou-third-insulin-plant",
       "innovent-tyvyt-sintilimab-injection-included-in-t"
-    ]
+    ],
+    "today": {
+      "asOf": "2026-04",
+      "marketCapBillions": 789.7,
+      "revenueBillions": 45.0,
+      "revenueYear": 2024,
+      "grossMarginPct": 81.3,
+      "rdPctOfRevenue": 24.4
+    }
   },
   {
     "id": "astrazeneca",
@@ -609,7 +633,15 @@
       "biopharmadive-astrazeneca-cell-therapy-china-2026",
       "astrazeneca-three-china-initiatives-2019",
       "pharma-tech-astrazeneca-wuxi-plant"
-    ]
+    ],
+    "today": {
+      "asOf": "2026-04",
+      "marketCapBillions": 294.2,
+      "revenueBillions": 54.1,
+      "revenueYear": 2024,
+      "grossMarginPct": 81.1,
+      "rdPctOfRevenue": 25.1
+    }
   },
   {
     "id": "biontech",
@@ -625,7 +657,7 @@
     "lastVerified": "2026-04-25",
     "today": {
       "asOf": "2026-04",
-      "revenueBillions": 2.97,
+      "revenueBillions": 3.0,
       "revenueYear": 2024,
       "listings": [
         "NASDAQ: BNTX"
@@ -641,7 +673,10 @@
         "type": "acquisition",
         "year": 2024,
         "valueBillions": 0.95
-      }
+      },
+      "marketCapBillions": 26.7,
+      "grossMarginPct": 80.3,
+      "rdPctOfRevenue": 81.9
     },
     "mncContext": {
       "chinaArrival": "Fosun Pharma strategic alliance Mar 2020; Shanghai regional office opened Jun 2022",
@@ -886,7 +921,15 @@
       "jnj-jlabs-shanghai-2019-launch",
       "fiercepharma-jj-china-headwind-2025",
       "biospace-jnj-china-collaborations"
-    ]
+    ],
+    "today": {
+      "asOf": "2026-04",
+      "marketCapBillions": 547.6,
+      "revenueBillions": 88.8,
+      "revenueYear": 2024,
+      "grossMarginPct": 69.1,
+      "rdPctOfRevenue": 19.4
+    }
   },
   {
     "id": "pfizer",
@@ -1060,7 +1103,15 @@
       "pfizer-china-overview-page",
       "pharmatimes-pfizer-wuhan-rd-2010",
       "pharmaceutical-technology-pfizer-dalian-plant"
-    ]
+    ],
+    "today": {
+      "asOf": "2026-04",
+      "marketCapBillions": 153.6,
+      "revenueBillions": 63.6,
+      "revenueYear": 2024,
+      "grossMarginPct": 71.9,
+      "rdPctOfRevenue": 17.0
+    }
   },
   {
     "id": "gsk",
@@ -1245,7 +1296,15 @@
       "zailab-zejula-nmpa-recurrent-2019",
       "zailab-zejula-nmpa-first-line-2020",
       "gsk-fy-2024-results-announcement"
-    ]
+    ],
+    "today": {
+      "asOf": "2026-04",
+      "marketCapBillions": 108.7,
+      "revenueBillions": 40.2,
+      "revenueYear": 2024,
+      "grossMarginPct": 71.2,
+      "rdPctOfRevenue": 20.4
+    }
   },
   {
     "id": "roche",
@@ -1423,7 +1482,15 @@
       "fiercepharma-roche-biosimilar-china-nrdl",
       "henlius-hlx01-approval-press",
       "biosimilardevelopment-henlius-trastuzumab-2020"
-    ]
+    ],
+    "today": {
+      "asOf": "2026-04",
+      "marketCapBillions": 336.6,
+      "revenueBillions": 68.4,
+      "revenueYear": 2024,
+      "grossMarginPct": 73.1,
+      "rdPctOfRevenue": 21.5
+    }
   },
   {
     "id": "novartis",
@@ -1600,7 +1667,15 @@
       "yicai-novartis-second-china-base",
       "yicai-novartis-pluvicto-china-approval",
       "chinadaily-novartis-haiyan-success-2024"
-    ]
+    ],
+    "today": {
+      "asOf": "2026-04",
+      "marketCapBillions": 280.8,
+      "revenueBillions": 51.7,
+      "revenueYear": 2024,
+      "grossMarginPct": 75.2,
+      "rdPctOfRevenue": 19.4
+    }
   },
   {
     "id": "moderna",
@@ -1617,8 +1692,8 @@
     "lastVerified": "2026-04-25",
     "today": {
       "asOf": "2026-04",
-      "revenueBillions": 1.9,
-      "revenueYear": 2025,
+      "revenueBillions": 3.2,
+      "revenueYear": 2024,
       "listings": [
         "NASDAQ: MRNA"
       ],
@@ -1633,7 +1708,10 @@
         "type": "collaboration",
         "year": 2023,
         "valueBillions": 1.0
-      }
+      },
+      "marketCapBillions": 20.1,
+      "grossMarginPct": 54.8,
+      "rdPctOfRevenue": 140.4
     },
     "mncContext": {
       "chinaArrival": "Moderna (China) Biotech subsidiary registered in Shanghai Minhang May 2023; tripartite cooperation agreement signed Jul 5 2023; ground broken at Shanghai Xinzhuang Industry Park Nov 6 2023",

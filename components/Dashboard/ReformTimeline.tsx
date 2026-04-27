@@ -9,6 +9,7 @@ import Tooltip from "@/components/Tooltip";
 import { getCitation } from "@/lib/citations";
 
 const HOVER_GRACE_MS = 200;
+const EMPTY_IDS: string[] = [];
 
 const reforms = reformsData as Reform[];
 const entityById = new Map(entities.map((e) => [e.id, e]));
@@ -33,7 +34,7 @@ type Hovered = { rect: DOMRect; reform: Reform; fromProse?: boolean };
 
 export default function ReformTimeline() {
   const activeIds = useNarrative(
-    (s) => s.visibleChapters[s.currentIndex]?.activeReformIds ?? [],
+    (s) => s.visibleChapters[s.currentIndex]?.activeReformIds ?? EMPTY_IDS,
   );
   const highlightedEntity = useNarrative((s) => s.highlightedEntity);
   const proseHighlightedId =

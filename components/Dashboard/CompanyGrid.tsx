@@ -12,6 +12,7 @@ import Tooltip from "@/components/Tooltip";
 import { getCitation } from "@/lib/citations";
 
 const HOVER_GRACE_MS = 200;
+const EMPTY_IDS: string[] = [];
 
 const CATEGORY_ORDER: EntityCategory[] = [
   "pharma",
@@ -50,12 +51,11 @@ type Hovered = { rect: DOMRect; entity: Entity; fromProse?: boolean };
 
 export default function CompanyGrid() {
   const activeIds = useNarrative(
-    (s) => s.visibleChapters[s.currentIndex]?.activeEntityIds ?? [],
+    (s) => s.visibleChapters[s.currentIndex]?.activeEntityIds ?? EMPTY_IDS,
   );
   const currentChapter = useNarrative(
     (s) => s.visibleChapters[s.currentIndex],
   );
-  if (!currentChapter) return null;
   const highlightedEntity = useNarrative((s) => s.highlightedEntity);
   const proseHighlightedId =
     highlightedEntity?.type === "entity" ? highlightedEntity.id : null;
@@ -99,6 +99,8 @@ export default function CompanyGrid() {
     }
     return map;
   }, []);
+
+  if (!currentChapter) return null;
 
   return (
     <section className="space-y-2">
