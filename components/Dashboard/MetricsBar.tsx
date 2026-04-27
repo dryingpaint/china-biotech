@@ -77,6 +77,7 @@ const ROWS: Row[] = [
     unit: "%",
     barMode: "share",
     info: IN_LICENSING_INFO,
+    barCaption: () => "of big-pharma in-licensing deals",
   },
   {
     key: "outLicensing",
@@ -89,6 +90,10 @@ const ROWS: Row[] = [
     unit: "B",
     barMode: "magnitude",
     info: OUT_LICENSING_INFO,
+    barCaption: (m) =>
+      m.inLicensingSharePct > 0
+        ? `≈${m.inLicensingSharePct}% of global big-pharma licensing`
+        : "",
   },
   {
     key: "primaryMarket",
@@ -100,6 +105,13 @@ const ROWS: Row[] = [
     prefix: "$",
     unit: "B",
     barMode: "magnitude",
+    barCaption: (m) => {
+      const peak = 14; // 2021 peak in $B (covid-race chapter)
+      const v = m.primaryMarketFinancingBn ?? 0;
+      if (v <= 0) return "";
+      const pct = Math.round((v / peak) * 100);
+      return `${pct}% of 2021 peak`;
+    },
   },
 ];
 
