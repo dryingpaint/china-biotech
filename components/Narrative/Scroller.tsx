@@ -1,33 +1,67 @@
 "use client";
 
-import { Scrollama, Step } from "react-scrollama";
 import { useEffect, useRef } from "react";
 import { useNarrative, type EntityRef } from "@/lib/narrativeStore";
 import { renderBodyWithCitations } from "@/lib/citations";
 import type { Chapter } from "@/lib/types";
 
+const TRIGGER_OFFSET = 0.55; // chapter "active" once its top crosses this fraction of the viewport
+
 export default function Scroller({ chapters: _chapters }: { chapters: Chapter[] }) {
   const setIndex = useNarrative((s) => s.setCurrentIndex);
   const visibleChapters = useNarrative((s) => s.visibleChapters);
+  const sectionRefs = useRef<Array<HTMLElement | null>>([]);
+
+  useEffect(() => {
+    const update = () => {
+      const triggerY = window.innerHeight * TRIGGER_OFFSET;
+      let activeIdx = 0;
+      for (let i = 0; i < sectionRefs.current.length; i++) {
+        const el = sectionRefs.current[i];
+        if (!el) continue;
+        if (el.getBoundingClientRect().top <= triggerY) {
+          activeIdx = i;
+        } else {
+          break;
+        }
+      }
+      setIndex(activeIdx);
+    };
+
+    let rafId: number | null = null;
+    const onScroll = () => {
+      if (rafId !== null) return;
+      rafId = requestAnimationFrame(() => {
+        rafId = null;
+        update();
+      });
+    };
+
+    update(); // sync immediately on mount so deep-links and refreshes land on the right chapter
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll);
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onScroll);
+      if (rafId !== null) cancelAnimationFrame(rafId);
+    };
+  }, [setIndex, visibleChapters.length]);
 
   return (
-    <Scrollama
-      offset={0.55}
-      onStepEnter={({ data }) => {
-        if (typeof data === "number") setIndex(data);
-      }}
-    >
+    <>
       {visibleChapters.map((chapter, i) => (
-        <Step key={chapter.id} data={i}>
-          <section
-            id={chapter.id}
-            className="mx-auto max-w-2xl py-[40vh] first:pt-[20vh] last:pb-[40vh]"
-          >
-            <ChapterBody chapter={chapter} />
-          </section>
-        </Step>
+        <section
+          key={chapter.id}
+          id={chapter.id}
+          ref={(el) => {
+            sectionRefs.current[i] = el;
+          }}
+          className="mx-auto max-w-2xl py-[40vh] first:pt-[20vh] last:pb-[40vh]"
+        >
+          <ChapterBody chapter={chapter} />
+        </section>
       ))}
-    </Scrollama>
+    </>
   );
 }
 
