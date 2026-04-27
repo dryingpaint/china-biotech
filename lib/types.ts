@@ -229,6 +229,7 @@ export type ChapterMetrics = {
   trialStartsShare: TrialStartsShare;
   outLicensingDealValueBn?: number;
   primaryMarketFinancingBn?: number;
+  pipelineCount?: number;
 };
 
 export type Chapter = {

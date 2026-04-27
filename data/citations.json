@@ -7694,5 +7694,93 @@
     "publisher": "stockanalysis.com",
     "year": 2026,
     "url": "https://stockanalysis.com/quote/sha/688114/market-cap/"
+  },
+  {
+    "id": "lek-china-trials-2019",
+    "authors": "Baeder, K. and Zhang, H.",
+    "title": "China's Clinical Trial Landscape",
+    "publisher": "L.E.K. Consulting Executive Insights, Vol. XXI, Issue 65",
+    "year": 2019,
+    "url": "https://www.pharmexec.com/view/china-s-trial-advantage-tracking-nation-s-growth-in-pharma-innovation-and-global-investment"
+  },
+  {
+    "id": "iqvia-global-oncology-trends-2025",
+    "authors": "IQVIA Institute for Human Data Science",
+    "title": "Global Oncology Trends 2025",
+    "publisher": "IQVIA Institute",
+    "year": 2025,
+    "url": "https://www.iqvia.com/insights/the-iqvia-institute/reports-and-publications/reports/global-oncology-trends-2025"
+  },
+  {
+    "id": "mckinsey-vision-2028-china",
+    "authors": "Han, K., Le Deu, F., Lou, S., Zhou, J.",
+    "title": "Vision 2028: How China could impact the global biopharma industry",
+    "publisher": "McKinsey & Company",
+    "year": 2024,
+    "url": "https://www.mckinsey.com/industries/life-sciences/our-insights/vision-2028-how-china-could-impact-the-global-biopharma-industry"
+  },
+  {
+    "id": "labiotech-patent-cliff-2025",
+    "authors": "Labiotech",
+    "title": "The next pharma patent cliff: how 2026-2032 will reshape revenue",
+    "publisher": "Labiotech.eu",
+    "year": 2025,
+    "url": "https://www.labiotech.eu/best-biotech/pharma-patent-cliff/"
+  },
+  {
+    "id": "fiercebiotech-china-230pct-2026",
+    "authors": "Park, A.",
+    "title": "After 230% deal size explosion, China is no longer the 'bargain basement'",
+    "publisher": "Fierce Biotech",
+    "year": 2026,
+    "url": "https://www.fiercebiotech.com/biotech/analyst-china-no-longer-bargain-basement-biotech-acquisitions"
+  },
+  {
+    "id": "hsi-biotech-factsheet-2025",
+    "authors": "Hang Seng Indexes Co.",
+    "title": "Hang Seng Biotech Index Factsheet",
+    "publisher": "Hang Seng Indexes Co.",
+    "year": 2025,
+    "url": "https://www.hsi.com.hk/eng/hsbio"
+  },
+  {
+    "id": "beone-q4-2025-earnings",
+    "authors": "BeOne Medicines",
+    "title": "Fourth Quarter and Full Year 2025 Financial Results",
+    "publisher": "SEC Form 8-K Exhibit 99.1",
+    "year": 2026,
+    "url": "https://www.sec.gov/Archives/edgar/data/1651308/000162828026011941/exhibit991-q42025earningsr.htm"
+  },
+  {
+    "id": "akeso-rd-manufacturing",
+    "authors": "Akeso Inc.",
+    "title": "R&D and Manufacturing",
+    "publisher": "Akeso Inc.",
+    "year": 2025,
+    "url": "https://www.akesobio.com/en/rd-and-science/manufacturing/"
+  },
+  {
+    "id": "nrdd-pd1-vegf-bispecifics-2025",
+    "authors": "Mullard, A.",
+    "title": "PD1xVEGF blocking bispecifics for cancer draw big backing",
+    "publisher": "Nature Reviews Drug Discovery",
+    "year": 2025,
+    "url": "https://www.nature.com/articles/d41573-025-00105-y"
+  },
+  {
+    "id": "bioprocess-wuxi-bio-cdmo-2022",
+    "authors": "Macdonald, G.",
+    "title": "WuXi Bio grabs larger piece of the bio CDMO pie",
+    "publisher": "BioProcess Insider",
+    "year": 2022,
+    "url": "https://www.bioprocessintl.com/global-markets/wuxi-bio-grabs-larger-piece-of-the-bio-cdmo-pie"
+  },
+  {
+    "id": "gsk-aiolos-press-2024",
+    "authors": "GSK plc",
+    "title": "GSK enters agreement to acquire Aiolos Bio",
+    "publisher": "GSK",
+    "year": 2024,
+    "url": "https://www.gsk.com/en-gb/media/press-releases/gsk-enters-agreement-to-acquire-aiolos-bio/"
   }
 ]

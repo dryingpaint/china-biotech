@@ -15,9 +15,10 @@ type Props = {
   children: ReactNode;
   onMouseEnter?: () => void;
   onMouseLeave?: () => void;
+  width?: number;
 };
 
-const TOOLTIP_W = 420;
+const DEFAULT_TOOLTIP_W = 420;
 const MARGIN = 8;
 
 export default function Tooltip({
@@ -26,6 +27,7 @@ export default function Tooltip({
   children,
   onMouseEnter,
   onMouseLeave,
+  width = DEFAULT_TOOLTIP_W,
 }: Props) {
   const interactive = !!(onMouseEnter || onMouseLeave);
   const [mounted, setMounted] = useState(false);
@@ -58,14 +60,14 @@ export default function Tooltip({
             vh - MARGIN,
           );
 
-    const half = TOOLTIP_W / 2;
+    const half = width / 2;
     const left = Math.max(
       half + MARGIN,
       Math.min(anchorRect.left + anchorRect.width / 2, vw - half - MARGIN),
     );
 
     setPos({ top, left, placement });
-  }, [show, anchorRect, children]);
+  }, [show, anchorRect, children, width]);
 
   if (!mounted || !show || !anchorRect) return null;
 
@@ -75,13 +77,13 @@ export default function Tooltip({
       role="tooltip"
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
-      className={`dashboard fixed z-50 -translate-x-1/2 -translate-y-full overflow-y-auto rounded-md border border-[--color-rule] px-3 py-2 text-xs leading-snug text-[--color-fg] shadow-lg ${
+      className={`dashboard fixed z-50 -translate-x-1/2 -translate-y-full overflow-y-auto rounded-md border border-[--color-rule] px-3.5 py-2.5 text-xs leading-relaxed text-[--color-fg] shadow-lg ${
         interactive ? "pointer-events-auto" : "pointer-events-none"
       }`}
       style={{
         top: pos?.top ?? -9999,
         left: pos?.left ?? -9999,
-        width: TOOLTIP_W,
+        width,
         maxHeight: "calc(100vh - 32px)",
         backgroundColor: "var(--color-bg)",
         opacity: pos ? 1 : 0,

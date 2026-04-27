@@ -15,7 +15,8 @@
         "row": 13
       },
       "outLicensingDealValueBn": 0,
-      "primaryMarketFinancingBn": 0
+      "primaryMarketFinancingBn": 0,
+      "pipelineCount": 0
     },
     "activeEntityIds": [
       "pumc-hospital"
@@ -77,7 +78,8 @@
         "row": 13
       },
       "outLicensingDealValueBn": 0,
-      "primaryMarketFinancingBn": 0
+      "primaryMarketFinancingBn": 0,
+      "pipelineCount": 0
     },
     "activeEntityIds": [
       "cacms",
@@ -139,7 +141,8 @@
         "row": 13
       },
       "outLicensingDealValueBn": 0,
-      "primaryMarketFinancingBn": 0
+      "primaryMarketFinancingBn": 0,
+      "pipelineCount": 0
     },
     "activeEntityIds": [
       "hengrui",
@@ -207,7 +210,8 @@
         "row": 12
       },
       "outLicensingDealValueBn": 0,
-      "primaryMarketFinancingBn": 0
+      "primaryMarketFinancingBn": 0,
+      "pipelineCount": 10
     },
     "activeEntityIds": [
       "3sbio",
@@ -290,7 +294,8 @@
         "row": 11
       },
       "outLicensingDealValueBn": 0,
-      "primaryMarketFinancingBn": 1
+      "primaryMarketFinancingBn": 1,
+      "pipelineCount": 50
     },
     "activeEntityIds": [
       "3sbio",
@@ -382,7 +387,8 @@
         "row": 18
       },
       "outLicensingDealValueBn": 1,
-      "primaryMarketFinancingBn": 3
+      "primaryMarketFinancingBn": 3,
+      "pipelineCount": 520
     },
     "activeEntityIds": [
       "3sbio",
@@ -493,7 +499,8 @@
         "row": 18
       },
       "outLicensingDealValueBn": 3,
-      "primaryMarketFinancingBn": 6
+      "primaryMarketFinancingBn": 6,
+      "pipelineCount": 1060
     },
     "activeEntityIds": [
       "3sbio",
@@ -606,7 +613,8 @@
         "row": 18
       },
       "outLicensingDealValueBn": 3,
-      "primaryMarketFinancingBn": 8
+      "primaryMarketFinancingBn": 8,
+      "pipelineCount": 790
     },
     "activeEntityIds": [
       "3sbio",
@@ -726,7 +734,8 @@
         "row": 18
       },
       "outLicensingDealValueBn": 8,
-      "primaryMarketFinancingBn": 14
+      "primaryMarketFinancingBn": 14,
+      "pipelineCount": 1370
     },
     "activeEntityIds": [
       "3sbio",
@@ -846,7 +855,8 @@
         "row": 7
       },
       "outLicensingDealValueBn": 42,
-      "primaryMarketFinancingBn": 4
+      "primaryMarketFinancingBn": 4,
+      "pipelineCount": 2500
     },
     "activeEntityIds": [
       "3sbio",
@@ -968,7 +978,7 @@
     "id": "global-supplier",
     "title": "Becoming a Global Supplier",
     "date": "2022–2025",
-    "body": "<p>[[entity:fosun-kite|<em>Fosun Kite</em>]] (a Shanghai joint venture between Fosun Pharma and Kite/Gilead) began local manufacture of axicabtagene ciloleucel (Yescarta) in June 2021.[[cite:kite-fosun-first-cart-china]] [[entity:jw-therapeutics|JW Therapeutics]], a Shanghai cell-therapy biotech, followed in September with [[entity:jw-therapeutics|relmacabtagene autoleucel]], the first domestic engineered T-cell therapy approved.[[cite:jw-relma-cel-press]] On 28 February 2022 the [[entity:fda|FDA]] approved [[entity:legend|<em>Legend Biotech</em>]]’s [[entity:legend|<em>Carvykti</em>]] (ciltacabtagene autoleucel), partnered with [[entity:johnson-johnson|Janssen]]. Carvykti was the first Chinese-discovered cell therapy to clear the American market, and the first Chinese drug to compete on a novel construct (a dual-VHH BCMA design) rather than as a fast-follower; it validated the LEGEND-2 dataset that had triggered the $350M Janssen upfront five years earlier.[[cite:fda-carvykti-approval-2022]][[cite:fiercepharma-jj-legend-carvykti-fda-2022]] By 2022, Chinese companies were running 1.5 such programs for every one in American development. As recently as 2014, the United States had developed or co-developed more than half of all newly identified candidates in the class.[[cite:pharma-tech-cart-china-superpower]]</p>\n<p>By 2024 China was no longer a downstream consumer of Western drug innovation but an upstream supplier of it. Chinese biopharma licensing deals more than doubled, surging from <em>$16.6 billion</em> in 2023 to <em>$41.5 billion</em> in 2024, with Chinese assets accounting for roughly 28% of all in-licensed innovator drugs at large pharma globally. Antibody-drug-conjugate licensing alone reached $10 billion.[[cite:globaldata-china-licensing-2024]] [[entity:hansoh|<em>Hansoh Pharmaceutical</em>]], China’s third-largest pharma by market cap, signed two [[entity:gsk|GSK]] ADC deals in late 2023 each above $1.5 billion in headline value,[[cite:gsk-hansoh-hs20089]][[cite:gsk-hansoh-hs20093]] then closed a $2 billion [[entity:merck-co|Merck]] oral-GLP-1 deal a year later.[[cite:biospace-merck-hansoh-2b-glp1]] Upfront payments from China’s 2024 out-licensings (around $3.1 billion in October alone) for the first time exceeded primary-market biotech listing proceeds in China,[[cite:biopharmaapac-china-h1-2025]][[cite:scmp-china-out-licensing-2025]] making out-licensing the primary capital channel.[[cite:nature-china-licensing-2025]]</p>\n<p>In September 2024, [[entity:akeso|Akeso’s]] Phase III HARMONi-2 trial of [[entity:akeso|<em>ivonescimab</em>]], a bispecific antibody targeting both an immune checkpoint and a tumour-vasculature growth factor, reported a forty-nine percent reduction in the risk of disease progression or death versus [[entity:merck-co|Merck]]’s Keytruda monotherapy.[[cite:akeso-harmoni2-wclc-2024]][[cite:iaslc-harmoni2-2024]] Summit Therapeutics had licensed the molecule in 2022 for $500 million upfront and up to $5 billion in milestones.[[cite:summit-akeso-2022]] It was the first time a Chinese-discovered molecule had decisively beaten [[entity:merck-co|Merck]]’s thirty-billion-dollar-a-year flagship in a head-to-head trial. Two months later, [[entity:merck-co|Merck]] hedged its position by signing a $3.3-billion deal for [[entity:lanova|LaNova’s]] LM-299, a same-class PD-1/VEGF bispecific in earlier development.[[cite:merck-lanova-2024]]</p>\n<p>In 2025 the licensing wave hit its peak. China’s outbound deals reached 157 transactions worth roughly <em>$135.7 billion</em> (more than double 2024),[[cite:scmp-china-out-licensing-2025]] with American drugmakers signing fourteen China-asset deals worth $18.3 billion in the first half alone.[[cite:gabi-h1-2025-china-deals]] Roughly a third of all big-pharma licensing spending in 2025 sourced from China.[[cite:biopharmadive-china-licensing-tracker-2025]] The largest single-asset transaction was [[entity:3sbio|<em>3SBio</em>]]’s May 2025 license-out of its in-house PD-1/VEGF bispecific SSGJ-707 to [[entity:pfizer|Pfizer]], worth $1.25 billion upfront and up to $6 billion all-in, the largest single-asset out-licensing by a Chinese biotech to that point.[[cite:fiercebiotech-pfizer-pays-3sbio-1-25b-for-pd-1xvegf-bi]][[cite:pfizer-pfizer-completes-licensing-agreement-wit]]</p>",
+    "body": "<p>[[entity:fosun-kite|<em>Fosun Kite</em>]] (a Shanghai joint venture between Fosun Pharma and Kite/Gilead) began local manufacture of axicabtagene ciloleucel (Yescarta) in June 2021.[[cite:kite-fosun-first-cart-china]] [[entity:jw-therapeutics|JW Therapeutics]], a Shanghai cell-therapy biotech, followed in September with [[entity:jw-therapeutics|relmacabtagene autoleucel]], the first domestic engineered T-cell therapy approved.[[cite:jw-relma-cel-press]] On 28 February 2022 the [[entity:fda|FDA]] approved [[entity:legend|<em>Legend Biotech</em>]]’s [[entity:legend|<em>Carvykti</em>]] (ciltacabtagene autoleucel), partnered with [[entity:johnson-johnson|Janssen]]. Carvykti was the first Chinese-discovered cell therapy to clear the American market, and the first Chinese drug to compete on a novel construct (a dual-VHH BCMA design) rather than as a fast-follower; it validated the LEGEND-2 dataset that had triggered the $350M Janssen upfront five years earlier.[[cite:fda-carvykti-approval-2022]][[cite:fiercepharma-jj-legend-carvykti-fda-2022]] By 2022, Chinese companies were running 1.5 such programs for every one in American development. As recently as 2014, the United States had developed or co-developed more than half of all newly identified candidates in the class.[[cite:pharma-tech-cart-china-superpower]]</p>\n<p>By 2024, China was no longer a downstream consumer of Western drug innovation but an upstream supplier of it. Chinese biopharma licensing deals more than doubled, surging from <em>$16.6 billion</em> in 2023 to <em>$41.5 billion</em> in 2024, with Chinese assets accounting for roughly 28% of all in-licensed innovator drugs at large pharma globally. Antibody-drug-conjugate licensing alone reached $10 billion.[[cite:globaldata-china-licensing-2024]] [[entity:hansoh|<em>Hansoh Pharmaceutical</em>]], China’s third-largest pharma by market cap, signed two [[entity:gsk|GSK]] ADC deals in late 2023 each above $1.5 billion in headline value,[[cite:gsk-hansoh-hs20089]][[cite:gsk-hansoh-hs20093]] then closed a $2 billion [[entity:merck-co|Merck]] oral-GLP-1 deal a year later.[[cite:biospace-merck-hansoh-2b-glp1]] Upfront payments from China’s 2024 out-licensings (around $3.1 billion in October alone) for the first time exceeded primary-market biotech listing proceeds in China,[[cite:biopharmaapac-china-h1-2025]][[cite:scmp-china-out-licensing-2025]] making out-licensing the primary capital channel.[[cite:nature-china-licensing-2025]]</p>\n<p>In September 2024, [[entity:akeso|Akeso’s]] Phase III HARMONi-2 trial of [[entity:akeso|<em>ivonescimab</em>]], a bispecific antibody targeting both an immune checkpoint and a tumour-vasculature growth factor, reported a forty-nine percent reduction in the risk of disease progression or death versus [[entity:merck-co|Merck]]’s Keytruda monotherapy.[[cite:akeso-harmoni2-wclc-2024]][[cite:iaslc-harmoni2-2024]] Summit Therapeutics had licensed the molecule in 2022 for $500 million upfront and up to $5 billion in milestones.[[cite:summit-akeso-2022]] It was the first time a Chinese-discovered molecule had decisively beaten [[entity:merck-co|Merck]]’s thirty-billion-dollar-a-year flagship in a head-to-head trial. Two months later, [[entity:merck-co|Merck]] hedged its position by signing a $3.3-billion deal for [[entity:lanova|LaNova’s]] LM-299, a same-class PD-1/VEGF bispecific in earlier development.[[cite:merck-lanova-2024]]</p>\n<p>In 2025 the licensing wave hit its peak. China’s outbound deals reached 157 transactions worth roughly <em>$135.7 billion</em> (more than double 2024),[[cite:scmp-china-out-licensing-2025]] with American drugmakers signing fourteen China-asset deals worth $18.3 billion in the first half alone.[[cite:gabi-h1-2025-china-deals]] Roughly a third of all big-pharma licensing spending in 2025 sourced from China.[[cite:biopharmadive-china-licensing-tracker-2025]] The largest single-asset transaction was [[entity:3sbio|<em>3SBio</em>]]’s May 2025 license-out of its in-house PD-1/VEGF bispecific SSGJ-707 to [[entity:pfizer|Pfizer]], worth $1.25 billion upfront and up to $6 billion all-in, the largest single-asset out-licensing by a Chinese biotech to that point.[[cite:fiercebiotech-pfizer-pays-3sbio-1-25b-for-pd-1xvegf-bi]][[cite:pfizer-pfizer-completes-licensing-agreement-wit]]</p>",
     "metrics": {
       "pipelineSharePct": 13,
       "inLicensingSharePct": 32,
@@ -980,7 +990,8 @@
         "row": 7
       },
       "outLicensingDealValueBn": 136,
-      "primaryMarketFinancingBn": 4
+      "primaryMarketFinancingBn": 4,
+      "pipelineCount": 2700
     },
     "activeEntityIds": [
       "3sbio",
@@ -1114,7 +1125,8 @@
         "row": 7
       },
       "outLicensingDealValueBn": 136,
-      "primaryMarketFinancingBn": 4
+      "primaryMarketFinancingBn": 4,
+      "pipelineCount": 2700
     },
     "activeEntityIds": [
       "3sbio",
@@ -1227,9 +1239,9 @@
   },
   {
     "id": "ai-frontier",
-    "title": "Rentosertib, DoveTree, and the AI Stack",
+    "title": "First AI-Discovered Drug ",
     "date": "2024–2026",
-    "body": "<p>By 2025 AI drug discovery had moved from theory to clinical reality. [[entity:insilico|Insilico Medicine]] published positive Phase II data for [[entity:insilico|<em>rentosertib</em>]], a treatment for idiopathic pulmonary fibrosis whose target, molecule, and trial design were all chosen and built by AI rather than by human researchers. It was the first AI-discovered drug to clear a Phase II efficacy bar in humans.[[cite:insilico-rentosertib-press-2025]][[cite:nature-medicine-tnik-rentosertib-2025]] Commercial validation followed. [[entity:xtalpi|XtalPi]], a Chinese AI-drug-discovery firm that listed in Hong Kong under the new Chapter 18C track for specialist-technology companies, signed a research collaboration with DoveTree (founded by Harvard chemist Gregory Verdine) reportedly worth as much as $10 billion.[[cite:xtalpi-18c-listing-2024]][[cite:xtalpi-dovetree-final-2025]][[cite:xtalpi-dovetree-loi-2025]]</p>",
+    "body": "<p>In 2025, [[entity:insilico|Insilico Medicine]] published positive Phase II data for [[entity:insilico|<em>rentosertib</em>]], a treatment for idiopathic pulmonary fibrosis whose target, molecule, and trial design were all chosen and built by AI rather than by human researchers. It was the first AI-discovered drug to clear a Phase II efficacy bar in humans.[[cite:insilico-rentosertib-press-2025]][[cite:nature-medicine-tnik-rentosertib-2025]] They IPOed on the HKSE in December of 2025 at $2.28 billion with a $290 million raise. They have 30 programs total, 8 of which are at the clinical stage.</p><p>[[entity:xtalpi|XtalPi]], a Chinese AI-drug-discovery firm that listed in Hong Kong under the new Chapter 18C track for specialist-technology companies, signed a research collaboration with DoveTree (founded by Harvard chemist Gregory Verdine) reportedly worth as much as $10 billion.[[cite:xtalpi-18c-listing-2024]][[cite:xtalpi-dovetree-final-2025]][[cite:xtalpi-dovetree-loi-2025]]</p>",
     "metrics": {
       "pipelineSharePct": 13,
       "inLicensingSharePct": 32,
@@ -1241,7 +1253,8 @@
         "row": 7
       },
       "outLicensingDealValueBn": 136,
-      "primaryMarketFinancingBn": 4
+      "primaryMarketFinancingBn": 4,
+      "pipelineCount": 2700
     },
     "activeEntityIds": [
       "3sbio",
@@ -1330,6 +1343,98 @@
       },
       "adc": {
         "rung": 4
+      },
+      "vaccine": {
+        "rung": 5
+      },
+      "cellTherapy": {
+        "rung": 5
+      },
+      "nucleicAcid": {
+        "rung": 1
+      },
+      "geneTherapy": {
+        "rung": 2,
+        "frontier": true
+      },
+      "radiopharm": {
+        "rung": 1
+      }
+    }
+  },
+  {
+    "id": "modern-landscape",
+    "title": "The Modern Landscape",
+    "date": "2025–2026",
+    "body": "<p>The structural cause of China's licensing dominance has crystallized. Between 2025 and 2030, top-selling Western drugs will face loss of exclusivity covering an estimated $200 billion to $230 billion in annual revenue[[cite:labiotech-patent-cliff-2025]]; recovering this value requires the industry to produce ~60-100 new blockbuster drugs (defined as $3B+ peak sales) within the next 5-7 years, approximately 2-3x the industry's historical pace. As an illustrative data point, [[entity:merck-co|Merck]] generated $29.5 billion in revenue, 56% of its total business, from Keytruda in 2024. Its key patents expire in 2028 with sales expected to start declining next year due to biosimilar competition. Replacing such revenue…</p><p>China became the buyer of last resort for novel mechanisms because the rest of the world stopped funding biotech in 2022 to 2024.[[cite:stat-china-biotech-foreign-pullback-2024]] As a result, the average upfront payment on a Western-Chinese licensing deal rose roughly 230% between 2022 and early 2026, from $52 million to $172 million,[[cite:fiercebiotech-china-230pct-2026]] and the most active acquirers were Bristol Myers Squibb, [[entity:roche|Roche]], and [[entity:merck-co|Merck]], with [[entity:pfizer|Pfizer]] and Gilead the largest dollar spenders. The Hang Seng Biotech Index ran roughly 60% in 2025 on the back of it.[[cite:hsi-biotech-factsheet-2025]]</p>\n<p>The serious innovator tier had crystallized around [[entity:beigene|BeOne]] (Brukinsa hit $3.9 billion in FY2025[[cite:beone-q4-2025-earnings]]), [[entity:hengrui|Hengrui]] (now China's largest pharma by market cap), and a second wave of [[entity:akeso|Akeso]], [[entity:innovent|Innovent]], [[entity:junshi|Junshi]], and [[entity:zailab|Zai Lab]]. Akeso was the science bellwether. Its PD-1/VEGF bispecific [[entity:akeso|<em>ivonescimab</em>]] had logged four positive Phase 3 readouts, including a head-to-head defeat of Keytruda monotherapy in PD-L1-positive NSCLC,[[cite:lancet-harmoni2-2025]] triggering a class rush of more than a dozen PD-1/VEGF bispecifics in development.[[cite:nrdd-pd1-vegf-bispecifics-2025]] ADCs had become the category of unambiguous Chinese leadership, anchored by [[entity:duality|DualityBio]], [[entity:remegen|RemeGen]], [[entity:hansoh|Hansoh]], and [[entity:kelun-bio|Kelun-Biotech]]; in the first half of 2025, ADCs accounted for 8 of the 24 Chinese license-out deals exceeding $1 billion, with antibody-based drugs taking 10 more.[[cite:biopharmaapac-china-h1-2025]] Cell therapy ran on [[entity:legend|Legend Biotech]]'s [[entity:johnson-johnson|Johnson &amp; Johnson]] Carvykti partnership and [[entity:astrazeneca|AstraZeneca]]'s 2024 Gracell acquisition. Services and infrastructure ran on [[entity:wuxi-apptec|WuXi AppTec]] and [[entity:wuxi-bio|WuXi Biologics]] (among the world's largest mAb CDMOs[[cite:bioprocess-wuxi-bio-cdmo-2022]]), [[entity:bgi|BGI]] and [[entity:mgi-tech|MGI Tech]] in sequencing, and [[entity:insilico|Insilico Medicine]] and [[entity:xtalpi|XtalPi]] on the AI-native frontier.</p>\n<p>The capability picture was lopsided in ways the headline numbers obscured. Antibody, bispecific, and ADC discovery and manufacturing were world-leading, with Akeso alone targeting roughly 160,000 liters of total biologics production capacity[[cite:akeso-rd-manufacturing]], comprehensive in-house from discovery through commercial supply. Clinical-trial enrollment ran two to three times faster than American counterparts for indications where Chinese patient populations were deepest, including nasopharyngeal carcinoma, EGFR-mutant NSCLC, hepatitis-B-driven hepatocellular carcinoma, and gastric cancer, with per-patient cost roughly 64% lower (around $25,000 versus $69,000 for Phase 3 immuno-oncology programs).[[cite:lek-china-trials-2019]] By 2024, China-headquartered companies were initiating 39% of all global oncology trials, up from roughly 5% a decade earlier.[[cite:iqvia-global-oncology-trends-2025]] CRDMO infrastructure ([[entity:wuxi-bio|WuXi Biologics]], [[entity:asymchem|Asymchem]], [[entity:pharmaron|Pharmaron]]) had become the physical substrate of global biopharma's small-molecule and biologics supply chain. The strength tapered, however, in functional-genomics dataset production. [[entity:bgi|BGI]] dominated sequencing throughput and pushed spatial transcriptomics through Stereo-seq, but the upstream perturbation-screen production that fed the next generation of biological foundation models had not migrated to China at the same rate.</p>\n<p>Beyond the redomiciliation and divestiture moves of 2024 and 2025, the NewCo had emerged as a third adaptation. Chinese-originated discovery assets were spun out into newly chartered, Western-domiciled vehicles backed by US venture capital, leaving the Chinese discovery engine intact while routing ownership and trial sponsorship through holdcos in the US or Europe. [[entity:hengrui|Hengrui]]'s 2024 GLP-1 obesity spin-out into Kailera Therapeutics with Bain Capital and Atlas Venture sat alongside the earlier Aiolos-to-[[entity:gsk|GSK]] sale, where a Hengrui-discovered asthma asset had reached a $1.4 billion exit through a Western shell.[[cite:gsk-aiolos-press-2024]] The mechanism preserved the economics of Chinese clinical-asset arbitrage while satisfying procurement-side restrictions. Across all three responses, the licensing flow rose under [[reform:biosecure|BIOSECURE]] pressure rather than declining, because the underlying economic logic, that Chinese clinical assets filled the Western patent cliff at lower upfront cost, only intensified under a regime that compressed the alternatives.</p>",
+    "metrics": {
+      "pipelineSharePct": 14,
+      "inLicensingSharePct": 32,
+      "trialStartsShare": {
+        "china": 30,
+        "us": 35,
+        "eu": 21,
+        "japan": 7,
+        "row": 7
+      },
+      "outLicensingDealValueBn": 136,
+      "primaryMarketFinancingBn": 4,
+      "pipelineCount": 2700
+    },
+    "activeEntityIds": [
+      "akeso",
+      "astrazeneca",
+      "asymchem",
+      "beigene",
+      "bgi",
+      "duality",
+      "gsk",
+      "hansoh",
+      "hengrui",
+      "innovent",
+      "insilico",
+      "johnson-johnson",
+      "junshi",
+      "kelun-bio",
+      "legend",
+      "merck-co",
+      "mgi-tech",
+      "pfizer",
+      "pharmaron",
+      "remegen",
+      "roche",
+      "wuxi-apptec",
+      "wuxi-bio",
+      "xtalpi",
+      "zailab"
+    ],
+    "activeReformIds": [
+      "biosecure",
+      "biosecure-enacted",
+      "hk-18a",
+      "star-market"
+    ],
+    "modalityProgress": {
+      "smallMol": {
+        "rung": 5
+      },
+      "peptide": {
+        "rung": 5
+      },
+      "recombinant": {
+        "rung": 3
+      },
+      "biosimilar": {
+        "rung": 5
+      },
+      "novelMab": {
+        "rung": 5
+      },
+      "bispecific": {
+        "rung": 5
+      },
+      "adc": {
+        "rung": 5
       },
       "vaccine": {
         "rung": 5
