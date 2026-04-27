@@ -85,6 +85,33 @@ body {
     color: var(--color-accent);
   }
 
+  .note-ref::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: calc(100% + 6px);
+    right: 0;
+    background: var(--color-fg);
+    color: var(--color-bg);
+    padding: 0.5em 0.75em;
+    border-radius: 4px;
+    font-size: 0.78rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4;
+    white-space: normal;
+    width: 240px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.12s ease;
+    z-index: 50;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+  }
+
+  .note-ref:hover::after,
+  .note-ref:focus::after {
+    opacity: 1;
+  }
+
   .prose-narrative h3 {
     font-family: var(--font-serif), Georgia, serif;
     font-size: 1.35rem;
