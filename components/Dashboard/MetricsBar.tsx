@@ -2,15 +2,23 @@
 
 import { useRef, useState, type ReactNode } from "react";
 import { useNarrative } from "@/lib/narrativeStore";
-import type { ChapterMetrics } from "@/lib/types";
-import Sparkline from "./Sparkline";
+import type { ChapterMetrics, RegionShare } from "@/lib/types";
 import Cite from "@/components/Cite";
 import Tooltip from "@/components/Tooltip";
+import StackedBar, { type StackedBarSlice } from "./StackedBar";
+import RegionTrajectory from "./RegionTrajectory";
 
 const HOVER_GRACE_MS = 200;
 
+const REGION_SLICES: StackedBarSlice<keyof RegionShare>[] = [
+  { key: "us", label: "US", color: "var(--color-slice-1)" },
+  { key: "china", label: "China", color: "var(--color-accent)" },
+  { key: "eu", label: "EU+UK", color: "var(--color-slice-2)" },
+  { key: "row", label: "RoW", color: "var(--color-slice-3)" },
+];
+
 type Row = {
-  key: "pipeline" | "inLicensing" | "outLicensing" | "primaryMarket";
+  key: "pipeline" | "outLicensing" | "primaryMarket";
   label: string;
   color: string;
   source: string;
@@ -18,27 +26,10 @@ type Row = {
   getValue: (m: ChapterMetrics) => number;
   prefix?: string;
   unit: string;
-  barMode: "share" | "magnitude";
   info?: ReactNode;
-  // Optional override: render the bar from a different metric than getValue.
-  // Used to put absolute count as the headline and % share as the bar width.
-  getBarValue?: (m: ChapterMetrics) => number;
-  barCaption?: (m: ChapterMetrics) => string;
+  getRegionShare: (m: ChapterMetrics) => RegionShare | undefined;
+  shareCaption: string;
 };
-
-const IN_LICENSING_INFO = (
-  <div className="space-y-1.5">
-    <div className="text-[9px] font-semibold uppercase tracking-[0.16em] text-[--color-muted]">
-      In-licensing
-    </div>
-    <p className="text-[--color-fg]">
-      When a pharma company pays for rights to a drug it didn&apos;t develop, in exchange for an upfront payment plus milestones and royalties.
-    </p>
-    <p className="text-[--color-muted]">
-      This row: of every dollar western pharma spends licensing drugs in, what fraction goes to Chinese sellers. The demand-side view of China&apos;s BD output.
-    </p>
-  </div>
-);
 
 const OUT_LICENSING_INFO = (
   <div className="space-y-1.5">
@@ -63,55 +54,33 @@ const ROWS: Row[] = [
     citeId: "mckinsey-vision-2028-china",
     getValue: (m) => m.pipelineCount ?? 0,
     unit: "",
-    barMode: "share",
-    getBarValue: (m) => m.pipelineSharePct,
-    barCaption: (m) => `${m.pipelineSharePct}% of global pipeline`,
-  },
-  {
-    key: "inLicensing",
-    label: "China share of big-pharma in-licensing",
-    color: "var(--color-gold)",
-    source: "GlobalData / Jefferies",
-    citeId: "globaldata-china-licensing-2024",
-    getValue: (m) => m.inLicensingSharePct,
-    unit: "%",
-    barMode: "share",
-    info: IN_LICENSING_INFO,
-    barCaption: () => "of big-pharma in-licensing deals",
+    getRegionShare: (m) => m.pipelineRegionShare,
+    shareCaption: "% of global pipeline",
   },
   {
     key: "outLicensing",
     label: "Out-licensing deal value, $B/yr",
     color: "var(--color-accent)",
-    source: "GlobalData / SCMP out-licensing tracker",
+    source: "GlobalData / Jefferies / SCMP",
     citeId: "scmp-china-out-licensing-2025",
     getValue: (m) => m.outLicensingDealValueBn ?? 0,
     prefix: "$",
     unit: "B",
-    barMode: "magnitude",
     info: OUT_LICENSING_INFO,
-    barCaption: (m) =>
-      m.inLicensingSharePct > 0
-        ? `≈${m.inLicensingSharePct}% of global big-pharma licensing`
-        : "",
+    getRegionShare: (m) => m.outLicensingRegionShare,
+    shareCaption: "% of global out-licensing $",
   },
   {
     key: "primaryMarket",
     label: "Primary-market financing, $B/yr",
     color: "var(--color-gold)",
-    source: "BioPharma APAC China financing tracker",
+    source: "Nature Biotechnology / Skadden / DealForma",
     citeId: "biopharmaapac-china-h1-2025",
     getValue: (m) => m.primaryMarketFinancingBn ?? 0,
     prefix: "$",
     unit: "B",
-    barMode: "magnitude",
-    barCaption: (m) => {
-      const peak = 14; // 2021 peak in $B (covid-race chapter)
-      const v = m.primaryMarketFinancingBn ?? 0;
-      if (v <= 0) return "";
-      const pct = Math.round((v / peak) * 100);
-      return `${pct}% of 2021 peak`;
-    },
+    getRegionShare: (m) => m.primaryMarketRegionShare,
+    shareCaption: "% of global biopharma raises",
   },
 ];
 
@@ -138,18 +107,14 @@ export default function MetricsBar() {
   if (!current) return null;
 
   const renderRow = (row: Row) => {
-    const series = chapters.map((c) => row.getValue(c.metrics));
     const value = row.getValue(current.metrics);
-    const seriesMax = Math.max(...series, 1);
-    const barSourceValue = row.getBarValue
-      ? row.getBarValue(current.metrics)
-      : value;
-    const barPct =
-      row.barMode === "share"
-        ? barSourceValue
-        : (barSourceValue / seriesMax) * 100;
-    const caption = row.barCaption?.(current.metrics);
-    const display = `${row.prefix ?? ""}${value}${row.unit}`;
+    const regionShare = row.getRegionShare(current.metrics);
+    const trajectorySeries = REGION_SLICES.map((slice) => ({
+      key: slice.key,
+      color: slice.color,
+      emphasize: slice.key === "china",
+      values: chapters.map((c) => row.getRegionShare(c.metrics)?.[slice.key] ?? 0),
+    }));
 
     return (
       <article key={row.key} className="space-y-1.5">
@@ -193,21 +158,22 @@ export default function MetricsBar() {
             </span>
           </span>
         </div>
-        <SoloBar pct={barPct} color={row.color} ariaLabel={`${row.label}: ${display}`} />
-        {caption && (
-          <div className="text-right text-[9px] text-[--color-muted]">
-            {caption}
-          </div>
+        {regionShare && (
+          <StackedBar
+            share={regionShare}
+            slices={REGION_SLICES}
+            height={10}
+            showLegend
+            caption={row.shareCaption}
+          />
         )}
-        <Sparkline values={series} currentIndex={idx} color={row.color} />
+        <RegionTrajectory series={trajectorySeries} currentIndex={idx} />
         <p className="text-[10px] tracking-wide text-[--color-muted]">
           {row.source} <Cite id={row.citeId} />
         </p>
       </article>
     );
   };
-
-  const [pipeline, inLicensing, outLicensing, primaryMarket] = ROWS;
 
   return (
     <section className="space-y-3">
@@ -218,10 +184,7 @@ export default function MetricsBar() {
       </header>
 
       <div className="grid grid-cols-2 gap-4">
-        {renderRow(pipeline)}
-        {renderRow(inLicensing)}
-        {renderRow(outLicensing)}
-        {renderRow(primaryMarket)}
+        {ROWS.map(renderRow)}
       </div>
 
       <Tooltip
@@ -237,30 +200,3 @@ export default function MetricsBar() {
   );
 }
 
-function SoloBar({
-  pct,
-  color,
-  ariaLabel,
-}: {
-  pct: number;
-  color: string;
-  ariaLabel: string;
-}) {
-  const clamped = Math.min(100, Math.max(0, pct));
-  return (
-    <div
-      className="flex w-full overflow-hidden rounded-sm"
-      style={{ height: 12, backgroundColor: "var(--color-track)" }}
-      role="img"
-      aria-label={ariaLabel}
-    >
-      <div
-        style={{
-          width: `${clamped}%`,
-          backgroundColor: color,
-          transition: "width 350ms cubic-bezier(0.22, 1, 0.36, 1)",
-        }}
-      />
-    </div>
-  );
-}

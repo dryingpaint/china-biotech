@@ -223,6 +223,13 @@ export type TrialStartsShare = {
   row: number;
 };
 
+export type RegionShare = {
+  us: number;
+  china: number;
+  eu: number;
+  row: number;
+};
+
 export type ChapterMetrics = {
   pipelineSharePct: number;
   inLicensingSharePct: number;
@@ -230,6 +237,9 @@ export type ChapterMetrics = {
   outLicensingDealValueBn?: number;
   primaryMarketFinancingBn?: number;
   pipelineCount?: number;
+  pipelineRegionShare?: RegionShare;
+  outLicensingRegionShare?: RegionShare;
+  primaryMarketRegionShare?: RegionShare;
 };
 
 export type Chapter = {

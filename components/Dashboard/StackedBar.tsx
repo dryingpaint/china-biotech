@@ -1,39 +1,46 @@
 "use client";
 
-import type { TrialStartsShare } from "@/lib/types";
-
-type Slice = {
-  key: keyof TrialStartsShare;
+export type StackedBarSlice<K extends string> = {
+  key: K;
   label: string;
   color: string;
 };
 
-const SLICES: Slice[] = [
-  { key: "china", label: "China", color: "var(--color-accent)" },
-  { key: "us", label: "US", color: "var(--color-slice-1)" },
-  { key: "eu", label: "EU+UK", color: "var(--color-slice-2)" },
-  { key: "japan", label: "Japan", color: "var(--color-slice-3)" },
-  { key: "row", label: "RoW", color: "var(--color-slice-4)" },
-];
-
-export default function StackedBar({
-  share,
-  height = 12,
-  showLegend = true,
-}: {
-  share: TrialStartsShare;
+type Props<K extends string> = {
+  share: Record<K, number>;
+  slices: StackedBarSlice<K>[];
   height?: number;
   showLegend?: boolean;
-}) {
+  unit?: string;
+  caption?: string;
+};
+
+export default function StackedBar<K extends string>({
+  share,
+  slices,
+  height = 12,
+  showLegend = true,
+  unit = "%",
+  caption,
+}: Props<K>) {
+  const ariaLabel = slices
+    .map((s) => `${s.label} ${share[s.key]}${unit}`)
+    .join(", ");
+
   return (
-    <div className="space-y-1.5">
+    <div className="space-y-1">
+      {caption && (
+        <div className="text-[9px] uppercase tracking-[0.14em] text-[--color-muted]">
+          {caption}
+        </div>
+      )}
       <div
         className="flex w-full overflow-hidden rounded-sm"
         style={{ height }}
         role="img"
-        aria-label={`Regional shares — China ${share.china}%, US ${share.us}%, EU+UK ${share.eu}%, Japan ${share.japan}%, RoW ${share.row}%`}
+        aria-label={`Regional shares — ${ariaLabel}`}
       >
-        {SLICES.map((s) => {
+        {slices.map((s) => {
           const v = share[s.key];
           return (
             <div
@@ -43,14 +50,14 @@ export default function StackedBar({
                 backgroundColor: s.color,
                 transition: "width 350ms cubic-bezier(0.22, 1, 0.36, 1)",
               }}
-              title={`${s.label}: ${v}%`}
+              title={`${s.label}: ${v}${unit}`}
             />
           );
         })}
       </div>
       {showLegend && (
         <div className="flex flex-wrap gap-x-3 gap-y-1 text-[10px] tracking-wider text-[--color-muted]">
-          {SLICES.map((s) => (
+          {slices.map((s) => (
             <span key={s.key} className="inline-flex items-center gap-1">
               <span
                 aria-hidden
@@ -58,7 +65,10 @@ export default function StackedBar({
                 style={{ backgroundColor: s.color }}
               />
               <span className="uppercase">{s.label}</span>
-              <span className="num text-[--color-fg]">{share[s.key]}</span>
+              <span className="num text-[--color-fg]">
+                {share[s.key]}
+                <span className="text-[--color-muted]">{unit}</span>
+              </span>
             </span>
           ))}
         </div>

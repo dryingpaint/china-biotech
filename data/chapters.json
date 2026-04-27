@@ -16,7 +16,25 @@
       },
       "outLicensingDealValueBn": 0,
       "primaryMarketFinancingBn": 0,
-      "pipelineCount": 0
+      "pipelineCount": 0,
+      "pipelineRegionShare": {
+        "us": 70,
+        "china": 0,
+        "eu": 22,
+        "row": 8
+      },
+      "outLicensingRegionShare": {
+        "us": 65,
+        "china": 0,
+        "eu": 30,
+        "row": 5
+      },
+      "primaryMarketRegionShare": {
+        "us": 80,
+        "china": 0,
+        "eu": 18,
+        "row": 2
+      }
     },
     "activeEntityIds": [
       "pumc-hospital"
@@ -79,7 +97,25 @@
       },
       "outLicensingDealValueBn": 0,
       "primaryMarketFinancingBn": 0,
-      "pipelineCount": 0
+      "pipelineCount": 0,
+      "pipelineRegionShare": {
+        "us": 70,
+        "china": 0,
+        "eu": 22,
+        "row": 8
+      },
+      "outLicensingRegionShare": {
+        "us": 65,
+        "china": 0,
+        "eu": 30,
+        "row": 5
+      },
+      "primaryMarketRegionShare": {
+        "us": 80,
+        "china": 0,
+        "eu": 18,
+        "row": 2
+      }
     },
     "activeEntityIds": [
       "cacms",
@@ -142,7 +178,25 @@
       },
       "outLicensingDealValueBn": 0,
       "primaryMarketFinancingBn": 0,
-      "pipelineCount": 0
+      "pipelineCount": 0,
+      "pipelineRegionShare": {
+        "us": 68,
+        "china": 0,
+        "eu": 24,
+        "row": 8
+      },
+      "outLicensingRegionShare": {
+        "us": 65,
+        "china": 0,
+        "eu": 30,
+        "row": 5
+      },
+      "primaryMarketRegionShare": {
+        "us": 78,
+        "china": 0,
+        "eu": 20,
+        "row": 2
+      }
     },
     "activeEntityIds": [
       "hengrui",
@@ -211,7 +265,25 @@
       },
       "outLicensingDealValueBn": 0,
       "primaryMarketFinancingBn": 0,
-      "pipelineCount": 10
+      "pipelineCount": 10,
+      "pipelineRegionShare": {
+        "us": 65,
+        "china": 0,
+        "eu": 26,
+        "row": 9
+      },
+      "outLicensingRegionShare": {
+        "us": 64,
+        "china": 0,
+        "eu": 30,
+        "row": 6
+      },
+      "primaryMarketRegionShare": {
+        "us": 75,
+        "china": 1,
+        "eu": 20,
+        "row": 4
+      }
     },
     "activeEntityIds": [
       "3sbio",
@@ -295,7 +367,25 @@
       },
       "outLicensingDealValueBn": 0,
       "primaryMarketFinancingBn": 1,
-      "pipelineCount": 50
+      "pipelineCount": 50,
+      "pipelineRegionShare": {
+        "us": 51,
+        "china": 2,
+        "eu": 30,
+        "row": 17
+      },
+      "outLicensingRegionShare": {
+        "us": 62,
+        "china": 1,
+        "eu": 31,
+        "row": 6
+      },
+      "primaryMarketRegionShare": {
+        "us": 75,
+        "china": 1,
+        "eu": 20,
+        "row": 4
+      }
     },
     "activeEntityIds": [
       "3sbio",
@@ -388,7 +478,25 @@
       },
       "outLicensingDealValueBn": 1,
       "primaryMarketFinancingBn": 3,
-      "pipelineCount": 520
+      "pipelineCount": 520,
+      "pipelineRegionShare": {
+        "us": 49,
+        "china": 6,
+        "eu": 28,
+        "row": 17
+      },
+      "outLicensingRegionShare": {
+        "us": 58,
+        "china": 3,
+        "eu": 32,
+        "row": 7
+      },
+      "primaryMarketRegionShare": {
+        "us": 65,
+        "china": 15,
+        "eu": 15,
+        "row": 5
+      }
     },
     "activeEntityIds": [
       "3sbio",
@@ -500,7 +608,25 @@
       },
       "outLicensingDealValueBn": 3,
       "primaryMarketFinancingBn": 6,
-      "pipelineCount": 1060
+      "pipelineCount": 1060,
+      "pipelineRegionShare": {
+        "us": 47,
+        "china": 7,
+        "eu": 27,
+        "row": 19
+      },
+      "outLicensingRegionShare": {
+        "us": 57,
+        "china": 6,
+        "eu": 30,
+        "row": 7
+      },
+      "primaryMarketRegionShare": {
+        "us": 55,
+        "china": 35,
+        "eu": 7,
+        "row": 3
+      }
     },
     "activeEntityIds": [
       "3sbio",
@@ -614,7 +740,25 @@
       },
       "outLicensingDealValueBn": 3,
       "primaryMarketFinancingBn": 8,
-      "pipelineCount": 790
+      "pipelineCount": 790,
+      "pipelineRegionShare": {
+        "us": 48,
+        "china": 7,
+        "eu": 27,
+        "row": 18
+      },
+      "outLicensingRegionShare": {
+        "us": 58,
+        "china": 5,
+        "eu": 30,
+        "row": 7
+      },
+      "primaryMarketRegionShare": {
+        "us": 65,
+        "china": 25,
+        "eu": 7,
+        "row": 3
+      }
     },
     "activeEntityIds": [
       "3sbio",
@@ -735,7 +879,25 @@
       },
       "outLicensingDealValueBn": 8,
       "primaryMarketFinancingBn": 14,
-      "pipelineCount": 1370
+      "pipelineCount": 1370,
+      "pipelineRegionShare": {
+        "us": 46,
+        "china": 7,
+        "eu": 26,
+        "row": 21
+      },
+      "outLicensingRegionShare": {
+        "us": 58,
+        "china": 8,
+        "eu": 28,
+        "row": 6
+      },
+      "primaryMarketRegionShare": {
+        "us": 55,
+        "china": 35,
+        "eu": 7,
+        "row": 3
+      }
     },
     "activeEntityIds": [
       "3sbio",
@@ -843,7 +1005,7 @@
     "id": "fast-follower-trap",
     "title": "Commoditization of the Fast-Followers",
     "date": "2021–2024",
-    "body": "<p>By 2021 the fast-follower strategy that had built the innovator generation had become a trap. China runs a single-payer healthcare system. The [[entity:nhsa|National Healthcare Security Administration]] (created March 2018) negotiates drug prices nationwide, and any drug that wins a slot on the [[reform:nrdl-resume|National Reimbursement Drug List]] or in [[reform:vbp|<em>volume-based procurement</em>]] tenders is bought by every Chinese hospital at the negotiated price. The fast-follower wave had produced dozens of nearly-identical Chinese checkpoint inhibitors and ADCs competing for those slots, and NHSA could play them off each other. [[entity:hengrui|Hengrui]], the largest Chinese pharma by market cap, saw its checkpoint inhibitor [[entity:hengrui|camrelizumab]] enter the NRDL at deep discounts;[[cite:eversana-pd1-nrdl-2020]] would-be blockbusters became commodity goods almost on contact. The regulator’s [[entity:cde|Center for Drug Evaluation]] acknowledged the shift in 2021 with formal [[reform:value-oriented-onc|Guidelines for Clinical Value-Oriented Oncology Drug Development]], conceding that fast-following [[entity:merck-co|Merck]]’s Keytruda was no longer a winning strategy.[[cite:pharmadj-cde-clinical-value-guidelines]]</p>\n<p>China’s share of global biotech venture capital climbed from 3.5% in 2010 to 18.9% by 2020[[cite:itif-china-biotech-2024]][[cite:nsf-skti-24-2022]] before reversing sharply in 2021, driven by a global post-COVID valuation reset, US interest-rate hikes, and US-China tensions pushing foreign investors out.[[cite:stat-china-biotech-foreign-pullback-2024]] By 2024, Chinese biopharma primary-market financing had collapsed from a 2021 peak of RMB 88 billion (~$13.6 billion) to RMB 27.7 billion (~$3.8 billion).[[cite:biopharmaapac-china-h1-2025]] Companies that could no longer raise at home raised abroad through licensing instead. Two breakthrough deals signaled the pivot. In August 2021, [[entity:remegen|<em>RemeGen</em>]] (a Yantai-based ADC specialist) out-licensed disitamab vedotin, the first homegrown Chinese ADC, to [[entity:seagen|Seagen]] for $2.6 billion, then a record for Chinese oncology licensing.[[cite:businesswire-seagen-and-remegen-announce-exclusive-wo]] In December 2022, [[entity:merck-co|Merck]] expanded a $9 billion ADC pact with [[entity:kelun-bio|Kelun Biotech]], the oncology arm of Sichuan Kelun Pharmaceutical.[[cite:merck-kelun-adc-deal-press]]</p>",
+    "body": "<p>Because China runs a single-payer healthcare system--[[entity:nhsa|National Healthcare Security Administration]] (created March 2018) negotiates drug prices nationwide, and any drug that wins a slot on the [[reform:nrdl-resume|National Reimbursement Drug List]] or in [[reform:vbp|<em>volume-based procurement</em>]] tenders is bought by every Chinese hospital at the negotiated price. The fast-follower wave had produced dozens of nearly-identical Chinese checkpoint inhibitors and ADCs competing for those slots, which all entered the market at deep discounts. The regulator’s [[entity:cde|Center for Drug Evaluation]] acknowledged the shift in 2021 with formal [[reform:value-oriented-onc|Guidelines for Clinical Value-Oriented Oncology Drug Development]], conceding that fast-following [[entity:merck-co|Merck]]’s Keytruda was no longer a winning strategy.[[cite:pharmadj-cde-clinical-value-guidelines]]</p>\n<p>China’s share of global biotech venture capital climbed from 3.5% in 2010 to 18.9% by 2020[[cite:itif-china-biotech-2024]][[cite:nsf-skti-24-2022]] before reversing sharply in 2021, driven by a global post-COVID valuation reset, US interest-rate hikes, and US-China tensions pushing foreign investors out.[[cite:stat-china-biotech-foreign-pullback-2024]] By 2024, Chinese biopharma primary-market financing had collapsed from a 2021 peak of RMB 88 billion (~$13.6 billion) to RMB 27.7 billion (~$3.8 billion).[[cite:biopharmaapac-china-h1-2025]] Companies that could no longer raise at home raised abroad through licensing instead. Two breakthrough deals signaled the pivot. In August 2021, [[entity:remegen|<em>RemeGen</em>]] (a Yantai-based ADC specialist) out-licensed disitamab vedotin, the first homegrown Chinese ADC, to [[entity:seagen|Seagen]] for $2.6 billion, then a record for Chinese oncology licensing.[[cite:businesswire-seagen-and-remegen-announce-exclusive-wo]] In December 2022, [[entity:merck-co|Merck]] expanded a $9 billion ADC pact with [[entity:kelun-bio|Kelun Biotech]], the oncology arm of Sichuan Kelun Pharmaceutical.[[cite:merck-kelun-adc-deal-press]]</p>",
     "metrics": {
       "pipelineSharePct": 13,
       "inLicensingSharePct": 32,
@@ -856,7 +1018,25 @@
       },
       "outLicensingDealValueBn": 42,
       "primaryMarketFinancingBn": 4,
-      "pipelineCount": 2500
+      "pipelineCount": 2500,
+      "pipelineRegionShare": {
+        "us": 41,
+        "china": 13,
+        "eu": 23,
+        "row": 23
+      },
+      "outLicensingRegionShare": {
+        "us": 48,
+        "china": 21,
+        "eu": 25,
+        "row": 6
+      },
+      "primaryMarketRegionShare": {
+        "us": 50,
+        "china": 25,
+        "eu": 20,
+        "row": 5
+      }
     },
     "activeEntityIds": [
       "3sbio",
@@ -991,7 +1171,25 @@
       },
       "outLicensingDealValueBn": 136,
       "primaryMarketFinancingBn": 4,
-      "pipelineCount": 2700
+      "pipelineCount": 2700,
+      "pipelineRegionShare": {
+        "us": 38,
+        "china": 13,
+        "eu": 22,
+        "row": 27
+      },
+      "outLicensingRegionShare": {
+        "us": 25,
+        "china": 33,
+        "eu": 35,
+        "row": 7
+      },
+      "primaryMarketRegionShare": {
+        "us": 30,
+        "china": 50,
+        "eu": 15,
+        "row": 5
+      }
     },
     "activeEntityIds": [
       "3sbio",
@@ -1126,7 +1324,25 @@
       },
       "outLicensingDealValueBn": 136,
       "primaryMarketFinancingBn": 4,
-      "pipelineCount": 2700
+      "pipelineCount": 2700,
+      "pipelineRegionShare": {
+        "us": 38,
+        "china": 13,
+        "eu": 22,
+        "row": 27
+      },
+      "outLicensingRegionShare": {
+        "us": 25,
+        "china": 33,
+        "eu": 35,
+        "row": 7
+      },
+      "primaryMarketRegionShare": {
+        "us": 30,
+        "china": 50,
+        "eu": 15,
+        "row": 5
+      }
     },
     "activeEntityIds": [
       "3sbio",
@@ -1254,7 +1470,25 @@
       },
       "outLicensingDealValueBn": 136,
       "primaryMarketFinancingBn": 4,
-      "pipelineCount": 2700
+      "pipelineCount": 2700,
+      "pipelineRegionShare": {
+        "us": 38,
+        "china": 13,
+        "eu": 22,
+        "row": 27
+      },
+      "outLicensingRegionShare": {
+        "us": 25,
+        "china": 33,
+        "eu": 35,
+        "row": 7
+      },
+      "primaryMarketRegionShare": {
+        "us": 30,
+        "china": 50,
+        "eu": 15,
+        "row": 5
+      }
     },
     "activeEntityIds": [
       "3sbio",
@@ -1366,7 +1600,7 @@
     "id": "modern-landscape",
     "title": "The Modern Landscape",
     "date": "2025–2026",
-    "body": "<p>The structural cause of China's licensing dominance has crystallized. Between 2025 and 2030, top-selling Western drugs will face loss of exclusivity covering an estimated $200 billion to $230 billion in annual revenue[[cite:labiotech-patent-cliff-2025]]; recovering this value requires the industry to produce ~60-100 new blockbuster drugs (defined as $3B+ peak sales) within the next 5-7 years, approximately 2-3x the industry's historical pace. As an illustrative data point, [[entity:merck-co|Merck]] generated $29.5 billion in revenue, 56% of its total business, from Keytruda in 2024. Its key patents expire in 2028 with sales expected to start declining next year due to biosimilar competition. Replacing such revenue would require them to produce ~60 new&nbsp;</p><p>China became the buyer of last resort for novel mechanisms because the rest of the world stopped funding biotech in 2022 to 2024.[[cite:stat-china-biotech-foreign-pullback-2024]] As a result, the average upfront payment on a Western-Chinese licensing deal rose roughly 230% between 2022 and early 2026, from $52 million to $172 million,[[cite:fiercebiotech-china-230pct-2026]] and the most active acquirers were Bristol Myers Squibb, [[entity:roche|Roche]], and [[entity:merck-co|Merck]], with [[entity:pfizer|Pfizer]] and Gilead the largest dollar spenders. The Hang Seng Biotech Index ran roughly 60% in 2025 on the back of it (S&amp;P 500 ran ~25% and the Nasdaq Biotech was roughly flat).[[cite:hsi-biotech-factsheet-2025]]</p>\n<p>The serious innovator tier had crystallized around [[entity:beigene|BeOne]] (Brukinsa hit $3.9 billion in FY2025[[cite:beone-q4-2025-earnings]]), [[entity:hengrui|Hengrui]] (now China's largest pharma by market cap), and a second wave of [[entity:akeso|Akeso]], [[entity:innovent|Innovent]], [[entity:junshi|Junshi]], and [[entity:zailab|Zai Lab]]. Akeso became an industry leader with PD-1/VEGF[[note:PD-1/VEGF bispecifics are antibodies that block both an immune checkpoint and tumor angiogenesis with a single molecule, exploiting a cooperative-binding mechanism that concentrates checkpoint blockade in the tumor microenvironment.]] bispecific [[entity:akeso|<em>ivonescimab</em>]], which logged four positive Phase 3 readouts, including a head-to-head defeat of Keytruda monotherapy in PD-L1-positive NSCLC,[[cite:lancet-harmoni2-2025]]. The success triggered a class rush of more than a dozen PD-1/VEGF bispecifics in development.[[cite:nrdd-pd1-vegf-bispecifics-2025]] ADCs had become the category of unambiguous Chinese leadership, anchored by [[entity:duality|DualityBio]], [[entity:remegen|RemeGen]], [[entity:hansoh|Hansoh]], and [[entity:kelun-bio|Kelun-Biotech]]; in the first half of 2025, ADCs accounted for 8 of the 24 Chinese license-out deals exceeding $1 billion, with antibody-based drugs taking 10 more.[[cite:biopharmaapac-china-h1-2025]] Cell therapy ran on [[entity:legend|Legend Biotech]]'s [[entity:johnson-johnson|Johnson &amp; Johnson]] Carvykti partnership and [[entity:astrazeneca|AstraZeneca]]'s 2024 Gracell acquisition.&nbsp;</p>\n<p>Clinical-trial enrollment ran two to three times faster than American counterparts for indications where Chinese patient populations were deepest (nasopharyngeal carcinoma, EGFR-mutant NSCLC, hepatitis-B-driven hepatocellular carcinoma, and gastric cancer), with per-patient cost roughly 64% lower.[[cite:lek-china-trials-2019]] By 2024, China-headquartered companies were initiating 39% of all global oncology trials, up from roughly 5% a decade earlier.[[cite:iqvia-global-oncology-trends-2025]] CRDMO infrastructure ([[entity:wuxi-bio|WuXi Biologics]], [[entity:asymchem|Asymchem]], [[entity:pharmaron|Pharmaron]]) had become the physical substrate of global biopharma's small-molecule and biologics supply chain. The strength tapered, however, in functional-genomics dataset production. [[entity:bgi|BGI]] dominated sequencing throughput and pushed spatial transcriptomics through Stereo-seq, but the upstream perturbation-screen production that fed the next generation of biological foundation models had not migrated to China at the same rate.</p>\n<p>Beyond the redomiciliation and divestiture moves of 2024 and 2025, the NewCo had emerged as a third adaptation. Chinese-originated discovery assets were spun out into newly chartered, Western-domiciled vehicles backed by US venture capital, leaving the Chinese discovery engine intact while routing ownership and trial sponsorship through holdcos in the US or Europe. [[entity:hengrui|Hengrui]]'s 2024 GLP-1 obesity spin-out into Kailera Therapeutics with Bain Capital and Atlas Venture sat alongside the earlier Aiolos-to-[[entity:gsk|GSK]] sale, where a Hengrui-discovered asthma asset had reached a $1.4 billion exit through a Western shell.[[cite:gsk-aiolos-press-2024]] The mechanism preserved the economics of Chinese clinical-asset arbitrage while satisfying procurement-side restrictions. Across all three responses, the licensing flow rose under [[reform:biosecure|BIOSECURE]] pressure rather than declining, because the underlying economic logic, that Chinese clinical assets filled the Western patent cliff at lower upfront cost, only intensified under a regime that compressed the alternatives.</p>",
+    "body": "<p>The structural cause of China's licensing dominance has crystallized. Between 2025 and 2030, top-selling Western drugs will face loss of exclusivity covering an estimated $200 billion to $230 billion in annual revenue[[cite:labiotech-patent-cliff-2025]]; recovering this value requires the industry to produce ~60-100 new blockbuster drugs (defined as $3B+ peak sales) within the next 5-7 years, approximately 2-3x the industry's historical pace. As an illustrative data point, [[entity:merck-co|Merck]] generated $29.5 billion in revenue, 56% of its total business, from Keytruda in 2024. Its key patents expire in 2028 with sales expected to start declining next year due to biosimilar competition. Replacing such revenue would require them to produce ~60 new&nbsp;[[note:Average new drug costs ~$2.23B to develop. Lifetime revenue runs ~5-8× peak annual sales, so a typical $510M-peak launch generates ~$2.5-4B over its patent life. Net of manufacturing and commercial spend (~40% of revenue), profit lands at ~$1.5-2.4B, roughly matching development cost.]]</p><p>China has become the buyer of last resort for novel mechanisms when the rest of the world stopped funding biotech between 2022 to 2024.[[cite:stat-china-biotech-foreign-pullback-2024]] The average upfront payment on a Western-Chinese licensing deal rose roughly 230% between 2022 and early 2026, from $52 million to $172 million,[[cite:fiercebiotech-china-230pct-2026]] and the most active acquirers are Bristol Myers Squibb, [[entity:roche|Roche]], and [[entity:merck-co|Merck]], with [[entity:pfizer|Pfizer]] and Gilead the largest dollar spenders. The Hang Seng Biotech Index ran roughly 60% in 2025 on the back of it (S&amp;P 500 ran ~25% and the Nasdaq Biotech was roughly flat).[[cite:hsi-biotech-factsheet-2025]]</p>\n<p>The serious innovator tier has crystallized around [[entity:beigene|BeOne]] (Brukinsa hit $3.9 billion in FY2025[[cite:beone-q4-2025-earnings]]), [[entity:hengrui|Hengrui]] (now China's largest pharma by market cap), and a second wave of [[entity:akeso|Akeso]], [[entity:innovent|Innovent]], [[entity:junshi|Junshi]], and [[entity:zailab|Zai Lab]]. Akeso is an industry leader with its PD-1/VEGF[[note:PD-1/VEGF bispecifics are antibodies that block both an immune checkpoint and tumor angiogenesis with a single molecule, exploiting a cooperative-binding mechanism that concentrates checkpoint blockade in the tumor microenvironment.]] bispecific [[entity:akeso|<em>ivonescimab</em>]], which logged four positive Phase 3 readouts, including a head-to-head defeat of Keytruda monotherapy in PD-L1-positive NSCLC,[[cite:lancet-harmoni2-2025]]. The success triggered a class rush of more than a dozen PD-1/VEGF bispecifics in development.[[cite:nrdd-pd1-vegf-bispecifics-2025]] ADCs are the category of unambiguous Chinese leadership, anchored by [[entity:duality|DualityBio]], [[entity:remegen|RemeGen]], [[entity:hansoh|Hansoh]], and [[entity:kelun-bio|Kelun-Biotech]]; in the first half of 2025, ADCs accounted for 8 of the 24 Chinese license-out deals exceeding $1 billion, with antibody-based drugs taking 10 more.[[cite:biopharmaapac-china-h1-2025]] Cell therapy runs on [[entity:legend|Legend Biotech]]'s [[entity:johnson-johnson|Johnson &amp; Johnson]] Carvykti partnership and [[entity:astrazeneca|AstraZeneca]]'s 2024 Gracell acquisition.&nbsp;</p>\n<p>Clinical-trial enrollment runs two to three times faster than American counterparts for indications where Chinese patient populations are deepest (nasopharyngeal carcinoma, EGFR-mutant NSCLC, hepatitis-B-driven hepatocellular carcinoma, and gastric cancer), with per-patient cost roughly 64% lower.[[cite:lek-china-trials-2019]] By 2024, China-headquartered companies were initiating 39% of all global oncology trials, up from roughly 5% a decade earlier.[[cite:iqvia-global-oncology-trends-2025]] CRDMO (Contract Research, Development, Manufacturing Organization) infrastructure ([[entity:wuxi-bio|WuXi Biologics]], [[entity:asymchem|Asymchem]], [[entity:pharmaron|Pharmaron]]) has become the physical substrate of global biopharma's small-molecule and biologics supply chain. [[entity:bgi|BGI]] dominates sequencing throughput and pushes spatial transcriptomics through Stereo-seq.&nbsp;</p><p>Beyond the redomiciliation and divestiture moves of 2024 and 2025, the NewCo has emerged as a third adaptation. A Chinese pharma that has discovered a clinically interesting asset licenses its ex-China rights to a brand-new American biotech, founded for the purpose by US venture capital and built to be acquired by Big Pharma. The Chinese parent keeps its home-market rights and takes an upfront payment, milestones, and sometimes minority equity in the NewCo; the asset, on paper and in regulatory practice, becomes an American biotech's product. The first canonical example was Aiolos Bio, founded by Atlas Venture and Forbion in late 2023 around an anti-TSLP asthma antibody licensed from [[entity:hengrui|Hengrui]]; thirteen months later, [[entity:gsk|GSK]] paid up to $1.4 billion to acquire Aiolos[[cite:gsk-aiolos-press-2024]], routing a Hengrui-discovered drug through a US shell into a global pipeline. Kailera Therapeutics followed in 2024 with $400 million from Bain Capital, Atlas Venture, RTW, and Lyra Capital around Hengrui's GLP-1 obesity portfolio. Across all three responses, licensing flow has risen under [[reform:biosecure|BIOSECURE]] pressure rather than declining, because the underlying economic logic, that Chinese clinical assets fill the Western patent cliff at lower upfront cost, has only intensified under a regime that compresses the alternatives.</p>",
     "metrics": {
       "pipelineSharePct": 14,
       "inLicensingSharePct": 32,
@@ -1379,7 +1613,25 @@
       },
       "outLicensingDealValueBn": 136,
       "primaryMarketFinancingBn": 4,
-      "pipelineCount": 2700
+      "pipelineCount": 2700,
+      "pipelineRegionShare": {
+        "us": 38,
+        "china": 13,
+        "eu": 22,
+        "row": 27
+      },
+      "outLicensingRegionShare": {
+        "us": 25,
+        "china": 33,
+        "eu": 35,
+        "row": 7
+      },
+      "primaryMarketRegionShare": {
+        "us": 30,
+        "china": 50,
+        "eu": 15,
+        "row": 5
+      }
     },
     "activeEntityIds": [
       "akeso",

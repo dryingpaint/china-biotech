@@ -1,10 +1,13 @@
 "use client";
 
 import { Scrollama, Step } from "react-scrollama";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useNarrative, type EntityRef } from "@/lib/narrativeStore";
 import { renderBodyWithCitations } from "@/lib/citations";
+import Tooltip from "@/components/Tooltip";
 import type { Chapter } from "@/lib/types";
+
+const NOTE_HIDE_GRACE_MS = 200;
 
 export default function Scroller({ chapters: _chapters }: { chapters: Chapter[] }) {
   const setIndex = useNarrative((s) => s.setCurrentIndex);
@@ -31,9 +34,24 @@ export default function Scroller({ chapters: _chapters }: { chapters: Chapter[] 
   );
 }
 
+type HoveredNote = { rect: DOMRect; text: string };
+
 export function ChapterBody({ chapter }: { chapter: Chapter }) {
   const setHighlight = useNarrative((s) => s.setHighlightedEntity);
   const ref = useRef<HTMLDivElement>(null);
+  const [hoveredNote, setHoveredNote] = useState<HoveredNote | null>(null);
+  const hideTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const cancelHideNote = () => {
+    if (hideTimer.current) {
+      clearTimeout(hideTimer.current);
+      hideTimer.current = null;
+    }
+  };
+  const scheduleHideNote = () => {
+    cancelHideNote();
+    hideTimer.current = setTimeout(() => setHoveredNote(null), NOTE_HIDE_GRACE_MS);
+  };
 
   useEffect(() => {
     const root = ref.current;
@@ -47,13 +65,39 @@ export function ChapterBody({ chapter }: { chapter: Chapter }) {
       if ((type !== "entity" && type !== "reform") || !id) return null;
       return { type, id };
     };
+    const findNote = (target: EventTarget | null): HTMLElement | null => {
+      if (!(target instanceof Element)) return null;
+      return target.closest<HTMLElement>(".note-ref");
+    };
     const handleOver = (e: Event) => {
       const entity = findEntity(e.target);
       if (entity) setHighlight(entity);
+      const note = findNote(e.target);
+      if (note) {
+        const text = note.getAttribute("data-tooltip");
+        if (text) {
+          cancelHideNote();
+          setHoveredNote({ rect: note.getBoundingClientRect(), text });
+        }
+      }
     };
     const handleOut = (e: Event) => {
       const entity = findEntity(e.target);
       if (entity) setHighlight(null);
+      const note = findNote(e.target);
+      if (note) scheduleHideNote();
+    };
+    const handleFocusIn = (e: Event) => {
+      const note = findNote(e.target);
+      if (!note) return;
+      const text = note.getAttribute("data-tooltip");
+      if (text) {
+        cancelHideNote();
+        setHoveredNote({ rect: note.getBoundingClientRect(), text });
+      }
+    };
+    const handleFocusOut = (e: Event) => {
+      if (findNote(e.target)) scheduleHideNote();
     };
     const handleClick = (e: Event) => {
       if (!(e.target instanceof Element)) return;
@@ -73,10 +117,14 @@ export function ChapterBody({ chapter }: { chapter: Chapter }) {
     };
     root.addEventListener("mouseover", handleOver);
     root.addEventListener("mouseout", handleOut);
+    root.addEventListener("focusin", handleFocusIn);
+    root.addEventListener("focusout", handleFocusOut);
     root.addEventListener("click", handleClick);
     return () => {
       root.removeEventListener("mouseover", handleOver);
       root.removeEventListener("mouseout", handleOut);
+      root.removeEventListener("focusin", handleFocusIn);
+      root.removeEventListener("focusout", handleFocusOut);
       root.removeEventListener("click", handleClick);
     };
   }, [setHighlight]);
@@ -92,6 +140,17 @@ export function ChapterBody({ chapter }: { chapter: Chapter }) {
           __html: renderBodyWithCitations(chapter.body),
         }}
       />
+      <Tooltip
+        show={!!hoveredNote}
+        anchorRect={hoveredNote?.rect ?? null}
+        onMouseEnter={cancelHideNote}
+        onMouseLeave={scheduleHideNote}
+        width={300}
+      >
+        {hoveredNote ? (
+          <p className="text-[12px] leading-relaxed">{hoveredNote.text}</p>
+        ) : null}
+      </Tooltip>
     </div>
   );
 }

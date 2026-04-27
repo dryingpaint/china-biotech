@@ -38,7 +38,7 @@ function processSimpleMarkers(html: string): string {
     )
     .replace(/\[\[note:([^\]]+)\]\]/g, (_, text) => {
       const escaped = escapeAttr(text);
-      return `<sup class="note-ref" data-tooltip="${escaped}" title="${escaped}" tabindex="0" aria-label="${escaped}">?</sup>`;
+      return `<sup class="note-ref" data-tooltip="${escaped}" tabindex="0" aria-label="${escaped}">?</sup>`;
     })
     .replace(/\[\[cite:([a-z0-9-]+)(?:\|([^\]]+))?\]\]/g, (_, id, inlineText) => {
       const found = getCitation(id);
