@@ -223,7 +223,7 @@
         "year": 2025,
         "valueBillions": 6.05
       },
-      "grossMarginPct": 86.0,
+      "grossMarginPct": 86,
       "rdPctOfRevenue": 14.6
     },
     "timeline": [
@@ -362,25 +362,21 @@
       {
         "chapterId": "platforms-and-parks",
         "status": "Founded September 1999 in Beijing as the Beijing Genomics Institute by Wang Jian, Yang Huanming, Liu Siqi and Yu Jun to deliver China's 1% share of the Human Genome Project; relocated headquarters to Shenzhen in 2007",
-        "approvedDrugCount": 0,
         "note": "Operates as a non-governmental research institute backed in part by Wang Jian's prior venture Jubilee Biotechnology"
       },
       {
         "chapterId": "innovator-generation",
         "status": "Bought 128 Illumina HiSeq 2000 instruments (2010) to anchor the world's largest sequencing center; launched NIFTY NIPT clinically in 2011; opened BGI Americas (Cambridge MA) and BGI Europe (Copenhagen)",
-        "approvedDrugCount": 0,
         "note": "Established the global services scale that justified building proprietary instruments"
       },
       {
         "chapterId": "bi-jingquan-bigbang",
         "status": "Acquired Complete Genomics (Mountain View, CA) for US$117.6M in March 2013 after CFIUS clearance, gaining the DNB nanoball sequencing IP that became the DNBSEQ line; spun out MGI Tech as a sequencing-instrument subsidiary in 2016",
-        "approvedDrugCount": 0,
         "note": "First Chinese acquisition of a US sequencing-technology company"
       },
       {
         "chapterId": "harmonisation-and-hong-kong",
         "status": "BGI Genomics services arm IPO'd on Shenzhen ChiNext July 14, 2017 (300676), raising RMB ~547M (~US$81M); jumped 44% on debut",
-        "approvedDrugCount": 0,
         "listings": [
           "SZSE: 300676"
         ]
@@ -388,7 +384,6 @@
       {
         "chapterId": "first-american-approvals",
         "status": "Mammoth Foundation (BGI-sponsored Shenzhen non-profit) deployed COVID-19 testing labs and donated kits across Europe, the Middle East and Africa; BGI Genomics revenue spiked on global PCR/sequencing demand",
-        "approvedDrugCount": 0,
         "listings": [
           "SZSE: 300676"
         ]
@@ -396,7 +391,6 @@
       {
         "chapterId": "procurement-and-value",
         "status": "MGI Tech IPO'd on Shanghai STAR Market September 2022 (688114), raising RMB ~3.6B (~US$510M) to scale DNBSEQ instrument manufacturing and overseas sales after a 2019 patent settlement opened markets outside China",
-        "approvedDrugCount": 0,
         "listings": [
           "SZSE: 300676",
           "SSE STAR: 688114"
@@ -405,7 +399,6 @@
       {
         "chapterId": "going-global",
         "status": "Named alongside MGI and Complete Genomics in the BIOSECURE Act (H.R.7085), which passed the US House 306–81 on Sept 9, 2024 but failed to make the FY2025 NDAA",
-        "approvedDrugCount": 0,
         "listings": [
           "SZSE: 300676",
           "SSE STAR: 688114"
@@ -415,7 +408,6 @@
       {
         "chapterId": "frontier-era",
         "status": "BIOSECURE Act enacted as Section 851 of the FY2026 NDAA, signed Dec 18, 2025; BGI Genomics FY2024 revenue RMB 3.87B (~US$531M, -11% YoY) with a RMB 902.7M net loss; MGI Tech FY2024 revenue RMB 3.01B (~US$414M, +3% YoY) with 1,270 new sequencer installs",
-        "approvedDrugCount": 0,
         "listings": [
           "SZSE: 300676",
           "SSE STAR: 688114"
@@ -495,7 +487,6 @@
       "marketCapBillions": 48.8,
       "revenueBillions": 6.3,
       "revenueYear": 2025,
-      "approvedDrugCount": 0,
       "listings": [
         "SSE: 603259",
         "HKEX: 02359"
@@ -910,7 +901,7 @@
         "type": "collaboration",
         "year": 2022
       },
-      "grossMarginPct": 69.0,
+      "grossMarginPct": 69,
       "rdPctOfRevenue": 49.2
     },
     "timeline": [
@@ -1943,7 +1934,7 @@
         "type": "acquisition",
         "year": 2023
       },
-      "grossMarginPct": 41.0,
+      "grossMarginPct": 41,
       "rdPctOfRevenue": 4.1
     },
     "timeline": [
@@ -1986,7 +1977,6 @@
       {
         "chapterId": "frontier-era",
         "status": "FY2024 revenue RMB 18.68B (+9.6% YoY); 817 integrated projects, 66 in Phase III, 21 non-COVID commercial. Sold WuXi Vaccines' Dundalk Ireland facility to MSD for ~$500M (Jan 2025) and exited the Hang Seng Index.",
-        "approvedDrugCount": 0,
         "note": "Named in 2024 House and Senate BIOSECURE drafts; dropped from the final NDAA-attached version that became law in Dec 2025, but reputational drag persists."
       }
     ],
@@ -2101,7 +2091,7 @@
         "year": 2020,
         "valueBillions": 0.48
       },
-      "grossMarginPct": 59.0,
+      "grossMarginPct": 59,
       "rdPctOfRevenue": 30.4
     },
     "timeline": [
@@ -2590,7 +2580,7 @@
         "valueBillions": 1.67
       },
       "grossMarginPct": 40.4,
-      "rdPctOfRevenue": 42.0
+      "rdPctOfRevenue": 42
     },
     "timeline": [
       {
@@ -2915,7 +2905,7 @@
         "valueBillions": 2
       },
       "grossMarginPct": 90.9,
-      "rdPctOfRevenue": 22.0
+      "rdPctOfRevenue": 22
     },
     "timeline": [
       {
@@ -3440,7 +3430,6 @@
       "marketCapBillions": 5,
       "revenueBillions": 0.037,
       "revenueYear": 2024,
-      "approvedDrugCount": 0,
       "listings": [
         "HKEX: 02228"
       ],
@@ -3460,33 +3449,28 @@
         "valueBillions": 5.99
       },
       "grossMarginPct": 46.3,
-      "rdPctOfRevenue": 157.0
+      "rdPctOfRevenue": 157
     },
     "timeline": [
       {
         "chapterId": "innovator-generation",
-        "status": "Founded by three MIT physics postdocs (Wen, Lai, Ma); registered in Shenzhen in 2015 around quantum crystal-structure prediction.",
-        "approvedDrugCount": 0
+        "status": "Founded by three MIT physics postdocs (Wen, Lai, Ma); registered in Shenzhen in 2015 around quantum crystal-structure prediction."
       },
       {
         "chapterId": "harmonisation-and-hong-kong",
-        "status": "Won 10-year Pfizer crystal-form partnership after 2018 blind test; raised Tencent / Sequoia rounds.",
-        "approvedDrugCount": 0
+        "status": "Won 10-year Pfizer crystal-form partnership after 2018 blind test; raised Tencent / Sequoia rounds."
       },
       {
         "chapterId": "procurement-and-value",
-        "status": "Pivoted from crystal forms to full AI + robotics ID4 platform; signed Janssen (J&J) collaboration.",
-        "approvedDrugCount": 0
+        "status": "Pivoted from crystal forms to full AI + robotics ID4 platform; signed Janssen (J&J) collaboration."
       },
       {
         "chapterId": "going-global",
-        "status": "Inked $250M Eli Lilly AI drug-discovery deal (2023); revenue RMB174M FY2023.",
-        "approvedDrugCount": 0
+        "status": "Inked $250M Eli Lilly AI drug-discovery deal (2023); revenue RMB174M FY2023."
       },
       {
         "chapterId": "frontier-era",
         "status": "First-ever HKEX Chapter 18C Specialist Technology IPO Jun 2024 (HK$989M raised); FY2024 revenue RMB266M (+52.8%); $5.99B DoveTree deal Aug 2025; expanded Pfizer collab Jun 2025.",
-        "approvedDrugCount": 0,
         "listings": [
           "HKEX: 02228"
         ]
@@ -3819,13 +3803,12 @@
       "asOf": "2026-04",
       "revenueBillions": 0.95,
       "revenueYear": 2025,
-      "approvedDrugCount": 0,
       "listings": [
         "SZSE: 300347",
         "HKEX: 03347"
       ],
       "modalities": [],
-      "grossMarginPct": 34.0,
+      "grossMarginPct": 34,
       "rdPctOfRevenue": 3.6
     },
     "timeline": [
@@ -3925,7 +3908,6 @@
       "asOf": "2026-04",
       "revenueBillions": 1.7,
       "revenueYear": 2024,
-      "approvedDrugCount": 0,
       "listings": [
         "SZSE: 300759",
         "HKEX: 03759"
@@ -3947,8 +3929,7 @@
     "timeline": [
       {
         "chapterId": "platforms-and-parks",
-        "status": "Founded 2004 in the Beijing Economic-Technological Development Area by Boliang Lou after his return from the US; opened first chemistry lab with ~20 staff",
-        "approvedDrugCount": 0
+        "status": "Founded 2004 in the Beijing Economic-Technological Development Area by Boliang Lou after his return from the US; opened first chemistry lab with ~20 staff"
       },
       {
         "chapterId": "harmonisation-and-hong-kong",
@@ -3978,7 +3959,6 @@
       {
         "chapterId": "frontier-era",
         "status": "FY2024 revenue RMB 12,275.8M (+6.4%), profit RMB 1,793.4M (+12%); H1 2025 revenue +14.9%; Pharmaron not named in the Dec 2025 BIOSECURE Act but watchlisted by analysts as a potential future addition",
-        "approvedDrugCount": 0,
         "listings": [
           "SZSE: 300759",
           "HKEX: 03759"
@@ -4055,7 +4035,6 @@
       "asOf": "2026-04",
       "revenueBillions": 0.81,
       "revenueYear": 2024,
-      "approvedDrugCount": 0,
       "listings": [
         "SZSE: 002821",
         "HKEX: 6821"
@@ -4077,26 +4056,22 @@
       {
         "chapterId": "platforms-and-parks",
         "status": "Founded in TEDA Tianjin by Hao Hong after returning from his US-incorporated Asymchem (1995, Research Triangle Park, NC); positioned as a small-molecule custom-synthesis CMO for Western pharma.",
-        "approvedDrugCount": 0,
         "note": "Tianjin entity established 1998; corporate documents also cite 1999 as the formal founding year."
       },
       {
         "chapterId": "bi-jingquan-bigbang",
         "status": "Listed A-shares on Shenzhen (SME Board) on 18 November 2016 under code 002821 at RMB 30.53/share — among the first wave of CRO/CDMO IPOs after Bi Jingquan's 722 reform.",
-        "approvedDrugCount": 0,
         "listings": [
           "SZSE: 002821"
         ]
       },
       {
         "chapterId": "first-american-approvals",
-        "status": "Scaled continuous-flow / green-chemistry capacity, becoming a strategic supplier to Pfizer, Merck, and Eli Lilly for late-stage and commercial small-molecule APIs.",
-        "approvedDrugCount": 0
+        "status": "Scaled continuous-flow / green-chemistry capacity, becoming a strategic supplier to Pfizer, Merck, and Eli Lilly for late-stage and commercial small-molecule APIs."
       },
       {
         "chapterId": "procurement-and-value",
         "status": "Closed an A+H dual listing on 10 December 2021 (HKEX: 6821) raising HK$7.15B — the largest healthcare IPO in Hong Kong that year. In Feb 2022, subsidiary Jilin Asymchem signed Paxlovid-related supply contracts worth ~RMB 3.54B with Pfizer; Jilin Asymchem is named on Paxlovid's FDA DailyMed label as a manufacturer.",
-        "approvedDrugCount": 0,
         "listings": [
           "SZSE: 002821",
           "HKEX: 6821"
@@ -4106,13 +4081,11 @@
       {
         "chapterId": "going-global",
         "status": "FY2024 revenue declined to RMB 5.80B (-25% YoY) as the COVID-era Paxlovid contract wound down; net profit RMB 949M. Pivoted aggressively to GLP-1 peptide CDMO and oligonucleotide capacity.",
-        "approvedDrugCount": 0,
         "note": "August 2024: inaugurated first European site at Discovery Park, Sandwich, Kent — taking over a former Pfizer small-molecule API pilot plant and R&D labs."
       },
       {
         "chapterId": "frontier-era",
         "status": "Operating as a globally distributed CDMO across Tianjin, Jilin, Liaoning, the US, and the UK; flagged in BIOSECURE Act discourse but not named in the bill, unlike WuXi peers.",
-        "approvedDrugCount": 0,
         "listings": [
           "SZSE: 002821",
           "HKEX: 6821"
@@ -4498,7 +4471,6 @@
       "marketCapBillions": 4.05,
       "revenueBillions": 0.39,
       "revenueYear": 2025,
-      "approvedDrugCount": 0,
       "listings": [
         "SSE STAR: 688114"
       ],
@@ -4519,28 +4491,24 @@
       {
         "chapterId": "bi-jingquan-bigbang",
         "status": "Established 13 April 2016 in Shenzhen as a wholly owned BGI subsidiary to commercialize the DNB sequencing IP that BGI had acquired with Complete Genomics in 2013, and to break China's dependence on Illumina HiSeq instruments",
-        "approvedDrugCount": 0,
         "pipelineStage": "Instrument R&D",
         "note": "BGI chairman Wang Jian retained chairmanship; the spinoff separated instrument economics from the BGI Genomics services business"
       },
       {
         "chapterId": "harmonisation-and-hong-kong",
         "status": "Complete Genomics formally transferred from BGI Group to MGI Tech in 2018, putting San Jose-based DNB IP and US R&D headcount under MGI; first DNBSEQ-G400 deployments scaling outside China",
-        "approvedDrugCount": 0,
         "pipelineStage": "Commercial scale-up",
         "note": "Set up a dual operating footprint that became central to the later Illumina patent fight"
       },
       {
         "chapterId": "first-american-approvals",
         "status": "May 2020 Series B raise of ~US$1B at a ~US$3B valuation, one of the largest private genomics rounds globally; IPO application submitted to the Shanghai STAR Market in December 2020",
-        "approvedDrugCount": 0,
         "pipelineStage": "Pre-IPO",
         "note": "COVID-19 sequencing demand validated the instrument economics and pulled forward the public-listing path"
       },
       {
         "chapterId": "procurement-and-value",
         "status": "STAR Market IPO on 9 September 2022 (688114.SH) raised RMB ~3.60B (~US$521M) at RMB 87.18/share; July 2022 settlement with Illumina ended multi-front US patent litigation, with Illumina paying US$325M to Complete Genomics and granting MGI a clear path to sell DNBSEQ products in the US after January 2023",
-        "approvedDrugCount": 0,
         "pipelineStage": "Public + global rollout",
         "listings": [
           "SSE STAR: 688114"
@@ -4550,7 +4518,6 @@
       {
         "chapterId": "going-global",
         "status": "Stock lost more than a third of its market value through 2024 as the BIOSECURE Act named MGI alongside BGI, MGI's affiliates and WuXi as 'biotechnology companies of concern'; opened Brazil and Latin America commercial operations and continued international DNBSEQ-T7+ rollout",
-        "approvedDrugCount": 0,
         "pipelineStage": "Public",
         "listings": [
           "SSE STAR: 688114"
@@ -4560,7 +4527,6 @@
       {
         "chapterId": "frontier-era",
         "status": "MGI and BGI placed on the 2025 Pentagon 1260H list of Chinese military companies; BIOSECURE Act signed into law on 17 December 2025 with MGI captured via the 1260H route. FY2025 revenue RMB 2.78B (+~7% YoY), domestic share ~70%, net loss narrowed by over 60% YoY; T1+ launched March 2025 with rapid installation growth, T7+ improved on cost and quality, E25 received NMPA clearance and entered EU and Latin American markets",
-        "approvedDrugCount": 0,
         "pipelineStage": "Public; sanctions-exposed",
         "listings": [
           "SSE STAR: 688114"
@@ -4681,7 +4647,6 @@
     "lastVerified": "2026-04-26",
     "today": {
       "asOf": "2026-04",
-      "approvedDrugCount": 0,
       "leadAsset": {
         "name": "xTrimo",
         "mechanism": "Cross-modal life-science foundation model (~210B parameters) covering DNA, RNA, protein, cells, biological text, and biological systems; SOTA on 25+ downstream protein-design tasks",
@@ -4692,35 +4657,31 @@
         "partner": "Sanofi",
         "type": "collaboration",
         "year": 2023,
-        "valueBillions": 1.0
+        "valueBillions": 1
       }
     },
     "timeline": [
       {
         "chapterId": "first-american-approvals",
         "status": "Founded September 25, 2020 in Beijing as a Baidu spinout, with Baidu founder Robin Li as chairman and Baidu Ventures CEO Liu Wei stepping out to serve as co-founder and CEO; framed at launch as an 'AI for life sciences' platform combining venture capital, IP, and biocomputing infrastructure",
-        "approvedDrugCount": 0,
         "pipelineStage": "Platform R&D",
         "note": "Registered August 24, 2020 with RMB 1M of seed capital; formal launch September 25, 2020"
       },
       {
         "chapterId": "procurement-and-value",
         "status": "First external financing closed July 2021; central laboratory in Beijing inaugurated September 2022 with the launch of the 'ImmuBot' immune-design platform; ~US$100M Series A led by GGV Capital with Baidu, Legend Capital, BlueRun Ventures, Verity Ventures, and Xianghe Capital announced 2022",
-        "approvedDrugCount": 0,
         "pipelineStage": "Platform commercialization",
         "note": "GGV-led round was one of the largest Series A rounds for a Chinese AI-biotech firm to that point; valuation undisclosed"
       },
       {
         "chapterId": "going-global",
         "status": "Sanofi strategic collaboration announced October 10, 2023, US$10M upfront with R&D and sales milestones bringing total potential value to over US$1B for AI modules supporting Sanofi biologic drug discovery; xTrimo unveiled in July 2023 as a 100B-parameter cross-modal life-science model with public 'Life Science Leaderboard'; Abu Dhabi expansion announced March 2023 (G42-adjacent)",
-        "approvedDrugCount": 0,
         "pipelineStage": "Partner-pipeline contributing",
         "note": "Sanofi deal made BioMap one of the few Chinese AI-biotech platforms with a top-tier multinational anchor partner"
       },
       {
         "chapterId": "frontier-era",
         "status": "xTrimo presented at NVIDIA GTC 2025 with ~210B parameters and seven modalities (DNA, RNA, protein, cells, biological text, biological systems); Hong Kong Investment Corporation (HKIC) joined the cap table in 2025; confidential Hong Kong IPO filing reported March 2026 with CICC, Morgan Stanley, and UBS as joint sponsors, targeting a raise in the several-hundred-million-USD range",
-        "approvedDrugCount": 0,
         "pipelineStage": "Pre-IPO; partner-pipeline contributing",
         "note": "Filing pitches BioMap as the 'AI infrastructure' play in the Chinese biotech IPO cohort, distinct from drug-developer comps; xTrimo's multimodality positions it against AlphaFold and Boltz peers but trained on private wet-lab data"
       }

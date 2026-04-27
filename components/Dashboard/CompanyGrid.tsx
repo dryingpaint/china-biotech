@@ -214,13 +214,13 @@ function EntityTooltip({
 
       {isActive && timelineEntry && (
         <Section label={`As of ${chapterDate}`}>
-          <TimelineBlock entry={timelineEntry} />
+          <TimelineBlock entry={timelineEntry} category={entity.category} />
         </Section>
       )}
 
       {t && (
         <Section label={`Today (${t.asOf})`}>
-          <TodayBlock today={t} />
+          <TodayBlock today={t} category={entity.category} />
         </Section>
       )}
 
@@ -338,17 +338,20 @@ function Section({
 
 function TimelineBlock({
   entry,
+  category,
 }: {
   entry: EntityTimelineEntry | undefined;
+  category: EntityCategory;
 }) {
   if (!entry) {
     return <span className="italic text-[--color-muted]">No data yet.</span>;
   }
+  const showApprovedDrugs = category !== "platform";
   return (
     <div className="space-y-0.5">
       {entry.status && <div>{entry.status}</div>}
       <div className="flex flex-wrap gap-x-3 gap-y-0.5 text-[10px] text-[--color-muted]">
-        {entry.approvedDrugCount !== undefined && (
+        {showApprovedDrugs && entry.approvedDrugCount !== undefined && (
           <span>
             <span className="num text-[--color-fg]">
               {entry.approvedDrugCount}
@@ -370,7 +373,14 @@ function TimelineBlock({
   );
 }
 
-function TodayBlock({ today }: { today: NonNullable<Entity["today"]> }) {
+function TodayBlock({
+  today,
+  category,
+}: {
+  today: NonNullable<Entity["today"]>;
+  category: EntityCategory;
+}) {
+  const showApprovedDrugs = category !== "platform";
   return (
     <div className="grid grid-cols-2 gap-x-3 gap-y-0.5 text-[10px]">
       {today.marketCapBillions !== undefined && (
@@ -382,7 +392,7 @@ function TodayBlock({ today }: { today: NonNullable<Entity["today"]> }) {
           value={`$${today.revenueBillions}B`}
         />
       )}
-      {today.approvedDrugCount !== undefined && (
+      {showApprovedDrugs && today.approvedDrugCount !== undefined && (
         <Stat label="Approved drugs" value={String(today.approvedDrugCount)} />
       )}
       {today.grossMarginPct !== undefined && (
