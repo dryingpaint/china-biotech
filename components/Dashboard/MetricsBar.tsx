@@ -14,7 +14,6 @@ const REGION_SLICES: StackedBarSlice<keyof RegionShare>[] = [
   { key: "us", label: "US", color: "var(--color-slice-1)" },
   { key: "china", label: "China", color: "var(--color-accent)" },
   { key: "eu", label: "EU+UK", color: "var(--color-slice-2)" },
-  { key: "row", label: "RoW", color: "var(--color-slice-3)" },
 ];
 
 type Row = {
