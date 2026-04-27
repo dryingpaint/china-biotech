@@ -7782,5 +7782,109 @@
     "publisher": "GSK",
     "year": 2024,
     "url": "https://www.gsk.com/en-gb/media/press-releases/gsk-enters-agreement-to-acquire-aiolos-bio/"
+  },
+  {
+    "id": "pandaily-biomap-founding-2020",
+    "authors": "Pandaily",
+    "title": "Baidu CEO Robin Li Establishes Life Sciences Company BioMap for Diagnosis and Drug Development via AI",
+    "publisher": "Pandaily",
+    "year": 2020,
+    "url": "https://pandaily.com/baidu-ceo-robin-li-establishes-life-sciences-company-biomap-for-diagnosis-and-drug-development-via-ai/"
+  },
+  {
+    "id": "yicai-biomap-baidu-ventures-launch",
+    "authors": "Yicai Global",
+    "title": "Baidu Ventures CEO Kicks Off AI Firm BioMap for Better Diagnoses, Drugs",
+    "publisher": "Yicai Global",
+    "year": 2020,
+    "url": "https://www.yicaiglobal.com/news/baidu-ventures-ceo-kicks-off-ai-firm-biomap-for-better-diagnoses-drugs"
+  },
+  {
+    "id": "dealstreetasia-biomap-100m-series-a",
+    "authors": "DealStreetAsia",
+    "title": "Chinese drug discovery firm BioMap bags $100m Series A led by GGV Capital",
+    "publisher": "DealStreetAsia",
+    "year": 2022,
+    "url": "https://www.dealstreetasia.com/stories/biomap-series-a-ggv-253467"
+  },
+  {
+    "id": "avcj-biomap-100m",
+    "authors": "AVCJ",
+    "title": "China AI drug developer BioMap raises $100m",
+    "publisher": "AVCJ",
+    "year": 2022,
+    "url": "https://www.avcj.com/avcj/news/3024680/china-ai-drug-developer-biomap-raises-usd100m"
+  },
+  {
+    "id": "biomap-sanofi-collab-bw-2023",
+    "authors": "BioMap",
+    "title": "BioMap Establishes a Strategic Collaboration with Sanofi to Co-Develop AI Modules to Accelerate Drug Discovery for Biotherapeutics",
+    "publisher": "BusinessWire",
+    "year": 2023,
+    "url": "https://www.businesswire.com/news/home/20231010485897/en/BioMap-Establishes-a-Strategic-Collaboration-with-Sanofi-to-Co-Develop-AI-Modules-to-Accelerate-Drug-Discovery-for-Biotherapeutics"
+  },
+  {
+    "id": "fiercebiotech-sanofi-biomap-10m",
+    "authors": "Becker, Z.",
+    "title": "Sanofi pays $10M upfront in hope 'biological map of proteins' leads to drug discovery treasure",
+    "publisher": "Fierce Biotech",
+    "year": 2023,
+    "url": "https://www.fiercebiotech.com/biotech/sanofi-pays-10m-hope-biological-map-or-proteins-leads-drug-discovery-treasure"
+  },
+  {
+    "id": "bioworld-biomap-sanofi-1b-deal",
+    "authors": "BioWorld staff",
+    "title": "Biomap, Sanofi strike potential $1B+ deal to co-map AI drug discovery modules",
+    "publisher": "BioWorld",
+    "year": 2023,
+    "url": "https://www.bioworld.com/articles/701822-biomap-sanofi-strike-potential-1b-deal-to-co-map-ai-drug-discovery-modules"
+  },
+  {
+    "id": "biomap-xtrimo-100b-leaderboard-2023",
+    "authors": "BioMap",
+    "title": "BioMap unveils a 'Life Science Leaderboard' to compare AI models and reveals the advanced capabilities of its 100B-scale 'xTrimo' model",
+    "publisher": "PharmiWeb",
+    "year": 2023,
+    "url": "https://www.pharmiweb.com/press-release/2023-07-25/biomap-unveils-a-life-science-leaderboard-to-compare-ai-models-and-reveals-the-advanced-capabiliti"
+  },
+  {
+    "id": "geneonline-biomap-xtrimo-gtc-2025",
+    "authors": "GeneOnline staff",
+    "title": "NVIDIA GTC 2025: BioMap's xTrimo — The AI Model That's Changing Biotech and Drug Discovery",
+    "publisher": "GeneOnline News",
+    "year": 2025,
+    "url": "https://www.geneonline.com/nvidia-gtc-2025-biomaps-xtrimo-the-ai-model-thats-changing-biotech-and-drug-discovery/"
+  },
+  {
+    "id": "bloomberg-biomap-hk-ipo-confidential-2026",
+    "authors": "Bloomberg",
+    "title": "Baidu-Backed BioMap Is Said to Confidentially File for HK IPO",
+    "publisher": "Bloomberg",
+    "year": 2026,
+    "url": "https://www.bloomberg.com/news/articles/2026-03-16/baidu-backed-biomap-is-said-to-confidentially-file-for-hk-ipo"
+  },
+  {
+    "id": "thenational-biomap-abu-dhabi-2023",
+    "authors": "The National",
+    "title": "Why the co-founder of Baidu is bringing his life sciences start-up to Abu Dhabi",
+    "publisher": "The National",
+    "year": 2023,
+    "url": "https://www.thenationalnews.com/business/2023/03/30/why-the-co-founder-of-baidu-is-bringing-his-life-sciences-start-up-to-abu-dhabi/"
+  },
+  {
+    "id": "globaldata-oct-west-coast-2025",
+    "authors": "GlobalData / Outsourcing in Clinical Trials West Coast 2025",
+    "title": "China's clinical trial infrastructure delivers up to 60% cost savings",
+    "publisher": "Clinical Trials Arena",
+    "year": 2025,
+    "url": "https://www.clinicaltrialsarena.com/news/oct-west-coast-chinas-clinical-trial-infrastructure-delivers-upto-60-cost-savings/"
+  },
+  {
+    "id": "iqvia-rethinking-trial-prioritization-2024",
+    "authors": "IQVIA Institute for Human Data Science",
+    "title": "Rethinking Clinical Trial Country Prioritization",
+    "publisher": "IQVIA",
+    "year": 2024,
+    "url": "https://www.iqvia.com/insights/the-iqvia-institute/reports-and-publications/reports/rethinking-clinical-trial-country-prioritization"
   }
 ]

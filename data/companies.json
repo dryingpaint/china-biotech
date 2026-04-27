@@ -4664,5 +4664,106 @@
         "status": "phase2"
       }
     ]
+  },
+  {
+    "id": "biomap",
+    "name": "BioMap",
+    "nameZh": "百图生科",
+    "founded": 2020,
+    "headquarters": "Beijing",
+    "founders": "Robin Li (Yanhong Li), Liu Wei",
+    "category": "platform",
+    "subcategory": "AI drug discovery platform",
+    "shortDescription": "AI-first life-science platform spun out of Baidu in 2020 by Robin Li and ex-Baidu Ventures CEO Liu Wei; built xTrimo, a ~210B-parameter cross-modal foundation model for proteins, DNA, RNA, cells, and biological systems, and inked a potential $1B+ Sanofi collaboration in 2023.",
+    "signature": "xTrimo cross-modal life-science foundation model",
+    "narrativeHook": "BioMap is what happens when a Chinese internet billionaire decides AI biology is the next platform race. Robin Li seeded it from Baidu's CEO seat, hired Baidu Ventures' Liu Wei to run it, and pointed it at protein foundation models at a scale none of the Chinese AI biotech peers could match (~210B params by 2025), turning a $100M Series A into a $1B+ Sanofi deal and a confidential Hong Kong IPO filing inside five years.",
+    "verified": true,
+    "lastVerified": "2026-04-26",
+    "today": {
+      "asOf": "2026-04",
+      "approvedDrugCount": 0,
+      "leadAsset": {
+        "name": "xTrimo",
+        "mechanism": "Cross-modal life-science foundation model (~210B parameters) covering DNA, RNA, protein, cells, biological text, and biological systems; SOTA on 25+ downstream protein-design tasks",
+        "indication": "AI-driven biologic drug discovery (target ID, antibody and protein design); used internally and in partner pipelines",
+        "status": "100B-parameter version disclosed July 2023; ~210B-parameter cross-modal model presented at NVIDIA GTC 2025; underpins Sanofi co-development modules and BioMap's own 'ImmuBot' biologic-design pipeline"
+      },
+      "biggestDeal": {
+        "partner": "Sanofi",
+        "type": "collaboration",
+        "year": 2023,
+        "valueBillions": 1.0
+      }
+    },
+    "timeline": [
+      {
+        "chapterId": "first-american-approvals",
+        "status": "Founded September 25, 2020 in Beijing as a Baidu spinout, with Baidu founder Robin Li as chairman and Baidu Ventures CEO Liu Wei stepping out to serve as co-founder and CEO; framed at launch as an 'AI for life sciences' platform combining venture capital, IP, and biocomputing infrastructure",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Platform R&D",
+        "note": "Registered August 24, 2020 with RMB 1M of seed capital; formal launch September 25, 2020"
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "First external financing closed July 2021; central laboratory in Beijing inaugurated September 2022 with the launch of the 'ImmuBot' immune-design platform; ~US$100M Series A led by GGV Capital with Baidu, Legend Capital, BlueRun Ventures, Verity Ventures, and Xianghe Capital announced 2022",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Platform commercialization",
+        "note": "GGV-led round was one of the largest Series A rounds for a Chinese AI-biotech firm to that point; valuation undisclosed"
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Sanofi strategic collaboration announced October 10, 2023, US$10M upfront with R&D and sales milestones bringing total potential value to over US$1B for AI modules supporting Sanofi biologic drug discovery; xTrimo unveiled in July 2023 as a 100B-parameter cross-modal life-science model with public 'Life Science Leaderboard'; Abu Dhabi expansion announced March 2023 (G42-adjacent)",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Partner-pipeline contributing",
+        "note": "Sanofi deal made BioMap one of the few Chinese AI-biotech platforms with a top-tier multinational anchor partner"
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "xTrimo presented at NVIDIA GTC 2025 with ~210B parameters and seven modalities (DNA, RNA, protein, cells, biological text, biological systems); Hong Kong Investment Corporation (HKIC) joined the cap table in 2025; confidential Hong Kong IPO filing reported March 2026 with CICC, Morgan Stanley, and UBS as joint sponsors, targeting a raise in the several-hundred-million-USD range",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Pre-IPO; partner-pipeline contributing",
+        "note": "Filing pitches BioMap as the 'AI infrastructure' play in the Chinese biotech IPO cohort, distinct from drug-developer comps; xTrimo's multimodality positions it against AlphaFold and Boltz peers but trained on private wet-lab data"
+      }
+    ],
+    "milestones": [
+      {
+        "year": 2020,
+        "label": "Founded by Robin Li and Liu Wei in Beijing as a Baidu spinout (September)"
+      },
+      {
+        "year": 2022,
+        "label": "$100M Series A led by GGV Capital; central laboratory and ImmuBot platform launched"
+      },
+      {
+        "year": 2023,
+        "label": "Sanofi $1B+ AI drug-discovery collaboration ($10M upfront); xTrimo 100B-parameter model unveiled"
+      },
+      {
+        "year": 2025,
+        "label": "xTrimo scales to ~210B parameters and seven modalities (NVIDIA GTC); HKIC joins cap table"
+      },
+      {
+        "year": 2026,
+        "label": "Confidential Hong Kong IPO filing (CICC / Morgan Stanley / UBS)"
+      }
+    ],
+    "sources": [
+      "pandaily-biomap-founding-2020",
+      "yicai-biomap-baidu-ventures-launch",
+      "dealstreetasia-biomap-100m-series-a",
+      "avcj-biomap-100m",
+      "biomap-sanofi-collab-bw-2023",
+      "fiercebiotech-sanofi-biomap-10m",
+      "bioworld-biomap-sanofi-1b-deal",
+      "biomap-xtrimo-100b-leaderboard-2023",
+      "geneonline-biomap-xtrimo-gtc-2025",
+      "bloomberg-biomap-hk-ipo-confidential-2026",
+      "thenational-biomap-abu-dhabi-2023"
+    ],
+    "modalities": [],
+    "therapeuticAreas": [
+      "Oncology",
+      "Immunology"
+    ]
   }
 ]
