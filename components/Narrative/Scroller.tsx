@@ -65,39 +65,13 @@ export function ChapterBody({ chapter }: { chapter: Chapter }) {
       if ((type !== "entity" && type !== "reform") || !id) return null;
       return { type, id };
     };
-    const findNote = (target: EventTarget | null): HTMLElement | null => {
-      if (!(target instanceof Element)) return null;
-      return target.closest<HTMLElement>(".note-ref");
-    };
     const handleOver = (e: Event) => {
       const entity = findEntity(e.target);
       if (entity) setHighlight(entity);
-      const note = findNote(e.target);
-      if (note) {
-        const text = note.getAttribute("data-tooltip");
-        if (text) {
-          cancelHideNote();
-          setHoveredNote({ rect: note.getBoundingClientRect(), text });
-        }
-      }
     };
     const handleOut = (e: Event) => {
       const entity = findEntity(e.target);
       if (entity) setHighlight(null);
-      const note = findNote(e.target);
-      if (note) scheduleHideNote();
-    };
-    const handleFocusIn = (e: Event) => {
-      const note = findNote(e.target);
-      if (!note) return;
-      const text = note.getAttribute("data-tooltip");
-      if (text) {
-        cancelHideNote();
-        setHoveredNote({ rect: note.getBoundingClientRect(), text });
-      }
-    };
-    const handleFocusOut = (e: Event) => {
-      if (findNote(e.target)) scheduleHideNote();
     };
     const handleClick = (e: Event) => {
       if (!(e.target instanceof Element)) return;
@@ -115,19 +89,42 @@ export function ChapterBody({ chapter }: { chapter: Chapter }) {
         else content.removeAttribute("hidden");
       }
     };
+
+    // Attach mouseenter/mouseleave directly to each note-ref. These don't
+    // bubble but fire reliably without the edge cases of mouseover/mouseout
+    // delegation through dangerouslySetInnerHTML content.
+    const noteRefs = root.querySelectorAll<HTMLElement>(".note-ref");
+    const noteCleanups: Array<() => void> = [];
+    noteRefs.forEach((note) => {
+      const text = note.getAttribute("data-tooltip");
+      if (!text) return;
+      const onEnter = () => {
+        cancelHideNote();
+        setHoveredNote({ rect: note.getBoundingClientRect(), text });
+      };
+      const onLeave = () => scheduleHideNote();
+      note.addEventListener("mouseenter", onEnter);
+      note.addEventListener("mouseleave", onLeave);
+      note.addEventListener("focus", onEnter);
+      note.addEventListener("blur", onLeave);
+      noteCleanups.push(() => {
+        note.removeEventListener("mouseenter", onEnter);
+        note.removeEventListener("mouseleave", onLeave);
+        note.removeEventListener("focus", onEnter);
+        note.removeEventListener("blur", onLeave);
+      });
+    });
+
     root.addEventListener("mouseover", handleOver);
     root.addEventListener("mouseout", handleOut);
-    root.addEventListener("focusin", handleFocusIn);
-    root.addEventListener("focusout", handleFocusOut);
     root.addEventListener("click", handleClick);
     return () => {
       root.removeEventListener("mouseover", handleOver);
       root.removeEventListener("mouseout", handleOut);
-      root.removeEventListener("focusin", handleFocusIn);
-      root.removeEventListener("focusout", handleFocusOut);
       root.removeEventListener("click", handleClick);
+      noteCleanups.forEach((c) => c());
     };
-  }, [setHighlight]);
+  }, [setHighlight, chapter.body]);
 
   return (
     <div className="prose-narrative space-y-5 text-[18px] leading-[1.7]">
