@@ -110,39 +110,33 @@ export function ChapterBody({ chapter }: { chapter: Chapter }) {
       }
     };
 
-    // Direct mouseenter/mouseleave on each note-ref. No grace period, instant
-    // dismiss on leave. Tooltip is non-interactive (pointer-events: none) so
-    // the cursor moving over it can never keep it alive.
-    const noteRefs = root.querySelectorAll<HTMLElement>(".note-ref");
-    const noteCleanups: Array<() => void> = [];
-    noteRefs.forEach((note) => {
-      const text = note.getAttribute("data-tooltip");
-      if (!text) return;
-      const onEnter = () =>
-        setHoveredNote({ rect: note.getBoundingClientRect(), text });
-      const onLeave = () => setHoveredNote(null);
-      note.addEventListener("mouseenter", onEnter);
-      note.addEventListener("mouseleave", onLeave);
-      note.addEventListener("focus", onEnter);
-      note.addEventListener("blur", onLeave);
-      noteCleanups.push(() => {
-        note.removeEventListener("mouseenter", onEnter);
-        note.removeEventListener("mouseleave", onLeave);
-        note.removeEventListener("focus", onEnter);
-        note.removeEventListener("blur", onLeave);
-      });
-    });
+    // Document-level mouseover decides on every element-transition whether
+    // the cursor is over a .note-ref. Non-note transitions explicitly clear
+    // the tooltip — there's no per-marker state to get stuck.
+    const onDocMouseOver = (e: MouseEvent) => {
+      if (!(e.target instanceof Element)) return;
+      const note = e.target.closest<HTMLElement>(".note-ref");
+      if (note) {
+        const text = note.getAttribute("data-tooltip");
+        if (text) {
+          setHoveredNote({ rect: note.getBoundingClientRect(), text });
+          return;
+        }
+      }
+      setHoveredNote(null);
+    };
 
     root.addEventListener("mouseover", handleOver);
     root.addEventListener("mouseout", handleOut);
     root.addEventListener("click", handleClick);
+    document.addEventListener("mouseover", onDocMouseOver);
     return () => {
       root.removeEventListener("mouseover", handleOver);
       root.removeEventListener("mouseout", handleOut);
       root.removeEventListener("click", handleClick);
-      noteCleanups.forEach((c) => c());
+      document.removeEventListener("mouseover", onDocMouseOver);
     };
-  }, [setHighlight, chapter.body]);
+  }, [setHighlight]);
 
   return (
     <div className="prose-narrative space-y-5 text-[18px] leading-[1.7]">
