@@ -4478,5 +4478,134 @@
         "status": "phase3"
       }
     ]
+  },
+  {
+    "id": "mgi-tech",
+    "name": "MGI Tech",
+    "nameZh": "深圳华大智造科技股份有限公司",
+    "founded": 2016,
+    "headquarters": "Shenzhen",
+    "founders": "Wang Jian (BGI Group)",
+    "category": "platform",
+    "subcategory": "Genomics infrastructure",
+    "shortDescription": "BGI's sequencing-instrument arm, spun out in 2016 and STAR-listed in 2022; the only non-Western company shipping clinical NGS instruments at scale, and a recurring named target in US biosecurity legislation.",
+    "signature": "DNBSEQ instrument line (T7+, T20, T1+, G99, E25)",
+    "narrativeHook": "MGI Tech is what happened when Beijing Genomics Institute decided not to keep buying Illumina forever, bought Complete Genomics out of bankruptcy in 2013, spun the IP into its own company in 2016, and used the resulting DNBSEQ line to capture ~70% of Chinese sequencer tenders by 2025 — landing on the Pentagon's 1260H list and the BIOSECURE Act in the process.",
+    "verified": true,
+    "lastVerified": "2026-04-26",
+    "today": {
+      "asOf": "2026-04",
+      "marketCapBillions": 4.05,
+      "revenueBillions": 0.39,
+      "revenueYear": 2025,
+      "approvedDrugCount": 0,
+      "listings": [
+        "SSE STAR: 688114"
+      ],
+      "leadAsset": {
+        "name": "DNBSEQ-T7+ / DNBSEQ-T20 / DNBSEQ-T1+",
+        "mechanism": "DNA-nanoball (DNB) sequencing-by-synthesis (Complete Genomics IP)",
+        "indication": "Clinical and research genomics; population sequencing; oncology and reproductive testing",
+        "status": "Roughly 70% domestic market share in China for sequencer tenders by 2025; T20 reads ~50,000 human genomes per year at ~$100/genome; T1+ launched March 2025; E25 cleared by NMPA and entered Europe and Latin America in 2025"
+      },
+      "biggestDeal": {
+        "partner": "Illumina",
+        "type": "license-in",
+        "year": 2022,
+        "valueBillions": 0.325
+      }
+    },
+    "timeline": [
+      {
+        "chapterId": "bi-jingquan-bigbang",
+        "status": "Established 13 April 2016 in Shenzhen as a wholly owned BGI subsidiary to commercialize the DNB sequencing IP that BGI had acquired with Complete Genomics in 2013, and to break China's dependence on Illumina HiSeq instruments",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Instrument R&D",
+        "note": "BGI chairman Wang Jian retained chairmanship; the spinoff separated instrument economics from the BGI Genomics services business"
+      },
+      {
+        "chapterId": "harmonisation-and-hong-kong",
+        "status": "Complete Genomics formally transferred from BGI Group to MGI Tech in 2018, putting San Jose-based DNB IP and US R&D headcount under MGI; first DNBSEQ-G400 deployments scaling outside China",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Commercial scale-up",
+        "note": "Set up a dual operating footprint that became central to the later Illumina patent fight"
+      },
+      {
+        "chapterId": "first-american-approvals",
+        "status": "May 2020 Series B raise of ~US$1B at a ~US$3B valuation, one of the largest private genomics rounds globally; IPO application submitted to the Shanghai STAR Market in December 2020",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Pre-IPO",
+        "note": "COVID-19 sequencing demand validated the instrument economics and pulled forward the public-listing path"
+      },
+      {
+        "chapterId": "procurement-and-value",
+        "status": "STAR Market IPO on 9 September 2022 (688114.SH) raised RMB ~3.60B (~US$521M) at RMB 87.18/share; July 2022 settlement with Illumina ended multi-front US patent litigation, with Illumina paying US$325M to Complete Genomics and granting MGI a clear path to sell DNBSEQ products in the US after January 2023",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Public + global rollout",
+        "listings": [
+          "SSE STAR: 688114"
+        ],
+        "note": "May 2022 jury verdict separately awarded $333.8M to MGI's Complete Genomics on a two-channel sequencing patent claim against Illumina, before the global settlement subsumed it"
+      },
+      {
+        "chapterId": "going-global",
+        "status": "Stock lost more than a third of its market value through 2024 as the BIOSECURE Act named MGI alongside BGI, MGI's affiliates and WuXi as 'biotechnology companies of concern'; opened Brazil and Latin America commercial operations and continued international DNBSEQ-T7+ rollout",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Public",
+        "listings": [
+          "SSE STAR: 688114"
+        ],
+        "note": "FY2024 revenue ~RMB 2.59B with continuing net loss; pivot from China-only to a 'sovereign-genomics' export pitch in markets uncomfortable depending on Illumina"
+      },
+      {
+        "chapterId": "frontier-era",
+        "status": "MGI and BGI placed on the 2025 Pentagon 1260H list of Chinese military companies; BIOSECURE Act signed into law on 17 December 2025 with MGI captured via the 1260H route. FY2025 revenue RMB 2.78B (+~7% YoY), domestic share ~70%, net loss narrowed by over 60% YoY; T1+ launched March 2025 with rapid installation growth, T7+ improved on cost and quality, E25 received NMPA clearance and entered EU and Latin American markets",
+        "approvedDrugCount": 0,
+        "pipelineStage": "Public; sanctions-exposed",
+        "listings": [
+          "SSE STAR: 688114"
+        ],
+        "note": "Market cap ~US$4B as of late 2025; Complete Genomics, the US subsidiary, was not added to the 2025 1260H list, preserving a partial US commercial channel"
+      }
+    ],
+    "milestones": [
+      {
+        "year": 2016,
+        "label": "Founded as a BGI subsidiary in Shenzhen (April 13)"
+      },
+      {
+        "year": 2018,
+        "label": "Complete Genomics transferred from BGI Group to MGI Tech, anchoring US R&D and DNB IP"
+      },
+      {
+        "year": 2020,
+        "label": "$1B Series B financing (May)"
+      },
+      {
+        "year": 2022,
+        "label": "STAR Market IPO (688114) raises ~RMB 3.6B; Illumina settles for $325M to Complete Genomics, ending US patent litigation"
+      },
+      {
+        "year": 2024,
+        "label": "Named in BIOSECURE Act bill text alongside BGI; market cap falls more than a third"
+      },
+      {
+        "year": 2025,
+        "label": "Added to Pentagon 1260H list (Chinese military companies); BIOSECURE Act signed into law"
+      }
+    ],
+    "sources": [
+      "mgi-tech-wikipedia",
+      "marketscreener-mgi-ipo-3-6b-2022",
+      "mgi-tech-2025-earnings-flash",
+      "mgi-tech-2024-annual-marketscreener",
+      "genomeweb-illumina-bgi-325m-settlement-2022",
+      "genomeweb-mgi-jury-verdict-333m-2022",
+      "kharon-bgi-mgi-pla-ties",
+      "freshfields-biosecure-2025-version",
+      "globalventuring-mgi-1b-series-b-2020",
+      "stockanalysis-mgi-tech-688114"
+    ],
+    "modalities": []
   }
 ]
