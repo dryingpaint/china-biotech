@@ -59,11 +59,6 @@ export default function StackedBar<K extends string>({
         <div className="flex flex-wrap gap-x-3 gap-y-1 text-[10px] tracking-wider text-[--color-muted]">
           {slices.map((s) => (
             <span key={s.key} className="inline-flex items-center gap-1">
-              <span
-                aria-hidden
-                className="inline-block h-2 w-2 rounded-sm"
-                style={{ backgroundColor: s.color }}
-              />
               <span className="uppercase">{s.label}</span>
               <span className="num text-[--color-fg]">
                 {share[s.key]}

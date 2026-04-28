@@ -240,6 +240,8 @@ export type ChapterMetrics = {
   pipelineRegionShare?: RegionShare;
   outLicensingRegionShare?: RegionShare;
   primaryMarketRegionShare?: RegionShare;
+  nmesPerBnRd?: number;
+  nmesPerBnRdByRegion?: RegionShare;
 };
 
 export type Chapter = {
