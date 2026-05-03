@@ -244,11 +244,31 @@ export type ChapterMetrics = {
   nmesPerBnRdByRegion?: RegionShare;
 };
 
+export type InlineChartSeries = {
+  label: string;
+  color?: string;
+  values: number[];
+};
+
+export type InlineChart = {
+  id: string;
+  type: "line" | "bar";
+  title: string;
+  caption?: string;
+  series: InlineChartSeries[];
+  xLabels: string[];
+  yLabel?: string;
+  source?: string; // citation id
+};
+
 export type Chapter = {
   id: string;
   title: string;
   date: string;
   body: string;
+  shift?: string;
+  outcomes?: string[];
+  inlineCharts?: InlineChart[];
   metrics: ChapterMetrics;
   activeEntityIds: string[];
   activeReformIds: string[];

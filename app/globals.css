@@ -85,6 +85,127 @@ body {
     color: var(--color-accent);
   }
 
+  .metric-ref {
+    display: inline-block;
+    margin-left: 0.25em;
+    padding: 0 0.35em;
+    border: 1px solid var(--color-rule);
+    border-radius: 2px;
+    font-size: 0.72em;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--color-muted);
+    text-transform: uppercase;
+    vertical-align: 0.1em;
+    transition: color 0.15s ease, border-color 0.15s ease;
+  }
+
+  .metric-ref:hover {
+    color: var(--color-accent);
+    border-color: var(--color-accent);
+  }
+
+  .shift-outcomes-label {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+  }
+
+  .shift-outcomes ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .inline-chart {
+    margin: 1.75rem 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+  }
+
+  .inline-chart-title {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--color-muted);
+    margin-bottom: 0.5rem;
+  }
+
+  .inline-chart-svg {
+    display: block;
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+  }
+
+  .inline-chart-tick {
+    font-size: 10px;
+    fill: var(--color-muted);
+    font-family: var(--font-mono), ui-monospace, monospace;
+  }
+
+  .inline-chart-axis-label {
+    font-size: 9px;
+    fill: var(--color-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  .inline-chart-footer {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-top: 0.35rem;
+  }
+
+  .inline-chart-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    font-size: 11px;
+    color: var(--color-muted);
+  }
+
+  .inline-chart-legend-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+
+  .inline-chart-swatch {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 1px;
+  }
+
+  .inline-chart-source {
+    font-size: 10px;
+    font-family: var(--font-mono), ui-monospace, monospace;
+    color: var(--color-accent);
+    text-decoration: none;
+  }
+
+  .inline-chart-source:hover {
+    text-decoration: underline;
+  }
+
+  .inline-chart-caption {
+    font-size: 11px;
+    line-height: 1.45;
+    color: var(--color-muted);
+    margin-top: 0.5rem;
+    font-style: italic;
+  }
+
+  .prose-narrative p + p {
+    margin-top: 1.5rem;
+  }
+
   .prose-narrative h3 {
     font-family: var(--font-serif), Georgia, serif;
     font-size: 1.35rem;
@@ -145,4 +266,16 @@ body {
   .deepdive-content > p + p {
     margin-top: 0.85em;
   }
+}
+
+/* Outside @layer so Tailwind v4's source scanner does not tree-shake the
+   blockquote element selector (blockquote elements are emitted via
+   dangerouslySetInnerHTML and never appear in TSX source for the scanner). */
+.prose-narrative blockquote {
+  margin: 1rem 0;
+  padding: 0.4rem 0 0.4rem 1.1rem;
+  border-left: 3px solid var(--color-accent);
+  color: var(--color-fg);
+  font-style: italic;
+  font-family: var(--font-serif), Georgia, serif;
 }

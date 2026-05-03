@@ -720,6 +720,46 @@
     "url": "https://www.yicaiglobal.com/news/chinas-wuxi-apptec-to-sell-cell-gene-therapy-units-to-altaris"
   },
   {
+    "id": "yicai-hengrui-sun-piaoyang-2024",
+    "authors": "Yicai Global",
+    "title": "How Sun Piaoyang Built Hengrui Medicine from a Small State-Owned Factory",
+    "publisher": "Yicai Global",
+    "year": 2024,
+    "url": "https://www.yicaiglobal.com/star50news/2024_12_216773015601775378440"
+  },
+  {
+    "id": "hurun-china-rich-list-2025-hengrui-hansoh",
+    "authors": "Hurun Research Institute",
+    "title": "Hurun China Rich List 2025",
+    "publisher": "Hurun Report",
+    "year": 2025,
+    "url": "https://www.hurun.net/en-US/Info/Detail?num=4IUOJSIJ87JN"
+  },
+  {
+    "id": "big-20th-anniversary-2024",
+    "authors": "Beijing Institute of Genomics, Chinese Academy of Sciences",
+    "title": "Toward A New Paradigm of Genomics Research: Celebration of the 20th Anniversary of Beijing Institute of Genomics",
+    "publisher": "Genomics, Proteomics & Bioinformatics (PMC)",
+    "year": 2024,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10928370/"
+  },
+  {
+    "id": "scmp-bi-jingquan-expelled-2025",
+    "authors": "South China Morning Post",
+    "title": "Former chief of China's food and drug watchdog ousted from Communist Party",
+    "publisher": "South China Morning Post",
+    "year": 2025,
+    "url": "https://www.scmp.com/news/china/politics/article/3335712/former-chief-chinas-food-and-drug-watchdog-ousted-communist-party"
+  },
+  {
+    "id": "petrieflom-china-drug-reform-2015",
+    "authors": "Petrie-Flom Center, Harvard Law School",
+    "title": "China to Reform Review and Approval Process for Drugs and Medical Devices",
+    "publisher": "Bill of Health (Harvard Law School)",
+    "year": 2015,
+    "url": "https://petrieflom.law.harvard.edu/2015/10/26/china-to-reform-review-and-approval-process-for-drugs-and-medical-devices/"
+  },
+  {
     "id": "nmpa-82-innovative-2024",
     "authors": "National Medical Products Administration",
     "title": "China's quantity and quality of innovative drugs joins global lead",
@@ -1446,6 +1486,14 @@
     "publisher": "Caixin Global",
     "year": 2025,
     "url": "https://www.caixinglobal.com/2025-07-23/in-depth-sinovacs-covid-fortune-fuels-bitter-boardroom-battle-102344297.html"
+  },
+  {
+    "id": "caixin-cde-drug-review-revamp-2019",
+    "authors": "Caixin Global",
+    "title": "In Depth: Why China's Drug-Review Revamp Is Stalling",
+    "publisher": "Caixin Global",
+    "year": 2019,
+    "url": "https://www.caixinglobal.com/2019-06-10/in-depth-why-chinas-drug-review-revamp-is-stalling-101424807.html"
   },
   {
     "id": "sinovac-bw-sinovac-announces-record-and-distributio",
@@ -7910,5 +7958,61 @@
     "publisher": "Hong Kong Exchanges and Clearing (HKEX)",
     "year": 2025,
     "url": "https://www.hkexgroup.com/Media-Centre/Insight/Insight/2025/Brian-Roberts/Accessing-China-Biotech-Breakthrough-via-HKEX-Product-Ecosystem?sc_lang=en"
+  },
+  {
+    "id": "cset-talent-tracker-2023",
+    "authors": "Weinstein, E.",
+    "title": "Chinese Talent Program Tracker",
+    "publisher": "Center for Security and Emerging Technology, Georgetown University",
+    "year": 2023,
+    "url": "https://chinatalenttracker.cset.tech/"
+  },
+  {
+    "id": "nature-thousand-talents-2018",
+    "authors": "Jia, H.",
+    "title": "China's plan to recruit talented researchers",
+    "publisher": "Nature 553, S8",
+    "year": 2018,
+    "url": "https://www.nature.com/articles/d41586-018-00538-z"
+  },
+  {
+    "id": "wikipedia-thousand-talents-plan",
+    "authors": "Wikipedia contributors",
+    "title": "Thousand Talents Plan",
+    "publisher": "Wikipedia",
+    "year": 2025,
+    "url": "https://en.wikipedia.org/wiki/Thousand_Talents_Plan"
+  },
+  {
+    "id": "science-young-talents-2023",
+    "authors": "Marini, D., Yang, D.",
+    "title": "Has China's Young Thousand Talents program been successful in recruiting and nurturing top-caliber scientists?",
+    "publisher": "Science 379(6627), 62-65",
+    "year": 2023,
+    "url": "https://www.science.org/doi/10.1126/science.abq1218"
+  },
+  {
+    "id": "merck-10k-2024",
+    "authors": "Merck & Co., Inc.",
+    "title": "Form 10-K Annual Report (FY 2024) — Keytruda recorded $29.5B in worldwide sales",
+    "publisher": "U.S. Securities and Exchange Commission",
+    "year": 2025,
+    "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000310158&type=10-K&dateb=&owner=include&count=40"
+  },
+  {
+    "id": "jin-new-china-playbook-2023",
+    "authors": "Jin, K.",
+    "title": "The New China Playbook: Beyond Socialism and Capitalism",
+    "publisher": "Viking",
+    "year": 2023,
+    "url": "https://www.penguinrandomhouse.com/books/671450/the-new-china-playbook-by-keyu-jin/"
+  },
+  {
+    "id": "moe-returnees-annual",
+    "authors": "Ministry of Education of the People's Republic of China",
+    "title": "Annual statistics on study abroad and returnees (年度出国留学和回国人员统计)",
+    "publisher": "Ministry of Education / gov.cn press conferences",
+    "year": 2021,
+    "url": "http://en.moe.gov.cn/news/press_releases/202103/t20210323_522190.html"
   }
 ]

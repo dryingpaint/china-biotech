@@ -5,6 +5,7 @@ import Bibliography from "@/components/Bibliography";
 import chapters from "@/data/chapters.json";
 import site from "@/data/site.json";
 import type { Chapter, SiteContent } from "@/lib/types";
+import { renderBodyWithCitations } from "@/lib/citations";
 
 export default function Home() {
   const siteContent = site as SiteContent;
@@ -42,7 +43,7 @@ function Intro({ html }: { html: string }) {
     <section className="mx-auto max-w-2xl px-6 pb-20">
       <div
         className="prose-narrative space-y-5 text-[18px] leading-[1.7]"
-        dangerouslySetInnerHTML={{ __html: html }}
+        dangerouslySetInnerHTML={{ __html: renderBodyWithCitations(html) }}
       />
     </section>
   );

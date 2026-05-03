@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useNarrative } from "@/lib/narrativeStore";
 import type { ModalityKey } from "@/lib/types";
 import Tooltip from "@/components/Tooltip";
@@ -181,12 +181,42 @@ type Hovered = {
   rungIndex: number; // 1..5
   reached: boolean;
   frontierHere: boolean;
+  fromProse?: boolean;
 };
 
 export default function CapabilityGrid() {
   const progress = useNarrative((s) => s.visibleChapters[s.currentIndex]?.modalityProgress);
   const chapters = useNarrative((s) => s.chapters);
+  const highlightedModality = useNarrative((s) => s.highlightedModality);
   const [hovered, setHovered] = useState<Hovered | null>(null);
+  const tileRefs = useRef<Map<string, HTMLButtonElement>>(new Map());
+
+  useEffect(() => {
+    if (!highlightedModality) {
+      setHovered((prev) => (prev?.fromProse ? null : prev));
+      return;
+    }
+    if (!progress) return;
+    const { key, rung: requestedRung } = highlightedModality;
+    const modality = MODALITIES.find((m) => m.key === key);
+    if (!modality) return;
+    const state = progress[key] ?? { rung: 0 };
+    const rungIndex =
+      requestedRung && requestedRung >= 1 && requestedRung <= 5
+        ? requestedRung
+        : state.rung;
+    if (rungIndex < 1 || rungIndex > 5) return;
+    const el = tileRefs.current.get(`${key}:${rungIndex}`);
+    if (!el) return;
+    setHovered({
+      rect: el.getBoundingClientRect(),
+      modality,
+      rungIndex,
+      reached: state.rung >= rungIndex,
+      frontierHere: !!state.frontier && state.rung === rungIndex,
+      fromProse: true,
+    });
+  }, [highlightedModality, progress]);
 
   if (!progress) return null;
 
@@ -235,10 +265,19 @@ export default function CapabilityGrid() {
                 {[1, 2, 3, 4, 5].map((r) => {
                   const tileReached = state.rung >= r;
                   const frontierHere = !!state.frontier && state.rung === r;
+                  const proseHighlighted =
+                    !!hovered?.fromProse &&
+                    hovered.modality.key === m.key &&
+                    hovered.rungIndex === r;
                   return (
                     <button
                       key={r}
                       type="button"
+                      ref={(el) => {
+                        const k = `${m.key}:${r}`;
+                        if (el) tileRefs.current.set(k, el);
+                        else tileRefs.current.delete(k);
+                      }}
                       aria-label={`${m.label}, rung ${r}: ${m.rungs[r - 1].label}`}
                       onMouseEnter={(e) =>
                         setHovered({
@@ -263,11 +302,14 @@ export default function CapabilityGrid() {
                       onClick={() => {
                         if (tileReached) jumpToFirstChapterAtRung(m.key, r);
                       }}
-                      className="h-2.5 w-2.5 rounded-[2px] transition-colors hover:ring-1 hover:ring-[--color-accent] focus:outline-none focus:ring-1 focus:ring-[--color-accent]"
+                      className="h-2.5 w-2.5 rounded-[2px] transition-shadow hover:ring-1 hover:ring-[--color-accent] focus:outline-none focus:ring-1 focus:ring-[--color-accent]"
                       style={{
                         backgroundColor: tileReached ? "var(--color-accent)" : "transparent",
                         border: `1px solid ${tileReached ? "var(--color-accent)" : "var(--color-rule)"}`,
                         cursor: tileReached ? "pointer" : "default",
+                        boxShadow: proseHighlighted
+                          ? `0 0 6px 2px var(--color-accent)`
+                          : undefined,
                       }}
                     />
                   );

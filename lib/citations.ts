@@ -36,6 +36,16 @@ function processSimpleMarkers(html: string): string {
         return `<span class="entity-ref" data-entity-type="${type}" data-entity-id="${escapeAttr(id)}">${text}</span>`;
       },
     )
+    .replace(
+      /\[\[metric:([a-zA-Z0-9-]+)(?::(\d))?\|([^\]]+)\]\]/g,
+      (_, key, rung, text) => {
+        const rungAttr = rung ? ` data-metric-rung="${rung}"` : "";
+        return `<span class="metric-ref" data-metric-key="${escapeAttr(key)}"${rungAttr}>↗ ${text}</span>`;
+      },
+    )
+    .replace(/\[\[chart:([a-z0-9-]+)\]\]/g, (_, id) => {
+      return `<div class="chart-mount" data-chart-id="${escapeAttr(id)}"></div>`;
+    })
     .replace(/\[\[note:([^\]]+)\]\]/g, (_, text) => {
       const escaped = escapeAttr(text);
       return `<sup class="note-ref" data-tooltip="${escaped}" tabindex="0" aria-label="${escaped}">?</sup>`;

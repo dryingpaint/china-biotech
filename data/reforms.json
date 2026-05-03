@@ -199,7 +199,7 @@
     "documentRef": "CFDA Announcement No. 117 (2015) — known in Chinese as the '722 event' (七二二事件) for the date it was issued",
     "category": "approval",
     "shortDescription": "Gave sponsors of 1,622 pending Chinese drug filings one month to re-audit their trial data, or admit it was faked.",
-    "impact": "1,165 of 1,622 applications were voluntarily withdrawn and 30 rejected (roughly 80% gone), collapsing the NDA backlog from ~22,000 in Sept 2015 to under 3,500 by end-2018.",
+    "impact": "1,165 of 1,622 pending applications with new clinical data were voluntarily withdrawn and 30 rejected (~74% gone). Combined with a CDE reviewer ramp-up (~70 in 2015 to >800 by 2018) and priority review, the broader NDA backlog fell from ~22,000 in Sept 2015 to under 3,500 by end-2018.",
     "keyProvisions": [
       "Sponsors had one month to re-audit trial data on all 1,622 pending applications",
       "Voluntary withdrawal carried no penalty; sponsors who self-reported avoided enforcement",
@@ -213,10 +213,11 @@
       "rfa-china-clinical-trials-80-percent-fake",
       "tencent-news-722-event-2023",
       "ropesgray-china-state-council-44",
-      "pekingnology-bi-jingquan-pharma-evolution"
+      "pekingnology-bi-jingquan-pharma-evolution",
+      "caixin-cde-drug-review-revamp-2019"
     ],
     "verified": true,
-    "lastVerified": "2026-04-25",
+    "lastVerified": "2026-05-03",
     "affectedEntityIds": [
       "hengrui",
       "3sbio",
@@ -1016,6 +1017,38 @@
       "kelun-bio",
       "henlius",
       "3sbio"
+    ]
+  },
+  {
+    "id": "thousand-talents",
+    "name": "Thousand Talents Plan",
+    "nameZh": "海外高层次人才引进计划 (千人计划)",
+    "date": "2008-12",
+    "agency": "Organization Department of the CCP Central Committee",
+    "documentRef": "Zhongban Fa [2008] No. 25 — Opinions on Implementing the Plan to Recruit Overseas High-Level Talent",
+    "category": "approval",
+    "shortDescription": "Cash, lab budgets, and faculty seats to lure overseas-trained Chinese scientists back home.",
+    "impact": "Drove ~7,000 overseas Chinese scientists home by 2017, anchoring the science teams at BeiGene, Innovent, Hengrui, and the broader PD-1 wave.",
+    "keyProvisions": [
+      "Million-yuan signing bonus plus housing and lab-startup funds per recruit",
+      "Tenured faculty seat at a top Chinese university or CAS institute",
+      "Youth track from 2011 added 3,586 mid-career returnees by 2018",
+      "Rebranded as the High-End Foreign Experts Plan in 2019 after US scrutiny"
+    ],
+    "sources": [
+      "cset-talent-tracker-2023",
+      "nature-thousand-talents-2018",
+      "wikipedia-thousand-talents-plan",
+      "science-young-talents-2023"
+    ],
+    "verified": true,
+    "lastVerified": "2026-05-01",
+    "affectedEntityIds": [
+      "beigene",
+      "innovent",
+      "junshi",
+      "hengrui",
+      "bgi"
     ]
   }
 ]

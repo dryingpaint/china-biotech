@@ -21,6 +21,10 @@ export default function ChapterEditor({ chapter, onChange, onFocus }: Props) {
     chapter.date,
     (v) => onChange({ date: v }),
   );
+  const shiftProps = useEditable<HTMLParagraphElement>(
+    chapter.shift ?? "",
+    (v) => onChange({ shift: v }),
+  );
 
   const insertSectionAtTop = () => {
     const newSection =
@@ -56,6 +60,13 @@ export default function ChapterEditor({ chapter, onChange, onFocus }: Props) {
           {...dateProps}
           className="text-[--color-muted] focus:outline-none focus:ring-2 focus:ring-amber-300/60"
         />
+        <aside className="shift-outcomes my-2 space-y-1 border-y border-[--color-rule] py-4">
+          <div className="shift-outcomes-label">The shift</div>
+          <p
+            {...shiftProps}
+            className="min-h-[1.2em] text-[16px] leading-snug focus:outline-none focus:ring-2 focus:ring-amber-300/60"
+          />
+        </aside>
         <EditableBody
           key={bodyVersion}
           body={chapter.body}

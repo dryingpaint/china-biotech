@@ -1,7 +1,7 @@
 "use client";
 
 import { create } from "zustand";
-import type { Chapter } from "./types";
+import type { Chapter, ModalityKey } from "./types";
 import chaptersData from "@/data/chapters.json";
 
 const allChapters = chaptersData as unknown as Chapter[];
@@ -20,6 +20,13 @@ type NarrativeState = {
   current: () => Chapter | undefined;
   highlightedEntity: EntityRef | null;
   setHighlightedEntity: (e: EntityRef | null) => void;
+  highlightedModality: ModalityHighlight | null;
+  setHighlightedModality: (m: ModalityHighlight | null) => void;
+};
+
+export type ModalityHighlight = {
+  key: ModalityKey;
+  rung: number | null; // 1..5 if explicit; null = use current chapter's reached rung
 };
 
 export const useNarrative = create<NarrativeState>((set, get) => ({
@@ -30,4 +37,6 @@ export const useNarrative = create<NarrativeState>((set, get) => ({
   current: () => get().visibleChapters[get().currentIndex],
   highlightedEntity: null,
   setHighlightedEntity: (e) => set({ highlightedEntity: e }),
+  highlightedModality: null,
+  setHighlightedModality: (m) => set({ highlightedModality: m }),
 }));

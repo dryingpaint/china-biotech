@@ -1,10 +1,52 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { Fragment, useEffect, useRef, useState } from "react";
 import { useNarrative, type EntityRef } from "@/lib/narrativeStore";
 import { renderBodyWithCitations } from "@/lib/citations";
 import Tooltip from "@/components/Tooltip";
-import type { Chapter } from "@/lib/types";
+import InlineChart from "./InlineChart";
+import type { Chapter, InlineChart as InlineChartType, ModalityKey } from "@/lib/types";
+
+const MODALITY_KEYS: readonly ModalityKey[] = [
+  "smallMol",
+  "peptide",
+  "recombinant",
+  "biosimilar",
+  "novelMab",
+  "bispecific",
+  "adc",
+  "vaccine",
+  "cellTherapy",
+  "nucleicAcid",
+  "geneTherapy",
+  "radiopharm",
+];
+const MODALITY_KEY_SET = new Set<string>(MODALITY_KEYS);
+
+const CHART_SPLIT = /(\[\[chart:[a-z0-9-]+\]\])/g;
+const CHART_MATCH = /^\[\[chart:([a-z0-9-]+)\]\]$/;
+
+function renderBodyWithCharts(
+  body: string,
+  charts: InlineChartType[] | undefined,
+) {
+  const chartMap = new Map((charts ?? []).map((c) => [c.id, c]));
+  const segments = body.split(CHART_SPLIT);
+  return segments.map((seg, i) => {
+    const m = seg.match(CHART_MATCH);
+    if (m) {
+      const chart = chartMap.get(m[1]);
+      return chart ? <InlineChart key={`chart-${i}`} chart={chart} /> : null;
+    }
+    if (!seg) return null;
+    return (
+      <div
+        key={`prose-${i}`}
+        dangerouslySetInnerHTML={{ __html: renderBodyWithCitations(seg) }}
+      />
+    );
+  });
+}
 
 const TRIGGER_OFFSET = 0.55; // chapter "active" once its top crosses this fraction of the viewport
 
@@ -91,6 +133,7 @@ export default function Scroller({ chapters: _chapters }: { chapters: Chapter[] 
 
 export function ChapterBody({ chapter }: { chapter: Chapter }) {
   const setHighlight = useNarrative((s) => s.setHighlightedEntity);
+  const setHighlightedModality = useNarrative((s) => s.setHighlightedModality);
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -105,12 +148,26 @@ export function ChapterBody({ chapter }: { chapter: Chapter }) {
       if ((type !== "entity" && type !== "reform") || !id) return null;
       return { type, id };
     };
+    const findModality = (
+      target: EventTarget | null,
+    ): { key: ModalityKey; rung: number | null } | null => {
+      if (!(target instanceof Element)) return null;
+      const el = target.closest<HTMLElement>(".metric-ref[data-metric-key]");
+      const key = el?.getAttribute("data-metric-key");
+      if (!key || !MODALITY_KEY_SET.has(key)) return null;
+      const rungAttr = el?.getAttribute("data-metric-rung");
+      const rung = rungAttr ? parseInt(rungAttr, 10) : null;
+      return { key: key as ModalityKey, rung };
+    };
     const onOver = (e: Event) => {
       const entity = findEntity(e.target);
       if (entity) setHighlight(entity);
+      const modality = findModality(e.target);
+      if (modality) setHighlightedModality(modality);
     };
     const onOut = (e: Event) => {
       if (findEntity(e.target)) setHighlight(null);
+      if (findModality(e.target)) setHighlightedModality(null);
     };
     const onClick = (e: Event) => {
       if (!(e.target instanceof Element)) return;
@@ -138,19 +195,51 @@ export function ChapterBody({ chapter }: { chapter: Chapter }) {
       root.removeEventListener("mouseout", onOut);
       root.removeEventListener("click", onClick);
     };
-  }, [setHighlight]);
+  }, [setHighlight, setHighlightedModality]);
+
+  const hasShiftBlock = !!chapter.shift || (chapter.outcomes?.length ?? 0) > 0;
 
   return (
     <div className="prose-narrative space-y-5 text-[18px] leading-[1.7]">
       <h2 className="mb-2 font-serif text-3xl font-semibold">{chapter.title}</h2>
       <p className="text-[--color-muted]">{chapter.date}</p>
-      <div
-        ref={ref}
-        className="space-y-5"
-        dangerouslySetInnerHTML={{
-          __html: renderBodyWithCitations(chapter.body),
-        }}
-      />
+      <div ref={ref} className="space-y-5">
+        {hasShiftBlock && (
+          <aside className="shift-outcomes my-2 space-y-3 border-y border-[--color-rule] py-4">
+            {chapter.shift && (
+              <div className="space-y-1">
+                <div className="shift-outcomes-label">The shift</div>
+                <p
+                  className="text-[16px] leading-snug"
+                  dangerouslySetInnerHTML={{
+                    __html: renderBodyWithCitations(chapter.shift),
+                  }}
+                />
+              </div>
+            )}
+            {chapter.outcomes && chapter.outcomes.length > 0 && (
+              <div className="space-y-1">
+                <div className="shift-outcomes-label">The outcomes</div>
+                <ul className="space-y-1.5 text-[15px] leading-snug">
+                  {chapter.outcomes.map((o, i) => (
+                    <li key={i} className="flex gap-2">
+                      <span aria-hidden className="select-none text-[--color-accent]">▸</span>
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: renderBodyWithCitations(o),
+                        }}
+                      />
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </aside>
+        )}
+        <Fragment>
+          {renderBodyWithCharts(chapter.body, chapter.inlineCharts)}
+        </Fragment>
+      </div>
     </div>
   );
 }
