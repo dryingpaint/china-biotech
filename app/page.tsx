@@ -9,12 +9,15 @@ import { renderBodyWithCitations } from "@/lib/citations";
 
 export default function Home() {
   const siteContent = site as SiteContent;
+  const visibleChapters = (chapters as unknown as Chapter[]).filter(
+    (c) => !c.hidden,
+  );
   return (
     <main>
       <Hero site={siteContent} />
       {siteContent.intro && <Intro html={siteContent.intro} />}
       <SplitPanel
-        narrative={<Scroller chapters={chapters as unknown as Chapter[]} />}
+        narrative={<Scroller chapters={visibleChapters} />}
         dashboard={<Dashboard />}
       />
       <Bibliography />

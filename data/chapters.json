@@ -1203,7 +1203,8 @@
       "radiopharm": {
         "rung": 0
       }
-    }
+    },
+    "hidden": true
   },
   {
     "id": "fast-follower-trap",
@@ -1370,7 +1371,8 @@
       "radiopharm": {
         "rung": 1
       }
-    }
+    },
+    "hidden": true
   },
   {
     "id": "global-supplier",
@@ -1579,7 +1581,8 @@
       "radiopharm": {
         "rung": 1
       }
-    }
+    },
+    "hidden": true
   },
   {
     "id": "biosecure-decoupling",
@@ -1732,7 +1735,8 @@
       "radiopharm": {
         "rung": 1
       }
-    }
+    },
+    "hidden": true
   },
   {
     "id": "ai-frontier",
@@ -1884,7 +1888,8 @@
       "radiopharm": {
         "rung": 1
       }
-    }
+    },
+    "hidden": true
   },
   {
     "id": "modern-landscape",
@@ -2084,6 +2089,7 @@
       "radiopharm": {
         "rung": 1
       }
-    }
+    },
+    "hidden": true
   }
 ]
