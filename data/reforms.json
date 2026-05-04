@@ -48,7 +48,6 @@
     ],
     "sources": [
       "973-program-wikipedia",
-      "ny-consulate-973-program",
       "baidu-baike-973-program-en",
       "cset-nkrp-launch-2016"
     ],
@@ -103,7 +102,6 @@
       "Co-funded late-stage trials for camrelizumab, sintilimab, and Betta's icotinib"
     ],
     "sources": [
-      "gov-cn-new-drug-megaproject-closing-2021",
       "xinhua-new-drug-megaproject-2018",
       "most-new-drug-megaproject-presser-2019",
       "nature-china-megaprojects-2008"
@@ -139,9 +137,7 @@
     "sources": [
       "zheng-xiaoyu-wikipedia",
       "chinadaily-zheng-xiaoyu-executed",
-      "cen-zheng-xiaoyu-executed-2007",
       "bmj-zheng-xiaoyu-death-sentence-2007",
-      "npr-zheng-xiaoyu-executed-2007",
       "sfdachina-provisions-drug-registration-2007"
     ],
     "verified": true,
@@ -207,12 +203,8 @@
       "Post-deadline fraud: 3-year filing ban, lost trial licenses, public blacklist"
     ],
     "sources": [
-      "lexology-cfda-self-inspection-2015",
-      "pda-storm-clinical-trial-data-china",
-      "fiercepharma-cfda-disputes-80-percent-fake",
       "rfa-china-clinical-trials-80-percent-fake",
       "tencent-news-722-event-2023",
-      "ropesgray-china-state-council-44",
       "pekingnology-bi-jingquan-pharma-evolution",
       "caixin-cde-drug-review-revamp-2019"
     ],
@@ -247,7 +239,6 @@
       "Designations published on a public list, so applicants see what made the cut"
     ],
     "sources": [
-      "ropesgray-china-state-council-44",
       "wang-2019-new-era-drug-innovation-china",
       "biopharmadive-china-drug-friendly-2015",
       "pmc-china-priority-review-access-gap-2025",
@@ -286,9 +277,7 @@
       "Carved out vaccines, narcotics, blood products, and radioactive drugs"
     ],
     "sources": [
-      "ropesgray-mah-pilot-2016",
       "cooley-mah-pilot-2015",
-      "covington-drug-admin-law-2019",
       "diaglobal-mah-implementation-2023",
       "pmc-mah-innovation-impact"
     ],
@@ -327,8 +316,7 @@
       "fda-cfda-ich-membership",
       "ispe-china-ich-alignment-2024",
       "fdli-china-great-wall-2018",
-      "nmpa-ich-mc-reelection-2024",
-      "acurit-china-joins-ich-2017"
+      "nmpa-ich-mc-reelection-2024"
     ],
     "verified": true,
     "lastVerified": "2026-04-25"
@@ -387,10 +375,8 @@
       "Listed winners on Tier B at 10-20% co-pay, reimbursable in every province"
     ],
     "sources": [
-      "uschina-nrdl-healthcare-series",
       "simon-kucher-nrdl-2017",
       "biocentury-nrdl-2017",
-      "eversana-pd1-nrdl-2020",
       "pmc-nrdl-systematic-review-2025",
       "innovent-tyvyt-sintilimab-injection-included-in-t"
     ],
@@ -425,9 +411,7 @@
       "Meaningful pre-IPO investment from a 'Sophisticated Investor'"
     ],
     "sources": [
-      "charltons-chapter-18a",
-      "pharmaboardroom-hk-2021-record",
-      "pharmaboardroom-hk-biotech-2022"
+      "charltons-chapter-18a"
     ],
     "verified": true,
     "lastVerified": "2026-04-25",
@@ -461,7 +445,6 @@
     ],
     "sources": [
       "wikipedia-nhsa",
-      "uschina-nhsa-policy",
       "china-health-pulse-nhsa",
       "chinadaily-nhsa-proposal-2018",
       "npc-observer-2018-state-council-reform",
@@ -502,9 +485,6 @@
       "nmpa-vaccine-administration-law",
       "npcobserver-vaccine-admin-law",
       "scmp-changsheng-delisted",
-      "fiercepharma-changsheng-1-3b",
-      "lancet-changsheng-lessons",
-      "nbr-changsheng-analysis",
       "cmp-changsheng-timeline"
     ],
     "verified": true,
@@ -537,11 +517,8 @@
       "wikipedia-he-jiankui-affair",
       "statnews-he-jiankui-sentenced",
       "mit-tr-he-jiankui-released-2022",
-      "china-org-civil-code-1009",
-      "loc-criminal-law-amendment-11",
       "covington-biosecurity-law",
-      "hastings-china-gene-editing-2022",
-      "tandfonline-he-jiankui-legal-2024"
+      "hastings-china-gene-editing-2022"
     ],
     "verified": true,
     "lastVerified": "2026-04-25",
@@ -567,7 +544,6 @@
       "Launched in 11 cities ('4+7'), went nationwide in 2019, hit insulin by 2021"
     ],
     "sources": [
-      "pharmaboardroom-vbp-4plus7",
       "chinatalk-china-buys-drugs",
       "gov-cn-vbp-pilot-plan",
       "pmc-vbp-access-medicines",
@@ -604,9 +580,7 @@
     ],
     "sources": [
       "nmpa-2018-rename",
-      "pacificbridge-nmpa-profile",
-      "usda-fas-samr-2018",
-      "qualtechs-cfda-nmpa-name-change"
+      "pacificbridge-nmpa-profile"
     ],
     "verified": true,
     "lastVerified": "2026-04-25",
@@ -639,7 +613,6 @@
     "sources": [
       "nmpa-vaccine-administration-law",
       "npcobserver-vaccine-admin-law",
-      "loc-vaccine-law-2019",
       "cms-vaccines-administration-law",
       "covington-vaccine-mfg-distribution-2022",
       "chinadaily-changsheng-fine"
@@ -672,10 +645,7 @@
     ],
     "sources": [
       "covington-hgr-regulation",
-      "gov-cn-hgr-regulation-2019",
-      "chinalawtranslate-hgr-2019",
-      "freshfields-hgr-demystifying",
-      "ropesgray-hgr-2019"
+      "freshfields-hgr-demystifying"
     ],
     "verified": true,
     "lastVerified": "2026-04-25",
@@ -709,9 +679,7 @@
     ],
     "sources": [
       "xinhua-star-market-launch",
-      "sse-star-listing-rules-2019",
       "ey-star-market-ipo-support",
-      "lexology-china-ipo-governing-rules",
       "beigene-star-ipo-closing-2021",
       "sse-fifth-standard-20-listed",
       "caixin-star-fifth-standard-revival-2025"
@@ -745,9 +713,7 @@
     ],
     "sources": [
       "covington-biosecurity-law",
-      "npc-biosecurity-law-text-2020",
       "npc-observer-biosecurity-law",
-      "chinalawtranslate-biosecurity-law",
       "dlapiper-prc-biosecurity-law-2020"
     ],
     "verified": true,
@@ -780,10 +746,8 @@
     ],
     "sources": [
       "nmpa-provisions-drug-registration-2020",
-      "twobirds-china-drug-registration-2020",
       "ppd-china-drug-registration-2020",
-      "frontiers-conditional-approvals-china-2020-2023",
-      "sciencedirect-btd-china-pooled-analysis"
+      "frontiers-conditional-approvals-china-2020-2023"
     ],
     "verified": true,
     "lastVerified": "2026-04-25",
@@ -816,11 +780,7 @@
       "Aimed squarely at the PD-1/PD-L1 and CAR-T pile-up"
     ],
     "sources": [
-      "pharmadj-cde-clinical-value-guidelines",
-      "fiercepharma-china-cde-value-oriented-2021",
-      "tigermed-cde-value-guideline-2021",
-      "sciencedirect-china-anticancer-regulation-2022",
-      "cancer-wiley-china-onc-trials-2024"
+      "pharmadj-cde-clinical-value-guidelines"
     ],
     "verified": true,
     "lastVerified": "2026-04-25",
@@ -963,7 +923,6 @@
     "sources": [
       "lw-biosecure-becomes-law-2025",
       "arnold-porter-biosecure-law-2025",
-      "ropesgray-biosecure-act-enacted",
       "foleyhoag-congress-passes-biosecure-act",
       "sidley-biosecure-fy2026-ndaa-2025",
       "wuxi-altaris-atu-2024",
@@ -1037,9 +996,7 @@
     ],
     "sources": [
       "cset-talent-tracker-2023",
-      "nature-thousand-talents-2018",
-      "wikipedia-thousand-talents-plan",
-      "science-young-talents-2023"
+      "wikipedia-thousand-talents-plan"
     ],
     "verified": true,
     "lastVerified": "2026-05-01",

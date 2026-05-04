@@ -24,22 +24,6 @@
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4875472/"
   },
   {
-    "id": "rockfdn-pumc-flexner-quote",
-    "authors": "The Rockefeller Foundation",
-    "title": "Peking Union Medical College Established by the Foundation",
-    "publisher": "The Rockefeller Foundation (Our History)",
-    "year": 1917,
-    "url": "https://www.rockefellerfoundation.org/history/peking-union-medical-college-established-by-the-foundation-above-opens-its-doors-in-temporary-quarters-to-pre-medical-students-according-to-adviser-simon-flexner-it-was-to-be-the-johns/"
-  },
-  {
-    "id": "bu-rockfdn-china-2021",
-    "authors": "Bu, L.",
-    "title": "Rockefeller Foundation's Global Health and China's Modern Health Development",
-    "publisher": "História Debates e Tendências",
-    "year": 2021,
-    "url": "https://www.redalyc.org/journal/5524/552472317004/html/"
-  },
-  {
     "id": "rockarch-foundation-history",
     "authors": "Rockefeller Archive Center",
     "title": "Evolution of a Foundation: an Institutional History of the Rockefeller Foundation",
@@ -56,36 +40,12 @@
     "url": "https://en.wikipedia.org/wiki/Peking_Union_Medical_College"
   },
   {
-    "id": "infezmed-manchurian-plague",
-    "authors": "Lai, S.-J., Yu, L.-J., Wang, J., Zhou, X.-N., Yang, W.-Z.",
-    "title": "The Manchurian pandemic of pneumonic plague (1910–1911)",
-    "publisher": "Le Infezioni in Medicina (PMC)",
-    "year": 2022,
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9448316/"
-  },
-  {
-    "id": "wu-lien-teh-wikipedia",
-    "authors": "Wikipedia contributors",
-    "title": "Wu Lien-teh",
-    "publisher": "Wikipedia",
-    "year": 2024,
-    "url": "https://en.wikipedia.org/wiki/Wu_Lien-teh"
-  },
-  {
     "id": "wang-yinglai-wikipedia",
     "authors": "Wikipedia contributors",
     "title": "Wang Yinglai",
     "publisher": "Wikipedia",
     "year": 2024,
     "url": "https://en.wikipedia.org/wiki/Wang_Yinglai"
-  },
-  {
-    "id": "tang-feifan-wikipedia",
-    "authors": "Wikipedia contributors",
-    "title": "Tang Feifan",
-    "publisher": "Wikipedia",
-    "year": 2024,
-    "url": "https://en.wikipedia.org/wiki/Tang_Feifan"
   },
   {
     "id": "cas-history-soviet-model",
@@ -104,14 +64,6 @@
     "url": "https://en.wikipedia.org/wiki/Lysenkoism"
   },
   {
-    "id": "alphahistory-lysenko-china",
-    "authors": "Thompson, S.",
-    "title": "Trofim Lysenko",
-    "publisher": "Alpha History — Chinese Revolution",
-    "year": 2019,
-    "url": "https://alphahistory.com/chineserevolution/trofim-lysenko/"
-  },
-  {
     "id": "bcas-insulin-2024",
     "authors": "Bulletin of the Chinese Academy of Sciences",
     "title": "The Legacy of Synthetic Bovine Insulin: A Journey of Dedication, Collaboration and Innovation",
@@ -128,36 +80,12 @@
     "url": "https://en.wikipedia.org/wiki/Synthetic_crystalline_bovine_insulin"
   },
   {
-    "id": "lasker-artemisinin-2011",
-    "authors": "Miller, L. H. & Su, X.",
-    "title": "Artemisinin: discovery from the Chinese herbal garden",
-    "publisher": "Cell (PMC)",
-    "year": 2011,
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3195493/"
-  },
-  {
     "id": "tu-youyou-wikipedia",
     "authors": "Wikipedia contributors",
     "title": "Tu Youyou",
     "publisher": "Wikipedia",
     "year": 2024,
     "url": "https://en.wikipedia.org/wiki/Tu_Youyou"
-  },
-  {
-    "id": "cas-at-70-nature",
-    "authors": "Mallapaty, S.",
-    "title": "The Chinese Academy of Sciences at 70",
-    "publisher": "Nature",
-    "year": 2019,
-    "url": "https://www.nature.com/articles/d41586-019-02950-5"
-  },
-  {
-    "id": "uchicago-cultural-revolution-college",
-    "authors": "Chen, Y., Fan, Z., Gu, X., Zhou, L.-A.",
-    "title": "The Scarring Effects of College Education Deprivation during China's Cultural Revolution",
-    "publisher": "Economic Development and Cultural Change",
-    "year": 2022,
-    "url": "https://www.journals.uchicago.edu/doi/10.1086/713935"
   },
   {
     "id": "national-science-conference-1978",
@@ -192,28 +120,12 @@
     "url": "http://www.chinadaily.com.cn/china/19thcpcnationalcongress/2011-03/03/content_29715053.htm"
   },
   {
-    "id": "torch-program-china",
-    "authors": "China Internet Information Center",
-    "title": "Torch Program Contributes to Chinese Economy",
-    "publisher": "China.org.cn",
-    "year": 2002,
-    "url": "http://www.china.org.cn/english/2002/Aug/39823.htm"
-  },
-  {
     "id": "973-program-wikipedia",
     "authors": "Wikipedia contributors",
     "title": "Program 973",
     "publisher": "Wikipedia",
     "year": 2024,
     "url": "https://en.wikipedia.org/wiki/Program_973"
-  },
-  {
-    "id": "innovation-china-haigui-1994",
-    "authors": "Greeven, M., Yu, H., Yip, G.",
-    "title": "Innovation and China's Global Emergence (Chapter 5)",
-    "publisher": "NUS Press",
-    "year": 2021,
-    "url": "https://epress.nus.edu.sg/innovationandchina/chapterfive/"
   },
   {
     "id": "bgi-history-genomics-cn",
@@ -232,60 +144,12 @@
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5876186/"
   },
   {
-    "id": "wuxi-apptec-wikipedia",
-    "authors": "Wikipedia contributors",
-    "title": "WuXi AppTec",
-    "publisher": "Wikipedia",
-    "year": 2025,
-    "url": "https://en.wikipedia.org/wiki/WuXi_AppTec"
-  },
-  {
-    "id": "ge-li-wikipedia",
-    "authors": "Wikipedia contributors",
-    "title": "Ge Li",
-    "publisher": "Wikipedia",
-    "year": 2025,
-    "url": "https://en.wikipedia.org/wiki/Ge_Li"
-  },
-  {
-    "id": "biobay-suzhou-baike",
-    "authors": "Suzhou Industrial Park",
-    "title": "BioBAY — Suzhou Industrial Park",
-    "publisher": "Baidu Baike (English)",
-    "year": 2023,
-    "url": "https://baike.baidu.com/en/item/BioBAY/72797"
-  },
-  {
-    "id": "bgi-shenzhen-nature-sequence-factory",
-    "authors": "Cyranoski, D.",
-    "title": "Chinese bioscience: The sequence factory",
-    "publisher": "Nature (PMC)",
-    "year": 2010,
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7095434/"
-  },
-  {
-    "id": "illumina-bgi-128-hiseq",
-    "authors": "Illumina, Inc.",
-    "title": "BGI Purchases 128 Illumina HiSeq 2000 Sequencing Systems",
-    "publisher": "Illumina press release",
-    "year": 2010,
-    "url": "https://emea.illumina.com/company/news-center/press-releases/2010/1374343.html"
-  },
-  {
     "id": "beigene-wikipedia",
     "authors": "Wikipedia contributors",
     "title": "BeOne Medicines (formerly BeiGene)",
     "publisher": "Wikipedia",
     "year": 2025,
     "url": "https://en.wikipedia.org/wiki/BeiGene"
-  },
-  {
-    "id": "innovent-adimab-asianscientist",
-    "authors": "Asian Scientist Newsroom",
-    "title": "Adimab Partners Innovent on Monoclonal Antibody Drug Research",
-    "publisher": "Asian Scientist Magazine",
-    "year": 2013,
-    "url": "https://www.asianscientist.com/2013/08/pharma/adimab-innovent-monoclonal-antibody-drug-2013/"
   },
   {
     "id": "innovent-biologics-wikipedia",
@@ -296,36 +160,12 @@
     "url": "https://en.wikipedia.org/wiki/Innovent_Biologics"
   },
   {
-    "id": "hengrui-wikipedia",
-    "authors": "Wikipedia contributors",
-    "title": "Jiangsu Hengrui",
-    "publisher": "Wikipedia",
-    "year": 2025,
-    "url": "https://en.wikipedia.org/wiki/Jiangsu_Hengrui"
-  },
-  {
-    "id": "bgi-complete-genomics-asianscientist",
-    "authors": "Asian Scientist Newsroom",
-    "title": "BGI-Shenzhen Acquires US-Based Complete Genomics For $117M",
-    "publisher": "Asian Scientist Magazine",
-    "year": 2013,
-    "url": "https://www.asianscientist.com/2013/03/pharma/bgi-shenzhen-acquires-us-based-complete-genomics-117m/"
-  },
-  {
     "id": "bi-jingquan-wikipedia",
     "authors": "Wikipedia contributors",
     "title": "Bi Jingquan",
     "publisher": "Wikipedia",
     "year": 2025,
     "url": "https://en.wikipedia.org/wiki/Bi_Jingquan"
-  },
-  {
-    "id": "ropesgray-china-state-council-44",
-    "authors": "Ropes & Gray LLP",
-    "title": "China's State Council Announces Reform on the Drug and Device Approval System",
-    "publisher": "Ropes & Gray Insights",
-    "year": 2015,
-    "url": "https://www.ropesgray.com/en/insights/alerts/2015/08/chinas-state-council-announces-reform-on-the-drug-and-device-approval-system"
   },
   {
     "id": "wang-2019-new-era-drug-innovation-china",
@@ -352,28 +192,12 @@
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5010811/"
   },
   {
-    "id": "cyranoski-2016-first-crispr-human",
-    "authors": "Cyranoski, D.",
-    "title": "CRISPR gene-editing tested in a person for the first time",
-    "publisher": "Nature News",
-    "year": 2016,
-    "url": "https://www.nature.com/articles/nature.2016.20988"
-  },
-  {
     "id": "made-in-china-2025-wikipedia",
     "authors": "Wikipedia contributors",
     "title": "Made in China 2025",
     "publisher": "Wikipedia",
     "year": 2025,
     "url": "https://en.wikipedia.org/wiki/Made_in_China_2025"
-  },
-  {
-    "id": "china-daily-bi-investigation",
-    "authors": "China Daily / Xinhua",
-    "title": "Senior CPPCC official under investigation for suspected violations",
-    "publisher": "China Daily",
-    "year": 2025,
-    "url": "https://global.chinadaily.com.cn/a/202505/29/WS6838678ea310a04af22c24f9.html"
   },
   {
     "id": "fda-cfda-ich-membership",
@@ -400,14 +224,6 @@
     "url": "https://www.charltonslaw.com/hong-kong-law/new-listing-rules-biotech/"
   },
   {
-    "id": "pharmaboardroom-hk-2021-record",
-    "authors": "PharmaBoardroom",
-    "title": "Hong Kong Remained Asia's Largest Biotech Fundraising Hub in 2021",
-    "publisher": "PharmaBoardroom",
-    "year": 2022,
-    "url": "https://pharmaboardroom.com/articles/hkex-remains-asias-largest-biotech-fundraising-hub-in-2021/"
-  },
-  {
     "id": "xinhua-star-market-launch",
     "authors": "Xinhua News Agency",
     "title": "China's sci-tech innovation board starts trading",
@@ -424,28 +240,12 @@
     "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2021.730666/full"
   },
   {
-    "id": "innovent-lilly-tyvyt-press",
-    "authors": "Innovent Biologics / Eli Lilly",
-    "title": "Innovent and Lilly Jointly Announce the China NMPA Approval of TYVYT (sintilimab injection)",
-    "publisher": "PR Newswire",
-    "year": 2018,
-    "url": "https://www.prnewswire.com/news-releases/innovent-and-lilly-jointly-announce-the-china-nmpa-approval-of-tyvyt-sintilimab-injection-301304894.html"
-  },
-  {
     "id": "wikipedia-he-jiankui-affair",
     "authors": "Wikipedia contributors",
     "title": "He Jiankui affair",
     "publisher": "Wikipedia",
     "year": 2019,
     "url": "https://en.wikipedia.org/wiki/He_Jiankui_affair"
-  },
-  {
-    "id": "nyt-he-jiankui-2026",
-    "authors": "The New York Times",
-    "title": "China's Gene-Edited Scientist He Jiankui",
-    "publisher": "The New York Times",
-    "year": 2026,
-    "url": "https://www.nytimes.com/2026/01/13/world/asia/china-gene-edited-scientist-he-jiankui.html"
   },
   {
     "id": "chinadaily-changsheng-fine",
@@ -462,22 +262,6 @@
     "publisher": "Henlius press release",
     "year": 2019,
     "url": "https://www.henlius.com/en/NewsDetails-1867-26.html"
-  },
-  {
-    "id": "fiercepharma-brukinsa-fda-approval",
-    "authors": "Liu, A.",
-    "title": "BeiGene nabs landmark FDA nod for Brukinsa",
-    "publisher": "Fierce Pharma",
-    "year": 2019,
-    "url": "https://www.fiercepharma.com/marketing/beigene-nabs-landmark-fda-nod-for-brukinsa-kicking-off-challenge-against-blockbuster"
-  },
-  {
-    "id": "camrelizumab-first-approval-springer",
-    "authors": "Markham, A. & Keam, S. J.",
-    "title": "Camrelizumab: First Global Approval",
-    "publisher": "Drugs (Springer)",
-    "year": 2019,
-    "url": "https://link.springer.com/article/10.1007/s40265-019-01167-0"
   },
   {
     "id": "beigene-tislelizumab-press-2019",
@@ -504,28 +288,12 @@
     "url": "https://www.cov.com/en/news-and-insights/insights/2019/06/key-takeaways-from-chinas-regulation-on-the-administration-of-human-genetic-resources"
   },
   {
-    "id": "china-org-civil-code-1009",
-    "authors": "China.org.cn",
-    "title": "China's Civil Code introduces regulations on human gene editing",
-    "publisher": "China.org.cn",
-    "year": 2021,
-    "url": "http://www.china.org.cn/china/2021-02/18/content_77223470.htm"
-  },
-  {
     "id": "covington-biosecurity-law",
     "authors": "Covington & Burling LLP",
     "title": "China Enacts Biosecurity Law",
     "publisher": "Covington & Burling LLP",
     "year": 2020,
     "url": "https://www.cov.com/en/news-and-insights/insights/2020/12/china-enacts-biosecurity-law"
-  },
-  {
-    "id": "loc-criminal-law-amendment-11",
-    "authors": "Zhang, L. (Library of Congress)",
-    "title": "China: Multiple Areas of Criminal Law Changing under New Amendment",
-    "publisher": "Library of Congress, Global Legal Monitor",
-    "year": 2021,
-    "url": "https://www.loc.gov/item/global-legal-monitor/2021-02-26/china-multiple-areas-of-criminal-law-changing-under-new-amendment/"
   },
   {
     "id": "nmpa-vaccine-administration-law",
@@ -558,22 +326,6 @@
     "publisher": "South China Morning Post",
     "year": 2021,
     "url": "https://www.scmp.com/news/china/science/article/3147168/coronavirus-indonesia-mexico-approve-late-stage-trials-chinese"
-  },
-  {
-    "id": "nature-biotech-financing-2020",
-    "authors": "Senior, M.",
-    "title": "Financing breaks all records in 2020",
-    "publisher": "Nature Biotechnology",
-    "year": 2021,
-    "url": "https://www.nature.com/articles/s41587-021-00817-7"
-  },
-  {
-    "id": "eversana-pd1-nrdl-2020",
-    "authors": "EVERSANA",
-    "title": "China Publishes Final PD-1 Agreed Prices as NRDL Takes Effect",
-    "publisher": "EVERSANA",
-    "year": 2021,
-    "url": "https://www.eversana.com/2021/03/03/china-publishes-final-pd-1-agreed-prices-as-nrdl-takes-effect/"
   },
   {
     "id": "pharmadj-cde-clinical-value-guidelines",
@@ -622,22 +374,6 @@
     "publisher": "Merck press release",
     "year": 2022,
     "url": "https://www.merck.com/news/merck-and-kelun-biotech-announce-exclusive-license-and-collaboration-agreement-for-seven-investigational-antibody-drug-conjugate-candidates-for-the-treatment-of-cancer/"
-  },
-  {
-    "id": "globaldata-china-licensing-2024",
-    "authors": "Gomes, B. (GlobalData)",
-    "title": "Large pharma drug licensing from China hits high at 28% in 2024",
-    "publisher": "Pharmaceutical Technology",
-    "year": 2025,
-    "url": "https://www.pharmaceutical-technology.com/analyst-comment/large-pharma-drug-licensing-china-2024/"
-  },
-  {
-    "id": "scmp-china-out-licensing-2025",
-    "authors": "South China Morning Post",
-    "title": "Chinese drug makers strike a record US$136 billion in out-licensing deals in 2025",
-    "publisher": "South China Morning Post",
-    "year": 2026,
-    "url": "https://www.scmp.com/business/china-business/article/3339011/chinese-drug-makers-strike-record-us136-billion-out-licensing-deals-2025"
   },
   {
     "id": "akeso-harmoni2-wclc-2024",
@@ -760,14 +496,6 @@
     "url": "https://en.wikipedia.org/wiki/Charles_Li"
   },
   {
-    "id": "hkex-li-blog-debate-2013",
-    "authors": "Charles Li (HKEX)",
-    "title": "Taking the Debate Forward: Should Hong Kong Act on Non-Standard Shareholding Structures?",
-    "publisher": "HKEX Charles Li Direct (blog)",
-    "year": 2013,
-    "url": "https://www.hkex.com.hk/News/News-Release/2013/1310245news?sc_lang=en"
-  },
-  {
     "id": "scmp-alibaba-loss-hk-2014",
     "authors": "South China Morning Post",
     "title": "Pain of Alibaba loss prompts HKEX to examine new measures",
@@ -798,14 +526,6 @@
     "publisher": "NMPA (English)",
     "year": 2024,
     "url": "https://english.nmpa.gov.cn/2024-06/19/c_997349.htm"
-  },
-  {
-    "id": "gabi-h1-2025-china-deals",
-    "authors": "GaBI Online",
-    "title": "More China licence deals for US drug companies",
-    "publisher": "GaBI Online",
-    "year": 2025,
-    "url": "https://www.gabionline.net/reports/more-china-licence-deals-for-us-drug-companies"
   },
   {
     "id": "insilico-rentosertib-press-2025",
@@ -848,14 +568,6 @@
     "url": "https://www.prnewswire.com/apac/news-releases/xtalpi-announces-strategic-collaboration-with-harvard-professor-gregory-verdines-dovetree-llc-to-advance-novel-therapeutics-using-airobotics-drug-discovery-platform-302487822.html"
   },
   {
-    "id": "deepseek-wikipedia",
-    "authors": "Wikipedia contributors",
-    "title": "DeepSeek",
-    "publisher": "Wikipedia",
-    "year": 2026,
-    "url": "https://en.wikipedia.org/wiki/DeepSeek"
-  },
-  {
     "id": "lw-biosecure-becomes-law-2025",
     "authors": "Latham & Watkins LLP",
     "title": "BIOSECURE Act Becomes Law Limiting Grants With Biotechnology Companies of Concern",
@@ -888,60 +600,12 @@
     "url": "https://en.wikipedia.org/wiki/BeOne_Medicines"
   },
   {
-    "id": "cen-wuxi-li-words-2016",
-    "authors": "Tremblay, J.-F.",
-    "title": "In Li's words",
-    "publisher": "Chemical & Engineering News",
-    "year": 2016,
-    "url": "https://cen.acs.org/articles/94/i11/Lis-words.html"
-  },
-  {
-    "id": "ckgsb-bgi-gene-dreams",
-    "authors": "CKGSB Knowledge",
-    "title": "BGI's Gene Dreams",
-    "publisher": "Cheung Kong Graduate School of Business",
-    "year": 2014,
-    "url": "https://english.ckgsb.edu.cn/knowledge/article/bgis-gene-dreams/"
-  },
-  {
-    "id": "globaldata-china-pd1-trials-2020",
-    "authors": "GlobalData",
-    "title": "China pulls ahead in immuno-oncology with highest PD-1/PD-L1 combination clinical trials growth",
-    "publisher": "GlobalData",
-    "year": 2021,
-    "url": "https://www.globaldata.com/media/pharma/china-pulls-ahead-immuno-oncology-highest-pd-1-pd-l1-combination-clinical-trials-growth-reveals-globaldata/"
-  },
-  {
     "id": "cset-nkrp-launch-2016",
     "authors": "Center for Security and Emerging Technology (CSET)",
     "title": "Press Conference on the Launch and Implementation of the National Key R&D Program",
     "publisher": "CSET, Georgetown University",
     "year": 2020,
     "url": "https://cset.georgetown.edu/publication/press-conference-on-the-launch-and-implementation-of-the-national-key-rd-program-summary-transcript/"
-  },
-  {
-    "id": "pharmaboardroom-hk-biotech-2022",
-    "authors": "PharmaBoardroom",
-    "title": "Hong Kong Biotech Listings in 2022 (Chapter 18A)",
-    "publisher": "PharmaBoardroom",
-    "year": 2023,
-    "url": "https://pharmaboardroom.com/articles/2022-hong-kong-listed-biotech-companies"
-  },
-  {
-    "id": "biopharmaapac-china-h1-2025",
-    "authors": "BioPharma APAC / PharmaDJ",
-    "title": "China's Biopharma Dealmaking Surges in H1 2025, Driven by Record Licensing and Oncology Focus",
-    "publisher": "BioPharma APAC",
-    "year": 2025,
-    "url": "https://biopharmaapac.com/report/60/6738/chinas-biopharma-dealmaking-surges-in-h1-2025-driven-by-record-licensing-and-oncology-focus.html"
-  },
-  {
-    "id": "biopharmadive-china-licensing-tracker-2025",
-    "authors": "Gilbert, B. and BioPharma Dive staff",
-    "title": "Drugs from China are reshaping biotech. Track the licensing deals here.",
-    "publisher": "BioPharma Dive",
-    "year": 2025,
-    "url": "https://www.biopharmadive.com/news/china-biotech-drug-licensing-deals-pipeline/758283/"
   },
   {
     "id": "amgen-beigene-collab-2019",
@@ -1006,14 +670,6 @@
     "publisher": "Drugs.com",
     "year": 2025,
     "url": "https://www.drugs.com/history/brukinsa.html"
-  },
-  {
-    "id": "pharmaboardroom-oyler-profile",
-    "authors": "PharmaBoardroom",
-    "title": "In Profile: BeiGene's John Oyler",
-    "publisher": "PharmaBoardroom",
-    "year": 2018,
-    "url": "https://pharmaboardroom.com/articles/ceo-profile-beigenes-john-oyler/"
   },
   {
     "id": "crunchbase-xiaodong-wang",
@@ -1102,14 +758,6 @@
     "publisher": "MarketScreener",
     "year": 2025,
     "url": "https://www.marketscreener.com/quote/stock/MGI-TECH-CO-LTD-148161328/news/MGI-Tech-Co-Ltd-has-completed-an-IPO-in-the-amount-of-CNY-3-602232-billion-44168046/"
-  },
-  {
-    "id": "cmn-venture-backed-bgi-genomics-completes-25",
-    "authors": "China Money Network",
-    "title": "Venture-Backed BGI Genomics Completes $250M IPO On Shenzhen ChiNext",
-    "publisher": "China Money Network",
-    "year": 2017,
-    "url": "https://www.chinamoneynetwork.com/2017/07/14/venture-backed-bgi-genomics-completes-250m-ipo-on-shenzhen-chinext"
   },
   {
     "id": "prnewswire-bgi-shenzhen-completes-acquisition-of-co",
@@ -1232,14 +880,6 @@
     "url": "https://www.fiercepharma.com/manufacturing/astrazeneca-commits-mrna-signs-vaccine-manufacturing-deal-chinas-cansino"
   },
   {
-    "id": "pharmaboardroom-four-things-to-know-about-cansino-biolog",
-    "authors": "PharmaBoardroom",
-    "title": "Four Things to Know about CanSino Biologics",
-    "publisher": "PharmaBoardroom",
-    "year": 2025,
-    "url": "https://pharmaboardroom.com/articles/four-things-to-know-about-cansino-biologics"
-  },
-  {
     "id": "biospace-hengrui-pharma-announces-strong-2025-ann",
     "authors": "BioSpace",
     "title": "Hengrui Pharma Announces Strong 2025 Annual Results",
@@ -1344,36 +984,12 @@
     "url": "https://www.prnewswire.com/news-releases/innovent-announces-2025-annual-results-and-business-updates-302725990.html"
   },
   {
-    "id": "lilly-ir-lilly-announces-complete-response-letter",
-    "authors": "Eli Lilly Investor Relations",
-    "title": "Lilly Announces Complete Response Letter for Sintilimab in Combination with Pemetrexed and Platinum Chemotherapy for the First-Line Treatment of People with Nonsquamous Non-Small Cell Lung Cancer",
-    "publisher": "Eli Lilly Investor Relations",
-    "year": 2025,
-    "url": "https://investor.lilly.com/news-releases/news-release-details/lilly-announces-complete-response-letter-sintilimab-combination"
-  },
-  {
     "id": "innovent-innovent-announces-mazdutide-first-dual",
     "authors": "Innovent",
     "title": "Innovent Announces Mazdutide, First Dual GCG/GLP-1 Receptor Agonist, Received Approval from China's NMPA for Chronic Weight Management",
     "publisher": "Innovent / PR Newswire",
     "year": 2025,
     "url": "https://www.prnewswire.com/news-releases/innovent-announces-mazdutide-first-dual-gcgglp-1-receptor-agonist-received-approval-from-chinas-nmpa-for-chronic-weight-management-302493152.html"
-  },
-  {
-    "id": "fiercebiotech-takeda-pays-innovent-1-2b-upfront-offers",
-    "authors": "FierceBiotech",
-    "title": "Takeda pays Innovent $1.2B upfront, offers whopping $10B-plus in biobucks for cancer assets",
-    "publisher": "FierceBiotech",
-    "year": 2025,
-    "url": "https://www.fiercebiotech.com/biotech/takeda-pays-innovent-12b-upfront-rights-2-cancer-candidates"
-  },
-  {
-    "id": "fiercepharma-eli-lilly-innovent-hit-with-fda-rejectio",
-    "authors": "Fierce Pharma",
-    "title": "Eli Lilly, Innovent hit with FDA rejection for China-developed lung cancer drug after tough review",
-    "publisher": "Fierce Pharma",
-    "year": 2025,
-    "url": "https://www.fiercepharma.com/pharma/lilly-innovent-hit-fda-no-go-discounted-pd-1-immunotherapys-lung-cancer-bid-after-bleak"
   },
   {
     "id": "bioworld-innovent-out-licenses-ex-china-rights-fo",
@@ -1424,14 +1040,6 @@
     "url": "https://www.prnewswire.com/news-releases/chinas-first-domestic-anti-ctla-4-monoclonal-antibody-innovents-tabosun-ipilimumab-n01-injection-received-nmpa-approval-302649444.html"
   },
   {
-    "id": "businesswire-seagen-and-remegen-announce-exclusive-wo",
-    "authors": "BusinessWire",
-    "title": "Seagen and RemeGen Announce Exclusive Worldwide License and Co-Development Agreement for Disitamab Vedotin",
-    "publisher": "BusinessWire",
-    "year": 2021,
-    "url": "https://www.businesswire.com/news/home/20210809005208/en/Seagen-and-RemeGen-Announce-Exclusive-Worldwide-License-and-Co-Development-Agreement-for-Disitamab-Vedotin"
-  },
-  {
     "id": "vorbio-vor-bio-enters-into-exclusive-global-lic",
     "authors": "GlobeNewswire",
     "title": "Vor Bio Enters into Exclusive Global License Agreement with RemeGen for Late-Stage Autoimmune Asset",
@@ -1456,14 +1064,6 @@
     "url": "https://www.davispolk.com/experience/remegen-hk4-billion-hong-kong-ipo"
   },
   {
-    "id": "allsci-pfizer-partner-remegen-takes-4th-china-i",
-    "authors": "AllSci",
-    "title": "Pfizer partner RemeGen takes 4th China indication for HER2-ADC disitamab vedotin, in HER2-low breast cancer",
-    "publisher": "AllSci",
-    "year": 2025,
-    "url": "https://allsci.com/news/pfizer-partner-remegen-takes-4th-china-indication-for-her2-adc-disitamab-vedotin-in-her2-low-breast-cancer/"
-  },
-  {
     "id": "remegen-phase-3-disitamab-vedotin-first-line-uro",
     "authors": "RemeGen",
     "title": "Phase 3 disitamab vedotin first-line urothelial trial meets PFS and OS",
@@ -1472,28 +1072,12 @@
     "url": "https://www.prnewswire.com/news-releases/poised-to-reshape-treatment-landscape-the-phase-3-clinical-trial-of-disitamab-vedotin-as-a-first-line-therapy-for-her2-expressing-locally-advanced-or-metastatic-urothelial-carcinoma-reached-its-primary-endpoints-of-pfs-and-os-302452193.html"
   },
   {
-    "id": "vorbio-vor-bio-announces-publication-of-china-p",
-    "authors": "Vor Bio IR",
-    "title": "Vor Bio Announces Publication of China Phase 3 Study of Telitacicept in SLE in The New England Journal of Medicine",
-    "publisher": "Vor Bio IR",
-    "year": 2025,
-    "url": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-china-phase-3-study-telitacicept"
-  },
-  {
     "id": "globeandmail-remegen-boosts-2025-revenue-as-telitacic",
     "authors": "The Globe and Mail",
     "title": "RemeGen Boosts 2025 Revenue as Telitacicept Wins New Approvals and NRDL Access",
     "publisher": "The Globe and Mail",
     "year": 2025,
     "url": "https://www.theglobeandmail.com/investing/markets/stocks/REGMF/pressreleases/1023609/remegen-boosts-2025-revenue-as-telitacicept-wins-new-approvals-and-nrdl-access/"
-  },
-  {
-    "id": "neurologylive-remegens-telitacicept-approved-for-treat",
-    "authors": "NeurologyLive",
-    "title": "RemeGen's Telitacicept Approved for Treatment of Myasthenia Gravis in China",
-    "publisher": "NeurologyLive",
-    "year": 2025,
-    "url": "https://www.neurologylive.com/view/remegen-telitacicept-approved-treatment-myasthenia-gravis-china"
   },
   {
     "id": "remegen-jianmin-fang",
@@ -1536,36 +1120,12 @@
     "url": "https://www.sinovac.com/en-us/news/SINOVAC-Announces-Record-and-Distribution-Dates-for-Special-Cash-Dividend"
   },
   {
-    "id": "businesswire-federal-court-in-massachusetts-denies-vi",
-    "authors": "BusinessWire",
-    "title": "Federal Court in Massachusetts Denies Vivo Capital's Petition for Relief on SINOVAC",
-    "publisher": "BusinessWire",
-    "year": 2025,
-    "url": "https://www.businesswire.com/news/home/20250706668249/en/Federal-Court-in-Massachusetts-Denies-Vivo-Capitals-Petition-for-Relief-on-SINOVAC"
-  },
-  {
-    "id": "businesswire-sinovac-announces-new-board-pursuant-to",
-    "authors": "BusinessWire",
-    "title": "SINOVAC Announces New Board Pursuant to Privy Council Judgment and Order",
-    "publisher": "BusinessWire",
-    "year": 2025,
-    "url": "https://www.businesswire.com/news/home/20250225390774/en/SINOVAC-Announces-New-Board-Pursuant-to-Privy-Council-Judgment-and-Order"
-  },
-  {
     "id": "sinovac-sinovac-announces-receipt-of-nasdaq-noti",
     "authors": "Yahoo Finance",
     "title": "Sinovac Announces Receipt of Nasdaq Notice of Delisting and Intention to Appeal",
     "publisher": "Yahoo Finance / Sinovac",
     "year": 2025,
     "url": "https://finance.yahoo.com/news/sinovac-announces-receipt-nasdaq-notice-200000772.html"
-  },
-  {
-    "id": "businesswire-sinovac-reports-unaudited-first-half-of",
-    "authors": "BusinessWire",
-    "title": "SINOVAC Reports Unaudited First Half of 2024 Financial Results",
-    "publisher": "BusinessWire",
-    "year": 2024,
-    "url": "https://www.businesswire.com/news/home/20240816207828/en/SINOVAC-Reports-Unaudited-First-Half-of-2024-Financial-Results"
   },
   {
     "id": "nasdaq-nasdaq-halts-sinovac-biotech-ltd",
@@ -1624,14 +1184,6 @@
     "url": "https://officialsite-static.wuxiapptec.com/upload/Bio_Century_How_Wu_Xi_App_Tec_is_battling_the_Biosecure_Act_5f7a85921d.pdf"
   },
   {
-    "id": "ropesgray-biosecure-act-enacted",
-    "authors": "Ropes & Gray LLP",
-    "title": "BIOSECURE Act Enacted",
-    "publisher": "Ropes & Gray LLP",
-    "year": 2026,
-    "url": "https://www.ropesgray.com/en/insights/alerts/2026/01/biosecure-act-enacted"
-  },
-  {
     "id": "statnews-biosecure-act-aimed-at-chinese-drug-manu",
     "authors": "STAT News",
     "title": "BIOSECURE Act, aimed at Chinese drug manufacturers, is dealt a major blow",
@@ -1646,14 +1198,6 @@
     "publisher": "PR Newswire / WuXi AppTec",
     "year": 2025,
     "url": "https://www.prnewswire.com/news-releases/wuxi-apptec-lists-h-shares-on-the-hong-kong-stock-exchange-300764739.html"
-  },
-  {
-    "id": "cen-c-en-profiles-wuxi-apptec-chinese-contra",
-    "authors": "Chemical & Engineering News (ACS)",
-    "title": "C&EN profiles WuXi AppTec, Chinese contract research giant",
-    "publisher": "Chemical & Engineering News (ACS)",
-    "year": 2025,
-    "url": "https://cen.acs.org/articles/94/i11/CEN-profiles-WuXi-AppTec-Chinese.html"
   },
   {
     "id": "companiesmarketcap-wuxi-apptec",
@@ -1672,60 +1216,12 @@
     "url": "https://www.iqvia.com/insights/the-iqvia-institute/reports-and-publications/reports/global-trends-in-r-and-d-2025"
   },
   {
-    "id": "iqvia-rd-blog-2025",
-    "authors": "IQVIA",
-    "title": "Global Trends in R&D 2025: Signs of Higher Efficiency and Productivity",
-    "publisher": "IQVIA Blog",
-    "year": 2025,
-    "url": "https://www.iqvia.com/blogs/2025/06/global-trends-in-r-and-d-2025-signs-of-higher-efficiency-and-productivity"
-  },
-  {
-    "id": "citeline-pharma-rd-2024-via-geneonline",
-    "authors": "GeneOnline staff (citing Citeline Pharma R&D Annual Review 2024)",
-    "title": "Key Trends in the Pharmaceutical Pipeline for 2024 — Part II: U.S. and China Compete for Top Position",
-    "publisher": "GeneOnline News",
-    "year": 2024,
-    "url": "https://www.geneonline.com/key-trends-in-the-pharmaceutical-pipeline-for-2024-part-ii-u-s-and-china-compete-for-top-position-in-the-global-drug-development-landscape/"
-  },
-  {
     "id": "caixin-fic-pipeline-2025",
     "authors": "Caixin Global staff",
     "title": "Analysis: China's Pharma Sector Pivots to 'First-in-Class' Drugs Amid Innovation Push",
     "publisher": "Caixin Global",
     "year": 2025,
     "url": "https://www.caixinglobal.com/2025-09-30/chinas-pharma-sector-pivots-to-first-in-class-drugs-amid-innovation-push-102367790.html"
-  },
-  {
-    "id": "bcg-biopharma-trends-2026",
-    "authors": "Boston Consulting Group",
-    "title": "Reimagining Business Models: Biopharma Trends 2026",
-    "publisher": "BCG",
-    "year": 2026,
-    "url": "https://www.bcg.com/publications/2026/reimagining-business-models-biopharma-trends"
-  },
-  {
-    "id": "stanford-sccei-china-pharma-2025",
-    "authors": "Barwick, P. J., Xia, X., Xia, Y.",
-    "title": "China Is Now a Global Drug Innovation Powerhouse. Industrial Policy Had Little to Do with It.",
-    "publisher": "Stanford Center on China's Economy and Institutions (SCCEI)",
-    "year": 2025,
-    "url": "https://sccei.fsi.stanford.edu/china-briefs/china-now-global-drug-innovation-powerhouse-industrial-policy-had-little-do-it"
-  },
-  {
-    "id": "nature-rdd-china-decade-2025",
-    "authors": "Nature Reviews Drug Discovery editorial",
-    "title": "The rise of China's pharmaceutical industry from 2015–2024: a decade of innovation",
-    "publisher": "Nature Reviews Drug Discovery",
-    "year": 2025,
-    "url": "https://www.nature.com/articles/d41573-025-00102-1"
-  },
-  {
-    "id": "fiercebiotech-abogen-700m-series-c",
-    "authors": "Liu, A.",
-    "title": "China's Abogen raises $700M series C for mRNA trials, catapulting itself into the big leagues",
-    "publisher": "Fierce Biotech",
-    "year": 2021,
-    "url": "https://www.fiercebiotech.com/biotech/china-s-abogen-raises-700m-series-c-for-mrna-trials-catapulting-itself-into-big-leagues"
   },
   {
     "id": "endpoints-abogen-700m-series-c",
@@ -1742,22 +1238,6 @@
     "publisher": "Yicai Global",
     "year": 2021,
     "url": "https://www.yicaiglobal.com/news/china-first-mrna-covid-19-vaccine-developer-abogen-bags-usd700-million-in-industry-highest-pre-ipo-fundraiser"
-  },
-  {
-    "id": "abogen-series-c-press-release",
-    "authors": "Abogen Biosciences",
-    "title": "Abogen Biosciences Secures Over $700 Million in Series C Financing to Accelerate its mRNA Platform Across Multiple Vaccines and Diverse Therapeutic Fields",
-    "publisher": "Abogen Biosciences",
-    "year": 2021,
-    "url": "https://abogenbio.com/en/company/2021/2021/1017/35.html"
-  },
-  {
-    "id": "abogen-series-c-plus-press-release",
-    "authors": "Abogen Biosciences",
-    "title": "Abogen Biosciences Closes $300 Million Series C+ Financing",
-    "publisher": "Abogen Biosciences",
-    "year": 2021,
-    "url": "https://abogenbio.com/en/news/company/news2021/164.html"
   },
   {
     "id": "dealstreetasia-abogen-300m-series-c-plus",
@@ -1784,14 +1264,6 @@
     "url": "https://abogenbio.com/news/company/news2022/177.html"
   },
   {
-    "id": "lancet-microbe-arcov-phase1",
-    "authors": "Chen, G.-L., Li, X.-F., Dai, X.-H., et al.",
-    "title": "Safety and immunogenicity of the SARS-CoV-2 ARCoV mRNA vaccine in Chinese adults: a randomised, double-blind, placebo-controlled, phase 1 trial",
-    "publisher": "The Lancet Microbe",
-    "year": 2022,
-    "url": "https://www.thelancet.com/journals/lanmic/article/PIIS2666-5247(21)00280-9/fulltext"
-  },
-  {
     "id": "wikipedia-walvax-covid-vaccine",
     "authors": "Wikipedia contributors",
     "title": "Walvax COVID-19 vaccine",
@@ -1814,22 +1286,6 @@
     "publisher": "Abogen Biosciences",
     "year": 2025,
     "url": "https://abogenbio.com/news/company/news2025/236.html"
-  },
-  {
-    "id": "clinicaltrials-abo2011-nct06088004",
-    "authors": "ClinicalTrials.gov",
-    "title": "Phase I/II Clinical Study to Evaluate ABO2011 in Patients With Advanced Solid Tumors (NCT06088004)",
-    "publisher": "U.S. National Library of Medicine",
-    "year": 2024,
-    "url": "https://clinicaltrials.gov/study/NCT06088004"
-  },
-  {
-    "id": "caba-bo-ying-bio",
-    "authors": "Chinese-American BioMedical Association",
-    "title": "Bo Ying — Founder & CEO, Abogen Biosciences",
-    "publisher": "Chinese-American BioMedical Association",
-    "year": 2022,
-    "url": "https://www.cabaweb.org/content/bo-ying"
   },
   {
     "id": "akeso-fy2024-results",
@@ -1888,22 +1344,6 @@
     "url": "https://www.prnewswire.com/news-releases/akeso-announces-fda-approval-for-penpulimab-kcqx-in-two-bla-indications-for-comprehensive-treatment-of-advanced-nasopharyngeal-carcinoma-302437965.html"
   },
   {
-    "id": "summit-ivonescimab-bla-2026",
-    "authors": "Summit Therapeutics, Inc.",
-    "title": "Summit Therapeutics Announces U.S. FDA Acceptance of Biologics License Application (BLA) Seeking Approval for Ivonescimab in Combination with Chemotherapy in Treatment of Patients with EGFRm NSCLC Post-TKI Therapy",
-    "publisher": "BusinessWire / Summit Therapeutics",
-    "year": 2026,
-    "url": "https://www.businesswire.com/news/home/20260129109846/en/Summit-Therapeutics-Announces-U.S.-FDA-Acceptance-of-Biologics-License-Application-BLA-Seeking-Approval-for-Ivonescimab-in-Combination-with-Chemotherapy-in-Treatment-of-Patients-with-EGFRm-NSCLC-Post-TKI-Therapy"
-  },
-  {
-    "id": "lancet-harmoni2-2025",
-    "authors": "Zhou C, et al.",
-    "title": "Ivonescimab versus pembrolizumab for PD-L1-positive non-small cell lung cancer (HARMONi-2): a randomised, double-blind, phase 3 study in China",
-    "publisher": "The Lancet",
-    "year": 2025,
-    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)02722-3/abstract"
-  },
-  {
     "id": "akeso-michelle-xia-wikipedia",
     "authors": "Wikipedia contributors",
     "title": "Michelle Xia",
@@ -1918,14 +1358,6 @@
     "publisher": "Akeso media room (WSJ feature)",
     "year": 2025,
     "url": "https://www.akesobio.com/en/media/akeso-news/250508/"
-  },
-  {
-    "id": "companiesmarketcap-akeso",
-    "authors": "CompaniesMarketCap",
-    "title": "Akeso (9926.HK) — Market capitalization",
-    "publisher": "CompaniesMarketCap",
-    "year": 2026,
-    "url": "https://companiesmarketcap.com/akeso/marketcap/"
   },
   {
     "id": "cstone-2024-annual-results",
@@ -1960,52 +1392,12 @@
     "url": "https://www.biocentury.com/bc-extra/financial-news/2019-02-24/cstone-raises-285m-hong-kong-ipo"
   },
   {
-    "id": "cstone-pfizer-strategic-collab-2020",
-    "authors": "CStone Pharmaceuticals",
-    "title": "CStone, Pfizer Enter into Strategic Collaboration to Address Oncological Needs in China",
-    "publisher": "BusinessWire / CStone Pharmaceuticals",
-    "year": 2020,
-    "url": "https://www.businesswire.com/news/home/20200929006175/en/CStone-Pfizer-Enter-into-Strategic-Collaboration-to-Address-Oncological-Needs-in-China"
-  },
-  {
-    "id": "fiercebiotech-pfizer-200m-cstone",
-    "authors": "Fierce Biotech",
-    "title": "Pfizer funnels $200M into CStone, licenses late-stage cancer med in China",
-    "publisher": "Fierce Biotech",
-    "year": 2020,
-    "url": "https://www.fiercebiotech.com/biotech/pfizer-funnels-200m-into-cstone-licences-late-stage-cancer-med-china"
-  },
-  {
     "id": "cstone-eqrx-out-license-2020",
     "authors": "CStone Pharmaceuticals",
     "title": "CStone and EQRx Enter Global Strategic Partnership for Two Immune Checkpoint Inhibitors: sugemalimab (anti-PD-L1) and CS1003 (anti-PD-1)",
     "publisher": "PR Newswire / CStone Pharmaceuticals",
     "year": 2020,
     "url": "https://www.prnewswire.com/news-releases/cstone-and-eqrx-enter-global-strategic-partnership-for-two-immune-checkpoint-inhibitors-sugemalimab-anti-pd-l1-and-cs1003-anti-pd-1-301159962.html"
-  },
-  {
-    "id": "fiercebiotech-eqrx-cstone-150m",
-    "authors": "Fierce Biotech",
-    "title": "EQRx grabs 2 late-stage checkpoint inhibitors from CStone in $150M deal",
-    "publisher": "Fierce Biotech",
-    "year": 2020,
-    "url": "https://www.fiercebiotech.com/biotech/eqrx-grabs-2-late-stage-checkpoint-inhibitors-from-cstone-150m-deal"
-  },
-  {
-    "id": "fiercebiotech-eqrx-revolution-acquisition",
-    "authors": "Fierce Biotech",
-    "title": "EQRx's low cost drug dream ends in Revolution",
-    "publisher": "Fierce Biotech",
-    "year": 2023,
-    "url": "https://www.fiercebiotech.com/biotech/eqrxs-dream-dies-revolution-spies-opportunity-add-1b-its-balance-sheet"
-  },
-  {
-    "id": "onclive-sugemalimab-eu-1l-nsclc-2024",
-    "authors": "OncLive",
-    "title": "First-Line Sugemalimab Plus Chemo Wins European Approval for Metastatic NSCLC",
-    "publisher": "OncLive",
-    "year": 2024,
-    "url": "https://www.onclive.com/view/first-line-sugemalimab-plus-chemo-wins-european-approval-for-metastatic-nsclc"
   },
   {
     "id": "cstone-ec-stage-iii-nsclc-2025",
@@ -2110,14 +1502,6 @@
     "publisher": "BioNTech Investor Relations",
     "year": 2024,
     "url": "https://investors.biontech.de/news-releases/news-release-details/biontech-and-dualitybio-announce-phase-3-trial-adc-candidate"
-  },
-  {
-    "id": "dualitybio-nmpa-bla-trastuzumab-pamirtecan-2026",
-    "authors": "DualityBio",
-    "title": "DualityBio Announces China NMPA Acceptance of Biologics License Application Seeking Approval for Trastuzumab Pamirtecan for the Treatment of Unresectable or Metastatic HER2-Positive Adult Breast Cancer",
-    "publisher": "DualityBio",
-    "year": 2026,
-    "url": "https://en.dualitybiologics.com/news/605.html"
   },
   {
     "id": "pharmaboardroom-john-zhu-interview",
@@ -2528,14 +1912,6 @@
     "url": "https://www.prnewswire.com/news-releases/i-mab-appoints-sean-fu-phd-mba-as-chief-executive-officer-302297095.html"
   },
   {
-    "id": "nature-imab-going-global-2020",
-    "authors": "Nature Research Custom Media",
-    "title": "I-Mab Biopharma: going global with innovative biologics",
-    "publisher": "Nature",
-    "year": 2020,
-    "url": "https://www.nature.com/articles/d43747-020-00781-2"
-  },
-  {
     "id": "endpoints-imab-divest-china-2024",
     "authors": "Park, A.",
     "title": "I-Mab Biopharma to split US, China businesses to cut costs, mitigate potential risks",
@@ -2688,14 +2064,6 @@
     "url": "https://www.dealstreetasia.com/stories/junshi-biosciences-ipo-195630"
   },
   {
-    "id": "chinaknowledge-junshi-star-ipo-2020",
-    "authors": "ChinaKnowledge",
-    "title": "Shanghai Junshi Biosciences's IPO debut on SSE STAR Market today",
-    "publisher": "ChinaKnowledge",
-    "year": 2020,
-    "url": "https://www.chinaknowledge.com/News/DetailNews/89944/"
-  },
-  {
     "id": "junshi-about-us",
     "authors": "Junshi Biosciences",
     "title": "About Us",
@@ -2712,28 +2080,12 @@
     "url": "https://www.prnewswire.com/news-releases/leading-cell-therapy-company-jw-therapeutics-lists-on-main-board-of-hkex-301165450.html"
   },
   {
-    "id": "fierce-jw-300m-ipo-2020",
-    "authors": "Amirah Al Idrus",
-    "title": "JW Therapeutics rakes in $300M Hong Kong IPO to bring CAR-Ts to China",
-    "publisher": "Fierce Biotech",
-    "year": 2020,
-    "url": "https://www.fiercebiotech.com/biotech/jw-therapeutics-rakes-300m-hong-kong-ipo-to-bring-car-ts-to-china"
-  },
-  {
     "id": "jw-fy2024-results-marketscreener",
     "authors": "MarketScreener",
     "title": "JW Therapeutics Co. Ltd Reports Earnings Results for the Full Year Ended December 31, 2024",
     "publisher": "MarketScreener",
     "year": 2025,
     "url": "https://www.marketscreener.com/quote/stock/JW-CAYMAN-THERAPEUTICS-CO-119080133/news/JW-Therapeutics-Co-Ltd-Reports-Earnings-Results-for-the-Full-Year-Ended-December-31-2024-49460623/"
-  },
-  {
-    "id": "fierce-juno-wuxi-jv-2016",
-    "authors": "Carly Helfand",
-    "title": "WuXi AppTec, Juno join hands on new China-based cancer immunotherapy venture",
-    "publisher": "Fierce Pharma",
-    "year": 2016,
-    "url": "https://www.fiercepharma.com/pharma-asia/wuxi-apptec-juno-join-hands-on-new-china-based-cancer-immunotherapy-venture"
   },
   {
     "id": "jw-history-page",
@@ -2808,14 +2160,6 @@
     "url": "https://www.prnewswire.com/news-releases/announcement-of-annual-results-for-2024-302411892.html"
   },
   {
-    "id": "fiercepharma-kelun-trop2-first-china-approval",
-    "authors": "Liu, A.",
-    "title": "Kelun's Merck-partnered ADC snags first nod in China to kick off TROP2 fight with Gilead",
-    "publisher": "FiercePharma",
-    "year": 2024,
-    "url": "https://www.fiercepharma.com/pharma/keluns-merck-partnered-adc-snags-first-nod-kick-trop2-fight-gilead"
-  },
-  {
     "id": "prnewswire-sac-tmt-tnbc-nmpa-approval",
     "authors": "Sichuan Kelun-Biotech Biopharmaceutical Co., Ltd.",
     "title": "Kelun-Biotech's TROP2 ADC Sacituzumab tirumotecan (sac-TMT) Approved For Marketing By NMPA Of China For 2L+ Advanced or Metastatic TNBC",
@@ -2840,14 +2184,6 @@
     "url": "https://www.prnewswire.com/news-releases/kelun-biotech-announces-fourth-indication-for-sacituzumab-tirumotecan-sac-tmt-approved-by-nmpa-in-hrher2--breast-cancer-302681155.html"
   },
   {
-    "id": "fiercebiotech-merck-kelun-second-adc-deal",
-    "authors": "FierceBiotech",
-    "title": "Merck strikes 2nd ADC deal with Kelun-Biotech, paying $35M for rights to unnamed asset",
-    "publisher": "FierceBiotech",
-    "year": 2022,
-    "url": "https://www.fiercebiotech.com/biotech/merck-strikes-second-adc-deal-kelun-biotech-paying-35m-rights-unnamed-asset"
-  },
-  {
     "id": "kelun-biotech-2025-annual-results",
     "authors": "Sichuan Kelun-Biotech Biopharmaceutical Co., Ltd.",
     "title": "Kelun-Biotech Announced 2025 Annual Results: Multiple Products Successfully Launched with Tiered Pipeline Ready for Take-off",
@@ -2870,14 +2206,6 @@
     "publisher": "PR Newswire",
     "year": 2026,
     "url": "https://www.prnewswire.com/apac/news-releases/kelun-biotech-approved-by-hkex-to-remove-b-marker-from-stock-code-representing-a-new-stage-of-development-302738152.html"
-  },
-  {
-    "id": "fiercebiotech-merck-kelun-93b-third-deal",
-    "authors": "FierceBiotech",
-    "title": "Merck puts eye-popping $9.3B on the line in lopsided ADC deal with Kelun-Biotech",
-    "publisher": "FierceBiotech",
-    "year": 2022,
-    "url": "https://www.fiercebiotech.com/biotech/merck-writes-eye-popping-93b-blank-check-biobucks-deal-3rd-kelun-biotech-adc-deal"
   },
   {
     "id": "biopharmadive-merck-lanova-2024",
@@ -2918,14 +2246,6 @@
     "publisher": "PR Newswire",
     "year": 2024,
     "url": "https://www.prnewswire.com/news-releases/lanova-medicines-announces-initiation-of-phase-1-clinical-trial-of-anti-pd-1vegf-bispecific-antibody-lm-299-and-completion-of-42-million-series-c1-financing-302280157.html"
-  },
-  {
-    "id": "fiercebiotech-sino-lanova-951m-2025",
-    "authors": "Gabrielle Masson",
-    "title": "Sino Biopharm buys Merck's PD-1xVEGF bispecific partner LaNova for up to $951M",
-    "publisher": "Fierce Biotech",
-    "year": 2025,
-    "url": "https://www.fiercebiotech.com/biotech/sino-biopharm-buys-merck-pd-1xvegf-bispecific-partner-lanova-951m"
   },
   {
     "id": "biopharmadive-lanova-sino-2025",
@@ -2976,76 +2296,12 @@
     "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-ciltacabtagene-autoleucel-relapsed-or-refractory-multiple-myeloma"
   },
   {
-    "id": "legend-carvykti-2l-approval-2024",
-    "authors": "Legend Biotech (company news)",
-    "title": "Legend Biotech's CARVYKTI (ciltacabtagene autoleucel) Becomes the First and Only BCMA-Targeted CAR-T Cell Therapy Approved by the FDA for Second-Line Treatment of Multiple Myeloma",
-    "publisher": "Legend Biotech IR",
-    "year": 2024,
-    "url": "https://investors.legendbiotech.com/news-releases/news-release-details/legend-biotechs-carvyktir-ciltacabtagene-autoleucel-becomes"
-  },
-  {
-    "id": "jnj-carvykti-fda-approval-2022",
-    "authors": "Johnson & Johnson",
-    "title": "U.S. FDA Approves CARVYKTI (ciltacabtagene autoleucel), Janssen's First Cell Therapy, a BCMA-Directed CAR-T Immunotherapy for the Treatment of Patients with Relapsed or Refractory Multiple Myeloma",
-    "publisher": "Johnson & Johnson",
-    "year": 2022,
-    "url": "https://www.jnj.com/media-center/press-releases/u-s-fda-approves-carvykti-ciltacabtagene-autoleucel-janssens-first-cell-therapy-a-bcma-directed-car-t-immunotherapy-for-the-treatment-of-patients-with-relapsed-or-refractory-multiple-myeloma"
-  },
-  {
-    "id": "legend-ipo-pricing-2020",
-    "authors": "Legend Biotech (company news)",
-    "title": "Legend Biotech Corporation Announces Pricing of Initial Public Offering",
-    "publisher": "BusinessWire / Legend Biotech IR",
-    "year": 2020,
-    "url": "https://www.businesswire.com/news/home/20200605005247/en/Legend-Biotech-Corporation-Announces-Pricing-of-Initial-Public-Offering"
-  },
-  {
-    "id": "legend-ipo-closing-2020",
-    "authors": "Legend Biotech (company news)",
-    "title": "Legend Biotech Corporation Announces Closing of Initial Public Offering",
-    "publisher": "Legend Biotech IR",
-    "year": 2020,
-    "url": "https://investors.legendbiotech.com/news-releases/news-release-details/legend-biotech-corporation-announces-closing-initial-public/"
-  },
-  {
-    "id": "legend-janssen-collaboration-milestone",
-    "authors": "Legend Biotech (company news)",
-    "title": "Legend Biotech Achieves Milestone Under Collaboration Agreement with Janssen Biotech, Inc. for BCMA CAR-T",
-    "publisher": "Legend Biotech IR",
-    "year": 2019,
-    "url": "https://investors.legendbiotech.com/news-releases/news-release-details/legend-biotech-achieves-milestone-under-collaboration-agreement"
-  },
-  {
-    "id": "fiercepharma-jj-legend-carvykti-fda-2022",
-    "authors": "Fierce Pharma",
-    "title": "Johnson & Johnson, Legend's CAR-T Carvykti enters myeloma ring with FDA nod",
-    "publisher": "Fierce Pharma",
-    "year": 2022,
-    "url": "https://www.fiercepharma.com/pharma/johnson-johnson-legend-car-t-cilta-cel-myeloma-ring-fda-approval-rivaling-bristol-myers"
-  },
-  {
-    "id": "ec-carvykti-conditional-approval-2022",
-    "authors": "Legend Biotech (company news)",
-    "title": "CARVYKTI (ciltacabtagene autoleucel) Granted Conditional Approval by the European Commission for the Treatment of Patients with Relapsed and Refractory Multiple Myeloma",
-    "publisher": "BusinessWire / Legend Biotech IR",
-    "year": 2022,
-    "url": "https://www.businesswire.com/news/home/20220525005944/en/CARVYKTI-ciltacabtagene-autoleucel-Granted-Conditional-Approval-by-the-European-Commission-for-the-Treatment-of-Patients-with-Relapsed-and-Refractory-Multiple-Myeloma"
-  },
-  {
     "id": "pharmamfg-legend-double-carvykti-capacity-2025",
     "authors": "Pharma Manufacturing",
     "title": "Legend Biotech to double Carvykti manufacturing capacity in 2025",
     "publisher": "Pharma Manufacturing",
     "year": 2025,
     "url": "https://www.pharmamanufacturing.com/industry-news/news/55274069/legend-biotech-to-double-carvykti-manufacturing-capacity-in-2025"
-  },
-  {
-    "id": "fiercepharma-jj-legend-150m-belgium",
-    "authors": "Fierce Pharma",
-    "title": "J&J, Legend to invest $150M in Belgium cell therapy facility as new Carvykti rival looms",
-    "publisher": "Fierce Pharma",
-    "year": 2024,
-    "url": "https://www.fiercepharma.com/pharma/jj-legend-invest-150m-belgium-cell-therapy-facility-new-carvykti-rival-looms"
   },
   {
     "id": "biospace-legend-zhang-arrest",
@@ -3088,30 +2344,6 @@
     "url": "https://www.gavi.org/news/media-room/gavi-signs-agreements-sinopharm-and-sinovac-immediate-supply-covax"
   },
   {
-    "id": "unicef-sinopharm-supply-2021",
-    "authors": "UNICEF",
-    "title": "UNICEF signs supply agreement for Sinopharm COVID-19 vaccine",
-    "publisher": "UNICEF",
-    "year": 2021,
-    "url": "https://www.unicef.org/press-releases/unicef-signs-supply-agreement-sinopharm-covid-19-vaccine"
-  },
-  {
-    "id": "sinopharm-2024-annual-results",
-    "authors": "Sinopharm Group Co. Ltd.",
-    "title": "2024 Annual Results Announcement (HKEX: 1099)",
-    "publisher": "Sinopharm Group / TodayIR",
-    "year": 2025,
-    "url": "https://media-sinopharm.todayir.com/20250324061601574211581397_en.pdf"
-  },
-  {
-    "id": "sinopharm-fortune-global-500-2025",
-    "authors": "Fortune",
-    "title": "Sinopharm — Fortune Global 500 (2025, rank 119)",
-    "publisher": "Fortune",
-    "year": 2025,
-    "url": "https://fortune.com/company/sinopharm/"
-  },
-  {
     "id": "wikipedia-sinopharm-company",
     "authors": "Wikipedia contributors",
     "title": "Sinopharm (company)",
@@ -3142,14 +2374,6 @@
     "publisher": "Walvax Biotechnology (corporate site)",
     "year": 2024,
     "url": "https://en.walvax.com/about-us/our-company/leadership/14.html"
-  },
-  {
-    "id": "reuters-walvax-mrna-28000-participants",
-    "authors": "Reuters",
-    "title": "China's Walvax says has most participants for large mRNA COVID vaccine trial",
-    "publisher": "Reuters / Nasdaq",
-    "year": 2022,
-    "url": "https://www.nasdaq.com/articles/chinas-walvax-says-has-most-participants-for-large-mrna-covid-vaccine-trial-0"
   },
   {
     "id": "walvax-pcv13-frontiers-microbiology",
@@ -3184,14 +2408,6 @@
     "url": "https://www.globaldata.com/company-profile/walvax-biotechnology-co-ltd/"
   },
   {
-    "id": "walvax-mrna-pipeline-2025",
-    "authors": "Walvax Biotechnology",
-    "title": "Walvax Biotechnology — Drug pipelines, Patents, Clinical trials (mRNA herpes zoster, RSV IND clearances 2025)",
-    "publisher": "Synapse / PatSnap",
-    "year": 2025,
-    "url": "https://synapse.patsnap.com/organization/0ac3f33fff4ad1717ea6a17a5e8985ec"
-  },
-  {
     "id": "wuxibio-fy2024-prnewswire",
     "authors": "WuXi Biologics",
     "title": "WuXi Biologics Reports Solid 2024 Annual Results and Expects Accelerated Growth in 2025",
@@ -3224,52 +2440,12 @@
     "url": "https://www.wsgr.com/en/insights/wuxi-biologics-completes-ipo-and-begins-trading-on-the-hong-kong-stock-exchange.html"
   },
   {
-    "id": "wuxibio-leadership-page",
-    "authors": "WuXi Biologics",
-    "title": "Leadership — Chris Chen, CEO",
-    "publisher": "WuXi Biologics",
-    "year": 2025,
-    "url": "https://www.wuxibiologics.com/leadership/"
-  },
-  {
     "id": "biopharmadive-biosecure-house",
     "authors": "BioPharma Dive",
     "title": "House backs bill restricting China role in US biotech",
     "publisher": "BioPharma Dive",
     "year": 2024,
     "url": "https://www.biopharmadive.com/news/biosecure-pass-house-vote-wuxi-china-biotech/726566/"
-  },
-  {
-    "id": "fiercepharma-biosecure-2032-decoupling",
-    "authors": "Fierce Pharma",
-    "title": "House's updated biosecurity bill sets 2032 decoupling deadline for industry's work with WuXi AppTec, WuXi Biologics",
-    "publisher": "Fierce Pharma",
-    "year": 2024,
-    "url": "https://www.fiercepharma.com/pharma/houses-updated-biosecurity-bill-sets-decoupling-deadline-chinese-cdmo-end-2031"
-  },
-  {
-    "id": "fiercepharma-wuxibio-singapore-1-4b",
-    "authors": "Fierce Pharma",
-    "title": "WuXi Biologics drafts designs for $1.4B manufacturing and R&D center in Singapore",
-    "publisher": "Fierce Pharma",
-    "year": 2024,
-    "url": "https://www.fiercepharma.com/manufacturing/wuxi-biologics-drafts-designs-14b-manufacturing-and-rd-center-singapore"
-  },
-  {
-    "id": "wuxibio-singapore-crdmo-pr",
-    "authors": "WuXi Biologics",
-    "title": "WuXi Biologics Plans to Build a Comprehensive CRDMO Center in Singapore",
-    "publisher": "WuXi Biologics",
-    "year": 2022,
-    "url": "https://www.wuxibiologics.com/wuxi-biologics-plans-to-build-a-comprehensive-crdmo-center-in-singapore/"
-  },
-  {
-    "id": "wuxixdc-listing-pr-2023",
-    "authors": "WuXi Biologics",
-    "title": "WuXi Biologics Congratulates WuXi XDC Listed on the Main Board of HKEX",
-    "publisher": "WuXi Biologics",
-    "year": 2023,
-    "url": "https://www.wuxibiologics.com/wuxi-biologics-congratulates-wuxi-xdc-listed-on-the-main-board-of-hkex/"
   },
   {
     "id": "wsgr-wuxixdc-ipo-2023",
@@ -3310,22 +2486,6 @@
     "publisher": "Wikipedia",
     "year": 2025,
     "url": "https://en.wikipedia.org/wiki/WuXi_Biologics"
-  },
-  {
-    "id": "fiercepharma-wuxibio-bio-2024-withdraw",
-    "authors": "Fierce Pharma",
-    "title": "WuXi Biologics withdraws from 2024 BIO convention amid worsening geopolitical tensions",
-    "publisher": "Fierce Pharma",
-    "year": 2024,
-    "url": "https://www.fiercepharma.com/pharma/wuxi-biologics-withdraws-2024-bio-convention-following-sister-companys-exit-trade-group"
-  },
-  {
-    "id": "xtalpi-2024-annual-results",
-    "authors": "XtalPi Holdings Limited",
-    "title": "2024 Annual Results Announcement",
-    "publisher": "XtalPi Investor Relations",
-    "year": 2025,
-    "url": "https://ir.xtalpi.com/media/iagpeb2h/xtalpi-24-annual-results-announcements-en.pdf"
   },
   {
     "id": "xtalpi-financeasia-ipo-2024",
@@ -3400,44 +2560,12 @@
     "url": "https://www.zailaboratory.com/about-us/"
   },
   {
-    "id": "zailab-hk-secondary-listing-closing-2020",
-    "authors": "Zai Lab",
-    "title": "Zai Lab Announces Closing of Hong Kong Secondary Listing",
-    "publisher": "Zai Lab IR",
-    "year": 2020,
-    "url": "https://zailab.gcs-web.com/news-releases/news-release-details/zai-lab-announces-closing-hong-kong-secondary-listing"
-  },
-  {
     "id": "zailab-hk-primary-listing-2022",
     "authors": "Zai Lab",
     "title": "Zai Lab Announces Primary Listing on the Main Board of The Stock Exchange of Hong Kong Limited",
     "publisher": "GlobeNewswire",
     "year": 2022,
     "url": "https://www.globenewswire.com/news-release/2022/06/27/2469121/0/en/Zai-Lab-Announces-Primary-Listing-on-the-Main-Board-of-The-Stock-Exchange-of-Hong-Kong-Limited.html"
-  },
-  {
-    "id": "zailab-fy2024-results-bw",
-    "authors": "Zai Lab",
-    "title": "Zai Lab Announces Fourth Quarter and Full Year 2024 Financial Results and Recent Corporate Updates",
-    "publisher": "Business Wire",
-    "year": 2025,
-    "url": "https://www.businesswire.com/news/home/20250227759111/en/Zai-Lab-Announces-Fourth-Quarter-and-Full-Year-2024-Financial-Results-and-Recent-Corporate-Updates"
-  },
-  {
-    "id": "zailab-fy2025-results-bw",
-    "authors": "Zai Lab",
-    "title": "Zai Lab Announces Fourth Quarter and Full Year 2025 Financial Results and Recent Corporate Updates",
-    "publisher": "Business Wire",
-    "year": 2026,
-    "url": "https://www.businesswire.com/news/home/20260226081765/en/Zai-Lab-Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Recent-Corporate-Updates"
-  },
-  {
-    "id": "zailab-q3-2025-results",
-    "authors": "Zai Lab",
-    "title": "Zai Lab Announces Third Quarter 2025 Financial Results and Recent Corporate Updates",
-    "publisher": "Zai Lab IR",
-    "year": 2025,
-    "url": "https://zailab.gcs-web.com/news-releases/news-release-details/zai-lab-announces-third-quarter-2025-financial-results-and/"
   },
   {
     "id": "tesaro-zailab-niraparib-2016",
@@ -3448,44 +2576,12 @@
     "url": "https://www.globenewswire.com/news-release/2016/09/29/875646/0/en/TESARO-and-Zai-Lab-Announce-Collaboration-Development-and-License-Agreement.html"
   },
   {
-    "id": "zailab-augtyro-nmpa-2024",
-    "authors": "Zai Lab",
-    "title": "Zai Lab Announces Approval of AUGTYRO (repotrectinib) for Patients with ROS1-positive NSCLC by China's NMPA",
-    "publisher": "Business Wire",
-    "year": 2024,
-    "url": "https://www.businesswire.com/news/home/20240512474386/en/Zai-Lab-Announces-Approval-of-AUGTYRO-repotrectinib-for-Patients-with-ROS1-positive-NSCLC-by-Chinas-NMPA"
-  },
-  {
-    "id": "zailab-zl1310-orphan-fda",
-    "authors": "Zai Lab",
-    "title": "Zai Lab Receives Orphan Drug Designation from the U.S. FDA for ZL-1310 (DLL3 ADC) for SCLC",
-    "publisher": "Zai Lab IR",
-    "year": 2024,
-    "url": "https://zailab.gcs-web.com/news-releases/news-release-details/zai-lab-receives-orphan-drug-designation-us-fda-zl-1310-dll3-adc"
-  },
-  {
     "id": "zailab-cambridge-expansion-2021",
     "authors": "Zai Lab",
     "title": "Zai Lab Expands U.S. Operations to Join the Cambridge Biotechnology Community",
     "publisher": "GlobeNewswire",
     "year": 2021,
     "url": "https://www.globenewswire.com/news-release/2021/09/16/2298322/0/en/Zai-Lab-Expands-U-S-Operations-to-Join-the-Cambridge-Biotechnology-Community.html"
-  },
-  {
-    "id": "zailab-karxt-nda-accepted-2025",
-    "authors": "Zai Lab",
-    "title": "Zai Lab Announces Acceptance of New Drug Application for KarXT for the Treatment of Schizophrenia",
-    "publisher": "Zai Lab IR",
-    "year": 2025,
-    "url": "https://zailab.gcs-web.com/news-releases/news-release-details/zai-lab-announces-acceptance-new-drug-application-karxt"
-  },
-  {
-    "id": "zailab-10k-2024-cayman",
-    "authors": "Zai Lab Limited",
-    "title": "Annual Report on Form 10-K for fiscal year ended December 31, 2024 (incorporated in the Cayman Islands)",
-    "publisher": "U.S. SEC EDGAR",
-    "year": 2025,
-    "url": "https://zailab.gcs-web.com/sec-filings/sec-filing/10-k/0001628280-24-007235"
   },
   {
     "id": "fiercepharma-karxt-china-trial-win",
@@ -3504,22 +2600,6 @@
     "url": "https://companiesmarketcap.com/zai-lab/marketcap/"
   },
   {
-    "id": "innovax-hecolin-2012",
-    "authors": "Wantai BioPharm",
-    "title": "China Approves World's First Hepatitis E Vaccine",
-    "publisher": "Wantai BioPharm",
-    "year": 2012,
-    "url": "https://www.ystwt.cn/2012/01/23/china-approves-worlds-first-hepatitis-e-vaccine/"
-  },
-  {
-    "id": "biospace-innovent-lilly-expansion-2020",
-    "authors": "BioSpace",
-    "title": "Eli Lilly Strikes $1 Billion Deal with Innovent for Checkpoint Inhibitor",
-    "publisher": "BioSpace",
-    "year": 2020,
-    "url": "https://www.biospace.com/eli-lilly-and-innovent-expand-strategic-alliance-to-aim-checkpoint-inhibitor-at-global-markets"
-  },
-  {
     "id": "henlius-zercepac-ema-2020",
     "authors": "Shanghai Henlius Biotech",
     "title": "Henlius and Accord Healthcare Receive EMA Approval for Zercepac, trastuzumab biosimilar",
@@ -3528,108 +2608,12 @@
     "url": "https://www.henlius.com/en/NewsDetails-2670-26.html"
   },
   {
-    "id": "3sbio-memorabilia",
-    "authors": "3SBio",
-    "title": "Corporate memorabilia and milestones",
-    "publisher": "3SBio",
-    "year": 2024,
-    "url": "https://www.3sbio.com/en/about/memorabilia.aspx"
-  },
-  {
-    "id": "frontiers-apatinib-review-2021",
-    "authors": "Scott, L. J.",
-    "title": "Efficacy and Response Biomarkers of Apatinib in the Treatment of Malignancies in China: A Review",
-    "publisher": "Frontiers in Oncology",
-    "year": 2021,
-    "url": "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2021.749083/full"
-  },
-  {
-    "id": "pharmasources-peg-loxenatide-hansoh",
-    "authors": "Pharmasources",
-    "title": "Polyethylene Glycol Loxenatide: The First Chinese-produced Long-acting GLP-1R Agonist",
-    "publisher": "Pharmasources.com",
-    "year": 2019,
-    "url": "https://www.pharmasources.com/industryinsights/53646.html"
-  },
-  {
-    "id": "akeso-cadonilimab-first-bispecific-2022",
-    "authors": "Akeso, Inc.",
-    "title": "Akeso's Cadonilimab (PD-1/CTLA-4), the First Dual Immune Checkpoint Inhibitor to Treat Cancer, Approved for Marketing in China",
-    "publisher": "Akeso",
-    "year": 2022,
-    "url": "https://www.akesobio.com/en/media/akeso-news/20220629/"
-  },
-  {
-    "id": "fda-cilta-cel-2022",
-    "authors": "U.S. Food and Drug Administration",
-    "title": "FDA approves ciltacabtagene autoleucel for relapsed or refractory multiple myeloma",
-    "publisher": "FDA",
-    "year": 2022,
-    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-ciltacabtagene-autoleucel-relapsed-or-refractory-multiple-myeloma"
-  },
-  {
-    "id": "jw-relmacel-nmpa-2021",
-    "authors": "JW Therapeutics",
-    "title": "JW Therapeutics Announces NMPA Approval of Relmacabtagene Autoleucel Injection in China",
-    "publisher": "JW Therapeutics",
-    "year": 2021,
-    "url": "https://www.jwtherapeutics.com/en/media/press-release/jw-therapeutics-announces-nmpa-approval-of-relmacabtagene-autoleucel-injection-in-china/"
-  },
-  {
-    "id": "bms-systimmune-bl-b01d1-2023",
-    "authors": "Bristol Myers Squibb",
-    "title": "SystImmune and Bristol Myers Squibb Announce a Global Strategic Collaboration Agreement for the Development and Commercialization of BL-B01D1",
-    "publisher": "Bristol Myers Squibb",
-    "year": 2023,
-    "url": "https://news.bms.com/news/details/2023/SystImmune-and-Bristol-Myers-Squibb-Announce-a-Global-Strategic-Collaboration-Agreement-for-the-Development-and-Commercialization-of-BL-B01D1/default.aspx"
-  },
-  {
-    "id": "coherus-junshi-loqtorzi-fda-2023",
-    "authors": "Coherus BioSciences",
-    "title": "Coherus and Junshi Biosciences Announce FDA Approval of LOQTORZI (toripalimab-tpzi) in All Lines of Treatment for Recurrent or Metastatic Nasopharyngeal Carcinoma",
-    "publisher": "Coherus / GlobeNewswire",
-    "year": 2023,
-    "url": "https://www.globenewswire.com/news-release/2023/10/27/2768663/0/en/Coherus-and-Junshi-Biosciences-Announce-FDA-Approval-of-LOQTORZI-toripalimab-tpzi-in-All-Lines-of-Treatment-for-Recurrent-or-Metastatic-Nasopharyngeal-Carcinoma-NPC.html"
-  },
-  {
-    "id": "pharmexec-tevimbra-fda-2024",
-    "authors": "Pharmaceutical Executive",
-    "title": "FDA Approves Tevimbra, BeiGene's Treatment for Adults with Unresectable or Metastatic Esophageal Squamous Carcinoma",
-    "publisher": "PharmExec",
-    "year": 2024,
-    "url": "https://www.pharmexec.com/view/fda-approves-tevimbra-beigene-s-treatment-for-adults-with-unresectable-or-metastatic-esophageal-squamous-carcinoma"
-  },
-  {
-    "id": "fda-fruquintinib-2023",
-    "authors": "U.S. Food and Drug Administration",
-    "title": "FDA approves fruquintinib in refractory metastatic colorectal cancer",
-    "publisher": "FDA",
-    "year": 2023,
-    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-fruquintinib-refractory-metastatic-colorectal-cancer"
-  },
-  {
     "id": "path-cecolin-who-prequalification-2021",
     "authors": "PATH",
     "title": "New HPV vaccine from Innovax receives WHO prequalification",
     "publisher": "PATH",
     "year": 2021,
     "url": "https://www.path.org/our-impact/media-center/new-hpv-vaccine-innovax-receives-who-prequalification/"
-  },
-  {
-    "id": "belief-biomed-bbm-h901-nmpa-2025",
-    "authors": "Belief BioMed / Takeda China",
-    "title": "Belief BioMed and Takeda China jointly announced BBM-H901, China's first hemophilia B gene therapy, was officially approved",
-    "publisher": "Belief BioMed / PR Newswire",
-    "year": 2025,
-    "url": "https://www.prnewswire.com/news-releases/belief-biomed-and-takeda-china-jointly-announced-bbm-h901-dalnacogene-ponparvovec-injection-chinas-first-hemophilia-b-gene-therapy-was-officially-approved-302425572.html"
-  },
-  {
-    "id": "pharmaron-fy2024-results-presentation",
-    "authors": "Pharmaron Beijing Co., Ltd.",
-    "title": "2024 Annual Results Presentation",
-    "publisher": "Pharmaron Investor Relations",
-    "year": 2025,
-    "url": "https://ir.pharmaron.com/media/1185/presentation-for-2024-annual-results.pdf"
   },
   {
     "id": "pharmaron-fy2024-tipranks",
@@ -3654,14 +2638,6 @@
     "publisher": "Pharmaron",
     "year": 2019,
     "url": "https://www.pharmaron.com/about-us/latest-news/pharmaron-lists-h-shares-on-the-hong-kong-stock-exchange/"
-  },
-  {
-    "id": "pharmaron-szse-listing-2018",
-    "authors": "Pharmaron Beijing Co., Ltd.",
-    "title": "Pharmaron Announces Listing of Initial Public Offering on Shenzhen Stock Exchange",
-    "publisher": "Pharmaron",
-    "year": 2018,
-    "url": "https://www.pharmaron.com/news/pharmaron-announces-listing-of-initial-public-offering-on-shenzhen-stock-exchange"
   },
   {
     "id": "pharmaron-msd-hoddesdon-2016",
@@ -3760,30 +2736,6 @@
     "url": "https://www.fiercepharma.com/manufacturing/chinese-cdmo-asymchem-widens-global-footprint-pfizers-leftover-sandwich-uk-site"
   },
   {
-    "id": "echemi-asymchem-paxlovid-3-5b-2022",
-    "authors": "ECHEMI",
-    "title": "The 9.2 billion New Crown Special Medicine Orders Stunned the CDMO Leader (Asymchem Paxlovid contract)",
-    "publisher": "ECHEMI",
-    "year": 2022,
-    "url": "https://www.echemi.com/cms/499732.html"
-  },
-  {
-    "id": "businesswire-asymchem-peptide-automation-2024",
-    "authors": "Asymchem Laboratories",
-    "title": "Asymchem's Fully Automated Peptide Production Lines Set New Benchmarks as Large-Scale Capacity Continues to Grow",
-    "publisher": "BusinessWire",
-    "year": 2024,
-    "url": "https://www.businesswire.com/news/home/20241112983416/en/Asymchems-Fully-Automated-Peptide-Production-Lines-Set-New-Benchmarks-as-Large-Scale-Capacity-Continues-to-Grow"
-  },
-  {
-    "id": "asymchem-leadership-bio-hao-hong",
-    "authors": "Asymchem Laboratories",
-    "title": "Leadership — Dr. Hao Hong, Founder, Chairman & CEO",
-    "publisher": "Asymchem (corporate site)",
-    "year": 2024,
-    "url": "https://www.asymchem.com/about/leadership"
-  },
-  {
     "id": "junhe-asymchem-ah-listing",
     "authors": "JunHe LLP",
     "title": "JunHe Assists Asymchem in its Main Board Listing on the Hong Kong Stock Exchange and Realizes its A+H Share Listing",
@@ -3832,28 +2784,12 @@
     "url": "https://www.qimingvc.com/en/news/tigermed-ipo-chinext-board"
   },
   {
-    "id": "tigermed-capitalwatch-hkex-debut-2020",
-    "authors": "CapitalWatch",
-    "title": "Tigermed Ends Debut 13% Higher in Asia's Largest Healthcare Listing This Year",
-    "publisher": "CapitalWatch",
-    "year": 2020,
-    "url": "https://old.capitalwatch.com/article-6215-1.html"
-  },
-  {
     "id": "davispolk-tigermed-hk-ipo-2020",
     "authors": "Davis Polk & Wardwell",
     "title": "Tigermed HK$10.7 Billion IPO and Hong Kong Listing",
     "publisher": "Davis Polk",
     "year": 2020,
     "url": "https://www.davispolk.com/experience/tigermed-hk107-billion-ipo-and-hong-kong-listing"
-  },
-  {
-    "id": "frontage-hkex-prospectus-2019",
-    "authors": "Frontage Holdings Corporation",
-    "title": "Frontage Holdings Corporation — HKEX Listing Document (1521.HK)",
-    "publisher": "HKEXnews",
-    "year": 2019,
-    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0701/ltn20190701003.pdf"
   },
   {
     "id": "tigermed-equalocean-clinical-cro-profile",
@@ -3880,76 +2816,12 @@
     "url": "https://www.ropesgray.com/en/insights/alerts/2025/09/reintroduction-of-the-biosecure-act-potential-impact-on-the-biotechnology-industry"
   },
   {
-    "id": "iqvia-rd-trends-2024",
-    "authors": "IQVIA Institute for Human Data Science",
-    "title": "Global Trends in R&D 2024: Activity, Productivity, and Enablers",
-    "publisher": "IQVIA Institute",
-    "year": 2024,
-    "url": "https://tremplin.consortium.mcgill.ca/wp-content/uploads/2024/09/iqvia-institute-randd-trends-2024.pdf"
-  },
-  {
-    "id": "iqvia-rethinking-country-prioritization-2024",
-    "authors": "IQVIA Institute for Human Data Science",
-    "title": "Rethinking Clinical Trial Country Prioritization",
-    "publisher": "IQVIA Institute",
-    "year": 2024,
-    "url": "https://www.iqvia.com/insights/the-iqvia-institute/reports-and-publications/reports/rethinking-clinical-trial-country-prioritization"
-  },
-  {
-    "id": "jefferies-china-outlicensing-tracker-2025",
-    "authors": "Jefferies Equity Research (cited via Fierce Biotech)",
-    "title": "China biotechs reshaping U.S. biopharma — outlicensing deals rise (Jefferies tracker)",
-    "publisher": "Fierce Biotech",
-    "year": 2025,
-    "url": "https://www.fiercebiotech.com/biotech/china-biotechs-reshaping-us-biopharma-outlicensing-deals-rise-11-jefferies-report"
-  },
-  {
-    "id": "dealforma-cnbc-bigpharma-china-2025",
-    "authors": "Berk, C. C. & Constantino, A. K.",
-    "title": "U.S. investors, Big Pharma race to find new medicines in China",
-    "publisher": "CNBC (citing DealForma)",
-    "year": 2025,
-    "url": "https://www.cnbc.com/2025/02/13/china-biopharma-deals-rise-with-summit-merck.html"
-  },
-  {
-    "id": "techlifesci-china-deal-wave-2025",
-    "authors": "TechLifeSci (citing DealForma)",
-    "title": "Big Pharma's China Deal Wave & 12 Companies on Our Radar",
-    "publisher": "TechLifeSci",
-    "year": 2025,
-    "url": "https://www.techlifesci.com/p/big-pharmas-china-deal-wave-and-12"
-  },
-  {
     "id": "pharmavoice-citeline-roundup-2025",
     "authors": "Pagliarulo, N.",
     "title": "Chinese drugmaker becomes top trial sponsor — and other clinical trends",
     "publisher": "PharmaVoice (citing Citeline 2025 Roundup and IQVIA)",
     "year": 2025,
     "url": "https://www.pharmavoice.com/news/chinese-china-drug-clinical-trial-pharma-jiangsu-hengrui/804665/"
-  },
-  {
-    "id": "norstella-china-trials-spotlight-2025",
-    "authors": "Norstella / Citeline",
-    "title": "Spotlight on China: A dominant player in the clinical trial landscape",
-    "publisher": "Norstella",
-    "year": 2025,
-    "url": "https://www.norstella.com/spotlight-china/"
-  },
-  {
-    "id": "cen-acs-china-biotech-rise-2025",
-    "authors": "Walrath, R.",
-    "title": "China's biotech industry is on the rise. Will it reshape US pharma?",
-    "publisher": "Chemical & Engineering News (ACS)",
-    "year": 2025,
-    "url": "https://cen.acs.org/pharmaceuticals/drug-development/Chinas-biotech-industry-rise-reshape/103/web/2025/09"
-  },
-  {
-    "id": "ny-consulate-973-program",
-    "authors": "Consulate General of the PRC in New York",
-    "title": "National Basic Research Program of China (973 Program)",
-    "publisher": "Ministry of Foreign Affairs of the People's Republic of China",
-    "year": 2016,
-    "url": "https://newyork.china-consulate.gov.cn/eng/kjsw/std/201603/t20160305_5520603.htm"
   },
   {
     "id": "baidu-baike-973-program-en",
@@ -3992,14 +2864,6 @@
     "url": "http://www.gd.gov.cn/zwgk/gongbao/1998/23/content/post_3359223.html"
   },
   {
-    "id": "gov-cn-new-drug-megaproject-closing-2021",
-    "authors": "Xinhua via gov.cn",
-    "title": "重大新药创制 科技重大专项收官",
-    "publisher": "State Council of the People's Republic of China",
-    "year": 2021,
-    "url": "https://www.gov.cn/xinwen/2021-02/02/content_5584285.htm"
-  },
-  {
     "id": "xinhua-new-drug-megaproject-2018",
     "authors": "Xinhua",
     "title": "重大新药创制 科技重大专项累计支持百余品种获新药证书",
@@ -4040,28 +2904,12 @@
     "url": "https://www.chinadaily.com.cn/china/2007-07/10/content_5424937.htm"
   },
   {
-    "id": "cen-zheng-xiaoyu-executed-2007",
-    "authors": "Chemical & Engineering News",
-    "title": "China executes drug official",
-    "publisher": "Chemical & Engineering News",
-    "year": 2007,
-    "url": "https://cen.acs.org/articles/85/i29/China-executes-Drug-official.html"
-  },
-  {
     "id": "bmj-zheng-xiaoyu-death-sentence-2007",
     "authors": "Watts, J.",
     "title": "Chinese court sentences former drug regulatory chief to death",
     "publisher": "BMJ (PMC)",
     "year": 2007,
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1889975/"
-  },
-  {
-    "id": "npr-zheng-xiaoyu-executed-2007",
-    "authors": "NPR / Associated Press",
-    "title": "China Executes Ex-Food and Drug Chief",
-    "publisher": "NPR",
-    "year": 2007,
-    "url": "https://www.npr.org/2007/07/10/11846089/china-executes-ex-food-and-drug-chief"
   },
   {
     "id": "sfdachina-provisions-drug-registration-2007",
@@ -4102,30 +2950,6 @@
     "publisher": "Office of the United States Trade Representative",
     "year": 2018,
     "url": "https://ustr.gov/about-us/policy-offices/press-office/press-releases/2018/june/ustr-issues-tariffs-chinese-products"
-  },
-  {
-    "id": "lexology-cfda-self-inspection-2015",
-    "authors": "Hogan Lovells (via Lexology)",
-    "title": "CFDA requires immediate self-inspection of clinical trial data for pending drug registrations",
-    "publisher": "Lexology",
-    "year": 2015,
-    "url": "https://www.lexology.com/library/detail.aspx?g=22d852ec-1736-4cb2-af5d-de9f786a1b49"
-  },
-  {
-    "id": "pda-storm-clinical-trial-data-china",
-    "authors": "Parenteral Drug Association",
-    "title": "Storm Surrounds Clinical Trial Data in China",
-    "publisher": "PDA Letter",
-    "year": 2016,
-    "url": "https://www.pda.org/pda-letter-portal/home/full-article/storm-surrounds-clinical-trial-data-in-china"
-  },
-  {
-    "id": "fiercepharma-cfda-disputes-80-percent-fake",
-    "authors": "Fierce Pharma",
-    "title": "CFDA disputes claim that 80% of Chinese trials faked data but admits serious problems",
-    "publisher": "Fierce Pharma",
-    "year": 2016,
-    "url": "https://www.fiercepharma.com/pharma-asia/cfda-disputes-claim-80-chinese-clinical-trials-were-faked"
   },
   {
     "id": "rfa-china-clinical-trials-80-percent-fake",
@@ -4184,28 +3008,12 @@
     "url": "https://www.mercatus.org/economic-insights/expert-commentary/how-chinas-drug-approval-agency-outpacing-international"
   },
   {
-    "id": "ropesgray-mah-pilot-2016",
-    "authors": "Ropes & Gray LLP",
-    "title": "China Announces a Detailed Pilot Plan for the Marketing Authorization Holder System for Drugs",
-    "publisher": "Ropes & Gray Insights",
-    "year": 2016,
-    "url": "https://www.ropesgray.com/en/insights/alerts/2016/06/china-announces-a-detailed-pilot-plan-for-the-marketing-authorization-holder-system-for-drugs"
-  },
-  {
     "id": "cooley-mah-pilot-2015",
     "authors": "Cooley LLP",
     "title": "China Piloting Drug Marketing Authorization Holder System",
     "publisher": "Cooley Insights",
     "year": 2015,
     "url": "https://www.cooley.com/news/insight/2015/china-piloting-drug-marketing-authorization-holder-system"
-  },
-  {
-    "id": "covington-drug-admin-law-2019",
-    "authors": "Covington & Burling LLP",
-    "title": "China Adopts Revised Drug Administration Law",
-    "publisher": "Covington & Burling LLP",
-    "year": 2019,
-    "url": "https://www.cov.com/-/media/files/corporate/publications/2019/09/china-adopts-revised-drug-administration-law.pdf"
   },
   {
     "id": "diaglobal-mah-implementation-2023",
@@ -4248,14 +3056,6 @@
     "url": "https://english.nmpa.gov.cn/2025-02/19/c_1073538.htm"
   },
   {
-    "id": "acurit-china-joins-ich-2017",
-    "authors": "Acurit Medical Communications",
-    "title": "All You Need to Know about China Joining ICH",
-    "publisher": "Acurit Medical Communications",
-    "year": 2017,
-    "url": "https://www.acuritmedcomms.com/2017/07/05/cfda-ich/"
-  },
-  {
     "id": "chinameddevice-state-council-2017-opinions",
     "authors": "China Med Device LLC",
     "title": "China's State Council: Official Opinions On Deepening the Review and Approval Policies Reform",
@@ -4278,14 +3078,6 @@
     "publisher": "Frontiers in Pharmacology (PMC)",
     "year": 2023,
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9926957/"
-  },
-  {
-    "id": "uschina-nrdl-healthcare-series",
-    "authors": "US-China Business Council",
-    "title": "Healthcare Series Part 1: Reimbursement Drug Lists",
-    "publisher": "US-China Business Council",
-    "year": 2018,
-    "url": "https://www.uschina.org/articles/healthcare-series-part-1-reimbursement-drug-lists/"
   },
   {
     "id": "simon-kucher-nrdl-2017",
@@ -4318,14 +3110,6 @@
     "publisher": "Wikipedia",
     "year": 2025,
     "url": "https://en.wikipedia.org/wiki/National_Healthcare_Security_Administration"
-  },
-  {
-    "id": "uschina-nhsa-policy",
-    "authors": "US-China Business Council",
-    "title": "National Healthcare Security Administration",
-    "publisher": "US-China Business Council",
-    "year": 2024,
-    "url": "https://www.uschina.org/policy/national-healthcare-security-administration"
   },
   {
     "id": "china-health-pulse-nhsa",
@@ -4384,30 +3168,6 @@
     "url": "https://www.scmp.com/business/markets/article/3032113/chinese-drug-maker-changsheng-bio-technology-guilty-tampering"
   },
   {
-    "id": "fiercepharma-changsheng-1-3b",
-    "authors": "Sagonowsky, E.",
-    "title": "China slaps monstrous $1.3B penalty on vaccine scandal culprit Changsheng",
-    "publisher": "Fierce Pharma",
-    "year": 2018,
-    "url": "https://www.fiercepharma.com/vaccines/china-slaps-monstrous-1-3b-penalty-vaccine-scandal-culprit-changsheng"
-  },
-  {
-    "id": "lancet-changsheng-lessons",
-    "authors": "Yu, H. et al.",
-    "title": "Lessons from the Chinese defective vaccine case",
-    "publisher": "The Lancet Infectious Diseases",
-    "year": 2019,
-    "url": "https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(19)30062-3/fulltext"
-  },
-  {
-    "id": "nbr-changsheng-analysis",
-    "authors": "National Bureau of Asian Research",
-    "title": "China's Latest Vaccine Scandal: An Analysis of Key Factors and Assessment of China's Way Forward",
-    "publisher": "National Bureau of Asian Research",
-    "year": 2018,
-    "url": "https://nbr.org/publication/an-analysis-of-key-factors-and-assessment-of-chinas-way-forward/"
-  },
-  {
     "id": "cmp-changsheng-timeline",
     "authors": "China Media Project",
     "title": "A Brief Timeline of the Vaccine Scandal",
@@ -4430,22 +3190,6 @@
     "publisher": "The Hastings Center for Bioethics",
     "year": 2022,
     "url": "https://www.thehastingscenter.org/from-gene-edited-embryos-to-covid-china-faces-regulatory-and-ethical-challenges/"
-  },
-  {
-    "id": "tandfonline-he-jiankui-legal-2024",
-    "authors": "Cheng, T.",
-    "title": "He Jiankui's unprecedented offense and worrying comeback",
-    "publisher": "Journal of Responsible Innovation (Taylor & Francis)",
-    "year": 2024,
-    "url": "https://www.tandfonline.com/doi/full/10.1080/23299460.2024.2372116"
-  },
-  {
-    "id": "pharmaboardroom-vbp-4plus7",
-    "authors": "PharmaBoardroom",
-    "title": "4+7: China's New Volume-Based Purchasing Policy",
-    "publisher": "PharmaBoardroom",
-    "year": 2019,
-    "url": "https://pharmaboardroom.com/articles/4-plus-7-chinas-new-volume-based-purchasing-policy/"
   },
   {
     "id": "chinatalk-china-buys-drugs",
@@ -4496,30 +3240,6 @@
     "url": "https://www.pacificbridgemedical.com/publication/chinas-national-medical-products-administration-nmpa/"
   },
   {
-    "id": "usda-fas-samr-2018",
-    "authors": "USDA Foreign Agricultural Service",
-    "title": "China Announces Revamped Market Regulation Administration",
-    "publisher": "USDA FAS GAIN Report",
-    "year": 2018,
-    "url": "https://apps.fas.usda.gov/newgainapi/api/report/downloadreportbyfilename?filename=China+Announces+Revamped+Market+Regulation+Administration_Beijing_China+-+Peoples+Republic+of_10-19-2018.pdf"
-  },
-  {
-    "id": "qualtechs-cfda-nmpa-name-change",
-    "authors": "Qualtech Consulting",
-    "title": "CHINA: CFDA Officially Changed the English Name to NMPA — September 2018",
-    "publisher": "Qualtech Consulting",
-    "year": 2018,
-    "url": "https://www.qualtechs.com/en-gb/article/111"
-  },
-  {
-    "id": "loc-vaccine-law-2019",
-    "authors": "Zhang, L. (Library of Congress)",
-    "title": "China: Vaccine Law Passed",
-    "publisher": "Library of Congress, Global Legal Monitor",
-    "year": 2019,
-    "url": "https://www.loc.gov/item/global-legal-monitor/2019-08-27/china-vaccine-law-passed/"
-  },
-  {
     "id": "cms-vaccines-administration-law",
     "authors": "CMS China",
     "title": "Vaccines Administration Law in China",
@@ -4536,52 +3256,12 @@
     "url": "https://www.cov.com/en/news-and-insights/insights/2022/07/china-issues-rules-on-vaccine-manufacturing-and-distribution"
   },
   {
-    "id": "gov-cn-hgr-regulation-2019",
-    "authors": "State Council of the People's Republic of China",
-    "title": "Regulations on management of human genetic resources (State Council Order No. 717)",
-    "publisher": "english.www.gov.cn",
-    "year": 2019,
-    "url": "https://english.www.gov.cn/policies/latest_releases/2019/06/10/content_281476708945462.htm"
-  },
-  {
-    "id": "chinalawtranslate-hgr-2019",
-    "authors": "China Law Translate",
-    "title": "P.R.C. Regulation on the Management of Human Genetic Resources",
-    "publisher": "China Law Translate",
-    "year": 2019,
-    "url": "https://www.chinalawtranslate.com/en/p-r-c-regulation-on-the-management-of-human-genetic-resources/"
-  },
-  {
-    "id": "ropesgray-hgr-2019",
-    "authors": "Ropes & Gray LLP",
-    "title": "China's State Council Publishes New Regulations on the Management of Human Genetic Resources",
-    "publisher": "Ropes & Gray Insights",
-    "year": 2019,
-    "url": "https://www.ropesgray.com/en/insights/alerts/2019/06/chinas-state-council-publishes-new-regulations-on-the-management-of-human-genetic-resources"
-  },
-  {
-    "id": "sse-star-listing-rules-2019",
-    "authors": "Shanghai Stock Exchange",
-    "title": "Rules Governing the Listing of Stocks on the Science and Technology Innovation Board",
-    "publisher": "Shanghai Stock Exchange (English)",
-    "year": 2019,
-    "url": "https://english.sse.com.cn/start/rules/sse/listing/c/c_20210804_5530504.shtml"
-  },
-  {
     "id": "ey-star-market-ipo-support",
     "authors": "Ernst & Young China",
     "title": "How does Shanghai's STAR Market support innovation enterprises' IPOs",
     "publisher": "EY China",
     "year": 2021,
     "url": "https://www.ey.com/en_cn/insights/china-opportunities/how-does-shanghai-s-star-market-support-innovation-enterprise-s-ipos"
-  },
-  {
-    "id": "lexology-china-ipo-governing-rules",
-    "authors": "Han Kun Law Offices",
-    "title": "In review: governing rules for IPOs in China",
-    "publisher": "Lexology",
-    "year": 2023,
-    "url": "https://www.lexology.com/library/detail.aspx?g=b14950fc-7dce-488a-9d85-33807acdb90a"
   },
   {
     "id": "sse-fifth-standard-20-listed",
@@ -4600,28 +3280,12 @@
     "url": "https://www.caixinglobal.com/2025-07-02/chinas-star-market-clears-first-unprofitable-ipo-since-fifth-standard-revival-102337029.html"
   },
   {
-    "id": "npc-biosecurity-law-text-2020",
-    "authors": "Standing Committee of the National People's Congress",
-    "title": "Biosecurity Law of the People's Republic of China",
-    "publisher": "National People's Congress (English)",
-    "year": 2020,
-    "url": "http://en.npc.gov.cn.cdurl.cn/2020-10/17/c_703568.htm"
-  },
-  {
     "id": "npc-observer-biosecurity-law",
     "authors": "NPC Observer",
     "title": "Biosecurity Law — legislative history and full text",
     "publisher": "NPC Observer",
     "year": 2021,
     "url": "https://npcobserver.com/legislation/biosecurity-law/"
-  },
-  {
-    "id": "chinalawtranslate-biosecurity-law",
-    "authors": "China Law Translate",
-    "title": "Biosecurity Law of the P.R.C. (English translation)",
-    "publisher": "China Law Translate",
-    "year": 2020,
-    "url": "https://www.chinalawtranslate.com/en/biosecurity-law/"
   },
   {
     "id": "dlapiper-prc-biosecurity-law-2020",
@@ -4640,14 +3304,6 @@
     "url": "https://english.nmpa.gov.cn/2020-03/30/c_488526.htm"
   },
   {
-    "id": "twobirds-china-drug-registration-2020",
-    "authors": "Bird & Bird LLP",
-    "title": "China Updates Drug Registration Rules and the Measures for Monitoring Drug Production",
-    "publisher": "Bird & Bird",
-    "year": 2020,
-    "url": "https://www.twobirds.com/en/insights/2020/china/china-updates-drug-registration-rules-and-the-measures-for-monitoring-drug-production"
-  },
-  {
     "id": "ppd-china-drug-registration-2020",
     "authors": "PPD Inc.",
     "title": "Regulatory Insights: Focus on China — New Provisions for Drug Registration in 2020",
@@ -4662,46 +3318,6 @@
     "publisher": "Frontiers in Pharmacology",
     "year": 2025,
     "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1501525/full"
-  },
-  {
-    "id": "sciencedirect-btd-china-pooled-analysis",
-    "authors": "Drug Discovery Today",
-    "title": "Assessment of the breakthrough-therapy-designated drugs granted in China: A pooled analysis 2020–2022",
-    "publisher": "Drug Discovery Today (Elsevier)",
-    "year": 2022,
-    "url": "https://www.sciencedirect.com/science/article/abs/pii/S1359644622003634"
-  },
-  {
-    "id": "fiercepharma-china-cde-value-oriented-2021",
-    "authors": "Liu, A.",
-    "title": "Is China's drug regulator suddenly raising the bar on cancer med R&D?",
-    "publisher": "Fierce Pharma",
-    "year": 2021,
-    "url": "https://www.fiercepharma.com/pharma-asia/china-s-drug-regulator-suddenly-raising-bar-cancer-med-r-d-not-exactly-say-experts"
-  },
-  {
-    "id": "tigermed-cde-value-guideline-2021",
-    "authors": "Tigermed",
-    "title": "Clinical value is top priority in cancer drug trials, CDE says",
-    "publisher": "Tigermed",
-    "year": 2021,
-    "url": "https://www.tigermedgrp.com/wp-content/uploads/report/The-CDE-in-China-issued-the-Guideline-for-Clinical-Value-Oriented-Clinical-Trials-of-Oncology-Drugs.pdf"
-  },
-  {
-    "id": "sciencedirect-china-anticancer-regulation-2022",
-    "authors": "Su, L. et al.",
-    "title": "Evolution of drug regulations and regulatory innovation for anticancer drugs in China",
-    "publisher": "Acta Pharmaceutica Sinica B (ScienceDirect)",
-    "year": 2022,
-    "url": "https://www.sciencedirect.com/science/article/pii/S2211383522003392"
-  },
-  {
-    "id": "cancer-wiley-china-onc-trials-2024",
-    "authors": "Yang, Y. et al.",
-    "title": "Characteristics of clinical trials of new oncology drugs approved in China",
-    "publisher": "Cancer (Wiley)",
-    "year": 2024,
-    "url": "https://acsjournals.onlinelibrary.wiley.com/doi/full/10.1002/cncr.35106"
   },
   {
     "id": "ropesgray-hgr-implementing-rules-2023",
@@ -4864,44 +3480,12 @@
     "url": "https://english.www.gov.cn/policies/latestreleases/202501/03/content_WS6777c872c6d0868f4e8ee7cd.html"
   },
   {
-    "id": "nsf-skti-24-2022",
-    "authors": "National Science Board",
-    "title": "Science and Engineering Indicators 2022, Supplemental Table SKTI-24: Total biotechnology venture capital raised, by selected country and region: 2000–20",
-    "publisher": "National Science Foundation, NCSES",
-    "year": 2022,
-    "url": "https://ncses.nsf.gov/pubs/nsb20226/assets/supplemental-tables/nsb20226-supplemental-tables.pdf"
-  },
-  {
-    "id": "itif-china-biotech-2024",
-    "authors": "Atkinson, R.",
-    "title": "How Innovative Is China in Biotechnology?",
-    "publisher": "Information Technology and Innovation Foundation (ITIF)",
-    "year": 2024,
-    "url": "https://itif.org/publications/2024/07/30/how-innovative-is-china-in-biotechnology/"
-  },
-  {
-    "id": "biocentury-europe-2024-vc",
-    "authors": "BioCentury Editors",
-    "title": "European biotechs raised $6B in venture in 2024",
-    "publisher": "BioCentury",
-    "year": 2025,
-    "url": "https://www.biocentury.com/article/654961/european-biotechs-raised-6b-in-venture-in-2024"
-  },
-  {
     "id": "stat-china-biotech-foreign-pullback-2024",
     "authors": "Joseph, A.",
     "title": "U.S. and other foreign venture firms pull back from China's biotech sector",
     "publisher": "STAT News (republished by University City Science Center)",
     "year": 2024,
     "url": "https://sciencecenter.org/news/u-s-and-other-foreign-venture-firms-pull-back-from-chinas-biotech-sector"
-  },
-  {
-    "id": "nature-china-licensing-2025",
-    "authors": "Lim, R., et al.",
-    "title": "Analysis of China-to-West pharmaceutical licensing deals in 2024",
-    "publisher": "Nature Reviews Drug Discovery",
-    "year": 2025,
-    "url": "https://www.nature.com/articles/d41573-025-00068-0"
   },
   {
     "id": "amgen-china-10-years-2022",
@@ -5360,14 +3944,6 @@
     "url": "https://www.scmp.com/business/companies/article/3132834/fosun-pharma-unit-biontech-form-joint-venture-make-1-billion"
   },
   {
-    "id": "biontech-shanghai-office-2022",
-    "authors": "BioNTech",
-    "title": "Sites and subsidiaries — Shanghai (BioNTech's first regional office in East Asia, opened June 2022)",
-    "publisher": "BioNTech corporate website",
-    "year": 2022,
-    "url": "https://www.biontech.com/int/en/home/about/sites-and-subsidiaries.html"
-  },
-  {
     "id": "biontech-oncoc4-strategic-collab-2023",
     "authors": "BioNTech",
     "title": "BioNTech and OncoC4 Announce Strategic Collaboration to Co-Develop and Commercialize Novel Checkpoint Antibody in Multiple Solid Tumor Indications",
@@ -5384,70 +3960,6 @@
     "url": "https://www.prnewswire.com/news-releases/medilink-therapeutics-announces-a-multi-target-tmalin-adc-technology-platform-license-agreement-with-biontech-expanding-their-global-strategic-partnership-302155699.html"
   },
   {
-    "id": "biontech-acquire-biotheus-2024",
-    "authors": "BioNTech",
-    "title": "BioNTech to Acquire Biotheus to Boost Oncology Strategy",
-    "publisher": "BioNTech Investor Relations",
-    "year": 2024,
-    "url": "https://investors.biontech.de/news-releases/news-release-details/biontech-acquire-biotheus-boost-oncology-strategy/"
-  },
-  {
-    "id": "biontech-completes-biotheus-acquisition-2025",
-    "authors": "BioNTech",
-    "title": "BioNTech Completes Acquisition of Biotheus",
-    "publisher": "BioNTech Investor Relations",
-    "year": 2025,
-    "url": "https://investors.biontech.de/news-releases/news-release-details/biontech-completes-acquisition-biotheus"
-  },
-  {
-    "id": "naturebt-biontech-china-buy-2024",
-    "authors": "Nature Biotechnology",
-    "title": "BioNTech boosts oncology pipeline with China buy",
-    "publisher": "Nature Biotechnology",
-    "year": 2024,
-    "url": "https://www.nature.com/articles/s41587-024-02518-3"
-  },
-  {
-    "id": "biontech-bms-bnt327-partnership-2025",
-    "authors": "BioNTech",
-    "title": "BioNTech and Bristol Myers Squibb Announce Global Strategic Partnership to Co-Develop and Co-Commercialize Next-generation Bispecific Antibody Candidate BNT327 Broadly for Multiple Solid Tumor Types",
-    "publisher": "BioNTech Investor Relations",
-    "year": 2025,
-    "url": "https://investors.biontech.de/news-releases/news-release-details/biontech-and-bristol-myers-squibb-announce-global-strategic/"
-  },
-  {
-    "id": "biontech-fy2024-results",
-    "authors": "BioNTech",
-    "title": "BioNTech Announces Fourth Quarter and Full Year 2024 Financial Results and Corporate Update",
-    "publisher": "BioNTech Investor Relations / GlobeNewswire",
-    "year": 2025,
-    "url": "https://investors.biontech.de/news-releases/news-release-details/biontech-announces-fourth-quarter-and-full-year-2024-financial"
-  },
-  {
-    "id": "pharmaboardroom-biontech-china-oncology-bet",
-    "authors": "PharmaBoardroom",
-    "title": "BioNTech: Betting Big on Chinese Oncology Innovation",
-    "publisher": "PharmaBoardroom",
-    "year": 2025,
-    "url": "https://pharmaboardroom.com/articles/biontech-betting-big-on-chinese-oncology-innovation/"
-  },
-  {
-    "id": "fiercepharma-jj-legend-buyout-offer-2024",
-    "authors": "Angus Liu",
-    "title": "J&J's CAR-T partner Legend Biotech reportedly receives buyout offer",
-    "publisher": "Fierce Pharma",
-    "year": 2024,
-    "url": "https://www.fiercepharma.com/pharma/jjs-car-t-partner-legend-biotech-reportedly-receives-buyout-offer"
-  },
-  {
-    "id": "fiercepharma-beigene-legend-sell-2025",
-    "authors": "Angus Liu",
-    "title": "With BIOSECURE in limbo, should BeiGene or Legend sell itself in 2025? Analysts weigh in",
-    "publisher": "Fierce Pharma",
-    "year": 2025,
-    "url": "https://www.fiercepharma.com/pharma/should-beigene-and-legend-sell-themselves-2025"
-  },
-  {
     "id": "biopharmadive-jnj-legend-2017-deal",
     "authors": "Ned Pagliarulo",
     "title": "J&J enters CAR-T field with $350M Legend deal",
@@ -5456,44 +3968,12 @@
     "url": "https://www.biopharmadive.com/news/janssen-china-legend-biotech-car-t-deal-multiple-myeloma/513713/"
   },
   {
-    "id": "jnj-legend-2017-collab-press-release",
-    "authors": "Johnson & Johnson",
-    "title": "Janssen Enters Worldwide Collaboration and License Agreement with Chinese Company Legend Biotech to Develop Investigational CAR-T Anti-Cancer Therapy",
-    "publisher": "Johnson & Johnson",
-    "year": 2017,
-    "url": "https://www.jnj.com/media-center/press-releases/janssen-enters-worldwide-collaboration-and-license-agreement-with-chinese-company-legend-biotech-to-develop-investigational-car-t-anti-cancer-therapy"
-  },
-  {
-    "id": "jnj-fy2025-q4-results",
-    "authors": "Johnson & Johnson",
-    "title": "Johnson & Johnson reports Q4 and Full-Year 2025 results",
-    "publisher": "Johnson & Johnson Investor Relations",
-    "year": 2026,
-    "url": "https://investor.jnj.com/investor-news/news-details/2026/Johnson--Johnson-reports-Q4-and-Full-Year-2025-results/default.aspx"
-  },
-  {
-    "id": "jnj-2024-10k",
-    "authors": "Johnson & Johnson",
-    "title": "Johnson & Johnson 2024 Annual Report (Form 10-K)",
-    "publisher": "U.S. Securities and Exchange Commission",
-    "year": 2025,
-    "url": "https://www.sec.gov/Archives/edgar/data/200406/000130817925000085/jnj013333-ars.pdf"
-  },
-  {
     "id": "xian-janssen-jnj-family",
     "authors": "Xian Janssen Pharmaceutical Ltd.",
     "title": "Johnson & Johnson Family of Companies — Xian Janssen overview",
     "publisher": "Xian Janssen / Johnson & Johnson China",
     "year": 2024,
     "url": "https://www.xian-janssen.com.cn/en/about-xian-janssen/jnj-family"
-  },
-  {
-    "id": "jnj-jlabs-shanghai-2019-launch",
-    "authors": "Johnson & Johnson",
-    "title": "JLABS @ Shanghai: Johnson & Johnson's New Healthcare Start-Up Incubator",
-    "publisher": "Johnson & Johnson",
-    "year": 2019,
-    "url": "https://www.jnj.com/innovation/jlabs-shanghai-johnson-johnsons-new-healthcare-start-up-incubator"
   },
   {
     "id": "fiercepharma-jj-china-headwind-2025",
@@ -5528,14 +4008,6 @@
     "url": "https://www.biopharmadive.com/news/pfizer-3sbio-pd1-vegf-cancer-licensing-deal/748559/"
   },
   {
-    "id": "bloomberg-pfizer-3sbio-record-license-2025",
-    "authors": "Bloomberg",
-    "title": "Pfizer Licenses 3SBio Cancer Drug From China for Record $1.2 Billion",
-    "publisher": "Bloomberg",
-    "year": 2025,
-    "url": "https://www.bloomberg.com/news/articles/2025-05-20/pfizer-licenses-3sbio-cancer-drug-for-record-1-2-billion"
-  },
-  {
     "id": "pharmaphorum-pfizer-cstone-sugemalimab-china",
     "authors": "pharmaphorum",
     "title": "Pfizer picks up rights to CStone's cancer immunotherapy sugemalimab in China",
@@ -5550,14 +4022,6 @@
     "publisher": "PR Newswire / CStone Pharmaceuticals",
     "year": 2022,
     "url": "https://www.prnewswire.com/news-releases/cstone-and-pfizer-announce-nmpa-approval-of-sugemalimab-in-patients-with-unresectable-stage-iii-non-small-cell-lung-cancer-301561552.html"
-  },
-  {
-    "id": "fiercepharma-pfizer-completes-seagen-43b-2023",
-    "authors": "Fierce Pharma",
-    "title": "Done deal: Pfizer completes $43B acquisition of Seagen, doubling its oncology pipeline",
-    "publisher": "Fierce Pharma",
-    "year": 2023,
-    "url": "https://www.fiercepharma.com/pharma/done-deal-pfizer-completes-43b-acquisition-seagen-doubling-its-oncology-pipeline"
   },
   {
     "id": "pfizer-receives-regulatory-approvals-seagen-2023",
@@ -5576,36 +4040,12 @@
     "url": "https://www.biospace.com/business/pfizer-makes-1b-commitment-in-china-to-boost-innovation-target-chinese-market"
   },
   {
-    "id": "pharmaboardroom-pfizer-1b-china-2024",
-    "authors": "PharmaBoardroom",
-    "title": "China: Pfizer Makes USD 1 Billion Commitment to China; WuXi AppTec's Revenues Continue to Decline",
-    "publisher": "PharmaBoardroom",
-    "year": 2024,
-    "url": "https://pharmaboardroom.com/articles/china-pfizer-makes-usd-1-billion-commitment-to-china-wuxi-apptecs-revenues-continue-to-decline/"
-  },
-  {
     "id": "biopharmadive-pfizer-yaopharma-obesity-2025",
     "authors": "BioPharma Dive",
     "title": "Pfizer dips into China for another try at an obesity pill",
     "publisher": "BioPharma Dive",
     "year": 2025,
     "url": "https://www.biopharmadive.com/news/pfizer-yaopharma-fosun-obesity-pill-deal-china/807375/"
-  },
-  {
-    "id": "fiercepharma-pfizer-keyuan-prevenar-2023",
-    "authors": "Fierce Pharma",
-    "title": "Pfizer taps Shanghai Pharma's Keyuan to commercialize Prevenar 13 in China",
-    "publisher": "Fierce Pharma",
-    "year": 2023,
-    "url": "https://www.fiercepharma.com/pharma/pfizer-gsk-sanofi-biogen-big-pharma-reworks-china-strategy-and-job-cuts-are-part-it"
-  },
-  {
-    "id": "pfizer-china-overview-page",
-    "authors": "Pfizer China",
-    "title": "Pfizer China Overview",
-    "publisher": "Pfizer China",
-    "year": 2024,
-    "url": "https://www.pfizer.com.cn/en/about-en/pfizer-china-en/china-overview-en"
   },
   {
     "id": "pharmatimes-pfizer-wuhan-rd-2010",
@@ -5638,70 +4078,6 @@
     "publisher": "Wikipedia",
     "year": 2025,
     "url": "https://en.wikipedia.org/wiki/Qiming_Venture_Partners"
-  },
-  {
-    "id": "lav-firm-overview",
-    "authors": "Lilly Asia Ventures",
-    "title": "About — Lilly Asia Ventures (firm overview)",
-    "publisher": "Lilly Asia Ventures",
-    "year": 2025,
-    "url": "https://www.lillyasia.com/"
-  },
-  {
-    "id": "hongshan-sequoia-split-2023",
-    "authors": "Lin, L. & Westcott, R.",
-    "title": "Sequoia Splits Into Three: U.S./Europe (Sequoia Capital), India/SE Asia (Peak XV), and China (HongShan)",
-    "publisher": "Wall Street Journal",
-    "year": 2023,
-    "url": "https://www.wsj.com/articles/sequoia-china-india-split-90168bda"
-  },
-  {
-    "id": "fudan-cancer-hospital-wikipedia",
-    "authors": "Wikipedia contributors",
-    "title": "Fudan University Shanghai Cancer Center",
-    "publisher": "Wikipedia",
-    "year": 2025,
-    "url": "https://en.wikipedia.org/wiki/Fudan_University_Shanghai_Cancer_Center"
-  },
-  {
-    "id": "nibs-beijing-wikipedia",
-    "authors": "Wikipedia contributors",
-    "title": "National Institute of Biological Sciences, Beijing",
-    "publisher": "Wikipedia",
-    "year": 2025,
-    "url": "https://en.wikipedia.org/wiki/National_Institute_of_Biological_Sciences,_Beijing"
-  },
-  {
-    "id": "shanghaitech-ihuman-about",
-    "authors": "iHuman Institute",
-    "title": "About iHuman Institute, ShanghaiTech University",
-    "publisher": "ShanghaiTech University",
-    "year": 2024,
-    "url": "https://ihuman.shanghaitech.edu.cn/About"
-  },
-  {
-    "id": "hkex-18a-cumulative-2024",
-    "authors": "Hong Kong Exchanges and Clearing",
-    "title": "HKEX Biotech Hub — Listings under Chapter 18A (2024 review)",
-    "publisher": "HKEX",
-    "year": 2024,
-    "url": "https://www.hkex.com.hk/Listing/Sectors/Biotech-Hub"
-  },
-  {
-    "id": "star-market-biotech-listings-2024",
-    "authors": "EY China",
-    "title": "Five years of STAR Market: a review of biotech listings",
-    "publisher": "EY China",
-    "year": 2024,
-    "url": "https://www.ey.com/en_cn/ipo/star-market-five-years"
-  },
-  {
-    "id": "nhsa-establishment-2018",
-    "authors": "China State Council",
-    "title": "State Council institutional reform — establishment of NHSA",
-    "publisher": "Xinhua / english.www.gov.cn",
-    "year": 2018,
-    "url": "https://english.www.gov.cn/state_council/ministries/2018/03/26/content_281476080422790.htm"
   },
   {
     "id": "ndrc-wikipedia",
@@ -5744,28 +4120,12 @@
     "url": "https://en.wikipedia.org/wiki/European_Medicines_Agency"
   },
   {
-    "id": "ich-overview",
-    "authors": "International Council for Harmonisation",
-    "title": "About ICH",
-    "publisher": "ICH",
-    "year": 2024,
-    "url": "https://www.ich.org/page/mission"
-  },
-  {
     "id": "who-history",
     "authors": "World Health Organization",
     "title": "About WHO",
     "publisher": "World Health Organization",
     "year": 2024,
     "url": "https://www.who.int/about"
-  },
-  {
-    "id": "us-congress-overview",
-    "authors": "United States Senate",
-    "title": "United States Congress — overview",
-    "publisher": "Congress.gov",
-    "year": 2024,
-    "url": "https://www.congress.gov/"
   },
   {
     "id": "biopharmadive-gsk-hengrui-collaboration-2025",
@@ -5784,14 +4144,6 @@
     "url": "https://www.statnews.com/2025/07/28/gsk-jiangsu-hengrui-licensing-deal-copd-china/"
   },
   {
-    "id": "fiercebiotech-gsk-hengrui-12b-2025",
-    "authors": "James Waldron",
-    "title": "GSK strengthens COPD offering via $12B biobucks, 12-program deal with China's Hengrui Pharma",
-    "publisher": "Fierce Biotech",
-    "year": 2025,
-    "url": "https://www.fiercebiotech.com/biotech/gsk-strengthens-copd-offering-12b-biobucks-deal-chinas-hengrui-pharma"
-  },
-  {
     "id": "scmp-gsk-hengrui-12-5b-2025",
     "authors": "South China Morning Post",
     "title": "GSK signs US$12.5 billion licence deal with Hengrui as China rises in global pharmaceuticals",
@@ -5806,14 +4158,6 @@
     "publisher": "BioSpace",
     "year": 2023,
     "url": "https://www.biospace.com/gsk-inks-potential-1-7b-adc-deal-with-china-s-hansoh-pharma"
-  },
-  {
-    "id": "fiercebiotech-gsk-hansoh-185m-second-adc-2023",
-    "authors": "Nick Paul Taylor",
-    "title": "GSK heads back to Hansoh, paying $185M upfront for another ADC",
-    "publisher": "Fierce Biotech",
-    "year": 2023,
-    "url": "https://www.fiercebiotech.com/biotech/gsk-heads-back-hansoh-paying-185m-upfront-another-adc"
   },
   {
     "id": "gsk-zhifei-shingrix-2023",
@@ -5832,36 +4176,12 @@
     "url": "https://www.biopharmadive.com/news/gsk-shingrix-china-sales-zhifei-vaccine-partnership/695953/"
   },
   {
-    "id": "fiercepharma-gsk-zhifei-revised-2024",
-    "authors": "Angus Liu",
-    "title": "GSK cuts Shingrix deliveries in revised Zhifei China pact, moves closer to RSV vaccine deal",
-    "publisher": "Fierce Pharma",
-    "year": 2024,
-    "url": "https://www.fiercepharma.com/pharma/gsk-cuts-shingrix-delivery-revised-zhifei-china-pact-moves-closer-rsv-vaccine-deal"
-  },
-  {
     "id": "endpoints-gsk-zhifei-extend-2024",
     "authors": "Endpoints News",
     "title": "GSK extends Shingrix pact in China but for less money, adds RSV vaccine deal",
     "publisher": "Endpoints News",
     "year": 2024,
     "url": "https://endpoints.news/gsk-zhifei-extend-shingles-vaccine-pact-for-less-money/"
-  },
-  {
-    "id": "gsk-shanghai-rd-2007-launch",
-    "authors": "Chemical & Engineering News",
-    "title": "GSK to end neuroscience R&D in China",
-    "publisher": "C&EN",
-    "year": 2017,
-    "url": "https://cen.acs.org/articles/95/i33/GSK-end-neuroscience-RD-China.html"
-  },
-  {
-    "id": "fiercebiotech-gsk-shutter-shanghai-neuroscience-2017",
-    "authors": "Nick Paul Taylor",
-    "title": "GSK to shutter central neuroscience R&D hub in China",
-    "publisher": "Fierce Biotech",
-    "year": 2017,
-    "url": "https://www.fiercebiotech.com/biotech/gsk-to-shutter-central-neuroscience-r-d-hub-china"
   },
   {
     "id": "gsk-china-investigation-outcome-2014",
@@ -5888,14 +4208,6 @@
     "url": "https://www.globenewswire.com/news-release/2019/12/27/1964630/0/en/Zai-Lab-Announces-NMPA-Approval-of-ZEJULA-Niraparib-in-China-as-Maintenance-Therapy-for-Patients-with-Recurrent-Ovarian-Cancer.html"
   },
   {
-    "id": "zailab-zejula-nmpa-first-line-2020",
-    "authors": "Zai Lab",
-    "title": "Zai Lab Announces NMPA Approval of ZEJULA (Niraparib) for First-Line Maintenance Treatment of Ovarian Cancer in China",
-    "publisher": "Zai Lab",
-    "year": 2020,
-    "url": "https://zailab.gcs-web.com/news-releases/news-release-details/zai-lab-announces-nmpa-approval-zejular-niraparib-first-line"
-  },
-  {
     "id": "gsk-fy-2024-results-announcement",
     "authors": "GSK",
     "title": "GSK delivers strong 2024 performance with further improvement to long-term outlooks",
@@ -5910,22 +4222,6 @@
     "publisher": "Roche / Ad hoc announcement",
     "year": 2025,
     "url": "https://www.roche.com/media/releases/med-cor-2025-01-30"
-  },
-  {
-    "id": "roche-fy2024-appendix",
-    "authors": "Roche",
-    "title": "Communications appendix tables — FY 2024 Sales + Results",
-    "publisher": "Roche",
-    "year": 2025,
-    "url": "https://assets.roche.com/f/176343/2779ba6bb0/02-communications-appendix-tables_fy-2024-sales-results.pdf"
-  },
-  {
-    "id": "fiercebiotech-roche-innovent-ibi3009-2024",
-    "authors": "Fierce Biotech",
-    "title": "Roche returns to Innovent Biologics with new $1B biobucks ADC drug deal",
-    "publisher": "Fierce Biotech",
-    "year": 2025,
-    "url": "https://www.fiercebiotech.com/biotech/roche-returns-innovent-biologics-new-1b-biobucks-adc-drug-deal"
   },
   {
     "id": "medilink-roche-yl211-2024",
@@ -5952,14 +4248,6 @@
     "url": "https://www.prnewswire.com/news-releases/medilink-has-signed-an-additional-exclusive-licensing-agreement-with-roche-302656495.html"
   },
   {
-    "id": "fiercebiotech-roche-medilink-570m-2026",
-    "authors": "Fierce Biotech",
-    "title": "Roche returns to MediLink with promise of $570M near-term payments for another ADC",
-    "publisher": "Fierce Biotech",
-    "year": 2026,
-    "url": "https://www.fiercebiotech.com/biotech/roche-returns-medilink-promise-570m-near-term-payments-another-adc"
-  },
-  {
     "id": "biospace-roche-hansoh-cdh17-2025",
     "authors": "BioSpace",
     "title": "Roche Inks Another China ADC Pact With $1.5B Hansoh Bet",
@@ -5976,28 +4264,12 @@
     "url": "https://www.hspharm.com/news/news-detail-513371.htm"
   },
   {
-    "id": "fiercebiotech-roche-qyuns-bispecific-2025",
-    "authors": "Fierce Biotech",
-    "title": "Roche pens $1B deal for respiratory bispecific from China",
-    "publisher": "Fierce Biotech",
-    "year": 2025,
-    "url": "https://www.fiercebiotech.com/biotech/roche-pens-1b-biobucks-deal-chinese-companys-respiratory-disease-bispecific"
-  },
-  {
     "id": "endpoints-roche-qyuns-copd-2025",
     "authors": "Endpoints News",
     "title": "Roche promises $1B to China biotech for preclinical COPD bispecific",
     "publisher": "Endpoints News",
     "year": 2025,
     "url": "https://endpoints.news/roche-promises-1b-to-china-biotech-for-preclinical-copd-bispecific/"
-  },
-  {
-    "id": "fiercepharma-roche-vabysmo-china-plant-2025",
-    "authors": "Fierce Pharma",
-    "title": "Roche pledges nearly $300M to establish new Vabysmo production plant in China",
-    "publisher": "Fierce Pharma",
-    "year": 2025,
-    "url": "https://www.fiercepharma.com/pharma/roche-pledges-nearly-300m-establish-new-vabysmo-production-plant-china"
   },
   {
     "id": "yicai-roche-276m-shanghai-plant-2025",
@@ -6024,14 +4296,6 @@
     "url": "https://www.ciie.org/zbh/en/19us/ciie/BusEx/dialogues/20190326/15294.html"
   },
   {
-    "id": "shftz-roche-pudong-foothold-2021",
-    "authors": "Shanghai FTZ / China Daily",
-    "title": "Roche gains strong foothold in Pudong",
-    "publisher": "Shanghai Free Trade Zone (Pudong)",
-    "year": 2021,
-    "url": "http://en.china-shftz.gov.cn/2021-08/06/c_649353.htm"
-  },
-  {
     "id": "pudong-roche-2024-investment",
     "authors": "Pudong New Area Government",
     "title": "Roche continues to ramp up investment in China",
@@ -6046,22 +4310,6 @@
     "publisher": "Roche",
     "year": 2024,
     "url": "https://www.roche.com/innovation/structure/cicor"
-  },
-  {
-    "id": "roche-accelerator-press-release",
-    "authors": "Roche",
-    "title": "Roche to Empower China's Healthcare Ecosystem with New Accelerator — Grand Opening Ceremony",
-    "publisher": "Roche",
-    "year": 2023,
-    "url": "https://assets.roche.com/f/176343/x/36182cd341/press-release-roche-accelerator-grand-opening-ceremony.pdf"
-  },
-  {
-    "id": "fiercepharma-roche-biosimilar-china-nrdl",
-    "authors": "Fierce Pharma",
-    "title": "Roche hit by 'high-end' biosimilar attack as Ocrevus, Tecentriq bounce back from COVID-19 slowdown",
-    "publisher": "Fierce Pharma",
-    "year": 2021,
-    "url": "https://www.fiercepharma.com/pharma/roche-hit-by-high-end-biosimilar-attack-as-ocrevus-tecentriq-bounce-back-from-covid-slowdown"
   },
   {
     "id": "biosimilardevelopment-henlius-trastuzumab-2020",
@@ -6088,28 +4336,12 @@
     "url": "https://www.novartis.com/sites/novartis_com/files/2025-01-interim-financial-report-en.pdf"
   },
   {
-    "id": "fiercebiotech-novartis-shanghai-pivot-2019",
-    "authors": "Liu, Angus",
-    "title": "Novartis pivots Shanghai R&D site from early discovery to development",
-    "publisher": "Fierce Biotech",
-    "year": 2019,
-    "url": "https://www.fiercebiotech.com/biotech/novartis-pivots-shanghai-r-d-site-from-early-discovery-to-development"
-  },
-  {
     "id": "biopharmadive-novartis-china-rd-reshape-2019",
     "authors": "BioPharma Dive",
     "title": "Novartis reshapes China R&D hub to reflect rapidly evolving market",
     "publisher": "BioPharma Dive",
     "year": 2019,
     "url": "https://www.biopharmadive.com/news/novartis-reshapes-china-rd-hub-to-reflect-rapidly-evolving-market/567532/"
-  },
-  {
-    "id": "cen-novartis-invests-china-2006",
-    "authors": "Tremblay, Jean-François",
-    "title": "Novartis Invests in China",
-    "publisher": "Chemical & Engineering News",
-    "year": 2006,
-    "url": "https://cen.acs.org/content/cen/articles/84/web/2006/11/Novartis-Invests-China.html"
   },
   {
     "id": "chinadaily-novartis-china-2017",
@@ -6134,14 +4366,6 @@
     "publisher": "BioPharma Dive",
     "year": 2024,
     "url": "https://www.biopharmadive.com/news/novartis-argo-licensing-deal-angptl3-rna-china/759101/"
-  },
-  {
-    "id": "fiercebiotech-novartis-argo-5b-2025",
-    "authors": "Becker, Zoey",
-    "title": "Novartis returns to Argo for multifaceted $5B cardiovascular collab",
-    "publisher": "Fierce Biotech",
-    "year": 2025,
-    "url": "https://www.fiercebiotech.com/biotech/novartis-returns-argo-multi-faceted-5b-cardiovascular-collab"
   },
   {
     "id": "argo-novartis-multi-asset-2025",
@@ -6176,22 +4400,6 @@
     "url": "https://endpoints.news/novartis-pays-70m-upfront-on-licensing-deal-for-chengdu-baiyus-antitumor-drug/"
   },
   {
-    "id": "fiercebiotech-novartis-baiyu-2024",
-    "authors": "Fierce Biotech",
-    "title": "Novartis pays China's Baiyu $70M upfront, with $1.1B chaser, for small molecule cancer candidate",
-    "publisher": "Fierce Biotech",
-    "year": 2024,
-    "url": "https://www.fiercebiotech.com/biotech/novartis-pays-baiyu-70m-upfront-11b-chaser-small-molecule-cancer-candidate"
-  },
-  {
-    "id": "fiercepharma-novartis-haiyan-radioligand-85m",
-    "authors": "Fierce Pharma",
-    "title": "Novartis expands radiotherapy manufacturing network with $85M plant in China",
-    "publisher": "Fierce Pharma",
-    "year": 2023,
-    "url": "https://www.fiercepharma.com/manufacturing/novartis-expands-radiotherapy-manufacturing-network-85m-plant-china"
-  },
-  {
     "id": "yicai-novartis-second-china-base",
     "authors": "Yicai Global",
     "title": "Novartis Starts Building Second China Production Base for Innovative Drugs",
@@ -6214,14 +4422,6 @@
     "publisher": "China Daily",
     "year": 2024,
     "url": "https://www.chinadaily.com.cn/a/202407/09/WS668ca115a31095c51c50d25d.html"
-  },
-  {
-    "id": "moderna-shanghai-mou-2023-fiercepharma",
-    "authors": "Liu, A.",
-    "title": "Moderna strikes deal worth up to $1B to develop, produce mRNA drugs in China: reports",
-    "publisher": "Fierce Pharma",
-    "year": 2023,
-    "url": "https://www.fiercepharma.com/pharma/moderna-telegraphs-deal-worth-1b-develop-mrna-drugs-china-report"
   },
   {
     "id": "moderna-china-plant-groundbreaking-xinhua-2023",
@@ -6272,14 +4472,6 @@
     "url": "https://www.scmp.com/business/china-business/article/3226614/us-vaccine-maker-moderna-set-sign-us1-billion-investment-deal-shanghai-it-takes-steps-tap-china"
   },
   {
-    "id": "moderna-refused-china-tech-transfer-bloomberg-2022",
-    "authors": "Bloomberg News",
-    "title": "Moderna Refused China Request to Reveal Vaccine Technology: FT",
-    "publisher": "Bloomberg",
-    "year": 2022,
-    "url": "https://www.bloomberg.com/news/articles/2022-10-02/moderna-refused-china-request-to-reveal-vaccine-technology-ft"
-  },
-  {
     "id": "fortune-china-rejected-mrna-vaccines-2022",
     "authors": "Lucas, A.",
     "title": "China has rejected world's top mRNA COVID vaccines — Now, it's making its own",
@@ -6302,14 +4494,6 @@
     "publisher": "Wikipedia",
     "year": 2025,
     "url": "https://en.wikipedia.org/wiki/Moderna"
-  },
-  {
-    "id": "biospace-moderna-q4-2024",
-    "authors": "BioSpectrum Asia",
-    "title": "Moderna Reports $966M Q4 2024 Revenue Amid COVID-19 Vaccine Decline, Focuses on mRNA Pipeline Expansion",
-    "publisher": "BioSpectrum Asia",
-    "year": 2025,
-    "url": "https://biospectrumasia.com/company-results/102/25590/moderna-reports-966m-q4-2024-revenue-amid-covid-19-vaccine-decline-focuses-on-mrna-pipeline-expansion.html"
   },
   {
     "id": "moderna-2025-shareholder-letter",
@@ -6350,22 +4534,6 @@
     "publisher": "BioPharma Dive",
     "year": 2021,
     "url": "https://www.biopharmadive.com/news/seagen-remegen-antibody-drug-conjugate-china-her2/604644/"
-  },
-  {
-    "id": "businesswire-seattle-genetics-name-change-seagen-2020",
-    "authors": "BusinessWire",
-    "title": "Seattle Genetics, Inc. Announces Corporate Name Change to Seagen Inc.",
-    "publisher": "BusinessWire",
-    "year": 2020,
-    "url": "https://www.businesswire.com/news/home/20201008005358/en/Seattle-Genetics-Inc.-Announces-Corporate-Name-Change-to-Seagen-Inc."
-  },
-  {
-    "id": "fiercepharma-seattle-genetics-rebrand-seagen-2020",
-    "authors": "Fierce Pharma",
-    "title": "Seattle Genetics shortens name to Seagen, dropping local connection as it goes global",
-    "publisher": "Fierce Pharma",
-    "year": 2020,
-    "url": "https://www.fiercepharma.com/marketing/seattle-genetics-shortens-name-to-seagen-dropping-local-seattle-as-it-goes-global"
   },
   {
     "id": "pfizer-completes-acquisition-seagen-2023",
@@ -6480,14 +4648,6 @@
     "url": "https://endpoints.news/with-new-10-6b-fund-hillhouse-capital-sets-the-stage-for-splashy-asia-focused-biotech-deals/"
   },
   {
-    "id": "institutional-investor-hillhouse-10b-2018",
-    "authors": "Institutional Investor staff",
-    "title": "Hillhouse Raises $10.6 Billion for Latest Private Equity Fund",
-    "publisher": "Institutional Investor",
-    "year": 2018,
-    "url": "https://www.institutionalinvestor.com/article/2bsxnp1o13l7lkotgdukg/portfolio/hillhouse-raises-10-6-billion-for-latest-private-equity-fund"
-  },
-  {
     "id": "qiming-about-page",
     "authors": "Qiming Venture Partners",
     "title": "About Us",
@@ -6510,22 +4670,6 @@
     "publisher": "The Wire China",
     "year": 2026,
     "url": "https://www.thewirechina.com/2026/02/15/bridging-the-pacific-qiming-venture-partners/"
-  },
-  {
-    "id": "caproasia-qiming-fund-2025",
-    "authors": "Caproasia",
-    "title": "China $9.5 Billion Venture Capital Firm Qiming Venture Partners New China AI & Healthcare Fund",
-    "publisher": "Caproasia",
-    "year": 2025,
-    "url": "https://www.caproasia.com/2025/08/19/china-9-5-billion-venture-capital-firm-qiming-venture-partners-new-china-ai-healthcare-fund-to-raise-600-million-instead-of-initial-target-of-800-million-with-1-billion-hard-cap-2-5-billion-ra/"
-  },
-  {
-    "id": "innovent-series-a-fprime-2011",
-    "authors": "Crunchbase",
-    "title": "Innovent Biologics Series A funding round (October 2011)",
-    "publisher": "Crunchbase",
-    "year": 2011,
-    "url": "https://www.crunchbase.com/funding_round/innovent-biologics-series-a--922bc0e0"
   },
   {
     "id": "lav-about-page",
@@ -6590,14 +4734,6 @@
     "publisher": "South China Morning Post",
     "year": 2023,
     "url": "https://www.scmp.com/tech/tech-trends/article/3223548/sequoia-china-goes-solo-under-hongshan-brand-sign-bromance-between-us-funds-and-china-tech-start-ups"
-  },
-  {
-    "id": "innovent-sequoia-china-investment",
-    "authors": "HongShan / Sequoia Capital China",
-    "title": "Innovent Biologics — Sequoia Capital China portfolio company page",
-    "publisher": "HongShan (formerly Sequoia Capital China)",
-    "year": 2024,
-    "url": "https://sequoiacap.cn/en/companies/innovent"
   },
   {
     "id": "shanghaitech-wikipedia",
@@ -6752,36 +4888,12 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/35337339/"
   },
   {
-    "id": "fudan-hospital-rankings-oncology-2022",
-    "authors": "Fudan University Hospital Management Institute",
-    "title": "2022 China Hospital Specialty Reputation Rankings — Oncology",
-    "publisher": "Fudan University Hospital Management Institute (via cn-healthcare)",
-    "year": 2023,
-    "url": "https://rank.cn-healthcare.com/fudan/specialty-general/year/2022/sid/2"
-  },
-  {
-    "id": "nibs-about-en",
-    "authors": "National Institute of Biological Sciences, Beijing",
-    "title": "About NIBS",
-    "publisher": "NIBS Beijing (official site)",
-    "year": 2025,
-    "url": "http://www.nibs.ac.cn/en/about.php?cid=2&sid=3"
-  },
-  {
     "id": "wang-xiaodong-wikipedia",
     "authors": "Wikipedia contributors",
     "title": "Xiaodong Wang (biochemist)",
     "publisher": "Wikipedia",
     "year": 2025,
     "url": "https://en.wikipedia.org/wiki/Xiaodong_Wang_(biochemist)"
-  },
-  {
-    "id": "wang-xiaodong-pnas-profile",
-    "authors": "Dove, A.",
-    "title": "Profile of Xiaodong Wang",
-    "publisher": "Proceedings of the National Academy of Sciences (PNAS)",
-    "year": 2006,
-    "url": "https://www.pnas.org/doi/10.1073/pnas.0509187103"
   },
   {
     "id": "liu-cytochrome-c-cell-1996",
@@ -6798,14 +4910,6 @@
     "publisher": "Cell 90(3): 405–413",
     "year": 1997,
     "url": "https://pubmed.ncbi.nlm.nih.gov/9267021/"
-  },
-  {
-    "id": "wang-mlkl-necroptosis-nibs",
-    "authors": "NIBS Beijing",
-    "title": "Dr. Xiaodong Wang's group digs into the molecular mechanism of necrosis (RIP3 / MLKL)",
-    "publisher": "NIBS Beijing News",
-    "year": 2014,
-    "url": "http://www.nibs.ac.cn/en/newsshow.php?cid=4&sid=15&id=1099"
   },
   {
     "id": "shao-caspase11-lps-nature-2014",
@@ -6856,14 +4960,6 @@
     "url": "https://www.eurekalert.org/news-releases/850825"
   },
   {
-    "id": "nibs-tang-nan-cellstemcell-2024",
-    "authors": "NIBS Beijing / Tang Lab",
-    "title": "Sustained amphiregulin expression in intermediate alveolar stem cells drives progressive fibrosis (Nan Tang lab profile)",
-    "publisher": "NIBS Beijing — Scientists & Research",
-    "year": 2024,
-    "url": "http://www.nibs.ac.cn/en/yjsjyimgshow.php?cid=5&sid=6&id=756"
-  },
-  {
     "id": "tsinghua-sls-history",
     "authors": "School of Life Sciences, Tsinghua University",
     "title": "School History — School of Life Sciences, Tsinghua University",
@@ -6912,44 +5008,12 @@
     "url": "https://www.tsinghua.edu.cn/en/info/1245/4993.htm"
   },
   {
-    "id": "tsinghua-shi-spliceosome-science-2015",
-    "authors": "Tsinghua University News",
-    "title": "Prof. Yigong Shi's group reported the structure of yeast spliceosome and the splicing mechanism in two Science articles",
-    "publisher": "Tsinghua University",
-    "year": 2015,
-    "url": "https://news.tsinghua.edu.cn/en/info/1021/1915.htm"
-  },
-  {
-    "id": "shi-gamma-secretase-nature-2015",
-    "authors": "Bai X-C, Yan C, Yang G, Lu P, Ma D, Sun L, Zhou R, Scheres SHW, Shi Y",
-    "title": "An atomic structure of human γ-secretase",
-    "publisher": "Nature",
-    "year": 2015,
-    "url": "https://www.nature.com/articles/nature14892"
-  },
-  {
     "id": "nieng-yan-wikipedia",
     "authors": "Wikipedia contributors",
     "title": "Yan Ning (Nieng Yan)",
     "publisher": "Wikipedia",
     "year": 2025,
     "url": "https://en.wikipedia.org/wiki/Yan_Ning"
-  },
-  {
-    "id": "yan-glut1-princeton",
-    "authors": "Deng D, Xu C, Sun P, Wu J, Yan C, Hu M, Yan N",
-    "title": "Crystal structure of the human glucose transporter GLUT1",
-    "publisher": "Nature (Princeton record)",
-    "year": 2014,
-    "url": "https://collaborate.princeton.edu/en/publications/crystal-structure-of-the-human-glucose-transporter-glut1/"
-  },
-  {
-    "id": "yan-nav16-pnas-2023",
-    "authors": "Fan X, Huang J, Jin X, Yan N",
-    "title": "Cryo-EM structure of human voltage-gated sodium channel Nav1.6",
-    "publisher": "Proceedings of the National Academy of Sciences",
-    "year": 2023,
-    "url": "https://www.pnas.org/doi/10.1073/pnas.2220578120"
   },
   {
     "id": "wang-hongwei-frcbs-bio",
@@ -6976,14 +5040,6 @@
     "url": "https://www.iitu.tsinghua.edu.cn/2024/0122/c814a5617/page.htm"
   },
   {
-    "id": "dong-th17-nri-2021",
-    "authors": "Dong C",
-    "title": "Defining the TH17 cell lineage",
-    "publisher": "Nature Reviews Immunology",
-    "year": 2021,
-    "url": "https://www.nature.com/articles/s41577-021-00596-x"
-  },
-  {
     "id": "tsinghua-icsb-overview",
     "authors": "Beijing Frontier Research Center for Biological Structure (formerly Beijing Advanced Innovation Center for Structural Biology)",
     "title": "Overview — Beijing Frontier Research Center for Biological Structure, Tsinghua",
@@ -6998,22 +5054,6 @@
     "publisher": "Tsinghua University",
     "year": 2024,
     "url": "https://thuem.net/"
-  },
-  {
-    "id": "cls-tsinghua-pku",
-    "authors": "Tsinghua-Peking Center for Life Sciences",
-    "title": "Center For Life Sciences (CLS) — overview",
-    "publisher": "Tsinghua University & Peking University",
-    "year": 2024,
-    "url": "http://www.cls.edu.cn/en/"
-  },
-  {
-    "id": "innocare-cui-yigong-shi",
-    "authors": "PharmaBoardroom",
-    "title": "Jasmine Cui — Founder & CEO, InnoCare (interview)",
-    "publisher": "PharmaBoardroom",
-    "year": 2023,
-    "url": "https://pharmaboardroom.com/interviews/jasmine-cui-founder-ceo-innocare/"
   },
   {
     "id": "sineugene-about-tsinghua",
@@ -7080,52 +5120,12 @@
     "url": "https://newsen.pku.edu.cn/news_events/news/focus/6288.html"
   },
   {
-    "id": "zong-malbac-science-2012",
-    "authors": "Zong, C., Lu, S., Chapman, A. R., Xie, X. S.",
-    "title": "Genome-wide detection of single-nucleotide and copy-number variations of a single human cell",
-    "publisher": "Science 338(6114): 1622–1626",
-    "year": 2012,
-    "url": "https://www.science.org/doi/10.1126/science.1229164"
-  },
-  {
     "id": "pku-malbac-baby-2014",
     "authors": "Peking University News",
     "title": "The first IVF baby born following MALBAC-based whole genome screening",
     "publisher": "Peking University (English news)",
     "year": 2014,
     "url": "https://english.pku.edu.cn/news_events/news/research/2031.html"
-  },
-  {
-    "id": "yan-marsala-pnas-2015",
-    "authors": "Yan, L., Huang, L., Xu, L., Huang, J., Ma, F., Zhu, X., Tang, Y., Liu, M., Lian, Y., Liu, P., Li, R., Lu, S., Tang, F., Qiao, J., Xie, X. S.",
-    "title": "Live births after simultaneous avoidance of monogenic diseases and chromosome abnormality by next-generation sequencing with linkage analyses (MARSALA)",
-    "publisher": "Proceedings of the National Academy of Sciences (PNAS) 112(52): 15964–15969",
-    "year": 2015,
-    "url": "https://www.pnas.org/doi/10.1073/pnas.1523297113"
-  },
-  {
-    "id": "tang-mrna-seq-natmethods-2009",
-    "authors": "Tang, F., Barbacioru, C., Wang, Y., Nordman, E., Lee, C., Xu, N., Wang, X., Bodeau, J., Tuch, B. B., Siddiqui, A., Lao, K., Surani, M. A.",
-    "title": "mRNA-Seq whole-transcriptome analysis of a single cell",
-    "publisher": "Nature Methods 6(5): 377–382",
-    "year": 2009,
-    "url": "https://www.nature.com/articles/nmeth.1315"
-  },
-  {
-    "id": "tang-fuchou-pku-faculty",
-    "authors": "Beijing Advanced Innovation Center for Genomics, Peking University",
-    "title": "Fuchou Tang — Faculty profile",
-    "publisher": "ICG, Peking University",
-    "year": 2025,
-    "url": "https://icg.pku.edu.cn/en/research/faculty/269372.htm"
-  },
-  {
-    "id": "zhu-scmethylome-natgenet-2018",
-    "authors": "Zhu, P., Guo, H., Ren, Y., Hou, Y., Dong, J., Li, R., Lian, Y., Fan, X., Hu, B., Gao, Y., Wang, X., Wei, Y., Liu, P., Yan, J., Ren, X., Yuan, P., Yuan, Y., Yan, Z., Wen, L., Yan, L., Qiao, J., Tang, F.",
-    "title": "Single-cell DNA methylome sequencing of human preimplantation embryos",
-    "publisher": "Nature Genetics 50(1): 12–19",
-    "year": 2018,
-    "url": "https://www.nature.com/articles/s41588-017-0007-6"
   },
   {
     "id": "deng-hongkui-wikipedia",
@@ -7136,44 +5136,12 @@
     "url": "https://en.wikipedia.org/wiki/Deng_Hongkui"
   },
   {
-    "id": "hou-cipsc-science-2013",
-    "authors": "Hou, P., Li, Y., Zhang, X., Liu, C., Guan, J., Li, H., Zhao, T., Ye, J., Yang, W., Liu, K., Ge, J., Xu, J., Zhang, Q., Zhao, Y., Deng, H.",
-    "title": "Pluripotent stem cells induced from mouse somatic cells by small-molecule compounds",
-    "publisher": "Science 341(6146): 651–654",
-    "year": 2013,
-    "url": "https://www.science.org/doi/10.1126/science.1239278"
-  },
-  {
-    "id": "guan-hcipsc-nature-2022",
-    "authors": "Guan, J., Wang, G., Wang, J., Zhang, Z., Fu, Y., Cheng, L., Meng, G., Lyu, Y., Zhu, J., Li, Y., Wang, Y., Liuyang, S., Liu, B., Yang, Z., He, H., Zhong, X., Chen, Q., Zhang, X., Sun, S., Lai, W., Shi, Y., Liu, L., Wang, L., Li, C., Lu, S., Deng, H.",
-    "title": "Chemical reprogramming of human somatic cells to pluripotent stem cells",
-    "publisher": "Nature 605(7909): 325–331",
-    "year": 2022,
-    "url": "https://www.nature.com/articles/s41586-022-04593-5"
-  },
-  {
-    "id": "xu-ccr5-nejm-2019",
-    "authors": "Xu, L., Wang, J., Liu, Y., Xie, L., Su, B., Mou, D., Wang, L., Liu, T., Wang, X., Zhang, B., Zhao, L., Hu, L., Ning, H., Zhang, Y., Deng, K., Liu, L., Lu, X., Zhang, T., Xu, J., Li, C., Wu, H., Deng, H., Chen, H.",
-    "title": "CRISPR-edited stem cells in a patient with HIV and acute lymphocytic leukemia",
-    "publisher": "New England Journal of Medicine 381(13): 1240–1247",
-    "year": 2019,
-    "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1817426"
-  },
-  {
     "id": "deng-future-science-2024",
     "authors": "Future Science Prize Foundation",
     "title": "2024 The Life Science Prize Laureate — Hongkui Deng",
     "publisher": "Future Science Prize",
     "year": 2024,
     "url": "http://www.futureprize.org/en/laureates/detail/87.html"
-  },
-  {
-    "id": "cheng-sparks-science-1993",
-    "authors": "Cheng, H., Lederer, W. J., Cannell, M. B.",
-    "title": "Calcium sparks: elementary events underlying excitation-contraction coupling in heart muscle",
-    "publisher": "Science 262(5134): 740–744",
-    "year": 1993,
-    "url": "https://www.science.org/doi/10.1126/science.8235594"
   },
   {
     "id": "cheng-heping-pku-faculty",
@@ -7192,36 +5160,12 @@
     "url": "https://icg.pku.edu.cn/en/research/faculty/62icg_en269363.htm"
   },
   {
-    "id": "cao-bd368-cell-2020",
-    "authors": "Cao, Y., Su, B., Guo, X., Sun, W., Deng, Y., Bao, L., Zhu, Q., Zhang, X., Zheng, Y., Geng, C., Chai, X., He, R., Li, X., Lv, Q., Zhu, H., Deng, W., Xu, Y., Wang, Y., Qiao, L., Tan, Y., Song, L., Wang, G., Du, X., Gao, N., Liu, J., Xiao, J., Su, X., Du, Z., Feng, Y., Qin, C., Qin, C., Jin, R., Xie, X. S.",
-    "title": "Potent Neutralizing Antibodies against SARS-CoV-2 Identified by High-Throughput Single-Cell Sequencing of Convalescent Patients' B Cells",
-    "publisher": "Cell 182(1): 73–84.e16",
-    "year": 2020,
-    "url": "https://www.cell.com/cell/fulltext/S0092-8674(20)30620-6"
-  },
-  {
-    "id": "cao-omicron-nature-2022",
-    "authors": "Cao, Y., Wang, J., Jian, F., Xiao, T., Song, W., Yisimayi, A., Huang, W., Li, Q., Wang, P., An, R., Wang, J., Wang, Y., Niu, X., Yang, S., Liang, H., Sun, H., Li, T., Yu, Y., Cui, Q., Liu, S., Yang, X., Du, S., Zhang, Z., Hao, X., Shao, F., Jin, R., Wang, X., Xiao, J., Wang, Y., Xie, X. S.",
-    "title": "Omicron escapes the majority of existing SARS-CoV-2 neutralizing antibodies",
-    "publisher": "Nature 602(7898): 657–663",
-    "year": 2022,
-    "url": "https://www.nature.com/articles/s41586-021-04385-3"
-  },
-  {
     "id": "rao-yi-wikipedia",
     "authors": "Wikipedia contributors",
     "title": "Rao Yi",
     "publisher": "Wikipedia",
     "year": 2025,
     "url": "https://en.wikipedia.org/wiki/Rao_Yi"
-  },
-  {
-    "id": "tsinghua-pku-cls-about",
-    "authors": "Tsinghua–Peking Center for Life Sciences",
-    "title": "About us — Tsinghua–Peking Joint Center for Life Sciences",
-    "publisher": "CLS (official site)",
-    "year": 2025,
-    "url": "http://www.cls.edu.cn/en/Aboutus/About_us.htm"
   },
   {
     "id": "fudan-university-wikipedia",
@@ -7288,46 +5232,6 @@
     "url": "https://virological.org/t/novel-2019-coronavirus-genome/319"
   },
   {
-    "id": "wu-zhang-holmes-nature-2020-sars-cov-2",
-    "authors": "Wu, F., Zhao, S., Yu, B., Chen, Y.-M., Wang, W., Song, Z.-G., Hu, Y., Tao, Z.-W., Tian, J.-H., Pei, Y.-Y., Yuan, M.-L., Zhang, Y.-L., Dai, F.-H., Liu, Y., Wang, Q.-M., Zheng, J.-J., Xu, L., Holmes, E. C., Zhang, Y.-Z.",
-    "title": "A new coronavirus associated with human respiratory disease in China",
-    "publisher": "Nature",
-    "year": 2020,
-    "url": "https://www.nature.com/articles/s41586-020-2008-3"
-  },
-  {
-    "id": "zhang-yongzhen-cnn-2024-sit-in",
-    "authors": "Gan, N., Wang, S.",
-    "title": "Chinese virologist Zhang Yongzhen, who shared crucial Covid-19 data, sleeps on street after lab shut",
-    "publisher": "CNN",
-    "year": 2024,
-    "url": "https://edition.cnn.com/2024/04/30/china/zhang-yongzhen-china-scientist-protest-intl-hnk-scn"
-  },
-  {
-    "id": "zhang-yongzhen-nature-2024-lab",
-    "authors": "Mallapaty, S.",
-    "title": "Chinese virologist who was first to share COVID-19 genome sleeps on street after lab shuts",
-    "publisher": "Nature",
-    "year": 2024,
-    "url": "https://www.nature.com/articles/d41586-024-01293-0"
-  },
-  {
-    "id": "xu-guoliang-tet3-nature-2011",
-    "authors": "Gu, T.-P., Guo, F., Yang, H., Wu, H.-P., Xu, G.-F., Liu, W., Xie, Z.-G., Shi, L., He, X., Jin, S., Iqbal, K., Shi, Y. G., Deng, Z., Szabó, P. E., Pfeifer, G. P., Li, J., Xu, G.-L.",
-    "title": "The role of Tet3 DNA dioxygenase in epigenetic reprogramming by oocytes",
-    "publisher": "Nature",
-    "year": 2011,
-    "url": "https://www.nature.com/articles/nature10443"
-  },
-  {
-    "id": "xu-guoliang-tet3-oocyte-nature-2022",
-    "authors": "Chen, B., Du, Y.-R., Zhu, H., Sun, M.-L., Wang, C., Cheng, Y., Pang, H., Ding, G., Gao, J., Tan, Y., Tong, X., Lv, P., Zhou, F., Zhan, Q., Xu, Z.-M., Wang, L., Luo, D., Ye, Y., Jin, L., Zhang, S., Zhu, Y., Lin, X., Wu, F., Wang, L., Huang, H., Sheng, J., Wang, H., Zhu, Y., Liu, T., Meng, Y., Xu, G.-L.",
-    "title": "Maternal inheritance of glucose intolerance via oocyte TET3 insufficiency",
-    "publisher": "Nature",
-    "year": 2022,
-    "url": "https://www.nature.com/articles/s41586-022-04756-4"
-  },
-  {
     "id": "fudan-yanhui-xu-2021-fudan-en",
     "authors": "Fudan University News",
     "title": "Yanhui Xu: true complexity of life is still beyond us (profile)",
@@ -7344,36 +5248,12 @@
     "url": "https://www.fudan.edu.cn/en/2022/0118/c344a130014/page.htm"
   },
   {
-    "id": "junbo-ge-scai-bio",
-    "authors": "Society for Cardiovascular Angiography and Interventions",
-    "title": "Junbo Ge, MD — Biographical profile (Director, Cardiology, Zhongshan Hospital, Fudan; CAS academician)",
-    "publisher": "SCAI",
-    "year": 2023,
-    "url": "https://scai.org/junbo-ge-md"
-  },
-  {
-    "id": "fudan-iobs-yang-xiongli-bio",
-    "authors": "Institutes of Brain Science, Fudan University",
-    "title": "Prof. Xiong-Li Yang — biographical page (founding director, IOBS)",
-    "publisher": "IOBS, Fudan University (official site)",
-    "year": 2023,
-    "url": "https://iobs.fudan.edu.cn/iobsenglish/9b/b0/c17668a170928/page.htm"
-  },
-  {
     "id": "fudan-life-sciences-en",
     "authors": "Fudan University",
     "title": "School of Life Sciences (English overview; Dean Lin Xinhua)",
     "publisher": "Fudan University (official, English)",
     "year": 2024,
     "url": "https://www.fudan.edu.cn/en/2019/0513/c295a96649/page.htm"
-  },
-  {
-    "id": "fudan-tnbc-future-umbrella-cell-research-2020",
-    "authors": "Jiang, Y.-Z., Liu, Y., Xiao, Y., Hu, X., Jiang, L., Zuo, W.-J., Ma, D., Ding, J., Zhu, X., Zou, J., Verschraegen, C., Stover, D. G., Kaklamani, V., Wang, Z.-H., Shao, Z.-M.",
-    "title": "Molecular subtyping and genomic profiling expand precision medicine in refractory metastatic triple-negative breast cancer: the FUTURE trial",
-    "publisher": "Cell Research",
-    "year": 2020,
-    "url": "https://www.nature.com/articles/s41422-020-0375-9"
   },
   {
     "id": "future-super-tnbc-lancet-oncology-2024",
@@ -7400,14 +5280,6 @@
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4003112/"
   },
   {
-    "id": "simm-about-en",
-    "authors": "Shanghai Institute of Materia Medica, CAS",
-    "title": "About Us — Brief Introduction",
-    "publisher": "SIMM (official English site)",
-    "year": 2024,
-    "url": "http://english.simm.cas.cn/au/bi/"
-  },
-  {
     "id": "ibp-cas-wikipedia",
     "authors": "Wikipedia contributors",
     "title": "Institute of Biophysics, Chinese Academy of Sciences",
@@ -7422,14 +5294,6 @@
     "publisher": "Current Opinion in Structural Biology / PMC",
     "year": 2005,
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7127763/"
-  },
-  {
-    "id": "rao-zihe-cen-covid-2020",
-    "authors": "Arnaud, C. H.",
-    "title": "How structural biologists revealed the new coronavirus's structure so quickly",
-    "publisher": "Chemical & Engineering News (ACS)",
-    "year": 2020,
-    "url": "https://cen.acs.org/analytical-chemistry/structural-biology/structural-biologists-revealed-new-coronaviruss/98/i17"
   },
   {
     "id": "gao-fu-wikipedia",
@@ -7456,14 +5320,6 @@
     "url": "https://en.wikipedia.org/wiki/Mu-ming_Poo"
   },
   {
-    "id": "ion-monkey-clone-cell-2018",
-    "authors": "Liu, Z., Cai, Y., Wang, Y., Nie, Y., Zhang, C., … Sun, Q.",
-    "title": "Cloning of Macaque Monkeys by Somatic Cell Nuclear Transfer",
-    "publisher": "Cell",
-    "year": 2018,
-    "url": "https://www.cell.com/fulltext/S0092-8674(18)30057-6"
-  },
-  {
     "id": "geng-meiyu-gv971-cas",
     "authors": "Chinese Academy of Sciences",
     "title": "GV-971 Drug Brings Hope for Alzheimer's Treatment",
@@ -7480,36 +5336,12 @@
     "url": "https://www.prnewswire.com/news-releases/green-valley-announces-nmpa-approval-of-oligomannate-for-mild-to-moderate-alzheimers-disease-300950349.html"
   },
   {
-    "id": "cemcs-rename-2020",
-    "authors": "CAS Center for Excellence in Molecular Cell Science",
-    "title": "About Us — CEMCS (renamed from SIBCB, March 2020)",
-    "publisher": "CEMCS (official English site)",
-    "year": 2024,
-    "url": "http://english.cemcs.cas.cn/about/"
-  },
-  {
     "id": "project-523-wikipedia",
     "authors": "Wikipedia contributors",
     "title": "Project 523",
     "publisher": "Wikipedia",
     "year": 2025,
     "url": "https://en.wikipedia.org/wiki/Project_523"
-  },
-  {
-    "id": "cas-knowledge-innovation-program",
-    "authors": "Chinese Academy of Sciences",
-    "title": "National Knowledge Innovation Program — CAS History",
-    "publisher": "CAS (official English site)",
-    "year": 2022,
-    "url": "https://english.cas.cn/about_us/introduction/CAS_History/202212/t20221201_325183.shtml"
-  },
-  {
-    "id": "mckinsey-china-biopharma-dawn-2021",
-    "authors": "Han, K., Le Deu, F., Zhang, F., Zhou, J.",
-    "title": "The dawn of China biopharma innovation",
-    "publisher": "McKinsey & Company",
-    "year": 2021,
-    "url": "https://www.mckinsey.com/industries/life-sciences/our-insights/the-dawn-of-china-biopharma-innovation"
   },
   {
     "id": "mabwell-about-en",
@@ -7534,22 +5366,6 @@
     "publisher": "BioWorld",
     "year": 2026,
     "url": "https://www.bioworld.com/articles/730578-mabwell-turns-to-hong-kong-to-fund-adc-ambitions"
-  },
-  {
-    "id": "caproasia-mabwell-hk-ipo-2026",
-    "authors": "Caproasia",
-    "title": "China $2.2 Billion Pharmaceutical Company Mabwell (Shanghai) Bioscience Hong Kong Secondary Listing IPO to Raise $185 Million",
-    "publisher": "Caproasia",
-    "year": 2026,
-    "url": "https://www.caproasia.com/2026/04/25/china-2-2-billion-pharmaceutical-company-mabwell-shanghai-bioscience-hong-kong-secondary-listing-ipo-to-raise-185-million-with-expected-ipo-listing-on-28th-april-2026-founded-in-2017-by-datao-liu/"
-  },
-  {
-    "id": "hkex-mabwell-prospectus-2026",
-    "authors": "Mabwell (Shanghai) Bioscience",
-    "title": "Global Offering Prospectus (Hong Kong)",
-    "publisher": "HKEXnews",
-    "year": 2026,
-    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0420/2026042000005.pdf"
   },
   {
     "id": "goodwin-mabwell-junmaikang-2022",
@@ -7632,14 +5448,6 @@
     "url": "https://stockanalysis.com/quote/sha/688062/company/"
   },
   {
-    "id": "fosun-kite-fosunpharma-jv-establishment",
-    "authors": "Shanghai Fosun Pharmaceutical",
-    "title": "Fosun Pharma and Kite Pharma Establish Cooperative Enterprise in China",
-    "publisher": "Fosun Kite Bio (corporate site)",
-    "year": 2017,
-    "url": "http://www.fosunkitebio.com/en/news/details-65.html"
-  },
-  {
     "id": "gilead-kite-fosun-jv-2017",
     "authors": "Gilead Sciences",
     "title": "Kite Pharma and Fosun Pharma Establish Joint Venture in China to Develop and Commercialize Autologous T-Cell Therapies to Treat Cancer",
@@ -7672,14 +5480,6 @@
     "url": "https://www.fiercepharma.com/pharma/gileads-kite-exits-china-cell-therapy-jv-fosun-pharma"
   },
   {
-    "id": "pharmaletter-fosun-buys-kite-stake-2024",
-    "authors": "The Pharma Letter",
-    "title": "Fosun Pharma secures full ownership of Fosun Kite with $27 million deal",
-    "publisher": "The Pharma Letter",
-    "year": 2024,
-    "url": "https://www.thepharmaletter.com/biotechnology/fosun-pharma-secures-full-ownership-of-fosun-kite-with-27-million-dollar-deal"
-  },
-  {
     "id": "clifford-chance-fosun-kairos-license-2025",
     "authors": "Clifford Chance",
     "title": "Clifford Chance advises Fosun Kairos on License Agreement with Kite Pharma",
@@ -7710,14 +5510,6 @@
     "publisher": "MarketScreener",
     "year": 2022,
     "url": "https://www.marketscreener.com/quote/stock/MGI-TECH-CO-LTD-148161328/news/MGI-Tech-Co-Ltd-has-completed-an-IPO-in-the-amount-of-CNY-3-602232-billion-44168046/"
-  },
-  {
-    "id": "mgi-tech-2025-earnings-flash",
-    "authors": "Futu News",
-    "title": "MGI Tech (688114.SH) 2025 Earnings Flash Report: Loss Narrows by Over 60% Year-on-Year; Domestic Market Share Approximately 70%",
-    "publisher": "Futu News",
-    "year": 2026,
-    "url": "https://news.futunn.com/en/post/69355962/mgi-tech-688114-sh-2025-earnings-flash-report-loss-narrows"
   },
   {
     "id": "mgi-tech-2024-annual-marketscreener",
@@ -7776,14 +5568,6 @@
     "url": "https://stockanalysis.com/quote/sha/688114/market-cap/"
   },
   {
-    "id": "lek-china-trials-2019",
-    "authors": "Baeder, K. and Zhang, H.",
-    "title": "China's Clinical Trial Landscape",
-    "publisher": "L.E.K. Consulting Executive Insights, Vol. XXI, Issue 65",
-    "year": 2019,
-    "url": "https://www.pharmexec.com/view/china-s-trial-advantage-tracking-nation-s-growth-in-pharma-innovation-and-global-investment"
-  },
-  {
     "id": "iqvia-global-oncology-trends-2025",
     "authors": "IQVIA Institute for Human Data Science",
     "title": "Global Oncology Trends 2025",
@@ -7792,68 +5576,12 @@
     "url": "https://www.iqvia.com/insights/the-iqvia-institute/reports-and-publications/reports/global-oncology-trends-2025"
   },
   {
-    "id": "mckinsey-vision-2028-china",
-    "authors": "Han, K., Le Deu, F., Lou, S., Zhou, J.",
-    "title": "Vision 2028: How China could impact the global biopharma industry",
-    "publisher": "McKinsey & Company",
-    "year": 2024,
-    "url": "https://www.mckinsey.com/industries/life-sciences/our-insights/vision-2028-how-china-could-impact-the-global-biopharma-industry"
-  },
-  {
-    "id": "labiotech-patent-cliff-2025",
-    "authors": "Labiotech",
-    "title": "The next pharma patent cliff: how 2026-2032 will reshape revenue",
-    "publisher": "Labiotech.eu",
-    "year": 2025,
-    "url": "https://www.labiotech.eu/best-biotech/pharma-patent-cliff/"
-  },
-  {
     "id": "fiercebiotech-china-230pct-2026",
     "authors": "Park, A.",
     "title": "After 230% deal size explosion, China is no longer the 'bargain basement'",
     "publisher": "Fierce Biotech",
     "year": 2026,
     "url": "https://www.fiercebiotech.com/biotech/analyst-china-no-longer-bargain-basement-biotech-acquisitions"
-  },
-  {
-    "id": "hsi-biotech-factsheet-2025",
-    "authors": "Hang Seng Indexes Co.",
-    "title": "Hang Seng Biotech Index Factsheet",
-    "publisher": "Hang Seng Indexes Co.",
-    "year": 2025,
-    "url": "https://www.hsi.com.hk/eng/hsbio"
-  },
-  {
-    "id": "beone-q4-2025-earnings",
-    "authors": "BeOne Medicines",
-    "title": "Fourth Quarter and Full Year 2025 Financial Results",
-    "publisher": "SEC Form 8-K Exhibit 99.1",
-    "year": 2026,
-    "url": "https://www.sec.gov/Archives/edgar/data/1651308/000162828026011941/exhibit991-q42025earningsr.htm"
-  },
-  {
-    "id": "akeso-rd-manufacturing",
-    "authors": "Akeso Inc.",
-    "title": "R&D and Manufacturing",
-    "publisher": "Akeso Inc.",
-    "year": 2025,
-    "url": "https://www.akesobio.com/en/rd-and-science/manufacturing/"
-  },
-  {
-    "id": "nrdd-pd1-vegf-bispecifics-2025",
-    "authors": "Mullard, A.",
-    "title": "PD1xVEGF blocking bispecifics for cancer draw big backing",
-    "publisher": "Nature Reviews Drug Discovery",
-    "year": 2025,
-    "url": "https://www.nature.com/articles/d41573-025-00105-y"
-  },
-  {
-    "id": "bioprocess-wuxi-bio-cdmo-2022",
-    "authors": "Macdonald, G.",
-    "title": "WuXi Bio grabs larger piece of the bio CDMO pie",
-    "publisher": "BioProcess Insider",
-    "year": 2022,
-    "url": "https://www.bioprocessintl.com/global-markets/wuxi-bio-grabs-larger-piece-of-the-bio-cdmo-pie"
   },
   {
     "id": "gsk-aiolos-press-2024",
@@ -7896,14 +5624,6 @@
     "url": "https://www.avcj.com/avcj/news/3024680/china-ai-drug-developer-biomap-raises-usd100m"
   },
   {
-    "id": "biomap-sanofi-collab-bw-2023",
-    "authors": "BioMap",
-    "title": "BioMap Establishes a Strategic Collaboration with Sanofi to Co-Develop AI Modules to Accelerate Drug Discovery for Biotherapeutics",
-    "publisher": "BusinessWire",
-    "year": 2023,
-    "url": "https://www.businesswire.com/news/home/20231010485897/en/BioMap-Establishes-a-Strategic-Collaboration-with-Sanofi-to-Co-Develop-AI-Modules-to-Accelerate-Drug-Discovery-for-Biotherapeutics"
-  },
-  {
     "id": "fiercebiotech-sanofi-biomap-10m",
     "authors": "Becker, Z.",
     "title": "Sanofi pays $10M upfront in hope 'biological map of proteins' leads to drug discovery treasure",
@@ -7936,14 +5656,6 @@
     "url": "https://www.geneonline.com/nvidia-gtc-2025-biomaps-xtrimo-the-ai-model-thats-changing-biotech-and-drug-discovery/"
   },
   {
-    "id": "bloomberg-biomap-hk-ipo-confidential-2026",
-    "authors": "Bloomberg",
-    "title": "Baidu-Backed BioMap Is Said to Confidentially File for HK IPO",
-    "publisher": "Bloomberg",
-    "year": 2026,
-    "url": "https://www.bloomberg.com/news/articles/2026-03-16/baidu-backed-biomap-is-said-to-confidentially-file-for-hk-ipo"
-  },
-  {
     "id": "thenational-biomap-abu-dhabi-2023",
     "authors": "The National",
     "title": "Why the co-founder of Baidu is bringing his life sciences start-up to Abu Dhabi",
@@ -7968,22 +5680,6 @@
     "url": "https://www.iqvia.com/insights/the-iqvia-institute/reports-and-publications/reports/rethinking-clinical-trial-country-prioritization"
   },
   {
-    "id": "nature-methods-xtrimopglm-2025",
-    "authors": "Chen, B., Cheng, X., Li, P., et al.",
-    "title": "xTrimoPGLM: unified 100-billion-parameter pretrained transformer for deciphering the language of proteins",
-    "publisher": "Nature Methods 22(5), 1028-1039",
-    "year": 2025,
-    "url": "https://www.nature.com/articles/s41592-025-02636-z"
-  },
-  {
-    "id": "wellington-china-biotech-2026",
-    "authors": "Wellington Management",
-    "title": "China's biotech surge",
-    "publisher": "Wellington Insights",
-    "year": 2026,
-    "url": "https://www.wellington.com/en/insights/chinas-biotech-surge"
-  },
-  {
     "id": "hkex-roberts-china-biotech-2025",
     "authors": "Roberts, B.",
     "title": "Accessing China's Biotech Breakthrough via HKEX's Product Ecosystem",
@@ -8000,51 +5696,11 @@
     "url": "https://chinatalenttracker.cset.tech/"
   },
   {
-    "id": "nature-thousand-talents-2018",
-    "authors": "Jia, H.",
-    "title": "China's plan to recruit talented researchers",
-    "publisher": "Nature 553, S8",
-    "year": 2018,
-    "url": "https://www.nature.com/articles/d41586-018-00538-z"
-  },
-  {
     "id": "wikipedia-thousand-talents-plan",
     "authors": "Wikipedia contributors",
     "title": "Thousand Talents Plan",
     "publisher": "Wikipedia",
     "year": 2025,
     "url": "https://en.wikipedia.org/wiki/Thousand_Talents_Plan"
-  },
-  {
-    "id": "science-young-talents-2023",
-    "authors": "Marini, D., Yang, D.",
-    "title": "Has China's Young Thousand Talents program been successful in recruiting and nurturing top-caliber scientists?",
-    "publisher": "Science 379(6627), 62-65",
-    "year": 2023,
-    "url": "https://www.science.org/doi/10.1126/science.abq1218"
-  },
-  {
-    "id": "merck-10k-2024",
-    "authors": "Merck & Co., Inc.",
-    "title": "Form 10-K Annual Report (FY 2024) — Keytruda recorded $29.5B in worldwide sales",
-    "publisher": "U.S. Securities and Exchange Commission",
-    "year": 2025,
-    "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000310158&type=10-K&dateb=&owner=include&count=40"
-  },
-  {
-    "id": "jin-new-china-playbook-2023",
-    "authors": "Jin, K.",
-    "title": "The New China Playbook: Beyond Socialism and Capitalism",
-    "publisher": "Viking",
-    "year": 2023,
-    "url": "https://www.penguinrandomhouse.com/books/671450/the-new-china-playbook-by-keyu-jin/"
-  },
-  {
-    "id": "moe-returnees-annual",
-    "authors": "Ministry of Education of the People's Republic of China",
-    "title": "Annual statistics on study abroad and returnees (年度出国留学和回国人员统计)",
-    "publisher": "Ministry of Education / gov.cn press conferences",
-    "year": 2021,
-    "url": "http://en.moe.gov.cn/news/press_releases/202103/t20210323_522190.html"
   }
 ]

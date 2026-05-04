@@ -69,9 +69,7 @@
       }
     ],
     "sources": [
-      "nibs-about-en",
       "wang-xiaodong-wikipedia",
-      "wang-xiaodong-pnas-profile",
       "zou-apaf1-cell-1997",
       "liu-cytochrome-c-cell-1996",
       "shao-gasdermin-nature-2016",
@@ -80,9 +78,6 @@
       "li-wenhui-future-science-2022",
       "shao-future-science-2019",
       "wang-xiaodong-nas-2004",
-      "wang-mlkl-necroptosis-nibs",
-      "nibs-tang-nan-cellstemcell-2024",
-      "nibs-beijing-wikipedia",
       "crunchbase-xiaodong-wang"
     ]
   },
@@ -191,19 +186,12 @@
       "shi-yigong-wikipedia",
       "shi-yigong-westlake-bio",
       "shi-yigong-future-prize-2017",
-      "tsinghua-shi-spliceosome-science-2015",
-      "shi-gamma-secretase-nature-2015",
       "nieng-yan-wikipedia",
-      "yan-glut1-princeton",
-      "yan-nav16-pnas-2023",
       "wang-hongwei-frcbs-bio",
       "wang-streptavidin-natcomm-2019",
       "dong-chen-iitu-bio",
-      "dong-th17-nri-2021",
       "tsinghua-icsb-overview",
       "li-xueming-thuem",
-      "cls-tsinghua-pku",
-      "innocare-cui-yigong-shi",
       "sineugene-about-tsinghua",
       "biological-cryoem-china-2017"
     ]
@@ -293,24 +281,12 @@
       "icg-pku-about",
       "sunney-xie-wikipedia",
       "sunney-xie-pku-news-2017",
-      "zong-malbac-science-2012",
       "pku-malbac-baby-2014",
-      "yan-marsala-pnas-2015",
-      "tang-mrna-seq-natmethods-2009",
-      "tang-fuchou-pku-faculty",
-      "zhu-scmethylome-natgenet-2018",
       "deng-hongkui-wikipedia",
-      "hou-cipsc-science-2013",
-      "guan-hcipsc-nature-2022",
-      "xu-ccr5-nejm-2019",
       "deng-future-science-2024",
-      "cheng-sparks-science-1993",
       "cheng-heping-pku-faculty",
       "zhang-zemin-biopic-faculty",
-      "cao-bd368-cell-2020",
-      "cao-omicron-nature-2022",
-      "rao-yi-wikipedia",
-      "tsinghua-pku-cls-about"
+      "rao-yi-wikipedia"
     ]
   },
   {
@@ -406,21 +382,12 @@
       "fudan-hospital-rankings-jhmhp-2018",
       "zhang-yongzhen-wikipedia",
       "zhang-yongzhen-virological-jan-2020",
-      "wu-zhang-holmes-nature-2020-sars-cov-2",
-      "zhang-yongzhen-cnn-2024-sit-in",
-      "zhang-yongzhen-nature-2024-lab",
-      "xu-guoliang-tet3-nature-2011",
-      "xu-guoliang-tet3-oocyte-nature-2022",
       "fudan-yanhui-xu-2021-fudan-en",
       "fudan-yanhui-xu-xplorer-2022",
-      "junbo-ge-scai-bio",
-      "fudan-iobs-yang-xiongli-bio",
       "fudan-life-sciences-en",
-      "fudan-tnbc-future-umbrella-cell-research-2020",
       "future-super-tnbc-lancet-oncology-2024",
       "future-c-plus-nature-medicine-2022",
-      "fudan-alumni-unicorns-2024",
-      "fiercebiotech-abogen-700m-series-c"
+      "fudan-alumni-unicorns-2024"
     ]
   },
   {
@@ -569,23 +536,17 @@
     ],
     "sources": [
       "cas-history-soviet-model",
-      "cas-at-70-nature",
       "bcas-insulin-2024",
       "wang-yinglai-wikipedia",
       "simm-80yr-acta-pharma-2012",
-      "simm-about-en",
       "ibp-cas-wikipedia",
       "rao-zihe-sars-structural-pmc",
-      "rao-zihe-cen-covid-2020",
       "gao-fu-wikipedia",
       "gao-fu-imcas-twas",
       "poo-muming-wikipedia",
-      "ion-monkey-clone-cell-2018",
       "geng-meiyu-gv971-cas",
       "gv971-nmpa-approval-2019",
-      "cemcs-rename-2020",
-      "project-523-wikipedia",
-      "cas-knowledge-innovation-program"
+      "project-523-wikipedia"
     ]
   },
   {
@@ -645,7 +606,6 @@
       }
     ],
     "sources": [
-      "lasker-artemisinin-2011",
       "tu-youyou-wikipedia",
       "cacms-about-en",
       "cacms-history-pubmed-2015",
