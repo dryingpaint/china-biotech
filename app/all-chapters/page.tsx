@@ -62,16 +62,7 @@ function TableOfContents({ chapters }: { chapters: Chapter[] }) {
               <span className="w-6 font-mono text-xs tabular-nums text-[--color-muted]">
                 {String(i + 1).padStart(2, "0")}
               </span>
-              <span
-                className={`flex-1 font-serif text-lg ${c.draft ? "text-[--color-muted]" : ""}`}
-              >
-                {c.title}
-              </span>
-              {c.draft && (
-                <span className="rounded border border-[--color-rule] px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.18em] text-[--color-muted]">
-                  Draft
-                </span>
-              )}
+              <span className="flex-1 font-serif text-lg">{c.title}</span>
               <span className="text-xs uppercase tracking-[0.12em] text-[--color-muted]">
                 {c.date}
               </span>
