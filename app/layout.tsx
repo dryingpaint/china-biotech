@@ -21,7 +21,7 @@ const mono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "China Biotech 2026",
+  title: "A history of Chinese biotech",
   description:
     "A scrollable history of how China became a global biotech power.",
 };
