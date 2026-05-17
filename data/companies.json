@@ -4500,23 +4500,23 @@
     "id": "aiolos",
     "name": "Aiolos Bio",
     "founded": 2023,
-    "headquarters": "South San Francisco, California",
-    "founders": "Atlas Venture and Forbion (lead Series A investors)",
+    "headquarters": "Boston, Massachusetts",
+    "founders": "Khurem Farooq, Tony Adamis",
     "category": "mnc_pharma",
     "subcategory": "Respiratory NewCo",
-    "shortDescription": "US-domiciled NewCo founded by Atlas Venture and Forbion in late 2023 to develop AIO-001, an anti-TSLP monoclonal antibody for severe asthma licensed from Jiangsu Hengrui; acquired by GSK thirteen months later for up to $1.4 billion. Set the canonical template for the Chinese-asset-into-US-biotech NewCo structure.",
-    "signature": "AIO-001 (HRS-9821, anti-TSLP monoclonal antibody)",
-    "narrativeHook": "Aiolos was the moment the NewCo became real. A drug discovered at Jiangsu Hengrui was wrapped in a US-incorporated shell, funded with a $245M Series A from American venture capital, and acquired by GSK thirteen months later, proving the structure could turn a Chinese clinical asset into a $1.4 billion American exit while sidestepping BIOSECURE-shaped procurement friction.",
-    "verified": false,
-    "lastVerified": "2026-04-26",
+    "shortDescription": "US-incorporated Boston NewCo founded in 2023 by ex-Genentech executives Khurem Farooq and Tony Adamis to develop AIO-001, an anti-TSLP monoclonal antibody for severe asthma licensed ex-Greater China from Jiangsu Hengrui in August 2023; acquired by GSK roughly two months after public launch for $1B upfront and up to $400M in regulatory milestones, setting the canonical template for the Chinese-asset-into-US-biotech NewCo structure.",
+    "signature": "AIO-001 (anti-TSLP monoclonal antibody)",
+    "narrativeHook": "Aiolos was the moment the NewCo template became real. A Hengrui-discovered anti-TSLP antibody got wrapped in a Boston shell, funded with a $245M Series A from Atlas Venture, Forbion, Bain Capital Life Sciences, and Sofinnova in October 2023, and acquired by GSK roughly two months later for up to $1.4 billion. The structure turned a Chinese clinical asset into a US biopharma exit, sidestepping the procurement friction BIOSECURE would later make explicit.",
+    "verified": true,
+    "lastVerified": "2026-05-17",
     "today": {
       "asOf": "2026-04",
       "approvedDrugCount": 0,
       "leadAsset": {
-        "name": "AIO-001 / HRS-9821 (anti-TSLP monoclonal antibody)",
-        "mechanism": "Anti-TSLP (thymic stromal lymphopoietin) monoclonal antibody",
-        "indication": "Severe asthma; potential expansion to other Th2-driven inflammatory diseases",
-        "status": "Phase 2 development under GSK; carried forward as part of the Aiolos acquisition"
+        "name": "AIO-001 (anti-TSLP monoclonal antibody, in-licensed from Hengrui)",
+        "mechanism": "Long-acting anti-TSLP (thymic stromal lymphopoietin) monoclonal antibody engineered for potential six-month dosing",
+        "indication": "Severe asthma; potential expansion to chronic rhinosinusitis with nasal polyps and other Th2-driven inflammatory diseases",
+        "status": "Phase 2 development under GSK following the February 2024 acquisition close"
       },
       "biggestDeal": {
         "partner": "GSK",
@@ -4525,19 +4525,30 @@
         "valueBillions": 1.4
       }
     },
-    "timeline": [],
+    "timeline": [
+      {
+        "chapterId": "going-global",
+        "status": "Founded in 2023 by ex-Genentech executives Khurem Farooq and Tony Adamis; licensed AIO-001 ex-Greater China from Jiangsu Hengrui in August 2023; launched publicly October 24, 2023 with a $245M Series A co-led by Atlas Venture, Forbion, Bain Capital Life Sciences, and Sofinnova (with RA Capital participating); acquired by GSK on February 15, 2024 for $1B upfront plus up to $400M in regulatory milestones, with tiered royalties to Hengrui",
+        "pipelineStage": "Phase 2-ready at acquisition",
+        "note": "Roughly three months elapsed between public launch and the GSK acquisition announcement on January 9, 2024"
+      }
+    ],
     "milestones": [
       {
         "year": 2023,
-        "label": "Founded by Atlas Venture and Forbion (October); $245M Series A; AIO-001 licensed from Jiangsu Hengrui (ex-Greater China rights to HRS-9821)"
+        "label": "AIO-001 (anti-TSLP mAb) licensed ex-Greater China from Jiangsu Hengrui in August; launched publicly October 24 with $245M Series A co-led by Atlas Venture, Forbion, Bain Capital Life Sciences, and Sofinnova"
       },
       {
         "year": 2024,
-        "label": "Acquired by GSK for $1B upfront + up to $400M milestones (January 9, 2024)"
+        "label": "Acquired by GSK for $1B upfront plus up to $400M in regulatory milestones (announced January 9, completed February 15); Hengrui retains tiered royalties"
       }
     ],
     "sources": [
-      "gsk-aiolos-press-2024"
+      "gsk-aiolos-press-2024",
+      "gsk-aiolos-complete-feb2024",
+      "aiolos-launch-businesswire-2023",
+      "aiolos-launch-biopharma-dive-2023",
+      "aiolos-launch-fiercebiotech-2023"
     ],
     "modalities": [
       "novelMab"
@@ -4547,7 +4558,7 @@
     ],
     "productClasses": [
       {
-        "name": "AIO-001 / HRS-9821 (anti-TSLP monoclonal antibody)",
+        "name": "AIO-001 (anti-TSLP monoclonal antibody)",
         "modality": "novelMab",
         "status": "phase2"
       }
@@ -4730,9 +4741,34 @@
         "label": "All-stock acquisition of Exscientia announced August (~$688M), closed November"
       }
     ],
-    "sources": [],
-    "modalities": [],
-    "therapeuticAreas": [],
-    "productClasses": []
+    "sources": [
+      "recursion-pipeline",
+      "recursion-rec4881-tupelo-2025",
+      "recursion-pipeline-cut-2025"
+    ],
+    "modalities": [
+      "smallMol"
+    ],
+    "therapeuticAreas": [
+      "Oncology",
+      "Rare disease"
+    ],
+    "productClasses": [
+      {
+        "name": "REC-4881 (MEK1/MEK2 allosteric inhibitor for familial adenomatous polyposis)",
+        "modality": "smallMol",
+        "status": "phase2"
+      },
+      {
+        "name": "REC-617 (CDK7 inhibitor for advanced solid tumors)",
+        "modality": "smallMol",
+        "status": "phase1"
+      },
+      {
+        "name": "REC-102 (ENPP1 inhibitor for hypophosphatasia)",
+        "modality": "smallMol",
+        "status": "preclinical"
+      }
+    ]
   }
 ]

@@ -123,6 +123,10 @@ body {
     padding: 0;
     border: none;
     background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .inline-chart-title {
@@ -160,6 +164,8 @@ body {
     justify-content: space-between;
     gap: 0.75rem;
     margin-top: 0.35rem;
+    width: 100%;
+    max-width: 360px;
   }
 
   .inline-chart-legend {
@@ -276,6 +282,6 @@ body {
   padding: 0.4rem 0 0.4rem 1.1rem;
   border-left: 3px solid var(--color-accent);
   color: var(--color-fg);
-  font-style: italic;
+  font-style: normal;
   font-family: var(--font-serif), Georgia, serif;
 }

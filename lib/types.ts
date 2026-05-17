@@ -240,8 +240,6 @@ export type ChapterMetrics = {
   pipelineRegionShare?: RegionShare;
   outLicensingRegionShare?: RegionShare;
   primaryMarketRegionShare?: RegionShare;
-  nmesPerBnRd?: number;
-  nmesPerBnRdByRegion?: RegionShare;
 };
 
 export type InlineChartSeries = {
@@ -275,6 +273,7 @@ export type Chapter = {
   modalityProgress?: ModalityProgress;
   featureChart?: string;
   hidden?: boolean;
+  draft?: boolean;
 };
 
 export type SiteContent = {

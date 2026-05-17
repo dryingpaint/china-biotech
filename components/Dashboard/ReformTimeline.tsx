@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useNarrative } from "@/lib/narrativeStore";
 import reformsData from "@/data/reforms.json";
 import { entities } from "@/lib/entities";
@@ -36,10 +36,19 @@ export default function ReformTimeline() {
   const activeIds = useNarrative(
     (s) => s.visibleChapters[s.currentIndex]?.activeReformIds ?? EMPTY_IDS,
   );
+  const visibleChapters = useNarrative((s) => s.visibleChapters);
+  const currentIndex = useNarrative((s) => s.currentIndex);
   const highlightedEntity = useNarrative((s) => s.highlightedEntity);
   const proseHighlightedId =
     highlightedEntity?.type === "reform" ? highlightedEntity.id : null;
   const activeSet = new Set(activeIds);
+  const cumulativeSet = useMemo(() => {
+    const s = new Set<string>();
+    for (let i = 0; i <= currentIndex; i++) {
+      for (const id of visibleChapters[i]?.activeReformIds ?? []) s.add(id);
+    }
+    return s;
+  }, [currentIndex, visibleChapters]);
   const [hovered, setHovered] = useState<Hovered | null>(null);
   const tileRefs = useRef<Map<string, HTMLDivElement>>(new Map());
   const hideTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -78,12 +87,14 @@ export default function ReformTimeline() {
           Regulatory reforms
         </h3>
         <span className="num text-xs text-[--color-muted]">
-          {activeIds.length} / {reforms.length}
+          {cumulativeSet.size} / {reforms.length}
         </span>
       </header>
       <div className="flex flex-wrap gap-1">
         {sortedReforms.map((r) => {
           const isActive = activeSet.has(r.id);
+          const isPast = !isActive && cumulativeSet.has(r.id);
+          const introduced = isActive || isPast;
           const isHighlighted = hovered?.reform.id === r.id;
           const color = CATEGORY_COLOR[r.category];
           return (
@@ -114,8 +125,9 @@ export default function ReformTimeline() {
               }}
               className="h-3 w-3 cursor-pointer rounded-[2px] transition-shadow"
               style={{
-                backgroundColor: isActive ? color : "transparent",
-                border: `1px solid ${isActive ? color : "var(--color-rule)"}`,
+                backgroundColor: introduced ? color : "transparent",
+                border: `1px solid ${introduced ? color : "var(--color-rule)"}`,
+                opacity: isPast ? 0.35 : 1,
                 boxShadow: isHighlighted
                   ? `0 0 6px 2px ${color}`
                   : undefined,

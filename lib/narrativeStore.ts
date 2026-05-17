@@ -5,7 +5,7 @@ import type { Chapter, ModalityKey } from "./types";
 import chaptersData from "@/data/chapters.json";
 
 const allChapters = chaptersData as unknown as Chapter[];
-const visibleAtLoad = allChapters.filter((c) => !c.hidden);
+const visibleAtLoad = allChapters.filter((c) => !c.hidden && !c.draft);
 
 export type EntityRef = {
   type: "entity" | "reform";

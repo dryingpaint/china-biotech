@@ -34,13 +34,6 @@
         "china": 0,
         "eu": 18,
         "row": 2
-      },
-      "nmesPerBnRd": 0,
-      "nmesPerBnRdByRegion": {
-        "us": 0,
-        "china": 0,
-        "eu": 0,
-        "row": 0
       }
     },
     "activeEntityIds": [
@@ -91,7 +84,7 @@
     "id": "insulin-and-artemisinin",
     "title": "Great Leaps Forward",
     "date": "1949–1978",
-    "body": "<p>Mao did not trust science, but he trusted the Russians. When the People's Republic was founded in 1949, the new [[entity:cas|Chinese Academy of Sciences]], was modeled on its Soviet counterpart, inheriting their biology alongside their institutional scaffolding. The most damaging import was the theories of&nbsp;Trofim Lysenko,&nbsp;who had won Stalin’s favor in the 1930s by claiming that acquired traits could be inherited[[note:aka Lamarckism]] and that Mendelian genetics was a bourgeois fraud.&nbsp;</p><p>Alternative genetic theories were permitted only after Khrushchev’s “Secret Speech” of February 1956, a closed-door denunciation of Stalin at the 20th Party Congress in Moscow. Chinese geneticists led by Tan Jiazhen, a Caltech-trained <em>Drosophila</em> researcher, used the Qingdao Genetics Symposium that same year to argue publicly for Mendelian inheritance--the first time anyone had done so since the founding of the People’s Republic.&nbsp;</p><p>However, Lysenkoism also extended, far more fatally, into the Chinese agricultural system. In 1958, Mao issued the “Eight-Point Charter of Agriculture,” directly influenced by his doctrines of close-planting and deep ploughing. Such practices contributed to the catastrophic crop failures of the Great Leap Forward and, by extension, the deadliest famine in human history. Estimates range from&nbsp;<i>15 to 45 million deaths</i>.[[cite:cas-history-soviet-model]][[cite:lysenkoism-wikipedia]]</p>\n<p>Miraculously, two major scientific projects still emerged from this period. The first was the total chemical synthesis of bovine <em>insulin</em>. Deciphered by Frederick Sanger, it was the first full protein sequence ever determined, and synthesis was the obvious next frontier. Wang Yinglai began the project in 1958 and saw through its conclusion in 17 September 1965, 8 months before the start of the Cultural Revolution. The accomplishment was nominated for the Nobel multiple times, but Communist policy only recognized collective effort, and the Chinese Academy of Sciences refused to name the contributing scientists. Wang spent the next decade under house arrest in his own institute, attending struggle sessions on Mao Zedong Thought.[[cite:bcas-insulin-2024]][[cite:synthetic-insulin-wikipedia]]</p>\n<p>The second was <em>artemisinin</em>. On 23 May 1967, the People’s Liberation Army launched <em>Project 523</em>, a top-secret military effort to find a treatment for the chloroquine-resistant malaria killing Chinese and Vietnamese troops in the jungles of Southeast Asia. The military framing put the project under the protection of the People's Liberation Army, exempting it from the Cultural Revolution’s wider attack on academic science. Tu Youyou, a 38-year-old researcher at the [[entity:cacms|Academy of Traditional Chinese Medicine]] trained in both modern pharmacy and classical Chinese pharmacology, was appointed to lead the herbal-medicine team in January 1969. Naturally, her group started by screening candidates from classical Chinese texts and folk medicine, where they found <em>qinghao</em> (青蒿, <em>Artemisia annua</em>, “sweet wormwood”), prescribed in Chinese medicine for intermittent fevers for some 1,500 years. The drug was inconsistently effective against malaria parasites, and Tu ended up identifying the reason why in a 4th-century manuscript--Ge Hong’s <em>Zhouhou Beijifang&nbsp;</em>prescribed soaking 青蒿 in cold water rather than boiling it, from which Tu inferred that her standard heated ethanol-reflux extraction was destroying the drug's active compound. She switched to diethyl ether, which boils at 35°C, and the new extract produced complete inhibition in mouse and monkey models.&nbsp;</p><p>In the absence of clinical trial procedures, Tu and two colleagues dosed themselves to check for toxicity. And seeing no ill effects, they went onto deployed the medicine to 21 more patients in Hainan. The active compound, qinghaosu (青蒿素), earned Tu the Lasker Award in 2011 and the Nobel Prize in Physiology or Medicine in 2015.[[cite:tu-youyou-wikipedia]]</p>\n<p>Such successes were exceptions in a half-century of state-led attacks on Chinese science. The Cultural Revolution (1966–1976) closed universities to new undergraduates between 1966 and 1969 and to graduate students through 1977; the academy’s budget was slashed to less than one-sixth of its 1965 level by 1967; records document 229 scientists killed or driven to suicide.&nbsp;</p>",
+    "body": "<p>Mao did not trust science, but he trusted the Russians. When the People's Republic was founded in 1949, the new [[entity:cas|Chinese Academy of Sciences]], was modeled on its Soviet counterpart, inheriting their biology alongside their institutional scaffolding. The most damaging import was the theories of&nbsp;Trofim Lysenko,&nbsp;who had won Stalin’s favor in the 1930s by claiming that acquired traits could be inherited[[note:aka Lamarckism]] and that Mendelian genetics was a bourgeois fraud.&nbsp;</p><p>Alternative genetic theories were permitted only after Khrushchev’s “Secret Speech” of February 1956, a closed-door denunciation of Stalin at the 20th Party Congress in Moscow. Chinese geneticists led by Tan Jiazhen, a Caltech-trained <em>Drosophila</em> researcher, used the Qingdao Genetics Symposium that same year to argue publicly for Mendelian inheritance--the first time anyone had done so since the founding of the People’s Republic.&nbsp;</p><p>However, Lysenkoism also extended, far more fatally, into the Chinese agricultural system. In 1958, Mao issued the “Eight-Point Charter of Agriculture,” directly influenced by his doctrines of close-planting and deep ploughing. Such practices contributed to the catastrophic crop failures of the Great Leap Forward and, by extension, the deadliest famine in human history. Estimates range from&nbsp;<i>15 to 45 million deaths</i>.[[cite:cas-history-soviet-model]][[cite:lysenkoism-wikipedia]]</p>\n<p>Miraculously, two major scientific projects still emerged from this period. The first was the total chemical synthesis of bovine <em>insulin</em>. Deciphered by Frederick Sanger, it was the first full protein sequence ever determined, and synthesis was the obvious next frontier. Wang Yinglai began the project in 1958 and saw through its conclusion in 17 September 1965, 8 months before the start of the Cultural Revolution. The accomplishment was nominated for the Nobel multiple times, but Communist policy only recognized collective effort, and the Chinese Academy of Sciences refused to name the contributing scientists. Wang spent the next decade under house arrest in his own institute, attending struggle sessions on Mao Zedong Thought.[[cite:bcas-insulin-2024]][[cite:synthetic-insulin-wikipedia]]</p>\n<p>The second was <em>artemisinin</em>. On 23 May 1967, the People’s Liberation Army launched <em>Project 523</em>, a top-secret military effort to find a treatment for the chloroquine-resistant malaria killing Chinese and Vietnamese troops in the jungles of Southeast Asia. The military framing put the project under the protection of the People's Liberation Army, exempting it from the Cultural Revolution’s wider attack on academic science. Tu Youyou, a 38-year-old researcher at the [[entity:cacms|Academy of Traditional Chinese Medicine]] trained in both modern pharmacy and classical Chinese pharmacology, was appointed to lead the herbal-medicine team in January 1969. Naturally, her group started by screening candidates from classical Chinese texts and folk medicine, where they found <em>qinghao</em> (青蒿, <em>Artemisia annua</em>, “sweet wormwood”), prescribed in Chinese medicine for intermittent fevers for some 1,500 years. The drug was inconsistently effective against malaria parasites, and Tu ended up identifying the reason why in a 4th-century manuscript. The Jin Dynasty physician and alchemist Ge Hong (284–363), in his <em>Zhouhou Beijifang&nbsp;</em>(Emergency Prescriptions Kept up One’s Sleeve, China’s first emergency manual), had written, &ldquo;Qinghao, one bunch, take two <em>sheng</em> [2 x 0.2 l] of water for soaking it, wring it out, take the juice, ingest it in its entirety.&rdquo;[[cite:asimov-press-antimalarial]] From this Tu inferred that her standard heated ethanol-reflux extraction was destroying the drug's active compound. She switched to diethyl ether, which boils at 35°C, and the new extract produced complete inhibition in mouse and monkey models.&nbsp;</p><p>In the absence of clinical trial procedures, Tu and two colleagues dosed themselves to check for toxicity. And seeing no ill effects, they went onto deployed the medicine to 21 more patients in Hainan. The active compound, qinghaosu (青蒿素), earned Tu the Lasker Award in 2011 and the Nobel Prize in Physiology or Medicine in 2015.[[cite:tu-youyou-wikipedia]]</p>\n<p>Such successes were exceptions in a half-century of state-led attacks on Chinese science. The Cultural Revolution (1966–1976) closed universities to new undergraduates between 1966 and 1969 and to graduate students through 1977; the academy’s budget was slashed to less than one-sixth of its 1965 level by 1967; records document 229 scientists killed or driven to suicide.&nbsp;</p>",
     "metrics": {
       "pipelineSharePct": 0,
       "inLicensingSharePct": 0,
@@ -122,13 +115,6 @@
         "china": 0,
         "eu": 18,
         "row": 2
-      },
-      "nmesPerBnRd": 0,
-      "nmesPerBnRdByRegion": {
-        "us": 0,
-        "china": 0,
-        "eu": 0,
-        "row": 0
       }
     },
     "activeEntityIds": [
@@ -218,7 +204,7 @@
         "source": "nsfc-wikipedia"
       }
     ],
-    "body": "<p>Mao died in September 1976. In March 1978, with Deng Xiaoping ascendant, the National Science Conference declared the rehabilitation of science and technology a strategic priority.[[cite:national-science-conference-1978]]</p>\n[[chart:nsfc-budget-buildup]]\n<p>Among the companies that emerged in this period was [[entity:hengrui|<em>Hengrui Pharmaceutical</em>]], currently the largest Chinese pharma company by market cap. The story behind the company has become somewhat of a Chinese myth and a classic archetype of the time period. Yicai starts their biography like so:</p>\n<blockquote>Similar to many entrepreneurs, the story of Sun Piaoyang and Hengrui Pharmaceutical began in a small state-owned factory.</blockquote>\n<p>In 1982, Sun Piaoyang graduated from China Pharmaceutical University and joined Lianyungang Pharmaceutical Factory as a technician.[[cite:yicai-hengrui-sun-piaoyang-2024]] He became factory director in 1990. The compounds the factory produced (spiramycin and erythromycin) were \"sold for a penny\" with no path to profitability without developing new drugs of their own.</p>\n<p>He launched the anti-cancer injection VP16 project in 1991, an almost untouched market in China at the time. The factory's profit jumped from ~¥80,000 to over a million.</p>\n<p>The following year, in 1992, Sun spent ~¥1.2 million, almost all of the company's profits, on a license to make and sell ifosfamide via a new Chinese-developed synthesis route from the Institute of Pharmaceutical Research of the Chinese Academy of Medical Sciences. He was 34 and newly married, but in his words, \"without technology, your fate is in others' hands.\" It was miraculous that his risks paid off--the factory's revenue exceeded ¥100 million in 1996.[[cite:yicai-hengrui-sun-piaoyang-2024]]</p>\n<blockquote>It can be said that today's Hengrui Medicine is inseparable from Sun Piaoyang's courage to break the game.</blockquote>\n<p>Sun was certainly not a one-trick pony. In 1995 he founded a second pharma company, [[entity:hansoh|<em>Hansoh Pharmaceutical</em>]], alongside a Hong Kong investor, Cen Junda. Too busy with Hengrui to run the new firm, Sun handed it to his wife Zhong Huijuan, a chemistry teacher at a middle school five minutes by bike from the Lianyungang factory.[[cite:scmp-zhong-huijuan-hansoh-ipo]][[cite:fiercepharma-hansoh-hengrui-family]] Both companies have become wildly successful, with the couple's combined net worth at roughly $34.7 billion in 2026.[[cite:hurun-china-rich-list-2025-hengrui-hansoh]] Despite their now global reach, they continue to live in Lianyungang, the town where they first met.</p>",
+    "body": "<p>Mao died in September 1976. In March 1978, with Deng Xiaoping ascendant, the National Science Conference declared the rehabilitation of science and technology a strategic priority.[[cite:national-science-conference-1978]]</p>\n[[chart:nsfc-budget-buildup]]\n<p>Among the companies that emerged in this period was [[entity:hengrui|<em>Hengrui Pharmaceutical</em>]], currently the largest Chinese pharma company by market cap. The story behind the company has become somewhat of a Chinese myth and a classic archetype of the time period.</p>\n<p>In 1982, Sun Piaoyang graduated from China Pharmaceutical University and joined Lianyungang Pharmaceutical Factory as a technician.[[cite:yicai-hengrui-sun-piaoyang-2024]] He became factory director in 1990. The compounds the factory produced (spiramycin and erythromycin) were \"sold for a penny\" with no path to profitability without developing new drugs of their own.</p>\n<p>He launched the anti-cancer injection VP16 project in 1991, an almost untouched market in China at the time. The factory's profit jumped from ~¥80,000 to over a million.</p>\n<p>The following year, in 1992, Sun spent ~¥1.2 million, almost all of the company's profits, on a license to make and sell ifosfamide via a new Chinese-developed synthesis route from the Institute of Pharmaceutical Research of the Chinese Academy of Medical Sciences. He was 34 and newly married, but in his words, \"without technology, your fate is in others' hands.\" It was miraculous that his risks paid off--the factory's revenue exceeded ¥100 million in 1996.[[cite:yicai-hengrui-sun-piaoyang-2024]]</p>\n<p>Sun was certainly not a one-trick pony. In 1995 he founded a second pharma company, [[entity:hansoh|<em>Hansoh Pharmaceutical</em>]], alongside a Hong Kong investor, Cen Junda. Too busy with Hengrui to run the new firm, Sun handed it to his wife Zhong Huijuan, a chemistry teacher at a middle school five minutes by bike from the Lianyungang factory.[[cite:scmp-zhong-huijuan-hansoh-ipo]][[cite:fiercepharma-hansoh-hengrui-family]] Both companies have become wildly successful, with the couple's combined net worth at roughly $34.7 billion in 2026.[[cite:hurun-china-rich-list-2025-hengrui-hansoh]] Despite their now global reach, they continue to live in Lianyungang, the town where they first met.</p>",
     "metrics": {
       "pipelineSharePct": 0,
       "inLicensingSharePct": 0,
@@ -249,13 +235,6 @@
         "china": 0,
         "eu": 20,
         "row": 2
-      },
-      "nmesPerBnRd": 0,
-      "nmesPerBnRdByRegion": {
-        "us": 0,
-        "china": 0,
-        "eu": 0,
-        "row": 0
       }
     },
     "activeEntityIds": [
@@ -320,7 +299,7 @@
       "BioBAY Suzhou opened June 2007 as a startup-focused complement to Zhangjiang.",
       "[[entity:remegen|RemeGen]] founded 2008 in Yantai to develop antibody-drug conjugates, putting the first Chinese ADC platform in place. [[metric:adc:1|ADC rung 1]]"
     ],
-    "body": "<p>The Human Genome Project officially began in 1990, an international effort led by the US National Institutes of Health and Department of Energy alongside the UK and France, with Japan and Germany joining later. Chinese genomics infrastructure was sparse at the time. The National Human Genome Center was the only domestic institution focused on the field, and there was no real push to join the international effort until 1997, when a group of four academics newly returned from overseas as the first wave of haigui convinced the [[entity:cas|Chinese Academy of Sciences]] to establish a Human Genome Research Center.[[cite:chgc-hgp-china-protein-cell]][[cite:bgi-history-genomics-cn]]</p>\n<p>The new institution compiled a proposal to sequence ~30 megabases on the short arm of chromosome 3. Referred to as the \"Beijing Region,\" it was believed to be linked to esophageal cancer, a disease with extraordinarily high regional incidence in Linxian (Henan) and parts of Sichuan.[[cite:chgc-hgp-china-protein-cell]] On September 1, 1999, the proposal was officially approved by the International Genome Sequencing Consortium, making China the only developing country in the project.[[cite:big-20th-anniversary-2024]]</p>\n<p>Eight days later, on September 9, 1999 at 9:09:09[[note:A deliberate numerological flourish: 九 (jiǔ, \"nine\") sounds like 久 (jiǔ, \"long-lasting\").]], Yang Huanming, Wang Jian, Yu Jun, and Liu Siqi formally established [[entity:bgi|<em>Beijing Genomics Institute</em>]].[[cite:bgi-history-genomics-cn]] Wang Jian would later say,</p>\n<blockquote>这个时间不是我们刻意挑选的，它是天意。<br>We didn't deliberately pick this time. It was heaven's will.</blockquote>\n<p>Between October 1999 and March 2000, China had to complete 500,000 Sanger sequencing reactions, an effort distributed across 15 teams of the Chinese Human Genome Consortium and centered at BGI's converted building in Beijing's Shunyi District, where ABI 3700 capillary sequencers ran in 24-hour shifts.[[cite:chgc-hgp-china-protein-cell]]</p>",
+    "body": "<p>The Human Genome Project officially began in 1990, an international effort led by the US National Institutes of Health and Department of Energy alongside the UK and France, with Japan and Germany joining later. Chinese genomics infrastructure was sparse at the time. The National Human Genome Center was the only domestic institution focused on the field, and there was no real push to join the international effort until 1997, when a group of four academics newly returned from overseas as the first wave of haigui convinced the [[entity:cas|Chinese Academy of Sciences]] to establish a Human Genome Research Center.[[cite:chgc-hgp-china-protein-cell]][[cite:bgi-history-genomics-cn]]</p>\n<p>The new institution compiled a proposal to sequence ~30 megabases on the short arm of chromosome 3. Referred to as the \"Beijing Region,\" it was believed to be linked to esophageal cancer, a disease with extraordinarily high regional incidence in Linxian (Henan) and parts of Sichuan.[[cite:chgc-hgp-china-protein-cell]] On September 1, 1999, the proposal was officially approved by the International Genome Sequencing Consortium, making China the only developing country in the project.[[cite:big-20th-anniversary-2024]]</p>\n<p>Eight days later, on September 9, 1999 at 9:09:09[[note:A deliberate numerological flourish: 九 (jiǔ, \"nine\") sounds like 久 (jiǔ, \"long-lasting\").]], Yang Huanming, Wang Jian, Yu Jun, and Liu Siqi formally established [[entity:bgi|<em>Beijing Genomics Institute</em>]].[[cite:bgi-history-genomics-cn]] Wang Jian would later say of the timing, \"这个时间不是我们刻意挑选的，它是天意\" (\"we didn't deliberately pick this time, it was heaven's will\").</p>\n<p>Between October 1999 and March 2000, China had to complete 500,000 Sanger sequencing reactions, an effort distributed across 15 teams of the Chinese Human Genome Consortium and centered at BGI's converted building in Beijing's Shunyi District, where ABI 3700 capillary sequencers ran in 24-hour shifts.[[cite:chgc-hgp-china-protein-cell]]</p>",
     "metrics": {
       "pipelineSharePct": 0,
       "inLicensingSharePct": 0,
@@ -351,13 +330,6 @@
         "china": 1,
         "eu": 20,
         "row": 4
-      },
-      "nmesPerBnRd": 0.5,
-      "nmesPerBnRdByRegion": {
-        "us": 0.7,
-        "china": 0.5,
-        "eu": 0.35,
-        "row": 0
       }
     },
     "activeEntityIds": [
@@ -500,13 +472,6 @@
         "china": 1,
         "eu": 20,
         "row": 4
-      },
-      "nmesPerBnRd": 2,
-      "nmesPerBnRdByRegion": {
-        "us": 0.5,
-        "china": 2,
-        "eu": 0.35,
-        "row": 0
       }
     },
     "activeEntityIds": [
@@ -655,13 +620,6 @@
         "china": 25,
         "eu": 7,
         "row": 3
-      },
-      "nmesPerBnRd": 2.8,
-      "nmesPerBnRdByRegion": {
-        "us": 0.7,
-        "china": 2.8,
-        "eu": 0.35,
-        "row": 0
       }
     },
     "activeEntityIds": [
@@ -825,7 +783,7 @@
         "source": "hkex-roberts-china-biotech-2025"
       }
     ],
-    "body": "<p>Charles Li Xiaojia (李小加) was born in Beijing in 1961. His teenage years coincided with the Cultural Revolution and he avoided being sent to the countryside by taking a work assignment on an offshore oil rig in the Bohai Sea. When the universities reopened, he studied English literature at Xiamen University, graduating in 1984, and took his first professional job as an editor-reporter at China Daily, the Party's English-language newspaper. A scholarship, won on the back of a piece about corruption in Chinese soccer, took him to the United States, where he applied for schools in alphabetical order and took an offer at the University of Alabama. Columbia Law School followed in 1991, then fifteen years on Wall Street as the primary point of contact for a wave of Chinese SOE listings abroad, including China Mobile, PetroChina, Sinopec, and the big-four banks.[[cite:charles-li-wikipedia]]</p>\n<p>In June 2009 he was named CEO of [[entity:hkex|Hong Kong Exchanges and Clearing]], the first mainland-born executive to lead the institution. He took office in January 2010 and stayed eleven years.</p>\n<p>The defining accomplishment was infrastructure. The Shanghai-Hong Kong Stock Connect in November 2014 created, for the first time, a regulated channel through which mainland Chinese investors could buy Hong Kong stocks and global investors could buy Shanghai-listed A-shares. Shenzhen-HK Connect followed in 2016, Bond Connect in 2017. The new capital channels turned Hong Kong into the world's number-one IPO venue in seven of his eleven years.</p>\n<p>In 2013, Alibaba was preparing the largest IPO in history and wanted to list in Hong Kong. The structure they proposed was unusual. Alibaba's shares would be one-share-one-vote on paper, but board nominations would be controlled exclusively by the Alibaba Partnership, a 28-person internal group dominated by Jack Ma and Joe Tsai that could renominate its own candidates indefinitely if shareholders voted them down.</p>\n<p>HKEX rules at the time prohibited it. Hong Kong had banned dual-class share structures in 1989 after two decades of family-controlled conglomerates abusing them at minority shareholders' expense, and the regulatory establishment, particularly the independent Securities and Futures Commission, held that one-share-one-vote was a foundational element of Hong Kong's investor-protection regime. Through 2013, HKEX and Alibaba tried to find a workaround.</p>\n<p>On October 24, 2013, Li published a piece on the HKEX corporate blog titled \"Taking the Debate Forward: Should Hong Kong Act on Non-Standard Shareholding Structures?\" He framed the entire piece as a dream in which nine archetypal characters, Mr. Tradition, Mr. Innovation, Mr. Disclosure, Mr. Big Fund, Ms. Small Retail, Ms. Pragmatic, Mr. Morality, Ms. Future, and Mr. Procedure, visit him in his sleep and argue with each other about whether Hong Kong should accommodate new-economy companies with non-traditional governance. Li listens. He does not take sides.</p>\n<blockquote>Losing one or two listing candidates is not a big deal for Hong Kong; but losing a generation of companies from China's new economy is.</blockquote>\n<p>Li acknowledged the stakes clearly. He could not, as the sitting CEO of a public exchange, advocate for reversing a 24-year-old investor-protection rule on the strength of one IPO; the blog post illustrated the complexity of his position.</p>\n<p>By month's end, Alibaba had given up on Hong Kong. On September 19, 2014, they listed on the NYSE. Priced at $68, opened at $92.70, raised $25 billion, the largest IPO in history. The secondary trading volume, which HKEX could have monetized, has run in the billions of dollars per day for the decade since. All of it went to New York.[[cite:scmp-alibaba-loss-hk-2014]]</p>\n<p>Li spent the next four years rebuilding the political coalition for change, this time with the Alibaba precedent as evidence. The package finally landed in April 2018 as Chapter 8A, allowing weighted voting rights for innovative companies; [[reform:hk-18a|Chapter 18A]], allowing pre-revenue biotech listings; and Chapter 19C, allowing secondary listings for Greater China companies already public in the US or UK. Chapter 19C was specifically designed as the path for Alibaba to return to Hong Kong. In November 2019, five years and two months after the NYSE listing, Alibaba executed a secondary listing on HKEX, raising $11.2 billion.[[cite:charltons-chapter-18a]]</p>\n[[chart:hkex-18a-listings]]\n<p>In the same window as Bi Jingquan's CFDA reforms, [[reform:mah|MAH]] (2015) and [[reform:ich-join|ICH membership]] (June 2017), Chapter 18A gave Chinese biotechs a public-market venue. [[entity:beigene|BeiGene]]'s Hong Kong secondary listing in August 2018 was the proof of concept. By end-2021, 48 biotechs had listed via 18A, raising about US$14 billion;[[cite:law-asia-chapter-18a-end-2021]] by late 2025, more than 75 had raised over $30 billion. Regulatory reform in Beijing increased supply, and the listing reform in Hong Kong provided the venue for valuation.</p>",
+    "body": "<p>Charles Li Xiaojia (李小加) was born in Beijing in 1961. His teenage years coincided with the Cultural Revolution and he avoided being sent to the countryside by taking a work assignment on an offshore oil rig in the Bohai Sea. When the universities reopened, he studied English literature at Xiamen University, graduating in 1984, and took his first professional job as an editor-reporter at China Daily, the Party's English-language newspaper. A scholarship, won on the back of a piece about corruption in Chinese soccer, took him to the United States, where he applied for schools in alphabetical order and took an offer at the University of Alabama. Columbia Law School followed in 1991, then fifteen years on Wall Street as the primary point of contact for a wave of Chinese SOE listings abroad, including China Mobile, PetroChina, Sinopec, and the big-four banks.[[cite:charles-li-wikipedia]]</p>\n<p>In June 2009 he was named CEO of [[entity:hkex|Hong Kong Exchanges and Clearing]], the first mainland-born executive to lead the institution. He took office in January 2010 and stayed eleven years.</p>\n<p>The defining accomplishment was infrastructure. The Shanghai-Hong Kong Stock Connect in November 2014 created, for the first time, a regulated channel through which mainland Chinese investors could buy Hong Kong stocks and global investors could buy Shanghai-listed A-shares. Shenzhen-HK Connect followed in 2016, Bond Connect in 2017. The new capital channels turned Hong Kong into the world's number-one IPO venue in seven of his eleven years.</p>\n<p>In 2013, Alibaba was preparing the largest IPO in history and wanted to list in Hong Kong. The structure they proposed was unusual. Alibaba's shares would be one-share-one-vote on paper, but board nominations would be controlled exclusively by the Alibaba Partnership, a 28-person internal group dominated by Jack Ma and Joe Tsai that could renominate its own candidates indefinitely if shareholders voted them down.</p>\n<p>HKEX rules at the time prohibited it. Hong Kong had banned dual-class share structures in 1989 after two decades of family-controlled conglomerates abusing them at minority shareholders' expense, and the regulatory establishment, particularly the independent Securities and Futures Commission, held that one-share-one-vote was a foundational element of Hong Kong's investor-protection regime. Through 2013, HKEX and Alibaba tried to find a workaround.</p>\n<p>On October 24, 2013, Li published a piece on the HKEX corporate blog titled \"Taking the Debate Forward: Should Hong Kong Act on Non-Standard Shareholding Structures?\" He framed the entire piece as a dream in which nine archetypal characters, Mr. Tradition, Mr. Innovation, Mr. Disclosure, Mr. Big Fund, Ms. Small Retail, Ms. Pragmatic, Mr. Morality, Ms. Future, and Mr. Procedure, visit him in his sleep and argue with each other about whether Hong Kong should accommodate new-economy companies with non-traditional governance. Li does not take sides, but he does clearly acknowledge the stakes, famously writing that \"losing one or two listing candidates is not a big deal for Hong Kong; but losing a generation of companies from China's new economy is.\" He could not, as the sitting CEO of a public exchange, advocate for reversing a 24-year-old investor-protection rule on the strength of one IPO; the blog post illustrated the complexity of his position.</p>\n<p>By month's end, Alibaba had given up on Hong Kong. On September 19, 2014, they listed on the NYSE. Priced at $68, opened at $92.70, raised $25 billion, the largest IPO in history. The secondary trading volume, which HKEX could have monetized, has run in the billions of dollars per day for the decade since. All of it went to New York.[[cite:scmp-alibaba-loss-hk-2014]]</p>\n<p>Li spent the next four years rebuilding the political coalition for change, this time with the Alibaba precedent as evidence. The package finally landed in April 2018 as Chapter 8A, allowing weighted voting rights for innovative companies; [[reform:hk-18a|Chapter 18A]], allowing pre-revenue biotech listings; and Chapter 19C, allowing secondary listings for Greater China companies already public in the US or UK. Chapter 19C was specifically designed as the path for Alibaba to return to Hong Kong. In November 2019, five years and two months after the NYSE listing, Alibaba executed a secondary listing on HKEX, raising $11.2 billion.[[cite:charltons-chapter-18a]]</p>\n[[chart:hkex-18a-listings]]\n<p>In the same window as Bi Jingquan's CFDA reforms, [[reform:mah|MAH]] (2015) and [[reform:ich-join|ICH membership]] (June 2017), Chapter 18A gave Chinese biotechs a public-market venue. [[entity:beigene|BeiGene]]'s Hong Kong secondary listing in August 2018 was the proof of concept. By end-2021, 48 biotechs had listed via 18A, raising about US$14 billion;[[cite:law-asia-chapter-18a-end-2021]] by late 2025, more than 75 had raised over $30 billion. Regulatory reform in Beijing increased supply, and the listing reform in Hong Kong provided the venue for valuation.</p>",
     "metrics": {
       "pipelineSharePct": 7,
       "inLicensingSharePct": 3,
@@ -856,13 +814,6 @@
         "china": 25,
         "eu": 7,
         "row": 3
-      },
-      "nmesPerBnRd": 2.8,
-      "nmesPerBnRdByRegion": {
-        "us": 0.7,
-        "china": 2.8,
-        "eu": 0.35,
-        "row": 0
       }
     },
     "activeEntityIds": [
@@ -924,7 +875,7 @@
     "id": "gene-editing-crisis",
     "title": "Illegal CRISPR Babies",
     "date": "2015–2020",
-    "body": "<p>China's debut on the global pharma stage not without scandal. In April 2015, Junjiu Huang at Sun Yat-sen University published the first report of CRISPR-mediated gene editing[[note:CRISPR-Cas9 uses a guide RNA to direct a DNA-cutting enzyme to a precise genomic site. The resulting double-strand break is repaired imperfectly, either knocking out the gene or pasting in new DNA.]] in human zygotes (non-viable tripronuclear embryos), an attempt to correct a β-globin mutation that causes thalassemia. The paper had been rejected by Nature and Science on ethical grounds before appearing in Protein &amp; Cell,[[cite:liang-2015-crispr-tripronuclear]] and within weeks the International Summit on Human Gene Editing concluded that clinical use of germline editing would be “irresponsible.”[[cite:intl-summit-gene-editing-2015]] The following year, Chinese researchers conducted the first reported human trial using CRISPR-edited cells.</p>\n<p>On 25–26 November 2018, on the eve of the Second International Summit on Human Genome Editing in Hong Kong, the Shenzhen-based biophysicist [[reform:he-jiankui|He Jiankui]] announced the birth of twin girls whose CCR5 gene, the immune-cell receptor that HIV uses to enter T cells, had been edited at the single-cell stage to confer HIV resistance. Not only was the editing technically sloppy (the twins were genetic mosaics with off-target effects), the ethical-review documents were discovered to have been forged.[[cite:wikipedia-he-jiankui-affair]]</p>\n<p>The case closed in December 2019 with a three-year prison sentence for “illegal medical practice.”[[cite:statnews-he-jiankui-sentenced]] Beijing then pushed through a substantive legal overhaul: the [[reform:hgr-2019|2019 Regulations on Human Genetic Resources]], the 2020 Civil Code and [[reform:biosecurity-law|Biosafety Law]], and the 2020 eleventh amendment to the Criminal Law (which criminalized illegal human gene editing with up to seven years’ imprisonment).[[cite:covington-hgr-regulation]][[cite:covington-biosecurity-law]]</p><p>Since leaving prison, He Jiankui has been offered a position at a state-sponsored medical academy in Shenzhen. He remains occasionally active on X, where he tallies his funding (currently at $25,073 from 715 private donors) and invites his followers to nightclubs in Beijing. His current 10-year plan includes receiving the Nobel prize in 2029 and being canonized as a Roman Catholic saint in 2030.</p>",
+    "body": "<p>China's debut on the global pharma stage was not without scandal. In April 2015, Junjiu Huang at Sun Yat-sen University published the first report of CRISPR-mediated gene editing[[note:CRISPR-Cas9 uses a guide RNA to direct a DNA-cutting enzyme to a precise genomic site. The resulting double-strand break is repaired imperfectly, either knocking out the gene or pasting in new DNA.]] in human zygotes (non-viable tripronuclear embryos), an attempt to correct a β-globin mutation that causes thalassemia. The paper had been rejected by Nature and Science on ethical grounds before appearing in Protein &amp; Cell,[[cite:liang-2015-crispr-tripronuclear]] and within weeks the International Summit on Human Gene Editing concluded that clinical use of germline editing would be “irresponsible.”[[cite:intl-summit-gene-editing-2015]] The following year, Chinese researchers conducted the first reported human trial using CRISPR-edited cells.</p>\n<p>On 25–26 November 2018, on the eve of the Second International Summit on Human Genome Editing in Hong Kong, the Shenzhen-based biophysicist [[reform:he-jiankui|He Jiankui]] announced the birth of twin girls whose CCR5 gene, the immune-cell receptor that HIV uses to enter T cells, had been edited at the single-cell stage to confer HIV resistance. Not only was the editing technically sloppy (the twins were genetic mosaics with off-target effects), the ethical-review documents were discovered to have been forged.[[cite:wikipedia-he-jiankui-affair]]</p>\n<p>The case closed in December 2019 with a three-year prison sentence for “illegal medical practice.”[[cite:statnews-he-jiankui-sentenced]] Beijing then pushed through a substantive legal overhaul: the [[reform:hgr-2019|2019 Regulations on Human Genetic Resources]], the 2020 Civil Code and [[reform:biosecurity-law|Biosafety Law]], and the 2020 eleventh amendment to the Criminal Law (which criminalized illegal human gene editing with up to seven years’ imprisonment).[[cite:covington-hgr-regulation]][[cite:covington-biosecurity-law]]</p><p>Since leaving prison, He Jiankui has been offered a position at a state-sponsored medical academy in Shenzhen. He remains occasionally active on X, where he tallies his funding (currently at $25,073 from 715 private donors) and invites his followers to nightclubs in Beijing. His current 10-year plan includes receiving the Nobel prize in 2029 and being canonized as a Roman Catholic saint in 2030.</p>",
     "metrics": {
       "pipelineSharePct": 7,
       "inLicensingSharePct": 3,
@@ -955,13 +906,6 @@
         "china": 35,
         "eu": 7,
         "row": 3
-      },
-      "nmesPerBnRd": 3,
-      "nmesPerBnRdByRegion": {
-        "us": 0.7,
-        "china": 3,
-        "eu": 0.35,
-        "row": 0
       }
     },
     "activeEntityIds": [
@@ -1095,13 +1039,6 @@
         "china": 35,
         "eu": 7,
         "row": 3
-      },
-      "nmesPerBnRd": 3,
-      "nmesPerBnRdByRegion": {
-        "us": 0.7,
-        "china": 3,
-        "eu": 0.35,
-        "row": 0
       }
     },
     "activeEntityIds": [
@@ -1203,8 +1140,7 @@
       "radiopharm": {
         "rung": 0
       }
-    },
-    "hidden": true
+    }
   },
   {
     "id": "fast-follower-trap",
@@ -1248,13 +1184,6 @@
         "china": 25,
         "eu": 20,
         "row": 5
-      },
-      "nmesPerBnRd": 3.5,
-      "nmesPerBnRdByRegion": {
-        "us": 0.55,
-        "china": 3.5,
-        "eu": 0.35,
-        "row": 0
       }
     },
     "activeEntityIds": [
@@ -1371,8 +1300,7 @@
       "radiopharm": {
         "rung": 1
       }
-    },
-    "hidden": true
+    }
   },
   {
     "id": "global-supplier",
@@ -1458,13 +1386,6 @@
         "china": 50,
         "eu": 15,
         "row": 5
-      },
-      "nmesPerBnRd": 3.7,
-      "nmesPerBnRdByRegion": {
-        "us": 0.55,
-        "china": 3.7,
-        "eu": 0.35,
-        "row": 0
       }
     },
     "activeEntityIds": [
@@ -1581,8 +1502,7 @@
       "radiopharm": {
         "rung": 1
       }
-    },
-    "hidden": true
+    }
   },
   {
     "id": "biosecure-decoupling",
@@ -1619,13 +1539,6 @@
         "china": 50,
         "eu": 15,
         "row": 5
-      },
-      "nmesPerBnRd": 3.7,
-      "nmesPerBnRdByRegion": {
-        "us": 0.55,
-        "china": 3.7,
-        "eu": 0.35,
-        "row": 0
       }
     },
     "activeEntityIds": [
@@ -1735,8 +1648,7 @@
       "radiopharm": {
         "rung": 1
       }
-    },
-    "hidden": true
+    }
   },
   {
     "id": "ai-frontier",
@@ -1773,13 +1685,6 @@
         "china": 50,
         "eu": 15,
         "row": 5
-      },
-      "nmesPerBnRd": 3.7,
-      "nmesPerBnRdByRegion": {
-        "us": 0.55,
-        "china": 3.7,
-        "eu": 0.35,
-        "row": 0
       }
     },
     "activeEntityIds": [
@@ -1888,8 +1793,7 @@
       "radiopharm": {
         "rung": 1
       }
-    },
-    "hidden": true
+    }
   },
   {
     "id": "modern-landscape",
@@ -1898,7 +1802,7 @@
     "shift": "Western pharma's $200–230 billion patent cliff between 2025 and 2030 forces [[entity:merck-co|Merck]], [[entity:roche|Roche]], [[entity:pfizer|Pfizer]], and other major MNCs to acquire novel clinical-stage assets from China at unprecedented upfront values to fill the innovation gap.",
     "outcomes": [
       "Average upfront payment on Western-Chinese licensing deals rose 230% between 2022 and early 2026, from $52M to $172M. [[metric:outLicensingDealValueBn|out-licensing $]]",
-      "[[entity:aiolos|Aiolos Bio]], built around [[entity:hengrui|Hengrui]]'s anti-TSLP asthma antibody, was acquired by [[entity:gsk|GSK]] for up to $1.4B within 13 months of founding, establishing the NewCo template that re-routes Chinese assets through US incorporation to bypass [[reform:biosecure|BIOSECURE]].",
+      "[[entity:aiolos|Aiolos Bio]], built around [[entity:hengrui|Hengrui]]'s anti-TSLP asthma antibody, was acquired by [[entity:gsk|GSK]] for up to $1.4B roughly two months after its public launch, establishing the NewCo template that re-routes Chinese assets through US incorporation to bypass [[reform:biosecure|BIOSECURE]].",
       "Kailera Therapeutics raised $400M Series A (2024) around [[entity:hengrui|Hengrui]]'s GLP-1 obesity portfolio, replicating the NewCo structure.",
       "ADC drugs dominated H1 2025 Chinese license-outs, with 8 of 24 $1B+ deals featuring ADCs. [[metric:adc:4|adc rung 4]]"
     ],
@@ -1975,7 +1879,7 @@
         "source": "fiercebiotech-china-230pct-2026"
       }
     ],
-    "body": "[[chart:upfront-by-modality]]\n<p>[[entity:merck-co|Merck]]'s Keytruda alone generated $29.5 billion in 2024, more than half the company's revenue, with key patents expiring in 2028.[[note:Average new drug costs ~$2.23B to develop. Lifetime revenue runs ~5-8× peak annual sales, so a typical $510M-peak launch generates ~$2.5-4B over its patent life.]] The most active acquirers of Chinese assets by deal count are Bristol Myers Squibb, [[entity:roche|Roche]], and Merck; [[entity:pfizer|Pfizer]] and Gilead lead by dollar value. The Hang Seng Biotech Index ran roughly 60% in 2025 on the back of it (S&amp;P 500 ran ~25%, US Nasdaq Biotech was roughly flat).</p>\n<p>[[entity:beigene|BeOne]]'s relocation to Basel and [[entity:wuxi-apptec|WuXi]]'s American divestitures showed Chinese firms could maneuver around BIOSECURE exposure, but they were defensive moves. The NewCo structure is the latest innovation against retreating Western capital and [[reform:biosecure|BIOSECURE]]. Rather than investing in Chinese rounds directly, American VCs now fund new American biotechs that in-license assets from Chinese pharma. The Chinese parent keeps home-market rights and takes an upfront payment, milestones, and sometimes minority equity. The new biotech, US-incorporated and US-managed, runs Western development and is built for acquisition by Big Pharma; from a regulatory standpoint, the asset becomes an American product. [[entity:aiolos|Aiolos Bio]] was the first, founded in late 2023 by Atlas Venture and Forbion around an anti-TSLP asthma antibody licensed from [[entity:hengrui|Hengrui]]. Thirteen months later, [[entity:gsk|GSK]] paid up to $1.4 billion to acquire it.[[cite:gsk-aiolos-press-2024]] Kailera Therapeutics followed in 2024 around Hengrui's GLP-1 obesity portfolio with a $400 million Series A from American venture firms.</p>\n<p>The modalities where China leads largely reward iteration cycles over first-principles discovery, validated targets over novel mechanism, fast clinical readout over deep substrate science. [[entity:recursion|Recursion]]'s high-content-screening[[note:HCS combines automated microscopy with computational image analysis at industrial scale, generating phenotypic profiles for millions of perturbed cells across many cell types. It is the core data substrate for phenomics-trained foundation models.]] platform has no Chinese counterpart. The first-in-class therapeutic mechanisms driving recent Western pharma growth (GLP-1 receptor agonists, CFTR modulators, CRISPR gene-editing therapies) all originated in Western academic-and-industry partnerships, not Chinese ones.</p>",
+    "body": "[[chart:upfront-by-modality]]\n<p>[[entity:merck-co|Merck]]'s Keytruda alone generated $29.5 billion in 2024, more than half the company's revenue, with key patents expiring in 2028.[[note:Average new drug costs ~$2.23B to develop. Lifetime revenue runs ~5-8× peak annual sales, so a typical $510M-peak launch generates ~$2.5-4B over its patent life.]] The most active acquirers of Chinese assets by deal count are Bristol Myers Squibb, [[entity:roche|Roche]], and Merck; [[entity:pfizer|Pfizer]] and Gilead lead by dollar value. The Hang Seng Biotech Index ran roughly 60% in 2025 on the back of it (S&amp;P 500 ran ~25%, US Nasdaq Biotech was roughly flat).</p>\n<p>[[entity:beigene|BeOne]]'s relocation to Basel and [[entity:wuxi-apptec|WuXi]]'s American divestitures showed Chinese firms could maneuver around BIOSECURE exposure, but they were defensive moves. The NewCo structure is the latest innovation against retreating Western capital and [[reform:biosecure|BIOSECURE]]. Rather than investing in Chinese rounds directly, American VCs now fund new American biotechs that in-license assets from Chinese pharma. The Chinese parent keeps home-market rights and takes an upfront payment, milestones, and sometimes minority equity. The new biotech, US-incorporated and US-managed, runs Western development and is built for acquisition by Big Pharma; from a regulatory standpoint, the asset becomes an American product. [[entity:aiolos|Aiolos Bio]] was the first, launched in October 2023 with a $245M Series A co-led by Atlas Venture and Forbion around an anti-TSLP asthma antibody licensed from [[entity:hengrui|Hengrui]]. Two months later, [[entity:gsk|GSK]] paid up to $1.4 billion to acquire it.[[cite:gsk-aiolos-press-2024]] Kailera Therapeutics followed in 2024 around Hengrui's GLP-1 obesity portfolio with a $400 million Series A from American venture firms.</p>\n<p>The modalities where China leads largely reward iteration cycles over first-principles discovery, validated targets over novel mechanism, fast clinical readout over deep substrate science. [[entity:recursion|Recursion]]'s high-content-screening[[note:HCS combines automated microscopy with computational image analysis at industrial scale, generating phenotypic profiles for millions of perturbed cells across many cell types. It is the core data substrate for phenomics-trained foundation models.]] platform has no Chinese counterpart. The first-in-class therapeutic mechanisms driving recent Western pharma growth (GLP-1 receptor agonists, CFTR modulators, CRISPR gene-editing therapies) all originated in Western academic-and-industry partnerships, not Chinese ones.</p>",
     "metrics": {
       "pipelineSharePct": 14,
       "inLicensingSharePct": 32,
@@ -2006,13 +1910,6 @@
         "china": 50,
         "eu": 15,
         "row": 5
-      },
-      "nmesPerBnRd": 3.7,
-      "nmesPerBnRdByRegion": {
-        "us": 0.55,
-        "china": 3.7,
-        "eu": 0.35,
-        "row": 0
       }
     },
     "activeEntityIds": [
@@ -2089,7 +1986,6 @@
       "radiopharm": {
         "rung": 1
       }
-    },
-    "hidden": true
+    }
   }
 ]

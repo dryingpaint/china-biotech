@@ -5702,5 +5702,189 @@
     "publisher": "Wikipedia",
     "year": 2025,
     "url": "https://en.wikipedia.org/wiki/Thousand_Talents_Plan"
+  },
+  {
+    "id": "scannell-eroom-2012",
+    "authors": "Scannell, J. W., Blanckley, A., Boldon, H., & Warrington, B.",
+    "title": "Diagnosing the decline in pharmaceutical R&D efficiency",
+    "publisher": "Nature Reviews Drug Discovery",
+    "year": 2012,
+    "url": "https://www.nature.com/articles/nrd3681"
+  },
+  {
+    "id": "deloitte-pharma-innovation-2024",
+    "authors": "Deloitte Centre for Health Solutions",
+    "title": "Measuring the return from pharmaceutical innovation 2024 (15th Annual Report)",
+    "publisher": "Deloitte",
+    "year": 2024,
+    "url": "https://www.deloitte.com/us/en/Industries/life-sciences-health-care/articles/measuring-return-from-pharmaceutical-innovation.html"
+  },
+  {
+    "id": "phrma-rd-spending-2023",
+    "authors": "PhRMA / Statista",
+    "title": "U.S. pharmaceutical R&D expenditure 1995-2023",
+    "publisher": "Statista (citing PhRMA member survey)",
+    "year": 2024,
+    "url": "https://www.statista.com/statistics/265085/research-and-development-expenditure-us-pharmaceutical-industry/"
+  },
+  {
+    "id": "labiotech-china-biotech",
+    "authors": "Labiotech",
+    "title": "Is China the future of biotech?",
+    "publisher": "Labiotech.eu",
+    "year": 2025,
+    "url": "https://www.labiotech.eu/in-depth/china-biotech-industry/"
+  },
+  {
+    "id": "fda-novel-drugs-2024",
+    "authors": "U.S. Food and Drug Administration, CDER",
+    "title": "Novel Drug Approvals for 2024",
+    "publisher": "FDA",
+    "year": 2025,
+    "url": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2024"
+  },
+  {
+    "id": "nmpa-fic-2024",
+    "authors": "National Medical Products Administration",
+    "title": "Measures facilitate approval of 48 first-in-class innovative drugs",
+    "publisher": "NMPA (English release)",
+    "year": 2025,
+    "url": "https://english.nmpa.gov.cn/2025-03/21/c_1080286.htm"
+  },
+  {
+    "id": "cde-2024-review",
+    "authors": "Center for Drug Evaluation, NMPA (cited via Cisema)",
+    "title": "CDE 2024 Drug Review Report: Growth in Drug Registration and Regulatory Developments in China",
+    "publisher": "Cisema",
+    "year": 2025,
+    "url": "https://cisema.com/en/drug-registration-cde-2024/"
+  },
+  {
+    "id": "ddw-china-biopharma-2025",
+    "authors": "Drug Discovery World",
+    "title": "Is China the next global biopharma powerhouse?",
+    "publisher": "Drug Discovery World",
+    "year": 2025,
+    "url": "https://www.ddw-online.com/is-china-the-next-global-biopharma-powerhouse-38210-202510/"
+  },
+  {
+    "id": "gsk-aiolos-acquisition-2024",
+    "authors": "GSK plc / Endpoints News",
+    "title": "GSK to acquire Aiolos Bio for up to $1.4B, securing rights to Hengrui-developed asthma asset",
+    "publisher": "GSK / Endpoints News",
+    "year": 2024,
+    "url": "https://www.gsk.com/en-gb/media/press-releases/gsk-to-acquire-aiolos-bio-strengthening-respiratory-pipeline/"
+  },
+  {
+    "id": "kailera-launch-2024",
+    "authors": "Kailera Therapeutics / Fierce Biotech",
+    "title": "Kailera Therapeutics launches with $400M Series A and ex-China rights to Hengrui's GLP-1RA HRS9531",
+    "publisher": "Kailera Therapeutics / Fierce Biotech",
+    "year": 2024,
+    "url": "https://www.fiercebiotech.com/biotech/kailera-therapeutics-launches-400m-take-hengruis-glp-1-obesity-pipeline-global"
+  },
+  {
+    "id": "verdiva-launch-2024",
+    "authors": "Verdiva Bio / Endpoints News",
+    "title": "Verdiva Bio emerges with $411M to develop Sciwind-licensed metabolic pipeline",
+    "publisher": "Verdiva Bio / Endpoints News",
+    "year": 2025,
+    "url": "https://endpts.com/verdiva-bio-launches-with-411m-to-develop-once-weekly-glp-1-pill-from-sciwind/"
+  },
+  {
+    "id": "candid-wuxi-2025",
+    "authors": "Candid Therapeutics / WuXi Biologics",
+    "title": "Candid Therapeutics in-licenses trispecific T-cell engager from WuXi Biologics in deal worth up to $925M",
+    "publisher": "Fierce Biotech",
+    "year": 2025,
+    "url": "https://www.fiercebiotech.com/biotech/candid-therapeutics-pays-925m-trispecific-wuxi-biologics"
+  },
+  {
+    "id": "labiotech-patent-cliff-2025",
+    "authors": "Labiotech",
+    "title": "The next pharma patent cliff: how 2026-2032 will reshape revenue",
+    "publisher": "Labiotech.eu",
+    "year": 2025,
+    "url": "https://www.labiotech.eu/in-depth/pharma-patent-cliff/"
+  },
+  {
+    "id": "bcg-biopharma-trends-2026",
+    "authors": "Boston Consulting Group",
+    "title": "Reimagining Business Models: Biopharma Trends 2026",
+    "publisher": "BCG",
+    "year": 2026,
+    "url": "https://www.bcg.com/publications/2026/biopharma-business-model-trends"
+  },
+  {
+    "id": "jefferies-china-outlicensing-tracker-2025",
+    "authors": "Jefferies Equity Research (cited via Fierce Biotech)",
+    "title": "China biotechs reshaping U.S. biopharma — outlicensing deals rise (Jefferies tracker)",
+    "publisher": "Fierce Biotech",
+    "year": 2025,
+    "url": "https://www.fiercebiotech.com/biotech/china-biotechs-reshaping-us-biopharma-outlicensing-deals-rise-11-jefferies-report"
+  },
+  {
+    "id": "asimov-press-antimalarial",
+    "authors": "Yan, W.",
+    "title": "Discovering an Antimalarial Drug in Mao's China",
+    "publisher": "Asimov Press",
+    "year": 2024,
+    "url": "https://press.asimov.com/articles/antimalarial-drug"
+  },
+  {
+    "id": "aiolos-launch-businesswire-2023",
+    "authors": "Aiolos Bio",
+    "title": "Aiolos Bio Launches with $245 Million Series A Investment to Advance Development of Novel, Phase 2-Ready TSLP Antibody",
+    "publisher": "BusinessWire",
+    "year": 2023,
+    "url": "https://www.businesswire.com/news/home/20231024577944/en/Aiolos-Bio-Launches-with-%24245-Million-Series-A-Investment-to-Advance-Development-of-Novel-Phase-2-Ready-TSLP-Antibody"
+  },
+  {
+    "id": "aiolos-launch-biopharma-dive-2023",
+    "authors": "Pagliarulo, N.",
+    "title": "Aiolos Bio raises $245M on prospect of better asthma drug",
+    "publisher": "BioPharma Dive",
+    "year": 2023,
+    "url": "https://www.biopharmadive.com/news/aiolos-bio-asthma-series-a-launch/697620/"
+  },
+  {
+    "id": "aiolos-launch-fiercebiotech-2023",
+    "authors": "Becker, Z.",
+    "title": "Aiolos Bio launches with ex-Gyroscope CEO at the helm, nearly $250M to advance severe asthma med",
+    "publisher": "Fierce Biotech",
+    "year": 2023,
+    "url": "https://www.fiercebiotech.com/biotech/aiolos-bio-launches-ex-gyroscope-ceo-helm-nearly-250m-advance-severe-asthma-med"
+  },
+  {
+    "id": "gsk-aiolos-complete-feb2024",
+    "authors": "GSK plc",
+    "title": "GSK completes acquisition of Aiolos Bio",
+    "publisher": "GSK",
+    "year": 2024,
+    "url": "https://www.gsk.com/en-gb/media/press-releases/gsk-completes-acquisition-of-aiolos-bio/"
+  },
+  {
+    "id": "recursion-pipeline",
+    "authors": "Recursion Pharmaceuticals",
+    "title": "Recursion's Drug Discovery Pipeline",
+    "publisher": "Recursion Pharmaceuticals",
+    "year": 2025,
+    "url": "https://www.recursion.com/pipeline"
+  },
+  {
+    "id": "recursion-rec4881-tupelo-2025",
+    "authors": "Recursion Pharmaceuticals",
+    "title": "Positive Phase 1b/2 Results from Ongoing REC-4881 TUPELO Trial Demonstrate Rapid and Durable Reductions in Polyp Burden in FAP at 25 Weeks",
+    "publisher": "Recursion Pharmaceuticals (IR)",
+    "year": 2025,
+    "url": "https://ir.recursion.com/news-releases/news-release-details/positive-phase-1b2-results-ongoing-rec-4881-tupelo-trial-0"
+  },
+  {
+    "id": "recursion-pipeline-cut-2025",
+    "authors": "Genetic Engineering & Biotechnology News",
+    "title": "Recursion Halts Four Pipeline Programs, Sharpening Cancer, Rare Disease Focus",
+    "publisher": "GEN",
+    "year": 2025,
+    "url": "https://www.genengnews.com/topics/artificial-intelligence/recursion-halts-four-pipeline-programs-sharpening-cancer-rare-disease-focus/"
   }
 ]

@@ -56,10 +56,19 @@ export default function CompanyGrid() {
   const currentChapter = useNarrative(
     (s) => s.visibleChapters[s.currentIndex],
   );
+  const visibleChapters = useNarrative((s) => s.visibleChapters);
+  const currentIndex = useNarrative((s) => s.currentIndex);
   const highlightedEntity = useNarrative((s) => s.highlightedEntity);
   const proseHighlightedId =
     highlightedEntity?.type === "entity" ? highlightedEntity.id : null;
   const activeSet = new Set(activeIds);
+  const cumulativeSet = useMemo(() => {
+    const s = new Set<string>();
+    for (let i = 0; i <= currentIndex; i++) {
+      for (const id of visibleChapters[i]?.activeEntityIds ?? []) s.add(id);
+    }
+    return s;
+  }, [currentIndex, visibleChapters]);
   const [hovered, setHovered] = useState<Hovered | null>(null);
   const tileRefs = useRef<Map<string, HTMLDivElement>>(new Map());
   const hideTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -128,6 +137,8 @@ export default function CompanyGrid() {
               <div className="flex flex-wrap gap-[3px]">
                 {list.map((e) => {
                   const isActive = activeSet.has(e.id);
+                  const isPast = !isActive && cumulativeSet.has(e.id);
+                  const introduced = isActive || isPast;
                   const isHighlighted = hovered?.entity.id === e.id;
                   const color = CATEGORY_COLOR[e.category];
                   return (
@@ -158,10 +169,9 @@ export default function CompanyGrid() {
                       }}
                       className="h-2.5 w-2.5 cursor-pointer rounded-[2px] transition-shadow"
                       style={{
-                        backgroundColor: isActive ? color : "transparent",
-                        border: `1px solid ${
-                          isActive ? color : "var(--color-rule)"
-                        }`,
+                        backgroundColor: introduced ? color : "transparent",
+                        border: `1px solid ${introduced ? color : "var(--color-rule)"}`,
+                        opacity: isPast ? 0.35 : 1,
                         boxShadow: isHighlighted
                           ? `0 0 6px 2px ${color}`
                           : undefined,

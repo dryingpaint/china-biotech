@@ -47,20 +47,6 @@ const OUT_LICENSING_INFO = (
   </div>
 );
 
-const CLASS1_NME_INFO = (
-  <div className="space-y-1.5">
-    <div className="text-[9px] font-semibold uppercase tracking-[0.16em] text-[--color-muted]">
-      Class 1 NME
-    </div>
-    <p className="text-[--color-fg]">
-      China&apos;s NMPA reserves the Class 1 designation for innovative new drugs with active ingredients never before approved anywhere in the world. Excludes generics, biosimilars, reformulations, and supplemental indications.
-    </p>
-    <p className="text-[--color-muted]">
-      Methodologically comparable to FDA new molecular entity (NME) approvals, which is what the US line uses. EU line uses EMA centrally-approved new active substances.
-    </p>
-  </div>
-);
-
 const ROWS: Row[] = [
   {
     key: "pipeline",
@@ -98,18 +84,6 @@ const ROWS: Row[] = [
     getRegionShare: (m) => m.primaryMarketRegionShare,
     shareCaption: "% of global biopharma raises",
   },
-  // {
-  //   key: "efficiency",
-  //   label: "Class 1 NMEs per $B R&D/yr",
-  //   color: "var(--color-accent)",
-  //   source: "CDE / FDA / NBS / PhRMA",
-  //   citeId: "wellington-china-biotech-2026",
-  //   getValue: (m) => m.nmesPerBnRd ?? 0,
-  //   unit: "",
-  //   formatValue: (v) => v.toFixed(1),
-  //   info: CLASS1_NME_INFO,
-  //   getTrajectoryValues: (m) => m.nmesPerBnRdByRegion,
-  // },
 ];
 
 type InfoTip = { rect: DOMRect; node: ReactNode };
